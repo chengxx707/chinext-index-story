@@ -1,0 +1,28 @@
+{
+  "source_movie": "docs/production/reviews/2015_representative_v1.mp4",
+  "canvas_logical": [
+    720,
+    1280
+  ],
+  "canvas_actual": [
+    1080,
+    1920
+  ],
+  "coordinate_scale": 1.5,
+  "seam_delta_units": "actual output pixels at 1080px width; logical coordinate delta multiplied by 1.5",
+  "frames": 2910,
+  "adjacent_pairs": 2909,
+  "date_change_pairs": 106,
+  "same_date_pairs": 2803,
+  "geometry_change_pairs": 168,
+  "same_geometry_pairs": 2741,
+  "same_geometry_pct": 94.225,
+  "geometry_signature": [
+    "current_index",
+    "window_start",
+    "window_end",
+    "y_min rounded 1e-6",
+    "y_max rounded 1e-6"
+  ],
+  "scope_note": "Chart geometry only; excludes text opacity, gold glow/reflection and other decorative animation. Uses V1 derived SceneModel configuration."
+}

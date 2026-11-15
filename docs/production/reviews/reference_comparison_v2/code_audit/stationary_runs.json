@@ -1,0 +1,254 @@
+[
+  {
+    "node": "S07",
+    "longest_unchanged_chart_seconds": 2.267,
+    "stationary_chart_runs_over_0_5s": [
+      {
+        "from_seconds": 0.0,
+        "to_seconds": 2.267,
+        "seconds": 2.267,
+        "date": "2015-04-13"
+      },
+      {
+        "from_seconds": 4.233,
+        "to_seconds": 4.967,
+        "seconds": 0.733,
+        "date": "2015-04-23"
+      },
+      {
+        "from_seconds": 5.3,
+        "to_seconds": 7.233,
+        "seconds": 1.933,
+        "date": "2015-04-24"
+      },
+      {
+        "from_seconds": 11.267,
+        "to_seconds": 11.967,
+        "seconds": 0.7,
+        "date": "2015-05-28"
+      }
+    ]
+  },
+  {
+    "node": "S08",
+    "longest_unchanged_chart_seconds": 2.867,
+    "stationary_chart_runs_over_0_5s": [
+      {
+        "from_seconds": 0.0,
+        "to_seconds": 2.867,
+        "seconds": 2.867,
+        "date": "2015-05-29"
+      },
+      {
+        "from_seconds": 2.867,
+        "to_seconds": 3.633,
+        "seconds": 0.767,
+        "date": "2015-06-01"
+      },
+      {
+        "from_seconds": 3.633,
+        "to_seconds": 4.967,
+        "seconds": 1.333,
+        "date": "2015-06-02"
+      }
+    ]
+  },
+  {
+    "node": "S09",
+    "longest_unchanged_chart_seconds": 4.233,
+    "stationary_chart_runs_over_0_5s": [
+      {
+        "from_seconds": 0.0,
+        "to_seconds": 4.233,
+        "seconds": 4.233,
+        "date": "2015-06-03"
+      },
+      {
+        "from_seconds": 4.233,
+        "to_seconds": 4.8,
+        "seconds": 0.567,
+        "date": "2015-06-04"
+      },
+      {
+        "from_seconds": 6.2,
+        "to_seconds": 6.767,
+        "seconds": 0.567,
+        "date": "2015-06-10"
+      },
+      {
+        "from_seconds": 6.767,
+        "to_seconds": 7.967,
+        "seconds": 1.2,
+        "date": "2015-06-11"
+      }
+    ]
+  },
+  {
+    "node": "S10",
+    "longest_unchanged_chart_seconds": 2.233,
+    "stationary_chart_runs_over_0_5s": [
+      {
+        "from_seconds": 0.0,
+        "to_seconds": 2.233,
+        "seconds": 2.233,
+        "date": "2015-06-12"
+      },
+      {
+        "from_seconds": 3.267,
+        "to_seconds": 3.967,
+        "seconds": 0.7,
+        "date": "2015-06-18"
+      },
+      {
+        "from_seconds": 4.3,
+        "to_seconds": 6.333,
+        "seconds": 2.033,
+        "date": "2015-06-19"
+      },
+      {
+        "from_seconds": 7.167,
+        "to_seconds": 7.967,
+        "seconds": 0.8,
+        "date": "2015-06-25"
+      }
+    ]
+  },
+  {
+    "node": "S11",
+    "longest_unchanged_chart_seconds": 6.1,
+    "stationary_chart_runs_over_0_5s": [
+      {
+        "from_seconds": 0.0,
+        "to_seconds": 6.1,
+        "seconds": 6.1,
+        "date": "2015-06-26"
+      },
+      {
+        "from_seconds": 6.4,
+        "to_seconds": 10.033,
+        "seconds": 3.633,
+        "date": "2015-07-08"
+      },
+      {
+        "from_seconds": 10.3,
+        "to_seconds": 12.733,
+        "seconds": 2.433,
+        "date": "2015-07-08"
+      },
+      {
+        "from_seconds": 12.733,
+        "to_seconds": 13.967,
+        "seconds": 1.233,
+        "date": "2015-07-09"
+      },
+      {
+        "from_seconds": 14.3,
+        "to_seconds": 20.0,
+        "seconds": 5.7,
+        "date": "2015-07-10"
+      }
+    ]
+  },
+  {
+    "node": "S12",
+    "longest_unchanged_chart_seconds": 2.067,
+    "stationary_chart_runs_over_0_5s": [
+      {
+        "from_seconds": 0.4,
+        "to_seconds": 2.467,
+        "seconds": 2.067,
+        "date": "2015-07-23"
+      },
+      {
+        "from_seconds": 5.433,
+        "to_seconds": 5.967,
+        "seconds": 0.533,
+        "date": "2015-08-21"
+      }
+    ]
+  },
+  {
+    "node": "S13",
+    "longest_unchanged_chart_seconds": 9.733,
+    "stationary_chart_runs_over_0_5s": [
+      {
+        "from_seconds": 0.0,
+        "to_seconds": 4.967,
+        "seconds": 4.967,
+        "date": "2015-08-24"
+      },
+      {
+        "from_seconds": 5.3,
+        "to_seconds": 15.033,
+        "seconds": 9.733,
+        "date": "2015-08-25"
+      },
+      {
+        "from_seconds": 15.4,
+        "to_seconds": 17.533,
+        "seconds": 2.133,
+        "date": "2015-08-26"
+      },
+      {
+        "from_seconds": 18.367,
+        "to_seconds": 18.967,
+        "seconds": 0.6,
+        "date": "2015-09-01"
+      }
+    ]
+  },
+  {
+    "node": "S14",
+    "longest_unchanged_chart_seconds": 5.967,
+    "stationary_chart_runs_over_0_5s": [
+      {
+        "from_seconds": 0.0,
+        "to_seconds": 5.967,
+        "seconds": 5.967,
+        "date": "2015-09-02"
+      },
+      {
+        "from_seconds": 5.967,
+        "to_seconds": 8.7,
+        "seconds": 2.733,
+        "date": "2015-09-07"
+      },
+      {
+        "from_seconds": 8.7,
+        "to_seconds": 9.267,
+        "seconds": 0.567,
+        "date": "2015-09-08"
+      },
+      {
+        "from_seconds": 9.733,
+        "to_seconds": 10.233,
+        "seconds": 0.5,
+        "date": "2015-09-10"
+      },
+      {
+        "from_seconds": 10.233,
+        "to_seconds": 10.8,
+        "seconds": 0.567,
+        "date": "2015-09-11"
+      },
+      {
+        "from_seconds": 10.8,
+        "to_seconds": 11.967,
+        "seconds": 1.167,
+        "date": "2015-09-14"
+      }
+    ]
+  },
+  {
+    "node": "S15",
+    "longest_unchanged_chart_seconds": 7.0,
+    "stationary_chart_runs_over_0_5s": [
+      {
+        "from_seconds": 0.0,
+        "to_seconds": 7.0,
+        "seconds": 7.0,
+        "date": "2015-09-15"
+      }
+    ]
+  }
+]

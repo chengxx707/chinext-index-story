@@ -1,0 +1,74 @@
+{
+  "scope": {
+    "reviewed_candidate": "Git d1247dc / 97-second representative V1",
+    "reference_duration_seconds": 235.033333,
+    "reference_dimensions": [
+      220,
+      480
+    ],
+    "candidate_dimensions": [
+      1080,
+      1920
+    ],
+    "method": "ffprobe + decoded stills + adjacent seam frames + read-only state geometry audit",
+    "real_time_continuous_playback_performed": false,
+    "qualification": "Reference is a phone screen recording with app UI; do not compare its raw canvas proportions as a new art direction."
+  },
+  "actual_reference_evidence": [
+    {
+      "times": "39.5–43s",
+      "image": "reference_peak_sequence.jpg",
+      "finding": "Text/annual performance remains floating in sparse areas while market advances. 1999 +101.95% is an annual index label; +697.50% is explicitly an IPO first-day security fact and is not an index low/high return."
+    },
+    {
+      "times": "97–104s",
+      "image": "reference_range_sequence.jpg",
+      "finding": "Historical peak baseline, trough context, and vertical range bracket give current point a spatial relation to prior extremes. 99–100s bracket/number evolves with the endpoint (+62.31% to +78.38% visible)."
+    },
+    {
+      "times": "41.5–42s",
+      "image": "reference_peak_sequence.jpg",
+      "finding": "Reference itself uses a motivated wide-to-close cut with a narrative emphasis. Continuous work should preserve deliberate shot changes rather than prohibit every cut."
+    }
+  ],
+  "candidate_blockers": [
+    {
+      "id": "camera_seams",
+      "evidence": "code_audit/seam_metrics.json + current_seam17_sequence.jpg + current_seam25_sequence.jpg",
+      "detail": "Date/close remain equal across the join, but camera windows and y ranges reset. Current-point movement is about +87px at12s,+104px at17s,−112px at25s,−70px at59s,−124px at90s, measured in actual1080 output pixels.",
+      "recommendation": "Share camera state/clock across nodes; animate window center/span and y bounds continuously, with explicit motivated scale changes only."
+    },
+    {
+      "id": "integer_motion",
+      "evidence": "code_audit/measurement_scope.json + code_audit/stationary_runs.json",
+      "detail": "2910frames contain2909adjacent pairs,106date-change pairs and168K-geometry-change pairs;94.225% geometrically equal. This excludes all text/light effects and does not mean whole-frame freezes.",
+      "recommendation": "Float visual camera coordinates while retaining exact CSV dates/OHLC/HUD. During mandatory policy-date holds, use gentle truthful camera movement instead of a completely static chart."
+    },
+    {
+      "id": "occluding_cards",
+      "evidence": "current_occlusion_sequence.jpg + src/chinext_v6/content_components.py:_event/_wide_card",
+      "detail": "Event panel is87%opaque and59%of chart width. Quote/document panel is93%opaque and roughly44%of chart area for a short quote.",
+      "recommendation": "Remove broad black card fills. Prefer floating text in safe negative-space slots, thin date accents, and glyph-local contrast. Check text rectangles against important candle/point geometry, not just against other text."
+    },
+    {
+      "id": "repeated_text_reset",
+      "evidence": "src/chinext_v6/film_renderer.py:frame_context + content_components:content_layer",
+      "detail": "Every beat fades its complete content layer to near-zero and restarts; this also fades phase context. Node-local t resets light phase.",
+      "recommendation": "Keep phase context and visual time persistent. Fade/slide only changing content lines, use short overlaps where both are legible, and avoid a repeated blank-information gap."
+    },
+    {
+      "id": "missing_low_high_link",
+      "evidence": "current17–25s + film_renderer:FilmScene.frame",
+      "detail": "2015high has a remembered horizontal line and local gold spot;2012low has no visible remembered endpoint or range animation. +570.80% is only a text conclusion.",
+      "recommendation": "At2015high, ease out to a truthful view containing2012low and2015high, light both dated endpoints, trace/measure their price range and settle +570.80%; then return to a close view. AtSep2015low, link back toJun2015high and settle−54.86%. Keep it a price comparison, not an event-causality arrow."
+    }
+  ],
+  "implementation_priority": [
+    "shared continuous camera/float visual viewport",
+    "remove chart-covering backgrounds",
+    "persistent phase context and global light clock",
+    "two-endpoint comparison choreography",
+    "actual encoded seam/frame review and concentrated user playback"
+  ],
+  "retained_direction": "Keep accepted black cinematic art, real OHLC, earth/orbit, silent output, and one active rail. Do not import reference constituent-logo wall or individual-security return stories."
+}

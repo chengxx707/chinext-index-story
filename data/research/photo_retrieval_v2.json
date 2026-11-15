@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-15",
+  "timezone": "Asia/Shanghai",
+  "status": "blocked_by_runtime_network_policy_no_photos_acquired",
+  "request": "真实历史照片时代相册；不再以文字/文献页代替照片",
+  "archive_census": {
+    "uploaded_zip": "素材存档.zip",
+    "file_count": 19,
+    "html_count": 18,
+    "pdf_count": 1,
+    "standalone_photo_count": 0,
+    "embedded_photo_count": 0,
+    "evidence": "已复核ZIP目录和所有HTML img引用；深交所2020通稿仅有banner/导航；2024央广正文外链为Wind行情截图，非现场照片"
+  },
+  "network_evidence": {
+    "probe_url": "https://money.people.com.cn/n1/2018/0612/c42877-30051635.html",
+    "result": "URLError: Tunnel connection failed: 403 Forbidden",
+    "runtime_spec_revision": "1",
+    "network_mode": "restricted",
+    "custom_allowed_hosts": [],
+    "diagnosis": "云环境出站代理限制；未取得原页，不等于新闻页无图或照片不存在。未绕过访问限制。",
+    "retained_credentials_or_secrets": false
+  },
+  "ready_photo_count": 0,
+  "photo_policy": [
+    "必须取得真实图片文件并view_image核看，才能标ready",
+    "来源页、图片直链、原图注、拍摄与刊发时间、摄影/机构、是否资料图分别记录",
+    "媒体原题/文献/指数回忆页不是照片替代；未取得照片的正式相册不得悄悄回退文字版",
+    "不得生成AI历史照片、把公司现在照片冒充当年、把站点Logo/banner当现场图"
+  ],
+  "candidates": [
+    {
+      "id": "PHOTO_M01_ALT",
+      "priority": "P1",
+      "subject": "创业板市场开板首批28家公司挂牌仪式",
+      "event_date": "2009-10-30",
+      "publication_date": null,
+      "company_caption": null,
+      "source_pages": [],
+      "source_institutions": [
+        "深圳证券交易所",
+        "新华社"
+      ],
+      "search_terms": [
+        "2009年10月30日 创业板 首批28家 上市仪式 新华社 照片"
+      ],
+      "source_basis": "资料包M01备用方向；2010指数公告没有现场照片，不能伪造指数敲钟",
+      "required_caption_scope": "2009市场开板，不能标2010指数发布",
+      "image_url": null,
+      "local_asset_path": null,
+      "original_caption": null,
+      "photographer": null,
+      "is_archive_photo": null,
+      "status": "source_page_and_photo_missing",
+      "download_attempted": false,
+      "ready": false
+    },
+    {
+      "id": "PHOTO_M02",
+      "priority": "P0",
+      "subject": "2015开户潮证券营业部资料照",
+      "event_date": "2015-04",
+      "publication_date": "2015-04-28",
+      "company_caption": null,
+      "source_pages": [
+        "https://thepaper.cn/newsDetail_forward_1325946",
+        "https://finance.people.com.cn/stock/n/2015/0422/c67815-26884427.html",
+        "https://m.chinanews.com/wap/detail/cht/zw/7241240.shtml"
+      ],
+      "source_institutions": [
+        "澎湃新闻",
+        "人民网",
+        "中国新闻网"
+      ],
+      "supplied_caption_clue": "高剑平 澎湃资料",
+      "required_caption_scope": "资料图；拍摄日期尚未核。413.03万户为4月20—24日统计周，不能与4月22日300万标题混周",
+      "image_url": null,
+      "local_asset_path": null,
+      "original_caption": null,
+      "photographer": "高剑平（仅回交稿转录线索，原页待核）",
+      "is_archive_photo": true,
+      "status": "not_attempted_due_confirmed_policy_block_photo_not_acquired",
+      "download_attempted": false,
+      "ready": false
+    },
+    {
+      "id": "PHOTO_M03",
+      "priority": "P0",
+      "subject": "宁德时代2018上市现场",
+      "event_date": "2018-06-11",
+      "publication_date": "2018-06-12",
+      "company_caption": "宁德时代｜2018.06.11上市",
+      "source_pages": [
+        "https://money.people.com.cn/n1/2018/0612/c42877-30051635.html",
+        "https://money.people.com.cn/n1/2018/0612/c42877-30051837.html"
+      ],
+      "source_institutions": [
+        "人民网"
+      ],
+      "supplied_headlines": [
+        "创业板开启“独角兽”时代",
+        "宁德时代昨登陆深交所 市值逼近800亿元"
+      ],
+      "required_caption_scope": "上市事件06.11、报道06.12分开；不能由文字描述断言网页含现场照片",
+      "image_url": null,
+      "local_asset_path": null,
+      "original_caption": null,
+      "photographer": null,
+      "is_archive_photo": null,
+      "status": "source_page_probe_blocked_photo_not_acquired",
+      "download_attempted": true,
+      "ready": false
+    },
+    {
+      "id": "PHOTO_M04",
+      "priority": "P0",
+      "subject": "2020注册制首批企业上市仪式",
+      "event_date": "2020-08-24",
+      "publication_date": "2020-08-24",
+      "company_caption": "首批18家注册制企业｜2020.08.24",
+      "source_pages": [
+        "https://china.cnr.cn/xwwgf/20200824/t20200824_525224531.shtml",
+        "https://news.cnr.cn/native/gd/20200824/t20200824_525224769.shtml",
+        "https://www.szse.cn/aboutus/trends/news/t20200824_580949.html"
+      ],
+      "source_institutions": [
+        "新华社",
+        "央广网",
+        "深圳证券交易所"
+      ],
+      "supplied_headlines": [
+        "见证资本市场历史时刻 创业板改革并试点注册制首批18家企业上市",
+        "再出发！创业板“迭代升级”"
+      ],
+      "supplied_caption_clues": [
+        "8月24日在深圳证券交易所举行的创业板改革并试点注册制首批企业上市仪式上拍摄的敲钟仪式。新华社记者 毛思倩 摄",
+        "8月24日在深圳证券交易所举行的创业板改革并试点注册制首批企业上市仪式上拍摄的创业板上市协议及登记协议签署仪式。新华社记者 毛思倩 摄",
+        "8月24日，在深圳证券交易所举行的创业板改革并试点注册制首批企业上市仪式上，上市企业收取证券登记证书。新华社记者 毛思倩 摄"
+      ],
+      "required_caption_scope": "3条图注仅回交稿转录；仍须原页/原图；不可将乐视/宁德题签配到集体仪式图",
+      "image_url": null,
+      "local_asset_path": null,
+      "original_caption": null,
+      "photographer": "毛思倩／新华社（回交图注线索待原页核对）",
+      "is_archive_photo": false,
+      "status": "strongest_specific_photo_lead_original_page_and_files_missing",
+      "download_attempted": false,
+      "ready": false
+    },
+    {
+      "id": "PHOTO_M05",
+      "priority": "P1",
+      "subject": "2023光模块生产/测试现场",
+      "event_date": "2023",
+      "publication_date": "2023-06",
+      "company_caption": "待由真实照片主体确定，不能预设为中际旭创",
+      "source_pages": [
+        "https://www.stcn.com/article/detail/898024.html"
+      ],
+      "source_institutions": [
+        "证券时报网"
+      ],
+      "supplied_headline": "龙头股狂飙！AI带火这一板块，基金怎么看？",
+      "required_caption_scope": "现有回交说明无现场图；要另找同期产线/测试报道；不可使用全年253.02%错误数字或当代厂照冒充2023",
+      "image_url": null,
+      "local_asset_path": null,
+      "original_caption": null,
+      "photographer": null,
+      "is_archive_photo": null,
+      "status": "photo_subject_and_same_period_source_missing",
+      "download_attempted": false,
+      "ready": false
+    },
+    {
+      "id": "PHOTO_B01",
+      "priority": "P2",
+      "subject": "华谊并购时期的可追溯资料照",
+      "event_date": "2013-07",
+      "publication_date": "2013-07-24",
+      "company_caption": "华谊兄弟｜2013.07手游并购",
+      "source_pages": [
+        "https://www.cs.com.cn/ssgs/gsxw/201307/t20130724_4079034.html",
+        "https://finance.people.com.cn/stock/n/2013/0730/c67815-22371020.html"
+      ],
+      "source_institutions": [
+        "中证网",
+        "人民网"
+      ],
+      "supplied_caption_clue": "中证网页首资料图",
+      "required_caption_scope": "需原图注；不用任意电影海报替代并购事件；不把复牌日与首次披露混为一日",
+      "image_url": null,
+      "local_asset_path": null,
+      "original_caption": null,
+      "photographer": null,
+      "is_archive_photo": true,
+      "status": "source_page_and_photo_not_acquired",
+      "download_attempted": false,
+      "ready": false
+    },
+    {
+      "id": "PHOTO_B02",
+      "priority": "P2",
+      "subject": "乐视摘牌时期的可追溯报道图",
+      "event_date": "2020-07-21",
+      "publication_date": "2020-07-21",
+      "company_caption": "乐视网｜2020.07.21摘牌",
+      "source_pages": [
+        "https://static.nfnews.com/content/202007/21/c3792865.html",
+        "https://www.peopleapp.com/rmharticle/30019122803",
+        "https://money.people.com.cn/n1/2020/0608/c42877-31738660.html"
+      ],
+      "source_institutions": [
+        "南方+",
+        "人民日报客户端",
+        "人民网"
+      ],
+      "required_caption_scope": "摘牌07.21；最后交易日07.20；配图拍摄时点与转载时点分别标，不以无日期公司外观照冒充当天",
+      "image_url": null,
+      "local_asset_path": null,
+      "original_caption": null,
+      "photographer": null,
+      "is_archive_photo": null,
+      "status": "source_page_and_photo_not_acquired",
+      "download_attempted": false,
+      "ready": false
+    }
+  ],
+  "local_non_photo_image_reference": {
+    "source_id": "AR04",
+    "caption": "（A股各大指数纷纷飘红。截图自Wind）",
+    "classification": "market_terminal_screenshot_not_historical_scene_photo",
+    "photo_album_ready": false,
+    "url_without_query": "https://mediabluk.cnr.cn/img/cnr/CNRCDP/2024/0925/77638090ffa48172725103527458554510.png",
+    "query_note": "Public CDN query omitted from this derived report; original user-supplied archive is preserved."
+  },
+  "requested_page_hosts": [
+    "money.people.com.cn",
+    "finance.people.com.cn",
+    "thepaper.cn",
+    "news.cnr.cn",
+    "china.cnr.cn",
+    "www.stcn.com",
+    "www.cs.com.cn",
+    "static.nfnews.com",
+    "www.peopleapp.com",
+    "www.szse.cn",
+    "m.chinanews.com"
+  ],
+  "image_cdn_hosts": {
+    "confirmed_in_local_html": [
+      "mediabluk.cnr.cn",
+      "res.static.szse.cn"
+    ],
+    "caution": "res.static.szse.cn所见均为站饰；未知照片CDN必须解析真实原页后确认，不能假造直链。"
+  },
+  "next_actions": [
+    "在运行环境实际应用新闻站访问白名单后，只重试优先M04/M03/M02原页",
+    "解析文章正文区域img与相邻图注，排除Logo/banner/广告；下载图片后验MIME/尺寸/hash并view_image核对",
+    "为每张ready照片填写拍摄/报道日、原图注、署名、资料图属性、来源页与图片直链",
+    "至少取得3张跨时期真实照片后再做正式相册样片；缺图不回退文字页"
+  ],
+  "all_uploaded_zip_scan": [
+    {
+      "archive": "素材存档.zip",
+      "historical_photo_files": 0,
+      "article_files": 19
+    },
+    {
+      "archive": "数据底稿.zip",
+      "historical_photo_files": 0
+    },
+    {
+      "archive": "chinext_v6_engine_seed.zip",
+      "historical_photo_files": 0,
+      "other_image_files": 3,
+      "other_images": "earth_body.png, approved_visual_reference.png, earth_body_reference.png"
+    }
+  ],
+  "network_draft": {
+    "status": "saved_not_applied",
+    "requires_publish": true,
+    "runtime_access_verified": false,
+    "runtime_observed_revision": "1"
+  }
+}

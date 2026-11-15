@@ -1,0 +1,186 @@
+[
+  {
+    "second": 12.0,
+    "left": "S07",
+    "right": "S08",
+    "date_left": "2015-05-29",
+    "date_right": "2015-05-29",
+    "close": 3542.84,
+    "before_visible_days": 100,
+    "after_visible_days": 100,
+    "before_y_span": 3214.9975,
+    "after_y_span": 3361.9157000000005,
+    "y_span_ratio": 1.0456977649282777,
+    "current_y_jump_1080px": 87.10578679582835,
+    "current_x_jump_1080px": 0.0,
+    "before_point": {
+      "x": 554.84,
+      "y": 379.12771782870743
+    },
+    "after_point": {
+      "x": 554.84,
+      "y": 437.19824235925967
+    }
+  },
+  {
+    "second": 17.0,
+    "left": "S08",
+    "right": "S09",
+    "date_left": "2015-06-03",
+    "date_right": "2015-06-03",
+    "close": 3982.25,
+    "before_visible_days": 100,
+    "after_visible_days": 36,
+    "before_y_span": 3361.9157000000005,
+    "after_y_span": 1902.6,
+    "y_span_ratio": 0.565927337202417,
+    "current_y_jump_1080px": 104.25046224091801,
+    "current_x_jump_1080px": -2.259999999999991,
+    "before_point": {
+      "x": 554.84,
+      "y": 359.29969183938795
+    },
+    "after_point": {
+      "x": 553.3333333333334,
+      "y": 428.79999999999995
+    }
+  },
+  {
+    "second": 25.0,
+    "left": "S09",
+    "right": "S10",
+    "date_left": "2015-06-12",
+    "date_right": "2015-06-12",
+    "close": 3899.71,
+    "before_visible_days": 36,
+    "after_visible_days": 100,
+    "before_y_span": 1902.6,
+    "after_y_span": 3205.4165,
+    "y_span_ratio": 1.6847558604015558,
+    "current_y_jump_1080px": -112.13213498260981,
+    "current_x_jump_1080px": 2.259999999999991,
+    "before_point": {
+      "x": 553.3333333333334,
+      "y": 454.6561126879007
+    },
+    "after_point": {
+      "x": 554.84,
+      "y": 379.9013560328275
+    }
+  },
+  {
+    "second": 33.0,
+    "left": "S10",
+    "right": "S11",
+    "date_left": "2015-06-26",
+    "date_right": "2015-06-26",
+    "close": 2920.7,
+    "before_visible_days": 100,
+    "after_visible_days": 100,
+    "before_y_span": 3084.9818999999993,
+    "after_y_span": 3010.3502,
+    "y_span_ratio": 0.9758080590359381,
+    "current_y_jump_1080px": 8.026855824810127,
+    "current_x_jump_1080px": 0.0,
+    "before_point": {
+      "x": 554.84,
+      "y": 570.0437351026274
+    },
+    "after_point": {
+      "x": 554.84,
+      "y": 575.3949723191674
+    }
+  },
+  {
+    "second": 53.0,
+    "left": "S11",
+    "right": "S12",
+    "date_left": "2015-07-10",
+    "date_right": "2015-07-10",
+    "close": 2535.89,
+    "before_visible_days": 100,
+    "after_visible_days": 100,
+    "before_y_span": 2684.0671000000007,
+    "after_y_span": 2696.0504999999994,
+    "y_span_ratio": 1.004464642482298,
+    "current_y_jump_1080px": -2.223752020537745,
+    "current_x_jump_1080px": 0.0,
+    "before_point": {
+      "x": 554.84,
+      "y": 687.7320708562017
+    },
+    "after_point": {
+      "x": 554.84,
+      "y": 686.2495695091766
+    }
+  },
+  {
+    "second": 59.0,
+    "left": "S12",
+    "right": "S13",
+    "date_left": "2015-08-24",
+    "date_right": "2015-08-24",
+    "close": 2152.61,
+    "before_visible_days": 100,
+    "after_visible_days": 55,
+    "before_y_span": 2696.0504999999994,
+    "after_y_span": 2105.4462000000003,
+    "y_span_ratio": 0.7809372265096669,
+    "current_y_jump_1080px": -70.26921894275927,
+    "current_x_jump_1080px": 1.8490909090909327,
+    "before_point": {
+      "x": 554.84,
+      "y": 770.979020979021
+    },
+    "after_point": {
+      "x": 556.0727272727273,
+      "y": 724.1328750171815
+    }
+  },
+  {
+    "second": 78.0,
+    "left": "S13",
+    "right": "S14",
+    "date_left": "2015-09-02",
+    "date_right": "2015-09-02",
+    "close": 1855.03,
+    "before_visible_days": 55,
+    "after_visible_days": 100,
+    "before_y_span": 2329.5415,
+    "after_y_span": 3230.0553999999997,
+    "y_span_ratio": 1.386562720604033,
+    "current_y_jump_1080px": 8.115272396841078,
+    "current_x_jump_1080px": -1.8490909090909327,
+    "before_point": {
+      "x": 556.0727272727273,
+      "y": 751.5732280365041
+    },
+    "after_point": {
+      "x": 554.84,
+      "y": 756.9834096343982
+    }
+  },
+  {
+    "second": 90.0,
+    "left": "S14",
+    "right": "S15",
+    "date_left": "2015-09-15",
+    "date_right": "2015-09-15",
+    "close": 1797.56,
+    "before_visible_days": 100,
+    "after_visible_days": 95,
+    "before_y_span": 3230.0553999999997,
+    "after_y_span": 3069.0410958904113,
+    "y_span_ratio": 0.9501512252360784,
+    "current_y_jump_1080px": -123.76139890727575,
+    "current_x_jump_1080px": -1.0705263157895502,
+    "before_point": {
+      "x": 554.84,
+      "y": 767.5875992715171
+    },
+    "after_point": {
+      "x": 554.1263157894737,
+      "y": 685.0799999999999
+    }
+  }
+]
