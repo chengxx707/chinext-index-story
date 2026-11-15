@@ -1,6 +1,6 @@
 # 创业板指数视频工程
 
-以用户提供的纳斯达克100视频为动态参考、批准海报为静态美术基准。主体视觉已认可；当前按新版生产主表进入场景编排与内容组件开发。V1初排7分07秒，尚未实现或验收完整成片。V5、原始脚本与研究文档保留；V6为独立的模型与绘制实现。
+以用户提供的纳斯达克100视频为动态参考、批准海报为静态美术基准。全片生产主表初排7分07秒，尚未完成或验收完整成片。用户要求修订V1主体的衔接与遮挡，并明确拒绝39秒文献结尾；本轮已修正连续镜头、透明字幕及真实高低端点联动。真实档案照片尚未取得，相册制作被明确阻断。
 
 ## 当前两份制作文件
 
@@ -9,7 +9,9 @@
 
 机器主表：[config/production/film_master_v1.json](config/production/film_master_v1.json)。两份文档分别说明怎么做、具体做什么；新版编排由该主表驱动。更多资料见[文档导航](docs/README.md)。
 
-已生成97秒2015增强段和39秒时代相册收束，目标1080×1920、30fps、无音轨；技术与静帧检查已执行，实际阅读与节奏待代表包集中观看。视频和解码联系表见[制作预览与检查](docs/production/reviews/README.md)，实现范围和84项测试记录见[实施进度](docs/production/实施进度.md)。完整八阶段成片尚未扩展。
+当前状态见[实施进度](docs/production/实施进度.md)。[对标复盘与修正说明 V2](docs/production/对标复盘与修正说明_V2.md)记录了实际参考视频、V1接缝与遮挡证据；[真实照片获取状态 V2](docs/production/真实照片获取状态_V2.md)记录了原报道线索和网络阻碍。V1视频只作历史比较，技术检查通过不代表用户观看通过。
+
+已导出[V2主体97秒样片](docs/production/reviews/2015_representative_v2.mp4)：S07—S15、1080×1920、30fps、无音轨。114项测试、实际媒体与接缝检查通过；阅读与运动体感待实际观看评定。全文主表及427秒初排未改变。
 
 ## 仓库结构
 
@@ -35,13 +37,15 @@ Python 3.12、FFmpeg/libx264、Noto Sans CJK 字体。当前云环境已有这�
 ```bash
 bash tools/setup.sh
 source .venv/bin/activate
-python render_v6.py --keyframes --output-dir output/v6_review
-python render_v6.py --video --workers 2 --output-dir output/v6_review
-python tools/validate_project.py --config config/v6_sample.json --events config/events_v6.json --output output/v6_review/validation.json --video output/v6_review/chinext_v6_sample.mp4 --layout
-python tools/render_ending.py --keyframes --video --output-dir output/ending_review
+make production-check
+make components
+make representative
+make photo-status
 ```
 
-前两个渲染命令输出既有1080×1920、30fps、42秒主体样片；旧结尾入口保留15秒组件样片供历史对照，该字墙/市值结尾已被时代相册方案取代。`--width 720 --output-dir output/v6_preview`可生成低成本内部预览，不能当作目标规格通过。产物默认在忽略的`output/`中；无需另建Git worktree。进程不必常驻。
+新版代表渲染默认输出1080×1920、30fps无声片，支持`--width 720`内部预览；低分辨率预览不能作为目标规格通过。产物默认在忽略的`output/`中；精选交付副本经检查后放入`docs/production/reviews/`。使用现有隔离checkout，无需另建Git worktree，进程不必常驻。
+
+旧42秒样片入口`render_v6.py`保留作历史对照。旧15秒字墙/市值结尾只通过`make legacy-ending`明确调用，不作为当前结尾候选。
 
 ## 事实与生产规则
 
@@ -60,12 +64,15 @@ make production-check
 make production-docs
 make components
 make representative
+make photo-status
 make album
 ```
 
-`production-check`验证主表文字导出是否一致，并编译全片帧时间表，核对来源、引语、冻结行情和显式历史跳转。`production-docs`从同一主表更新人读文稿；不要分别手改两份文字。`components`输出九类内容组件的1080静帧与36秒无声动效，属于组件工程预览，不代表完整代表片或整片已通过审阅。
+`production-check`验证主表文字导出是否一致，并编译全片帧时间表，核对来源、引语、冻结行情和显式历史跳转。`production-docs`从同一主表更新人读文稿；不要分别手改两份文字。`components`当前输出八类非相册内容组件的1080静帧与32秒无声动效；它是组件工程预览，不代表完整代表片或整片已通过审阅。
 
-`representative`生成S07—S15的97秒2015增强段；`album`生成A01—C03的39秒相册与收束。两者复用主表、既有行情模型、新组件和场景缓存，完整视频经实际解码和黑场检查后写出清单。当前集成渲染入口明确限制在代表范围，整片其他阶段将在代表片集中观看后扩展。支持`--width 720`内部预览；默认1080为目标规格。
+`representative`生成S07—S15的97秒主体修正版；V2使用跨节点连续投影、透明字幕和S09/S15真实双端点路径联动。当前集成渲染入口限制在代表范围，整片其他阶段尚未扩展。
+
+`photo-status`诊断真实相册图片的入库与核验状态。`album`和`ending`都先执行照片ready检查，未满足条件则失败；当前合格历史照片为0张，不能生成正式相册。三个上传ZIP已复查，包含HTML、PDF、数据、地球和参考海报等，没有历史现场照片。已存在原报道和图注线索，但运行环境访问仍被出站白名单403拦截；网络白名单草稿已保存，尚未应用到运行环境。缺图时不再输出无照片的文献／文字结尾。
 
 新增场景缓存按当前节点及其实际数据、来源正文、代码、素材、字体和相机参数建立摘要。复用时重新检查视频文件摘要与实际规格，装配后再验收总片；被修改或损坏的缓存不会作为成功结果继续使用。
 
@@ -76,7 +83,7 @@ python tools/validate_project.py --config config/v6_sample.json --events config/
 
 验证失败退出非零，JSON保留检查范围、问题和`manual_review: pending`。实际媒体检查包括帧数、时长、尺寸、帧率、无音轨、完整解码与异常黑帧。渲染清单记录输入/生产代码/资产哈希，不能用陈旧视频冒充当前实现。关键帧和逐帧诊断供检查同步、排版及镜头边界。
 
-自动检查通过不表示美术已达到海报基准。应检查真实导出、连续帧和手机尺寸，并在代表片段集中审阅后才扩展完整电影。详见`docs/QUALITY_GATES.md`和当前审阅记录。
+自动检查通过不代表连续运动、阅读节奏或相册已经通过用户审阅。V1的实际观看反馈已成为V2修正输入；V2已重新导出，规格、完整解码、黑场、排版和八个接缝检查有独立记录。代表片段通过后才扩展完整成片。详见`docs/QUALITY_GATES.md`和当前审阅记录。
 
 ## 美术素材
 

@@ -9,6 +9,7 @@ from concurrent.futures import ProcessPoolExecutor
 from dataclasses import dataclass, replace
 import hashlib
 import json
+import math
 import multiprocessing
 from pathlib import Path
 import re
@@ -19,9 +20,10 @@ from typing import Any
 import pandas as pd
 from PIL import Image, ImageDraw
 
-from .content_components import ContentDrawer, component_for
+from .content_components import ContentDrawer, StrictPhotoAlbum, PhotoNotReady, component_for
 from .drawing import C, SceneDrawer, smooth
 from .model import SceneModel
+from .landmarks import LandmarkOverlay
 from .production import ProductionTimeline
 from .renderer import encode_frames
 from .scene_cache import SceneCache, concat_segments, file_sha256
@@ -30,10 +32,10 @@ from .scene_cache import SceneCache, concat_segments, file_sha256
 SUPPORTED_BODY = tuple(f"S{i:02d}" for i in range(7, 16))
 SUPPORTED_ENDING = ("A01", "A02", "A03", "A04", "A05", "C01", "C02", "C03")
 SUPPORTED_NODES = frozenset((*SUPPORTED_BODY, *SUPPORTED_ENDING, "H04"))
-MOTION_MODE = "continuous_historical_annotations_v1"
+MOTION_MODE = "continuous_projection_and_annotation_handoff_v2"
 _MODULE_DIR = Path(__file__).resolve().parent
 _IMPORTED_CODE_HASHES = {_MODULE_DIR/name:file_sha256(_MODULE_DIR/name) for name in
-    ["film_renderer.py","production.py","model.py","drawing.py","content_components.py","renderer.py","scene_cache.py"]}
+    ["film_renderer.py","production.py","model.py","drawing.py","content_components.py","landmarks.py","renderer.py","scene_cache.py"]}
 
 
 @dataclass(frozen=True)
@@ -63,18 +65,118 @@ def _write_json(path: Path, data: Any):
         path.write_text(text, encoding="utf-8")
 
 
+def _nominal_projection(state, frame: int, total_frames: int) -> dict[str, float]:
+    """A visual camera may move fractionally; the dated candle remains exact.
+
+    SceneModel's integer window is useful for loading candles, but using that
+    integer as the camera origin makes the image pan one whole candle at a
+    time. This floating origin follows its already deterministic playhead.
+    A restrained sub-candle drift prevents reading holds becoming a static
+    slab, without changing a price, candle proportion or the locked y range.
+    """
+    span = float(state.window_end-state.window_start)
+    drift = .28*smooth(frame/max(1,total_frames-1))
+    start = max(0.0,float(state.playhead_index)-span*float(state.current_x_frac)+drift)
+    return {"window_start":start,"window_span":span,
+            "y_min":float(state.y_min),"y_max":float(state.y_max)}
+
+
+class _ProjectionDrawer(SceneDrawer):
+    """Keep legacy real-OHLC drawing while owning the continuous projection."""
+
+    projection = None
+
+    def _coords(self, state):
+        if self.projection is None:
+            return super()._coords(state)
+        camera=self.projection
+        x0,span=camera["window_start"],max(1.0,camera["window_span"])
+        low,high=camera["y_min"],camera["y_max"]
+        return (lambda index:26+(float(index)-x0)/span*678,
+                lambda price:846-(float(price)-low)/max(1.,high-low)*596)
+
+    def _chart(self,image,state):
+        # Only the load interval is integer. Candle x positions and widths use
+        # the same continuous camera; no OHLC value is interpolated.
+        camera=self.projection
+        if camera is None:
+            return super()._chart(image,state)
+        first=max(0,math.floor(camera["window_start"]))
+        last=max(first+1,math.ceil(camera["window_start"]+camera["window_span"]))
+        if camera["window_span"]>240:
+            # A historical-wide camera needs sub-candle widths. Keeping the
+            # close-up's 1.6-logical-pixel minimum would merge hundreds of
+            # actual daily bars into an opaque block.
+            xp,yp=self._coords(state); market=self.model.market
+            layer=self._new(); pen=self._pen(layer)
+            width=max(.35,min(14.5,678/camera["window_span"]*.73))
+            for i in range(first,min(state.current_index,last)+1):
+                x=xp(i)
+                if not -2<x<722:
+                    continue
+                o,h,l,c=(float(getattr(market,k)[i]) for k in ("open","high","low","close"))
+                color=C["red"] if c>=o else C["green"]
+                top,bottom=sorted((yp(o),yp(c)))
+                yh,yl=max(252,yp(h)),min(866,yp(l))
+                if yh<=yl:
+                    pen.line((x,yh,x,yl),color,.5)
+                if bottom>=252 and top<=866:
+                    pen.rectangle((x-width/2,max(252,top),x+width/2,min(866,max(top+.45,bottom))),fill=color)
+            image.alpha_composite(layer)
+            return
+        super()._chart(image,replace(state,window_start=first,window_end=last,
+                                    y_min=camera["y_min"],y_max=camera["y_max"]))
+
+
 class FilmScene:
     def __init__(self, root: Path, timeline: ProductionTimeline, plan: NodePlan, width: int):
         self.root, self.timeline, self.plan = root, timeline, plan
         self.model = SceneModel(plan.config_path, plan.events_path, root/"data/cyb_daily.csv")
-        self.drawer = SceneDrawer(self.model, root/"assets")
+        self.drawer = _ProjectionDrawer(self.model, root/"assets")
+        self.drawer.stage_transitions=[(t+plan.start_frame/self.model.fps,a,b)
+                                       for t,a,b in self.drawer.stage_transitions]
         self.content = ContentDrawer(root, width=width, master=timeline.master)
+        self.landmarks=LandmarkOverlay(root,width=width,master=timeline.master,market=self.model.market)
         self.layers: dict[int, Image.Image] = {}
         self.overlay_boxes: dict[int, list[dict]] = {}
         for index in range(len(plan.node["beats"])):
             self.layers[index] = self.content.content_layer(plan.node_id, index)
             self.overlay_boxes[index] = list(self.content.text_boxes)
+        prior=plan.signature_extra.get("previous_content")
+        self.previous_layer=None
+        self.previous_boxes=[]
+        if prior is not None:
+            self.previous_layer=self.content.content_layer(prior["node_id"],prior["beat_index"])
+            self.previous_boxes=list(self.content.text_boxes)
         self.last_layout: dict[str, Any] = {}
+
+    def camera_projection(self,local_frame:int)->dict[str,float]:
+        state=self.model.state(local_frame)
+        target=_nominal_projection(state,local_frame,self.plan.total_frames)
+        origin=self.plan.signature_extra.get("camera_entry_projection")
+        wide=self.plan.signature_extra.get("landmark_wide_projection")
+        if wide is not None:
+            elapsed=local_frame/self.model.fps
+            if elapsed<=.8:
+                u=smooth(elapsed/.8)
+                first=origin or target
+                return {name:float(first[name])+(float(value)-float(first[name]))*u
+                        for name,value in wide.items()}
+            if elapsed<=4.8:
+                return dict(wide)
+            u=smooth((elapsed-4.8)/1.2)
+            return {name:float(wide[name])+(value-float(wide[name]))*u
+                    for name,value in target.items()}
+        if origin is None or self.plan.node["role"]!="main":
+            return target
+        u=smooth((local_frame/self.model.fps)/.8)
+        return {name:float(origin[name])+(value-float(origin[name]))*u
+                for name,value in target.items()}
+
+    def projected_market_point(self,local_frame:int)->tuple[float,float]:
+        state=self.model.state(local_frame); p=self.camera_projection(local_frame)
+        return (26+(state.current_index-p["window_start"])/p["window_span"]*678,
+                846-(state.current_close-p["y_min"])/(p["y_max"]-p["y_min"])*596)
 
     def frame_context(self, local_frame: int) -> dict[str, Any]:
         if not 0 <= local_frame < self.plan.total_frames:
@@ -89,8 +191,10 @@ class FilmScene:
         entry = .25 if delay else .30
         exit_seconds = .30 if delay else .40
         opacity = smooth((elapsed-delay)/entry)
-        if self.plan.node_id != "C03":
+        if self.plan.node_id != "C03" and self.plan.node["role"]!="main":
             opacity = min(opacity, smooth((duration-elapsed)/exit_seconds))
+        prior_available=beat_index>0 or self.previous_layer is not None
+        previous_opacity=1.0-opacity if self.plan.node["role"]=="main" and prior_available else 0.0
         role = self.plan.node["role"]
         visible = timing["observation_date"] is not None
         show_market = visible and role == "main"
@@ -107,16 +211,22 @@ class FilmScene:
             "historical_date": raw.get("historical_date"),
             "date_precision": raw.get("date_precision", "day"),
             "content_opacity": float(opacity), "content_visible": opacity > .001,
+            "previous_content_opacity":float(previous_opacity),
             "hud_label": hud_label, "show_hud": show_market,
             "show_chart": show_market, "show_rail": show_market,
             "market_is_advancing": current_date != timing["observation_date"],
             "clock_mode": MOTION_MODE,
-            "historical_annotation_while_market_advances": True}
+            "historical_annotation_while_market_advances": True,
+            "camera_projection":self.camera_projection(local_frame),
+            "projected_current_point":self.projected_market_point(local_frame)}
 
     def frame(self, local_frame: int) -> Image.Image:
         context = self.frame_context(local_frame)
         state = self.model.state(local_frame)
+        # Orbit and light animation also use one film clock across cache files.
+        state=replace(state,t=(self.plan.start_frame+local_frame)/self.model.fps)
         drawer = self.drawer
+        drawer.projection=self.camera_projection(local_frame)
         drawer.text_boxes, drawer.critical_diagnostics, drawer.active_track_count = [], [], 0
         image = drawer.background.copy()
         image.alpha_composite(drawer.grid)
@@ -128,16 +238,35 @@ class FilmScene:
                 yy = yp(float(self.model.market.close[high_index]))
                 if 252 < yy < 846:
                     d = drawer._pen(image, True)
-                    d.line((27, yy, 704, yy), (255,185,102,90), .7)
-                    d.text((692, yy-12), "3,982.25", drawer.fonts.get(10),
-                           (235,194,136,220), anchor="ra", id="old_high_memory", role="anchor")
-            if self.plan.node_id in {"S09", "S15"}:
+                    active_boxes=[]
+                    if context["content_opacity"]>.001:
+                        active_boxes+=self.overlay_boxes[context["beat_index"]]
+                    if context["previous_content_opacity"]>.001:
+                        i=context["beat_index"]
+                        active_boxes+=self.overlay_boxes[i-1] if i else self.previous_boxes
+                    # The reference line is a price anchor, not a strike-through
+                    # of the transparent wording now occupying the left air.
+                    line_start=27.
+                    for box in active_boxes:
+                        a,b,c,e=box["bbox"]
+                        if b/drawer.s-2<=yy<=e/drawer.s+2:
+                            line_start=max(line_start,c/drawer.s+12)
+                    if line_start<698:
+                        d.line((line_start, yy, 704, yy), (255,185,102,90), .7)
+                    if yy>275:
+                        d.text((692, yy-12), "3,982.25", drawer.fonts.get(10),
+                               (235,194,136,220), anchor="ra", id="old_high_memory", role="anchor")
+            previous=self.plan.signature_extra.get("previous_content") or {}
+            outgoing_high=previous.get("node_id")=="S09" and context["previous_content_opacity"]>.001
+            if self.plan.node_id in {"S09", "S15"} or outgoing_high:
                 timing = self.plan.beat_timings[context["beat_index"]]
-                index = self.model.market.index_for_date(timing["observation_date"])
+                observed="2015-06-03" if outgoing_high else timing["observation_date"]
+                index = self.model.market.index_for_date(observed)
                 xp, yp = drawer._coords(state)
                 xx, yy = xp(index), yp(float(self.model.market.close[index]))
                 if 26 <= xx <= 704 and 252 <= yy <= 846:
-                    drawer._sprite(image, drawer.gold_glow, xx, yy, .46*context["content_opacity"])
+                    alpha=context["previous_content_opacity"] if outgoing_high else context["content_opacity"]
+                    drawer._sprite(image, drawer.gold_glow, xx, yy, .46*alpha)
                     drawer._pen(image).ellipse((xx-3, yy-3, xx+3, yy+3), fill=C["gold_light"])
         image.alpha_composite(drawer.earth_layer)
         world_state = state
@@ -165,6 +294,21 @@ class FilmScene:
             drawer._rail(image, state)
         if self.plan.node_id != "C03":
             drawer._footer(image)
+        camera=drawer.projection
+        landmark_state=replace(state,window_start=camera["window_start"],
+            window_end=camera["window_start"]+camera["window_span"],
+            y_min=camera["y_min"],y_max=camera["y_max"])
+        image=self.landmarks.draw(image,self.plan.node_id,landmark_state,
+            local_frame/self.model.fps,chart_coords=drawer._coords(landmark_state),
+            orbit_point=drawer._timeline_point)
+        previous_opacity=context["previous_content_opacity"]
+        if previous_opacity>.001:
+            index=context["beat_index"]
+            previous=self.layers[index-1] if index else self.previous_layer
+            if previous is not None:
+                old=previous.copy()
+                old.putalpha(old.getchannel("A").point(lambda a:round(a*previous_opacity)))
+                image.alpha_composite(old)
         layer = self.layers[context["beat_index"]]
         opacity = context["content_opacity"]
         if opacity < .999:
@@ -172,8 +316,17 @@ class FilmScene:
             layer.putalpha(layer.getchannel("A").point(lambda a: round(a*opacity)))
         image.alpha_composite(layer)
         boxes = list(drawer.text_boxes)
+        boxes+=self.landmarks.text_boxes
         if opacity > .001:
             boxes += self.overlay_boxes[context["beat_index"]]
+        # Intentional text dissolve is short and explicitly diagnosed. Stable
+        # frame checks still reject ordinary overlaps, rather than hiding them.
+        transition_boxes=[]
+        if previous_opacity>.001:
+            index=context["beat_index"]
+            previous_boxes=self.overlay_boxes[index-1] if index else self.previous_boxes
+            transition_boxes=[{**b,"id":"outgoing_"+b["id"],"overlaps_allowed":True}
+                              for b in previous_boxes]
         outside = [b for b in boxes if b["bbox"][0] < 0 or b["bbox"][1] < 0 or
                    b["bbox"][2] > drawer.w or b["bbox"][3] > drawer.h]
         overlaps = []
@@ -184,6 +337,8 @@ class FilmScene:
                     overlaps.append([a["id"], b["id"]])
         self.last_layout = {**context,"width":drawer.w,"height":drawer.h,"text_boxes":boxes,
             "out_of_bounds":outside,"text_overlaps":overlaps,"active_track_count":drawer.active_track_count,
+            "outgoing_transition_boxes":transition_boxes,
+            "landmark_link":self.landmarks.last_diagnostics,
             "actual_readability_review":"pending_representative_playback"}
         return image.convert("RGB")
 
@@ -207,6 +362,7 @@ class FilmRenderer:
                  cache_dir: str | Path | None = None):
         self.root = Path(root).resolve()
         self.master_path = Path(master_path or self.root/"config/production/film_master_v1.json").resolve()
+        self.photo_album=StrictPhotoAlbum(self.root)
         master_bytes=self.master_path.read_bytes()
         self.master_sha256=hashlib.sha256(master_bytes).hexdigest()
         self.timeline = ProductionTimeline(self.master_path, root=self.root)
@@ -218,7 +374,7 @@ class FilmRenderer:
         self.cache = SceneCache(self.root, cache_dir or self.root/"output/scene_cache")
         self.node_map = {n["id"]: n for n in self.timeline.nodes}
         self.code_paths = [self.root/"src/chinext_v6"/name for name in
-            ["film_renderer.py","production.py","model.py","drawing.py","content_components.py","renderer.py","scene_cache.py"]]
+            ["film_renderer.py","production.py","model.py","drawing.py","content_components.py","landmarks.py","renderer.py","scene_cache.py"]]
         self.asset_paths = [self.root/"data/cyb_daily.csv", self.root/"assets"/
                             ("earth_cinematic.png" if (self.root/"assets/earth_cinematic.png").is_file() else "earth_body.png")]
         self.font_paths = [Path("/usr/share/fonts/opentype/noto")/name for name in
@@ -260,9 +416,37 @@ class FilmRenderer:
         return selected
 
     def _signature(self, node, extra):
-        return self.cache.signature_for(node, source_records=self.timeline.sources,
+        # The brief outgoing annotation is an actual dependency of this scene.
+        # Include its source records as well as its text/phase in the key.
+        previous=extra.get("previous_content") or {}
+        dependency_node={**node,"source_ids":sorted(set(node["source_ids"])|
+                                                   set(previous.get("source_ids",[])))}
+        return self.cache.signature_for(dependency_node, source_records=self.timeline.sources,
             code_paths=self.code_paths, asset_paths=self.asset_paths, font_paths=self.font_paths,
             width=self.width,height=self.height,fps=self.timeline.fps,extra=extra)
+
+    def _preflight_photographs(self,from_node,to_node):
+        selected=[self.node_map[n] for n in self.select_nodes(from_node,to_node)]
+        if not any(n["role"]=="album" for n in selected):
+            return
+        manifest=self.root/"data/research/photo_retrieval_v2.json"
+        before=file_sha256(manifest) if manifest.is_file() else None
+        # Qualify the same manifest that the compositor will consume; a stale
+        # constructor snapshot must not approve newly changed photo bindings.
+        photo_album=StrictPhotoAlbum(self.root)
+        try:
+            records=photo_album.require_nodes(selected,self.timeline.master)
+        except PhotoNotReady as error:
+            raise ValueError(f"需要真实照片；文献页不再作为本轮结尾。{error}") from error
+        if before is None or file_sha256(manifest)!=before:
+            raise RuntimeError("Photo manifest changed during qualification")
+        self.photo_album=photo_album
+        for record in records:
+            for path in self.photo_album.dependency_paths(record):
+                if path not in self.asset_paths:
+                    self.asset_paths.append(path)
+                self._frozen_inputs[path]=file_sha256(path)
+        self.assert_inputs_stable()
 
     def prepare(self, from_node="S07", to_node="S15") -> tuple[NodePlan, ...]:
         self.assert_inputs_stable()
@@ -277,6 +461,8 @@ class FilmRenderer:
         _write_json(events_path, [])
         self._frozen_inputs[events_path]=file_sha256(events_path)
         incoming_actual=None
+        previous_projection=None
+        previous_content=None
         for node_id in selected:
             node = self.node_map[node_id]
             beats = [b for b in selected_beats if b.node_id == node_id]
@@ -311,7 +497,10 @@ class FilmRenderer:
                 if later is None or later < baseline or node["role"] != "main" or freeze:
                     later=baseline
                 content_delay=0.0
-                hold=3.0 if node_id in {"S09","S15"} else min(1.5,(local_end-local_start)/self.timeline.fps*.40)
+                # Ordinary history should keep progressing rather than stop
+                # for 1.5 seconds after every card. Extrema and explicit policy
+                # holds still give their full reading/emphasis interval.
+                hold=4.8 if node_id=="S09" else 3.0 if node_id=="S15" else min(.45,(local_end-local_start)/self.timeline.fps*.15)
                 if incoming_actual and incoming_actual < baseline:
                     key(start_t,incoming_actual)
                     arrival=min(end_t,start_t+.4)
@@ -329,11 +518,15 @@ class FilmRenderer:
                     "historical_date":beat.historical_date,"date_precision":beat.date_precision,
                     "freeze_market":freeze,"actual_entry_observation":incoming_actual,
                     "actual_exit_observation":later})
-                visible=36 if node_id=="S09" else 95 if node_id=="S15" else 55 if node_id=="S13" else 100
+                # The final pullback uses a wider, right-weighted view so its
+                # historic high sits beside the transparent wording, not
+                # underneath it at the left edge as the former 95-day view did.
+                visible=36 if node_id=="S09" else 190 if node_id=="S15" else 55 if node_id=="S13" else 100
+                current_x=.90 if node_id=="S15" else .78
                 shot={"id":f"{node_id}_b{i:02d}","start_t":start_t,
                       "end_t":model_time(local_end) if local_end<duration_frames else duration,
                       "visible_days_start":visible,"visible_days_end":visible,
-                      "current_x_start":.78,"current_x_end":.78,
+                      "current_x_start":current_x,"current_x_end":current_x,
                       "y_policy":"lookahead_locked","transition_seconds":.30}
                 if node_id in {"S09","S15"}:
                     shot.update(y_policy="critical_anchor",focus_date=observed,
@@ -362,6 +555,23 @@ class FilmRenderer:
             config_path=generated/f"{node_id}_{semantic}.json"
             _write_json(config_path,config)
             self._frozen_inputs[config_path]=file_sha256(config_path)
+            # A cache segment is an encoding boundary, not a camera cut.
+            # Carry the exact preceding projection into its first valid frame.
+            model=SceneModel(config_path,events_path,self.root/"data/cyb_daily.csv")
+            exit_projection=_nominal_projection(model.states[-1],duration_frames-1,duration_frames)
+            wide_projection=None
+            if node_id=="S09":
+                metric=next(m for m in node["metrics"] if m["kind"]=="interval_return")
+                low=model.market.index_for_date(metric["start_date"])
+                high=model.market.index_for_date(metric["end_date"])
+                span=(high-low)/.81
+                start=max(0.,low-.08*span)
+                first=max(0,math.floor(start))
+                lower=float(model.market.low[first:high+1].min())
+                upper=float(model.market.high[first:high+1].max())
+                spread=upper-lower
+                wide_projection={"window_start":start,"window_span":span,
+                                 "y_min":lower-spread*.14,"y_max":upper+spread*.17}
             prev = next((b.observation_date for b in reversed(self.timeline.beats[:positions[beats[0].id]])
                          if b.observation_date), None)
             extra={"motion_mode":MOTION_MODE,"derived_config":config,"beat_timings":timings,
@@ -370,10 +580,28 @@ class FilmRenderer:
                    "actual_exit_observation":incoming_actual,
                    "derived_config_sha256":file_sha256(config_path),
                    "derived_events_sha256":file_sha256(events_path),
+                   "camera_entry_projection":previous_projection if node["role"]=="main" else None,
+                   "camera_exit_projection":exit_projection,
+                   "landmark_wide_projection":wide_projection,
+                   "camera_transition_seconds":.8,
+                   "previous_content":previous_content if node["role"]=="main" else None,
                    "phase":phases.get(node["phase_id"]),"header":self.timeline.master["persistent_screen_copy"]}
             cache_key=self._signature(node,extra)
             plans.append(NodePlan(node_id,node,node["start_frame"],node["end_frame_exclusive"],config,
                                   config_path,events_path,tuple(timings),node_incoming,next_global,cache_key,extra))
+            previous_projection=exit_projection
+            previous_content={"node_id":node_id,"beat_index":len(beats)-1,
+                              "screen_lines":node["beats"][-1]["screen_lines"],
+                              "source_line":node["beats"][-1].get("source_line"),
+                              "source_ids":node["source_ids"],
+                              "phase":phases.get(node["phase_id"]),
+                              # The compositor redraws this entire node to
+                              # produce its outgoing last-beat layer. Template
+                              # choice reads role/quotes, and a time band reads
+                              # earlier beat labels, not just the last lines.
+                              "node_sha256":hashlib.sha256(json.dumps(node,
+                                  sort_keys=True,separators=(",",":"),
+                                  ensure_ascii=False,allow_nan=False).encode()).hexdigest()}
         self.assert_inputs_stable()
         return tuple(plans)
 
@@ -399,6 +627,7 @@ class FilmRenderer:
         return result
 
     def keyframes(self, from_node="S07", to_node="S15") -> dict[str, Any]:
+        self._preflight_photographs(from_node,to_node)
         plans=self.prepare(from_node,to_node)
         folder=self.output_dir/"keyframes"; folder.mkdir(parents=True,exist_ok=True)
         paths=[]; diagnostics=[]; images=[]
@@ -435,6 +664,7 @@ class FilmRenderer:
     def video(self, from_node="S07", to_node="S15", workers=2, output_name=None) -> dict[str, Any]:
         if not 1 <= workers <= 4:
             raise ValueError("Use one to four bounded rendering workers")
+        self._preflight_photographs(from_node,to_node)
         plans=self.prepare(from_node,to_node)
         segments=[]; records=[];layouts=[]; hits=0; start=time.monotonic()
         for plan in plans:
@@ -486,11 +716,16 @@ class FilmRenderer:
         seam_frames=[];offset=0
         for left,right in zip(plans,plans[1:]):
             offset+=left.total_frames
+            left_scene,right_scene=self.scene(left),self.scene(right)
+            before=left_scene.projected_market_point(left.total_frames-1)
+            after=right_scene.projected_market_point(0)
             seam_frames.append({"left_node":left.node_id,"right_node":right.node_id,
                 "last_left_frame":offset-1,"first_right_frame":offset,
                 "left_exit_observation":left.signature_extra["actual_exit_observation"],
                 "right_entry_observation":right.signature_extra["previous_actual_exit_observation"],
                 "continuous_market_boundary":left.signature_extra["actual_exit_observation"]==right.signature_extra["previous_actual_exit_observation"],
+                "current_point_jump_pixels":float(math.hypot(after[0]-before[0],after[1]-before[1])*self.width/720),
+                "camera_projection_continuous":left.signature_extra["camera_exit_projection"]==right.signature_extra.get("camera_entry_projection") if right.node["role"]=="main" else None,
                 "actual_visual_join_review":"pending_playback"})
         report={"status":"rendered_technical_checks_passed_manual_review_pending","path":str(output),
             "width":self.width,"height":self.height,"fps":self.timeline.fps,"frame_count":frame_count,

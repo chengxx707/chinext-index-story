@@ -24,14 +24,14 @@ from chinext_v6.renderer import encode_frames
 PREVIEWS=[
     ("stage","S10",0), ("event","S07",1), ("timeline","S11",1),
     ("quote","S20",1), ("headline","S34",0), ("document","S24",0),
-    ("album","A03",0), ("closing","C01",0), ("return","C03",0),
+    ("closing","C01",0), ("return","C03",0),
 ]
 
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--width",type=int,default=1080)
-    parser.add_argument("--output-dir",type=Path,default=ROOT/"output/content_components_v1")
+    parser.add_argument("--output-dir",type=Path,default=ROOT/"output/content_components_v2")
     parser.add_argument("--keyframes",action="store_true")
     parser.add_argument("--video",action="store_true")
     parser.add_argument("--seconds-per-component",type=int,default=4)
@@ -45,12 +45,18 @@ def main():
     drawer=ContentDrawer(ROOT,args.width)
     out=args.output_dir
     out.mkdir(parents=True,exist_ok=True)
+    (out/"photo_album_status.json").write_text(json.dumps({
+        "status":"not_included_real_photos_required",
+        "reason":"The document-only album was rejected. No document/chart substitute is included in this study.",
+        "source_manifest":"data/research/photo_retrieval_v2.json",
+        "ready_photo_count":drawer.photo_album.manifest.get("ready_photo_count",0),
+    },ensure_ascii=False,indent=2)+"\n")
     diagnostics=[]
     if args.keyframes:
         frames=out/"keyframes"
         frames.mkdir(exist_ok=True)
         tw,th=270,480
-        sheet=Image.new("RGB",(tw*3,(th+36)*3),(3,8,13))
+        sheet=Image.new("RGB",(tw*3,(th+36)*((len(PREVIEWS)+2)//3)),(3,8,13))
         for i,(kind,node,beat) in enumerate(PREVIEWS):
             im=drawer.render(node,beat,kind=kind)
             im.save(frames/f"{i+1:02d}_{kind}_{node}_{beat}.png")

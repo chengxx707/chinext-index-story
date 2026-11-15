@@ -6,6 +6,8 @@ main renderer; ``render`` supplies an independent, truthful component preview.
 """
 from __future__ import annotations
 
+import hashlib
+import html
 import json
 import math
 import re
@@ -14,7 +16,7 @@ from types import SimpleNamespace
 
 import numpy as np
 import pandas as pd
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageOps
 
 from .drawing import C, Fonts, SceneDrawer, clamp, smooth
 from .model import MarketData
@@ -22,6 +24,108 @@ from .model import MarketData
 
 KINDS = ("stage", "event", "timeline", "quote", "headline", "document",
          "album", "closing", "return")
+
+
+class PhotoNotReady(ValueError):
+    """A real, reviewed historical photo is required for the album slot."""
+
+
+class StrictPhotoAlbum:
+    """Load only qualified photographs; there is no document/chart fallback.
+
+    A downloaded file is not automatically qualified. Source-page bytes,
+    caption, image URL, credit and an explicit visual review must accompany the
+    photo. The visual review is a recorded human/agent inspection, not a claim
+    that this validator can automatically identify authentic photography.
+    """
+
+    def __init__(self, root: str | Path, manifest: dict | str | Path | None = None):
+        self.root = Path(root).resolve()
+        self.manifest_path = None
+        if isinstance(manifest, dict):
+            self.manifest = manifest
+        else:
+            path = Path(manifest) if manifest is not None else self.root / "data/research/photo_retrieval_v2.json"
+            if not path.is_absolute():
+                path = self.root / path
+            self.manifest_path = path
+            self.manifest = json.loads(path.read_text()) if path.is_file() else {}
+        records = self.manifest.get("assets", self.manifest.get("photos", self.manifest.get("candidates", [])))
+        if isinstance(records, dict):
+            records = list(records.values())
+        self.assets = {item.get("asset_id", item.get("id")): item for item in records}
+        self.bindings = self.manifest.get("bindings", {})
+
+    def _file(self, relative, label):
+        if not isinstance(relative, str) or not relative:
+            raise PhotoNotReady(f"Photograph requires {label}")
+        path = (self.root / relative).resolve()
+        if not path.is_relative_to(self.root) or not path.is_file():
+            raise PhotoNotReady(f"Photograph {label} is missing or outside the project: {relative}")
+        return path
+
+    def require_photo(self, asset_id: str, scene_event_id: str) -> dict:
+        record = self.assets.get(asset_id)
+        if not record or record.get("status") != "qualified":
+            raise PhotoNotReady(f"Real photograph is not qualified: {asset_id}")
+        if record.get("kind") != "photograph" or record.get("scene_event_id") != scene_event_id:
+            raise PhotoNotReady(f"Photo kind or historical event does not match: {asset_id}")
+        for field in ["source_page_url", "source_page_sha256", "image_url", "original_caption",
+                      "caption_locator", "credit", "event_date", "article_publish_date",
+                      "capture_date_precision", "depicted_entities"]:
+            if not record.get(field):
+                raise PhotoNotReady(f"Qualified photograph lacks {field}: {asset_id}")
+        review = record.get("visual_review", {})
+        if not all(review.get(key) is True for key in ["inspected", "is_real_photo", "subject_matches"]):
+            raise PhotoNotReady(f"Photograph has not been visually matched to its subject: {asset_id}")
+        if not isinstance(record.get("is_file_photo"), bool):
+            raise PhotoNotReady(f"Photograph needs an explicit file-photo flag: {asset_id}")
+        if not record.get("capture_date") and (not record["is_file_photo"] or record["capture_date_precision"] != "unknown"):
+            raise PhotoNotReady(f"Undated photograph cannot be labelled as the event-day scene: {asset_id}")
+        photo = self._file(record.get("local_path", record.get("local_asset_path")), "image file")
+        page = self._file(record.get("source_page_archive"), "source-page archive")
+        digest = lambda path: hashlib.sha256(path.read_bytes()).hexdigest()
+        if digest(photo) != record.get("sha256") or digest(page) != record["source_page_sha256"]:
+            raise PhotoNotReady(f"Photograph or source-page bytes have changed: {asset_id}")
+        body = html.unescape(page.read_text(encoding="utf-8-sig", errors="replace"))
+        compact = lambda value: "".join(re.sub(r"<[^>]+>", "", value).split())
+        image_reference = record.get("source_image_reference", record["image_url"])
+        if compact(record["original_caption"]) not in compact(body) or image_reference not in body:
+            raise PhotoNotReady(f"Photo caption or image link is absent from its source page: {asset_id}")
+        try:
+            with Image.open(photo) as image:
+                image.verify()
+            with Image.open(photo) as image:
+                if image.width < 320 or image.height < 180:
+                    raise PhotoNotReady(f"Photograph is too small for the album: {asset_id}")
+        except (OSError, ValueError) as error:
+            raise PhotoNotReady(f"Photograph cannot be read: {asset_id}") from error
+        return record
+
+    def photo_for_node(self, node: dict, master: dict) -> tuple[dict, dict]:
+        binding = self.bindings.get(node["id"])
+        if not binding:
+            raise PhotoNotReady(f"Real photo binding missing for {node['id']}; document or K-line pages are not album substitutes")
+        photo = self.require_photo(binding["asset_id"], binding["scene_event_id"])
+        expected = node["beats"][0].get("historical_date")
+        if expected and not photo["event_date"].startswith(expected):
+            raise PhotoNotReady(f"Photo event date does not match album node {node['id']}")
+        if photo["article_publish_date"] > master["data_cutoff"]:
+            raise PhotoNotReady(f"Photo publication is after this film's cutoff: {node['id']}")
+        selected_events = {source[2:] for source in node["source_ids"] if source.startswith("U:")}
+        if selected_events and binding["scene_event_id"] not in selected_events:
+            raise PhotoNotReady(f"Photo company/event does not match the selected history: {node['id']}")
+        return photo, binding
+
+    def require_nodes(self, nodes: list[dict] | tuple[dict, ...], master: dict) -> list[dict]:
+        return [self.photo_for_node(node, master)[0] for node in nodes if node.get("role") == "album"]
+
+    def dependency_paths(self, record: dict) -> tuple[Path, ...]:
+        paths = [self._file(record.get("local_path", record.get("local_asset_path")), "image file"),
+                 self._file(record.get("source_page_archive"), "source-page archive")]
+        if self.manifest_path and self.manifest_path.is_file():
+            paths.append(self.manifest_path)
+        return tuple(paths)
 
 
 def component_for(node: dict, beat: dict) -> str:
@@ -54,7 +158,8 @@ class ContentDrawer:
     duration when building a film; the envelope is not proof of readability.
     """
 
-    def __init__(self, root: str | Path, width: int = 1080, master: dict | None = None):
+    def __init__(self, root: str | Path, width: int = 1080, master: dict | None = None,
+                 photo_manifest: dict | str | Path | None = None):
         self.root = Path(root)
         self.w = int(width)
         self.h = round(self.w * 16 / 9)
@@ -65,6 +170,7 @@ class ContentDrawer:
         self.nodes = {n["id"]: n for n in self.master["nodes"]}
         self.phases = {p["id"]: p for p in self.master["phases"]}
         self.market = MarketData(self.root / "data/cyb_daily.csv")
+        self.photo_album = StrictPhotoAlbum(self.root, photo_manifest)
         self.fonts = Fonts(self.s, "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
                            "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc")
         # Reuse approved static art/candle/orbit machinery. This deliberately
@@ -233,24 +339,28 @@ class ContentDrawer:
 
     def _event(self, im, node, beat, timeline=False):
         lines = beat["screen_lines"]
-        main_width = 367
+        # In the September policy shot the remembered June peak occupies the
+        # left chart. Keep both policy beats in its actual upper-right void.
+        left = 345 if node["id"] == "S14" else 65
+        main_width = 310 if node["id"] == "S14" else 340
         layout = []
-        y = 344
+        y = 300
         for index, text in enumerate(lines[1:]):
             numeric = bool(re.fullmatch(r"[+−\-]?[\d,.]+(?:%|万户|元)?",text))
-            size = 43 if numeric else 27
+            size = 42 if numeric else 22
             rendered = self._wrap(text,size,main_width,True)
             layout.append((y,text,size,numeric,index))
-            y += len(rendered)*size*1.48+7
-        bottom = max(y+57, 484)
+            y += len(rendered)*size*1.38+7
+        bottom = max(y+38, 420)
         draw = ImageDraw.Draw(im)
-        draw.rounded_rectangle(self._rect((48,303,449,bottom)),radius=round(7*self.s),fill=(3,11,17,221))
-        draw.line(self._rect((48,309,48,bottom-7)),fill=(255,209,138,190),width=max(1,round(self.s)))
-        self._text(im,(65,314),lines[0],15.5,bold=True,fill=C["gold"],ident="event_date",role="date")
+        # Reference typography sits directly in chart whitespace. A hairline
+        # marks the information edge; there is no dark board over the candles.
+        draw.line(self._rect((left-14,270,left-14,min(bottom-7,440))),fill=(255,209,138,150),width=max(1,round(.65*self.s)))
+        self._text(im,(left,269),lines[0],15.5,bold=True,fill=C["gold"],ident="event_date",role="date")
         for yy,text,size,numeric,index in layout:
-            self._paragraph(im,(65,yy),text,size,main_width,bold=True,
-                            fill=C["gold_light"] if numeric else C["text"],ident=f"event_line_{index}")
-        self._source(im,beat,65,y+8,main_width)
+            self._paragraph(im,(left,yy),text,size,main_width,bold=True,
+                            fill=C["gold_light"] if numeric else C["text"],leading=1.38,ident=f"event_line_{index}")
+        self._source(im,beat,left,y+8,main_width)
         if timeline:
             entries=[]
             # A timeline is accumulated history. Future policy dates must not
@@ -260,8 +370,9 @@ class ContentDrawer:
                 title=b["screen_lines"][0]
                 if re.match(r"\d{4}\.",title) and title not in entries:
                     entries.append(title)
-            yy=bottom+40
-            xs=[65+i*min(132,540/max(1,len(entries)-1)) for i in range(len(entries))]
+            yy=bottom+25
+            timeline_width=main_width if node["id"]=="S14" else 540
+            xs=[left+i*min(132,timeline_width/max(1,len(entries)-1)) for i in range(len(entries))]
             if len(xs)>1:
                 draw.line([(round(x*self.s),round(yy*self.s)) for x in xs],fill=(116,93,70,160),width=max(1,round(self.s)))
             for i,(x,label) in enumerate(zip(xs,entries)):
@@ -276,21 +387,18 @@ class ContentDrawer:
         draw=ImageDraw.Draw(im)
         lines=beat["screen_lines"]
         quote=kind=="quote"
-        size=33 if quote else 29
-        y=378
+        size=29 if quote else 26
+        y=309
         for text in lines[1:]:
-            y+=len(self._wrap(text,size,550,True))*size*1.6+12
-        bottom=max(y+76,604 if quote else 566)
-        draw.rounded_rectangle(self._rect((49,314,668,bottom)),radius=round(8*self.s),fill=(3,11,17,237))
-        draw.line(self._rect((63,329,63,bottom-18)),fill=(255,209,138,180),width=max(1,round(self.s)))
-        self._text(im,(82,337),lines[0],16,bold=True,fill=C["gold"],ident="card_kicker",role="date")
-        yy=378
+            y+=len(self._wrap(text,size,500,True))*size*1.45+10
+        draw.line(self._rect((51,270,51,min(y+15,440))),fill=(255,209,138,150),width=max(1,round(.65*self.s)))
+        self._text(im,(65,269),lines[0],16,bold=True,fill=C["gold"],ident="card_kicker",role="date")
+        yy=309
         for i,text in enumerate(lines[1:]):
-            yy=self._paragraph(im,(82,yy),text,size,550,bold=True,
+            yy=self._paragraph(im,(65,yy),text,size,500,bold=True,
                                fill=C["gold_light"] if quote else C["text"],
-                               leading=1.6,ident=f"card_line_{i}")+12
-        draw.line(self._rect((82,bottom-58,634,bottom-58)),fill=(109,129,143,90),width=max(1,round(.6*self.s)))
-        self._source(im,beat,82,bottom-43,550)
+                               leading=1.45,ident=f"card_line_{i}")+10
+        self._source(im,beat,65,yy+14,500)
 
     def _history_crop(self, im, beat, box):
         state=self._state(beat)
@@ -316,35 +424,35 @@ class ContentDrawer:
             d.rectangle(self._rect((x-1.0,a,x+1.0,max(a+.7,b))),fill=color)
 
     def _album(self, im, node, beat):
+        record, binding = self.photo_album.photo_for_node(node, self.master)
+        photo_path = self.photo_album._file(record.get("local_path", record.get("local_asset_path")), "image file")
         d=ImageDraw.Draw(im)
-        d.rounded_rectangle(self._rect((53,292,668,878)),radius=round(5*self.s),fill=(2,10,16,247),outline=(132,110,80,175),width=max(1,round(.8*self.s)))
-        # Small offset edge evokes an album leaf, not a simulated newspaper.
-        d.line([self._rect((62,885)),self._rect((660,885)),self._rect((676,870)),self._rect((676,306))],
-               fill=(119,103,81,125),width=max(1,round(.7*self.s)))
         header=beat["screen_lines"][0]
         year,separator,title=header.partition("｜")
-        self._text(im,(83,321),year,53,bold=True,fill=C["gold_light"],ident="album_year",role="album")
+        self._text(im,(67,279),year,43,bold=True,fill=C["gold_light"],ident="album_year",role="album")
         if title:
-            self._text(im,(240,344),title,20,fill=C["text"],ident="album_theme",role="album")
-        if node["id"] in {"A02","A03"}:
-            # Repeat the actual index title next to this history image so the
-            # company caption cannot make viewers read it as a stock chart.
-            label=self.master["persistent_screen_copy"]["header"][1]
-            self._text(im,(86,401),label,11,fill=C["muted"],ident="album_chart_basis",role="source")
-            self._history_crop(im,beat,(86,428,634,684))
-            y=725
-            for i,text in enumerate(beat["screen_lines"][1:]):
-                y=self._paragraph(im,(87,y),text,25,540,bold=True,ident=f"album_caption_{i}")+8
-            self._source(im,beat,87,829,540)
-        else:
-            # Only selected master text is re-typeset; no fake body paragraphs,
-            # unsupported original headline, publisher logo, or placeholder photo.
-            d.line(self._rect((86,421,634,421)),fill=(150,126,91,130),width=max(1,round(.7*self.s)))
-            y=484
-            for i,text in enumerate(beat["screen_lines"][1:]):
-                y=self._paragraph(im,(88,y),text,34,540,bold=True,
-                                  fill=C["gold_light"],leading=1.65,ident=f"album_document_{i}")+22
-            self._source(im,beat,88,814,540)
+            self._text(im,(209,302),title,20,fill=C["text"],ident="album_theme",role="album")
+        # Contain the entire photographed frame: an automatic cinematic crop
+        # must not remove a company name, a speaker, or the original watermark.
+        box=self._rect((53,350,668,785))
+        with Image.open(photo_path) as source:
+            photo=ImageOps.contain(source.convert("RGB"),(box[2]-box[0],box[3]-box[1]),Image.Resampling.LANCZOS)
+        x=box[0]+(box[2]-box[0]-photo.width)//2
+        y=box[1]+(box[3]-box[1]-photo.height)//2
+        im.alpha_composite(photo.convert("RGBA"),(x,y))
+        d.rectangle((x,y,x+photo.width,y+photo.height),outline=(211,187,148,150),width=max(1,round(.6*self.s)))
+        yy=809
+        for i,text in enumerate(beat["screen_lines"][1:]):
+            yy=self._paragraph(im,(66,yy),text,23,590,bold=True,ident=f"album_caption_{i}")+7
+        qualifier="资料图" if record["is_file_photo"] else record["capture_date"].replace("-", ".")
+        if record["capture_date_precision"]=="unknown":
+            qualifier+="／拍摄日期未注明"
+        self._paragraph(im,(66,max(yy+8,887)),f'{record["credit"]} · {qualifier}',11,590,
+                        fill=C["muted"],ident="album_photo_credit",role="source")
+        self._last_photo_metadata={"asset_id":record.get("asset_id",record.get("id")),
+            "sha256":record["sha256"],"source_page_url":record["source_page_url"],
+            "image_url":record["image_url"],"original_caption":record["original_caption"],
+            "is_file_photo":record["is_file_photo"],"scene_event_id":binding["scene_event_id"]}
 
     def _closing(self, im, node, beat, returning=False):
         lines=beat["screen_lines"]
@@ -381,6 +489,7 @@ class ContentDrawer:
         if kind not in KINDS:
             raise ValueError(f"unsupported component: {kind}")
         self.text_boxes=[]
+        self._last_photo_metadata=None
         layer=self._new()
         if kind=="stage":
             phase=self.phases.get(node["phase_id"])
@@ -403,7 +512,9 @@ class ContentDrawer:
                              "market_anchor":beat.get("market_anchor"),
                              "historical_date":beat.get("historical_date"),
                              "date_precision":beat.get("date_precision"),
-                             "synthetic_archive_photography":False}
+                             "synthetic_archive_photography":False,
+                             "large_background_plate":kind=="album",
+                             "photo_asset":self._last_photo_metadata}
         return layer
 
     def overlay(self, image: Image.Image, node_id: str, beat_index: int = 0,
