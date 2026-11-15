@@ -1,0 +1,37 @@
+{
+  "purpose": "component_motion_study_not_full_representative_pack",
+  "passed": true,
+  "checks": {
+    "one_video_stream": true,
+    "silent_no_audio": true,
+    "frame_count": true,
+    "dimensions": true,
+    "fps": true,
+    "duration": true,
+    "full_decode": true,
+    "inputs_unchanged_during_render": true
+  },
+  "video_sha256": "876116044b365565141d75cdd6d609c34f88a112174e4c75a8fd35d2a387d102",
+  "dependency_sha256": {
+    "/workspace/chinext-index-story/tools/preview_components.py": "2c7a43f1da27e1249688a9c3bed066058ef4257f58076eeef45e9ee1fdf50844",
+    "/workspace/chinext-index-story/src/chinext_v6/content_components.py": "70a89fa6854fdcd016ce268a1bd805f80700747ad04170c801b0eec48c2ef14e",
+    "/workspace/chinext-index-story/src/chinext_v6/drawing.py": "6018f774cfda92712219b16ac1273d80dd7074becccb1feeb4f702bf8c71f449",
+    "/workspace/chinext-index-story/src/chinext_v6/model.py": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef",
+    "/workspace/chinext-index-story/src/chinext_v6/renderer.py": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f",
+    "/workspace/chinext-index-story/data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "/workspace/chinext-index-story/config/production/film_master_v1.json": "87b4383e800a59e9a5b860e9aeb742e28ecc70ebd61642edfb5c537f5bbffc3b",
+    "/workspace/chinext-index-story/assets/earth_cinematic.png": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197",
+    "/workspace/chinext-index-story/assets/earth_body.png": "a619239f32ba3ae6c9b5ee692ca0116a62d736f9f80bb72e8192b8238eecb253",
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf": "2cc07734aa87334774ff8355eeb5f082baa164502457d8eab8fff66196cdd400"
+  },
+  "master_sha256": "87b4383e800a59e9a5b860e9aeb742e28ecc70ebd61642edfb5c537f5bbffc3b",
+  "frame_count": 1080,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration_seconds": 36.0,
+  "audio": false,
+  "actual_readability_review": "pending_representative_sample"
+}

@@ -5,6 +5,8 @@ description: Inspect actual ChiNext rendered frames and media, compare the appro
 
 # Render review and repair
 
+Current roadmap and screen-copy files are under `docs/production/`. The accepted main visual system is retained; new component studies and integrated representative clips must be reported separately. `tools/preview_components.py` produces the component study. A successful component preview is not evidence that the 2015 enhanced narrative, new album sequence or complete film is finished. Use the next integrated scene renderer for those deliverables and inspect the actual media before the concentrated representative review.
+
 Use after any material visual/timing change, before the sample review, and before full-film delivery. Read the production specification and run the data/time skill first. This skill requires inspection of actual output; code inspection or a green test suite alone is insufficient.
 
 ## Prepare the review pack

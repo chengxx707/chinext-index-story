@@ -1,4 +1,4 @@
-.PHONY: setup test storyboard keyframes sample ending review
+.PHONY: setup test storyboard production-docs production-check components keyframes sample ending review
 TASK_PYTHON := .venv/bin/python
 setup:
 	bash tools/setup.sh
@@ -6,6 +6,13 @@ test:
 	$(TASK_PYTHON) -m pytest -q
 storyboard:
 	$(TASK_PYTHON) tools/build_storyboard.py
+production-docs:
+	$(TASK_PYTHON) tools/export_production_docs.py
+production-check:
+	$(TASK_PYTHON) tools/export_production_docs.py --check
+	$(TASK_PYTHON) tools/compile_film.py --report output/production/compile_checks.json
+components:
+	$(TASK_PYTHON) tools/preview_components.py --keyframes --video --output-dir output/content_components_v1
 keyframes:
 	$(TASK_PYTHON) render_v6.py --keyframes --output-dir output/v6_review
 sample:

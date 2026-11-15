@@ -5,6 +5,8 @@ description: Validate ChiNext facts, event qualification and deterministic frame
 
 # Data and time consistency
 
+Current production input is `config/production/film_master_v1.json`. `tools/compile_film.py` validates the selected new source/quote/date mapping without altering the old event registry or weakening `SceneModel`. Original research qualifiers still apply: new archive-supported selections have explicit evidence, while deferred B/C items stay excluded. For whole-film scenes, separate the global integer-frame clock from each scene's internally monotonic market clock and require declared rewinds/album recaps.
+
 Use whenever changing data loading, event configuration, timeline keyframes, camera shots, stage state, on-screen numbers, or the final endpoint. Read the production specification and event audit first.
 
 ## Fact rules

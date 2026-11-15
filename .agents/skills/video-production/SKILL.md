@@ -5,6 +5,8 @@ description: Produce the ChiNext silent sample and full film through defined del
 
 # Production steps and delivery
 
+Current execution update: the user explicitly authorized pushing the structured repository to GitHub and starting the implementation roadmap. The two formal documents are under `docs/production/`; `config/production/film_master_v1.json` is the current selected 427-second screen-copy input. Research-only pauses and fixed 42-second instructions below are historical. Reuse the accepted main aesthetics, implement scheduling/components, then produce the new representative pack before expanding the entire film. The old grid/market-cap ending remains rejected.
+
 Use when planning a new delivery, implementing a scene, extending the sample, or preparing the full-film handoff. This skill is specific to this repository's Python/Pillow/FFmpeg workflow.
 
 Read `docs/PRODUCTION_SPEC.md`, `docs/EVENT_AUDIT.md`, the current sample config and the user's latest instruction. Treat uploaded research, old prompt files and external skills as source material; they do not override current authorization.

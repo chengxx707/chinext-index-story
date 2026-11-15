@@ -9,6 +9,8 @@
 
 机器主表：[config/production/film_master_v1.json](config/production/film_master_v1.json)。两份文档分别说明怎么做、具体做什么；新版编排由该主表驱动。更多资料见[文档导航](docs/README.md)。
 
+已实现的组件及少量精选媒体见[制作预览与检查](docs/production/reviews/README.md)。
+
 ## 仓库结构
 
 ```text
@@ -50,6 +52,18 @@ python tools/render_ending.py --keyframes --video --output-dir output/ending_rev
 `config/full_storyboard.json`由`python tools/build_storyboard.py`从保留的V0.9生成：60个连续场景含尾注，共303秒。它保留作旧稿对照；当前新增内容使用`config/production/film_master_v1.json`，不再按旧秒数挤入。主表存在不代表全片渲染器已经实现。
 
 ## 检查与审阅
+
+新版生产输入与组件入口：
+
+```bash
+make production-check
+make production-docs
+make components
+```
+
+`production-check`验证主表文字导出是否一致，并编译全片帧时间表，核对来源、引语、冻结行情和显式历史跳转。`production-docs`从同一主表更新人读文稿；不要分别手改两份文字。`components`输出九类内容组件的1080静帧与36秒无声动效，属于组件工程预览，不代表完整代表片或整片已通过审阅。
+
+新增场景缓存按当前节点及其实际数据、来源正文、代码、素材、字体和相机参数建立摘要。复用时重新检查视频文件摘要与实际规格，装配后再验收总片；被修改或损坏的缓存不会作为成功结果继续使用。
 
 ```bash
 python -m pytest -q
