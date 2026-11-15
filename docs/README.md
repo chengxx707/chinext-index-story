@@ -7,6 +7,7 @@
 - [制作规范](PRODUCTION_SPEC.md)：最新制作范围与口径。
 - [质量关卡](QUALITY_GATES.md)：数据、时间、版式与实际媒体检查。
 - [制作预览与检查](production/reviews/README.md)：可直接从GitHub查看的精选静帧、组件动效和检查记录。
+- [实施进度](production/实施进度.md)：已实现范围、验证结果与当前审片节点。
 
 ## 目录分工
 

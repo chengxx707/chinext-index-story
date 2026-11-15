@@ -9,7 +9,7 @@
 
 机器主表：[config/production/film_master_v1.json](config/production/film_master_v1.json)。两份文档分别说明怎么做、具体做什么；新版编排由该主表驱动。更多资料见[文档导航](docs/README.md)。
 
-已实现的组件及少量精选媒体见[制作预览与检查](docs/production/reviews/README.md)。
+已生成97秒2015增强段和39秒时代相册收束，目标1080×1920、30fps、无音轨；技术与静帧检查已执行，实际阅读与节奏待代表包集中观看。视频和解码联系表见[制作预览与检查](docs/production/reviews/README.md)，实现范围和84项测试记录见[实施进度](docs/production/实施进度.md)。完整八阶段成片尚未扩展。
 
 ## 仓库结构
 
@@ -59,9 +59,13 @@ python tools/render_ending.py --keyframes --video --output-dir output/ending_rev
 make production-check
 make production-docs
 make components
+make representative
+make album
 ```
 
 `production-check`验证主表文字导出是否一致，并编译全片帧时间表，核对来源、引语、冻结行情和显式历史跳转。`production-docs`从同一主表更新人读文稿；不要分别手改两份文字。`components`输出九类内容组件的1080静帧与36秒无声动效，属于组件工程预览，不代表完整代表片或整片已通过审阅。
+
+`representative`生成S07—S15的97秒2015增强段；`album`生成A01—C03的39秒相册与收束。两者复用主表、既有行情模型、新组件和场景缓存，完整视频经实际解码和黑场检查后写出清单。当前集成渲染入口明确限制在代表范围，整片其他阶段将在代表片集中观看后扩展。支持`--width 720`内部预览；默认1080为目标规格。
 
 新增场景缓存按当前节点及其实际数据、来源正文、代码、素材、字体和相机参数建立摘要。复用时重新检查视频文件摘要与实际规格，装配后再验收总片；被修改或损坏的缓存不会作为成功结果继续使用。
 

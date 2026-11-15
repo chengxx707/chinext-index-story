@@ -1,0 +1,60 @@
+[
+  {
+    "kind": "2015",
+    "seconds": 97.0,
+    "frames": 2910,
+    "width": 1080,
+    "height": 1920,
+    "media_checks": {
+      "one_video_stream": true,
+      "no_audio_stream": true,
+      "dimensions": true,
+      "frame_rate": true,
+      "frame_count": true,
+      "duration": true,
+      "probe_without_decode_errors": true,
+      "full_decode": true
+    },
+    "blackdetect": {
+      "passed": true,
+      "intervals": [],
+      "filter": "blackdetect=d=0.1:pic_th=0.98:pix_th=0.02"
+    },
+    "layout_passed": true,
+    "continuous_market_boundaries": true,
+    "decoded_review_frames": 16,
+    "decoded_seam_frames": 16,
+    "master_sha256": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "video_sha256": "9a62d8656c019793670158c666aa879b10076d4ba5a6e6890ade8cd8995eada8",
+    "manual_realtime_playback": "not_performed_in_environment; concentrated user review pending"
+  },
+  {
+    "kind": "album",
+    "seconds": 39.0,
+    "frames": 1170,
+    "width": 1080,
+    "height": 1920,
+    "media_checks": {
+      "one_video_stream": true,
+      "no_audio_stream": true,
+      "dimensions": true,
+      "frame_rate": true,
+      "frame_count": true,
+      "duration": true,
+      "probe_without_decode_errors": true,
+      "full_decode": true
+    },
+    "blackdetect": {
+      "passed": true,
+      "intervals": [],
+      "filter": "blackdetect=d=0.1:pic_th=0.98:pix_th=0.02"
+    },
+    "layout_passed": true,
+    "continuous_market_boundaries": true,
+    "decoded_review_frames": 8,
+    "decoded_seam_frames": 14,
+    "master_sha256": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "video_sha256": "eb56885c952117b114ac6da83fc26ba4a309f530519c28eae31fd3b08ec26717",
+    "manual_realtime_playback": "not_performed_in_environment; concentrated user review pending"
+  }
+]

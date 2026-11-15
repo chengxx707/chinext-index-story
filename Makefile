@@ -1,4 +1,4 @@
-.PHONY: setup test storyboard production-docs production-check components keyframes sample ending review
+.PHONY: setup test storyboard production-docs production-check components representative album keyframes sample ending review
 TASK_PYTHON := .venv/bin/python
 setup:
 	bash tools/setup.sh
@@ -13,6 +13,10 @@ production-check:
 	$(TASK_PYTHON) tools/compile_film.py --report output/production/compile_checks.json
 components:
 	$(TASK_PYTHON) tools/preview_components.py --keyframes --video --output-dir output/content_components_v1
+representative:
+	$(TASK_PYTHON) tools/render_film.py --from-node S07 --to-node S15 --keyframes --video --workers 2 --output-dir output/representative_2015_v1
+album:
+	$(TASK_PYTHON) tools/render_film.py --from-node A01 --to-node C03 --keyframes --video --workers 2 --output-dir output/representative_album_v1
 keyframes:
 	$(TASK_PYTHON) render_v6.py --keyframes --output-dir output/v6_review
 sample:

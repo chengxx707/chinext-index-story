@@ -219,7 +219,9 @@ class ContentDrawer:
         phase = self.phases.get(node["phase_id"])
         if not phase:
             return
-        self._text(im,(65,269),phase["title"],13,fill=(156,173,185,255),
+        # Keep context in the left HUD band: high candles can reach y=250,
+        # and must not pass through the stage wording during an extremum.
+        self._text(im,(65,219),phase["title"],13,fill=(156,173,185,255),
                    ident="phase_context",role="context")
 
     def _source(self, im, beat, x, y, width):

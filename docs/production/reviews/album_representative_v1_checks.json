@@ -1,0 +1,5493 @@
+{
+  "status": "rendered_technical_checks_passed_manual_review_pending",
+  "path": "/workspace/chinext-index-story/output/representative_album_v1/chinext_A01_C03.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frame_count": 1170,
+  "duration_seconds": 39.0,
+  "audio": "none",
+  "cache_hits": 0,
+  "cache_misses": 8,
+  "scenes": [
+    {
+      "node_id": "A01",
+      "key": "4da70d4ea6d29286daab98edd22ba360525dd7e2cdd87720d3ec9559ae205a15",
+      "status": "rendered",
+      "path": "/workspace/chinext-index-story/output/scene_cache/4da70d4ea6d29286daab98edd22ba360525dd7e2cdd87720d3ec9559ae205a15.mp4",
+      "frames": 120,
+      "previous_observation": "2010-06-01",
+      "next_observation": "2013-07-31"
+    },
+    {
+      "node_id": "A02",
+      "key": "680b81c2c138781e2c415cca5d932ff3a96b5b5e32ea1aaf27995c5df949374f",
+      "status": "rendered",
+      "path": "/workspace/chinext-index-story/output/scene_cache/680b81c2c138781e2c415cca5d932ff3a96b5b5e32ea1aaf27995c5df949374f.mp4",
+      "frames": 150,
+      "previous_observation": "2010-06-01",
+      "next_observation": "2018-06-11"
+    },
+    {
+      "node_id": "A03",
+      "key": "3a5cd750fa65019893b64e0464d845299a07bc8baab254de0277ecffad691857",
+      "status": "rendered",
+      "path": "/workspace/chinext-index-story/output/scene_cache/3a5cd750fa65019893b64e0464d845299a07bc8baab254de0277ecffad691857.mp4",
+      "frames": 150,
+      "previous_observation": "2013-07-31",
+      "next_observation": "2020-08-24"
+    },
+    {
+      "node_id": "A04",
+      "key": "5603a920d02145b8fff2442017e1511d7cc189dbfa23f38514a1634133cd701d",
+      "status": "rendered",
+      "path": "/workspace/chinext-index-story/output/scene_cache/5603a920d02145b8fff2442017e1511d7cc189dbfa23f38514a1634133cd701d.mp4",
+      "frames": 150,
+      "previous_observation": "2018-06-11",
+      "next_observation": "2023-02-17"
+    },
+    {
+      "node_id": "A05",
+      "key": "3ae9b861ab69024d35800e768fc4d3b77110ea1a9e4999f53a93edcb977e4c41",
+      "status": "rendered",
+      "path": "/workspace/chinext-index-story/output/scene_cache/3ae9b861ab69024d35800e768fc4d3b77110ea1a9e4999f53a93edcb977e4c41.mp4",
+      "frames": 150,
+      "previous_observation": "2020-08-24",
+      "next_observation": "2026-11-10"
+    },
+    {
+      "node_id": "C01",
+      "key": "6ddf1a06b5d7786981cb6e29b63e684c929e288ff16eaaec30fb5d1e5d0fc9e6",
+      "status": "rendered",
+      "path": "/workspace/chinext-index-story/output/scene_cache/6ddf1a06b5d7786981cb6e29b63e684c929e288ff16eaaec30fb5d1e5d0fc9e6.mp4",
+      "frames": 150,
+      "previous_observation": "2023-02-17",
+      "next_observation": "2026-11-10"
+    },
+    {
+      "node_id": "C02",
+      "key": "98068d188215af64be1b0fa6b12db7e3daad43c08128f0b76e464ac9627bd6f3",
+      "status": "rendered",
+      "path": "/workspace/chinext-index-story/output/scene_cache/98068d188215af64be1b0fa6b12db7e3daad43c08128f0b76e464ac9627bd6f3.mp4",
+      "frames": 120,
+      "previous_observation": "2023-02-17",
+      "next_observation": "2026-11-10"
+    },
+    {
+      "node_id": "C03",
+      "key": "46cb39da737f423a2fc1e49132db33aa324d578c0578eebdf8d2a82a98fb4174",
+      "status": "rendered",
+      "path": "/workspace/chinext-index-story/output/scene_cache/46cb39da737f423a2fc1e49132db33aa324d578c0578eebdf8d2a82a98fb4174.mp4",
+      "frames": 180,
+      "previous_observation": "2023-02-17",
+      "next_observation": null
+    }
+  ],
+  "media": {
+    "passed": true,
+    "checks": {
+      "one_video_stream": true,
+      "no_audio_stream": true,
+      "dimensions": true,
+      "frame_rate": true,
+      "frame_count": true,
+      "duration": true,
+      "probe_without_decode_errors": true,
+      "full_decode": true
+    },
+    "path": "/workspace/chinext-index-story/output/representative_album_v1/chinext_A01_C03.mp4",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1080,
+          "height": 1920,
+          "coded_width": 1088,
+          "coded_height": 1920,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 2,
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 4,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 599040,
+          "duration": "39.000000",
+          "bit_rate": "366151",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "1170",
+          "nb_read_frames": "1170",
+          "extradata_size": 47,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc61.19.101 libx264"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/workspace/chinext-index-story/output/representative_album_v1/.assemble-l3x0bc1n/assembled.partial.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "39.000000",
+        "size": "1799723",
+        "bit_rate": "369173",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf61.7.103"
+        }
+      }
+    },
+    "output_sha256": "eb56885c952117b114ac6da83fc26ba4a309f530519c28eae31fd3b08ec26717",
+    "segment_count": 8,
+    "segment_frame_counts": [
+      120,
+      150,
+      150,
+      150,
+      150,
+      150,
+      120,
+      180
+    ],
+    "segments": [
+      "/workspace/chinext-index-story/output/scene_cache/4da70d4ea6d29286daab98edd22ba360525dd7e2cdd87720d3ec9559ae205a15.mp4",
+      "/workspace/chinext-index-story/output/scene_cache/680b81c2c138781e2c415cca5d932ff3a96b5b5e32ea1aaf27995c5df949374f.mp4",
+      "/workspace/chinext-index-story/output/scene_cache/3a5cd750fa65019893b64e0464d845299a07bc8baab254de0277ecffad691857.mp4",
+      "/workspace/chinext-index-story/output/scene_cache/5603a920d02145b8fff2442017e1511d7cc189dbfa23f38514a1634133cd701d.mp4",
+      "/workspace/chinext-index-story/output/scene_cache/3ae9b861ab69024d35800e768fc4d3b77110ea1a9e4999f53a93edcb977e4c41.mp4",
+      "/workspace/chinext-index-story/output/scene_cache/6ddf1a06b5d7786981cb6e29b63e684c929e288ff16eaaec30fb5d1e5d0fc9e6.mp4",
+      "/workspace/chinext-index-story/output/scene_cache/98068d188215af64be1b0fa6b12db7e3daad43c08128f0b76e464ac9627bd6f3.mp4",
+      "/workspace/chinext-index-story/output/scene_cache/46cb39da737f423a2fc1e49132db33aa324d578c0578eebdf8d2a82a98fb4174.mp4"
+    ],
+    "assembly_mode": "stream_copy"
+  },
+  "blackdetect": {
+    "passed": true,
+    "intervals": [],
+    "filter": "blackdetect=d=0.1:pic_th=0.98:pix_th=0.02"
+  },
+  "master_path": "/workspace/chinext-index-story/config/production/film_master_v1.json",
+  "master_sha256": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+  "output_sha256": "eb56885c952117b114ac6da83fc26ba4a309f530519c28eae31fd3b08ec26717",
+  "elapsed_seconds": 82.87,
+  "motion_mode": "continuous_historical_annotations_v1",
+  "motion_and_readability_review": "pending_actual_representative_playback",
+  "scene_signatures": {
+    "A01": {
+      "schema_version": 1,
+      "node": {
+        "id": "A01",
+        "phase_id": "ending",
+        "title": "相册：指数诞生",
+        "historical_period": "2010.06.01（历史回看）",
+        "role": "album",
+        "beats": [
+          {
+            "duration_seconds": 4,
+            "screen_lines": [
+              "2010｜指数诞生",
+              "关于编制和发布创业板指数的公告"
+            ],
+            "historical_date": "2010-06-01",
+            "date_precision": "day",
+            "market_anchor": "2010-06-01",
+            "source_line": "深交所｜文献节选重排",
+            "implementation_note": "",
+            "direct_quotes": [],
+            "start_seconds": 388,
+            "start_frame": 11640,
+            "end_seconds_exclusive": 392,
+            "end_frame_exclusive": 11760,
+            "planned_stable_seconds_min": 3,
+            "hud_label": "当日收盘"
+          }
+        ],
+        "source_ids": [
+          "AR06"
+        ],
+        "visual": "相册第一页使用已核公告题文，保留纸面边界与日期；当前行情HUD隐藏。",
+        "metrics": [],
+        "claim_ids": [],
+        "declared_time_jump": {
+          "kind": "declared_album_recap",
+          "from": "2026-11-10",
+          "to": "2010-06-01"
+        },
+        "production_note": "",
+        "selection_status": "selected_in_script_v1",
+        "start_seconds": 388,
+        "start_frame": 11640,
+        "end_seconds_exclusive": 392,
+        "duration_seconds": 4,
+        "end_frame_exclusive": 11760
+      },
+      "selected_sources": {
+        "AR06": {
+          "id": "AR06",
+          "kind": "user_supplied_local_archive",
+          "document": "assets/source_documents/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.html",
+          "extracted_text": "data/source_text/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.txt",
+          "sha256": "43ad5fb55b99e2b7ba89986b05a50cab4972c2d28995349b696b77f4d4941466",
+          "title": "关于编制和发布创业板指数的公告",
+          "reference_url": "https://www.szse.cn/disclosure/notice/t20100531_500454.html",
+          "date_context": {
+            "page_date": "2010-06-01",
+            "document_signed_date": "2010-05-31",
+            "index_launch_date": "2010-06-01",
+            "base_date": "2010-05-31"
+          },
+          "verification": "local_body_checked_not_new_online_fetch"
+        }
+      },
+      "source_files": [
+        {
+          "path": "assets/source_documents/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.html",
+          "sha256": "43ad5fb55b99e2b7ba89986b05a50cab4972c2d28995349b696b77f4d4941466"
+        },
+        {
+          "path": "data/source_text/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.txt",
+          "sha256": "1bd8af4c00ab15319c78bb77a0fb38462d9c53b30b448838eb93f394bf747ee1"
+        }
+      ],
+      "code": [
+        {
+          "path": "src/chinext_v6/content_components.py",
+          "sha256": "d18730f19cb8efc0a13eb16baab24cd3ac700ee37ece17cd447b7f7220fa338f"
+        },
+        {
+          "path": "src/chinext_v6/drawing.py",
+          "sha256": "6018f774cfda92712219b16ac1273d80dd7074becccb1feeb4f702bf8c71f449"
+        },
+        {
+          "path": "src/chinext_v6/film_renderer.py",
+          "sha256": "e03d327aa6c1be598cf86fbd8e0b0fe84e7cb80abaf93a6a242bd06e69327b9b"
+        },
+        {
+          "path": "src/chinext_v6/model.py",
+          "sha256": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef"
+        },
+        {
+          "path": "src/chinext_v6/production.py",
+          "sha256": "8b015f4c4df4a4cab3603aa49f76e6acba683737596a0921aa469b445f687a39"
+        },
+        {
+          "path": "src/chinext_v6/renderer.py",
+          "sha256": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f"
+        },
+        {
+          "path": "src/chinext_v6/scene_cache.py",
+          "sha256": "cb53204e71ebcaf277f78e2e5d5bc9dcaa426f8571260db053cec83c90e95048"
+        }
+      ],
+      "assets": [
+        {
+          "path": "assets/earth_cinematic.png",
+          "sha256": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197"
+        },
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        }
+      ],
+      "fonts": [
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+          "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb"
+        },
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+          "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+        },
+        {
+          "path": "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf",
+          "sha256": "2cc07734aa87334774ff8355eeb5f082baa164502457d8eab8fff66196cdd400"
+        }
+      ],
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "extra": {
+        "motion_mode": "continuous_historical_annotations_v1",
+        "derived_config": {
+          "version": "master_representative_v1",
+          "purpose": "代表片验证，非完整成片",
+          "video": {
+            "width": 1080,
+            "height": 1920,
+            "fps": 30,
+            "duration_seconds": 4.0,
+            "audio": false,
+            "preset": "fast",
+            "crf": 18
+          },
+          "sample": {
+            "timeline_start": "2008-01-01",
+            "timeline_end": "2029-01-01",
+            "timeline_years": []
+          },
+          "playhead_keyframes": [
+            {
+              "t": 0.0,
+              "date": "2010-06-01"
+            },
+            {
+              "t": 1.5,
+              "date": "2010-06-01"
+            },
+            {
+              "t": 4.0,
+              "date": "2010-06-01"
+            }
+          ],
+          "camera_shots": [
+            {
+              "id": "A01_b00",
+              "start_t": 0.0,
+              "end_t": 4.0,
+              "visible_days_start": 100,
+              "visible_days_end": 100,
+              "current_x_start": 0.78,
+              "current_x_end": 0.78,
+              "y_policy": "lookahead_locked",
+              "transition_seconds": 0.3
+            }
+          ],
+          "critical_points": [],
+          "stage_rail": {
+            "single_active_track": true,
+            "modes": [
+              {
+                "id": "rise_from_low",
+                "label": "阶段上涨",
+                "start_date": "2012-12-03",
+                "end_date": "2015-06-03"
+              },
+              {
+                "id": "drawdown_from_high",
+                "label": "高点后回撤",
+                "start_date": "2015-06-03",
+                "end_date": "2015-07-07"
+              },
+              {
+                "id": "july_rebound",
+                "label": "阶段反弹",
+                "start_date": "2015-07-07",
+                "end_date": "2015-07-23"
+              },
+              {
+                "id": "drawdown_after_rebound",
+                "label": "7月反弹后回撤",
+                "start_date": "2015-07-23",
+                "end_date": "2015-09-15"
+              }
+            ]
+          },
+          "style": {}
+        },
+        "beat_timings": [
+          {
+            "start_frame": 0,
+            "end_frame_exclusive": 120,
+            "observation_date": "2010-06-01",
+            "next_observation_date": "2010-06-01",
+            "content_delay_seconds": 0.0,
+            "hold_seconds": 1.5,
+            "historical_date": "2010-06-01",
+            "date_precision": "day",
+            "freeze_market": false,
+            "actual_entry_observation": "2010-06-01",
+            "actual_exit_observation": "2010-06-01"
+          }
+        ],
+        "previous_observation": "2026-11-10",
+        "next_observation": "2013-07-31",
+        "previous_actual_exit_observation": "2010-06-01",
+        "actual_exit_observation": "2010-06-01",
+        "derived_config_sha256": "32b8981792ca040ffeba89d02abe15feb6e857b50c54f88235c752330dedd8a6",
+        "derived_events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "phase": null,
+        "header": {
+          "header": [
+            "CHINEXT INDEX",
+            "创业板指（399006）",
+            "中国创业板市场代表指数"
+          ],
+          "hud": [
+            "{当前交易日期 YYYY.MM.DD}",
+            "{该日真实收盘，2位小数}",
+            "当日收盘"
+          ],
+          "footers": [
+            "日线开高低收 · 价格指数 · 不含分红",
+            "东方财富公开接口 / 数据截至2026.11.10"
+          ],
+          "rail_labels": [
+            "阶段上涨",
+            "高点后回撤",
+            "阶段反弹"
+          ],
+          "policy_day_note": "非交易日及盘中政策使用已完成的上一交易日收盘，并标“上一交易日”；事件卡保留真实事件日。"
+        }
+      }
+    },
+    "A02": {
+      "schema_version": 1,
+      "node": {
+        "id": "A02",
+        "phase_id": "ending",
+        "title": "相册：企业的跨界记忆",
+        "historical_period": "2013.07（历史回看）",
+        "role": "album",
+        "beats": [
+          {
+            "duration_seconds": 5,
+            "screen_lines": [
+              "2013｜手游并购",
+              "华谊兄弟 · 银汉科技"
+            ],
+            "historical_date": "2013-07",
+            "date_precision": "month",
+            "market_anchor": null,
+            "source_line": "本片历史题签｜据提供研究",
+            "implementation_note": "",
+            "direct_quotes": [],
+            "start_seconds": 392,
+            "start_frame": 11760,
+            "end_seconds_exclusive": 397,
+            "end_frame_exclusive": 11910,
+            "planned_stable_seconds_min": 4,
+            "hud_label": "当日收盘"
+          }
+        ],
+        "source_ids": [
+          "U:huayi_2013",
+          "CSV"
+        ],
+        "visual": "本片2013真实指数行情静帧作回忆页，企业作题签；未取得原图前不使用媒体报头或AI历史照片。",
+        "metrics": [],
+        "claim_ids": [],
+        "declared_time_jump": null,
+        "production_note": "",
+        "selection_status": "selected_in_script_v1",
+        "start_seconds": 392,
+        "start_frame": 11760,
+        "end_seconds_exclusive": 397,
+        "duration_seconds": 5,
+        "end_frame_exclusive": 11910
+      },
+      "selected_sources": {
+        "CSV": {
+          "id": "CSV",
+          "kind": "local_market_data",
+          "document": "data/cyb_daily.csv",
+          "rows": 3992,
+          "date_range": [
+            "2010-06-01",
+            "2026-11-10"
+          ],
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+          "description": "本地冻结OHLC；价格和收益本轮复算；原采集口径为东方财富公开接口。"
+        },
+        "U:huayi_2013": {
+          "id": "U:huayi_2013",
+          "kind": "supplied_documentary_A",
+          "claim_id": "huayi_2013",
+          "evidence": {
+            "document": "docs/source/events_source_20261113.md",
+            "section": "5.2 · 企业一",
+            "publishers": [
+              "人民网三篇",
+              "中证网",
+              "华夏时报"
+            ],
+            "urls": [],
+            "verification": "user_supplied_A_not_new_online_verification",
+            "supplied_document_excerpts": [
+              "- 2013-07-24 华谊兄弟复牌：以 6.72 亿元、15.87 倍溢价收购手游公司银汉科技 50.88% 股权，复牌三连板；年初约 14 元 → 10-08 盘中 81.8 元历史新高，**市值 490 亿元，超过碧水源成为创业板市值最大公司**；同年天舟文化复牌八连板、乐视网年内涨约 5.2 倍。"
+            ],
+            "excerpt_scope": "verbatim excerpt of user-uploaded research note; not newly retrieved original media quotation"
+          },
+          "description": "据用户原研究已定A级事实；本地未取得相应原始媒体页面，不以该记录制作原题截图或逐字媒体引语。"
+        }
+      },
+      "source_files": [
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        },
+        {
+          "path": "docs/source/events_source_20261113.md",
+          "sha256": "a7c2d2bc200fd88ba8255ff5b5df1418ed326aece83d58754334148535c973f2"
+        }
+      ],
+      "code": [
+        {
+          "path": "src/chinext_v6/content_components.py",
+          "sha256": "d18730f19cb8efc0a13eb16baab24cd3ac700ee37ece17cd447b7f7220fa338f"
+        },
+        {
+          "path": "src/chinext_v6/drawing.py",
+          "sha256": "6018f774cfda92712219b16ac1273d80dd7074becccb1feeb4f702bf8c71f449"
+        },
+        {
+          "path": "src/chinext_v6/film_renderer.py",
+          "sha256": "e03d327aa6c1be598cf86fbd8e0b0fe84e7cb80abaf93a6a242bd06e69327b9b"
+        },
+        {
+          "path": "src/chinext_v6/model.py",
+          "sha256": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef"
+        },
+        {
+          "path": "src/chinext_v6/production.py",
+          "sha256": "8b015f4c4df4a4cab3603aa49f76e6acba683737596a0921aa469b445f687a39"
+        },
+        {
+          "path": "src/chinext_v6/renderer.py",
+          "sha256": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f"
+        },
+        {
+          "path": "src/chinext_v6/scene_cache.py",
+          "sha256": "cb53204e71ebcaf277f78e2e5d5bc9dcaa426f8571260db053cec83c90e95048"
+        }
+      ],
+      "assets": [
+        {
+          "path": "assets/earth_cinematic.png",
+          "sha256": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197"
+        },
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        }
+      ],
+      "fonts": [
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+          "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb"
+        },
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+          "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+        },
+        {
+          "path": "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf",
+          "sha256": "2cc07734aa87334774ff8355eeb5f082baa164502457d8eab8fff66196cdd400"
+        }
+      ],
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "extra": {
+        "motion_mode": "continuous_historical_annotations_v1",
+        "derived_config": {
+          "version": "master_representative_v1",
+          "purpose": "代表片验证，非完整成片",
+          "video": {
+            "width": 1080,
+            "height": 1920,
+            "fps": 30,
+            "duration_seconds": 5.0,
+            "audio": false,
+            "preset": "fast",
+            "crf": 18
+          },
+          "sample": {
+            "timeline_start": "2008-01-01",
+            "timeline_end": "2029-01-01",
+            "timeline_years": []
+          },
+          "playhead_keyframes": [
+            {
+              "t": 0.0,
+              "date": "2010-06-01"
+            },
+            {
+              "t": 0.4,
+              "date": "2013-07-31"
+            },
+            {
+              "t": 1.9,
+              "date": "2013-07-31"
+            },
+            {
+              "t": 5.0,
+              "date": "2013-07-31"
+            }
+          ],
+          "camera_shots": [
+            {
+              "id": "A02_b00",
+              "start_t": 0.0,
+              "end_t": 5.0,
+              "visible_days_start": 100,
+              "visible_days_end": 100,
+              "current_x_start": 0.78,
+              "current_x_end": 0.78,
+              "y_policy": "lookahead_locked",
+              "transition_seconds": 0.3
+            }
+          ],
+          "critical_points": [],
+          "stage_rail": {
+            "single_active_track": true,
+            "modes": [
+              {
+                "id": "rise_from_low",
+                "label": "阶段上涨",
+                "start_date": "2012-12-03",
+                "end_date": "2015-06-03"
+              },
+              {
+                "id": "drawdown_from_high",
+                "label": "高点后回撤",
+                "start_date": "2015-06-03",
+                "end_date": "2015-07-07"
+              },
+              {
+                "id": "july_rebound",
+                "label": "阶段反弹",
+                "start_date": "2015-07-07",
+                "end_date": "2015-07-23"
+              },
+              {
+                "id": "drawdown_after_rebound",
+                "label": "7月反弹后回撤",
+                "start_date": "2015-07-23",
+                "end_date": "2015-09-15"
+              }
+            ]
+          },
+          "style": {}
+        },
+        "beat_timings": [
+          {
+            "start_frame": 0,
+            "end_frame_exclusive": 150,
+            "observation_date": "2013-07-31",
+            "next_observation_date": "2013-07-31",
+            "content_delay_seconds": 0.4,
+            "hold_seconds": 1.5,
+            "historical_date": "2013-07",
+            "date_precision": "month",
+            "freeze_market": false,
+            "actual_entry_observation": "2010-06-01",
+            "actual_exit_observation": "2013-07-31"
+          }
+        ],
+        "previous_observation": "2010-06-01",
+        "next_observation": "2018-06-11",
+        "previous_actual_exit_observation": "2010-06-01",
+        "actual_exit_observation": "2013-07-31",
+        "derived_config_sha256": "bbe4ad095c6cbb5aa1cad2a7f0cbc0cf8a3ee4df302829af28f1f1fbb3322317",
+        "derived_events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "phase": null,
+        "header": {
+          "header": [
+            "CHINEXT INDEX",
+            "创业板指（399006）",
+            "中国创业板市场代表指数"
+          ],
+          "hud": [
+            "{当前交易日期 YYYY.MM.DD}",
+            "{该日真实收盘，2位小数}",
+            "当日收盘"
+          ],
+          "footers": [
+            "日线开高低收 · 价格指数 · 不含分红",
+            "东方财富公开接口 / 数据截至2026.11.10"
+          ],
+          "rail_labels": [
+            "阶段上涨",
+            "高点后回撤",
+            "阶段反弹"
+          ],
+          "policy_day_note": "非交易日及盘中政策使用已完成的上一交易日收盘，并标“上一交易日”；事件卡保留真实事件日。"
+        }
+      }
+    },
+    "A03": {
+      "schema_version": 1,
+      "node": {
+        "id": "A03",
+        "phase_id": "ending",
+        "title": "相册：企业登场",
+        "historical_period": "2018.06.11（历史回看）",
+        "role": "album",
+        "beats": [
+          {
+            "duration_seconds": 5,
+            "screen_lines": [
+              "2018｜企业登场",
+              "宁德时代｜2018.06.11上市"
+            ],
+            "historical_date": "2018-06-11",
+            "date_precision": "day",
+            "market_anchor": "2018-06-11",
+            "source_line": "本片历史题签｜据提供研究",
+            "implementation_note": "",
+            "direct_quotes": [],
+            "start_seconds": 397,
+            "start_frame": 11910,
+            "end_seconds_exclusive": 402,
+            "end_frame_exclusive": 12060,
+            "planned_stable_seconds_min": 4,
+            "hud_label": "当日收盘"
+          }
+        ],
+        "source_ids": [
+          "U:catl_listing_2018",
+          "CSV"
+        ],
+        "visual": "2018本片行情回忆页加企业题签；将来如取得真实上市图，可同位替换，不换脚本接口。",
+        "metrics": [],
+        "claim_ids": [],
+        "declared_time_jump": null,
+        "production_note": "",
+        "selection_status": "selected_in_script_v1",
+        "start_seconds": 397,
+        "start_frame": 11910,
+        "end_seconds_exclusive": 402,
+        "duration_seconds": 5,
+        "end_frame_exclusive": 12060
+      },
+      "selected_sources": {
+        "CSV": {
+          "id": "CSV",
+          "kind": "local_market_data",
+          "document": "data/cyb_daily.csv",
+          "rows": 3992,
+          "date_range": [
+            "2010-06-01",
+            "2026-11-10"
+          ],
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+          "description": "本地冻结OHLC；价格和收益本轮复算；原采集口径为东方财富公开接口。"
+        },
+        "U:catl_listing_2018": {
+          "id": "U:catl_listing_2018",
+          "kind": "supplied_documentary_A",
+          "claim_id": "catl_listing_2018",
+          "evidence": {
+            "document": "docs/source/events_source_20261113.md",
+            "section": "5.2 · 企业三",
+            "publishers": [
+              "人民网两篇",
+              "中国网",
+              "企业观察网",
+              "每经"
+            ],
+            "urls": [],
+            "verification": "user_supplied_A_not_new_online_verification",
+            "supplied_document_excerpts": [
+              "- 2018-06-11 创业板上市：首日 +44% 收 36.20 元，市值 786.4 亿元，募资 54.62 亿元——**创业板史上最大 IPO**（此前纪录是 2010 年碧水源的 25.53 亿元）；从预披露更新到过会仅 24 天。当时创业板市值第一是温氏股份。"
+            ],
+            "excerpt_scope": "verbatim excerpt of user-uploaded research note; not newly retrieved original media quotation"
+          },
+          "description": "据用户原研究已定A级事实；本地未取得相应原始媒体页面，不以该记录制作原题截图或逐字媒体引语。"
+        }
+      },
+      "source_files": [
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        },
+        {
+          "path": "docs/source/events_source_20261113.md",
+          "sha256": "a7c2d2bc200fd88ba8255ff5b5df1418ed326aece83d58754334148535c973f2"
+        }
+      ],
+      "code": [
+        {
+          "path": "src/chinext_v6/content_components.py",
+          "sha256": "d18730f19cb8efc0a13eb16baab24cd3ac700ee37ece17cd447b7f7220fa338f"
+        },
+        {
+          "path": "src/chinext_v6/drawing.py",
+          "sha256": "6018f774cfda92712219b16ac1273d80dd7074becccb1feeb4f702bf8c71f449"
+        },
+        {
+          "path": "src/chinext_v6/film_renderer.py",
+          "sha256": "e03d327aa6c1be598cf86fbd8e0b0fe84e7cb80abaf93a6a242bd06e69327b9b"
+        },
+        {
+          "path": "src/chinext_v6/model.py",
+          "sha256": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef"
+        },
+        {
+          "path": "src/chinext_v6/production.py",
+          "sha256": "8b015f4c4df4a4cab3603aa49f76e6acba683737596a0921aa469b445f687a39"
+        },
+        {
+          "path": "src/chinext_v6/renderer.py",
+          "sha256": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f"
+        },
+        {
+          "path": "src/chinext_v6/scene_cache.py",
+          "sha256": "cb53204e71ebcaf277f78e2e5d5bc9dcaa426f8571260db053cec83c90e95048"
+        }
+      ],
+      "assets": [
+        {
+          "path": "assets/earth_cinematic.png",
+          "sha256": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197"
+        },
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        }
+      ],
+      "fonts": [
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+          "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb"
+        },
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+          "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+        },
+        {
+          "path": "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf",
+          "sha256": "2cc07734aa87334774ff8355eeb5f082baa164502457d8eab8fff66196cdd400"
+        }
+      ],
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "extra": {
+        "motion_mode": "continuous_historical_annotations_v1",
+        "derived_config": {
+          "version": "master_representative_v1",
+          "purpose": "代表片验证，非完整成片",
+          "video": {
+            "width": 1080,
+            "height": 1920,
+            "fps": 30,
+            "duration_seconds": 5.0,
+            "audio": false,
+            "preset": "fast",
+            "crf": 18
+          },
+          "sample": {
+            "timeline_start": "2008-01-01",
+            "timeline_end": "2029-01-01",
+            "timeline_years": []
+          },
+          "playhead_keyframes": [
+            {
+              "t": 0.0,
+              "date": "2013-07-31"
+            },
+            {
+              "t": 0.4,
+              "date": "2018-06-11"
+            },
+            {
+              "t": 1.9,
+              "date": "2018-06-11"
+            },
+            {
+              "t": 5.0,
+              "date": "2018-06-11"
+            }
+          ],
+          "camera_shots": [
+            {
+              "id": "A03_b00",
+              "start_t": 0.0,
+              "end_t": 5.0,
+              "visible_days_start": 100,
+              "visible_days_end": 100,
+              "current_x_start": 0.78,
+              "current_x_end": 0.78,
+              "y_policy": "lookahead_locked",
+              "transition_seconds": 0.3
+            }
+          ],
+          "critical_points": [],
+          "stage_rail": {
+            "single_active_track": true,
+            "modes": [
+              {
+                "id": "rise_from_low",
+                "label": "阶段上涨",
+                "start_date": "2012-12-03",
+                "end_date": "2015-06-03"
+              },
+              {
+                "id": "drawdown_from_high",
+                "label": "高点后回撤",
+                "start_date": "2015-06-03",
+                "end_date": "2015-07-07"
+              },
+              {
+                "id": "july_rebound",
+                "label": "阶段反弹",
+                "start_date": "2015-07-07",
+                "end_date": "2015-07-23"
+              },
+              {
+                "id": "drawdown_after_rebound",
+                "label": "7月反弹后回撤",
+                "start_date": "2015-07-23",
+                "end_date": "2015-09-15"
+              }
+            ]
+          },
+          "style": {}
+        },
+        "beat_timings": [
+          {
+            "start_frame": 0,
+            "end_frame_exclusive": 150,
+            "observation_date": "2018-06-11",
+            "next_observation_date": "2018-06-11",
+            "content_delay_seconds": 0.4,
+            "hold_seconds": 1.5,
+            "historical_date": "2018-06-11",
+            "date_precision": "day",
+            "freeze_market": false,
+            "actual_entry_observation": "2013-07-31",
+            "actual_exit_observation": "2018-06-11"
+          }
+        ],
+        "previous_observation": "2013-07-31",
+        "next_observation": "2020-08-24",
+        "previous_actual_exit_observation": "2013-07-31",
+        "actual_exit_observation": "2018-06-11",
+        "derived_config_sha256": "2387a37a8602be7decd7bf5b9d5726b5b98846642293f2ddabd8420cd55a8200",
+        "derived_events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "phase": null,
+        "header": {
+          "header": [
+            "CHINEXT INDEX",
+            "创业板指（399006）",
+            "中国创业板市场代表指数"
+          ],
+          "hud": [
+            "{当前交易日期 YYYY.MM.DD}",
+            "{该日真实收盘，2位小数}",
+            "当日收盘"
+          ],
+          "footers": [
+            "日线开高低收 · 价格指数 · 不含分红",
+            "东方财富公开接口 / 数据截至2026.11.10"
+          ],
+          "rail_labels": [
+            "阶段上涨",
+            "高点后回撤",
+            "阶段反弹"
+          ],
+          "policy_day_note": "非交易日及盘中政策使用已完成的上一交易日收盘，并标“上一交易日”；事件卡保留真实事件日。"
+        }
+      }
+    },
+    "A04": {
+      "schema_version": 1,
+      "node": {
+        "id": "A04",
+        "phase_id": "ending",
+        "title": "相册：注册制首批上市",
+        "historical_period": "2020.08.24（历史回看）",
+        "role": "album",
+        "beats": [
+          {
+            "duration_seconds": 5,
+            "screen_lines": [
+              "2020｜注册制首批上市",
+              "18家企业，一次新的登场"
+            ],
+            "historical_date": "2020-08-24",
+            "date_precision": "day",
+            "market_anchor": "2020-08-24",
+            "source_line": "深交所｜文献节选重排",
+            "implementation_note": "",
+            "direct_quotes": [],
+            "start_seconds": 402,
+            "start_frame": 12060,
+            "end_seconds_exclusive": 407,
+            "end_frame_exclusive": 12210,
+            "planned_stable_seconds_min": 4,
+            "hud_label": "当日收盘"
+          }
+        ],
+        "source_ids": [
+          "AR07"
+        ],
+        "visual": "使用已核深交所通稿局部，企业题签仅对应该页18家群体；不能拿乐视或宁德题签到这张仪式页。",
+        "metrics": [],
+        "claim_ids": [],
+        "declared_time_jump": null,
+        "production_note": "",
+        "selection_status": "selected_in_script_v1",
+        "start_seconds": 402,
+        "start_frame": 12060,
+        "end_seconds_exclusive": 407,
+        "duration_seconds": 5,
+        "end_frame_exclusive": 12210
+      },
+      "selected_sources": {
+        "AR07": {
+          "id": "AR07",
+          "kind": "user_supplied_local_archive",
+          "document": "assets/source_documents/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.html",
+          "extracted_text": "data/source_text/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.txt",
+          "sha256": "41e5250915b1a90a620a490f29769b1314f56f75ba9f401416f6a6c39b0e72a1",
+          "title": "创业板改革并试点注册制首批18家企业成功上市",
+          "reference_url": "https://www.szse.cn/aboutus/trends/news/t20200824_580949.html",
+          "date_context": {
+            "published_date": "2020-08-24",
+            "event_date": "2020-08-24"
+          },
+          "verification": "local_body_checked_not_new_online_fetch"
+        }
+      },
+      "source_files": [
+        {
+          "path": "assets/source_documents/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.html",
+          "sha256": "41e5250915b1a90a620a490f29769b1314f56f75ba9f401416f6a6c39b0e72a1"
+        },
+        {
+          "path": "data/source_text/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.txt",
+          "sha256": "b1d2dc0bc5ae4993865c9cfa9cc130a4dc5848a9ec87f8baa1652efb721508e7"
+        }
+      ],
+      "code": [
+        {
+          "path": "src/chinext_v6/content_components.py",
+          "sha256": "d18730f19cb8efc0a13eb16baab24cd3ac700ee37ece17cd447b7f7220fa338f"
+        },
+        {
+          "path": "src/chinext_v6/drawing.py",
+          "sha256": "6018f774cfda92712219b16ac1273d80dd7074becccb1feeb4f702bf8c71f449"
+        },
+        {
+          "path": "src/chinext_v6/film_renderer.py",
+          "sha256": "e03d327aa6c1be598cf86fbd8e0b0fe84e7cb80abaf93a6a242bd06e69327b9b"
+        },
+        {
+          "path": "src/chinext_v6/model.py",
+          "sha256": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef"
+        },
+        {
+          "path": "src/chinext_v6/production.py",
+          "sha256": "8b015f4c4df4a4cab3603aa49f76e6acba683737596a0921aa469b445f687a39"
+        },
+        {
+          "path": "src/chinext_v6/renderer.py",
+          "sha256": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f"
+        },
+        {
+          "path": "src/chinext_v6/scene_cache.py",
+          "sha256": "cb53204e71ebcaf277f78e2e5d5bc9dcaa426f8571260db053cec83c90e95048"
+        }
+      ],
+      "assets": [
+        {
+          "path": "assets/earth_cinematic.png",
+          "sha256": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197"
+        },
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        }
+      ],
+      "fonts": [
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+          "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb"
+        },
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+          "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+        },
+        {
+          "path": "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf",
+          "sha256": "2cc07734aa87334774ff8355eeb5f082baa164502457d8eab8fff66196cdd400"
+        }
+      ],
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "extra": {
+        "motion_mode": "continuous_historical_annotations_v1",
+        "derived_config": {
+          "version": "master_representative_v1",
+          "purpose": "代表片验证，非完整成片",
+          "video": {
+            "width": 1080,
+            "height": 1920,
+            "fps": 30,
+            "duration_seconds": 5.0,
+            "audio": false,
+            "preset": "fast",
+            "crf": 18
+          },
+          "sample": {
+            "timeline_start": "2008-01-01",
+            "timeline_end": "2029-01-01",
+            "timeline_years": []
+          },
+          "playhead_keyframes": [
+            {
+              "t": 0.0,
+              "date": "2018-06-11"
+            },
+            {
+              "t": 0.4,
+              "date": "2020-08-24"
+            },
+            {
+              "t": 1.9,
+              "date": "2020-08-24"
+            },
+            {
+              "t": 5.0,
+              "date": "2020-08-24"
+            }
+          ],
+          "camera_shots": [
+            {
+              "id": "A04_b00",
+              "start_t": 0.0,
+              "end_t": 5.0,
+              "visible_days_start": 100,
+              "visible_days_end": 100,
+              "current_x_start": 0.78,
+              "current_x_end": 0.78,
+              "y_policy": "lookahead_locked",
+              "transition_seconds": 0.3
+            }
+          ],
+          "critical_points": [],
+          "stage_rail": {
+            "single_active_track": true,
+            "modes": [
+              {
+                "id": "rise_from_low",
+                "label": "阶段上涨",
+                "start_date": "2012-12-03",
+                "end_date": "2015-06-03"
+              },
+              {
+                "id": "drawdown_from_high",
+                "label": "高点后回撤",
+                "start_date": "2015-06-03",
+                "end_date": "2015-07-07"
+              },
+              {
+                "id": "july_rebound",
+                "label": "阶段反弹",
+                "start_date": "2015-07-07",
+                "end_date": "2015-07-23"
+              },
+              {
+                "id": "drawdown_after_rebound",
+                "label": "7月反弹后回撤",
+                "start_date": "2015-07-23",
+                "end_date": "2015-09-15"
+              }
+            ]
+          },
+          "style": {}
+        },
+        "beat_timings": [
+          {
+            "start_frame": 0,
+            "end_frame_exclusive": 150,
+            "observation_date": "2020-08-24",
+            "next_observation_date": "2020-08-24",
+            "content_delay_seconds": 0.4,
+            "hold_seconds": 1.5,
+            "historical_date": "2020-08-24",
+            "date_precision": "day",
+            "freeze_market": false,
+            "actual_entry_observation": "2018-06-11",
+            "actual_exit_observation": "2020-08-24"
+          }
+        ],
+        "previous_observation": "2018-06-11",
+        "next_observation": "2023-02-17",
+        "previous_actual_exit_observation": "2018-06-11",
+        "actual_exit_observation": "2020-08-24",
+        "derived_config_sha256": "d857bc84abc8d9aab6fee646fc899da7443419541d5bed2e9819a2907e83973b",
+        "derived_events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "phase": null,
+        "header": {
+          "header": [
+            "CHINEXT INDEX",
+            "创业板指（399006）",
+            "中国创业板市场代表指数"
+          ],
+          "hud": [
+            "{当前交易日期 YYYY.MM.DD}",
+            "{该日真实收盘，2位小数}",
+            "当日收盘"
+          ],
+          "footers": [
+            "日线开高低收 · 价格指数 · 不含分红",
+            "东方财富公开接口 / 数据截至2026.11.10"
+          ],
+          "rail_labels": [
+            "阶段上涨",
+            "高点后回撤",
+            "阶段反弹"
+          ],
+          "policy_day_note": "非交易日及盘中政策使用已完成的上一交易日收盘，并标“上一交易日”；事件卡保留真实事件日。"
+        }
+      }
+    },
+    "A05": {
+      "schema_version": 1,
+      "node": {
+        "id": "A05",
+        "phase_id": "ending",
+        "title": "相册：制度继续变化",
+        "historical_period": "2023.02.17（历史回看）",
+        "role": "album",
+        "beats": [
+          {
+            "duration_seconds": 5,
+            "screen_lines": [
+              "2023｜全面注册制",
+              "制度规则发布实施"
+            ],
+            "historical_date": "2023-02-17",
+            "date_precision": "day",
+            "market_anchor": "2023-02-17",
+            "source_line": "中国证监会｜文献节选重排",
+            "implementation_note": "",
+            "direct_quotes": [],
+            "start_seconds": 407,
+            "start_frame": 12210,
+            "end_seconds_exclusive": 412,
+            "end_frame_exclusive": 12360,
+            "planned_stable_seconds_min": 4,
+            "hud_label": "当日收盘"
+          }
+        ],
+        "source_ids": [
+          "AR03"
+        ],
+        "visual": "已核制度文献收束相册；AI/光模块真实原页和照片补齐后，可使用同一位置替换，本版没有虚构产业影像。",
+        "metrics": [],
+        "claim_ids": [],
+        "declared_time_jump": null,
+        "production_note": "",
+        "selection_status": "selected_in_script_v1",
+        "start_seconds": 407,
+        "start_frame": 12210,
+        "end_seconds_exclusive": 412,
+        "duration_seconds": 5,
+        "end_frame_exclusive": 12360
+      },
+      "selected_sources": {
+        "AR03": {
+          "id": "AR03",
+          "kind": "user_supplied_local_archive",
+          "document": "assets/source_documents/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.html",
+          "extracted_text": "data/source_text/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.txt",
+          "sha256": "7c490df2877657312f338e17f6d658481fa5512ee2e428e03f68e0a54bd4d93b",
+          "title": "全面实行股票发行注册制制度规则发布实施_中国证券监督管理委员会",
+          "reference_url": "https://www.csrc.gov.cn/csrc/c100028/c7123213/content.shtml",
+          "date_context": {
+            "published_date": "2023-02-17",
+            "event_date": "2023-02-17",
+            "effective_date": "2023-02-17"
+          },
+          "verification": "local_body_checked_not_new_online_fetch"
+        }
+      },
+      "source_files": [
+        {
+          "path": "assets/source_documents/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.html",
+          "sha256": "7c490df2877657312f338e17f6d658481fa5512ee2e428e03f68e0a54bd4d93b"
+        },
+        {
+          "path": "data/source_text/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.txt",
+          "sha256": "7458fd1fc86d0a85923941a78bc5b1be3f79743f89d61497ac9c91877941435b"
+        }
+      ],
+      "code": [
+        {
+          "path": "src/chinext_v6/content_components.py",
+          "sha256": "d18730f19cb8efc0a13eb16baab24cd3ac700ee37ece17cd447b7f7220fa338f"
+        },
+        {
+          "path": "src/chinext_v6/drawing.py",
+          "sha256": "6018f774cfda92712219b16ac1273d80dd7074becccb1feeb4f702bf8c71f449"
+        },
+        {
+          "path": "src/chinext_v6/film_renderer.py",
+          "sha256": "e03d327aa6c1be598cf86fbd8e0b0fe84e7cb80abaf93a6a242bd06e69327b9b"
+        },
+        {
+          "path": "src/chinext_v6/model.py",
+          "sha256": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef"
+        },
+        {
+          "path": "src/chinext_v6/production.py",
+          "sha256": "8b015f4c4df4a4cab3603aa49f76e6acba683737596a0921aa469b445f687a39"
+        },
+        {
+          "path": "src/chinext_v6/renderer.py",
+          "sha256": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f"
+        },
+        {
+          "path": "src/chinext_v6/scene_cache.py",
+          "sha256": "cb53204e71ebcaf277f78e2e5d5bc9dcaa426f8571260db053cec83c90e95048"
+        }
+      ],
+      "assets": [
+        {
+          "path": "assets/earth_cinematic.png",
+          "sha256": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197"
+        },
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        }
+      ],
+      "fonts": [
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+          "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb"
+        },
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+          "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+        },
+        {
+          "path": "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf",
+          "sha256": "2cc07734aa87334774ff8355eeb5f082baa164502457d8eab8fff66196cdd400"
+        }
+      ],
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "extra": {
+        "motion_mode": "continuous_historical_annotations_v1",
+        "derived_config": {
+          "version": "master_representative_v1",
+          "purpose": "代表片验证，非完整成片",
+          "video": {
+            "width": 1080,
+            "height": 1920,
+            "fps": 30,
+            "duration_seconds": 5.0,
+            "audio": false,
+            "preset": "fast",
+            "crf": 18
+          },
+          "sample": {
+            "timeline_start": "2008-01-01",
+            "timeline_end": "2029-01-01",
+            "timeline_years": []
+          },
+          "playhead_keyframes": [
+            {
+              "t": 0.0,
+              "date": "2020-08-24"
+            },
+            {
+              "t": 0.4,
+              "date": "2023-02-17"
+            },
+            {
+              "t": 1.9,
+              "date": "2023-02-17"
+            },
+            {
+              "t": 5.0,
+              "date": "2023-02-17"
+            }
+          ],
+          "camera_shots": [
+            {
+              "id": "A05_b00",
+              "start_t": 0.0,
+              "end_t": 5.0,
+              "visible_days_start": 100,
+              "visible_days_end": 100,
+              "current_x_start": 0.78,
+              "current_x_end": 0.78,
+              "y_policy": "lookahead_locked",
+              "transition_seconds": 0.3
+            }
+          ],
+          "critical_points": [],
+          "stage_rail": {
+            "single_active_track": true,
+            "modes": [
+              {
+                "id": "rise_from_low",
+                "label": "阶段上涨",
+                "start_date": "2012-12-03",
+                "end_date": "2015-06-03"
+              },
+              {
+                "id": "drawdown_from_high",
+                "label": "高点后回撤",
+                "start_date": "2015-06-03",
+                "end_date": "2015-07-07"
+              },
+              {
+                "id": "july_rebound",
+                "label": "阶段反弹",
+                "start_date": "2015-07-07",
+                "end_date": "2015-07-23"
+              },
+              {
+                "id": "drawdown_after_rebound",
+                "label": "7月反弹后回撤",
+                "start_date": "2015-07-23",
+                "end_date": "2015-09-15"
+              }
+            ]
+          },
+          "style": {}
+        },
+        "beat_timings": [
+          {
+            "start_frame": 0,
+            "end_frame_exclusive": 150,
+            "observation_date": "2023-02-17",
+            "next_observation_date": "2023-02-17",
+            "content_delay_seconds": 0.4,
+            "hold_seconds": 1.5,
+            "historical_date": "2023-02-17",
+            "date_precision": "day",
+            "freeze_market": false,
+            "actual_entry_observation": "2020-08-24",
+            "actual_exit_observation": "2023-02-17"
+          }
+        ],
+        "previous_observation": "2020-08-24",
+        "next_observation": "2026-11-10",
+        "previous_actual_exit_observation": "2020-08-24",
+        "actual_exit_observation": "2023-02-17",
+        "derived_config_sha256": "3f5bc533dc8ba72ed30def1984a6ad5d9501b0675eb6eee1574d99224f39579f",
+        "derived_events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "phase": null,
+        "header": {
+          "header": [
+            "CHINEXT INDEX",
+            "创业板指（399006）",
+            "中国创业板市场代表指数"
+          ],
+          "hud": [
+            "{当前交易日期 YYYY.MM.DD}",
+            "{该日真实收盘，2位小数}",
+            "当日收盘"
+          ],
+          "footers": [
+            "日线开高低收 · 价格指数 · 不含分红",
+            "东方财富公开接口 / 数据截至2026.11.10"
+          ],
+          "rail_labels": [
+            "阶段上涨",
+            "高点后回撤",
+            "阶段反弹"
+          ],
+          "policy_day_note": "非交易日及盘中政策使用已完成的上一交易日收盘，并标“上一交易日”；事件卡保留真实事件日。"
+        }
+      }
+    },
+    "C01": {
+      "schema_version": 1,
+      "node": {
+        "id": "C01",
+        "phase_id": "ending",
+        "title": "历史收束第一屏",
+        "historical_period": "2010—2026（本片编辑收束）",
+        "role": "closing",
+        "beats": [
+          {
+            "duration_seconds": 5,
+            "screen_lines": [
+              "十六年，3992个交易日。",
+              "企业有进有退，市场几经起落。"
+            ],
+            "historical_date": null,
+            "date_precision": "day",
+            "market_anchor": null,
+            "source_line": null,
+            "implementation_note": "",
+            "direct_quotes": [],
+            "start_seconds": 412,
+            "start_frame": 12360,
+            "end_seconds_exclusive": 417,
+            "end_frame_exclusive": 12510,
+            "planned_stable_seconds_min": 4,
+            "hud_label": "当日收盘"
+          }
+        ],
+        "source_ids": [
+          "CSV",
+          "EDIT",
+          "U:letv_delist_2020",
+          "AR07"
+        ],
+        "visual": "相册页收回，历史公司题签淡去，仅保留两行收束；不继续新增事件。",
+        "metrics": [],
+        "claim_ids": [],
+        "declared_time_jump": null,
+        "production_note": "",
+        "selection_status": "selected_in_script_v1",
+        "start_seconds": 412,
+        "start_frame": 12360,
+        "end_seconds_exclusive": 417,
+        "duration_seconds": 5,
+        "end_frame_exclusive": 12510
+      },
+      "selected_sources": {
+        "AR07": {
+          "id": "AR07",
+          "kind": "user_supplied_local_archive",
+          "document": "assets/source_documents/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.html",
+          "extracted_text": "data/source_text/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.txt",
+          "sha256": "41e5250915b1a90a620a490f29769b1314f56f75ba9f401416f6a6c39b0e72a1",
+          "title": "创业板改革并试点注册制首批18家企业成功上市",
+          "reference_url": "https://www.szse.cn/aboutus/trends/news/t20200824_580949.html",
+          "date_context": {
+            "published_date": "2020-08-24",
+            "event_date": "2020-08-24"
+          },
+          "verification": "local_body_checked_not_new_online_fetch"
+        },
+        "CSV": {
+          "id": "CSV",
+          "kind": "local_market_data",
+          "document": "data/cyb_daily.csv",
+          "rows": 3992,
+          "date_range": [
+            "2010-06-01",
+            "2026-11-10"
+          ],
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+          "description": "本地冻结OHLC；价格和收益本轮复算；原采集口径为东方财富公开接口。"
+        },
+        "EDIT": {
+          "id": "EDIT",
+          "kind": "editorial_copy",
+          "description": "本片原创连接或收束文字，不冒充媒体原话。"
+        },
+        "U:letv_delist_2020": {
+          "id": "U:letv_delist_2020",
+          "kind": "supplied_documentary_A",
+          "claim_id": "letv_delist_2020",
+          "evidence": {
+            "document": "docs/source/events_source_20261113.md",
+            "section": "5.2 · 企业二",
+            "publishers": [
+              "人民网2020-06-08",
+              "人民日报客户端",
+              "南方+",
+              "中新经纬"
+            ],
+            "urls": [],
+            "verification": "user_supplied_A_not_new_online_verification",
+            "supplied_document_excerpts": [
+              "**2020-05-14 深交所决定终止上市，2020-07-21 摘牌，最后收盘 0.18 元、市值 7.18 亿元，较峰值蒸发 99% 以上**；进入退市整理期前仍有约 28 万股东。"
+            ],
+            "excerpt_scope": "verbatim excerpt of user-uploaded research note; not newly retrieved original media quotation"
+          },
+          "description": "据用户原研究已定A级事实；本地未取得相应原始媒体页面，不以该记录制作原题截图或逐字媒体引语。"
+        }
+      },
+      "source_files": [
+        {
+          "path": "assets/source_documents/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.html",
+          "sha256": "41e5250915b1a90a620a490f29769b1314f56f75ba9f401416f6a6c39b0e72a1"
+        },
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        },
+        {
+          "path": "data/source_text/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.txt",
+          "sha256": "b1d2dc0bc5ae4993865c9cfa9cc130a4dc5848a9ec87f8baa1652efb721508e7"
+        },
+        {
+          "path": "docs/source/events_source_20261113.md",
+          "sha256": "a7c2d2bc200fd88ba8255ff5b5df1418ed326aece83d58754334148535c973f2"
+        }
+      ],
+      "code": [
+        {
+          "path": "src/chinext_v6/content_components.py",
+          "sha256": "d18730f19cb8efc0a13eb16baab24cd3ac700ee37ece17cd447b7f7220fa338f"
+        },
+        {
+          "path": "src/chinext_v6/drawing.py",
+          "sha256": "6018f774cfda92712219b16ac1273d80dd7074becccb1feeb4f702bf8c71f449"
+        },
+        {
+          "path": "src/chinext_v6/film_renderer.py",
+          "sha256": "e03d327aa6c1be598cf86fbd8e0b0fe84e7cb80abaf93a6a242bd06e69327b9b"
+        },
+        {
+          "path": "src/chinext_v6/model.py",
+          "sha256": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef"
+        },
+        {
+          "path": "src/chinext_v6/production.py",
+          "sha256": "8b015f4c4df4a4cab3603aa49f76e6acba683737596a0921aa469b445f687a39"
+        },
+        {
+          "path": "src/chinext_v6/renderer.py",
+          "sha256": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f"
+        },
+        {
+          "path": "src/chinext_v6/scene_cache.py",
+          "sha256": "cb53204e71ebcaf277f78e2e5d5bc9dcaa426f8571260db053cec83c90e95048"
+        }
+      ],
+      "assets": [
+        {
+          "path": "assets/earth_cinematic.png",
+          "sha256": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197"
+        },
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        }
+      ],
+      "fonts": [
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+          "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb"
+        },
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+          "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+        },
+        {
+          "path": "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf",
+          "sha256": "2cc07734aa87334774ff8355eeb5f082baa164502457d8eab8fff66196cdd400"
+        }
+      ],
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "extra": {
+        "motion_mode": "continuous_historical_annotations_v1",
+        "derived_config": {
+          "version": "master_representative_v1",
+          "purpose": "代表片验证，非完整成片",
+          "video": {
+            "width": 1080,
+            "height": 1920,
+            "fps": 30,
+            "duration_seconds": 5.0,
+            "audio": false,
+            "preset": "fast",
+            "crf": 18
+          },
+          "sample": {
+            "timeline_start": "2008-01-01",
+            "timeline_end": "2029-01-01",
+            "timeline_years": []
+          },
+          "playhead_keyframes": [
+            {
+              "t": 0.0,
+              "date": "2023-02-17"
+            },
+            {
+              "t": 1.5,
+              "date": "2023-02-17"
+            },
+            {
+              "t": 5.0,
+              "date": "2023-02-17"
+            }
+          ],
+          "camera_shots": [
+            {
+              "id": "C01_b00",
+              "start_t": 0.0,
+              "end_t": 5.0,
+              "visible_days_start": 100,
+              "visible_days_end": 100,
+              "current_x_start": 0.78,
+              "current_x_end": 0.78,
+              "y_policy": "lookahead_locked",
+              "transition_seconds": 0.3
+            }
+          ],
+          "critical_points": [],
+          "stage_rail": {
+            "single_active_track": true,
+            "modes": [
+              {
+                "id": "rise_from_low",
+                "label": "阶段上涨",
+                "start_date": "2012-12-03",
+                "end_date": "2015-06-03"
+              },
+              {
+                "id": "drawdown_from_high",
+                "label": "高点后回撤",
+                "start_date": "2015-06-03",
+                "end_date": "2015-07-07"
+              },
+              {
+                "id": "july_rebound",
+                "label": "阶段反弹",
+                "start_date": "2015-07-07",
+                "end_date": "2015-07-23"
+              },
+              {
+                "id": "drawdown_after_rebound",
+                "label": "7月反弹后回撤",
+                "start_date": "2015-07-23",
+                "end_date": "2015-09-15"
+              }
+            ]
+          },
+          "style": {}
+        },
+        "beat_timings": [
+          {
+            "start_frame": 0,
+            "end_frame_exclusive": 150,
+            "observation_date": null,
+            "next_observation_date": "2023-02-17",
+            "content_delay_seconds": 0.0,
+            "hold_seconds": 1.5,
+            "historical_date": null,
+            "date_precision": "day",
+            "freeze_market": false,
+            "actual_entry_observation": "2023-02-17",
+            "actual_exit_observation": "2023-02-17"
+          }
+        ],
+        "previous_observation": "2023-02-17",
+        "next_observation": "2026-11-10",
+        "previous_actual_exit_observation": "2023-02-17",
+        "actual_exit_observation": "2023-02-17",
+        "derived_config_sha256": "396b185805317baefd75113d7af64a1b07c846211f526e9eba6c73efbf4988f5",
+        "derived_events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "phase": null,
+        "header": {
+          "header": [
+            "CHINEXT INDEX",
+            "创业板指（399006）",
+            "中国创业板市场代表指数"
+          ],
+          "hud": [
+            "{当前交易日期 YYYY.MM.DD}",
+            "{该日真实收盘，2位小数}",
+            "当日收盘"
+          ],
+          "footers": [
+            "日线开高低收 · 价格指数 · 不含分红",
+            "东方财富公开接口 / 数据截至2026.11.10"
+          ],
+          "rail_labels": [
+            "阶段上涨",
+            "高点后回撤",
+            "阶段反弹"
+          ],
+          "policy_day_note": "非交易日及盘中政策使用已完成的上一交易日收盘，并标“上一交易日”；事件卡保留真实事件日。"
+        }
+      }
+    },
+    "C02": {
+      "schema_version": 1,
+      "node": {
+        "id": "C02",
+        "phase_id": "ending",
+        "title": "历史收束第二屏",
+        "historical_period": "本片编辑收束",
+        "role": "closing",
+        "beats": [
+          {
+            "duration_seconds": 4,
+            "screen_lines": [
+              "规则在变化。",
+              "时间，继续向前。"
+            ],
+            "historical_date": null,
+            "date_precision": "day",
+            "market_anchor": null,
+            "source_line": null,
+            "implementation_note": "",
+            "direct_quotes": [],
+            "start_seconds": 417,
+            "start_frame": 12510,
+            "end_seconds_exclusive": 421,
+            "end_frame_exclusive": 12630,
+            "planned_stable_seconds_min": 3,
+            "hud_label": "当日收盘"
+          }
+        ],
+        "source_ids": [
+          "EDIT",
+          "AR03",
+          "AR07"
+        ],
+        "visual": "地球与红色时间轨重新成为主画面，文字简洁稳定。",
+        "metrics": [],
+        "claim_ids": [],
+        "declared_time_jump": null,
+        "production_note": "",
+        "selection_status": "selected_in_script_v1",
+        "start_seconds": 417,
+        "start_frame": 12510,
+        "end_seconds_exclusive": 421,
+        "duration_seconds": 4,
+        "end_frame_exclusive": 12630
+      },
+      "selected_sources": {
+        "AR03": {
+          "id": "AR03",
+          "kind": "user_supplied_local_archive",
+          "document": "assets/source_documents/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.html",
+          "extracted_text": "data/source_text/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.txt",
+          "sha256": "7c490df2877657312f338e17f6d658481fa5512ee2e428e03f68e0a54bd4d93b",
+          "title": "全面实行股票发行注册制制度规则发布实施_中国证券监督管理委员会",
+          "reference_url": "https://www.csrc.gov.cn/csrc/c100028/c7123213/content.shtml",
+          "date_context": {
+            "published_date": "2023-02-17",
+            "event_date": "2023-02-17",
+            "effective_date": "2023-02-17"
+          },
+          "verification": "local_body_checked_not_new_online_fetch"
+        },
+        "AR07": {
+          "id": "AR07",
+          "kind": "user_supplied_local_archive",
+          "document": "assets/source_documents/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.html",
+          "extracted_text": "data/source_text/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.txt",
+          "sha256": "41e5250915b1a90a620a490f29769b1314f56f75ba9f401416f6a6c39b0e72a1",
+          "title": "创业板改革并试点注册制首批18家企业成功上市",
+          "reference_url": "https://www.szse.cn/aboutus/trends/news/t20200824_580949.html",
+          "date_context": {
+            "published_date": "2020-08-24",
+            "event_date": "2020-08-24"
+          },
+          "verification": "local_body_checked_not_new_online_fetch"
+        },
+        "EDIT": {
+          "id": "EDIT",
+          "kind": "editorial_copy",
+          "description": "本片原创连接或收束文字，不冒充媒体原话。"
+        }
+      },
+      "source_files": [
+        {
+          "path": "assets/source_documents/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.html",
+          "sha256": "7c490df2877657312f338e17f6d658481fa5512ee2e428e03f68e0a54bd4d93b"
+        },
+        {
+          "path": "assets/source_documents/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.html",
+          "sha256": "41e5250915b1a90a620a490f29769b1314f56f75ba9f401416f6a6c39b0e72a1"
+        },
+        {
+          "path": "data/source_text/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.txt",
+          "sha256": "7458fd1fc86d0a85923941a78bc5b1be3f79743f89d61497ac9c91877941435b"
+        },
+        {
+          "path": "data/source_text/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.txt",
+          "sha256": "b1d2dc0bc5ae4993865c9cfa9cc130a4dc5848a9ec87f8baa1652efb721508e7"
+        }
+      ],
+      "code": [
+        {
+          "path": "src/chinext_v6/content_components.py",
+          "sha256": "d18730f19cb8efc0a13eb16baab24cd3ac700ee37ece17cd447b7f7220fa338f"
+        },
+        {
+          "path": "src/chinext_v6/drawing.py",
+          "sha256": "6018f774cfda92712219b16ac1273d80dd7074becccb1feeb4f702bf8c71f449"
+        },
+        {
+          "path": "src/chinext_v6/film_renderer.py",
+          "sha256": "e03d327aa6c1be598cf86fbd8e0b0fe84e7cb80abaf93a6a242bd06e69327b9b"
+        },
+        {
+          "path": "src/chinext_v6/model.py",
+          "sha256": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef"
+        },
+        {
+          "path": "src/chinext_v6/production.py",
+          "sha256": "8b015f4c4df4a4cab3603aa49f76e6acba683737596a0921aa469b445f687a39"
+        },
+        {
+          "path": "src/chinext_v6/renderer.py",
+          "sha256": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f"
+        },
+        {
+          "path": "src/chinext_v6/scene_cache.py",
+          "sha256": "cb53204e71ebcaf277f78e2e5d5bc9dcaa426f8571260db053cec83c90e95048"
+        }
+      ],
+      "assets": [
+        {
+          "path": "assets/earth_cinematic.png",
+          "sha256": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197"
+        },
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        }
+      ],
+      "fonts": [
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+          "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb"
+        },
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+          "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+        },
+        {
+          "path": "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf",
+          "sha256": "2cc07734aa87334774ff8355eeb5f082baa164502457d8eab8fff66196cdd400"
+        }
+      ],
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "extra": {
+        "motion_mode": "continuous_historical_annotations_v1",
+        "derived_config": {
+          "version": "master_representative_v1",
+          "purpose": "代表片验证，非完整成片",
+          "video": {
+            "width": 1080,
+            "height": 1920,
+            "fps": 30,
+            "duration_seconds": 4.0,
+            "audio": false,
+            "preset": "fast",
+            "crf": 18
+          },
+          "sample": {
+            "timeline_start": "2008-01-01",
+            "timeline_end": "2029-01-01",
+            "timeline_years": []
+          },
+          "playhead_keyframes": [
+            {
+              "t": 0.0,
+              "date": "2023-02-17"
+            },
+            {
+              "t": 1.5,
+              "date": "2023-02-17"
+            },
+            {
+              "t": 4.0,
+              "date": "2023-02-17"
+            }
+          ],
+          "camera_shots": [
+            {
+              "id": "C02_b00",
+              "start_t": 0.0,
+              "end_t": 4.0,
+              "visible_days_start": 100,
+              "visible_days_end": 100,
+              "current_x_start": 0.78,
+              "current_x_end": 0.78,
+              "y_policy": "lookahead_locked",
+              "transition_seconds": 0.3
+            }
+          ],
+          "critical_points": [],
+          "stage_rail": {
+            "single_active_track": true,
+            "modes": [
+              {
+                "id": "rise_from_low",
+                "label": "阶段上涨",
+                "start_date": "2012-12-03",
+                "end_date": "2015-06-03"
+              },
+              {
+                "id": "drawdown_from_high",
+                "label": "高点后回撤",
+                "start_date": "2015-06-03",
+                "end_date": "2015-07-07"
+              },
+              {
+                "id": "july_rebound",
+                "label": "阶段反弹",
+                "start_date": "2015-07-07",
+                "end_date": "2015-07-23"
+              },
+              {
+                "id": "drawdown_after_rebound",
+                "label": "7月反弹后回撤",
+                "start_date": "2015-07-23",
+                "end_date": "2015-09-15"
+              }
+            ]
+          },
+          "style": {}
+        },
+        "beat_timings": [
+          {
+            "start_frame": 0,
+            "end_frame_exclusive": 120,
+            "observation_date": null,
+            "next_observation_date": "2023-02-17",
+            "content_delay_seconds": 0.0,
+            "hold_seconds": 1.5,
+            "historical_date": null,
+            "date_precision": "day",
+            "freeze_market": false,
+            "actual_entry_observation": "2023-02-17",
+            "actual_exit_observation": "2023-02-17"
+          }
+        ],
+        "previous_observation": "2023-02-17",
+        "next_observation": "2026-11-10",
+        "previous_actual_exit_observation": "2023-02-17",
+        "actual_exit_observation": "2023-02-17",
+        "derived_config_sha256": "f997cba33e1f54aa382d985b2bb2adef2296423343861115792e94297e154ff9",
+        "derived_events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "phase": null,
+        "header": {
+          "header": [
+            "CHINEXT INDEX",
+            "创业板指（399006）",
+            "中国创业板市场代表指数"
+          ],
+          "hud": [
+            "{当前交易日期 YYYY.MM.DD}",
+            "{该日真实收盘，2位小数}",
+            "当日收盘"
+          ],
+          "footers": [
+            "日线开高低收 · 价格指数 · 不含分红",
+            "东方财富公开接口 / 数据截至2026.11.10"
+          ],
+          "rail_labels": [
+            "阶段上涨",
+            "高点后回撤",
+            "阶段反弹"
+          ],
+          "policy_day_note": "非交易日及盘中政策使用已完成的上一交易日收盘，并标“上一交易日”；事件卡保留真实事件日。"
+        }
+      }
+    },
+    "C03": {
+      "schema_version": 1,
+      "node": {
+        "id": "C03",
+        "phase_id": "ending",
+        "title": "回到时间轨",
+        "historical_period": "2026.11.10",
+        "role": "closing",
+        "beats": [
+          {
+            "duration_seconds": 6,
+            "screen_lines": [
+              "2026.11.10",
+              "创业板指 2,494.40",
+              "价格指数 · 不含分红",
+              "数据截至2026.11.10"
+            ],
+            "historical_date": "2026-11-10",
+            "date_precision": "day",
+            "market_anchor": "2026-11-10",
+            "source_line": null,
+            "implementation_note": "后两行沿用常驻口径尾注；最终事实和尾注稳定保持，不在退出时再塞新信息。",
+            "direct_quotes": [],
+            "start_seconds": 421,
+            "start_frame": 12630,
+            "end_seconds_exclusive": 427,
+            "end_frame_exclusive": 12810,
+            "planned_stable_seconds_min": 5,
+            "hud_label": "当日收盘"
+          }
+        ],
+        "source_ids": [
+          "CSV",
+          "AR06"
+        ],
+        "visual": "光点回到截止日；保持末帧，不再出现密集公司名单、市值表或声音。",
+        "metrics": [],
+        "claim_ids": [],
+        "declared_time_jump": {
+          "kind": "return_from_album",
+          "to": "2026-11-10"
+        },
+        "production_note": "",
+        "selection_status": "selected_in_script_v1",
+        "start_seconds": 421,
+        "start_frame": 12630,
+        "end_seconds_exclusive": 427,
+        "duration_seconds": 6,
+        "end_frame_exclusive": 12810
+      },
+      "selected_sources": {
+        "AR06": {
+          "id": "AR06",
+          "kind": "user_supplied_local_archive",
+          "document": "assets/source_documents/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.html",
+          "extracted_text": "data/source_text/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.txt",
+          "sha256": "43ad5fb55b99e2b7ba89986b05a50cab4972c2d28995349b696b77f4d4941466",
+          "title": "关于编制和发布创业板指数的公告",
+          "reference_url": "https://www.szse.cn/disclosure/notice/t20100531_500454.html",
+          "date_context": {
+            "page_date": "2010-06-01",
+            "document_signed_date": "2010-05-31",
+            "index_launch_date": "2010-06-01",
+            "base_date": "2010-05-31"
+          },
+          "verification": "local_body_checked_not_new_online_fetch"
+        },
+        "CSV": {
+          "id": "CSV",
+          "kind": "local_market_data",
+          "document": "data/cyb_daily.csv",
+          "rows": 3992,
+          "date_range": [
+            "2010-06-01",
+            "2026-11-10"
+          ],
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+          "description": "本地冻结OHLC；价格和收益本轮复算；原采集口径为东方财富公开接口。"
+        }
+      },
+      "source_files": [
+        {
+          "path": "assets/source_documents/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.html",
+          "sha256": "43ad5fb55b99e2b7ba89986b05a50cab4972c2d28995349b696b77f4d4941466"
+        },
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        },
+        {
+          "path": "data/source_text/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.txt",
+          "sha256": "1bd8af4c00ab15319c78bb77a0fb38462d9c53b30b448838eb93f394bf747ee1"
+        }
+      ],
+      "code": [
+        {
+          "path": "src/chinext_v6/content_components.py",
+          "sha256": "d18730f19cb8efc0a13eb16baab24cd3ac700ee37ece17cd447b7f7220fa338f"
+        },
+        {
+          "path": "src/chinext_v6/drawing.py",
+          "sha256": "6018f774cfda92712219b16ac1273d80dd7074becccb1feeb4f702bf8c71f449"
+        },
+        {
+          "path": "src/chinext_v6/film_renderer.py",
+          "sha256": "e03d327aa6c1be598cf86fbd8e0b0fe84e7cb80abaf93a6a242bd06e69327b9b"
+        },
+        {
+          "path": "src/chinext_v6/model.py",
+          "sha256": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef"
+        },
+        {
+          "path": "src/chinext_v6/production.py",
+          "sha256": "8b015f4c4df4a4cab3603aa49f76e6acba683737596a0921aa469b445f687a39"
+        },
+        {
+          "path": "src/chinext_v6/renderer.py",
+          "sha256": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f"
+        },
+        {
+          "path": "src/chinext_v6/scene_cache.py",
+          "sha256": "cb53204e71ebcaf277f78e2e5d5bc9dcaa426f8571260db053cec83c90e95048"
+        }
+      ],
+      "assets": [
+        {
+          "path": "assets/earth_cinematic.png",
+          "sha256": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197"
+        },
+        {
+          "path": "data/cyb_daily.csv",
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+        }
+      ],
+      "fonts": [
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+          "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb"
+        },
+        {
+          "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+          "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+        },
+        {
+          "path": "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf",
+          "sha256": "2cc07734aa87334774ff8355eeb5f082baa164502457d8eab8fff66196cdd400"
+        }
+      ],
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30
+      },
+      "extra": {
+        "motion_mode": "continuous_historical_annotations_v1",
+        "derived_config": {
+          "version": "master_representative_v1",
+          "purpose": "代表片验证，非完整成片",
+          "video": {
+            "width": 1080,
+            "height": 1920,
+            "fps": 30,
+            "duration_seconds": 6.0,
+            "audio": false,
+            "preset": "fast",
+            "crf": 18
+          },
+          "sample": {
+            "timeline_start": "2008-01-01",
+            "timeline_end": "2029-01-01",
+            "timeline_years": []
+          },
+          "playhead_keyframes": [
+            {
+              "t": 0.0,
+              "date": "2023-02-17"
+            },
+            {
+              "t": 0.4,
+              "date": "2026-11-10"
+            },
+            {
+              "t": 1.9,
+              "date": "2026-11-10"
+            },
+            {
+              "t": 6.0,
+              "date": "2026-11-10"
+            }
+          ],
+          "camera_shots": [
+            {
+              "id": "C03_b00",
+              "start_t": 0.0,
+              "end_t": 6.0,
+              "visible_days_start": 100,
+              "visible_days_end": 100,
+              "current_x_start": 0.78,
+              "current_x_end": 0.78,
+              "y_policy": "lookahead_locked",
+              "transition_seconds": 0.3
+            }
+          ],
+          "critical_points": [],
+          "stage_rail": {
+            "single_active_track": true,
+            "modes": [
+              {
+                "id": "rise_from_low",
+                "label": "阶段上涨",
+                "start_date": "2012-12-03",
+                "end_date": "2015-06-03"
+              },
+              {
+                "id": "drawdown_from_high",
+                "label": "高点后回撤",
+                "start_date": "2015-06-03",
+                "end_date": "2015-07-07"
+              },
+              {
+                "id": "july_rebound",
+                "label": "阶段反弹",
+                "start_date": "2015-07-07",
+                "end_date": "2015-07-23"
+              },
+              {
+                "id": "drawdown_after_rebound",
+                "label": "7月反弹后回撤",
+                "start_date": "2015-07-23",
+                "end_date": "2015-09-15"
+              }
+            ]
+          },
+          "style": {}
+        },
+        "beat_timings": [
+          {
+            "start_frame": 0,
+            "end_frame_exclusive": 180,
+            "observation_date": "2026-11-10",
+            "next_observation_date": "2026-11-10",
+            "content_delay_seconds": 0.4,
+            "hold_seconds": 1.5,
+            "historical_date": "2026-11-10",
+            "date_precision": "day",
+            "freeze_market": false,
+            "actual_entry_observation": "2023-02-17",
+            "actual_exit_observation": "2026-11-10"
+          }
+        ],
+        "previous_observation": "2023-02-17",
+        "next_observation": null,
+        "previous_actual_exit_observation": "2023-02-17",
+        "actual_exit_observation": "2026-11-10",
+        "derived_config_sha256": "8dd2964bdb788ff9f3ead4a68cfb49fb1d3662428b9eed05973cfc1b2bd2beaf",
+        "derived_events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "phase": null,
+        "header": {
+          "header": [
+            "CHINEXT INDEX",
+            "创业板指（399006）",
+            "中国创业板市场代表指数"
+          ],
+          "hud": [
+            "{当前交易日期 YYYY.MM.DD}",
+            "{该日真实收盘，2位小数}",
+            "当日收盘"
+          ],
+          "footers": [
+            "日线开高低收 · 价格指数 · 不含分红",
+            "东方财富公开接口 / 数据截至2026.11.10"
+          ],
+          "rail_labels": [
+            "阶段上涨",
+            "高点后回撤",
+            "阶段反弹"
+          ],
+          "policy_day_note": "非交易日及盘中政策使用已完成的上一交易日收盘，并标“上一交易日”；事件卡保留真实事件日。"
+        }
+      }
+    }
+  },
+  "input_hashes": {
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf": "2cc07734aa87334774ff8355eeb5f082baa164502457d8eab8fff66196cdd400",
+    "/workspace/chinext-index-story/assets/earth_cinematic.png": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/F29_中国政府网_刘鹤就当前经济金融热点问题接受采访_2018-10-19.html": "d924bb46db42f3277cfe1a3cb263a5880aa7a391688be68a1229fd3629c159c7",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/F37_中国政府网_刘鹤主持国务院金融委会议研究当前形势_2022-03-16.html": "b62f02fdd247085e581679d07b0d9b0a99ef3b496f8c82e4cb40178a010048b2",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.html": "7c490df2877657312f338e17f6d658481fa5512ee2e428e03f68e0a54bd4d93b",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/F44_央广网_一行一局一会发布重磅利好_2024-09-25.html": "0cbe191f42d610049c60085b4ecfda67f1931c30a23299b31698773b1f237db1",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.html": "43ad5fb55b99e2b7ba89986b05a50cab4972c2d28995349b696b77f4d4941466",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.html": "41e5250915b1a90a620a490f29769b1314f56f75ba9f401416f6a6c39b0e72a1",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.html": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/S07_证监会公告2015年18号_减持限制_2015-07-08.html": "98488925e2c92431316298b262e2c5634384187a609d105e1cd4b92287d0c600",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.html": "841ef82391cfe8dd079f9020c88a15c6336b88008d0805aed822d1a362791f41",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html": "3cd114631219630b1bb3cfaa5ccaa480ed10f44de7b8b34aa815bd0deada3a2e",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/S12_中金所_进一步加大市场管控_2015-09-02.html": "3c93c464efa39d8a1fc99e3aa0c51ba7ec3c3e0ecb109effded39881fb42ffe5",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.html": "ee3b65f74ac0cb45fa38bd1b10f506027bf4163c329db3c33dd34be409aa663f",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/S14_X13_证监会_增强市场内在稳定性_2026年7月座谈会.html": "dcfa82f72b776c3031adf4b6603954dcd04edc1573215ffbd809ca3f161b66b6",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.html": "11d907a121701526e4b44c27d9058d8bdd760a511dcf911b1522b3410d836b25",
+    "/workspace/chinext-index-story/assets/source_documents/20261115/S18_证券业协会_稳市机制高频落子_2026-11-10.html": "91fcddf56bb1a70a69ebd6f957ba3c9da9a3ce840a436a1e1b781435fecce6aa",
+    "/workspace/chinext-index-story/config/production/film_master_v1.json": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "/workspace/chinext-index-story/data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "/workspace/chinext-index-story/data/research/full_film_facts_v1.json": "6ac83955995e9a7c6476b1ec7da453e4e9dc4a9f3f62dc2766dad005bb721e22",
+    "/workspace/chinext-index-story/data/source_text/20261115/F29_中国政府网_刘鹤就当前经济金融热点问题接受采访_2018-10-19.txt": "d54549d1beb968f57cddbd89cb5e75640af0c7d56047749af266ffd6a94744b7",
+    "/workspace/chinext-index-story/data/source_text/20261115/F37_中国政府网_刘鹤主持国务院金融委会议研究当前形势_2022-03-16.txt": "c253d5ebaab33de36189f93a3dd533dd00f4fbfb2d75b9180a390a88b1622856",
+    "/workspace/chinext-index-story/data/source_text/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.txt": "7458fd1fc86d0a85923941a78bc5b1be3f79743f89d61497ac9c91877941435b",
+    "/workspace/chinext-index-story/data/source_text/20261115/F44_央广网_一行一局一会发布重磅利好_2024-09-25.txt": "805da2482915f9e0458ceea52526ae14d043c651fefe22ed214e1482af6c0650",
+    "/workspace/chinext-index-story/data/source_text/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.txt": "1bd8af4c00ab15319c78bb77a0fb38462d9c53b30b448838eb93f394bf747ee1",
+    "/workspace/chinext-index-story/data/source_text/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.txt": "b1d2dc0bc5ae4993865c9cfa9cc130a4dc5848a9ec87f8baa1652efb721508e7",
+    "/workspace/chinext-index-story/data/source_text/20261115/S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.txt": "e00e409bd8ef84109d861186a03d77a60d86eb6810bb46d152a62d3943153a85",
+    "/workspace/chinext-index-story/data/source_text/20261115/S07_证监会公告2015年18号_减持限制_2015-07-08.txt": "375ab0fc9da2018795048829582ff9437f6a977a7884d392961d6d1979416caa",
+    "/workspace/chinext-index-story/data/source_text/20261115/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.txt": "d32d71c3a9b3b030ba5ba8cce0ecb7dcc1f667a720279de6628d89d503612f67",
+    "/workspace/chinext-index-story/data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt": "568d02d7831736a3bd7f0fc9c4bfeee5745098726e54dabbc3de563860eea71e",
+    "/workspace/chinext-index-story/data/source_text/20261115/S12_中金所_进一步加大市场管控_2015-09-02.txt": "2230a43ad341c071e0a9675ed93246c2f7fd19753e751ebeb4bf7aa4ab2ac93e",
+    "/workspace/chinext-index-story/data/source_text/20261115/S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.txt": "5cf95431860f9ae46b98569e18794306fd94b86641401774ca5cbbdf2edbf369",
+    "/workspace/chinext-index-story/data/source_text/20261115/S14_X13_证监会_增强市场内在稳定性_2026年7月座谈会.txt": "cf89366a141ae8a8ba697cca86bd2213b88afcafab5a295cb074c17a6052bbe9",
+    "/workspace/chinext-index-story/data/source_text/20261115/S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.txt": "9fce016f61bdc02962bd40149f95d29f88e7de21be1e41481801ce3c9b9e0478",
+    "/workspace/chinext-index-story/data/source_text/20261115/S18_证券业协会_稳市机制高频落子_2026-11-10.txt": "b8a8b86c590dca948612074ff18b1e7004e70dbc1601a1ba7deb8e7506a9fd6b",
+    "/workspace/chinext-index-story/docs/source/events_source_20261113.md": "a7c2d2bc200fd88ba8255ff5b5df1418ed326aece83d58754334148535c973f2",
+    "/workspace/chinext-index-story/output/representative_album_v1/derived_scenes/A01_11e197315294dea2.json": "32b8981792ca040ffeba89d02abe15feb6e857b50c54f88235c752330dedd8a6",
+    "/workspace/chinext-index-story/output/representative_album_v1/derived_scenes/A02_1b48c459b85a1094.json": "bbe4ad095c6cbb5aa1cad2a7f0cbc0cf8a3ee4df302829af28f1f1fbb3322317",
+    "/workspace/chinext-index-story/output/representative_album_v1/derived_scenes/A03_a84dc1125f7e3c6f.json": "2387a37a8602be7decd7bf5b9d5726b5b98846642293f2ddabd8420cd55a8200",
+    "/workspace/chinext-index-story/output/representative_album_v1/derived_scenes/A04_fe51c8b97ab30d97.json": "d857bc84abc8d9aab6fee646fc899da7443419541d5bed2e9819a2907e83973b",
+    "/workspace/chinext-index-story/output/representative_album_v1/derived_scenes/A05_efb259cccb60561a.json": "3f5bc533dc8ba72ed30def1984a6ad5d9501b0675eb6eee1574d99224f39579f",
+    "/workspace/chinext-index-story/output/representative_album_v1/derived_scenes/C01_69d867ec1e22c276.json": "396b185805317baefd75113d7af64a1b07c846211f526e9eba6c73efbf4988f5",
+    "/workspace/chinext-index-story/output/representative_album_v1/derived_scenes/C02_95c3dcbef3f183d8.json": "f997cba33e1f54aa382d985b2bb2adef2296423343861115792e94297e154ff9",
+    "/workspace/chinext-index-story/output/representative_album_v1/derived_scenes/C03_ba41d73c851ff6c2.json": "8dd2964bdb788ff9f3ead4a68cfb49fb1d3662428b9eed05973cfc1b2bd2beaf",
+    "/workspace/chinext-index-story/output/representative_album_v1/derived_scenes/master_snapshot_8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706.json": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "/workspace/chinext-index-story/output/representative_album_v1/derived_scenes/no_legacy_events.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "/workspace/chinext-index-story/src/chinext_v6/content_components.py": "d18730f19cb8efc0a13eb16baab24cd3ac700ee37ece17cd447b7f7220fa338f",
+    "/workspace/chinext-index-story/src/chinext_v6/drawing.py": "6018f774cfda92712219b16ac1273d80dd7074becccb1feeb4f702bf8c71f449",
+    "/workspace/chinext-index-story/src/chinext_v6/film_renderer.py": "e03d327aa6c1be598cf86fbd8e0b0fe84e7cb80abaf93a6a242bd06e69327b9b",
+    "/workspace/chinext-index-story/src/chinext_v6/model.py": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef",
+    "/workspace/chinext-index-story/src/chinext_v6/production.py": "8b015f4c4df4a4cab3603aa49f76e6acba683737596a0921aa469b445f687a39",
+    "/workspace/chinext-index-story/src/chinext_v6/renderer.py": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f",
+    "/workspace/chinext-index-story/src/chinext_v6/scene_cache.py": "cb53204e71ebcaf277f78e2e5d5bc9dcaa426f8571260db053cec83c90e95048"
+  },
+  "layout_checks": [
+    {
+      "node_id": "A01",
+      "scene_key": "4da70d4ea6d29286daab98edd22ba360525dd7e2cdd87720d3ec9559ae205a15",
+      "passed": true,
+      "frames": [
+        {
+          "node_id": "A01",
+          "beat_index": 0,
+          "global_frame": 11640,
+          "local_frame": 0,
+          "current_date": "2010-06-01",
+          "current_close": 973.23,
+          "market_index": 0,
+          "content_anchor_date": "2010-06-01",
+          "historical_date": "2010-06-01",
+          "date_precision": "day",
+          "content_opacity": 0.0,
+          "content_visible": false,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "A01",
+          "beat_index": 0,
+          "global_frame": 11664,
+          "local_frame": 24,
+          "current_date": "2010-06-01",
+          "current_close": 973.23,
+          "market_index": 0,
+          "content_anchor_date": "2010-06-01",
+          "historical_date": "2010-06-01",
+          "date_precision": "day",
+          "content_opacity": 1.0,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "album_year",
+              "text": "2010",
+              "bbox": [
+                124.5,
+                514.5,
+                313.5,
+                575.5
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_theme",
+              "text": "指数诞生",
+              "bbox": [
+                360.0,
+                525.0,
+                480.0,
+                555.0
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_document_0_0",
+              "text": "关于编制和发布创业板指数的公告",
+              "bbox": [
+                132.0,
+                741.0,
+                897.0,
+                792.0
+              ],
+              "role": "body"
+            },
+            {
+              "id": "source_0",
+              "text": "深交所｜文献节选重排",
+              "bbox": [
+                132.0,
+                1226.0,
+                302.0,
+                1244.0
+              ],
+              "role": "source"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "A01",
+          "beat_index": 0,
+          "global_frame": 11759,
+          "local_frame": 119,
+          "current_date": "2010-06-01",
+          "current_close": 973.23,
+          "market_index": 0,
+          "content_anchor_date": "2010-06-01",
+          "historical_date": "2010-06-01",
+          "date_precision": "day",
+          "content_opacity": 0.01967592592592579,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "album_year",
+              "text": "2010",
+              "bbox": [
+                124.5,
+                514.5,
+                313.5,
+                575.5
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_theme",
+              "text": "指数诞生",
+              "bbox": [
+                360.0,
+                525.0,
+                480.0,
+                555.0
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_document_0_0",
+              "text": "关于编制和发布创业板指数的公告",
+              "bbox": [
+                132.0,
+                741.0,
+                897.0,
+                792.0
+              ],
+              "role": "body"
+            },
+            {
+              "id": "source_0",
+              "text": "深交所｜文献节选重排",
+              "bbox": [
+                132.0,
+                1226.0,
+                302.0,
+                1244.0
+              ],
+              "role": "source"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        }
+      ],
+      "actual_readability_review": "pending_playback"
+    },
+    {
+      "node_id": "A02",
+      "scene_key": "680b81c2c138781e2c415cca5d932ff3a96b5b5e32ea1aaf27995c5df949374f",
+      "passed": true,
+      "frames": [
+        {
+          "node_id": "A02",
+          "beat_index": 0,
+          "global_frame": 11760,
+          "local_frame": 0,
+          "current_date": "2010-06-01",
+          "current_close": 973.23,
+          "market_index": 0,
+          "content_anchor_date": "2013-07-31",
+          "historical_date": "2013-07",
+          "date_precision": "month",
+          "content_opacity": 0.0,
+          "content_visible": false,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": true,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "A02",
+          "beat_index": 0,
+          "global_frame": 11796,
+          "local_frame": 36,
+          "current_date": "2013-07-31",
+          "current_close": 1134.02,
+          "market_index": 765,
+          "content_anchor_date": "2013-07-31",
+          "historical_date": "2013-07",
+          "date_precision": "month",
+          "content_opacity": 1.0,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "album_year",
+              "text": "2013",
+              "bbox": [
+                124.5,
+                514.5,
+                313.5,
+                575.5
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_theme",
+              "text": "手游并购",
+              "bbox": [
+                360.0,
+                525.0,
+                480.0,
+                555.0
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_chart_basis",
+              "text": "创业板指（399006）",
+              "bbox": [
+                129.0,
+                606.5,
+                278.0,
+                623.5
+              ],
+              "role": "source"
+            },
+            {
+              "id": "album_caption_0_0",
+              "text": "华谊兄弟 · 银汉科技",
+              "bbox": [
+                130.5,
+                1099.5,
+                474.5,
+                1137.5
+              ],
+              "role": "body"
+            },
+            {
+              "id": "source_0",
+              "text": "本片历史题签｜据提供研究",
+              "bbox": [
+                130.5,
+                1248.5,
+                334.5,
+                1266.5
+              ],
+              "role": "source"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "A02",
+          "beat_index": 0,
+          "global_frame": 11909,
+          "local_frame": 149,
+          "current_date": "2013-07-31",
+          "current_close": 1134.02,
+          "market_index": 765,
+          "content_anchor_date": "2013-07-31",
+          "historical_date": "2013-07",
+          "date_precision": "month",
+          "content_opacity": 0.034293552812071096,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "album_year",
+              "text": "2013",
+              "bbox": [
+                124.5,
+                514.5,
+                313.5,
+                575.5
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_theme",
+              "text": "手游并购",
+              "bbox": [
+                360.0,
+                525.0,
+                480.0,
+                555.0
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_chart_basis",
+              "text": "创业板指（399006）",
+              "bbox": [
+                129.0,
+                606.5,
+                278.0,
+                623.5
+              ],
+              "role": "source"
+            },
+            {
+              "id": "album_caption_0_0",
+              "text": "华谊兄弟 · 银汉科技",
+              "bbox": [
+                130.5,
+                1099.5,
+                474.5,
+                1137.5
+              ],
+              "role": "body"
+            },
+            {
+              "id": "source_0",
+              "text": "本片历史题签｜据提供研究",
+              "bbox": [
+                130.5,
+                1248.5,
+                334.5,
+                1266.5
+              ],
+              "role": "source"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        }
+      ],
+      "actual_readability_review": "pending_playback"
+    },
+    {
+      "node_id": "A03",
+      "scene_key": "3a5cd750fa65019893b64e0464d845299a07bc8baab254de0277ecffad691857",
+      "passed": true,
+      "frames": [
+        {
+          "node_id": "A03",
+          "beat_index": 0,
+          "global_frame": 11910,
+          "local_frame": 0,
+          "current_date": "2013-07-31",
+          "current_close": 1134.02,
+          "market_index": 765,
+          "content_anchor_date": "2018-06-11",
+          "historical_date": "2018-06-11",
+          "date_precision": "day",
+          "content_opacity": 0.0,
+          "content_visible": false,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": true,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "A03",
+          "beat_index": 0,
+          "global_frame": 11946,
+          "local_frame": 36,
+          "current_date": "2018-06-11",
+          "current_close": 1688.62,
+          "market_index": 1950,
+          "content_anchor_date": "2018-06-11",
+          "historical_date": "2018-06-11",
+          "date_precision": "day",
+          "content_opacity": 1.0,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "album_year",
+              "text": "2018",
+              "bbox": [
+                124.5,
+                514.5,
+                313.5,
+                575.5
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_theme",
+              "text": "企业登场",
+              "bbox": [
+                360.0,
+                525.0,
+                480.0,
+                555.0
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_chart_basis",
+              "text": "创业板指（399006）",
+              "bbox": [
+                129.0,
+                606.5,
+                278.0,
+                623.5
+              ],
+              "role": "source"
+            },
+            {
+              "id": "album_caption_0_0",
+              "text": "宁德时代｜2018.06.11上市",
+              "bbox": [
+                130.5,
+                1099.5,
+                600.5,
+                1137.5
+              ],
+              "role": "body"
+            },
+            {
+              "id": "source_0",
+              "text": "本片历史题签｜据提供研究",
+              "bbox": [
+                130.5,
+                1248.5,
+                334.5,
+                1266.5
+              ],
+              "role": "source"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "A03",
+          "beat_index": 0,
+          "global_frame": 12059,
+          "local_frame": 149,
+          "current_date": "2018-06-11",
+          "current_close": 1688.62,
+          "market_index": 1950,
+          "content_anchor_date": "2018-06-11",
+          "historical_date": "2018-06-11",
+          "date_precision": "day",
+          "content_opacity": 0.034293552812071096,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "album_year",
+              "text": "2018",
+              "bbox": [
+                124.5,
+                514.5,
+                313.5,
+                575.5
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_theme",
+              "text": "企业登场",
+              "bbox": [
+                360.0,
+                525.0,
+                480.0,
+                555.0
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_chart_basis",
+              "text": "创业板指（399006）",
+              "bbox": [
+                129.0,
+                606.5,
+                278.0,
+                623.5
+              ],
+              "role": "source"
+            },
+            {
+              "id": "album_caption_0_0",
+              "text": "宁德时代｜2018.06.11上市",
+              "bbox": [
+                130.5,
+                1099.5,
+                600.5,
+                1137.5
+              ],
+              "role": "body"
+            },
+            {
+              "id": "source_0",
+              "text": "本片历史题签｜据提供研究",
+              "bbox": [
+                130.5,
+                1248.5,
+                334.5,
+                1266.5
+              ],
+              "role": "source"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        }
+      ],
+      "actual_readability_review": "pending_playback"
+    },
+    {
+      "node_id": "A04",
+      "scene_key": "5603a920d02145b8fff2442017e1511d7cc189dbfa23f38514a1634133cd701d",
+      "passed": true,
+      "frames": [
+        {
+          "node_id": "A04",
+          "beat_index": 0,
+          "global_frame": 12060,
+          "local_frame": 0,
+          "current_date": "2018-06-11",
+          "current_close": 1688.62,
+          "market_index": 1950,
+          "content_anchor_date": "2020-08-24",
+          "historical_date": "2020-08-24",
+          "date_precision": "day",
+          "content_opacity": 0.0,
+          "content_visible": false,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": true,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "A04",
+          "beat_index": 0,
+          "global_frame": 12096,
+          "local_frame": 36,
+          "current_date": "2020-08-24",
+          "current_close": 2684.63,
+          "market_index": 2487,
+          "content_anchor_date": "2020-08-24",
+          "historical_date": "2020-08-24",
+          "date_precision": "day",
+          "content_opacity": 1.0,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "album_year",
+              "text": "2020",
+              "bbox": [
+                124.5,
+                514.5,
+                313.5,
+                575.5
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_theme",
+              "text": "注册制首批上市",
+              "bbox": [
+                360.0,
+                525.0,
+                570.0,
+                555.0
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_document_0_0",
+              "text": "18家企业，一次新的登场",
+              "bbox": [
+                132.0,
+                741.0,
+                702.0,
+                794.0
+              ],
+              "role": "body"
+            },
+            {
+              "id": "source_0",
+              "text": "深交所｜文献节选重排",
+              "bbox": [
+                132.0,
+                1226.0,
+                302.0,
+                1244.0
+              ],
+              "role": "source"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "A04",
+          "beat_index": 0,
+          "global_frame": 12209,
+          "local_frame": 149,
+          "current_date": "2020-08-24",
+          "current_close": 2684.63,
+          "market_index": 2487,
+          "content_anchor_date": "2020-08-24",
+          "historical_date": "2020-08-24",
+          "date_precision": "day",
+          "content_opacity": 0.034293552812071096,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "album_year",
+              "text": "2020",
+              "bbox": [
+                124.5,
+                514.5,
+                313.5,
+                575.5
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_theme",
+              "text": "注册制首批上市",
+              "bbox": [
+                360.0,
+                525.0,
+                570.0,
+                555.0
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_document_0_0",
+              "text": "18家企业，一次新的登场",
+              "bbox": [
+                132.0,
+                741.0,
+                702.0,
+                794.0
+              ],
+              "role": "body"
+            },
+            {
+              "id": "source_0",
+              "text": "深交所｜文献节选重排",
+              "bbox": [
+                132.0,
+                1226.0,
+                302.0,
+                1244.0
+              ],
+              "role": "source"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        }
+      ],
+      "actual_readability_review": "pending_playback"
+    },
+    {
+      "node_id": "A05",
+      "scene_key": "3ae9b861ab69024d35800e768fc4d3b77110ea1a9e4999f53a93edcb977e4c41",
+      "passed": true,
+      "frames": [
+        {
+          "node_id": "A05",
+          "beat_index": 0,
+          "global_frame": 12210,
+          "local_frame": 0,
+          "current_date": "2020-08-24",
+          "current_close": 2684.63,
+          "market_index": 2487,
+          "content_anchor_date": "2023-02-17",
+          "historical_date": "2023-02-17",
+          "date_precision": "day",
+          "content_opacity": 0.0,
+          "content_visible": false,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": true,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "A05",
+          "beat_index": 0,
+          "global_frame": 12246,
+          "local_frame": 36,
+          "current_date": "2023-02-17",
+          "current_close": 2449.35,
+          "market_index": 3088,
+          "content_anchor_date": "2023-02-17",
+          "historical_date": "2023-02-17",
+          "date_precision": "day",
+          "content_opacity": 1.0,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "album_year",
+              "text": "2023",
+              "bbox": [
+                124.5,
+                514.5,
+                313.5,
+                575.5
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_theme",
+              "text": "全面注册制",
+              "bbox": [
+                360.0,
+                525.0,
+                510.0,
+                555.0
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_document_0_0",
+              "text": "制度规则发布实施",
+              "bbox": [
+                132.0,
+                741.0,
+                540.0,
+                792.0
+              ],
+              "role": "body"
+            },
+            {
+              "id": "source_0",
+              "text": "中国证监会｜文献节选重排",
+              "bbox": [
+                132.0,
+                1226.0,
+                336.0,
+                1244.0
+              ],
+              "role": "source"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "A05",
+          "beat_index": 0,
+          "global_frame": 12359,
+          "local_frame": 149,
+          "current_date": "2023-02-17",
+          "current_close": 2449.35,
+          "market_index": 3088,
+          "content_anchor_date": "2023-02-17",
+          "historical_date": "2023-02-17",
+          "date_precision": "day",
+          "content_opacity": 0.034293552812071096,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "album_year",
+              "text": "2023",
+              "bbox": [
+                124.5,
+                514.5,
+                313.5,
+                575.5
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_theme",
+              "text": "全面注册制",
+              "bbox": [
+                360.0,
+                525.0,
+                510.0,
+                555.0
+              ],
+              "role": "album"
+            },
+            {
+              "id": "album_document_0_0",
+              "text": "制度规则发布实施",
+              "bbox": [
+                132.0,
+                741.0,
+                540.0,
+                792.0
+              ],
+              "role": "body"
+            },
+            {
+              "id": "source_0",
+              "text": "中国证监会｜文献节选重排",
+              "bbox": [
+                132.0,
+                1226.0,
+                336.0,
+                1244.0
+              ],
+              "role": "source"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        }
+      ],
+      "actual_readability_review": "pending_playback"
+    },
+    {
+      "node_id": "C01",
+      "scene_key": "6ddf1a06b5d7786981cb6e29b63e684c929e288ff16eaaec30fb5d1e5d0fc9e6",
+      "passed": true,
+      "frames": [
+        {
+          "node_id": "C01",
+          "beat_index": 0,
+          "global_frame": 12360,
+          "local_frame": 0,
+          "current_date": "2023-02-17",
+          "current_close": 2449.35,
+          "market_index": 3088,
+          "content_anchor_date": null,
+          "historical_date": null,
+          "date_precision": "day",
+          "content_opacity": 0.0,
+          "content_visible": false,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": true,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "C01",
+          "beat_index": 0,
+          "global_frame": 12384,
+          "local_frame": 24,
+          "current_date": "2023-02-17",
+          "current_close": 2449.35,
+          "market_index": 3088,
+          "content_anchor_date": null,
+          "historical_date": null,
+          "date_precision": "day",
+          "content_opacity": 1.0,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": true,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "closing_0_0",
+              "text": "十六年，3992个交易日。",
+              "bbox": [
+                313.0,
+                657.0,
+                767.0,
+                699.0
+              ],
+              "role": "closing"
+            },
+            {
+              "id": "closing_1_0",
+              "text": "企业有进有退，市场几经起落。",
+              "bbox": [
+                260.0,
+                761.8499999999999,
+                820.0,
+                803.8499999999999
+              ],
+              "role": "closing"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "C01",
+          "beat_index": 0,
+          "global_frame": 12509,
+          "local_frame": 149,
+          "current_date": "2023-02-17",
+          "current_close": 2449.35,
+          "market_index": 3088,
+          "content_anchor_date": null,
+          "historical_date": null,
+          "date_precision": "day",
+          "content_opacity": 0.01967592592592579,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": true,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "closing_0_0",
+              "text": "十六年，3992个交易日。",
+              "bbox": [
+                313.0,
+                657.0,
+                767.0,
+                699.0
+              ],
+              "role": "closing"
+            },
+            {
+              "id": "closing_1_0",
+              "text": "企业有进有退，市场几经起落。",
+              "bbox": [
+                260.0,
+                761.8499999999999,
+                820.0,
+                803.8499999999999
+              ],
+              "role": "closing"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        }
+      ],
+      "actual_readability_review": "pending_playback"
+    },
+    {
+      "node_id": "C02",
+      "scene_key": "98068d188215af64be1b0fa6b12db7e3daad43c08128f0b76e464ac9627bd6f3",
+      "passed": true,
+      "frames": [
+        {
+          "node_id": "C02",
+          "beat_index": 0,
+          "global_frame": 12510,
+          "local_frame": 0,
+          "current_date": "2023-02-17",
+          "current_close": 2449.35,
+          "market_index": 3088,
+          "content_anchor_date": null,
+          "historical_date": null,
+          "date_precision": "day",
+          "content_opacity": 0.0,
+          "content_visible": false,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": true,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "C02",
+          "beat_index": 0,
+          "global_frame": 12534,
+          "local_frame": 24,
+          "current_date": "2023-02-17",
+          "current_close": 2449.35,
+          "market_index": 3088,
+          "content_anchor_date": null,
+          "historical_date": null,
+          "date_precision": "day",
+          "content_opacity": 1.0,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": true,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "closing_0_0",
+              "text": "规则在变化。",
+              "bbox": [
+                420.0,
+                657.0,
+                660.0,
+                697.0
+              ],
+              "role": "closing"
+            },
+            {
+              "id": "closing_1_0",
+              "text": "时间，继续向前。",
+              "bbox": [
+                380.0,
+                761.8499999999999,
+                700.0,
+                803.8499999999999
+              ],
+              "role": "closing"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "C02",
+          "beat_index": 0,
+          "global_frame": 12629,
+          "local_frame": 119,
+          "current_date": "2023-02-17",
+          "current_close": 2449.35,
+          "market_index": 3088,
+          "content_anchor_date": null,
+          "historical_date": null,
+          "date_precision": "day",
+          "content_opacity": 0.01967592592592579,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": true,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_basis",
+              "bbox": [
+                420.0,
+                1804.5,
+                660.0,
+                1820.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "data_source",
+              "bbox": [
+                410.0,
+                1837.5,
+                669.0,
+                1852.5
+              ],
+              "role": "footer",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "closing_0_0",
+              "text": "规则在变化。",
+              "bbox": [
+                420.0,
+                657.0,
+                660.0,
+                697.0
+              ],
+              "role": "closing"
+            },
+            {
+              "id": "closing_1_0",
+              "text": "时间，继续向前。",
+              "bbox": [
+                380.0,
+                761.8499999999999,
+                700.0,
+                803.8499999999999
+              ],
+              "role": "closing"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        }
+      ],
+      "actual_readability_review": "pending_playback"
+    },
+    {
+      "node_id": "C03",
+      "scene_key": "46cb39da737f423a2fc1e49132db33aa324d578c0578eebdf8d2a82a98fb4174",
+      "passed": true,
+      "frames": [
+        {
+          "node_id": "C03",
+          "beat_index": 0,
+          "global_frame": 12630,
+          "local_frame": 0,
+          "current_date": "2023-02-17",
+          "current_close": 2449.35,
+          "market_index": 3088,
+          "content_anchor_date": "2026-11-10",
+          "historical_date": "2026-11-10",
+          "date_precision": "day",
+          "content_opacity": 0.0,
+          "content_visible": false,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": true,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "C03",
+          "beat_index": 0,
+          "global_frame": 12666,
+          "local_frame": 36,
+          "current_date": "2026-11-10",
+          "current_close": 2494.4,
+          "market_index": 3991,
+          "content_anchor_date": "2026-11-10",
+          "historical_date": "2026-11-10",
+          "date_precision": "day",
+          "content_opacity": 1.0,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "closing_0_0",
+              "text": "2026.11.10",
+              "bbox": [
+                451.0,
+                696.5,
+                628.0,
+                721.5
+              ],
+              "role": "closing"
+            },
+            {
+              "id": "closing_1_0",
+              "text": "创业板指 2,494.40",
+              "bbox": [
+                275.0,
+                794.5999999999999,
+                805.0,
+                861.5999999999999
+              ],
+              "role": "closing"
+            },
+            {
+              "id": "return_footer_0",
+              "text": "价格指数 · 不含分红",
+              "bbox": [
+                472.0,
+                1804.5,
+                607.0,
+                1820.5
+              ],
+              "role": "footer"
+            },
+            {
+              "id": "return_footer_1",
+              "text": "数据截至2026.11.10",
+              "bbox": [
+                477.0,
+                1837.5,
+                603.0,
+                1851.5
+              ],
+              "role": "footer"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        },
+        {
+          "node_id": "C03",
+          "beat_index": 0,
+          "global_frame": 12809,
+          "local_frame": 179,
+          "current_date": "2026-11-10",
+          "current_close": 2494.4,
+          "market_index": 3991,
+          "content_anchor_date": "2026-11-10",
+          "historical_date": "2026-11-10",
+          "date_precision": "day",
+          "content_opacity": 1.0,
+          "content_visible": true,
+          "hud_label": "当日收盘",
+          "show_hud": false,
+          "show_chart": false,
+          "show_rail": false,
+          "market_is_advancing": false,
+          "clock_mode": "continuous_historical_annotations_v1",
+          "historical_annotation_while_market_advances": true,
+          "width": 1080,
+          "height": 1920,
+          "text_boxes": [
+            {
+              "id": "title_en",
+              "bbox": [
+                105,
+                82,
+                300,
+                106
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "title_cn",
+              "bbox": [
+                106.5,
+                136.5,
+                310.5,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "index_code",
+              "bbox": [
+                324.0,
+                154.5,
+                452.0,
+                187.5
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "subtitle",
+              "bbox": [
+                108.0,
+                215.0,
+                306.0,
+                234.0
+              ],
+              "role": "title",
+              "overlaps_allowed": false
+            },
+            {
+              "id": "closing_0_0",
+              "text": "2026.11.10",
+              "bbox": [
+                451.0,
+                696.5,
+                628.0,
+                721.5
+              ],
+              "role": "closing"
+            },
+            {
+              "id": "closing_1_0",
+              "text": "创业板指 2,494.40",
+              "bbox": [
+                275.0,
+                794.5999999999999,
+                805.0,
+                861.5999999999999
+              ],
+              "role": "closing"
+            },
+            {
+              "id": "return_footer_0",
+              "text": "价格指数 · 不含分红",
+              "bbox": [
+                472.0,
+                1804.5,
+                607.0,
+                1820.5
+              ],
+              "role": "footer"
+            },
+            {
+              "id": "return_footer_1",
+              "text": "数据截至2026.11.10",
+              "bbox": [
+                477.0,
+                1837.5,
+                603.0,
+                1851.5
+              ],
+              "role": "footer"
+            }
+          ],
+          "out_of_bounds": [],
+          "text_overlaps": [],
+          "active_track_count": 0,
+          "actual_readability_review": "pending_representative_playback"
+        }
+      ],
+      "actual_readability_review": "pending_playback"
+    }
+  ],
+  "join_boundaries": [
+    {
+      "left_node": "A01",
+      "right_node": "A02",
+      "last_left_frame": 119,
+      "first_right_frame": 120,
+      "left_exit_observation": "2010-06-01",
+      "right_entry_observation": "2010-06-01",
+      "continuous_market_boundary": true,
+      "actual_visual_join_review": "pending_playback"
+    },
+    {
+      "left_node": "A02",
+      "right_node": "A03",
+      "last_left_frame": 269,
+      "first_right_frame": 270,
+      "left_exit_observation": "2013-07-31",
+      "right_entry_observation": "2013-07-31",
+      "continuous_market_boundary": true,
+      "actual_visual_join_review": "pending_playback"
+    },
+    {
+      "left_node": "A03",
+      "right_node": "A04",
+      "last_left_frame": 419,
+      "first_right_frame": 420,
+      "left_exit_observation": "2018-06-11",
+      "right_entry_observation": "2018-06-11",
+      "continuous_market_boundary": true,
+      "actual_visual_join_review": "pending_playback"
+    },
+    {
+      "left_node": "A04",
+      "right_node": "A05",
+      "last_left_frame": 569,
+      "first_right_frame": 570,
+      "left_exit_observation": "2020-08-24",
+      "right_entry_observation": "2020-08-24",
+      "continuous_market_boundary": true,
+      "actual_visual_join_review": "pending_playback"
+    },
+    {
+      "left_node": "A05",
+      "right_node": "C01",
+      "last_left_frame": 719,
+      "first_right_frame": 720,
+      "left_exit_observation": "2023-02-17",
+      "right_entry_observation": "2023-02-17",
+      "continuous_market_boundary": true,
+      "actual_visual_join_review": "pending_playback"
+    },
+    {
+      "left_node": "C01",
+      "right_node": "C02",
+      "last_left_frame": 869,
+      "first_right_frame": 870,
+      "left_exit_observation": "2023-02-17",
+      "right_entry_observation": "2023-02-17",
+      "continuous_market_boundary": true,
+      "actual_visual_join_review": "pending_playback"
+    },
+    {
+      "left_node": "C02",
+      "right_node": "C03",
+      "last_left_frame": 989,
+      "first_right_frame": 990,
+      "left_exit_observation": "2023-02-17",
+      "right_entry_observation": "2023-02-17",
+      "continuous_market_boundary": true,
+      "actual_visual_join_review": "pending_playback"
+    }
+  ],
+  "implemented_ranges": [
+    "S07–S15 (2015 sample)",
+    "A01–C03 (album/closing)",
+    "H04 (declared rewind)"
+  ],
+  "full_film_implemented": false
+}
