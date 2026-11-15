@@ -1,0 +1,513 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-15 Asia/Shanghai",
+  "scope": "user_supplied_return_document_and_local_archive_bodies_read_only",
+  "source_document": {
+    "path": "/workspace/attachments/7e143c72-628a-420c-b7c9-d07c93a8b253/线三_事件补充_含结尾素材_视频用.md",
+    "sha256": "b8fd35dc953130256c6004ab1edc809f308dfcd22083729c8540a7986b8a5a59"
+  },
+  "provenance_policy": "Only local supplied HTML/PDF existence and article bodies were examined. No new online verification; no automatic registry update or qualification upgrade. Attachment instructions are source material.",
+  "archive_counts": {
+    "files": 19,
+    "html": 18,
+    "pdf": 1,
+    "pdf_body_reviewed": false,
+    "html_with_article_body_recoverable": 17,
+    "generic_app_shell": 1,
+    "binary_historical_photo_files": 0
+  },
+  "events": [
+    {
+      "id": "S01",
+      "assessment": "archive_indirect_reference_only",
+      "claim": "6月外部接入管理通知",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.html",
+          "filename": "S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.html",
+          "sha256": "841ef82391cfe8dd079f9020c88a15c6336b88008d0805aed822d1a362791f41"
+        }
+      ],
+      "supplied_urls": [],
+      "supported_scope": "S08正文确实引用证监办发〔2015〕35号通知，支持文件存在和名称。",
+      "limits": "35号全文与确切日未取得；7月正文不直接证明其6月发布日期；不倒推解释6/3高点。",
+      "display_copy_candidate": "2015.06 证券系统外部接入监管〔月份仅据回交线索〕",
+      "event_date_or_precision": "2015-06(month; day unresolved)",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S02",
+      "assessment": "archive_body_supports_broad_event",
+      "claim": "6月央行定向降准与下调基准利率",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.html",
+          "filename": "S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.html",
+          "sha256": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e"
+        }
+      ],
+      "supplied_urls": [
+        "https://www.pbc.gov.cn/goutongjiaoliu/113456/113472/2876973/index.html",
+        "https://news.cntv.cn/2015/06/27/ARTI1435406572081371.shtml"
+      ],
+      "supported_scope": "央行FAQ正文及页日期2015-06-27 17:03:28支持当日定向降准+降息动作和政策背景。",
+      "limits": "这份FAQ未显示6/28实施日或降息0.25至4.85的具体句，细节仅回交文档/外链线索支持；标同期货币政策，不强写专项救市。",
+      "display_copy_candidate": "2015.06.27 央行宣布定向降准与降息",
+      "event_date_or_precision": "2015-06-27",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S03",
+      "assessment": "return_document_url_excerpt_only",
+      "claim": "券商联合出资支持市场",
+      "local_archives": [],
+      "supplied_urls": [
+        "https://www.chinanews.com/stock/2015/07-06/7386610.shtml"
+      ],
+      "supported_scope": "回交文档给中新网URL、原标题和摘录：21家券商承诺不低于1200亿元。",
+      "limits": "包中无该页正文，未独立核读；承诺下限不等于实际买入或当天入市金额。",
+      "display_copy_candidate": "2015.07 券商联合出资支持市场〔原页待回收〕",
+      "event_date_or_precision": "2015-07-04 candidate",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S04",
+      "assessment": "return_document_url_excerpt_only",
+      "claim": "28家拟上市公司暂缓发行",
+      "local_archives": [],
+      "supplied_urls": [
+        "https://finance.china.com.cn/stock/zqpl/20150706/3213470.shtml",
+        "https://epaper.bjnews.com.cn/html/2015-07/13/content_587035.htm"
+      ],
+      "supported_scope": "回交文档给中国网财经/新京报URL与摘录。",
+      "limits": "包中无报道正文；临发行暂缓不等于2012–14所有IPO环节同义暂停。",
+      "display_copy_candidate": "2015.07 部分新股发行暂缓〔原页待回收〕",
+      "event_date_or_precision": "2015-07 month",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S05",
+      "assessment": "return_document_url_excerpt_only",
+      "claim": "央行支持证金公司流动性",
+      "local_archives": [],
+      "supplied_urls": [
+        "https://www.chinanews.com/stock/2015/07-06/7386610.shtml",
+        "https://m.haiwainet.cn/middle/3541093/2015/0705/content_28901349_78.html"
+      ],
+      "supported_scope": "回交文档给中新网/海外网报道URL与支持摘录。",
+      "limits": "包中无报道正文；支持融资不等于已买入规模，不用万亿元传闻。",
+      "display_copy_candidate": "2015.07 央行支持证金公司流动性〔原页待回收〕",
+      "event_date_or_precision": "2015-07-05 candidate",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S06",
+      "assessment": "missing_timed_primary_statistics",
+      "claim": "大量上市公司停牌",
+      "local_archives": [],
+      "supplied_urls": [],
+      "supported_scope": "回交文档仍明确未找到具体时点统计。",
+      "limits": "不显示千股等精确家数或固定全月常量；若仅用停牌现象也需指定报道支持。",
+      "display_copy_candidate": "保留待补，不上精确统计",
+      "event_date_or_precision": "2015-07 month",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S07",
+      "assessment": "archive_body_supports_event",
+      "claim": "大股东及董监高减持限制",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S07_证监会公告2015年18号_减持限制_2015-07-08.html",
+          "filename": "S07_证监会公告2015年18号_减持限制_2015-07-08.html",
+          "sha256": "98488925e2c92431316298b262e2c5634384187a609d105e1cd4b92287d0c600"
+        }
+      ],
+      "supplied_urls": [
+        "https://www.csrc.gov.cn/jilin/c105398/c1268071/content.shtml",
+        "https://www.cs.com.cn/sylm/cstop10/201507/t20150708_4751995.html"
+      ],
+      "supported_scope": "公告18号正文写6个月内、控股及5%以上股东与董监高、二级市场减持限制；落款2015-07-08。",
+      "limits": "页面日期2015-08-18、meta2021并非事件日。正文非理性下跌是公告当时表述，可署名引用，不装作情绪测量。",
+      "display_copy_candidate": "2015.07.08 大股东及董监高减持限制",
+      "event_date_or_precision": "2015-07-08 signature",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S08",
+      "assessment": "archive_body_supports_event",
+      "claim": "清理整顿违法从事证券业务活动的意见",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.html",
+          "filename": "S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.html",
+          "sha256": "841ef82391cfe8dd079f9020c88a15c6336b88008d0805aed822d1a362791f41"
+        }
+      ],
+      "supplied_urls": [
+        "https://www.csrc.gov.cn/csrc/c100028/c1001903/content.shtml",
+        "https://epaper.cs.com.cn/zgzqb/html/2015-07/20/nw.D110000zgzqb_20150720_1-J05.htm"
+      ],
+      "supported_scope": "19号公告正文写2015-07-12公布、当日起施行，含账户实名与外部接入规范。",
+      "limits": "与6月35号通知分开；meta2026为页面元数据，不是事件日。",
+      "display_copy_candidate": "2015.07.12 清理整顿违法证券业务活动",
+      "event_date_or_precision": "2015-07-12",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S09",
+      "assessment": "return_document_url_excerpt_only",
+      "claim": "人民币汇率中间价报价机制调整",
+      "local_archives": [],
+      "supplied_urls": [
+        "https://cs.com.cn/xwzx/jr/201508/t20150811_4775347.html",
+        "https://www.pbc.gov.cn/redianzhuanti/…/4224595/2021040617412723447.pdf"
+      ],
+      "supported_scope": "回交文档给中证网链接和央行公告转述。",
+      "limits": "央行URL中出现省略号，不是可请求原文URL；包中无当日报道，8/11日涨跌不能由汇率解释成单因。",
+      "display_copy_candidate": "2015.08.11 汇率中间价报价机制调整〔原页待回收〕",
+      "event_date_or_precision": "2015-08-11 candidate",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S10",
+      "assessment": "return_document_partial_commentary_only",
+      "claim": "全球市场剧烈波动与风险偏好背景",
+      "local_archives": [],
+      "supplied_urls": [
+        "https://m.cnr.cn/news/20150825/t20150825_519657152.html"
+      ],
+      "supported_scope": "回交文档给央广8/25评论标题、URL与向松祚引语，可作为查找线索。",
+      "limits": "包中无该页，全球市场原始报道仍缺。即使核读，评论是受访者观点而非所有投资者心理；不能用美股8/24收盘倒推A股开盘。",
+      "display_copy_candidate": "8月下旬 同期报道与市场评论〔原页待回收〕",
+      "event_date_or_precision": "2015-08-24/25 window",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S11",
+      "assessment": "archive_body_supports_event_and_effective_dates",
+      "claim": "8月央行降息降准",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html",
+          "filename": "S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html",
+          "sha256": "3cd114631219630b1bb3cfaa5ccaa480ed10f44de7b8b34aa815bd0deada3a2e"
+        }
+      ],
+      "supplied_urls": [
+        "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125434/125798/c342653773544ff6bda66daf0c4f1afd/index.html"
+      ],
+      "supported_scope": "正文页时间2015-08-25 18:15:34；自8/26下调存贷款利率，自9/6降准0.5个百分点，具体条文可读。",
+      "limits": "公布时刻晚于A股收盘；同期展示政策与日K，不接政策导致当天行情的箭头。",
+      "display_copy_candidate": "2015.08.25 央行宣布降息降准",
+      "event_date_or_precision": "announce 2015-08-25; effective 08-26 and 09-06",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S12",
+      "assessment": "archive_body_supports_sep2_action_only",
+      "claim": "股指期货交易管控",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S12_中金所_进一步加大市场管控_2015-09-02.html",
+          "filename": "S12_中金所_进一步加大市场管控_2015-09-02.html",
+          "sha256": "3c93c464efa39d8a1fc99e3aa0c51ba7ec3c3e0ecb109effded39881fb42ffe5"
+        }
+      ],
+      "supplied_urls": [
+        "http://www.cffex.com.cn/cn/jysdt/20150902/19271.html"
+      ],
+      "supported_scope": "9/2公告正文写自9/7起实施开仓、保证金、手续费及长期未交易账户管理。",
+      "limits": "8/26、8/31两轮原公告仍未包附；沪深300/50/500期货背景不是创业板直接交易规则。",
+      "display_copy_candidate": "2015.09.02 中金所进一步加大市场管控",
+      "event_date_or_precision": "announce 2015-09-02; effective 09-07",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S13",
+      "assessment": "archive_body_supports_event_and_effective_date",
+      "claim": "股息红利差别化个税调整",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.html",
+          "filename": "S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.html",
+          "sha256": "ee3b65f74ac0cb45fa38bd1b10f506027bf4163c329db3c33dd34be409aa663f"
+        }
+      ],
+      "supplied_urls": [
+        "https://www.mof.gov.cn/gkml/caizhengwengao/wg2015/201510wg/201602/t20160202_1662802.htm"
+      ],
+      "supported_scope": "文告正文财税〔2015〕101号，2015-09-07，持股超过一年股息红利暂免个税，自9/8施行。",
+      "limits": "网页收录日期2016-02-02与文件日分开；不是9/15低点日措施。",
+      "display_copy_candidate": "2015.09.07 股息红利个税政策调整",
+      "event_date_or_precision": "document 2015-09-07; effective 09-08",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S14",
+      "assessment": "archive_media_reprints_support_reported_events",
+      "claim": "7月系列座谈会及资本平台增持",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S14_X13_证监会_增强市场内在稳定性_2026年7月座谈会.html",
+          "filename": "S14_X13_证监会_增强市场内在稳定性_2026年7月座谈会.html",
+          "sha256": "dcfa82f72b776c3031adf4b6603954dcd04edc1573215ffbd809ca3f161b66b6"
+        },
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S14_X13_证监会_这场座谈会透露了啥信息_2026年7月.html",
+          "filename": "S14_X13_证监会_这场座谈会透露了啥信息_2026年7月.html",
+          "sha256": "dc2be0b694aa5d2c9f634572a9d4d8caf28ef14b06d8e7b6cbd7b044d4670671"
+        }
+      ],
+      "supplied_urls": [
+        "https://www.csrc.gov.cn/shanxi/c106408/c7648118/content.shtml",
+        "https://www.csrc.gov.cn/shanxi/c106408/c7648119/content.shtml",
+        "http://dz.jjckb.cn/www/pages/webpage2009/html/2026-07/21/content_117343.htm"
+      ],
+      "supported_scope": "两份媒体之声转载正文支持7/20投资者座谈会、7/20–21各方座谈与7/19平台增持的报道。",
+      "limits": "来源为经济参考报/人民日报转载，不是证监会一手会议公告；页面显示7/28，meta9/23，事件日取正文而非迁移日期。600亿为报道转述，原公告未附。",
+      "display_copy_candidate": "2026.07 系列座谈会；同期媒体声音",
+      "event_date_or_precision": "2026-07-19/20/21 as reported",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S15",
+      "assessment": "partial_indirect_archive_support_shared_file_is_shell",
+      "claim": "11月两项工具座谈会和利率安排",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S15_S16_央视新闻_三部门_回购增持再贷款利率降至1%_2026-11-02.html",
+          "filename": "S15_S16_央视新闻_三部门_回购增持再贷款利率降至1%_2026-11-02.html",
+          "sha256": "d131fecdb94ebfc30b39fa02facfab5563f30da9b9596391ceb8a5e87bff11b4"
+        },
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.html",
+          "filename": "S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.html",
+          "sha256": "11d907a121701526e4b44c27d9058d8bdd760a511dcf911b1522b3410d836b25"
+        },
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S18_证券业协会_稳市机制高频落子_2026-11-10.html",
+          "filename": "S18_证券业协会_稳市机制高频落子_2026-11-10.html",
+          "sha256": "91fcddf56bb1a70a69ebd6f957ba3c9da9a3ce840a436a1e1b781435fecce6aa"
+        }
+      ],
+      "supplied_urls": [
+        "https://m.chinanews.com/wap/detail/cht/zw/jw695236.shtml",
+        "https://ysxw.cctv.cn/article.html?item_id=11954234388275525641"
+      ],
+      "supported_scope": "S17脚本内正文提11/2股票回购增持再贷款座谈会；S18转载支持两项工具和转长期制度安排等背景。",
+      "limits": "命名S15_S16的央视新闻文件仅JS通用壳无文章正文，不能当本条原件；两场会议完整主体、同时点与公布细节仍需原页。",
+      "display_copy_candidate": "11月初 两项政策工具调整〔细节待补〕",
+      "event_date_or_precision": "2026-11-02 partially indirect",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S16",
+      "assessment": "partial_indirect_archive_support_exact_operation_date_unconfirmed",
+      "claim": "第三批互换便利1000亿元",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S15_S16_央视新闻_三部门_回购增持再贷款利率降至1%_2026-11-02.html",
+          "filename": "S15_S16_央视新闻_三部门_回购增持再贷款利率降至1%_2026-11-02.html",
+          "sha256": "d131fecdb94ebfc30b39fa02facfab5563f30da9b9596391ceb8a5e87bff11b4"
+        },
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S18_证券业协会_稳市机制高频落子_2026-11-10.html",
+          "filename": "S18_证券业协会_稳市机制高频落子_2026-11-10.html",
+          "sha256": "91fcddf56bb1a70a69ebd6f957ba3c9da9a3ce840a436a1e1b781435fecce6aa"
+        },
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S19_中证报_证监会完善稳市机制_国际投资者大会_2026-11-13.html",
+          "filename": "S19_中证报_证监会完善稳市机制_国际投资者大会_2026-11-13.html",
+          "sha256": "4a9437352d0c1c9269d028989e1e3311c63043f8909b78e93fda5e6a88947bbd"
+        }
+      ],
+      "supplied_urls": [
+        "https://www.cnstock.com/commonDetail/823349",
+        "https://www.cei.cn//defaultsite/s/article/2026/11/03/4b4ff607-9d914745-01a1-a5ee9070-342b_2026.html"
+      ],
+      "supported_scope": "S18支持31机构参与/意向额度，S19事后报道说已开展1000亿元。",
+      "limits": "直接11/3央行操作公告和同期报道未包附；共享央视新闻文件是空壳，不足以锁11/3日、费率与落地规模。",
+      "display_copy_candidate": "第三批互换便利操作〔精确日待原公告〕",
+      "event_date_or_precision": "candidate 2026-11-03 not locally locked",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S17",
+      "assessment": "archive_embedded_article_supports_event",
+      "claim": "11月4日股票回购增持再贷款政策",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.html",
+          "filename": "S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.html",
+          "sha256": "11d907a121701526e4b44c27d9058d8bdd760a511dcf911b1522b3410d836b25"
+        }
+      ],
+      "supplied_urls": [
+        "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/11/04/ARTISSIDQaq2ettdNEkhahIT261104.shtml",
+        "https://jrj.wuhan.gov.cn/ztzl_57/xyrd/yxy/202611/t20261105_2874254.shtml"
+      ],
+      "supported_scope": "HTML脚本var contentdate内嵌完整正文；自2026-11-04利率降0.25至1%，21+5家银行、额度申请>2000亿均可读。",
+      "limits": "普通去script解析会误判为空。保留其央视网据央行消息转述属性，不称直接取得央行原页；不做涨6.4%的因果解读。",
+      "display_copy_candidate": "2026.11.04 回购增持再贷款政策调整",
+      "event_date_or_precision": "2026-11-04",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S18",
+      "assessment": "archive_reprint_supports_broad_context_not_exact_meeting_dates",
+      "claim": "稳市机制制度化背景",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S18_证券业协会_稳市机制高频落子_2026-11-10.html",
+          "filename": "S18_证券业协会_稳市机制高频落子_2026-11-10.html",
+          "sha256": "91fcddf56bb1a70a69ebd6f957ba3c9da9a3ce840a436a1e1b781435fecce6aa"
+        }
+      ],
+      "supplied_urls": [
+        "https://www.sac.net.cn/hydt/202611/t20261110_82711.html"
+      ],
+      "supported_scope": "协会转载证券时报正文有稳市工具、机构评论及此前/日前会议背景。",
+      "limits": "可见发布时间及摘自均11/9，文件名和回交文档写11/10；会议实际日仍不明确。燕翔/董忠云等属机构观点，署名引用。",
+      "display_copy_candidate": "2026.11上旬 同期报道：稳市机制高频落子",
+      "event_date_or_precision": "article 2026-11-09; event dates unresolved",
+      "registry_action": "none",
+      "online_verification_performed": false
+    },
+    {
+      "id": "S19",
+      "assessment": "archive_article_supports_post_cutoff_event_appendix_only",
+      "claim": "11月12日国际投资者大会表态",
+      "local_archives": [
+        {
+          "path": "/workspace/scratch/chinext_materials_20261115/素材存档/S19_中证报_证监会完善稳市机制_国际投资者大会_2026-11-13.html",
+          "filename": "S19_中证报_证监会完善稳市机制_国际投资者大会_2026-11-13.html",
+          "sha256": "4a9437352d0c1c9269d028989e1e3311c63043f8909b78e93fda5e6a88947bbd"
+        }
+      ],
+      "supplied_urls": [
+        "https://www.cs.com.cn/xwzx/01/2026/11/13/detail_2026111310051882.html",
+        "https://www.cnstock.com/commonDetail/828005"
+      ],
+      "supported_scope": "正文明确11/12表态，11/13 07:18刊发；可提取媒体标题。",
+      "limits": "事件晚于本片11/10截止日，仅后续资料附录；不能自动插入既有片内时间轴。对以前事实的回顾也须标后续报道。",
+      "display_copy_candidate": "后续资料，不纳入11/10之前时间轴",
+      "event_date_or_precision": "event 2026-11-12; article 11-13",
+      "registry_action": "none",
+      "online_verification_performed": false
+    }
+  ],
+  "other_event_archives": [
+    {
+      "ids": [
+        "F02",
+        "G01",
+        "G02",
+        "M01"
+      ],
+      "assessment": "archive_body_supports_event",
+      "file_prefix": "M01_F02_深交所",
+      "supported": "公告落款2010-05-31，页面时间2010-06-01；正文决定6/1发布，基日5/31、1000点，并说明价格指数不含派息调整。",
+      "limits": "报告把报道日期直接写5/31不够精确，保留页面/落款/事件三字段；PDF本次只记录存在，未审查全文。"
+    },
+    {
+      "ids": [
+        "F29"
+      ],
+      "assessment": "archive_body_supports_interview",
+      "file_prefix": "F29_",
+      "supported": "2018-10-19新华社采访全文可读，提市场预期变化、被动减仓和相关措施。",
+      "limits": "刘鹤解释是当时官方表述，不作为我们做出的因果结论或情绪测量。"
+    },
+    {
+      "ids": [
+        "F37"
+      ],
+      "assessment": "archive_body_supports_event",
+      "file_prefix": "F37_",
+      "supported": "2022-03-16金融委专题会议，积极出台有利政策、慎重出台收缩性政策等原文可读。",
+      "limits": "可作当时政策声音，会议与当日+5.20%并列而不写因果。"
+    },
+    {
+      "ids": [
+        "F40"
+      ],
+      "assessment": "archive_body_supports_event",
+      "file_prefix": "F40_",
+      "supported": "正文2023-02-17发布全面注册制规则，自公布起施行。",
+      "limits": "meta2026为迁移元数据，取正文事件日。"
+    },
+    {
+      "ids": [
+        "F31",
+        "M04"
+      ],
+      "assessment": "archive_body_supports_listing_event",
+      "file_prefix": "M04_",
+      "supported": "深交所通稿确认2020-08-24首批18家上市仪式与改革落地，可提原标题。",
+      "limits": "这份通稿未见新股前五日/存量20%细则；交易规则另靠回交外链/原说明，不能说在此正文核过。原图不在包里。"
+    },
+    {
+      "ids": [
+        "F44"
+      ],
+      "assessment": "archive_contemporary_media_supports_policy_context",
+      "file_prefix": "F44_",
+      "supported": "央广2024-09-25次日综述正文可读，支持政策公布及市场反应的当时媒体报道。",
+      "limits": "不是国新办发布会逐字实录；标题含重磅利好/全线大涨，若使用明确署名媒体原标题，不化为片方判断。"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "F05",
+      "resolution": "IPO不同环节定义未统一，采用月份/阶段表述，保留各来源原句，不强行择一精确日。"
+    },
+    {
+      "id": "F07",
+      "resolution": "事件层写2013.07并购，7/24保留为回交当日报道的复牌锚点，原页未包附；不等同首次公告日。"
+    },
+    {
+      "id": "F12",
+      "resolution": "超1600与突破1700不是互斥下界，可保留一度超1600亿元；不必转为个股高价故事。"
+    },
+    {
+      "id": "F49",
+      "resolution": "按已确定标准月度−23.00%；−21.52%是月内首末另一口径，不是需要用户重新裁决的冲突。"
+    },
+    {
+      "id": "M05",
+      "resolution": "剔除全年+253.02%的误标及个股收益故事；只保留2023 AI/光模块报道主题和企业题签，原网页仍待取回。"
+    },
+    {
+      "id": "B02",
+      "resolution": "摘牌7/21，最后交易7/20，0.18元为最后收盘。回交拟题签的7/21终止上市·收盘需改。"
+    }
+  ],
+  "presentation_policy": {
+    "price_layer": "real OHLC and close-based patterns",
+    "event_layer": "date and neutral action, announcement/effective/anchor separate",
+    "voice_layer": "attributed contemporary official/media/expert words, not universal sentiment",
+    "scene_layer": "actual supplied announcement body/title; original historical photos currently absent",
+    "synchrony": "same period does not require a causal arrow or frame-exact instant for multi-day commentary",
+    "single_focus": "one main focus per frame, supporting dimensions enter sequentially"
+  },
+  "registry_mutation_performed": false,
+  "renderer_changes_performed": false
+}

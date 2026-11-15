@@ -1,0 +1,1442 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-15 Asia/Shanghai",
+  "scope": "全片事实/机制/情绪/时代相册原文核验队列，先资料后文案；未取回任何新原文",
+  "source_documents": [
+    "docs/source/events_source_20261113.md",
+    "docs/source/visual_script_v0.9.md",
+    "docs/research/2015_sources.md",
+    "data/research/2015_sources.json",
+    "config/event_registry.json"
+  ],
+  "probe_evidence": [
+    {
+      "host": "www.pbc.gov.cn",
+      "protocol": "HTTPS",
+      "result": "URLError: Tunnel connection failed: 403 Forbidden",
+      "body_retrieved": false,
+      "attempts_this_task": 1
+    },
+    {
+      "host": "www.csrc.gov.cn",
+      "protocol": "HTTPS",
+      "result": "URLError: Tunnel connection failed: 403 Forbidden",
+      "body_retrieved": false,
+      "attempts_this_task": 1
+    },
+    {
+      "host": "www.news.cn",
+      "protocol": "HTTPS",
+      "result": "URLError: Tunnel connection failed: 403 Forbidden",
+      "body_retrieved": false,
+      "attempts_this_task": 1
+    }
+  ],
+  "priority_meaning": {
+    "P0": "直接回答2015内容缺口，或决定已选相册主镜头；优先补原文",
+    "P1": "其余主片制度/企业/产业骨架原文及情绪，决定文字锁定",
+    "P2": "可以删除或降为研究附录的支线，不为凑密度无限扩展"
+  },
+  "required_network": {
+    "minimum_first_wave": [
+      "www.pbc.gov.cn",
+      "www.csrc.gov.cn",
+      "www.szse.cn",
+      "www.gov.cn",
+      "www.chinaclear.cn",
+      "www.news.cn"
+    ],
+    "media_fallback": [
+      "finance.people.com.cn",
+      "www.chinanews.com.cn",
+      "www.chinanews.com",
+      "www.cs.com.cn",
+      "www.stcn.com"
+    ],
+    "optional_original_hosts_only_if_selected": [
+      "www.sac.net.cn",
+      "www.sse.com.cn",
+      "www.cffex.com.cn"
+    ],
+    "image_delivery_note": "原图CDN可能不同于正文站；取得具体来源页后只为选定照片补实际图片主机，不猜CDN或直接广泛放行。"
+  },
+  "capture_policy": {
+    "no_fake_urls": true,
+    "candidate_title_not_quote": true,
+    "announcement_effective_price_times_separate": true,
+    "new_B_C_upgrade_only_after_evidence": true,
+    "USER_A_retains_its_documentary_status": "既有用户A级材料可保持资格，但新获取原文状态不能随之自动标已完成",
+    "sentiment_levels": [
+      "本地DATA支持的市场状态",
+      "需要融资/流动性原文的机制",
+      "需要同期署名报道或指标的强情绪词"
+    ],
+    "source_excerpt_length": "只保存支持命题所需短引及上下文定位；下载完整原件供可复核存档时保留来源元数据。"
+  },
+  "requests": [
+    {
+      "id": "Q01",
+      "priority": "P0",
+      "period": "2015.06",
+      "claim_to_verify": "分别核实6月场外配资/券商外部接入管理要求、发布会说法与7月正式意见；不能将6月13日概括写成已存在同名正式文件。",
+      "date_definitions": {
+        "announcement_candidate": "2015-06-12前后",
+        "implementation": "须按具体文件分别记录",
+        "price_anchor": "2015-06-03阶段高点；6月12收盘观察"
+      },
+      "preferred_publishers": [
+        "中国证监会"
+      ],
+      "search_queries": [
+        "2015年6月12日 证监会 新闻发布会 外部接入 场外配资",
+        "2015 证券公司信息系统外部接入管理 通知 征求意见"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "文件是草案/通知/讲话/正式意见",
+        "原文文号",
+        "要求适用对象"
+      ],
+      "acceptance_rule": "取回证监会文件或当日发布会全文，明确内容及日期类型。只得到事后报道则背景保持媒体归纳，不写已核正式政策日。",
+      "acceptable_fallback": "无原文时保留CSV的高位波动/回撤扩大，暂不展示具体文件；不得用后发事件解释6月3日。",
+      "album_dependency": false,
+      "blocks": [
+        "2015下跌机制短句",
+        "6月监管事件卡"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q02",
+      "priority": "P0",
+      "period": "2015.06.27—28",
+      "claim_to_verify": "核实央行6月底宣布的降息与定向降准及各自生效日期。",
+      "date_definitions": {
+        "announcement_candidate": "2015-06-27",
+        "effective_candidate": "2015-06-28",
+        "next_market_day": "2015-06-29；周末不造日K"
+      },
+      "preferred_publishers": [
+        "中国人民银行",
+        "中国政府网转载央行原文"
+      ],
+      "search_queries": [
+        "2015年6月27日 中国人民银行 降息 定向降准 6月28日"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "降息幅度",
+        "定向降准适用对象",
+        "公告时间是否在收盘之后/周末"
+      ],
+      "acceptance_rule": "央行公告或完整官方转载逐项确认宣布/实施日期；宏观流动性措施不标成证金已实际买入。",
+      "acceptable_fallback": "标题卡可只写准确日期和“央行降息与定向降准”；幅度不核实则删数字。",
+      "album_dependency": false,
+      "blocks": [
+        "稳定措施时间链"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q03",
+      "priority": "P0",
+      "period": "2015.07初",
+      "claim_to_verify": "核实券商联合出资与新股发行暂缓是哪些机构、哪些日期、什么动作。",
+      "date_definitions": {
+        "announcement_candidate": "2015-07-04前后",
+        "execution": "实际出资/购入另记，不以公告替代"
+      },
+      "preferred_publishers": [
+        "中国证监会",
+        "中国证券业协会",
+        "新华社/中新网当日报道"
+      ],
+      "search_queries": [
+        "2015年7月4日 券商 联合出资 稳定市场 声明",
+        "2015年7月 新股发行 暂缓 证监会"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "联合声明参与机构",
+        "承诺出资与实际投资区别",
+        "IPO暂缓适用批次",
+        "人数/金额/家数原文"
+      ],
+      "acceptance_rule": "两个动作分别有官方声明或完整权威报道。具体21家/1200亿元/28家等数字未经取证不进入字幕。",
+      "acceptable_fallback": "只选其中一项核清的稳定措施；无原文时沿用真实反弹/再跌，不写“国家队资金已到账”。",
+      "album_dependency": true,
+      "blocks": [
+        "7月稳定市场核心卡",
+        "相册2015报道标题可选"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q04",
+      "priority": "P0",
+      "period": "2015.07.05",
+      "claim_to_verify": "核实央行支持证金公司获得流动性的表述与范围。",
+      "date_definitions": {
+        "announcement_candidate": "2015-07-05",
+        "funding_or_purchases": "支持融资、资金发放、实际买入的日期与规模各自核实"
+      },
+      "preferred_publishers": [
+        "中国人民银行",
+        "中国证监会",
+        "中国政府网"
+      ],
+      "search_queries": [
+        "2015年7月5日 人民银行 证券金融公司 流动性 支持"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "原文支持方式",
+        "是否披露规模",
+        "是否披露已实施"
+      ],
+      "acceptance_rule": "至少一份央行/证监会原文或完整官方转载；字幕只陈述原文支持范围。",
+      "acceptable_fallback": "使用“央行支持证金公司流动性”待核短句；无正文不正式启用。",
+      "album_dependency": false,
+      "blocks": [
+        "政策事实与“救市”解释"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q05",
+      "priority": "P0",
+      "period": "2015.08.11",
+      "claim_to_verify": "核实人民币兑美元汇率中间价报价机制调整的原文、宣布日与实施定义。",
+      "date_definitions": {
+        "announcement_candidate": "2015-08-11",
+        "effective": "原文定义；A股当天与之后日期分开"
+      },
+      "preferred_publishers": [
+        "中国人民银行",
+        "中国政府网"
+      ],
+      "search_queries": [
+        "2015年8月11日 完善人民币兑美元汇率中间价报价 机制 答记者问"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "制度原文名称",
+        "机制调整具体内容",
+        "当日时点"
+      ],
+      "acceptance_rule": "央行通知/答记者问确认制度事实。把之后海外波动关联写成背景时另需当时报道，不借该公告单独证明下跌原因。",
+      "acceptable_fallback": "若只核到制度事实，仅显示“汇率中间价报价机制调整”；不写“汇改导致连续暴跌”。",
+      "album_dependency": false,
+      "blocks": [
+        "8月外部背景事件"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q06",
+      "priority": "P0",
+      "period": "2015.08.21—26",
+      "claim_to_verify": "核实全球市场同期剧烈波动及当时对风险偏好的描述，按中外时区排序。",
+      "date_definitions": {
+        "market_dates": "A股2015-08-24/25；境外交易时段用当地时区及北京时间",
+        "causal_limit": "美股8月24日收盘不能解释此前A股同日开盘"
+      },
+      "preferred_publishers": [
+        "新华社",
+        "中新网",
+        "人民网财经同期报道"
+      ],
+      "search_queries": [
+        "2015年8月24日 全球股市 大跌 新华社",
+        "2015年8月25日 全球市场 风险 经济 汇率"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "报道覆盖市场与时区",
+        "报道引用者身份",
+        "价格发生时间",
+        "情绪词原文及上下句"
+      ],
+      "acceptance_rule": "至少一篇当时报道而非多年后复盘，具体数字回指相应市场原始数据；情绪词作为当时报道概括并标出处。",
+      "acceptable_fallback": "可直接用本地“8月24、25日连续向下跳空/三日累计−19.30%”价格事实，删除未取证情绪短句。",
+      "album_dependency": true,
+      "blocks": [
+        "连续跳空的外部背景",
+        "相册2015市场现场或报道标题"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q07",
+      "priority": "P0",
+      "period": "2015.08.25—09.06",
+      "claim_to_verify": "核实8月25日央行公告、8月26日降息与9月6日降准的时序。",
+      "date_definitions": {
+        "announcement_candidate": "2015-08-25，A股收盘后，精确时间取原文",
+        "rate_effective_candidate": "2015-08-26",
+        "reserve_effective_candidate": "2015-09-06"
+      },
+      "preferred_publishers": [
+        "中国人民银行",
+        "中国政府网"
+      ],
+      "search_queries": [
+        "2015年8月25日 中国人民银行 下调 存贷款基准利率 存款准备金率 8月26日 9月6日"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "公告精确时间",
+        "两类实施日期",
+        "政策幅度及适用对象"
+      ],
+      "acceptance_rule": "央行公告或完整官方转载明确上述日期和范围。不能把公告之后的政策当成8月25日盘中动作。",
+      "acceptable_fallback": "只写已核宣布事实，并与之后行情分别推进；日期/时点尚缺时不开卡。",
+      "album_dependency": true,
+      "blocks": [
+        "8月稳定措施核心卡",
+        "低点前是否已有政策",
+        "相册2015标题候选"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q08",
+      "priority": "P0",
+      "period": "2009—2010",
+      "claim_to_verify": "核实创业板市场首批公司挂牌与创业板指发布的两个起点，锁相册开篇题签。",
+      "date_definitions": {
+        "market_open_candidate": "2009-10-30",
+        "index_announcement_candidate": "2010-05-31",
+        "index_release_candidate": "2010-06-01",
+        "base_date": "2010-05-31，1000；无CSV日K"
+      },
+      "preferred_publishers": [
+        "深圳证券交易所",
+        "新华社当日报道"
+      ],
+      "search_queries": [
+        "创业板 大事记 2009年10月30日 首批28家",
+        "关于编制和发布创业板指数的公告 2010年5月31日"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "基日/基点/发布日期",
+        "首批公司数量",
+        "公告PDF原件",
+        "照片拍摄日期与图注"
+      ],
+      "acceptance_rule": "公告与挂牌史料分别取证；相册如用2009照片题签写市场开板，不能写成2010指数发布现场。",
+      "acceptable_fallback": "优先使用指数发布公告标题卡；无2010现场照不以2009现场冒充。",
+      "album_dependency": true,
+      "blocks": [
+        "相册第1镜事实与图注"
+      ],
+      "existing_evidence": "USER_A_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q09",
+      "priority": "P0",
+      "period": "2013.07",
+      "claim_to_verify": "核实华谊收购银汉科技披露与7月24日复牌的时间边界，锁并购年代题签。",
+      "date_definitions": {
+        "disclosure_candidate": "2013-07，具体日期以公告为准",
+        "resumption_candidate": "2013-07-24"
+      },
+      "preferred_publishers": [
+        "深交所上市公司公告",
+        "人民网财经",
+        "中证网同期报道"
+      ],
+      "search_queries": [
+        "华谊兄弟 银汉科技 2013年7月24日 复牌 收购 公告"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "被收购公司准确名称",
+        "股权比例/金额是否有必要上屏",
+        "公告日期与复牌日期",
+        "照片是交易现场/发布会/资料图"
+      ],
+      "acceptance_rule": "交易所/公司公告证明并购范围，复牌日期另核；一篇同期权威报道可补叙事背景。",
+      "acceptable_fallback": "只写“2013.07 华谊兄弟并购手游公司”；不把复牌日等同合同签署日。",
+      "album_dependency": true,
+      "blocks": [
+        "相册移动互联网/并购题签"
+      ],
+      "existing_evidence": "USER_A_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q10",
+      "priority": "P0",
+      "period": "2018.06",
+      "claim_to_verify": "核实宁德时代上市日期及上市现场图，限定当时最大IPO口径。",
+      "date_definitions": {
+        "listing_candidate": "2018-06-11",
+        "record_scope": "截至其上市时的创业板IPO募资纪录"
+      },
+      "preferred_publishers": [
+        "深圳证券交易所",
+        "新华社",
+        "人民网同期报道"
+      ],
+      "search_queries": [
+        "2018年6月11日 宁德时代 创业板 上市 敲钟 新华社",
+        "宁德时代 募资 54.62亿元 创业板 当时 最大IPO"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "发行人正式名称",
+        "募资口径",
+        "是否截至当时纪录",
+        "现场图的原始图注/摄影者/拍摄日"
+      ],
+      "acceptance_rule": "交易所上市事实＋有原图的权威当日报道。仅选照片题签可只保留上市事实，不强行保留最大纪录。",
+      "acceptable_fallback": "公告/上市仪式报道标题卡；没有现场图不生成伪档案照。",
+      "album_dependency": true,
+      "blocks": [
+        "相册企业/新能源锚点"
+      ],
+      "existing_evidence": "USER_A_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q11",
+      "priority": "P0",
+      "period": "2020.08.24",
+      "claim_to_verify": "核实注册制首批上市现场、18家与20%交易规则各适用对象。",
+      "date_definitions": {
+        "press_briefing_candidate": "2020-08-21",
+        "first_listings_candidate": "2020-08-24",
+        "rules_effective": "以交易所正式规则生效条款为准"
+      },
+      "preferred_publishers": [
+        "深圳证券交易所",
+        "中国证监会",
+        "新华社"
+      ],
+      "search_queries": [
+        "2020年8月24日 创业板 注册制 首批18家 上市 仪式 新华社",
+        "创业板 20% 涨跌幅 2020年8月24日 新股 前五日"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "首批家数",
+        "存量/新股适用规则",
+        "新股前五日不设涨跌幅的例外",
+        "现场图日期与图注"
+      ],
+      "acceptance_rule": "官方规则和上市通稿两项分别支持，避免把“20%”误说成首批新股上市首日均限20%。",
+      "acceptable_fallback": "结尾题签只保留“首批18家注册制企业上市”；交易规则留主片单独讲。",
+      "album_dependency": true,
+      "blocks": [
+        "相册制度变化核心镜头"
+      ],
+      "existing_evidence": "USER_A_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q12",
+      "priority": "P1",
+      "period": "2012.10",
+      "claim_to_verify": "核实首批公司控股股东锁定期届满的范围，而非全部股份当日流通。",
+      "date_definitions": {
+        "lock_end_candidate": "2012-10-30",
+        "tradable_quantity": "实际延锁承诺与可流通量另核"
+      },
+      "preferred_publishers": [
+        "深交所公告",
+        "中证网",
+        "中新网同期报道"
+      ],
+      "search_queries": [
+        "2012年10月30日 创业板 首批公司 控股股东 锁定期 届满 延长锁定"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "锁定主体",
+        "承诺延长范围",
+        "实际可流通与解禁理论规模"
+      ],
+      "acceptance_rule": "原始锁定承诺/交易所或权威当日报道清楚区分范围。",
+      "acceptable_fallback": "“首批公司控股股东锁定期届满”保守短句，删去“一步全流通”与未核数额。",
+      "album_dependency": false,
+      "blocks": [
+        "2012制度卡精度"
+      ],
+      "existing_evidence": "USER_A_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q13",
+      "priority": "P1",
+      "period": "2012.11—2014.01",
+      "claim_to_verify": "核实IPO实质暂停与重启的定义，保留月精度直至具体发行/上市含义明确。",
+      "date_definitions": {
+        "pause_observation_anchor": "2012-11-16，现有研究观察锚点，不能直接视为官方暂停令日",
+        "reform_announcement_candidate": "2013-11-30",
+        "restart_month": "2014-01",
+        "issuance_vs_listing": "批准、发行、申购、上市日期分列"
+      },
+      "preferred_publishers": [
+        "中国证监会",
+        "深圳/上海证券交易所",
+        "中国金融信息网权威报道"
+      ],
+      "search_queries": [
+        "2012年11月 新股发行 暂停 2013年11月30日 改革意见",
+        "2014年1月 IPO重启 首批发行 首家上市"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "是否存在正式暂停公告",
+        "文中所说暂停是哪一环节",
+        "最后发行/首批发行及首家上市事实"
+      ],
+      "acceptance_rule": "至少一份官方发行安排/改革意见，加完整权威历史报道。日期意义不一致时按月而非强行选1月8日。",
+      "acceptable_fallback": "上屏继续“2012.11 IPO暂停”“2014.01 IPO重启”，不要添加虚构精确政策日。",
+      "album_dependency": false,
+      "blocks": [
+        "制度时间带",
+        "2013上涨背景范围"
+      ],
+      "existing_evidence": "USER_A_month_precision_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q14",
+      "priority": "P1",
+      "period": "2015.04",
+      "claim_to_verify": "复核一人多户生效日与单周413.03万新开A股账户的统计定义。",
+      "date_definitions": {
+        "policy_start_candidate": "2015-04-13",
+        "weekly_period": "2015-04-20—24",
+        "weekly_anchor": "2015-04-24，仅行情定位"
+      },
+      "preferred_publishers": [
+        "中国证券登记结算有限责任公司",
+        "人民网/中新网同期报道"
+      ],
+      "search_queries": [
+        "2015年4月13日 一人多户 中国结算",
+        "2015年4月20日至24日 新开A股账户 413.03万"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "账户还是投资者人数",
+        "A股还是证券账户总数",
+        "统计起止日",
+        "政策发布与执行日"
+      ],
+      "acceptance_rule": "中国结算业务通知/周报，或权威报道完整引用数据及周区间。",
+      "acceptable_fallback": "保留现有USER_A资格；对外复核状态仍区分“用户材料核过”和“新取回原文”。",
+      "album_dependency": true,
+      "blocks": [
+        "参与热度事实",
+        "相册2015备用报道标题"
+      ],
+      "existing_evidence": "USER_A_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q15",
+      "priority": "P1",
+      "period": "2015.05—2020.07",
+      "claim_to_verify": "分开核乐视峰值市值、终止上市决定、最后交易收盘与摘牌日。",
+      "date_definitions": {
+        "peak_cap_period": "2015-05，1600/1700亿口径待核",
+        "termination_candidate": "2020-05-14",
+        "last_traded_close_date": "须查原始行情/退市整理期安排",
+        "removal_candidate": "2020-07-21"
+      },
+      "preferred_publishers": [
+        "深圳证券交易所",
+        "人民网",
+        "中新经纬/南方+完整报道"
+      ],
+      "search_queries": [
+        "乐视网 终止上市 2020年5月14日 深交所",
+        "乐视网 最后一个交易日 0.18元 2020年7月 21日 摘牌",
+        "乐视网 2015年5月 市值 1600亿元"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "总市值口径和股份数",
+        "最后交易日",
+        "末次收盘0.18的日期",
+        "照片图注和年代"
+      ],
+      "acceptance_rule": "退市官方安排与末次行情分别核；峰值用可比总市值来源。",
+      "acceptable_fallback": "正文保守“2015.05市值超1600亿元”“2020.07摘牌·最后收盘0.18元”；缺图用决定/公告标题。",
+      "album_dependency": true,
+      "blocks": [
+        "公司兴衰事实",
+        "相册可选对照题签"
+      ],
+      "existing_evidence": "USER_A_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q16",
+      "priority": "P1",
+      "period": "2018.10.19",
+      "claim_to_verify": "核实国务院与一行两会负责人集中表态的主体、内容和时间。",
+      "date_definitions": {
+        "interviews_candidate": "2018-10-19",
+        "price_low": "2018-10-18前一交易日；与事件分帧"
+      },
+      "preferred_publishers": [
+        "中国政府网",
+        "中国人民银行",
+        "中国证监会",
+        "新华社"
+      ],
+      "search_queries": [
+        "2018年10月19日 刘鹤 一行两会 负责人 股市 表态 股权质押"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "每位发言主体",
+        "是否同日",
+        "采访/发布具体时间",
+        "针对哪些风险问题"
+      ],
+      "acceptance_rule": "政府网采访全文或各机构原文，引用只在原文语境内，不写“表态创造了前一天低点”。",
+      "acceptable_fallback": "可只用主体和中性“集中表态”，保留低点次日时序。",
+      "album_dependency": false,
+      "blocks": [
+        "2018风险与稳定背景"
+      ],
+      "existing_evidence": "USER_A_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q17",
+      "priority": "P1",
+      "period": "2020.06.12",
+      "claim_to_verify": "核实创业板注册制配套办法发布和交易所受理等不同节点。",
+      "date_definitions": {
+        "CSRC_rules_candidate": "2020-06-12",
+        "acceptance_candidate": "2020-06-15",
+        "listing_date": "2020-08-24另条核验"
+      },
+      "preferred_publishers": [
+        "中国证监会",
+        "深圳证券交易所"
+      ],
+      "search_queries": [
+        "2020年6月12日 创业板 首次公开发行 股票 注册管理办法 试行 四个办法",
+        "2020年6月15日 深交所 创业板 受理 注册制"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "办法正式名称/文号",
+        "发布/施行日期",
+        "受理安排"
+      ],
+      "acceptance_rule": "取回相应正式规则/通稿，不能将受理、规则发布和首批上市合成同日。",
+      "acceptable_fallback": "主片用“2020.06 注册制规则发布”月精度，保留与8月上市的间隔。",
+      "album_dependency": false,
+      "blocks": [
+        "注册制制度链"
+      ],
+      "existing_evidence": "USER_A_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q18",
+      "priority": "P1",
+      "period": "2021.05",
+      "claim_to_verify": "核实宁德时代首次万亿元市值的日期和盘中/收盘口径。",
+      "date_definitions": {
+        "period": "2021-05",
+        "precise_day_candidate": "须原文核后选定，不由常识填入",
+        "cap_basis": "盘中首次还是收盘首次另记"
+      },
+      "preferred_publishers": [
+        "新华社",
+        "人民网",
+        "上市公司/交易所行情"
+      ],
+      "search_queries": [
+        "2021年5月 宁德时代 首次 万亿元 市值 盘中 收盘"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "股价与股份数",
+        "盘中/收盘",
+        "总市值不是指数权重"
+      ],
+      "acceptance_rule": "一份当日报道明确首次口径；如精确到日则对照当时股份数和股价。",
+      "acceptable_fallback": "保留“2021.05 市值突破1万亿元”；不用未经核实的日K锚点。",
+      "album_dependency": true,
+      "blocks": [
+        "新能源阶段公司题签可选"
+      ],
+      "existing_evidence": "USER_A_month_precision_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q19",
+      "priority": "P1",
+      "period": "2024.09.24",
+      "claim_to_verify": "核实国新办发布会各项政策的宣布主体与实施日，尤其货币工具和支持股市工具。",
+      "date_definitions": {
+        "briefing_candidate": "2024-09-24",
+        "implementation": "降准/降息/互换便利/回购增持再贷款分别核实施安排",
+        "price_low": "2024-09-23在前"
+      },
+      "preferred_publishers": [
+        "中国政府网/国新办",
+        "中国人民银行",
+        "中国证监会"
+      ],
+      "search_queries": [
+        "2024年9月24日 国新办 新闻发布会 一揽子 金融政策 潘功胜 吴清",
+        "2024年9月24日 互换便利 股票回购 增持 再贷款"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "四类政策各自金额/幅度",
+        "是宣布设立还是已经投放",
+        "公开时间",
+        "发布会现场照片图注"
+      ],
+      "acceptance_rule": "完整发布会文字实录与后续政策文件分别核，主卡可只用“一揽子金融政策公布”。",
+      "acceptable_fallback": "不展示尚未取证的金额/幅度；低点与次日事件分别显示。",
+      "album_dependency": true,
+      "blocks": [
+        "2024反转制度背景",
+        "相册备用最近期政策镜头"
+      ],
+      "existing_evidence": "USER_A_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q20",
+      "priority": "P1",
+      "period": "2013—2026",
+      "claim_to_verify": "核实三条产业阶段框架出处与边界：移动互联网/并购、新能源、AI算力。",
+      "date_definitions": {
+        "framework_periods": [
+          "2013—2015",
+          "2019—2021",
+          "2023—2026"
+        ],
+        "publication_date": "以实际报告为准；区分当时共识与事后归纳"
+      },
+      "preferred_publishers": [
+        "原开源证券研究报告",
+        "每经完整引用报道",
+        "可替代的明确署名研究"
+      ],
+      "search_queries": [
+        "开源证券 创业板 复盘 移动互联网 新能源 AI算力 每经",
+        "创业板 产业 阶段 2013 2015 2019 2021 2023"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "作者/机构",
+        "报告日期",
+        "原图或原句",
+        "分期属于事后编辑/研究分类",
+        "不同产业存在重叠"
+      ],
+      "acceptance_rule": "取得原报告或完整权威引述，字幕标为“阶段背景”，不要冒充官方唯一周期；2023有AI叙事与指数回撤可并存。",
+      "acceptable_fallback": "先采用价格事实分期；产业名可作为已提供的研究框架占位，证据不足不写其驱动整段涨跌。",
+      "album_dependency": true,
+      "blocks": [
+        "全片阶段副轴",
+        "相册产业线索"
+      ],
+      "existing_evidence": "USER_supplied_secondary_framework_no_url",
+      "claim_kind": "editorial_framework",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q21",
+      "priority": "P1",
+      "period": "2015—2026",
+      "claim_to_verify": "为情绪短句采集同期证据，而非用单根阴线推断所有投资者心态。",
+      "date_definitions": {
+        "windows": [
+          "2015.04开户活跃",
+          "2015.06—07剧烈波动",
+          "2015.08连续急跌",
+          "2018.10质押风险",
+          "2020—21产业关注",
+          "2026回撤"
+        ],
+        "source_time": "同期报道优先；事后复盘须明确标识"
+      },
+      "preferred_publishers": [
+        "新华社",
+        "人民网财经",
+        "中新网",
+        "证监会同期风险提示",
+        "中国结算数据"
+      ],
+      "search_queries": [
+        "2015年6月 股市 融资 平仓 证监会 风险 提示",
+        "2015年8月24日 市场 情绪 新华社",
+        "2018年10月19日 股权质押 风险 采访"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "情绪词原句和上下文",
+        "说话者/调查样本或代理指标",
+        "观测窗口",
+        "是否仅记者/分析师观点"
+      ],
+      "acceptance_rule": "“参与增加”可由账户数据支持；“平仓压力”需机制/融资证据；“恐慌”等强词需署名同期报道或指标，均不扩展为全体投资者统一情绪。",
+      "acceptable_fallback": "来源不足则改用“波动扩大”“连续跳空”“反弹后再回落”等可复算状态句。",
+      "album_dependency": false,
+      "blocks": [
+        "行情背景与情绪短文字"
+      ],
+      "existing_evidence": "new_context_unverified",
+      "claim_kind": "sentiment_or_mechanism",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q22",
+      "priority": "P1",
+      "period": "2026.06—11",
+      "claim_to_verify": "本片2026段先锁价格事实；只有额外出处足够时才加入产业/情绪背景。",
+      "date_definitions": {
+        "data_cutoff": "2026-11-10",
+        "closing_high": "2026-06-25 4371.99",
+        "intraday_high": "4380.41为不同口径",
+        "july_month_return": "7月31/6月30收盘−1；约−23.00%"
+      },
+      "preferred_publishers": [
+        "本地冻结行情",
+        "原始行情源",
+        "若增加背景则原研究署名报告"
+      ],
+      "search_queries": [
+        "2026年11月6日 创业板 复盘 财达证券",
+        "2026年7月 创业板 监管 座谈会 官方"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "数据字段/公式",
+        "新增背景的原始作者与发布日",
+        "所谓监管会是否有公告"
+      ],
+      "acceptance_rule": "价格用本地DATA独立复算；没有新事件原文不阻塞纯价格版，不能把券商归因当官方事实。",
+      "acceptable_fallback": "保留高点、月度回撤、11月低点与反弹；删未核“稳市场座谈会”等标签。",
+      "album_dependency": true,
+      "blocks": [
+        "2026背景可选，不阻塞价格事实或末点"
+      ],
+      "existing_evidence": "DATA_available_external_context_unverified",
+      "claim_kind": "data_and_optional_context",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q23",
+      "priority": "P2",
+      "period": "2015.07",
+      "claim_to_verify": "核实大规模停牌统计与减持限制的日期/适用对象。",
+      "date_definitions": {
+        "suspensions": "每天快照不同；原材料2015-07-07仅观察日",
+        "restriction_candidate": "2015-07-08，期间按原文"
+      },
+      "preferred_publishers": [
+        "中国证监会",
+        "沪深证券交易所",
+        "新华社"
+      ],
+      "search_queries": [
+        "2015年7月8日 大股东 董监高 六个月 减持 证监会",
+        "2015年7月7日 停牌 公司 数量 深交所"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "停牌统计时点",
+        "创业板与全A股范围",
+        "减持持股门槛与期限"
+      ],
+      "acceptance_rule": "一条原始规则＋明确时点的交易所统计或权威快照报道；二者不混成同一个政策。",
+      "acceptable_fallback": "下跌段若已有足够3—4个主节点，可删此支线，不影响主线锁稿。",
+      "album_dependency": false,
+      "blocks": [
+        "可选流动性细节"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q24",
+      "priority": "P2",
+      "period": "2015.09",
+      "claim_to_verify": "核实低点前股指期货交易监管与股息红利税政策安排。",
+      "date_definitions": {
+        "futures": "多次公布和分批实施，需逐项明确",
+        "tax_candidate": "2015-09-07公布/09-08实施待核",
+        "low": "2015-09-15，不反推当天推出措施"
+      },
+      "preferred_publishers": [
+        "中国金融期货交易所",
+        "财政部/税务总局",
+        "中国证监会/政府网转载"
+      ],
+      "search_queries": [
+        "2015年9月 股指期货 交易 保证金 平今仓 手续费 中金所",
+        "2015年9月7日 上市公司 股息红利 差别化 个人所得税"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "文件适用范围",
+        "公布/生效日期",
+        "是否拟用具体参数"
+      ],
+      "acceptance_rule": "原规则完整可读；原始站不可达可用完整官方转载。",
+      "acceptable_fallback": "若不直接用于主线，保留研究附录，不为了回答低点而凑一条同日救市。",
+      "album_dependency": false,
+      "blocks": [
+        "可选低点前背景"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q25",
+      "priority": "P2",
+      "period": "2016.01",
+      "claim_to_verify": "核实熔断实施与暂停的公布/实施日期，避免把7日发文当8日交易已结束。",
+      "date_definitions": {
+        "start": "2016-01-04",
+        "pause_announcement_candidate": "2016-01-07",
+        "pause_effective": "2016-01-08"
+      },
+      "preferred_publishers": [
+        "沪深证券交易所",
+        "中国证监会"
+      ],
+      "search_queries": [
+        "关于暂停实施指数熔断机制的通知 上证发 2016 4号",
+        "2015年12月4日 指数熔断 规定 2016年1月4日"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "规则原文",
+        "起始日",
+        "暂停公布/实施区别"
+      ],
+      "acceptance_rule": "正式规则与暂停通知支持各自时间；两日分别命中交易日。",
+      "acceptable_fallback": "一张简洁时间带保留两个日期，不增加机制效果结论。",
+      "album_dependency": false,
+      "blocks": [
+        "已有制度卡原文补档"
+      ],
+      "existing_evidence": "USER_A_no_direct_url",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q26",
+      "priority": "P2",
+      "period": "2017—2019",
+      "claim_to_verify": "核实再融资/减持规则与商誉减值披露背景，避免把业绩现象定成单日事件。",
+      "date_definitions": {
+        "refinancing_candidate": "2017-02-17",
+        "reduction_candidate": "2017-05-27周六",
+        "goodwill_period": "2019-01，预告截止/媒体集中报道分开"
+      },
+      "preferred_publishers": [
+        "中国证监会",
+        "深圳证券交易所",
+        "中证网"
+      ],
+      "search_queries": [
+        "2017年2月17日 再融资 新规 证监会",
+        "2017年5月27日 减持 规定 证监会",
+        "2019年1月 创业板 业绩预告 商誉减值 统计"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "规则适用范围",
+        "统计样本与金额口径",
+        "单日/月份精度"
+      ],
+      "acceptance_rule": "规则事实和财报统计分别取证；“并购后遗症”仅作有署名背景，不能归因三年整体跌幅。",
+      "acceptable_fallback": "不核清则保留年度收盘数据和价格波段，支线可以撤。",
+      "album_dependency": false,
+      "blocks": [
+        "可选2017—19内容补点"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q27",
+      "priority": "P2",
+      "period": "2022—2023",
+      "claim_to_verify": "核实金融委、中央财经委和全面注册制节点，分别决定是否增加主卡。",
+      "date_definitions": {
+        "finance_candidate": "2022-03-16",
+        "infrastructure_candidate": "2022-04-26",
+        "registration_all_candidate": "2023-02-17"
+      },
+      "preferred_publishers": [
+        "中国政府网",
+        "中国证监会",
+        "新华社"
+      ],
+      "search_queries": [
+        "2022年3月16日 金融委 专题会议",
+        "2022年4月26日 中央财经委员会 全面加强基础设施",
+        "2023年2月17日 全面实行 股票发行 注册制"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "主办机构/议题",
+        "公布时间是否盘后",
+        "正式施行定义"
+      ],
+      "acceptance_rule": "取得各自官方全文；市场低点同日不证明会议创造低点，3月反弹不等于持续反转。",
+      "acceptable_fallback": "选主片相关性最高的一项，其他用低对比背景或删除。",
+      "album_dependency": false,
+      "blocks": [
+        "可选下跌期制度背景"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q28",
+      "priority": "P2",
+      "period": "2025.04",
+      "claim_to_verify": "核实关税公告时间与4月7日A股复市的时间关系。",
+      "date_definitions": {
+        "external_announcement": "按发布地时区记录",
+        "A_share_day": "2025-04-07；本地−12.50%是DATA",
+        "holiday": "A股假期与海外交易错位另核"
+      },
+      "preferred_publishers": [
+        "相关官方原文",
+        "新华社/中国政府网完整报道"
+      ],
+      "search_queries": [
+        "2025年4月 美国 关税 公告 4月7日 A股 新华社"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "对华/普遍关税范围",
+        "宣布与生效日",
+        "中外时区与假期"
+      ],
+      "acceptance_rule": "至少一份官方政策原文或可核完整官方报道；不能把同日美国收盘倒放为A股开盘原因。",
+      "acceptable_fallback": "使用本地单日−12.50%事实，不添加未核外部归因标签。",
+      "album_dependency": false,
+      "blocks": [
+        "可选外部事件，不阻塞价格事实"
+      ],
+      "existing_evidence": "B_candidate_unverified",
+      "claim_kind": "event_fact",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q29",
+      "priority": "P2",
+      "period": "2023—2026",
+      "claim_to_verify": "复核光模块指数/行业权重/基金持仓等外部统计，只有确需时才获取。",
+      "date_definitions": {
+        "index_2023": "指数正式名称、起止点、复权/全收益须明确",
+        "holdings": "2026-06-30时点",
+        "weights": "2026-10具体日；权重不是总市值占比",
+        "flows": "2026-10月区间"
+      },
+      "preferred_publishers": [
+        "原Wind数据/报告",
+        "明确引用原数据的权威报道"
+      ],
+      "search_queries": [
+        "2023 万得 光模块 CPO 指数 全年 253.02%",
+        "2026年6月30日 公募 TMT 持仓 60%",
+        "2026年10月 创业板 通信 电力设备 电子 权重"
+      ],
+      "required_capture_fields": [
+        "原文标题逐字抄录",
+        "发布机构/作者",
+        "原文URL或完整附件",
+        "网页发布日期与时间",
+        "事件日期/实施日期",
+        "支持该命题的原文段落",
+        "本轮获取日期",
+        "内容截图或可复核存档",
+        "数据供应商与可复核表格",
+        "样本/分母/时点",
+        "指数全名",
+        "权重计算定义"
+      ],
+      "acceptance_rule": "取回可复核原始表或完整报告，不能仅抄二手百分比；无合法可用原始数据不视为通过。",
+      "acceptable_fallback": "本片可删这些外部统计，保留当期成分股真实截面与阶段背景，避免阻塞主片。",
+      "album_dependency": false,
+      "blocks": [
+        "可选结构解释，不阻塞基础成片"
+      ],
+      "existing_evidence": "external_statistics_pending",
+      "claim_kind": "external_statistic",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    },
+    {
+      "id": "Q30",
+      "priority": "P1",
+      "period": "2023—2026，具体报道年份待核",
+      "claim_to_verify": "为相册M05确定当期权威媒体关于AI算力/光模块与中际旭创的一条具体报道及真实图像，并将同一事实先纳入主片。",
+      "date_definitions": {
+        "publication": "实际报道日期",
+        "photograph": "原图注拍摄日期，不能以发布时间自动代替",
+        "film_anchor": "按锁定报道事实确定，不从当前市值反推历史"
+      },
+      "preferred_publishers": [
+        "证券时报",
+        "新华社",
+        "其他权威同期报道"
+      ],
+      "search_queries": [
+        "2023 证券时报 中际旭创 光模块 AI 算力 生产 测试",
+        "2023 中际旭创 光模块 现场 图注"
+      ],
+      "required_capture_fields": [
+        "媒体原题",
+        "原文URL",
+        "报道日期",
+        "支持产业/企业事实的短原文",
+        "原图地址与图注",
+        "拍摄日期",
+        "主片事实ID",
+        "相册M05题签"
+      ],
+      "acceptance_rule": "取回至少一篇具体同期报道，核清报道事实与照片时间；先进入主片，再以同事实作相册题签。",
+      "acceptable_fallback": "无来源则用已经入片的华谊报道/乐视公告备用镜头，不编造新闻标题或历史现场。",
+      "album_dependency": true,
+      "blocks": [
+        "相册M05具体事实与照片锁定"
+      ],
+      "existing_evidence": "用户材料企业四提供研究线索，未附原题与URL",
+      "claim_kind": "industry_company_photo_context",
+      "candidate_title_is_not_retrieved_title": true,
+      "online_status": "not_retrieved_network_403",
+      "verified_urls": [],
+      "enabled_after_this_queue": false
+    }
+  ]
+}

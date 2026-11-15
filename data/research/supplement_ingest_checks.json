@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "19 original file hashes",
+    "18 HTML plus 1 PDF census",
+    "0 acquired standalone news photos",
+    "all persisted source texts exist",
+    "12 sequences resolve source IDs",
+    "client shell and post-cutoff event excluded from active sequence sources",
+    "exact quotations match archived text",
+    "all sequence interval returns recompute",
+    "board dimensions confirmed"
+  ],
+  "scope": "research ingestion and content assembly; no full-film render or independent online authentication"
+}

@@ -1,0 +1,236 @@
+{
+  "version": "V6.1-silent-sample",
+  "source_script": "docs/source/visual_script_v0.9.md",
+  "source_timecode": "01:35–02:17",
+  "source_offset_seconds": 95,
+  "purpose": "按V0.9实际速度制作的2015年代表片段；无声画面审阅",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_seconds": 42,
+    "crf": 17,
+    "preset": "medium",
+    "audio": false
+  },
+  "sample": {
+    "start_date": "2015-04-13",
+    "end_date": "2015-09-15",
+    "timeline_start": "2012-01-01",
+    "timeline_end": "2016-01-01",
+    "timeline_years": [
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  "playhead_keyframes": [
+    {
+      "t": 0,
+      "date": "2015-04-13"
+    },
+    {
+      "t": 3.8,
+      "date": "2015-04-13"
+    },
+    {
+      "t": 6,
+      "date": "2015-04-24"
+    },
+    {
+      "t": 12.3,
+      "date": "2015-04-24"
+    },
+    {
+      "t": 13,
+      "date": "2015-04-27"
+    },
+    {
+      "t": 17,
+      "date": "2015-05-15"
+    },
+    {
+      "t": 21,
+      "date": "2015-06-03"
+    },
+    {
+      "t": 28.7,
+      "date": "2015-06-03"
+    },
+    {
+      "t": 29,
+      "date": "2015-06-04"
+    },
+    {
+      "t": 32,
+      "date": "2015-06-19"
+    },
+    {
+      "t": 35,
+      "date": "2015-08-24"
+    },
+    {
+      "t": 37,
+      "date": "2015-09-15"
+    },
+    {
+      "t": 42,
+      "date": "2015-09-15"
+    }
+  ],
+  "camera_shots": [
+    {
+      "id": "multi_account",
+      "start_t": 0,
+      "end_t": 6,
+      "visible_days_start": 135,
+      "visible_days_end": 105,
+      "current_x_start": 0.78,
+      "current_x_end": 0.76,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2015-04-13"
+    },
+    {
+      "id": "accounts_counter",
+      "start_t": 6,
+      "end_t": 13,
+      "visible_days_start": 105,
+      "visible_days_end": 68,
+      "current_x_start": 0.76,
+      "current_x_end": 0.74,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2015-04-24"
+    },
+    {
+      "id": "high_approach",
+      "start_t": 13,
+      "end_t": 21,
+      "visible_days_start": 68,
+      "visible_days_end": 36,
+      "current_x_start": 0.74,
+      "current_x_end": 0.74,
+      "y_policy": "critical_anchor",
+      "focus_date": "2015-06-03",
+      "anchor_y_frac": 0.3
+    },
+    {
+      "id": "high_hit",
+      "start_t": 21,
+      "end_t": 29,
+      "visible_days_start": 36,
+      "visible_days_end": 34,
+      "current_x_start": 0.74,
+      "current_x_end": 0.74,
+      "y_policy": "critical_anchor",
+      "focus_date": "2015-06-03",
+      "anchor_y_frac": 0.3
+    },
+    {
+      "id": "post_high_close",
+      "start_t": 29,
+      "end_t": 32,
+      "visible_days_start": 34,
+      "visible_days_end": 44,
+      "current_x_start": 0.74,
+      "current_x_end": 0.74,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2015-06-19",
+      "transition_seconds": 0.7
+    },
+    {
+      "id": "travel_to_low",
+      "start_t": 32,
+      "end_t": 37,
+      "visible_days_start": 44,
+      "visible_days_end": 105,
+      "current_x_start": 0.74,
+      "current_x_end": 0.79,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2015-09-15",
+      "transition_seconds": 1.0
+    },
+    {
+      "id": "drawdown_low",
+      "start_t": 37,
+      "end_t": 42,
+      "visible_days_start": 105,
+      "visible_days_end": 105,
+      "current_x_start": 0.79,
+      "current_x_end": 0.79,
+      "y_policy": "critical_anchor",
+      "focus_date": "2015-09-15",
+      "anchor_y_frac": 0.74
+    }
+  ],
+  "critical_points": [
+    {
+      "id": "stage_high",
+      "date": "2015-06-03",
+      "price": 3982.25,
+      "label": "阶段高点",
+      "hit_t": 21,
+      "hold_until": 28.7,
+      "leave_anchor": true
+    },
+    {
+      "id": "drawdown_low",
+      "date": "2015-09-15",
+      "price": 1797.56,
+      "label": "阶段低点",
+      "hit_t": 37,
+      "hold_until": 42,
+      "leave_anchor": true
+    }
+  ],
+  "stage_rail": {
+    "single_active_track": true,
+    "transition_seconds": 0.42,
+    "completed_stage_display": "milestone_badge",
+    "modes": [
+      {
+        "id": "rise_from_low",
+        "label": "阶段上涨",
+        "start_date": "2012-12-03",
+        "anchor_price": 593.66,
+        "end_date": "2015-06-03",
+        "target_value": 5.708,
+        "color": "red"
+      },
+      {
+        "id": "drawdown_from_high",
+        "label": "高点后回撤",
+        "start_date": "2015-06-03",
+        "anchor_price": 3982.25,
+        "end_date": "2015-09-15",
+        "target_value": -0.5486,
+        "color": "cool_blue"
+      }
+    ]
+  },
+  "phase_contexts": [],
+  "timeline_bands": [],
+  "style": {
+    "title_en": "CHINEXT INDEX",
+    "title_cn": "创业板指",
+    "code": "399006",
+    "subtitle": "中国创业板市场代表指数",
+    "font_regular": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+    "font_bold": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
+  },
+  "review_times": [
+    0,
+    2,
+    6,
+    9,
+    14,
+    18,
+    21,
+    24,
+    29,
+    32,
+    37,
+    40,
+    42
+  ]
+}

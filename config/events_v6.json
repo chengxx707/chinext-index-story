@@ -1,0 +1,66 @@
+[
+  {
+    "id": "multi_account_2015",
+    "enabled": true,
+    "release_grade": "A",
+    "date": "2015-04-13",
+    "date_precision": "day",
+    "source_id": "multi_account_2015",
+    "source_reference": "docs/source/events_source_20261113.md#5.1",
+    "type": "institution",
+    "importance": "secondary",
+    "date_label": "2015.04.13",
+    "lines": [
+      "一人多户放开"
+    ],
+    "hit_t": 0,
+    "pre_seconds": 0,
+    "post_seconds": 4.2,
+    "visual": "lightweight_label",
+    "placement": "left_mid"
+  },
+  {
+    "id": "accounts_2015",
+    "enabled": true,
+    "release_grade": "A",
+    "date": "2015-04-24",
+    "anchor_date": "2015-04-24",
+    "date_precision": "range",
+    "source_id": "accounts_2015",
+    "source_reference": "docs/source/events_source_20261113.md#5.1",
+    "type": "market_phenomenon",
+    "importance": "primary",
+    "date_label": "2015.04.20—24",
+    "lines": [
+      "单周新开 A 股账户"
+    ],
+    "metric": "413.03 万户",
+    "metric_value": 413.03,
+    "metric_unit": "万户",
+    "hit_t": 6,
+    "pre_seconds": 0.2,
+    "post_seconds": 6.1,
+    "visual": "counter_with_city_pulses",
+    "placement": "left_mid"
+  },
+  {
+    "id": "margin_cleanup_2015",
+    "enabled": false,
+    "release_grade": "B",
+    "verification_required": true,
+    "date": "2015-06-13",
+    "date_precision": "month",
+    "type": "institution",
+    "importance": "primary",
+    "date_label": "2015.06",
+    "lines": [
+      "场外配资清理相关文件发布"
+    ],
+    "hit_t": 30,
+    "pre_seconds": 0.2,
+    "post_seconds": 0.75,
+    "visual": "glass_gold_hairline",
+    "placement": "left_mid",
+    "note": "未补齐官方原文与精确文件日期前不启用"
+  }
+]

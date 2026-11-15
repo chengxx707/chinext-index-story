@@ -1,0 +1,24 @@
+{
+  "status": "passed_document_checks_only",
+  "duration_seconds_estimate": 427,
+  "total_nodes": 57,
+  "main_nodes": 44,
+  "beats": 75,
+  "planned_frames": 12810,
+  "verified_short_quote_count": 4,
+  "market_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "render_performed": false,
+  "actual_readability_review_performed": false,
+  "deliverables": [
+    {
+      "path": "output/deliverables/20261115/全片生产主表与完整屏幕文字稿_V1.md",
+      "bytes": 55808,
+      "sha256": "40bd7ccd864caefac93ad7ad8e55f8fa659febf2a842bc31ae55b7ed99e66380"
+    },
+    {
+      "path": "output/deliverables/20261115/工程实施路线图_V1.md",
+      "bytes": 9983,
+      "sha256": "f90265477de9f8c1d7ed989f1f93ee6c0a35b87b67355c0f6ad90446475184ce"
+    }
+  ]
+}

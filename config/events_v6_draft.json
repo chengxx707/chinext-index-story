@@ -1,0 +1,173 @@
+[
+  {
+    "id": "unlock_2012",
+    "enabled": true,
+    "release_grade": "A",
+    "date": "2012-10-30",
+    "type": "institution",
+    "importance": "primary",
+    "date_label": "2012.10.30",
+    "lines": [
+      "首批公司控股股东",
+      "锁定期届满"
+    ],
+    "hit_t": 1.55,
+    "pre_seconds": 0.28,
+    "post_seconds": 0.85,
+    "visual": "glass_gold_hairline",
+    "timeline_trace": "point",
+    "placement": "left_mid"
+  },
+  {
+    "id": "ipo_pause_2012",
+    "enabled": true,
+    "release_grade": "A",
+    "date": "2012-11-16",
+    "type": "institution",
+    "importance": "primary",
+    "date_label": "2012.11.16",
+    "lines": [
+      "IPO暂停",
+      "至 2014.01"
+    ],
+    "hit_t": 2.75,
+    "pre_seconds": 0.25,
+    "post_seconds": 0.9,
+    "visual": "glass_gold_hairline",
+    "timeline_trace": "period_start",
+    "placement": "right_mid"
+  },
+  {
+    "id": "huayi_2013",
+    "enabled": true,
+    "release_grade": "A",
+    "date": "2013-07-24",
+    "type": "company",
+    "importance": "primary",
+    "date_label": "2013.07.24",
+    "lines": [
+      "华谊兄弟并购",
+      "手游公司"
+    ],
+    "hit_t": 7.15,
+    "pre_seconds": 0.25,
+    "post_seconds": 0.95,
+    "visual": "company_name_anchor",
+    "timeline_trace": "point",
+    "placement": "left_mid"
+  },
+  {
+    "id": "year_2013",
+    "enabled": true,
+    "release_grade": "DATA",
+    "date": "2013-12-31",
+    "type": "year_stat",
+    "importance": "secondary",
+    "date_label": "2013",
+    "metric": "+82.73%",
+    "lines": [
+      "创业板指全年"
+    ],
+    "hit_t": 9.0,
+    "pre_seconds": 0.15,
+    "post_seconds": 0.55,
+    "visual": "year_corner_stat",
+    "timeline_trace": "none",
+    "placement": "right_top"
+  },
+  {
+    "id": "ipo_restart_2014",
+    "enabled": true,
+    "release_grade": "A",
+    "date": "2014-01-08",
+    "type": "institution",
+    "importance": "primary",
+    "date_label": "2014.01",
+    "lines": [
+      "IPO重启"
+    ],
+    "hit_t": 10.05,
+    "pre_seconds": 0.22,
+    "post_seconds": 0.78,
+    "visual": "glass_gold_hairline",
+    "timeline_trace": "period_end",
+    "placement": "right_mid"
+  },
+  {
+    "id": "multi_account_2015",
+    "enabled": true,
+    "release_grade": "A",
+    "date": "2015-04-13",
+    "type": "institution",
+    "importance": "secondary",
+    "date_label": "2015.04.13",
+    "lines": [
+      "一人多户放开"
+    ],
+    "hit_t": 13.1,
+    "pre_seconds": 0.18,
+    "post_seconds": 0.6,
+    "visual": "lightweight_label",
+    "timeline_trace": "point",
+    "placement": "left_top"
+  },
+  {
+    "id": "accounts_2015",
+    "enabled": true,
+    "release_grade": "A",
+    "date": "2015-04-24",
+    "type": "market_phenomenon",
+    "importance": "primary",
+    "date_label": "2015.04.24",
+    "lines": [
+      "单周新开 A 股账户"
+    ],
+    "metric": "413.03万户",
+    "secondary_metric": "一季度新增 795 万户",
+    "hit_t": 14.5,
+    "pre_seconds": 0.28,
+    "post_seconds": 1.1,
+    "visual": "counter_with_city_pulses",
+    "timeline_trace": "point",
+    "placement": "left_top"
+  },
+  {
+    "id": "post_high_metric",
+    "enabled": true,
+    "release_grade": "DATA",
+    "date": "2015-06-19",
+    "type": "stage_stat",
+    "importance": "secondary",
+    "date_label": "2015.06.19",
+    "lines": [
+      "高点后回撤"
+    ],
+    "metric_formula": "close(date) / close(2015-06-03) - 1",
+    "hit_t": 21.6,
+    "pre_seconds": 0.15,
+    "post_seconds": 0.4,
+    "visual": "stage_rail_terminal_value",
+    "timeline_trace": "none",
+    "placement": "right_bottom"
+  },
+  {
+    "id": "margin_cleanup_2015",
+    "enabled": false,
+    "release_grade": "B",
+    "verification_required": true,
+    "date": "2015-06-13",
+    "type": "institution",
+    "importance": "primary",
+    "date_label": "2015.06",
+    "lines": [
+      "场外配资清理相关文件发布"
+    ],
+    "hit_t": 19.9,
+    "pre_seconds": 0.2,
+    "post_seconds": 0.75,
+    "visual": "glass_gold_hairline",
+    "timeline_trace": "point",
+    "placement": "left_mid",
+    "note": "未补齐官方原文与精确文件日期前禁止启用"
+  }
+]

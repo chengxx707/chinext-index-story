@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-15",
+  "scope": "本地新存档与回交文档审查；未联网、不自动修改生产资格",
+  "supplement_path": "/workspace/attachments/7e143c72-628a-420c-b7c9-d07c93a8b253/线三_事件补充_含结尾素材_视频用.md",
+  "supplement_sha256": "b8fd35dc953130256c6004ab1edc809f308dfcd22083729c8540a7986b8a5a59",
+  "original_zip_census": {
+    "html_files": 18,
+    "pdf_files": 1,
+    "standalone_photo_files": 0,
+    "embedded_data_images": 0
+  },
+  "summary": {
+    "album_slots": 5,
+    "slots_with_local_article_body": 2,
+    "slots_only_transcribed_in_md": 3,
+    "original_photos_acquired": 0,
+    "backup_slots": 2
+  },
+  "assets": [
+    {
+      "id": "M01",
+      "event_date": "2010-06-01",
+      "event_precision": "day",
+      "editorial_caption": "创业板指发布",
+      "source_status": "SUPPLIED_LOCAL_ARCHIVE_BODY_CHECKED",
+      "title_status": "exact_title_present_in_local_archive",
+      "photo_status": "not_required_document_asset",
+      "original_photo_file": null,
+      "usable_now": "2010公告标题、正文节选、基点表格的文献卡",
+      "archive": {
+        "archive_path": "/workspace/scratch/chinext_materials_20261115/素材存档/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.html",
+        "archive_sha256": "43ad5fb55b99e2b7ba89986b05a50cab4972c2d28995349b696b77f4d4941466",
+        "archive_title": "关于编制和发布创业板指数的公告",
+        "visible_page_date": "时间：2010-06-01",
+        "text_extract": "/workspace/chinext-index-story/output/material_review/album/M01_archive_text.txt",
+        "body_excerpt": "为了更全面地反映创业板市场情况，向市场各类投资者提供更多的跟踪投资目标指数，推进指数基金产品以及丰富证券市场产品品种，深圳证券交易所决定于2010年6月1日起正式编制和发布创业板指数。\n指数代码\n指数名称\n指数简称\n基日\n基日点位\n399006\n创业板指数P\n创业板指\n2010-05-31\n1000\n399606\n创业板指数R\n创业板R\n2010-05-31\n1000\n为了方便投资者参考，本次同步发布收益指数及价格指数，其中价格指数对样本股公司派息不作除权调整处理，任指数自然回落。\n特此公告。\n深圳证券交易所\n深圳证券信息有限公司\n2010年05月31日\n附：创业板指数编制方案摘要\n一、 指数选样\n（一）入围标准：\n1．在深交所创业板上市交易的A股；\n2．有一定上市交易日期（一般为三个月）；\n3．公司最近一年无重大违规、财务报告无重大问题；\n4．公司最近一年经营无异常、无重大亏损；\n5．考察期内股价无异常波动。\n（二）成份股选样方法\n创业板指数的初始成份股为指数发布之日已纳入深证综合指数计算的全部创业板股票。\n在指数样本未满100只之前，新上市创业板股票在上市后第十一个交易日纳入指数计"
+      },
+      "date_notes": [
+        "HTML页面显示时间2010-06-01；公告落款2010-05-31；基日2010-05-31；指数发布2010-06-01。",
+        "2019年2月方案PDF只作2019版文献，不能冒充2010公告或当前全部规则。"
+      ],
+      "supporting_pdf": "/workspace/scratch/chinext_materials_20261115/素材存档/M01_F02_G02_创业板指数编制方案_深交所2019年2月.pdf",
+      "preview": "/workspace/chinext-index-story/output/material_review/album/M01_methodology_201902_page1.png"
+    },
+    {
+      "id": "M02",
+      "event_date": "2015-04-20/2015-04-24",
+      "event_precision": "range",
+      "editorial_caption": "2015年4月开户热度上升；单周新开A股账户413.03万户",
+      "source_status": "SUPPLEMENT_DOCUMENT_TRANSCRIPTION_ONLY",
+      "title_status": "reported_in_md_not_present_as_archived_media_page",
+      "titles_from_supplement": [
+        "韭菜根本割不完!A股上周开户数首破400万",
+        "滬指失守4500成交再破萬億 證監會再度提示風險",
+        "\"一人多户\"开通首周 A股新增开户迈过300万大关"
+      ],
+      "title_dates_from_supplement": [
+        "2015-04-28前后",
+        "2015-04-28",
+        "2015-04-22"
+      ],
+      "photo_status": "no_original_file_in_zip",
+      "original_photo_file": null,
+      "reported_photo_caption": "高剑平 澎湃资料（仅回交稿转录，原页未在包内）",
+      "usable_now": "事实题签／回交标题候选；不得称已提取新闻原页图",
+      "notes": [
+        "4月22日首周300万对应另一周，不能直接配成4月20—24日413.03万的同周标题。",
+        "强调账户不是人数；资料图不是4月某天现场。",
+        "调侃标题可作为有来源的媒体语气线索，推荐正式片以中性事实题签为主。"
+      ]
+    },
+    {
+      "id": "M03",
+      "event_date": "2018-06-11",
+      "event_precision": "day",
+      "editorial_caption": "宁德时代上市",
+      "source_status": "SUPPLEMENT_DOCUMENT_TRANSCRIPTION_ONLY",
+      "title_status": "reported_in_md_not_archived",
+      "titles_from_supplement": [
+        "创业板开启\"独角兽\"时代",
+        "宁德时代昨登陆深交所 市值逼近800亿元"
+      ],
+      "title_dates_from_supplement": [
+        "2018-06-12",
+        "2018-06-12"
+      ],
+      "photo_status": "no_original_file_in_zip",
+      "original_photo_file": null,
+      "usable_now": "企业上市事实题签／标题候选，需补原页才作原题文献卡",
+      "notes": [
+        "事件6月11日、报道6月12日分别标识。",
+        "不能把2018上市现场用成2021万亿市值现场；2021同期原文仍缺。",
+        "最大IPO限定当时募资规模，不作贯穿2026的永久纪录。"
+      ]
+    },
+    {
+      "id": "M04",
+      "event_date": "2020-08-24",
+      "event_precision": "day",
+      "editorial_caption": "首批18家注册制企业上市",
+      "source_status": "SUPPLIED_LOCAL_ARCHIVE_BODY_CHECKED",
+      "title_status": "exact_title_present_in_local_archive",
+      "archive": {
+        "archive_path": "/workspace/scratch/chinext_materials_20261115/素材存档/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.html",
+        "archive_sha256": "41e5250915b1a90a620a490f29769b1314f56f75ba9f401416f6a6c39b0e72a1",
+        "archive_title": "创业板改革并试点注册制首批18家企业成功上市",
+        "visible_page_date": "时间：2020-08-24",
+        "text_extract": "/workspace/chinext-index-story/output/material_review/album/M04_archive_text.txt",
+        "body_excerpt": "8月24日，创业板改革并试点注册制首批18家企业上市仪式在深交所举行。中共中央政治局委员、国务院副总理刘鹤发表书面致辞，广东省委书记李希、中国证监会主席致辞并共同为创业板注册制首批企业敲钟开市，广东省省长出席并见证首批企业签署证券上市协议和证券登记协议，深圳市委书记王伟中、深交所主要负责同志分别致辞。天津、河北、江苏、浙江、福建、湖北、湖南、广东、四川、陕西等省市领导，全国人大财经委、全国人大常委会法工委、最高人民法院、国家发改委、科技部、工信部、商务部、国资委、证监会等单位有关负责同志，首批上市企业负责人，以及投资机构、中介机构、商业银行、新闻媒体等代表参加。深交所严格落实常态化疫情防控要求，认真做好安全保障工作，确保上市仪式平稳有序进行。\n创业板注册制首批18家企业成功上市，标志着创业板改革并试点注册制这一重大改革任务正式落地。这是资本市场贯彻落实习近平总书记重要指示批示精神和党中央国务院重大决策部署，不折不扣、能办快办的生动实践，是深交所服务粤港澳大湾区和中国特色社会主义先行示范区建设、致敬深圳经济特区成立40周年的务实举措。\n站在新的起点，深交所将坚持以习近平新时代中国特色社会"
+      },
+      "photo_status": "local_html_has_no_event_photos_only_website_images",
+      "original_photo_file": null,
+      "reported_photo_captions": [
+        "敲钟仪式，新华社记者毛思倩摄",
+        "协议签署仪式，新华社记者毛思倩摄",
+        "企业收取证券登记证书，新华社记者毛思倩摄"
+      ],
+      "caption_evidence_status": "quoted_in_supplement_not_in_local_archived_html",
+      "usable_now": "官方通稿标题与首段文献卡；可先落地“制度页”",
+      "notes": [
+        "存档正文可支持8月24日仪式和18家；两张img均网站banner/导航，无现场原图。",
+        "新华社图注只有回交稿转录，对应央广/新华社原页未存档；不能称图注原件已核。",
+        "8月21日发布会与8月24日上市仪式分开。"
+      ]
+    },
+    {
+      "id": "M05",
+      "event_date": "2023-06",
+      "event_precision": "month_pending_original",
+      "editorial_caption": "AI算力与光模块受到关注",
+      "company_caption_candidate": "中际旭创（与主片同一事实同步后采用）",
+      "source_status": "SUPPLEMENT_DOCUMENT_TRANSCRIPTION_ONLY",
+      "title_status": "reported_in_md_not_archived",
+      "titles_from_supplement": [
+        "龙头股狂飙!AI带火这一板块,基金怎么看?"
+      ],
+      "photo_status": "no_original_file_in_zip",
+      "original_photo_file": null,
+      "usable_now": "产业语境与媒体标题候选，不使用收益数字",
+      "notes": [
+        "253.02%据回交摘录为截至6月20日的年内指数收益，不是全年。",
+        "中际个股近300%为另一年度口径，与指数不同；本片不以替换个股收益来绕开口径问题。",
+        "原标题“AI带火”属于媒体表述，若展示必须归属同期报道层，不连成创业板指数涨跌因果。",
+        "精确刊发日及原页、产线/测试现场均待取得。"
+      ]
+    },
+    {
+      "id": "B01",
+      "event_date": "2013-07",
+      "event_precision": "month_until_original_conflict_resolved",
+      "editorial_caption": "华谊兄弟并购手游公司",
+      "source_status": "SUPPLEMENT_DOCUMENT_TRANSCRIPTION_ONLY",
+      "title_status": "reported_in_md_not_archived",
+      "titles_from_supplement": [
+        "华谊兄弟并购案被曝大面积泄露 保荐商中信建投否认",
+        "腾讯\"基因\"助力 华谊兄弟4连阳涨45%"
+      ],
+      "photo_status": "no_original_file_in_zip",
+      "original_photo_file": null,
+      "usable_now": "备用事件题签与待取回的报道标题",
+      "notes": [
+        "7月19日/24日复牌转录存在冲突；优先保留2013.07事实范围，原页核清再精确日。",
+        "题材是手游并购，不使用任意电影海报代替事件。"
+      ]
+    },
+    {
+      "id": "B02",
+      "event_date": "2020-07-21",
+      "event_precision": "day_from_supplement",
+      "editorial_caption": "乐视网摘牌；最后收盘0.18元（两类日期分开）",
+      "source_status": "SUPPLEMENT_DOCUMENT_TRANSCRIPTION_ONLY",
+      "title_status": "reported_in_md_not_archived",
+      "titles_from_supplement": [
+        "唏嘘!一代\"股王\"今日退市",
+        "必看!A股30年十大典型退市公司警示未来",
+        "一批公司将与A股说再见,退市正成\"常态化\""
+      ],
+      "photo_status": "no_original_file_in_zip",
+      "original_photo_file": null,
+      "usable_now": "备用公司事实题签；媒体原题或原公告待取",
+      "notes": [
+        "5月14日终止上市决定、7月20日最后交易和7月21日摘牌在回交稿分开；本包未附这些原文。",
+        "正文宜写“摘牌”“最后收盘”，不以媒体唏嘘/股王标签替代中性事实。"
+      ]
+    }
+  ],
+  "version_findings": [
+    {
+      "id": "M01_date_layers",
+      "finding": "页面时间6月1日与落款5月31日分开，不把文件名当页面发布日期。"
+    },
+    {
+      "id": "methodology_version",
+      "finding": "2010公告为按季调样；2019年2月PDF第3–4页为每半年一次、6月/12月实施，不能将旧规则无条件投射到2026。"
+    }
+  ],
+  "representation_policy": [
+    "文献卡可标来源机构、原题、文献日期、真实正文节选。",
+    "转录标题只作为用户补充材料，尚未取得原页时保留来源状态，不伪装原网页截图。",
+    "同一时段的价格、事件、情绪和情景可以并列，但不画因果箭头，不制造情绪数值。",
+    "历史现场照片尚缺；公告/新闻标题可承担情景入口，不能被称为已取得现场照片。"
+  ]
+}

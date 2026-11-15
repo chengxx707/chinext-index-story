@@ -1,0 +1,611 @@
+{
+  "schema_version": 1,
+  "scope": "2015 ChiNext drawdown research candidates and frozen CSV observations",
+  "updated_at": "2026-11-15",
+  "online_verification": {
+    "status": "blocked_before_response_body",
+    "detail": "Standard HTTPS tunnel returned403 for official and authoritative media domains; no article body retrieved, no sources upgraded.",
+    "required_hosts": [
+      "www.gov.cn",
+      "www.pbc.gov.cn",
+      "www.csrc.gov.cn",
+      "www.sse.com.cn",
+      "www.szse.cn",
+      "www.cffex.com.cn",
+      "www.news.cn",
+      "www.xinhuanet.com",
+      "www.chinanews.com.cn",
+      "finance.people.com.cn"
+    ],
+    "draft_runtime_status": "Parent reports network draft saved, not yet applied; no retries without runtime change."
+  },
+  "market_source": "data/cyb_daily.csv",
+  "derived_observations": [
+    {
+      "date": "2015-06-03",
+      "open": 3949.28,
+      "high": 4011.04,
+      "low": 3838.22,
+      "close": 3982.25,
+      "pct_chg": 2.07,
+      "previous_close": 3901.54,
+      "open_vs_previous_close_pct": 1.22,
+      "close_vs_20150603_pct": 0.0,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 3756.09,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": 2.07
+    },
+    {
+      "date": "2015-06-12",
+      "open": 3889.16,
+      "high": 3922.7,
+      "low": 3850.59,
+      "close": 3899.71,
+      "pct_chg": 0.97,
+      "previous_close": 3862.14,
+      "open_vs_previous_close_pct": 0.7,
+      "close_vs_20150603_pct": -2.07,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 3815.06,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": 0.97
+    },
+    {
+      "date": "2015-06-15",
+      "open": 3919.36,
+      "high": 3919.36,
+      "low": 3688.89,
+      "close": 3696.03,
+      "pct_chg": -5.22,
+      "previous_close": 3899.71,
+      "open_vs_previous_close_pct": 0.5,
+      "close_vs_20150603_pct": -7.19,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 3850.59,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": -5.22
+    },
+    {
+      "date": "2015-06-19",
+      "open": 3408.53,
+      "high": 3476.03,
+      "low": 3304.65,
+      "close": 3314.98,
+      "pct_chg": -5.41,
+      "previous_close": 3504.55,
+      "open_vs_previous_close_pct": -2.74,
+      "close_vs_20150603_pct": -16.76,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 3497.73,
+      "whole_session_down_gap": true,
+      "whole_session_gap_points": 21.7,
+      "recomputed_daily_return_pct": -5.41
+    },
+    {
+      "date": "2015-06-26",
+      "open": 3078.4,
+      "high": 3078.4,
+      "low": 2915.94,
+      "close": 2920.7,
+      "pct_chg": -8.91,
+      "previous_close": 3206.38,
+      "open_vs_previous_close_pct": -3.99,
+      "close_vs_20150603_pct": -26.66,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 3172.37,
+      "whole_session_down_gap": true,
+      "whole_session_gap_points": 93.97,
+      "recomputed_daily_return_pct": -8.91
+    },
+    {
+      "date": "2015-06-29",
+      "open": 2943.5,
+      "high": 2950.13,
+      "low": 2663.44,
+      "close": 2689.76,
+      "pct_chg": -7.91,
+      "previous_close": 2920.7,
+      "open_vs_previous_close_pct": 0.78,
+      "close_vs_20150603_pct": -32.46,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 2915.94,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": -7.91
+    },
+    {
+      "date": "2015-07-03",
+      "open": 2559.03,
+      "high": 2788.76,
+      "low": 2458.29,
+      "close": 2605.28,
+      "pct_chg": -1.66,
+      "previous_close": 2649.32,
+      "open_vs_previous_close_pct": -3.41,
+      "close_vs_20150603_pct": -34.58,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 2591.05,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": -1.66
+    },
+    {
+      "date": "2015-07-08",
+      "open": 2304.76,
+      "high": 2364.08,
+      "low": 2304.76,
+      "close": 2364.05,
+      "pct_chg": 0.51,
+      "previous_close": 2352.01,
+      "open_vs_previous_close_pct": -2.01,
+      "close_vs_20150603_pct": -40.64,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 2350.97,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": 0.51
+    },
+    {
+      "date": "2015-07-09",
+      "open": 2338.11,
+      "high": 2435.76,
+      "low": 2338.11,
+      "close": 2435.76,
+      "pct_chg": 3.03,
+      "previous_close": 2364.05,
+      "open_vs_previous_close_pct": -1.1,
+      "close_vs_20150603_pct": -38.83,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 2304.76,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": 3.03
+    },
+    {
+      "date": "2015-07-27",
+      "open": 2822.37,
+      "high": 2924.08,
+      "low": 2683.05,
+      "close": 2683.45,
+      "pct_chg": -7.4,
+      "previous_close": 2897.82,
+      "open_vs_previous_close_pct": -2.6,
+      "close_vs_20150603_pct": -32.61,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 2879.26,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": -7.4
+    },
+    {
+      "date": "2015-08-11",
+      "open": 2705.04,
+      "high": 2747.83,
+      "low": 2675.15,
+      "close": 2698.91,
+      "pct_chg": -0.29,
+      "previous_close": 2706.72,
+      "open_vs_previous_close_pct": -0.06,
+      "close_vs_20150603_pct": -32.23,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 2593.41,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": -0.29
+    },
+    {
+      "date": "2015-08-21",
+      "open": 2452.62,
+      "high": 2480.68,
+      "low": 2340.92,
+      "close": 2341.95,
+      "pct_chg": -6.65,
+      "previous_close": 2508.82,
+      "open_vs_previous_close_pct": -2.24,
+      "close_vs_20150603_pct": -41.19,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 2508.35,
+      "whole_session_down_gap": true,
+      "whole_session_gap_points": 27.67,
+      "recomputed_daily_return_pct": -6.65
+    },
+    {
+      "date": "2015-08-24",
+      "open": 2222.54,
+      "high": 2246.55,
+      "low": 2152.61,
+      "close": 2152.61,
+      "pct_chg": -8.08,
+      "previous_close": 2341.95,
+      "open_vs_previous_close_pct": -5.1,
+      "close_vs_20150603_pct": -45.94,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 2340.92,
+      "whole_session_down_gap": true,
+      "whole_session_gap_points": 94.37,
+      "recomputed_daily_return_pct": -8.08
+    },
+    {
+      "date": "2015-08-25",
+      "open": 1996.04,
+      "high": 2048.03,
+      "low": 1987.12,
+      "close": 1990.71,
+      "pct_chg": -7.52,
+      "previous_close": 2152.61,
+      "open_vs_previous_close_pct": -7.27,
+      "close_vs_20150603_pct": -50.01,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 2152.61,
+      "whole_session_down_gap": true,
+      "whole_session_gap_points": 104.58,
+      "recomputed_daily_return_pct": -7.52
+    },
+    {
+      "date": "2015-08-26",
+      "open": 1975.92,
+      "high": 2044.66,
+      "low": 1875.03,
+      "close": 1890.04,
+      "pct_chg": -5.06,
+      "previous_close": 1990.71,
+      "open_vs_previous_close_pct": -0.74,
+      "close_vs_20150603_pct": -52.54,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 1987.12,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": -5.06
+    },
+    {
+      "date": "2015-08-27",
+      "open": 1924.78,
+      "high": 1959.98,
+      "low": 1843.19,
+      "close": 1959.49,
+      "pct_chg": 3.67,
+      "previous_close": 1890.04,
+      "open_vs_previous_close_pct": 1.84,
+      "close_vs_20150603_pct": -50.79,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 1875.03,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": 3.67
+    },
+    {
+      "date": "2015-09-07",
+      "open": 1882.86,
+      "high": 1953.4,
+      "low": 1878.26,
+      "close": 1893.52,
+      "pct_chg": 2.07,
+      "previous_close": 1855.03,
+      "open_vs_previous_close_pct": 1.5,
+      "close_vs_20150603_pct": -52.45,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 1779.18,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": 2.07
+    },
+    {
+      "date": "2015-09-15",
+      "open": 1843.23,
+      "high": 1892.81,
+      "low": 1794.29,
+      "close": 1797.56,
+      "pct_chg": -5.7,
+      "previous_close": 1906.21,
+      "open_vs_previous_close_pct": -3.3,
+      "close_vs_20150603_pct": -54.86,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 1905.2,
+      "whole_session_down_gap": true,
+      "whole_session_gap_points": 12.39,
+      "recomputed_daily_return_pct": -5.7
+    },
+    {
+      "date": "2015-11-25",
+      "open": 2813.51,
+      "high": 2906.8,
+      "low": 2806.82,
+      "close": 2897.57,
+      "pct_chg": 2.89,
+      "previous_close": 2816.05,
+      "open_vs_previous_close_pct": -0.09,
+      "close_vs_20150603_pct": -27.24,
+      "verification": "recomputed_from_frozen_csv",
+      "release_grade": "DATA",
+      "previous_low": 2739.52,
+      "whole_session_down_gap": false,
+      "whole_session_gap_points": 0,
+      "recomputed_daily_return_pct": 2.89
+    }
+  ],
+  "candidate_events": [
+    {
+      "id": "margin_regulation_june2015",
+      "candidate_date": "2015-06",
+      "candidate_title": "场外配资及证券公司信息系统外部接入监管要求",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "中国证监会"
+      ],
+      "search_terms_or_document_title": "2015年6月12日 证监会 外部接入 场外配资 新闻发布会；需区分6月要求与7月12日正式意见",
+      "chronology_notes": [
+        "不可把旧稿6月13日概括为一份已核实正式文件的发布日期。",
+        "创业板高收盘在6月3日，不能用随后发布的要求倒推解释6月3日当天。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "高杠杆头寸在下跌中可能面临追加担保、平仓与流动性压力；不能证明某一文件独立造成整段回撤。",
+      "screen_copy_candidate_after_verification": "2015.06 / 场外配资监管收紧"
+    },
+    {
+      "id": "pbc_cut_june27_2015",
+      "candidate_date": "2015-06-27",
+      "candidate_title": "人民银行宣布降息与定向降准",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "中国人民银行"
+      ],
+      "search_terms_or_document_title": "中国人民银行决定下调金融机构人民币贷款和存款基准利率并有针对性地对金融机构实施定向降准 2015年6月27日",
+      "chronology_notes": [
+        "公告候选6月27日，降息实施候选6月28日；两者均非A股交易日。",
+        "对应后续行情应从6月29日观察；不可画成6月27日有日K。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "降低融资成本、补充流动性是政策传导机制，不等于已证明指数因此见底。",
+      "screen_copy_candidate_after_verification": "2015.06.27 / 央行宣布降息与定向降准"
+    },
+    {
+      "id": "broker_support_july4_2015",
+      "candidate_date": "2015-07-04",
+      "candidate_title": "证券公司联合出资支持市场",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "中国证券业协会",
+        "中国证监会"
+      ],
+      "search_terms_or_document_title": "2015年7月4日 21家证券公司 联合公告 1200亿元",
+      "chronology_notes": [
+        "21家和1200亿元为待核数字，未读原文前不进入正式画面。",
+        "政策与行业联合措施发生在6月下跌之后、9月低点之前。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "为市场补充资金与稳定预期，但不能据此预设反弹终点。",
+      "screen_copy_candidate_after_verification": "2015.07 / 券商联合出资支持市场"
+    },
+    {
+      "id": "ipo_delay_july2015",
+      "candidate_date": "2015-07",
+      "candidate_title": "部分新股发行暂缓",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "中国证监会",
+        "上海证券交易所",
+        "深圳证券交易所"
+      ],
+      "search_terms_or_document_title": "2015年7月4日 28家公司 暂缓发行 IPO 公告",
+      "chronology_notes": [
+        "发行人暂缓发行、IPO审核安排、上市安排不能混为一条确切制度日。",
+        "旧研究的2012—2014暂停与本轮2015年暂停是不同事件链。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "减少阶段性新增股票供给；对指数价格的净影响仍有多重因素。",
+      "screen_copy_candidate_after_verification": "2015.07 / 新股发行暂缓"
+    },
+    {
+      "id": "pbc_support_csf_july5_2015",
+      "candidate_date": "2015-07-05",
+      "candidate_title": "央行支持中国证券金融公司获得流动性",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "中国人民银行",
+        "中国证监会"
+      ],
+      "search_terms_or_document_title": "2015年7月5日 人民银行 证金公司 流动性支持",
+      "chronology_notes": [
+        "应区分公告、融资安排与实际购买，未读原文不写某日净买入规模。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "向证券市场稳定操作提供资金支持，不代表所有创业板股票均被同等支持。",
+      "screen_copy_candidate_after_verification": "2015.07 / 央行支持证金公司获得流动性"
+    },
+    {
+      "id": "mass_suspensions_july2015",
+      "candidate_date": "2015-07",
+      "candidate_title": "大量上市公司停牌",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "上海证券交易所",
+        "深圳证券交易所"
+      ],
+      "search_terms_or_document_title": "2015年7月7日 7月8日 千股停牌 交易所",
+      "chronology_notes": [
+        "旧用户清单本已列为B级，不能仅因叙事需要升级。",
+        "停牌数量随交易日变化，不能把报道某时点数量当作整月恒定数。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "停牌改变可交易股票范围，挤压流动性与影响指数展示；不能写停牌必然导致反弹。",
+      "screen_copy_candidate_after_verification": "2015.07 / 大量公司停牌"
+    },
+    {
+      "id": "shareholder_sale_restriction_july8_2015",
+      "candidate_date": "2015-07-08",
+      "candidate_title": "上市公司大股东及董监高减持限制",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "中国证监会"
+      ],
+      "search_terms_or_document_title": "2015年7月8日 证监会 公告 六个月 大股东 董事 监事 高级管理人员 不得减持",
+      "chronology_notes": [
+        "六个月、5%以上等门槛须逐字核验，暂不使用细则数字。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "阶段性限制减持可减少部分供给压力；不可据此断言下跌已结束。",
+      "screen_copy_candidate_after_verification": "2015.07 / 大股东等减持受到限制"
+    },
+    {
+      "id": "illegal_securities_cleanup_july12_2015",
+      "candidate_date": "2015-07-12",
+      "candidate_title": "清理整顿违法从事证券业务活动的意见",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "中国证监会"
+      ],
+      "search_terms_or_document_title": "关于清理整顿违法从事证券业务活动的意见 2015年7月12日",
+      "chronology_notes": [
+        "这是待核的7月正式意见线索，不能与6月发布会/外部接入要求合并成6月13日单一文件。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "监管非法证券业务与外部接入；市场去杠杆的量化影响需额外证据。",
+      "screen_copy_candidate_after_verification": "2015.07 / 清理整顿违法证券业务"
+    },
+    {
+      "id": "cny_fixing_aug11_2015",
+      "candidate_date": "2015-08-11",
+      "candidate_title": "完善人民币兑美元汇率中间价报价机制",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "中国人民银行"
+      ],
+      "search_terms_or_document_title": "中国人民银行关于完善人民币兑美元汇率中间价报价的声明 2015年8月11日",
+      "chronology_notes": [
+        "不要把8月11日汇率变化等同8月24日单一直接原因。",
+        "本地CSV8月11日创业板当日仅-0.29%，更不能画成该日暴跌。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "汇率变动可能影响跨境资金、风险偏好和盈利预期，但对创业板传导不是单一确定路径。",
+      "screen_copy_candidate_after_verification": "2015.08.11 / 人民币汇率中间价机制调整"
+    },
+    {
+      "id": "global_selloff_aug24_2015",
+      "candidate_date": "2015-08-24",
+      "candidate_title": "全球市场风险偏好下降背景",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "新华社",
+        "中新网",
+        "人民日报"
+      ],
+      "search_terms_or_document_title": "2015年8月24日 全球股市 大跌 避险情绪",
+      "chronology_notes": [
+        "需要当时报道，不用多年后复盘当作当日投资者一致心理。",
+        "A股与海外交易时区不同，不把美国8月24日收盘结果倒推为当天A股开盘的原因。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "跨市场风险偏好、增长预期与流动性压力可能共同作用，不能归结某一外盘价格。",
+      "screen_copy_candidate_after_verification": "2015.08 / 全球市场剧烈波动"
+    },
+    {
+      "id": "pbc_cut_aug25_2015",
+      "candidate_date": "2015-08-25",
+      "candidate_title": "人民银行宣布降息与降准",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "中国人民银行"
+      ],
+      "search_terms_or_document_title": "中国人民银行决定下调存贷款基准利率并降低存款准备金率 2015年8月25日",
+      "chronology_notes": [
+        "公告在当日A股收盘后；候选实施日期为8月26日降息、9月6日降准，需原文核。",
+        "8月26日创业板仍跌5.06%，所以不能写措施当即止跌。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "降低融资成本、补充流动性并稳定预期；价格仍可继续寻找低点。",
+      "screen_copy_candidate_after_verification": "2015.08.25 / 央行宣布降息降准"
+    },
+    {
+      "id": "index_futures_restrictions_sep2015",
+      "candidate_date": "2015-09",
+      "candidate_title": "股指期货交易监管进一步收紧",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "中国金融期货交易所"
+      ],
+      "search_terms_or_document_title": "2015年9月2日 中金所 进一步加强股指期货交易监管 9月7日 实施",
+      "chronology_notes": [
+        "涉及异常交易、保证金和手续费多个措施，不凭记忆填具体门槛。",
+        "中金所监管措施是交易制度背景，不能简写成已证实的救市成功。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "限制高频/投机交易可能改变流动性与风险对冲活动；净效果需要研究证据。",
+      "screen_copy_candidate_after_verification": "2015.09 / 股指期货交易监管收紧"
+    },
+    {
+      "id": "dividend_tax_sep2015",
+      "candidate_date": "2015-09-07",
+      "candidate_title": "上市公司股息红利差别化个人所得税政策调整",
+      "release_grade": "B",
+      "enabled": false,
+      "verification": "not_retrieved_network_403",
+      "urls": [],
+      "source_institutions_to_check": [
+        "财政部",
+        "国家税务总局",
+        "中国证监会"
+      ],
+      "search_terms_or_document_title": "财税〔2015〕101号 关于上市公司股息红利差别化个人所得税政策有关问题的通知",
+      "chronology_notes": [
+        "候选公告日9月7日、实施日9月8日；需原文核验。",
+        "不能写9月15日低点当天推出措施。"
+      ],
+      "mechanism_hypothesis_not_causal_estimate": "鼓励长期持有是政策意图，不足以证明某日低点由此形成。",
+      "screen_copy_candidate_after_verification": "2015.09 / 股息红利税政策调整"
+    }
+  ],
+  "release_policy": "Only DATA observations are locally verified; all new historical-event entries remain disabled B candidates until source article retrieved or verified attachment supplied.",
+  "market_source_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "formulas": {
+    "daily_return": "close(date)/close(previous_trading_date)-1",
+    "open_gap": "open(date)/close(previous_trading_date)-1",
+    "whole_session_down_gap": "high(date)<low(previous_trading_date)",
+    "drawdown_reference": "close(date)/close(2015-06-03)-1"
+  }
+}

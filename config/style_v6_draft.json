@@ -1,0 +1,95 @@
+{
+  "title": {
+    "font_family": "Noto Sans CJK / Microsoft YaHei compatible",
+    "metallic": false,
+    "emboss": false,
+    "english_tracking": 6,
+    "title_color": "#F3F5F7",
+    "accent_line": "#FF3431"
+  },
+  "palette": {
+    "background": "#02070C",
+    "background_2": "#07121A",
+    "up_red": "#FF3D38",
+    "down_green": "#18CF88",
+    "timeline_red": "#FF3431",
+    "cool_blue": "#2ABCF2",
+    "gold": "#FFD18A",
+    "gold_hairline": "#D8AF73",
+    "text": "#F3F5F7",
+    "muted": "#9BA4AE"
+  },
+  "event_card": {
+    "glass_fill": "#07111ACC",
+    "blur_radius": 9,
+    "gold_hairline_width": 1,
+    "gold_hairline_alpha": 0.55,
+    "date_pill": "#D92E2B",
+    "enter_offset_px": 10,
+    "enter_ms": 220,
+    "line_draw_ms": 180,
+    "full_gold_border": false,
+    "metal_bevel": false
+  },
+  "chart": {
+    "supersample": 2,
+    "show_outer_border": false,
+    "grid_alpha": 0.22,
+    "grid_edge_fade": true,
+    "normal_candle_bloom": false,
+    "current_candle_bloom": 0.2,
+    "critical_candle_bloom": 0.55,
+    "far_body_px": [
+      2,
+      4
+    ],
+    "mid_body_px": [
+      5,
+      9
+    ],
+    "near_body_px": [
+      10,
+      16
+    ]
+  },
+  "earth": {
+    "layers": [
+      "body",
+      "atmosphere",
+      "city_lights",
+      "red_reflection"
+    ],
+    "atmosphere_color": "#6FCBFF",
+    "atmosphere_alpha": 0.35,
+    "city_bloom_radius": 7,
+    "red_reflection_alpha": 0.24,
+    "ripple_count": 2,
+    "forbid_triangle_beams": true
+  },
+  "timeline": {
+    "years": [
+      2012,
+      2013,
+      2014,
+      2015
+    ],
+    "past_width_px": 3,
+    "future_width_px": 1,
+    "event_node_radius": 4,
+    "year_node_radius": 6,
+    "active_node_radius": 9,
+    "show_future_years": false
+  },
+  "background": {
+    "star_count_max": 35,
+    "star_twinkle_amplitude": 0.12,
+    "warm_top_left_glow": true
+  },
+  "stage_rail": {
+    "single_active_track": true,
+    "height_px": 5,
+    "glow_px": 12,
+    "milestone_badge_style": "minimal",
+    "no_ppt_panel": true
+  }
+}

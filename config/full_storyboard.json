@@ -1,0 +1,690 @@
+{
+  "version": "v0.9-production-1",
+  "duration_seconds": 303,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "audio": "none",
+  "data_cutoff": "2026-11-10",
+  "visual_status": "pending_representative_sample_review",
+  "main_reference": "user_supplied_nasdaq100_recording",
+  "source_sha256": "f0999a942c682d36aac74701307fef3e1994d83cf9e995e396414e18fa42a36c",
+  "corrections": [
+    {
+      "id": "july_month_end_basis",
+      "before": "2026年7月单月−21.52%",
+      "after": "2026年7月单月−23.00%",
+      "basis": "2026-07-31 close / 2026-06-30 close - 1"
+    },
+    {
+      "id": "base_date_not_ohlc",
+      "basis": "CSV starts 2010-06-01; 2010-05-31 is a base marker, not a fabricated candle"
+    },
+    {
+      "id": "chapter_boundaries",
+      "basis": "derive chapter times from scene rows rather than stale Markdown headings"
+    },
+    {
+      "id": "ipo_month_precision",
+      "basis": "observation anchor is not proof of exact institutional event date"
+    },
+    {
+      "id": "letv_last_traded_close",
+      "basis": "delisting date is not a trading day carrying a new close"
+    },
+    {
+      "id": "catl_record_at_listing",
+      "basis": "record at the time, not an unqualified all-time statement"
+    }
+  ],
+  "chapters": {
+    "序章 · 先看见时间的重量": {
+      "start_seconds": 0,
+      "end_seconds": 18
+    },
+    "第一章 · 指数诞生与第一次出清": {
+      "start_seconds": 18,
+      "end_seconds": 58
+    },
+    "第二章 · 移动互联网、并购潮与 2015 高点": {
+      "start_seconds": 58,
+      "end_seconds": 124
+    },
+    "第三章 · 高位剧烈波动与深度调整": {
+      "start_seconds": 124,
+      "end_seconds": 167
+    },
+    "第四章 · 注册制与新能源时代": {
+      "start_seconds": 167,
+      "end_seconds": 211
+    },
+    "第五章 · 深度调整与 2024 急速反转": {
+      "start_seconds": 211,
+      "end_seconds": 240
+    },
+    "第六章 · 新高、急跌与回到当下": {
+      "start_seconds": 240,
+      "end_seconds": 265
+    },
+    "终章一 · 统计式结算": {
+      "start_seconds": 265,
+      "end_seconds": 280
+    },
+    "终章二 · 今天这一篮子": {
+      "start_seconds": 280,
+      "end_seconds": 297
+    },
+    "尾注": {
+      "start_seconds": 297,
+      "end_seconds": 303
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene_001",
+      "chapter": "序章 · 先看见时间的重量",
+      "start_seconds": 0,
+      "end_seconds": 4,
+      "visual": "黑场中近景日 K 冲到 2015 高点；暖金命中。地球 2015 节点同步亮。",
+      "screen_text": "`2015.06.03` / `3,982.25` / `阶段高点`",
+      "source_note": "真实收盘点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_002",
+      "chapter": "序章 · 先看见时间的重量",
+      "start_seconds": 4,
+      "end_seconds": 8,
+      "visual": "高点锚线保留；时间快速推进，K 线下坠到 2018 低点。冷蓝状态轨增长。",
+      "screen_text": "`2018.10.18` / `1,205.03` / `最大回撤 −69.74%`",
+      "source_note": "最大回撤口径",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_003",
+      "chapter": "序章 · 先看见时间的重量",
+      "start_seconds": 8,
+      "end_seconds": 14,
+      "visual": "3982.25 历史线一直留在画面；年份快速滚到 2026，指数重新越过锚线。",
+      "screen_text": "`3997 天` / `收盘点位再次超过 3,982.25`",
+      "source_note": "2015.06.03 → 2026.05.13",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_004",
+      "chapter": "序章 · 先看见时间的重量",
+      "start_seconds": 14,
+      "end_seconds": 18,
+      "visual": "镜头迅速拉远，全部 K 线收回黑暗，时间轨道逆向回到起点。",
+      "screen_text": "`回到 2010`",
+      "source_note": "转场钩子",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_005",
+      "chapter": "第一章 · 指数诞生与第一次出清",
+      "start_seconds": 18,
+      "end_seconds": 23,
+      "visual": "地球弧面从 2009 亮起，28 个小点依次出现；尚无 K 线。",
+      "screen_text": "`2009.10.30` / `首批 28 家公司挂牌`",
+      "source_note": "A 级事件",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_006",
+      "chapter": "第一章 · 指数诞生与第一次出清",
+      "start_seconds": 23,
+      "end_seconds": 29,
+      "visual": "2010节点亮起；显示基日1000标记，尚不画不存在的5月31日OHLC蜡烛。",
+      "screen_text": "`2010.05.31` / `基日 · 基点 1000`",
+      "source_note": "编制事实",
+      "source_document": "docs/source/visual_script_v0.9.md",
+      "correction_id": "base_date_not_ohlc"
+    },
+    {
+      "id": "scene_007",
+      "chapter": "第一章 · 指数诞生与第一次出清",
+      "start_seconds": 29,
+      "end_seconds": 35,
+      "visual": "日期推进到发布日，首日实心蜡烛完整出现。",
+      "screen_text": "`2010.06.01` / `创业板指发布` / 小字 `首日收盘 973.23`",
+      "source_note": "A 级事件 + 数据",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_008",
+      "chapter": "第一章 · 指数诞生与第一次出清",
+      "start_seconds": 35,
+      "end_seconds": 39,
+      "visual": "口径说明在左下轻量出现，不打重音。",
+      "screen_text": "`价格指数` / `不含分红`",
+      "source_note": "固定口径",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_009",
+      "chapter": "第一章 · 指数诞生与第一次出清",
+      "start_seconds": 39,
+      "end_seconds": 45,
+      "visual": "时间加速到首个阶段高点；状态轨进入“阶段回撤”。",
+      "screen_text": "`2010.12.17` / `1,232.98`",
+      "source_note": "关键点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_010",
+      "chapter": "第一章 · 指数诞生与第一次出清",
+      "start_seconds": 45,
+      "end_seconds": 50,
+      "visual": "2012 年事件节点预热；镜头转中景，对应日 K 和地球节点同时亮。",
+      "screen_text": "`2012.10.30` / `首批公司控股股东` / `锁定期届满`",
+      "source_note": "A 级事件",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_011",
+      "chapter": "第一章 · 指数诞生与第一次出清",
+      "start_seconds": 50,
+      "end_seconds": 54,
+      "visual": "时间继续下行；地球轨道出现一段淡色制度区间。",
+      "screen_text": "`2012.11` / `IPO 暂停` / 小字 `至 2014.01`",
+      "source_note": "A 级事件",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_012",
+      "chapter": "第一章 · 指数诞生与第一次出清",
+      "start_seconds": 54,
+      "end_seconds": 58,
+      "visual": "镜头推近并减速，命中全样本最低收盘。冷蓝轨锁定并缩成里程碑。",
+      "screen_text": "`2012.12.03` / `593.66` / `全样本最低收盘` / 里程碑 `−51.85%`",
+      "source_note": "关键点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_013",
+      "chapter": "第二章 · 移动互联网、并购潮与 2015 高点",
+      "start_seconds": 58,
+      "end_seconds": 64,
+      "visual": "低点命中后，活动轨切换为红色“阶段上涨”；镜头拉回远景。",
+      "screen_text": "`阶段上涨`",
+      "source_note": "状态切换",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_014",
+      "chapter": "第二章 · 移动互联网、并购潮与 2015 高点",
+      "start_seconds": 64,
+      "end_seconds": 70,
+      "visual": "时间快速进入 2013；低对比阶段背景带出现。",
+      "screen_text": "`2013—2015` / `移动互联网 · 并购潮`",
+      "source_note": "阶段背景，不作单因解释",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_015",
+      "chapter": "第二章 · 移动互联网、并购潮与 2015 高点",
+      "start_seconds": 70,
+      "end_seconds": 77,
+      "visual": "日期减速到华谊事件；公司名从当日日 K 附近展开。",
+      "screen_text": "`2013.07.24` / `华谊兄弟并购` / `手游公司`",
+      "source_note": "A 级公司事件",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_016",
+      "chapter": "第二章 · 移动互联网、并购潮与 2015 高点",
+      "start_seconds": 77,
+      "end_seconds": 82,
+      "visual": "年末轻量结算，不做大卡。",
+      "screen_text": "`2013` / `全年 +82.73%`",
+      "source_note": "年度数据",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_017",
+      "chapter": "第二章 · 移动互联网、并购潮与 2015 高点",
+      "start_seconds": 82,
+      "end_seconds": 88,
+      "visual": "IPO 暂停淡色区间结束；2014 节点命中。",
+      "screen_text": "`2014.01` / `IPO 重启`",
+      "source_note": "A 级事件链",
+      "source_document": "docs/source/visual_script_v0.9.md",
+      "anchor_date": "2014-01-08",
+      "event_date_precision": "month",
+      "correction_id": "ipo_month_precision"
+    },
+    {
+      "id": "scene_018",
+      "chapter": "第二章 · 移动互联网、并购潮与 2015 高点",
+      "start_seconds": 88,
+      "end_seconds": 95,
+      "visual": "快速穿越 2014，K 线持续进退；红轨必须随真实回调后退，不可匀速灌满。",
+      "screen_text": "`2014` / `全年 +12.83%`",
+      "source_note": "年度数据，轻量",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_019",
+      "chapter": "第二章 · 移动互联网、并购潮与 2015 高点",
+      "start_seconds": 95,
+      "end_seconds": 101,
+      "visual": "进入 2015，中景；辅助制度节点轻量出现。",
+      "screen_text": "`2015.04.13` / `一人多户放开`",
+      "source_note": "A 级市场制度",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_020",
+      "chapter": "第二章 · 移动互联网、并购潮与 2015 高点",
+      "start_seconds": 101,
+      "end_seconds": 108,
+      "visual": "市场现象用计数器出现；地球城市灯光与红色脉冲短暂增密。",
+      "screen_text": "`2015.04.20—24` / `单周新开 A 股账户` / `413.03 万户`",
+      "source_note": "A 级市场现象",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_021",
+      "chapter": "第二章 · 移动互联网、并购潮与 2015 高点",
+      "start_seconds": 108,
+      "end_seconds": 116,
+      "visual": "继续上涨；镜头从中景转近景，时间持续减速；2015 时间节点开始呼吸。",
+      "screen_text": "无新增主文字；当前日期与点位持续更新",
+      "source_note": "高点预热",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_022",
+      "chapter": "第二章 · 移动互联网、并购潮与 2015 高点",
+      "start_seconds": 116,
+      "end_seconds": 124,
+      "visual": "命中 2015 高点：K 线金光、日期、时间节点、红轨同步到达；历史水平线展开。",
+      "screen_text": "`2015.06.03` / `3,982.25` / `阶段高点` / 里程碑 `+570.80%`",
+      "source_note": "关键点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_023",
+      "chapter": "第三章 · 高位剧烈波动与深度调整",
+      "start_seconds": 124,
+      "end_seconds": 132,
+      "visual": "高点后仍保持近景；活动轨切为冷蓝“高点后回撤”，真实大振幅日 K 逐根出现。",
+      "screen_text": "`高点后回撤`",
+      "source_note": "状态切换",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_024",
+      "chapter": "第三章 · 高位剧烈波动与深度调整",
+      "start_seconds": 132,
+      "end_seconds": 137,
+      "visual": "命中第一段低点；3982.25 历史线仍留在上方。",
+      "screen_text": "`2015.09.15` / `1,797.56` / `−54.86%`",
+      "source_note": "关键点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_025",
+      "chapter": "第三章 · 高位剧烈波动与深度调整",
+      "start_seconds": 137,
+      "end_seconds": 142,
+      "visual": "K 线快速反弹，活动轨切换为阶段反弹。",
+      "screen_text": "`2015.11.25` / `2,897.57` / `+61.19%`",
+      "source_note": "关键点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_026",
+      "chapter": "第三章 · 高位剧烈波动与深度调整",
+      "start_seconds": 142,
+      "end_seconds": 149,
+      "visual": "时间减速，制度事件连续触发；两个日期分别命中，不合并为一个因果画面。",
+      "screen_text": "`2016.01.04` / `熔断实施`；随后 `01.08` / `暂停实施`",
+      "source_note": "A 级事件",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_027",
+      "chapter": "第三章 · 高位剧烈波动与深度调整",
+      "start_seconds": 149,
+      "end_seconds": 155,
+      "visual": "远景穿越 2016—2017；年度数字轻量闪现。",
+      "screen_text": "`2016 −27.71%` / `2017 −10.67%`",
+      "source_note": "年度数据",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_028",
+      "chapter": "第三章 · 高位剧烈波动与深度调整",
+      "start_seconds": 155,
+      "end_seconds": 161,
+      "visual": "2018 公司事件命中，公司名从当日日 K 附近展开。",
+      "screen_text": "`2018.06.11` / `宁德时代上市` / `当时创业板最大 IPO`",
+      "source_note": "A 级公司事件",
+      "source_document": "docs/source/visual_script_v0.9.md",
+      "correction_id": "catl_record_at_listing"
+    },
+    {
+      "id": "scene_029",
+      "chapter": "第三章 · 高位剧烈波动与深度调整",
+      "start_seconds": 161,
+      "end_seconds": 165,
+      "visual": "命中 2018 阶段低点；2015 高点锚线与最大回撤测量同时显现。",
+      "screen_text": "`2018.10.18` / `1,205.03` / `阶段低点` / 小字 `最大回撤 −69.74%`",
+      "source_note": "关键点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_030",
+      "chapter": "第三章 · 高位剧烈波动与深度调整",
+      "start_seconds": 165,
+      "end_seconds": 167,
+      "visual": "下一交易日独立事件卡进入；与低点不同帧。",
+      "screen_text": "`2018.10.19` / `国务院及一行两会` / `负责人集中表态`",
+      "source_note": "A 级事件",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_031",
+      "chapter": "第四章 · 注册制与新能源时代",
+      "start_seconds": 167,
+      "end_seconds": 174,
+      "visual": "从 2018 低点进入上涨阶段；2019 年快速推进。",
+      "screen_text": "`2019` / `全年 +43.79%`",
+      "source_note": "年度数据，轻量",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_032",
+      "chapter": "第四章 · 注册制与新能源时代",
+      "start_seconds": 174,
+      "end_seconds": 179,
+      "visual": "2020 年初近景显示单日冲击，但不做事件归因。",
+      "screen_text": "`2020.02.03` / `单日 −6.85%`",
+      "source_note": "纯行情数据",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_033",
+      "chapter": "第四章 · 注册制与新能源时代",
+      "start_seconds": 179,
+      "end_seconds": 185,
+      "visual": "注册制规则节点命中。",
+      "screen_text": "`2020.06.12` / `创业板注册制` / `规则发布`",
+      "source_note": "A 级制度事件",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_034",
+      "chapter": "第四章 · 注册制与新能源时代",
+      "start_seconds": 185,
+      "end_seconds": 190,
+      "visual": "一条历史公司记忆被重新激活：2015 小锚点与 2020 事件并列，不写情绪词。",
+      "screen_text": "`2015.05` / `市值超 1600 亿元`；随后 `2020.07.21` / `摘牌 · 最后收盘 0.18 元`",
+      "source_note": "A 级公司事实；乐视网",
+      "source_document": "docs/source/visual_script_v0.9.md",
+      "correction_id": "letv_last_traded_close"
+    },
+    {
+      "id": "scene_035",
+      "chapter": "第四章 · 注册制与新能源时代",
+      "start_seconds": 190,
+      "end_seconds": 196,
+      "visual": "注册制首批企业与交易规则变化进入。",
+      "screen_text": "`2020.08.24` / `首批 18 家注册制企业上市` / `涨跌幅限制 20%`",
+      "source_note": "A 级制度事件",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_036",
+      "chapter": "第四章 · 注册制与新能源时代",
+      "start_seconds": 196,
+      "end_seconds": 200,
+      "visual": "年度结算轻量出现。",
+      "screen_text": "`2020` / `全年 +64.96%`",
+      "source_note": "年度数据",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_037",
+      "chapter": "第四章 · 注册制与新能源时代",
+      "start_seconds": 200,
+      "end_seconds": 205,
+      "visual": "宁德时代市值节点命中。",
+      "screen_text": "`2021.05` / `宁德时代市值` / `突破 1 万亿元`",
+      "source_note": "A 级公司事件",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_038",
+      "chapter": "第四章 · 注册制与新能源时代",
+      "start_seconds": 205,
+      "end_seconds": 211,
+      "visual": "命中 2021 阶段高点；阶段轨锁定。",
+      "screen_text": "`2021.08.04` / `3,563.13` / `阶段高点` / 里程碑 `+195.69%`",
+      "source_note": "关键点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_039",
+      "chapter": "第五章 · 深度调整与 2024 急速反转",
+      "start_seconds": 211,
+      "end_seconds": 217,
+      "visual": "2021 高点后进入回撤轨；命中 2022 低点。",
+      "screen_text": "`2022.04.26` / `2,150.51` / `阶段低点` / `−39.65%`",
+      "source_note": "关键点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_040",
+      "chapter": "第五章 · 深度调整与 2024 急速反转",
+      "start_seconds": 217,
+      "end_seconds": 222,
+      "visual": "真实反弹段快速推进。",
+      "screen_text": "`2022.07.07` / `2,849.71` / `+32.51%`",
+      "source_note": "关键点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_041",
+      "chapter": "第五章 · 深度调整与 2024 急速反转",
+      "start_seconds": 222,
+      "end_seconds": 227,
+      "visual": "穿越 2023；只显示年度结算，保留一个待核事件插槽，不在发布候选中启用。",
+      "screen_text": "`2023` / `全年 −19.41%`",
+      "source_note": "年度数据",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_042",
+      "chapter": "第五章 · 深度调整与 2024 急速反转",
+      "start_seconds": 227,
+      "end_seconds": 231,
+      "visual": "命中 2024 低点，冷蓝轨锁定。",
+      "screen_text": "`2024.09.23` / `1,530.51` / `阶段低点` / `−46.29%`",
+      "source_note": "关键点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_043",
+      "chapter": "第五章 · 深度调整与 2024 急速反转",
+      "start_seconds": 231,
+      "end_seconds": 235,
+      "visual": "下一交易日事件节点命中；与低点不同帧。",
+      "screen_text": "`2024.09.24` / `一揽子金融政策` / `公布`",
+      "source_note": "A 级事件",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_044",
+      "chapter": "第五章 · 深度调整与 2024 急速反转",
+      "start_seconds": 235,
+      "end_seconds": 240,
+      "visual": "K 线快速抬升，时间与镜头加速；红色数字结算。",
+      "screen_text": "`5 个交易日` / `+57.88%`",
+      "source_note": "事件后真实区间数据",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_045",
+      "chapter": "第六章 · 新高、急跌与回到当下",
+      "start_seconds": 240,
+      "end_seconds": 245,
+      "visual": "2025 年单日大幅下跌近景；只报事实，不写原因。",
+      "screen_text": "`2025.04.07` / `单日 −12.50%` / `全样本最大单日跌幅`",
+      "source_note": "纯行情数据",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_046",
+      "chapter": "第六章 · 新高、急跌与回到当下",
+      "start_seconds": 245,
+      "end_seconds": 249,
+      "visual": "年度结算。",
+      "screen_text": "`2025` / `全年 +49.57%`",
+      "source_note": "年度数据",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_047",
+      "chapter": "第六章 · 新高、急跌与回到当下",
+      "start_seconds": 249,
+      "end_seconds": 254,
+      "visual": "抵达全样本最高收盘；暖金高点命中。",
+      "screen_text": "`2026.06.25` / `4,371.99` / `全样本最高收盘` / 里程碑 `+185.66%`",
+      "source_note": "关键点位",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_048",
+      "chapter": "第六章 · 新高、急跌与回到当下",
+      "start_seconds": 254,
+      "end_seconds": 258,
+      "visual": "保持近景展示 7 月急跌；回撤轨真实增长。",
+      "screen_text": "`2026 年 7 月` / `单月 -23.00%`",
+      "source_note": "区间数据",
+      "source_document": "docs/source/visual_script_v0.9.md",
+      "correction_id": "july_month_end_basis"
+    },
+    {
+      "id": "scene_049",
+      "chapter": "第六章 · 新高、急跌与回到当下",
+      "start_seconds": 258,
+      "end_seconds": 261,
+      "visual": "命中 2026 年收盘最低点。",
+      "screen_text": "`2026.11.03` / `2,391.65` / `2026 年收盘最低`",
+      "source_note": "纯行情数据",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_050",
+      "chapter": "第六章 · 新高、急跌与回到当下",
+      "start_seconds": 261,
+      "end_seconds": 263,
+      "visual": "单日反弹节点轻量出现。",
+      "screen_text": "`2026.11.04` / `单日 +6.40%`",
+      "source_note": "纯行情数据",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_051",
+      "chapter": "第六章 · 新高、急跌与回到当下",
+      "start_seconds": 263,
+      "end_seconds": 265,
+      "visual": "镜头拉远，完整 16 年形态逐渐显现。",
+      "screen_text": "`2026.11.10` / `2,494.40` / `数据截至` / 小里程碑 `较最高收盘 −42.95%`",
+      "source_note": "样本末点",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_052",
+      "chapter": "终章一 · 统计式结算",
+      "start_seconds": 265,
+      "end_seconds": 269,
+      "visual": "完整 K 线缩到上方；结算项一亮起。",
+      "screen_text": "`3992 个交易日` / `2010.06.01—2026.11.10`",
+      "source_note": "",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_053",
+      "chapter": "终章一 · 统计式结算",
+      "start_seconds": 269,
+      "end_seconds": 273,
+      "visual": "结算项二。",
+      "screen_text": "`基点 1000 → 2,494.40` / `+149.44%` / 小字 `官方基点口径`",
+      "source_note": "",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_054",
+      "chapter": "终章一 · 统计式结算",
+      "start_seconds": 273,
+      "end_seconds": 276,
+      "visual": "结算项三。",
+      "screen_text": "`最大回撤 −69.74%` / `2015.06—2018.10`",
+      "source_note": "",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_055",
+      "chapter": "终章一 · 统计式结算",
+      "start_seconds": 276,
+      "end_seconds": 280,
+      "visual": "2015 历史锚线再次发亮。",
+      "screen_text": "`重新超过 2015 高点` / `3997 天`",
+      "source_note": "",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_056",
+      "chapter": "终章二 · 今天这一篮子",
+      "start_seconds": 280,
+      "end_seconds": 284,
+      "visual": "10×10 名称格按行业分组从地球表面逐批点亮；不用 Logo。",
+      "screen_text": "`截至 2026.11.10` / `成分股 100 只`",
+      "source_note": "",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_057",
+      "chapter": "终章二 · 今天这一篮子",
+      "start_seconds": 284,
+      "end_seconds": 288,
+      "visual": "行业分组依次发亮。",
+      "screen_text": "`39 类行业` / `电池 12 · 半导体 11` / `通信设备 8`",
+      "source_note": "",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_058",
+      "chapter": "终章二 · 今天这一篮子",
+      "start_seconds": 288,
+      "end_seconds": 293,
+      "visual": "前三总市值条形依次生长；明确写“总市值，非指数权重”。",
+      "screen_text": "`宁德时代 11,565.81 亿` / `中际旭创 5,547.95 亿` / `东方财富 2,971.41 亿`",
+      "source_note": "",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "scene_059",
+      "chapter": "终章二 · 今天这一篮子",
+      "start_seconds": 293,
+      "end_seconds": 297,
+      "visual": "100 个格子收回时间轴，14 个较早点位亮起。",
+      "screen_text": "`14 只在指数发布日前已上市` / `今天这 100 只` / `不是过去任何一年的 100 只`",
+      "source_note": "",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    },
+    {
+      "id": "tailnote",
+      "chapter": "尾注",
+      "start_seconds": 297,
+      "end_seconds": 303,
+      "visual": "完整曲线低亮度保留后退场。",
+      "screen_text": "价格指数，不含分红\n数据截至2026.11.10\n历史数据复盘，不构成投资建议",
+      "source_document": "docs/source/visual_script_v0.9.md"
+    }
+  ]
+}

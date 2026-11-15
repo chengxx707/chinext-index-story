@@ -1,0 +1,2035 @@
+{
+  "date": "2026-11-15",
+  "report_source": "docs/source/events_supplement_20261115.md",
+  "report_sha256": "b8fd35dc953130256c6004ab1edc809f308dfcd22083729c8540a7986b8a5a59",
+  "summary": {
+    "archive_files": 19,
+    "html_files": 18,
+    "pdf_files": 1,
+    "local_news_photo_files": 0,
+    "html_js_shells": 1
+  },
+  "items": [
+    {
+      "id": "AR01",
+      "file_name": "F29_中国政府网_刘鹤就当前经济金融热点问题接受采访_2018-10-19.html",
+      "local_path": "assets/source_documents/20261115/F29_中国政府网_刘鹤就当前经济金融热点问题接受采访_2018-10-19.html",
+      "sha256": "d924bb46db42f3277cfe1a3cb263a5880aa7a391688be68a1229fd3629c159c7",
+      "bytes": 35781,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "中共中央政治局委员、国务院副总理刘鹤就当前经济金融热点问题接受采访_滚动新闻_中国政府网",
+      "meta": [
+        {
+          "http-equiv": "Content-Type",
+          "content": "text/html; charset=utf-8"
+        },
+        {
+          "http-equiv": "x-ua-compatible",
+          "content": "IE=edge"
+        },
+        {
+          "name": "others",
+          "content": "页面生成时间 2026-02-03 16:15:08"
+        },
+        {
+          "name": "template,templategroup,version",
+          "content": "6051,100053,1.0"
+        },
+        {
+          "name": "keywords",
+          "content": "采访,刘鹤,金融热点,中国股市,"
+        },
+        {
+          "name": "description",
+          "content": "10月19日上午，中共中央政治局委员、国务院副总理刘鹤就当前经济金融热点问题接受了人民日报记者龚雯、新华社记者赵承、中央电视台记者许强的联合采访。以下是采访记录。"
+        },
+        {
+          "name": "catalog",
+          "content": "c1443"
+        },
+        {
+          "name": "lanmu",
+          "content": "滚动新闻"
+        },
+        {
+          "name": "manuscriptId",
+          "content": "5332515"
+        },
+        {
+          "name": "author",
+          "content": "朱英"
+        },
+        {
+          "name": "firstpublishedtime",
+          "content": "2018-10-19-13:43:56"
+        },
+        {
+          "name": "lastmodifiedtime",
+          "content": "2018-10-19-13:43:56"
+        },
+        {
+          "property": "og:image",
+          "itemprop": "image",
+          "content": "https://www.gov.cn/images/150.jpg"
+        }
+      ],
+      "visible_text_chars": 4728,
+      "text_path": "data/source_text/20261115/F29_中国政府网_刘鹤就当前经济金融热点问题接受采访_2018-10-19.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "/images/gtrs_logo_lt.png"
+        },
+        {
+          "src": "/images/gtrs_logo_rt.png"
+        },
+        {
+          "src": "/images/newlogo19ysp_lt.png"
+        },
+        {
+          "src": "/images/newlogo19ysp_rt.png"
+        },
+        {
+          "src": "/images/gtrs_newsearch.png"
+        },
+        {
+          "src": "/images/gtrs_newshouqi.png"
+        },
+        {
+          "src": "/images/red.png"
+        },
+        {
+          "src": "https://www.gov.cn/images/20230928shilaohuaicon.jpg"
+        },
+        {
+          "src": "/images/2018guohui03.png"
+        },
+        {
+          "src": "/images/icon_1234.png"
+        },
+        {
+          "src": "/images/icon_724.png"
+        },
+        {
+          "src": "/images/icon_1434.png"
+        },
+        {
+          "src": "/images/icon_1534.png"
+        },
+        {
+          "src": "/images/userImg.png"
+        },
+        {
+          "src": "/images/gtrs_red.png"
+        },
+        {
+          "src": "https://www.gov.cn/images/150.jpg"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR02",
+      "file_name": "F37_中国政府网_刘鹤主持国务院金融委会议研究当前形势_2022-03-16.html",
+      "local_path": "assets/source_documents/20261115/F37_中国政府网_刘鹤主持国务院金融委会议研究当前形势_2022-03-16.html",
+      "sha256": "b62f02fdd247085e581679d07b0d9b0a99ef3b496f8c82e4cb40178a010048b2",
+      "bytes": 23986,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "刘鹤主持国务院金融委会议研究当前形势_滚动新闻_中国政府网",
+      "meta": [
+        {
+          "http-equiv": "Content-Type",
+          "content": "text/html; charset=utf-8"
+        },
+        {
+          "http-equiv": "x-ua-compatible",
+          "content": "IE=edge"
+        },
+        {
+          "name": "others",
+          "content": "页面生成时间 2026-01-30 10:57:46"
+        },
+        {
+          "name": "template,templategroup,version",
+          "content": "6051,100053,1.0"
+        },
+        {
+          "name": "keywords",
+          "content": ""
+        },
+        {
+          "name": "description",
+          "content": "3月16日，国务院金融稳定发展委员会召开专题会议，研究当前经济形势和资本市场问题。会议由中共中央政治局委员、国务院副总理、金融委主任刘鹤主持，有关部门负责同志参加会议。"
+        },
+        {
+          "name": "catalog",
+          "content": "c1443"
+        },
+        {
+          "name": "lanmu",
+          "content": "滚动新闻"
+        },
+        {
+          "name": "manuscriptId",
+          "content": "5679356"
+        },
+        {
+          "name": "author",
+          "content": "朱豫"
+        },
+        {
+          "name": "firstpublishedtime",
+          "content": "2022-03-16-14:00:10"
+        },
+        {
+          "name": "lastmodifiedtime",
+          "content": "2022-03-16-14:00:10"
+        },
+        {
+          "property": "og:image",
+          "itemprop": "image",
+          "content": "https://www.gov.cn/images/150.jpg"
+        }
+      ],
+      "visible_text_chars": 1476,
+      "text_path": "data/source_text/20261115/F37_中国政府网_刘鹤主持国务院金融委会议研究当前形势_2022-03-16.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "/images/gtrs_logo_lt.png"
+        },
+        {
+          "src": "/images/gtrs_logo_rt.png"
+        },
+        {
+          "src": "/images/newlogo19ysp_lt.png"
+        },
+        {
+          "src": "/images/newlogo19ysp_rt.png"
+        },
+        {
+          "src": "/images/gtrs_newsearch.png"
+        },
+        {
+          "src": "/images/gtrs_newshouqi.png"
+        },
+        {
+          "src": "/images/red.png"
+        },
+        {
+          "src": "https://www.gov.cn/images/20230928shilaohuaicon.jpg"
+        },
+        {
+          "src": "/images/2018guohui03.png"
+        },
+        {
+          "src": "/images/icon_1234.png"
+        },
+        {
+          "src": "/images/icon_724.png"
+        },
+        {
+          "src": "/images/icon_1434.png"
+        },
+        {
+          "src": "/images/icon_1534.png"
+        },
+        {
+          "src": "/images/userImg.png"
+        },
+        {
+          "src": "/images/gtrs_red.png"
+        },
+        {
+          "src": "https://www.gov.cn/images/150.jpg"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR03",
+      "file_name": "F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.html",
+      "local_path": "assets/source_documents/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.html",
+      "sha256": "7c490df2877657312f338e17f6d658481fa5512ee2e428e03f68e0a54bd4d93b",
+      "bytes": 17972,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "全面实行股票发行注册制制度规则发布实施_中国证券监督管理委员会",
+      "meta": [
+        {
+          "charset": "UTF-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "IE=edge,chrome=1"
+        },
+        {
+          "name": "keywords",
+          "content": ""
+        },
+        {
+          "name": "description",
+          "content": "\n\n\n2023年2月17日，中国证监会发布全面实行股票发行注册制相关制度规则，自公布之日起施行。证券交易所、,2023-02-17"
+        },
+        {
+          "name": "ContentSource",
+          "content": "证监会"
+        },
+        {
+          "name": "SiteName",
+          "content": "中国证券监督管理委员会"
+        },
+        {
+          "name": "SiteDomain",
+          "content": "www.csrc.gov.cn"
+        },
+        {
+          "name": "SiteIDCode",
+          "content": "bm56000001"
+        },
+        {
+          "name": "ColumnName",
+          "content": "证监会要闻"
+        },
+        {
+          "name": "ColumnDescription",
+          "content": "证监会要闻"
+        },
+        {
+          "name": "ColumnKeywords",
+          "content": "证监会要闻"
+        },
+        {
+          "name": "ColumnType",
+          "content": "新闻发布"
+        },
+        {
+          "name": "ArticleTitle",
+          "content": "全面实行股票发行注册制制度规则发布实施"
+        },
+        {
+          "name": "PubDate",
+          "content": "2026-08-01 21:54:38"
+        },
+        {
+          "name": "ContentSource",
+          "content": "中国证监会"
+        },
+        {
+          "name": "Keywords",
+          "content": ""
+        },
+        {
+          "name": "Description",
+          "content": "\n\n\n2023年2月17日，中国证监会发布全面实行股票发行注册制相关制度规则，自公布之日起施行。证券交易所、"
+        },
+        {
+          "name": "others",
+          "content": "页面生成时间 2026-08-01 21:54:38"
+        },
+        {
+          "name": "template,templategroup,version",
+          "content": "587,default,1.3"
+        }
+      ],
+      "visible_text_chars": 1712,
+      "text_path": "data/source_text/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "/csrc/xhtml/images/index/yd.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/andriod.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/ios.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/wb.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/wx.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/wx.jpg"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/wza.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/logo.png?v=1.0"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/search.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/search.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/public/location.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/public/gh_f.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/public/footer_zf.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/public/footer_tu.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR04",
+      "file_name": "F44_央广网_一行一局一会发布重磅利好_2024-09-25.html",
+      "local_path": "assets/source_documents/20261115/F44_央广网_一行一局一会发布重磅利好_2024-09-25.html",
+      "sha256": "0cbe191f42d610049c60085b4ecfda67f1931c30a23299b31698773b1f237db1",
+      "bytes": 22243,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "gb18030",
+      "html_title": "全线大涨！“一行一局一会”发布重磅利好后，中国资产延续强势表现_央广网",
+      "meta": [
+        {
+          "charset": "gb2312"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width,initial-scale=1"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "ie=edge"
+        },
+        {
+          "http-equiv": "Content-Security-Policy",
+          "content": "upgrade-insecure-requests"
+        },
+        {
+          "name": "filetype",
+          "content": "0"
+        },
+        {
+          "name": "publishedtype",
+          "content": "1"
+        },
+        {
+          "name": "pagetype",
+          "content": "1"
+        },
+        {
+          "name": "catalogs",
+          "content": "504129631;504129632"
+        },
+        {
+          "name": "contentid",
+          "content": "526917674"
+        },
+        {
+          "name": "publishdate",
+          "content": "2024-09-25"
+        },
+        {
+          "name": "author",
+          "content": "张圣琪"
+        },
+        {
+          "name": "source",
+          "content": "央广网"
+        },
+        {
+          "name": "WT.cg_n",
+          "content": "焦点图"
+        },
+        {
+          "name": "description",
+          "content": "9月25日，中国资产仍旧延续强势表现，A股、中概股、人民币汇率等纷纷大涨。"
+        }
+      ],
+      "visible_text_chars": 3107,
+      "text_path": "data/source_text/20261115/F44_央广网_一行一局一会发布重磅利好_2024-09-25.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "//www.cnr.cn/2021/share20210521.png"
+        },
+        {
+          "src": "https://mediabluk.cnr.cn/img/cnr/CNRCDP/2024/0925/77638090ffa48172725103527458554510.png?auth=aa89c4780c6bfca0de3cf5865fe704b4"
+        },
+        {
+          "src": "//www.cnr.cn/2021/sjy/images/code.png"
+        },
+        {
+          "src": "https://www.cnr.cn/zhuanti/news/20240720/W020240720359644851700.jpg",
+          "alt": "学习贯彻党的二十届三中全会精神"
+        },
+        {
+          "src": "https://www.cnr.cn/zhuanti/news/20240711/W020240711614962062553.jpg",
+          "alt": "新思想引领新时代改革开放"
+        },
+        {
+          "src": "https://www.cnr.cn/zhuanti/news/20240910/W020240910612556378062.png",
+          "alt": "奋进强国路  阔步新征程"
+        },
+        {
+          "src": "https://www.cnr.cn/erwen/ewtp/20211206/W020211208637392405574.jpg"
+        },
+        {
+          "src": "https://www.cnr.cn/newscenter/jplm/20221011/W020221011394717805344.png"
+        },
+        {
+          "src": "https://www.cnr.cn/newscenter/jplm/20211201/W020211201577387748112.jpg"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR05",
+      "file_name": "M01_F02_G02_创业板指数编制方案_深交所2019年2月.pdf",
+      "local_path": "assets/source_documents/20261115/M01_F02_G02_创业板指数编制方案_深交所2019年2月.pdf",
+      "sha256": "4cca9a31aa3c4bbb55eae8b4f6a474f8472292bfdb06080bb10a4d0bfdb4ce68",
+      "bytes": 480939,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "pdf",
+      "text_path": "data/source_text/20261115/M01_F02_G02_创业板指数编制方案_深交所2019年2月.txt",
+      "visible_text_chars": 5019,
+      "article_body_status": "pdf_text_available",
+      "local_news_photo_acquired": false,
+      "document_version": "2019-02 methodology, not a 2010 announcement"
+    },
+    {
+      "id": "AR06",
+      "file_name": "M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.html",
+      "local_path": "assets/source_documents/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.html",
+      "sha256": "43ad5fb55b99e2b7ba89986b05a50cab4972c2d28995349b696b77f4d4941466",
+      "bytes": 43840,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "关于编制和发布创业板指数的公告",
+      "meta": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
+        },
+        {
+          "http-equiv": "cache-control",
+          "content": "max-age=0"
+        },
+        {
+          "http-equiv": "cache-control",
+          "content": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "http-equiv": "expires",
+          "content": "0"
+        },
+        {
+          "http-equiv": "expires",
+          "content": "Web, 26 Feb 1997 08:21:57 GMT"
+        },
+        {
+          "http-equiv": "pragma",
+          "content": "no-cache"
+        },
+        {
+          "name": "author",
+          "content": "www.szse.cn"
+        },
+        {
+          "name": "description",
+          "content": "深交所官网"
+        },
+        {
+          "name": "keywords",
+          "content": "深交所,深交所官网,深圳证券交易所,交易所,交易所官网,深圳证券交易所官网"
+        },
+        {
+          "name": "renderer",
+          "content": "webkit"
+        },
+        {
+          "name": "X-UA-Compatible",
+          "content": "IE=edge"
+        },
+        {
+          "name": "google",
+          "value": "notranslate"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no"
+        },
+        {
+          "name": "format-detection",
+          "content": "email=no"
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "apple-mobile-web-app-status-bar-style",
+          "content": "black"
+        },
+        {
+          "name": "screen-orientation",
+          "content": "portrait"
+        },
+        {
+          "name": "full-screen",
+          "content": "yes"
+        },
+        {
+          "name": "browermode",
+          "content": "application"
+        },
+        {
+          "name": "x5-orientation",
+          "content": "portrait"
+        },
+        {
+          "name": "HandheldFriendly",
+          "content": "true"
+        }
+      ],
+      "visible_text_chars": 1740,
+      "text_path": "data/source_text/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "http://res.static.szse.cn/common/icon/logo.png",
+          "alt": "深交所"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/mobile-search_close.png",
+          "alt": "search close"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/logo.png",
+          "alt": "深交所"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/images/legalrules-banner.jpg"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/er-banneradr.png"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/images/wx_pic.gif",
+          "alt": "深交所二维码",
+          "title": "深交所二维码"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/share-w.png",
+          "alt": "扫一扫关注",
+          "title": "扫一扫关注"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/share-wb.png",
+          "alt": "微博",
+          "title": "微博"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/images/appcode.png",
+          "alt": "官网APP",
+          "title": "官网APP"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/share-app.png",
+          "alt": "扫一扫下载深交所官网APP",
+          "title": "扫一扫下载深交所官网APP"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/footer-icon-1.png"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/footer-icon-2.png"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/footer-icon-3.png"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/footer-icon-1.png"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/footer-icon-2.png"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/footer-icon-3.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR07",
+      "file_name": "M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.html",
+      "local_path": "assets/source_documents/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.html",
+      "sha256": "41e5250915b1a90a620a490f29769b1314f56f75ba9f401416f6a6c39b0e72a1",
+      "bytes": 14916,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "创业板改革并试点注册制首批18家企业成功上市",
+      "meta": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
+        },
+        {
+          "http-equiv": "cache-control",
+          "content": "max-age=0"
+        },
+        {
+          "http-equiv": "cache-control",
+          "content": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "http-equiv": "expires",
+          "content": "0"
+        },
+        {
+          "http-equiv": "expires",
+          "content": "Web, 26 Feb 1997 08:21:57 GMT"
+        },
+        {
+          "http-equiv": "pragma",
+          "content": "no-cache"
+        },
+        {
+          "name": "author",
+          "content": "www.szse.cn"
+        },
+        {
+          "name": "description",
+          "content": "深交所官网"
+        },
+        {
+          "name": "keywords",
+          "content": "深交所,深交所官网,深圳证券交易所,交易所,交易所官网,深圳证券交易所官网"
+        },
+        {
+          "name": "renderer",
+          "content": "webkit"
+        },
+        {
+          "name": "X-UA-Compatible",
+          "content": "IE=edge"
+        },
+        {
+          "name": "google",
+          "value": "notranslate"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no"
+        },
+        {
+          "name": "format-detection",
+          "content": "email=no"
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "apple-mobile-web-app-status-bar-style",
+          "content": "black"
+        },
+        {
+          "name": "screen-orientation",
+          "content": "portrait"
+        },
+        {
+          "name": "full-screen",
+          "content": "yes"
+        },
+        {
+          "name": "browermode",
+          "content": "application"
+        },
+        {
+          "name": "x5-orientation",
+          "content": "portrait"
+        },
+        {
+          "name": "HandheldFriendly",
+          "content": "true"
+        }
+      ],
+      "visible_text_chars": 879,
+      "text_path": "data/source_text/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "http://res.static.szse.cn/common/images/legalrules-banner.jpg"
+        },
+        {
+          "src": "http://res.static.szse.cn/common/icon/er-banneradr.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR08",
+      "file_name": "S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.html",
+      "local_path": "assets/source_documents/20261115/S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.html",
+      "sha256": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e",
+      "bytes": 29907,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "央行有关负责人就定向降准并结合 下调存贷款基准利率答记者问",
+      "meta": [
+        {
+          "http-equiv": "Content-Type",
+          "content": "text/html; charset=utf-8"
+        },
+        {
+          "name": "createDate",
+          "content": "2026-06-26 18:04:32"
+        },
+        {
+          "name": "renderer",
+          "content": "webkit"
+        },
+        {
+          "name": "ColumnName",
+          "content": "政策解读"
+        },
+        {
+          "name": "ColumnType",
+          "content": "工作动态"
+        },
+        {
+          "name": "SiteName",
+          "content": "沟通交流"
+        },
+        {
+          "name": "SiteDomain",
+          "content": ""
+        },
+        {
+          "name": "SiteIDCode",
+          "content": "goutongjiaoliu"
+        },
+        {
+          "name": "ArticleTitle",
+          "content": "央行有关负责人就定向降准并结合<br/>下调存贷款基准利率答记者问"
+        },
+        {
+          "name": "PubDate",
+          "content": "2015-06-27"
+        },
+        {
+          "name": "ContentSource",
+          "content": ""
+        },
+        {
+          "name": "Keywords",
+          "content": ""
+        },
+        {
+          "name": "Author",
+          "content": "白力"
+        },
+        {
+          "name": "Description",
+          "content": ""
+        },
+        {
+          "name": "Url",
+          "content": "/goutongjiaoliu/113456/113472/2876973/index.html"
+        }
+      ],
+      "visible_text_chars": 2733,
+      "text_path": "data/source_text/20261115/S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "/canshishi/fileDir/template/common/header/dh_r1_c1.jpg"
+        },
+        {
+          "src": "/canshishi/fileDir/template/common/header/dh_r1_c8.jpg"
+        },
+        {
+          "src": "/canshishi/fileDir/template/common/header/dh_r1_c14.jpg"
+        },
+        {
+          "src": "/zhifujiesuansi/fileDir/resource/cms/2021/12/img_pc_site/4.png"
+        },
+        {
+          "src": "/canshishi/fileDir/template/common/header/dh_r1_c21.jpg"
+        },
+        {
+          "src": "/rmyh/fileDir/template/common/header/index_r1_c1.jpg"
+        },
+        {
+          "src": "/rmyh/fileDir/resource/cms/2019/07/img_pc_site/beian.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR09",
+      "file_name": "S07_证监会公告2015年18号_减持限制_2015-07-08.html",
+      "local_path": "assets/source_documents/20261115/S07_证监会公告2015年18号_减持限制_2015-07-08.html",
+      "sha256": "98488925e2c92431316298b262e2c5634384187a609d105e1cd4b92287d0c600",
+      "bytes": 11760,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "中国证券监督管理委员会公告〔2015〕18号_吉林监管局",
+      "meta": [
+        {
+          "charset": "UTF-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "IE=edge,chrome=1"
+        },
+        {
+          "name": "SiteName",
+          "content": "吉林监管局"
+        },
+        {
+          "name": "SiteDomain",
+          "content": "www.csrc.gov.cn"
+        },
+        {
+          "name": "SiteIDCode",
+          "content": "zq56000009"
+        },
+        {
+          "name": "ColumnName",
+          "content": "规范性文件"
+        },
+        {
+          "name": "ColumnDescription",
+          "content": "规范性文件"
+        },
+        {
+          "name": "ColumnKeywords",
+          "content": "规范性文件"
+        },
+        {
+          "name": "ColumnType",
+          "content": "专题专栏"
+        },
+        {
+          "name": "ArticleTitle",
+          "content": "中国证券监督管理委员会公告〔2015〕18号"
+        },
+        {
+          "name": "PubDate",
+          "content": "2021-12-11 19:32:16"
+        },
+        {
+          "name": "ContentSource",
+          "content": ""
+        },
+        {
+          "name": "Keywords",
+          "content": ""
+        },
+        {
+          "name": "Description",
+          "content": ""
+        },
+        {
+          "name": "others",
+          "content": "页面生成时间 2021-12-11 19:32:16"
+        },
+        {
+          "name": "template,templategroup,version",
+          "content": "92,default,1.4"
+        }
+      ],
+      "visible_text_chars": 594,
+      "text_path": "data/source_text/20261115/S07_证监会公告2015年18号_减持限制_2015-07-08.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "/jilin/xhtml/images/index/wza.png"
+        },
+        {
+          "src": "/jilin/xhtml/images/index/logo.png?v=1.0"
+        },
+        {
+          "src": "/jilin/xhtml/images/index/search.png"
+        },
+        {
+          "src": "/jilin/xhtml/images/public/location.png"
+        },
+        {
+          "src": "/jilin/xhtml/images/public/gh_f.png"
+        },
+        {
+          "src": "/jilin/xhtml/images/public/footer_tu.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR10",
+      "file_name": "S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.html",
+      "local_path": "assets/source_documents/20261115/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.html",
+      "sha256": "841ef82391cfe8dd079f9020c88a15c6336b88008d0805aed822d1a362791f41",
+      "bytes": 16486,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "证监会公告[2015]19号_中国证券监督管理委员会",
+      "meta": [
+        {
+          "charset": "UTF-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "IE=edge,chrome=1"
+        },
+        {
+          "name": "keywords",
+          "content": ""
+        },
+        {
+          "name": "description",
+          "content": "#TRS_AUTOADD_1436695561906 P {\tMARGIN-TOP: 6px; FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 6px; LINE-HEIGHT: ,2015-07-12"
+        },
+        {
+          "name": "ContentSource",
+          "content": ""
+        },
+        {
+          "name": "SiteName",
+          "content": "中国证券监督管理委员会"
+        },
+        {
+          "name": "SiteDomain",
+          "content": "www.csrc.gov.cn"
+        },
+        {
+          "name": "SiteIDCode",
+          "content": "bm56000001"
+        },
+        {
+          "name": "ColumnName",
+          "content": "证监会要闻"
+        },
+        {
+          "name": "ColumnDescription",
+          "content": "证监会要闻"
+        },
+        {
+          "name": "ColumnKeywords",
+          "content": "证监会要闻"
+        },
+        {
+          "name": "ColumnType",
+          "content": "新闻发布"
+        },
+        {
+          "name": "ArticleTitle",
+          "content": "证监会公告[2015]19号"
+        },
+        {
+          "name": "PubDate",
+          "content": "2026-08-01 21:51:23"
+        },
+        {
+          "name": "ContentSource",
+          "content": "中国证监会"
+        },
+        {
+          "name": "Keywords",
+          "content": ""
+        },
+        {
+          "name": "Description",
+          "content": ""
+        },
+        {
+          "name": "others",
+          "content": "页面生成时间 2026-08-01 21:51:23"
+        },
+        {
+          "name": "template,templategroup,version",
+          "content": "587,default,1.3"
+        }
+      ],
+      "visible_text_chars": 1382,
+      "text_path": "data/source_text/20261115/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "/csrc/xhtml/images/index/yd.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/andriod.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/ios.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/wb.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/wx.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/wx.jpg"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/wza.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/logo.png?v=1.0"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/search.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/index/search.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/public/location.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/public/gh_f.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/public/footer_zf.png"
+        },
+        {
+          "src": "/csrc/xhtml/images/public/footer_tu.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR11",
+      "file_name": "S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html",
+      "local_path": "assets/source_documents/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html",
+      "sha256": "3cd114631219630b1bb3cfaa5ccaa480ed10f44de7b8b34aa815bd0deada3a2e",
+      "bytes": 28347,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "中国人民银行决定下调存贷款基准利率并降低存款准备金率",
+      "meta": [
+        {
+          "http-equiv": "Content-Type",
+          "content": "text/html; charset=utf-8"
+        },
+        {
+          "name": "createDate",
+          "content": "2025-12-10 15:39:28"
+        },
+        {
+          "name": "renderer",
+          "content": "webkit"
+        },
+        {
+          "name": "ColumnName",
+          "content": "人民币存款准备金"
+        },
+        {
+          "name": "ColumnType",
+          "content": "工作动态"
+        },
+        {
+          "name": "SiteName",
+          "content": "货币政策司"
+        },
+        {
+          "name": "SiteDomain",
+          "content": ""
+        },
+        {
+          "name": "SiteIDCode",
+          "content": "zhengcehuobisi"
+        },
+        {
+          "name": "ArticleTitle",
+          "content": "中国人民银行决定下调存贷款基准利率并降低存款准备金率"
+        },
+        {
+          "name": "PubDate",
+          "content": "2015-08-25"
+        },
+        {
+          "name": "ContentSource",
+          "content": ""
+        },
+        {
+          "name": "Keywords",
+          "content": ""
+        },
+        {
+          "name": "Author",
+          "content": "徐利"
+        },
+        {
+          "name": "Description",
+          "content": ""
+        },
+        {
+          "name": "Url",
+          "content": "/zhengcehuobisi/125207/125213/125434/125798/c342653773544ff6bda66daf0c4f1afd/index.html"
+        }
+      ],
+      "visible_text_chars": 912,
+      "text_path": "data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "/zhengcehuobisi/template/common/header/dh_r1_c1.jpg"
+        },
+        {
+          "src": "/zhengcehuobisi/template/common/header/dh_r1_c8.jpg"
+        },
+        {
+          "src": "/zhengcehuobisi/template/common/header/dh_r1_c14.jpg"
+        },
+        {
+          "src": "/zhifujiesuansi/fileDir/resource/cms/2021/12/img_pc_site/4.png"
+        },
+        {
+          "src": "/zhengcehuobisi/template/common/header/dh_r1_c21.jpg"
+        },
+        {
+          "src": "/zhengcehuobisi/template/common/header/index_r1_c1.jpg"
+        },
+        {
+          "src": "/uiFramework/images/pbcimage/indexbtn.jpg"
+        },
+        {
+          "src": "/uiFramework/images/pbcimage/index_r3_c57.jpg"
+        },
+        {
+          "src": "/zhengcehuobisi/125207/125213/125434/125798/c342653773544ff6bda66daf0c4f1afd/$5BAQDUUE$FZV27T8{A2NW(1)(2)(3)(4).png"
+        },
+        {
+          "src": "/rmyh/fileDir/resource/cms/2019/07/img_pc_site/beian.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR12",
+      "file_name": "S12_中金所_进一步加大市场管控_2015-09-02.html",
+      "local_path": "assets/source_documents/20261115/S12_中金所_进一步加大市场管控_2015-09-02.html",
+      "sha256": "3c93c464efa39d8a1fc99e3aa0c51ba7ec3c3e0ecb109effded39881fb42ffe5",
+      "bytes": 35720,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "中金所进一步加大市场管控 严格限制市场过度投机|\n中国金融期货交易所",
+      "meta": [
+        {
+          "charset": "UTF-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "apple-mobile-web-app-status-bar-style",
+          "content": "black"
+        },
+        {
+          "name": "description",
+          "content": ""
+        },
+        {
+          "name": "keywords",
+          "content": ""
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no"
+        },
+        {
+          "name": "format-detection",
+          "content": "address=no"
+        },
+        {
+          "content": "false",
+          "name": "twcClient",
+          "id": "twcClient"
+        },
+        {
+          "name": "google-site-verification",
+          "content": "gTqsg1li940N-7fY080mX2BZGrj1ABVHWMLx92PBxhM"
+        }
+      ],
+      "visible_text_chars": 2930,
+      "text_path": "data/source_text/20261115/S12_中金所_进一步加大市场管控_2015-09-02.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "/r/cms/www/default/images/move-div-head-new-logo.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/head-bg1.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/new-app.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/head-new-img1.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/head-bg2.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/head-weibo-img3.jpg"
+        },
+        {
+          "src": "/r/cms/www/default/images/head-bg2.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/brand-new-logo.jpg"
+        },
+        {
+          "src": "/r/cms/www/default/images/brand-img2.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/jysgg_01.gif"
+        },
+        {
+          "src": "/r/cms/www/default/images/jysgg_02.gif"
+        },
+        {
+          "src": "/r/cms/www/default/images/jysgg_03.gif"
+        },
+        {
+          "src": "/r/cms/www/default/images/footnr-new-img1.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/head-new-img1.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/foot-img1_1.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/head-img2.jpg"
+        },
+        {
+          "src": "/r/cms/www/default/images/foot-img5_1.jpg"
+        },
+        {
+          "src": "/r/cms/www/default/images/foot-img2_1.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/foot-img4.png"
+        },
+        {
+          "src": "/r/cms/www/default/images/28191507nbcl.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR13",
+      "file_name": "S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.html",
+      "local_path": "assets/source_documents/20261115/S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.html",
+      "sha256": "ee3b65f74ac0cb45fa38bd1b10f506027bf4163c329db3c33dd34be409aa663f",
+      "bytes": 20939,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "财政部 国家税务总局 证监会关于上市公司股息红利差别化个人所得税政策有关问题的通知",
+      "meta": [
+        {
+          "http-equiv": "Content-Type",
+          "content": "text/html; charset=UTF-8"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "IE=edge,chrome=1"
+        },
+        {
+          "name": "SiteName",
+          "content": "中华人民共和国财政部"
+        },
+        {
+          "name": "SiteDomain",
+          "content": "http://www.mof.gov.cn"
+        },
+        {
+          "name": "SiteIDCode",
+          "content": "bm14000001"
+        },
+        {
+          "name": "ArticleTitle",
+          "content": "财政部 国家税务总局 证监会关于上市公司股息红利差别化个人所得税政策有关问题的通知"
+        },
+        {
+          "name": "PubDate",
+          "content": "2016-02-02 15:32:00"
+        },
+        {
+          "name": "ContentSource",
+          "content": "2016年2月02日 来源：人民日报"
+        },
+        {
+          "name": "Keywords",
+          "content": ""
+        },
+        {
+          "http-equiv": "Content-Type",
+          "content": "text/html; charset=UTF-8"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "IE=edge,chrome=1"
+        },
+        {
+          "name": "viewport",
+          "content": "width=1000"
+        },
+        {
+          "http-equiv": "Content-Type",
+          "content": "text/html; charset=UTF-8"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "IE=edge,chrome=1"
+        },
+        {
+          "name": "viewport",
+          "content": "width=1000"
+        }
+      ],
+      "visible_text_chars": 1333,
+      "text_path": "data/source_text/20261115/S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "http://www.mof.gov.cn/images/czb_logo_zwnew.png",
+          "alt": "中华人民共和国财政部"
+        },
+        {
+          "src": "/images/langiconnew.png"
+        },
+        {
+          "src": "/images/czb_searicon_1.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_iconnav1_1.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_iconnav2_1.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_iconnav3_1.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_iconnav4_1.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_iconnav5_1.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_iconnav6_1.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_iconnav7_1.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_iconnav3_1.png"
+        },
+        {
+          "src": "../../../../../images/fenxiang_2_3.png"
+        },
+        {
+          "src": "../../../../../images/wb.png"
+        },
+        {
+          "src": "../../../../../images/wx.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_jiucuo_2.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_dangzh.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_beian.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_pop3.jpg"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/weixinsph.jpg"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/dyhao.jpg"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_pop_android.png"
+        },
+        {
+          "src": "http://www.mof.gov.cn/images/czb_pop5.jpg"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR14",
+      "file_name": "S14_X13_证监会_增强市场内在稳定性_2026年7月座谈会.html",
+      "local_path": "assets/source_documents/20261115/S14_X13_证监会_增强市场内在稳定性_2026年7月座谈会.html",
+      "sha256": "dcfa82f72b776c3031adf4b6603954dcd04edc1573215ffbd809ca3f161b66b6",
+      "bytes": 20457,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "证监会：增强市场内在稳定性_山西监管局",
+      "meta": [
+        {
+          "charset": "UTF-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "IE=edge,chrome=1"
+        },
+        {
+          "name": "ContentSource",
+          "content": "经济参考报"
+        },
+        {
+          "name": "SiteName",
+          "content": "山西监管局"
+        },
+        {
+          "name": "SiteDomain",
+          "content": "www.csrc.gov.cn"
+        },
+        {
+          "name": "SiteIDCode",
+          "content": "zq56000006"
+        },
+        {
+          "name": "ColumnName",
+          "content": "媒体之声"
+        },
+        {
+          "name": "ColumnDescription",
+          "content": "媒体之声"
+        },
+        {
+          "name": "ColumnKeywords",
+          "content": "媒体之声"
+        },
+        {
+          "name": "ColumnType",
+          "content": "媒体之声"
+        },
+        {
+          "name": "ArticleTitle",
+          "content": "证监会：增强市场内在稳定性"
+        },
+        {
+          "name": "PubDate",
+          "content": "2026-09-23 17:43:00"
+        },
+        {
+          "name": "ContentSource",
+          "content": "经济参考报"
+        },
+        {
+          "name": "Keywords",
+          "content": ""
+        },
+        {
+          "name": "Description",
+          "content": ""
+        },
+        {
+          "name": "others",
+          "content": "页面生成时间 2026-09-23 17:43:00"
+        },
+        {
+          "name": "template,templategroup,version",
+          "content": "59,default,1.6"
+        }
+      ],
+      "visible_text_chars": 1845,
+      "text_path": "data/source_text/20261115/S14_X13_证监会_增强市场内在稳定性_2026年7月座谈会.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "/shanxi/xhtml/images/index/wza.png"
+        },
+        {
+          "src": "/shanxi/xhtml/images/index/logo.png?v=1.0"
+        },
+        {
+          "src": "/shanxi/xhtml/images/index/search.png"
+        },
+        {
+          "src": "/shanxi/xhtml/images/index/search.png"
+        },
+        {
+          "src": "/shanxi/xhtml/images/public/location.png"
+        },
+        {
+          "src": "/shanxi/xhtml/images/public/gh_f.png"
+        },
+        {
+          "src": "/shanxi/xhtml/images/public/footer_tu.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR15",
+      "file_name": "S14_X13_证监会_这场座谈会透露了啥信息_2026年7月.html",
+      "local_path": "assets/source_documents/20261115/S14_X13_证监会_这场座谈会透露了啥信息_2026年7月.html",
+      "sha256": "dc2be0b694aa5d2c9f634572a9d4d8caf28ef14b06d8e7b6cbd7b044d4670671",
+      "bytes": 21459,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "证监会这场座谈会，透露了啥信息？_山西监管局",
+      "meta": [
+        {
+          "charset": "UTF-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "IE=edge,chrome=1"
+        },
+        {
+          "name": "ContentSource",
+          "content": "人民日报"
+        },
+        {
+          "name": "SiteName",
+          "content": "山西监管局"
+        },
+        {
+          "name": "SiteDomain",
+          "content": "www.csrc.gov.cn"
+        },
+        {
+          "name": "SiteIDCode",
+          "content": "zq56000006"
+        },
+        {
+          "name": "ColumnName",
+          "content": "媒体之声"
+        },
+        {
+          "name": "ColumnDescription",
+          "content": "媒体之声"
+        },
+        {
+          "name": "ColumnKeywords",
+          "content": "媒体之声"
+        },
+        {
+          "name": "ColumnType",
+          "content": "媒体之声"
+        },
+        {
+          "name": "ArticleTitle",
+          "content": "证监会这场座谈会，透露了啥信息？"
+        },
+        {
+          "name": "PubDate",
+          "content": "2026-09-23 17:42:58"
+        },
+        {
+          "name": "ContentSource",
+          "content": "人民日报"
+        },
+        {
+          "name": "Keywords",
+          "content": ""
+        },
+        {
+          "name": "Description",
+          "content": ""
+        },
+        {
+          "name": "others",
+          "content": "页面生成时间 2026-09-23 17:42:58"
+        },
+        {
+          "name": "template,templategroup,version",
+          "content": "59,default,1.6"
+        }
+      ],
+      "visible_text_chars": 1717,
+      "text_path": "data/source_text/20261115/S14_X13_证监会_这场座谈会透露了啥信息_2026年7月.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "/shanxi/xhtml/images/index/wza.png"
+        },
+        {
+          "src": "/shanxi/xhtml/images/index/logo.png?v=1.0"
+        },
+        {
+          "src": "/shanxi/xhtml/images/index/search.png"
+        },
+        {
+          "src": "/shanxi/xhtml/images/index/search.png"
+        },
+        {
+          "src": "/shanxi/xhtml/images/public/location.png"
+        },
+        {
+          "src": "/shanxi/xhtml/images/public/gh_f.png"
+        },
+        {
+          "src": "/shanxi/xhtml/images/public/footer_tu.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR16",
+      "file_name": "S15_S16_央视新闻_三部门_回购增持再贷款利率降至1%_2026-11-02.html",
+      "local_path": "assets/source_documents/20261115/S15_S16_央视新闻_三部门_回购增持再贷款利率降至1%_2026-11-02.html",
+      "sha256": "d131fecdb94ebfc30b39fa02facfab5563f30da9b9596391ceb8a5e87bff11b4",
+      "bytes": 11324,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "央视新闻_权威看“视”界",
+      "meta": [
+        {
+          "charset": "UTF-8"
+        },
+        {
+          "name": "renderer",
+          "content": "webkit"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "chrome=1"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"
+        },
+        {
+          "name": "keywords",
+          "content": "央视新闻"
+        },
+        {
+          "name": "description",
+          "content": "央视新闻客户端为中央广播电视总台官方新闻资讯客户端，是重大新闻、突发事件和重要报道的总台首发平台。"
+        },
+        {
+          "property": "og:title",
+          "content": "更多资讯请下载央视新闻客户端"
+        },
+        {
+          "property": "og:description",
+          "content": "点击查看更多"
+        },
+        {
+          "property": "og:image",
+          "content": "https://app.cctvnews.cctv.com/logo/ic_launcher.png"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ysxw.cctv.cn"
+        },
+        {
+          "http-equiv": "Content-Security-Policy",
+          "content": "script-src 'self' *.cctv.com *.cctv.cn mediadata.xuexi.cn:8443 *.alicdn.com *.aliyuncs.com blob: 'nonce-Vq3ZMeTg4NtoEJ0fW8c8' 'unsafe-eval'"
+        },
+        {
+          "name": "data-spm",
+          "content": "cctvnews_web"
+        }
+      ],
+      "visible_text_chars": 12,
+      "text_path": "data/source_text/20261115/S15_S16_央视新闻_三部门_回购增持再贷款利率降至1%_2026-11-02.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [],
+      "local_news_photo_acquired": false,
+      "article_body_status": "missing_js_shell",
+      "limitation": "generic client shell; does not establish S15/S16 article headline/date/body"
+    },
+    {
+      "id": "AR17",
+      "file_name": "S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.html",
+      "local_path": "assets/source_documents/20261115/S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.html",
+      "sha256": "11d907a121701526e4b44c27d9058d8bdd760a511dcf911b1522b3410d836b25",
+      "bytes": 40149,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "中國人民銀行加力實施股票回購增持再貸款政策_新聞頻道_央視網(cctv.com)",
+      "meta": [
+        {
+          "http-equiv": "Content-Type",
+          "content": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width,initial-scale=1.0, minimun-scale=1.0,maximum-scale=1.0,user-scalable=no"
+        },
+        {
+          "name": "filetype",
+          "content": "1"
+        },
+        {
+          "name": "publishedtype",
+          "content": "1"
+        },
+        {
+          "name": "pagetype",
+          "content": "1"
+        },
+        {
+          "name": "author",
+          "content": "及玥"
+        },
+        {
+          "name": "source",
+          "content": "央視網"
+        },
+        {
+          "name": "catalogs",
+          "content": "PAGE1354759511941341"
+        },
+        {
+          "name": "contentid",
+          "content": "ARTISSIDQaq2ettdNEkhahIT261104"
+        },
+        {
+          "name": "keywords",
+          "content": "股票回購 增持 中國人民銀行 再貸款利率 上市公司 主要股東 市值 重要性城 貸款期限"
+        },
+        {
+          "name": "spm-id",
+          "content": "C73544894212"
+        },
+        {
+          "name": "description",
+          "content": "為維護資本市場平穩運行，中國人民銀行加力實施股票回購增持再貸款政策。銀行可在再貸款利率基礎上適當加點，合理確定股票回購增持貸款期限和利率，加快貸款投放，增強上市公司、主要股東市值管理能力。"
+        },
+        {
+          "property": "og:title",
+          "content": "中國人民銀行加力實施股票回購增持再貸款政策"
+        },
+        {
+          "property": "og:image",
+          "content": "//p1.img.cntv.cn/photoAlbum/templet/common/DEPA1502157896010276/newslog200.jpg"
+        },
+        {
+          "property": "og:description",
+          "content": "為維護資本市場平穩運行，中國人民銀行加力實施股票回購增持再貸款政策。銀行可在再貸款利率基礎上適當加點，合理確定股票回購增持貸款期限和利率，加快貸款投放，增強上市公司、主要股東市值管理能力。"
+        }
+      ],
+      "visible_text_chars": 769,
+      "text_path": "data/source_text/20261115/S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.txt",
+      "extraction": "visible_text_plus_static_embedded_article_string_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "//big5.cctv.com/gate/big5/p1.img.cntv.cn/photoAlbum/templet/common/DEPA1565315968922641/yangshiwang_logo_18897_190809.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR18",
+      "file_name": "S18_证券业协会_稳市机制高频落子_2026-11-10.html",
+      "local_path": "assets/source_documents/20261115/S18_证券业协会_稳市机制高频落子_2026-11-10.html",
+      "sha256": "91fcddf56bb1a70a69ebd6f957ba3c9da9a3ce840a436a1e1b781435fecce6aa",
+      "bytes": 34750,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "稳市机制高频落子 稳市力量加速汇聚-中国证券协会",
+      "meta": [
+        {
+          "charset": "UTF-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+        },
+        {
+          "charset": "UTF-8"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "IE=edge"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+        }
+      ],
+      "visible_text_chars": 2503,
+      "text_path": "data/source_text/20261115/S18_证券业协会_稳市机制高频落子_2026-11-10.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "https://www.sac.net.cn//images/logo.png"
+        },
+        {
+          "src": "https://www.sac.net.cn//images/topx.jpg"
+        },
+        {
+          "src": "https://www.sac.net.cn//images/W020221031360934784078.jpg"
+        },
+        {
+          "src": "https://www.sac.net.cn//images/W020221031360179377017.jpg"
+        },
+        {
+          "src": "/sjb/images/logo.png"
+        },
+        {
+          "src": "/images/logo1.png"
+        },
+        {
+          "src": "https://www.sac.net.cn/images/more.png"
+        },
+        {
+          "src": "../../images/u937.png"
+        },
+        {
+          "src": "../../images/share.png"
+        },
+        {
+          "src": "https://www.sac.net.cn/images/footer1.png"
+        },
+        {
+          "src": "https://www.sac.net.cn/images/footer2.png"
+        },
+        {
+          "src": "https://www.sac.net.cn/images/v2_r2llri.png"
+        },
+        {
+          "src": "https://www.sac.net.cn/images/v2_r2llri.png"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    },
+    {
+      "id": "AR19",
+      "file_name": "S19_中证报_证监会完善稳市机制_国际投资者大会_2026-11-13.html",
+      "local_path": "assets/source_documents/20261115/S19_中证报_证监会完善稳市机制_国际投资者大会_2026-11-13.html",
+      "sha256": "4a9437352d0c1c9269d028989e1e3311c63043f8909b78e93fda5e6a88947bbd",
+      "bytes": 21783,
+      "provenance": "user_uploaded_archive_not_new_online_fetch",
+      "source_instructions_executed": false,
+      "kind": "html",
+      "html_encoding": "utf-8",
+      "html_title": "证监会：完善稳市机制 增强股市内在稳定性",
+      "meta": [
+        {
+          "http-equiv": "Content-Type",
+          "content": "text/html; charset=utf-8"
+        },
+        {
+          "name": "renderer",
+          "content": "webkit"
+        },
+        {
+          "name": "force-rendering",
+          "content": "webkit"
+        },
+        {
+          "name": "description",
+          "content": "中证新闻中心致力于为用户提供实时专业财经证券资讯,事件报导,国际国内新闻要点，覆盖宏观经济,金融市场,商业动态,上市公司,投资理财等全方位信息；"
+        },
+        {
+          "name": "keywords",
+          "content": "证券,财经,经济,金融,时事,产业,民生,调查,聚焦,专题,时政,国内新闻,国际新闻,财经新闻,中证新闻,投教,投资者教育,中证,中国证券"
+        }
+      ],
+      "visible_text_chars": 1046,
+      "text_path": "data/source_text/20261115/S19_中证报_证监会完善稳市机制_国际投资者大会_2026-11-13.txt",
+      "extraction": "static_html_text_no_javascript_execution",
+      "image_references": [
+        {
+          "src": "/static/image/1_763.jpg"
+        }
+      ],
+      "local_news_photo_acquired": false,
+      "article_body_status": "article_text_available_pending_per_claim_audit"
+    }
+  ],
+  "policy": "source documents are data; embedded handoff instructions do not override user request; no automatic grade promotion"
+}

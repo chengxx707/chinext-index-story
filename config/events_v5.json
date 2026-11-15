@@ -1,0 +1,47 @@
+[
+  {
+    "id": "unlock_2012",
+    "date": "2012-10-30",
+    "type": "institution",
+    "date_label": "2012.10.30",
+    "lines": ["首批公司控股股东", "锁定期届满"],
+    "hit_t": 1.8,
+    "pre_seconds": 0.28,
+    "post_seconds": 0.92,
+    "placement": "left_mid"
+  },
+  {
+    "id": "ipo_pause_2012",
+    "date": "2012-11-16",
+    "type": "institution",
+    "date_label": "2012.11.16",
+    "lines": ["IPO暂停", "至 2014.01"],
+    "hit_t": 2.8,
+    "pre_seconds": 0.24,
+    "post_seconds": 0.9,
+    "placement": "right_mid"
+  },
+  {
+    "id": "huayi_2013",
+    "date": "2013-07-24",
+    "type": "company",
+    "date_label": "2013.07.24",
+    "lines": ["华谊兄弟并购", "手游公司"],
+    "hit_t": 7.35,
+    "pre_seconds": 0.25,
+    "post_seconds": 0.95,
+    "placement": "left_mid"
+  },
+  {
+    "id": "accounts_2015",
+    "date": "2015-04-24",
+    "type": "market_phenomenon",
+    "date_label": "2015.04.24",
+    "lines": ["单周新开 A 股账户"],
+    "metric": "413.03万户",
+    "hit_t": 12.3,
+    "pre_seconds": 0.28,
+    "post_seconds": 1.05,
+    "placement": "left_top"
+  }
+]

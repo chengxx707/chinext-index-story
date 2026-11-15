@@ -1,0 +1,399 @@
+{
+  "version": "1.0-content-assembly",
+  "date": "2026-11-15",
+  "data_cutoff": "2026-11-10",
+  "purpose": "同期并列K线、事件、当时声音/情绪与文献情景；不建立因果箭头",
+  "input_archive_manifest": "data/research/material_ingest_20261115.json",
+  "market_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "film_visual_direction": "user_approved_unchanged",
+  "sequences": [
+    {
+      "id": "P01",
+      "period": [
+        "2010-05-31",
+        "2010-06-01"
+      ],
+      "market": {
+        "start_date": "2010-05-31",
+        "end_date": "2010-06-01",
+        "price_basis": "true daily OHLC; red iff close >= open"
+      },
+      "k_shape": "5月31日只标基点；6月1日出现首根真实日K，收973.23",
+      "event_layer": "2010.06.01 创业板指正式发布",
+      "voice_or_sentiment_layer": "本段不额外推断情绪，用公告原话建立起点",
+      "scene_layer": "2010公告原题与正文节选；2019方案另标版本，不当2010画面",
+      "archive_source_ids": [
+        "AR06",
+        "AR05"
+      ],
+      "evidence_level": "local_archive_and_csv",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "screen_copy_draft": [
+        "2010.05.31｜基日 · 基点1000",
+        "2010.06.01｜创业板指发布",
+        "首日收盘973.23"
+      ]
+    },
+    {
+      "id": "P02",
+      "period": [
+        "2012-10-30",
+        "2012-12-03"
+      ],
+      "market": {
+        "start_date": "2012-10-30",
+        "end_date": "2012-12-03",
+        "price_basis": "true daily OHLC; red iff close >= open",
+        "start_close": 689.61,
+        "end_close": 593.66,
+        "return_pct": -13.91
+      },
+      "k_shape": "下行到593.66；展示真实回撤和日期推进",
+      "event_layer": "首批公司锁定期届满、IPO暂停按月份呈现",
+      "voice_or_sentiment_layer": "解禁与市场压力的语境来自回交报道摘要；尚不使用无来源情绪词",
+      "scene_layer": "原报道标题候选；本包没有对应原始网页／照片",
+      "archive_source_ids": [],
+      "evidence_level": "supplied_report_and_csv_original_pages_pending",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "screen_copy_draft": [
+        "2012.10.30｜首批公司控股股东锁定期届满",
+        "2012.11｜IPO暂停〔至2014.01〕",
+        "2012.12.03｜593.66 · 全样本最低收盘"
+      ]
+    },
+    {
+      "id": "P03",
+      "period": [
+        "2013-07-24",
+        "2015-04-24"
+      ],
+      "market": {
+        "start_date": "2013-07-24",
+        "end_date": "2015-04-24",
+        "price_basis": "true daily OHLC; red iff close >= open",
+        "start_close": 1203.31,
+        "end_close": 2734.75,
+        "return_pct": 127.27
+      },
+      "k_shape": "上涨与中间回调均保留；开户事件对应4月各自统计周",
+      "event_layer": "华谊并购、IPO重启、一人多户与开户数字按真实先后进入",
+      "voice_or_sentiment_layer": "以当时媒体对开户热度的标题呈现时代语言，不制造统一情绪分数",
+      "scene_layer": "人民网4月22日300万与4月28日400万报道为不同周；标题仅回交稿转录",
+      "archive_source_ids": [],
+      "evidence_level": "supplied_report_and_csv_original_pages_pending",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "screen_copy_draft": [
+        "2013—2015｜移动互联网与并购语境",
+        "2013.07｜华谊兄弟并购手游公司",
+        "2015.04.13｜一人多户放开",
+        "2015.04.20—24｜单周新开A股账户413.03万户"
+      ]
+    },
+    {
+      "id": "P04",
+      "period": [
+        "2015-06-03",
+        "2015-07-23"
+      ],
+      "market": {
+        "start_date": "2015-06-03",
+        "end_date": "2015-07-23",
+        "price_basis": "true daily OHLC; red iff close >= open",
+        "start_close": 3982.25,
+        "end_close": 2967.95,
+        "return_pct": -25.47
+      },
+      "k_shape": "高位反复→急跌→7月阶段反弹；不是一条直落线",
+      "event_layer": "6月底货币政策，7月8日减持限制，7月12日清理意见分开",
+      "voice_or_sentiment_layer": "监管关注与市场声音分栏；平仓／恐慌等同期评论原页尚需补取",
+      "scene_layer": "央行答记者问、证监会公告的真实原题／正文节选，可先做文献卡",
+      "archive_source_ids": [
+        "AR08",
+        "AR09",
+        "AR10"
+      ],
+      "evidence_level": "archived_policy_facts_sentiment_pages_pending",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "screen_copy_draft": [
+        "2015.06.27｜定向降准并结合下调基准利率",
+        "2015.07.08｜大股东及董监高减持限制",
+        "2015.07.12｜清理整顿违法证券业务相关意见",
+        "2015.07.07—23｜阶段反弹+26.19%"
+      ]
+    },
+    {
+      "id": "P05",
+      "period": [
+        "2015-08-21",
+        "2015-08-28"
+      ],
+      "market": {
+        "start_date": "2015-08-21",
+        "end_date": "2015-08-28",
+        "price_basis": "true daily OHLC; red iff close >= open",
+        "start_close": 2341.95,
+        "end_close": 2082.12,
+        "return_pct": -11.09
+      },
+      "k_shape": "8月24、25日整日向下缺口；24—26日三日累计−19.30%",
+      "event_layer": "8月25日18:15公布；8月26日起降息，9月6日起降准",
+      "voice_or_sentiment_layer": "回交稿引央广8月25日专家担忧剧烈波动；原页不在本包，先作候选",
+      "scene_layer": "央行原题和18:15发布时间形成文献情景；现场照片仍缺",
+      "archive_source_ids": [
+        "AR11"
+      ],
+      "evidence_level": "local_archive_policy_and_csv_voice_report_only",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "screen_copy_draft": [
+        "2015.08.24｜−8.08%",
+        "2015.08.25｜−7.52%",
+        "2015.08.25 18:15｜央行公布降息降准安排",
+        "2015.08.26｜−5.06%",
+        "三个交易日累计−19.30%"
+      ]
+    },
+    {
+      "id": "P06",
+      "period": [
+        "2018-10-18",
+        "2018-10-19"
+      ],
+      "market": {
+        "start_date": "2018-10-18",
+        "end_date": "2018-10-19",
+        "price_basis": "true daily OHLC; red iff close >= open",
+        "start_close": 1205.03,
+        "end_close": 1249.89,
+        "return_pct": 3.72
+      },
+      "k_shape": "10月18日1205.03低点，与次日行情分开",
+      "event_layer": "10月19日刘鹤接受采访；原文讨论市场波动及政策安排",
+      "voice_or_sentiment_layer": "当时表态中的市场描述：市场预期发生变化；署名刘鹤，不等同全体投资者心理",
+      "scene_layer": "政府网访谈原题与必要短原文；不是采访现场照片",
+      "archive_source_ids": [
+        "AR01"
+      ],
+      "evidence_level": "local_archive_and_csv",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "verified_short_quote": {
+        "text": "市场预期发生变化",
+        "source_id": "AR01",
+        "scope": "verbatim local archived body, not a universal investor-emotion measurement"
+      },
+      "screen_copy_draft": [
+        "2018.10.18｜1205.03",
+        "2018.10.19｜刘鹤接受采访",
+        "当时表态：“市场预期发生变化”〔刘鹤，10.19〕"
+      ]
+    },
+    {
+      "id": "P07",
+      "period": [
+        "2020-06-12",
+        "2020-08-24"
+      ],
+      "market": {
+        "start_date": "2020-06-12",
+        "end_date": "2020-08-24",
+        "price_basis": "true daily OHLC; red iff close >= open",
+        "start_close": 2206.76,
+        "end_close": 2684.63,
+        "return_pct": 21.65
+      },
+      "k_shape": "真实日K继续推进，不因制度卡强行安排上涨",
+      "event_layer": "6月规则发布与8月24日18家上市分别命中；本包后者有正文",
+      "voice_or_sentiment_layer": "通稿呈现当时制度叙事，不给观众贴情绪标签",
+      "scene_layer": "深交所《创业板改革并试点注册制首批18家企业成功上市》文献页；现场图待取",
+      "archive_source_ids": [
+        "AR07"
+      ],
+      "evidence_level": "local_archive_listing_report_rules_original_pending",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "screen_copy_draft": [
+        "2020.06.12｜创业板注册制规则发布",
+        "2020.08.24｜首批18家注册制企业上市"
+      ]
+    },
+    {
+      "id": "P08",
+      "period": [
+        "2022-03-16",
+        "2022-07-07"
+      ],
+      "market": {
+        "start_date": "2022-03-16",
+        "end_date": "2022-07-07",
+        "price_basis": "true daily OHLC; red iff close >= open",
+        "start_close": 2635.08,
+        "end_close": 2849.71,
+        "return_pct": 8.15
+      },
+      "k_shape": "深跌到4月26日2150.51，之后反弹到2849.71",
+      "event_layer": "3月16日国务院金融委会议按当天进入",
+      "voice_or_sentiment_layer": "当时政策声音：慎重出台收缩性政策；不把它写成全部后续涨跌的成因",
+      "scene_layer": "政府网会议原题与短摘录",
+      "archive_source_ids": [
+        "AR02"
+      ],
+      "evidence_level": "local_archive_and_csv",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "verified_short_quote": {
+        "text": "慎重出台收缩性政策",
+        "source_id": "AR02",
+        "scope": "verbatim local archived body, not a universal investor-emotion measurement"
+      },
+      "screen_copy_draft": [
+        "2022.03.16｜国务院金融委专题会议",
+        "会议原文：“慎重出台收缩性政策”",
+        "2022.04.26｜2150.51",
+        "2022.07.07｜2849.71"
+      ]
+    },
+    {
+      "id": "P09",
+      "period": [
+        "2023-02-17",
+        "2023-12-29"
+      ],
+      "market": {
+        "start_date": "2023-02-17",
+        "end_date": "2023-12-29",
+        "price_basis": "true daily OHLC; red iff close >= open",
+        "start_close": 2449.35,
+        "end_close": 1891.37,
+        "return_pct": -22.78
+      },
+      "k_shape": "保留2023真实调整；AI报道热度不替代指数价格走势",
+      "event_layer": "全面注册制规则发布实施；AI与光模块报道作为另一维度",
+      "voice_or_sentiment_layer": "回交稿记录证券时报AI板块标题，可作为当时媒体语言候选；原页尚未随包",
+      "scene_layer": "证监会制度原文可用；AI标题及生产照片待取得；不使用全年253.02%或个股涨幅",
+      "archive_source_ids": [
+        "AR03"
+      ],
+      "evidence_level": "local_archive_policy_supplied_report_industry_headline_pending",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "screen_copy_draft": [
+        "2023.02.17｜全面实行股票发行注册制",
+        "2023｜AI算力与光模块〔报道标题候选，原页待补〕",
+        "2023｜全年−19.41%"
+      ]
+    },
+    {
+      "id": "P10",
+      "period": [
+        "2024-09-23",
+        "2024-10-08"
+      ],
+      "market": {
+        "start_date": "2024-09-23",
+        "end_date": "2024-10-08",
+        "price_basis": "true daily OHLC; red iff close >= open",
+        "start_close": 1530.51,
+        "end_close": 2550.28,
+        "return_pct": 66.63
+      },
+      "k_shape": "9月23日低点1530.51；9月24日收盘到10月8日收盘T+5为+57.88%",
+      "event_layer": "9月24日发布会政策；本包9月25日央广报道回顾，发布与报道分开",
+      "voice_or_sentiment_layer": "央广9月25日标题体现当时媒体关注；注明是报道语言，不能当全部市场情绪",
+      "scene_layer": "央广网页原题；标题涉及中国资产整体，不缩窄成只谈创业板",
+      "archive_source_ids": [
+        "AR04"
+      ],
+      "evidence_level": "local_archived_news_report_and_csv",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "screen_copy_draft": [
+        "2024.09.23｜1530.51",
+        "2024.09.24｜一揽子金融政策公布",
+        "媒体原题〔央广网，09.25〕：全线大涨！“一行一局一会”发布重磅利好后，中国资产延续强势表现",
+        "9月24日收盘→10月8日收盘｜T+5 +57.88%"
+      ]
+    },
+    {
+      "id": "P11",
+      "period": [
+        "2026-07-17",
+        "2026-07-28"
+      ],
+      "market": {
+        "start_date": "2026-07-17",
+        "end_date": "2026-07-28",
+        "price_basis": "true daily OHLC; red iff close >= open",
+        "start_close": 3428.63,
+        "end_close": 3327.03,
+        "return_pct": -2.96
+      },
+      "k_shape": "7月17日大阴；20日涨跌幅为正但开收盘为绿K；21日长阳",
+      "event_layer": "7月20—21日座谈会；7月28日媒体转载是报道日期",
+      "voice_or_sentiment_layer": "媒体与监管表态：主动回应市场关切；不同于测量出的投资者情绪",
+      "scene_layer": "证监会山西局媒体转载页，分别标原发媒体、托管站、事件日和转载日",
+      "archive_source_ids": [
+        "AR14",
+        "AR15"
+      ],
+      "evidence_level": "local_archived_republished_news_and_csv",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "verified_short_quote": {
+        "text": "主动回应市场关切",
+        "source_id": "AR14",
+        "scope": "verbatim local archived body, not a universal investor-emotion measurement"
+      },
+      "screen_copy_draft": [
+        "2026.07.17｜单日−7.15%",
+        "2026.07.20—21｜系列座谈会",
+        "当时表态：“主动回应市场关切”〔经济参考报稿，证监会山西局07.28转载〕"
+      ]
+    },
+    {
+      "id": "P12",
+      "period": [
+        "2026-11-02",
+        "2026-11-10"
+      ],
+      "market": {
+        "start_date": "2026-11-02",
+        "end_date": "2026-11-10",
+        "price_basis": "true daily OHLC; red iff close >= open",
+        "start_close": 2458.7,
+        "end_close": 2494.4,
+        "return_pct": 1.45
+      },
+      "k_shape": "11月3日最低收盘2391.65；4日+6.40%；10日末点2494.40",
+      "event_layer": "11月4日起回购增持再贷款利率降至1%；11月3日精确操作细节不凭空壳页入片",
+      "voice_or_sentiment_layer": "11月9日证券时报转载报道谈稳市机制；政策与专家声音署来源，不叫全民情绪",
+      "scene_layer": "央视网标题／正文和证券时报转载题；不是现场照片；11月12—13日后续事件留附录",
+      "archive_source_ids": [
+        "AR17",
+        "AR18"
+      ],
+      "evidence_level": "local_archived_news_and_csv_precise_S16_pending",
+      "production_enabled": false,
+      "status": "content_assembly",
+      "screen_copy_draft": [
+        "2026.11.03｜2391.65 · 年内最低收盘",
+        "2026.11.04｜回购增持再贷款利率降至1%〔央视网据央行消息〕",
+        "2026.11.04｜单日+6.40%",
+        "媒体原题〔证券时报，11.09，协会转载〕：稳市机制高频落子 稳市力量加速汇聚",
+        "2026.11.10｜2494.40 · 数据截至"
+      ]
+    }
+  ],
+  "presentation_rules": [
+    "四个维度是编排依据，不是同时常驻四个面板；同一时刻一个主焦点",
+    "日期作为共同索引；事件日、实施日、报道日分开",
+    "情绪以署名当时声音/媒体原题呈现，不能用政策目标推断投资者实际情绪",
+    "原始档案文本重排须标为原文节选重排，不伪装原网页截图或真实现场",
+    "不改变真实OHLC形态、蜡烛颜色和单一活动轨",
+    "S19实际11/12事件超过截止11/10，只留附录"
+  ]
+}

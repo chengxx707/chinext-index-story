@@ -1,0 +1,628 @@
+{
+  "schema_version": 1,
+  "status": "content_research_proposal_not_render_configuration",
+  "date": "2026-11-15",
+  "data_cutoff": "2026-11-10",
+  "data_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "editorial_policy": {
+    "latest_user_update": "visual aesthetics approved; increase evidenced phase context, events and sentiment; no audio requested",
+    "phase_axis": "price waves",
+    "secondary_axis": "industry background",
+    "emotion_policy": "contemporaneous quotation or explicit indicator; never infer universal emotion from candles alone",
+    "causality_policy": "fact, mechanism and sentiment remain distinct; temporal proximity is not causal proof",
+    "density_policy": "one main focal point; not a card every 1.5 seconds"
+  },
+  "industry_contexts": [
+    {
+      "start_year": 2013,
+      "end_year": 2015,
+      "label": "移动互联网与并购潮",
+      "source": "docs/source/events_source_20261113.md §5 引述开源证券复盘/每经",
+      "qualification": "user_supplied_secondary_research_framework; direct_link_pending",
+      "must_not_imply": "all index movement in interval caused by one industry"
+    },
+    {
+      "start_year": 2019,
+      "end_year": 2021,
+      "label": "新能源",
+      "source": "docs/source/events_source_20261113.md §5 引述开源证券复盘/每经",
+      "qualification": "user_supplied_secondary_research_framework; direct_link_pending",
+      "must_not_imply": "all index movement in interval caused by one industry"
+    },
+    {
+      "start_year": 2023,
+      "end_year": 2026,
+      "label": "AI算力",
+      "source": "docs/source/events_source_20261113.md §5 引述开源证券复盘/每经",
+      "qualification": "user_supplied_secondary_research_framework; direct_link_pending",
+      "must_not_imply": "all index movement in interval caused by one industry"
+    }
+  ],
+  "phases": [
+    {
+      "id": "phase_01",
+      "start_date": "2010-06-01",
+      "end_date": "2012-12-03",
+      "editorial_title": "诞生与第一次深度回撤",
+      "status": "proposal_not_official_regime_classification",
+      "price_waves": [
+        {
+          "start_date": "2010-06-01",
+          "end_date": "2010-12-17",
+          "start_close": 973.23,
+          "end_close": 1232.98,
+          "return_pct": 26.69,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        },
+        {
+          "start_date": "2010-12-17",
+          "end_date": "2012-12-03",
+          "start_close": 1232.98,
+          "end_close": 593.66,
+          "return_pct": -51.85,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        }
+      ],
+      "background_context": "市场设立、样本成长与早期供给环境",
+      "events": [
+        {
+          "id": "index_launch_2010",
+          "date": "2010-06-01",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "创业板指发布",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "unlock_2012",
+          "date": "2012-10-30",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "首批公司控股股东锁定期届满",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "ipo_pause_2012",
+          "date": "2012-11",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "IPO 暂停",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        }
+      ],
+      "emotion_evidence_requirement": "参与热度与估值争议需当时资料；现阶段只展示先涨后跌的路径",
+      "unverified_emotion_enabled": false
+    },
+    {
+      "id": "phase_02",
+      "start_date": "2012-12-03",
+      "end_date": "2015-06-03",
+      "editorial_title": "快速上涨与参与热度上升",
+      "status": "proposal_not_official_regime_classification",
+      "price_waves": [
+        {
+          "start_date": "2012-12-03",
+          "end_date": "2015-06-03",
+          "start_close": 593.66,
+          "end_close": 3982.25,
+          "return_pct": 570.8,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        }
+      ],
+      "background_context": "移动互联网与并购潮（研究框架）",
+      "events": [
+        {
+          "id": "huayi_2013",
+          "date": "2013-07-24",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "华谊兄弟并购手游公司",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "ipo_restart_2014",
+          "date": "2014-01",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "IPO 重启",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "multi_account_2015",
+          "date": "2015-04-13",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "一人多户放开",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "accounts_2015",
+          "date": "2015-04-20/2015-04-24",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "单周新开 A 股账户",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "letv_peak_2015",
+          "date": "2015-05",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "乐视网市值超 1600 亿元",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        }
+      ],
+      "emotion_evidence_requirement": "开户数能证明参与增加；“狂热”“泡沫”须有当时引文/估值数据，不作为自动标签",
+      "unverified_emotion_enabled": false
+    },
+    {
+      "id": "phase_03",
+      "start_date": "2015-06-03",
+      "end_date": "2015-11-25",
+      "editorial_title": "急跌、稳定市场措施与阶段反弹",
+      "status": "proposal_not_official_regime_classification",
+      "price_waves": [
+        {
+          "start_date": "2015-06-03",
+          "end_date": "2015-09-15",
+          "start_close": 3982.25,
+          "end_close": 1797.56,
+          "return_pct": -54.86,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        },
+        {
+          "start_date": "2015-09-15",
+          "end_date": "2015-11-25",
+          "start_close": 1797.56,
+          "end_close": 2897.57,
+          "return_pct": 61.19,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        }
+      ],
+      "background_context": "高位剧烈波动；新增救市政策链待原文核验",
+      "events": [
+        {
+          "id": "margin_cleanup_2015",
+          "date": "2015-06",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "场外配资清理相关文件发布",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "mass_suspension_2015",
+          "date": "2015-07",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "大面积停牌",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        }
+      ],
+      "emotion_evidence_requirement": "新增风险提示/去杠杆/恐慌/修复必须分时间段并附同期出处，不能用跌幅自动推出全体投资者情绪",
+      "unverified_emotion_enabled": false
+    },
+    {
+      "id": "phase_04",
+      "start_date": "2015-11-25",
+      "end_date": "2018-10-18",
+      "editorial_title": "反弹后的再次调整",
+      "status": "proposal_not_official_regime_classification",
+      "price_waves": [
+        {
+          "start_date": "2015-11-25",
+          "end_date": "2018-10-18",
+          "start_close": 2897.57,
+          "end_close": 1205.03,
+          "return_pct": -58.41,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        }
+      ],
+      "background_context": "制度变化与企业更替；产业故事与价格调整并存",
+      "events": [
+        {
+          "id": "circuit_start_2016",
+          "date": "2016-01-04",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "熔断实施",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "circuit_pause_2016",
+          "date": "2016-01-08",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "暂停实施",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "refinancing_2017",
+          "date": "2017-02-17",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "再融资新规",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "reduction_2017",
+          "date": "2017-05-27",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "减持新规",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "trade_2018",
+          "date": "2018-03-23",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "中美贸易摩擦升级",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "catl_listing_2018",
+          "date": "2018-06-11",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "宁德时代上市",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "statements_2018",
+          "date": "2018-10-19",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "国务院及一行两会负责人集中表态",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        }
+      ],
+      "emotion_evidence_requirement": "“观望”“失望”“质押风险担忧”等需当时出处；有证据前以连续回撤等可量化状态表达",
+      "unverified_emotion_enabled": false
+    },
+    {
+      "id": "phase_05",
+      "start_date": "2018-10-18",
+      "end_date": "2021-08-04",
+      "editorial_title": "修复、注册制与新能源年代",
+      "status": "proposal_not_official_regime_classification",
+      "price_waves": [
+        {
+          "start_date": "2018-10-18",
+          "end_date": "2021-08-04",
+          "start_close": 1205.03,
+          "end_close": 3563.13,
+          "return_pct": 195.69,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        }
+      ],
+      "background_context": "新能源（2019–2021）与注册制改革并行，疫情冲击是中间分段",
+      "events": [
+        {
+          "id": "statements_2018",
+          "date": "2018-10-19",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "国务院及一行两会负责人集中表态",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "goodwill_2019",
+          "date": "2019-01",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "年报预告披露截止",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "reopen_2020",
+          "date": "2020-02-03",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "春节后开市首日",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "registration_rules_2020",
+          "date": "2020-06-12",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "创业板注册制规则发布",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "registration_listings_2020",
+          "date": "2020-08-24",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "首批 18 家注册制企业上市",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "letv_delist_2020",
+          "date": "2020-07-21",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "乐视网摘牌",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "catl_trillion_2021",
+          "date": "2021-05",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "宁德时代市值突破 1 万亿元",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        }
+      ],
+      "emotion_evidence_requirement": "“担忧—修复—追逐景气”是待核的编辑概括，至少用同期报道/流量/估值指标支持，不整段概括单一情绪",
+      "unverified_emotion_enabled": false
+    },
+    {
+      "id": "phase_06",
+      "start_date": "2021-08-04",
+      "end_date": "2024-09-23",
+      "editorial_title": "深度调整中的反弹与产业分化",
+      "status": "proposal_not_official_regime_classification",
+      "price_waves": [
+        {
+          "start_date": "2021-08-04",
+          "end_date": "2022-04-26",
+          "start_close": 3563.13,
+          "end_close": 2150.51,
+          "return_pct": -39.65,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        },
+        {
+          "start_date": "2022-04-26",
+          "end_date": "2022-07-07",
+          "start_close": 2150.51,
+          "end_close": 2849.71,
+          "return_pct": 32.51,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        },
+        {
+          "start_date": "2022-07-07",
+          "end_date": "2024-09-23",
+          "start_close": 2849.71,
+          "end_close": 1530.51,
+          "return_pct": -46.29,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        }
+      ],
+      "background_context": "2023起AI算力叙事出现，同时价格主轴仍在调整",
+      "events": [
+        {
+          "id": "war_2022",
+          "date": "2022-02-24",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "俄乌冲突爆发",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "finance_meeting_2022",
+          "date": "2022-03-16",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "金融委专题会议",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "infrastructure_2022",
+          "date": "2022-04-26",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "中央财经委会议",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "registration_all_2023",
+          "date": "2023-02-17",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "全面注册制落地",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "cpo_2023",
+          "date": "2023",
+          "source_grade": "A",
+          "source_enabled": false,
+          "title": "光模块指数全年涨幅",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "smallcap_2024",
+          "date": "2024-02",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "小微盘流动性危机",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        }
+      ],
+      "emotion_evidence_requirement": "“新能源预期降温”“AI热度与指数表现分化”需行业与同期资料，不把AI产业时期画成指数持续上涨",
+      "unverified_emotion_enabled": false
+    },
+    {
+      "id": "phase_07",
+      "start_date": "2024-09-23",
+      "end_date": "2026-06-25",
+      "editorial_title": "政策节点之后的反弹与样本新高",
+      "status": "proposal_not_official_regime_classification",
+      "price_waves": [
+        {
+          "start_date": "2024-09-23",
+          "end_date": "2026-06-25",
+          "start_close": 1530.51,
+          "end_close": 4371.99,
+          "return_pct": 185.66,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        }
+      ],
+      "background_context": "AI算力背景跨越本阶段；政策事实与2025大跌需分别展示",
+      "events": [
+        {
+          "id": "policy_2024",
+          "date": "2024-09-24",
+          "source_grade": "A",
+          "source_enabled": true,
+          "title": "一揽子金融政策公布",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "deepseek_2025",
+          "date": "2025-02",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "AI 产业行情",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        },
+        {
+          "id": "tariffs_2025",
+          "date": "2025-04-07",
+          "source_grade": "B",
+          "source_enabled": false,
+          "title": "对等关税冲击",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        }
+      ],
+      "emotion_evidence_requirement": "“风险偏好回升/交易热度”须数据或同期报道支持；叙事不能写某一政策单独造成全段+185.66%",
+      "unverified_emotion_enabled": false
+    },
+    {
+      "id": "phase_08",
+      "start_date": "2026-06-25",
+      "end_date": "2026-11-10",
+      "editorial_title": "新高后的回撤与回到当下",
+      "status": "proposal_not_official_regime_classification",
+      "price_waves": [
+        {
+          "start_date": "2026-06-25",
+          "end_date": "2026-11-10",
+          "start_close": 4371.99,
+          "end_close": 2494.4,
+          "return_pct": -42.95,
+          "formula": "end_close/start_close - 1",
+          "price_basis": "daily_close",
+          "evidence": "local_csv_recomputed_this_turn"
+        }
+      ],
+      "background_context": "高点、7月回撤、11月低点与反弹；待核归因不自动启用",
+      "events": [
+        {
+          "id": "regulator_meeting_2026",
+          "date": "2026-07",
+          "source_grade": "C",
+          "source_enabled": false,
+          "title": "监管座谈会",
+          "new_online_verification": "not_performed_by_phase_timeline_agent"
+        }
+      ],
+      "emotion_evidence_requirement": "现有研究中的拥挤交易/融资去杠杆/TMT持仓等多数待核，价格事实可先用，但不能填成已知成因",
+      "unverified_emotion_enabled": false
+    }
+  ],
+  "sample_recut": {
+    "previous_duration_seconds": 42,
+    "proposed_duration_seconds": 76,
+    "estimate_range_seconds": [
+      65,
+      80
+    ],
+    "status": "discussion_proposal_pending_source_and_reading_tests",
+    "beats": [
+      {
+        "start_seconds": 0,
+        "end_seconds": 6,
+        "market_date_or_range": "2015-04-13",
+        "content": "一人多户与阶段背景",
+        "evidence_and_display_note": "现有A级；低对比背景说明产业语境，主焦点只有制度节点"
+      },
+      {
+        "start_seconds": 6,
+        "end_seconds": 13,
+        "market_date_or_range": "2015-04-20/2015-04-24",
+        "content": "单周开户413.03万户",
+        "evidence_and_display_note": "现有A级；计数器事实可表现参与增加，不写开户见顶"
+      },
+      {
+        "start_seconds": 13,
+        "end_seconds": 20,
+        "market_date_or_range": "2015-04-24/2015-06-03",
+        "content": "推进与高点命中",
+        "evidence_and_display_note": "真实行情；高点终值保留足够阅读时间"
+      },
+      {
+        "start_seconds": 20,
+        "end_seconds": 29,
+        "market_date_or_range": "2015-06",
+        "content": "高点后的下跌与去杠杆背景",
+        "evidence_and_display_note": "新核政策文件与同期报道后启用；不声称6/13文件解释6/3高点"
+      },
+      {
+        "start_seconds": 29,
+        "end_seconds": 39,
+        "market_date_or_range": "2015-06/2015-07",
+        "content": "降息降准和稳定市场措施链",
+        "evidence_and_display_note": "来源待本轮救市研究核验；公布日/实施日/入市日分开"
+      },
+      {
+        "start_seconds": 39,
+        "end_seconds": 47,
+        "market_date_or_range": "2015-07",
+        "content": "阶段反弹后再承压",
+        "evidence_and_display_note": "本地价格路径可证；不要提前把9月低点当作一次政策结果"
+      },
+      {
+        "start_seconds": 47,
+        "end_seconds": 54,
+        "market_date_or_range": "2015-08-11",
+        "content": "汇率制度节点与外部背景",
+        "evidence_and_display_note": "待央行原文核验；本身不能证明其导致所有后续跳空"
+      },
+      {
+        "start_seconds": 54,
+        "end_seconds": 64,
+        "market_date_or_range": "2015-08-24/2015-08-26",
+        "content": "连续下跌与8/25政策节点",
+        "evidence_and_display_note": "逐日行情+政策先后顺序；一次只亮一个主信息，事件与低点不叠"
+      },
+      {
+        "start_seconds": 64,
+        "end_seconds": 72,
+        "market_date_or_range": "2015-09-15",
+        "content": "抵达阶段低点1797.56/−54.86%",
+        "evidence_and_display_note": "真实收盘；救市是此前多轮过程，不画成当天才开始"
+      },
+      {
+        "start_seconds": 72,
+        "end_seconds": 76,
+        "market_date_or_range": "2015-09",
+        "content": "阶段总结",
+        "evidence_and_display_note": "带来源的简短背景/情绪句；无法证实的情绪词删除"
+      }
+    ]
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "version": "1.0-editorial-selection",
+  "date": "2026-11-15",
+  "workflow": "facts_and_events_then_unified_copy",
+  "ending_choice": "era_album_company_caption_return_to_timeline",
+  "main_asset_count": 5,
+  "acquired_main_assets": 0,
+  "network_status": "runtime_allowlist_not_applied_no_new_retries",
+  "status": "editorial_selection_not_media_acquisition_or_final_copy",
+  "closing_copy_status": "previous_text_placeholder_keep_until_facts_locked",
+  "closing_copy_placeholder": "十六年，3992个交易日。企业在更替，产业也在变化。今天的100家公司，只是这段历史的一个截面。",
+  "policies": [
+    "candidate captions are own factual labels, not verbatim media headlines",
+    "original headline, original URL, actual photo and caption are required before media-source verification",
+    "publication date and photograph date are separate",
+    "do not use current corporate photographs as an unmarked historical scene",
+    "a company must occur in the main film before appearing as an album role",
+    "no AI-generated image presented as archival news photography",
+    "provided documentary A is distinct from online source verification",
+    "only acquire the selected five assets and their narrow replacements"
+  ],
+  "main_assets": [
+    {
+      "id": "M01",
+      "era_role": "index_birth",
+      "event_date": "2010-06-01",
+      "date_precision": "day",
+      "selection_subject": "深交所创业板指数发布公告",
+      "preferred_visual": "2010-05-31原始公告页面或公告PDF",
+      "caption_candidate": "2010.06.01｜创业板指发布",
+      "caption_type": "own_fact_caption_not_media_headline",
+      "company_caption": null,
+      "primary_film_dependency": "index_launch_2010",
+      "primary_film_dependency_status": "present_in_v0_9",
+      "fact_status": "USER_A_original_document_pending",
+      "provided_evidence": "docs/source/events_source_20261113.md section 3 item 2; 用户上传数据底稿.zip内README_数据说明与核验.md第2节的2010-05-31公告记录",
+      "source_institutions": [
+        "深圳证券交易所"
+      ],
+      "discovery_hosts": [
+        "www.szse.cn"
+      ],
+      "search_terms": [
+        "2010 5 31 关于编制和发布创业板指数的公告"
+      ],
+      "provided_document_title": "关于编制和发布创业板指数的公告",
+      "provided_document_title_status": "provided_source_record_not_fetched_in_this_task",
+      "original_media_headline": null,
+      "source_page_url": null,
+      "image_url": null,
+      "local_asset_path": null,
+      "publication_date": null,
+      "photograph_date": null,
+      "original_caption": null,
+      "usage_record": null,
+      "asset_status": "not_acquired",
+      "verification_status": "pending_original",
+      "fallback": "2009-10-30首批28家公司挂牌的真实现场图，仅在同时改为2009事件题签后使用",
+      "risks_to_resolve": [
+        "公告日期5月31日和正式发布日6月1日分别标识",
+        "不为指数发布假造敲钟现场"
+      ]
+    },
+    {
+      "id": "M02",
+      "era_role": "participation_heat",
+      "event_date": "2015-04-20/2015-04-24",
+      "date_precision": "range",
+      "selection_subject": "2015年4月开户潮当年报道",
+      "preferred_visual": "当年证券营业部开户或交易现场配图；无明确当年原图时采用权威报道原题",
+      "caption_candidate": "2015.04｜单周新开A股账户413.03万户",
+      "caption_type": "own_fact_caption_not_media_headline",
+      "company_caption": null,
+      "primary_film_dependency": "accounts_2015",
+      "primary_film_dependency_status": "present_in_v0_9_and_rendered_sample",
+      "fact_status": "USER_A_original_media_pending",
+      "provided_evidence": "docs/source/events_source_20261113.md section 5.1 phenomenon 1",
+      "source_institutions": [
+        "中国证券登记结算",
+        "人民网",
+        "中国新闻网"
+      ],
+      "discovery_hosts": [
+        "www.chinaclear.cn",
+        "finance.people.com.cn",
+        "www.chinanews.com"
+      ],
+      "search_terms": [
+        "2015 4月20 24 413.03 万户 新开 A股账户 中国结算",
+        "2015 4月 开户潮 营业部 人民网 图片"
+      ],
+      "provided_document_title": null,
+      "original_media_headline": null,
+      "source_page_url": null,
+      "image_url": null,
+      "local_asset_path": null,
+      "publication_date": null,
+      "photograph_date": null,
+      "original_caption": null,
+      "usage_record": null,
+      "asset_status": "not_acquired",
+      "verification_status": "pending_original",
+      "fallback": "取得当年报道后使用原题与413.03万户事实摘要",
+      "risks_to_resolve": [
+        "周新增账户不是单日人数或新增独立投资者",
+        "照片如为资料图应按原图注标识",
+        "不由人群照片直接推断所有投资者情绪"
+      ]
+    },
+    {
+      "id": "M03",
+      "era_role": "representative_company_enters",
+      "event_date": "2018-06-11",
+      "date_precision": "day",
+      "selection_subject": "宁德时代创业板上市当年资料",
+      "preferred_visual": "带企业名的挂牌现场细节或当日上市报道配图",
+      "caption_candidate": "2018.06.11｜宁德时代上市",
+      "caption_type": "own_fact_caption_not_media_headline",
+      "company_caption": "宁德时代",
+      "primary_film_dependency": "catl_listing_2018",
+      "primary_film_dependency_status": "present_in_v0_9",
+      "fact_status": "USER_A_original_media_pending",
+      "provided_evidence": "docs/source/events_source_20261113.md section 5.2 company 3",
+      "source_institutions": [
+        "深圳证券交易所",
+        "人民网",
+        "中国网"
+      ],
+      "discovery_hosts": [
+        "www.szse.cn",
+        "finance.people.com.cn"
+      ],
+      "search_terms": [
+        "2018 6 11 宁德时代 上市 仪式 人民网",
+        "宁德时代 上市 深圳证券交易所 2018"
+      ],
+      "provided_document_title": null,
+      "original_media_headline": null,
+      "source_page_url": null,
+      "image_url": null,
+      "local_asset_path": null,
+      "publication_date": null,
+      "photograph_date": null,
+      "original_caption": null,
+      "usage_record": null,
+      "asset_status": "not_acquired",
+      "verification_status": "pending_original",
+      "fallback": "改取2021年5月市值突破万亿元的当年报道标题，同时将题签及年份改为2021.05，不配成2018现场",
+      "risks_to_resolve": [
+        "上市是企业登场，不等同整个新能源行情起点",
+        "最大IPO如采用须写当时并补定义",
+        "保持与2020集体仪式的构图区别"
+      ]
+    },
+    {
+      "id": "M04",
+      "era_role": "institutional_change",
+      "event_date": "2020-08-24",
+      "date_precision": "day",
+      "selection_subject": "注册制首批18家创业板企业上市",
+      "preferred_visual": "上市仪式集体全景或深交所当日新闻标题",
+      "caption_candidate": "2020.08.24｜首批18家注册制企业上市",
+      "caption_type": "own_fact_caption_not_media_headline",
+      "company_caption": "首批18家企业",
+      "primary_film_dependency": "registration_listings_2020",
+      "primary_film_dependency_status": "present_in_v0_9",
+      "fact_status": "USER_A_original_media_pending",
+      "provided_evidence": "docs/source/events_source_20261113.md section 3 item 18",
+      "source_institutions": [
+        "深圳证券交易所",
+        "新华社",
+        "中国新闻网"
+      ],
+      "discovery_hosts": [
+        "www.szse.cn",
+        "www.news.cn",
+        "www.xinhuanet.com",
+        "www.chinanews.com"
+      ],
+      "search_terms": [
+        "2020 8 24 创业板 改革 试点注册制 首批企业 上市 仪式 18家"
+      ],
+      "provided_document_title": null,
+      "original_media_headline": null,
+      "source_page_url": null,
+      "image_url": null,
+      "local_asset_path": null,
+      "publication_date": null,
+      "photograph_date": null,
+      "original_caption": null,
+      "usage_record": null,
+      "asset_status": "not_acquired",
+      "verification_status": "pending_original",
+      "fallback": "取得原文后用深交所当日标题或正式发布材料",
+      "risks_to_resolve": [
+        "8月21日发布会不等于8月24日上市仪式",
+        "不将任意挂牌合影当成这18家企业"
+      ]
+    },
+    {
+      "id": "M05",
+      "era_role": "recent_compute_industry_context",
+      "event_date": "2023",
+      "date_precision": "year",
+      "selection_subject": "2023光模块与AI算力当期报道，衔接2023—2026产业语境",
+      "preferred_visual": "明确当年拍摄的光模块生产/测试现场或当年权威报道原题",
+      "caption_candidate": "2023｜AI算力与光模块",
+      "caption_type": "own_context_caption_not_media_headline",
+      "company_caption": "中际旭创（主片事实加入后锁定）",
+      "primary_film_dependency": "historical_compute_company_context_to_add",
+      "primary_film_dependency_status": "candidate_added_to_full_film_facts_v1_pending_original_and_selection",
+      "fact_status": "USER_RESEARCH_CONTEXT_requires_main_film_and_original_source",
+      "provided_evidence": "docs/source/events_source_20261113.md section 5.2 company 4 and industry framework",
+      "source_institutions": [
+        "证券时报"
+      ],
+      "discovery_hosts": [
+        "www.stcn.com"
+      ],
+      "search_terms": [
+        "2023 证券时报 中际旭创 光模块 AI 算力",
+        "2023 光模块 生产 现场 中际旭创 报道"
+      ],
+      "provided_document_title": null,
+      "original_media_headline": null,
+      "source_page_url": null,
+      "image_url": null,
+      "local_asset_path": null,
+      "publication_date": null,
+      "photograph_date": null,
+      "original_caption": null,
+      "usage_record": null,
+      "asset_status": "not_acquired",
+      "verification_status": "pending_original_and_main_film_selection",
+      "fallback": "来源不足时暂用本片2026.11.10真实截面关键帧并明确为本片数据回放，不冒充档案报道",
+      "risks_to_resolve": [
+        "不得默认使用股票收益或CPO指数253.02%口径",
+        "2023照片或报道不能冒充2026现场",
+        "企业须先在主片事实链中出现",
+        "产业背景不是指数同期每次涨跌的原因",
+        "www.stcn.com已加入14域配置草稿，运行实例尚未应用；图像主机取得原文后再按实际链接核对。"
+      ],
+      "source_request_id": "Q30"
+    }
+  ],
+  "backup_assets": [
+    {
+      "id": "B01",
+      "event_date": "2013-07",
+      "date_precision": "month",
+      "selection_subject": "华谊兄弟并购银汉科技当年新闻标题或公告",
+      "caption_candidate": "2013.07｜华谊兄弟并购手游公司",
+      "company_caption": "华谊兄弟",
+      "source_institutions": [
+        "人民网",
+        "中证网"
+      ],
+      "search_terms": [
+        "2013 7 华谊兄弟 银汉科技 并购 复牌 人民网"
+      ],
+      "provided_evidence": "docs/source/events_source_20261113.md section 5.2 company 1",
+      "primary_film_dependency_status": "present_in_v0_9",
+      "replacement_use": "补足移动互联网记忆时作为第六镜；或M05待源时的临时替换，仍回到2026时间轨",
+      "original_media_headline": null,
+      "source_page_url": null,
+      "image_url": null,
+      "local_asset_path": null,
+      "usage_record": null,
+      "asset_status": "not_acquired",
+      "verification_status": "pending_original",
+      "risks_to_resolve": [
+        "7月24复牌不自动等于收购公告发布日",
+        "不用电影海报冒充资本市场事件现场"
+      ]
+    },
+    {
+      "id": "B02",
+      "event_date": "2020-07-21",
+      "date_precision": "day",
+      "selection_subject": "乐视网摘牌当年公告或权威报道标题",
+      "caption_candidate": "2020.07｜乐视网摘牌",
+      "company_caption": "乐视网",
+      "source_institutions": [
+        "深圳证券交易所",
+        "人民网",
+        "中国新闻网"
+      ],
+      "search_terms": [
+        "2020 7 21 乐视网 摘牌 人民网",
+        "2020 5 14 深交所 乐视网 终止上市 决定"
+      ],
+      "provided_evidence": "docs/source/events_source_20261113.md section 5.2 company 2",
+      "primary_film_dependency_status": "present_in_v0_9",
+      "replacement_use": "统一文案强调企业更替时，替换或补充2020制度页，不加入排行榜",
+      "original_media_headline": null,
+      "source_page_url": null,
+      "image_url": null,
+      "local_asset_path": null,
+      "usage_record": null,
+      "asset_status": "not_acquired",
+      "verification_status": "pending_original",
+      "risks_to_resolve": [
+        "5月14终止上市决定与7月21摘牌不同",
+        "最后收盘0.18元不标为摘牌日交易价格"
+      ]
+    }
+  ],
+  "final_transition": {
+    "type": "album_to_timeline",
+    "date": "2026-11-10",
+    "source": "data/cyb_daily.csv",
+    "meaning": "相册收回真实指数时间轨和当期数据截止日，不新增未经核验的2026历史大事"
+  }
+}

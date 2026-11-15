@@ -1,0 +1,359 @@
+{
+  "version": "V6.0-draft",
+  "video": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "duration_seconds": 22.0,
+    "crf": 17,
+    "preset": "medium"
+  },
+  "sample": {
+    "start_date": "2012-09-03",
+    "end_date": "2015-06-19",
+    "timeline_start": "2012-01-01",
+    "timeline_end": "2015-12-31",
+    "timeline_years": [
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  "playhead_keyframes": [
+    {
+      "t": 0.0,
+      "date": "2012-09-03"
+    },
+    {
+      "t": 1.55,
+      "date": "2012-10-30"
+    },
+    {
+      "t": 2.2,
+      "date": "2012-10-30"
+    },
+    {
+      "t": 2.75,
+      "date": "2012-11-16"
+    },
+    {
+      "t": 3.4,
+      "date": "2012-11-16"
+    },
+    {
+      "t": 4.2,
+      "date": "2012-12-03"
+    },
+    {
+      "t": 4.95,
+      "date": "2012-12-03"
+    },
+    {
+      "t": 5.4,
+      "date": "2013-01-04"
+    },
+    {
+      "t": 6.35,
+      "date": "2013-05-31"
+    },
+    {
+      "t": 7.15,
+      "date": "2013-07-24"
+    },
+    {
+      "t": 7.9,
+      "date": "2013-07-24"
+    },
+    {
+      "t": 9.0,
+      "date": "2013-12-31"
+    },
+    {
+      "t": 9.55,
+      "date": "2013-12-31"
+    },
+    {
+      "t": 10.05,
+      "date": "2014-01-08"
+    },
+    {
+      "t": 10.7,
+      "date": "2014-01-08"
+    },
+    {
+      "t": 12.05,
+      "date": "2014-12-31"
+    },
+    {
+      "t": 13.1,
+      "date": "2015-04-13"
+    },
+    {
+      "t": 13.8,
+      "date": "2015-04-13"
+    },
+    {
+      "t": 14.5,
+      "date": "2015-04-24"
+    },
+    {
+      "t": 15.45,
+      "date": "2015-04-24"
+    },
+    {
+      "t": 16.55,
+      "date": "2015-05-15"
+    },
+    {
+      "t": 18.2,
+      "date": "2015-06-03"
+    },
+    {
+      "t": 19.15,
+      "date": "2015-06-03"
+    },
+    {
+      "t": 19.55,
+      "date": "2015-06-04"
+    },
+    {
+      "t": 22.0,
+      "date": "2015-06-19"
+    }
+  ],
+  "camera_shots": [
+    {
+      "id": "enter_2012",
+      "start_t": 0.0,
+      "end_t": 1.55,
+      "visible_days_start": 250,
+      "visible_days_end": 135,
+      "current_x_start": 0.82,
+      "current_x_end": 0.74,
+      "y_policy": "follow_window"
+    },
+    {
+      "id": "unlock_event",
+      "start_t": 1.55,
+      "end_t": 2.2,
+      "visible_days_start": 135,
+      "visible_days_end": 105,
+      "current_x_start": 0.74,
+      "current_x_end": 0.7,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2012-10-30"
+    },
+    {
+      "id": "ipo_pause_event",
+      "start_t": 2.2,
+      "end_t": 3.4,
+      "visible_days_start": 105,
+      "visible_days_end": 82,
+      "current_x_start": 0.7,
+      "current_x_end": 0.68,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2012-11-16"
+    },
+    {
+      "id": "low_hit",
+      "start_t": 3.4,
+      "end_t": 4.95,
+      "visible_days_start": 82,
+      "visible_days_end": 34,
+      "current_x_start": 0.68,
+      "current_x_end": 0.66,
+      "y_policy": "critical_anchor",
+      "focus_date": "2012-12-03",
+      "anchor_y_frac": 0.7
+    },
+    {
+      "id": "rise_departure",
+      "start_t": 4.95,
+      "end_t": 6.35,
+      "visible_days_start": 34,
+      "visible_days_end": 235,
+      "current_x_start": 0.66,
+      "current_x_end": 0.82,
+      "y_policy": "follow_window"
+    },
+    {
+      "id": "huayi_approach",
+      "start_t": 6.35,
+      "end_t": 7.15,
+      "visible_days_start": 235,
+      "visible_days_end": 78,
+      "current_x_start": 0.82,
+      "current_x_end": 0.71,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2013-07-24"
+    },
+    {
+      "id": "huayi_event",
+      "start_t": 7.15,
+      "end_t": 7.9,
+      "visible_days_start": 78,
+      "visible_days_end": 70,
+      "current_x_start": 0.71,
+      "current_x_end": 0.69,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2013-07-24"
+    },
+    {
+      "id": "year_2013",
+      "start_t": 7.9,
+      "end_t": 9.55,
+      "visible_days_start": 70,
+      "visible_days_end": 210,
+      "current_x_start": 0.69,
+      "current_x_end": 0.82,
+      "y_policy": "follow_window"
+    },
+    {
+      "id": "ipo_restart",
+      "start_t": 9.55,
+      "end_t": 10.7,
+      "visible_days_start": 210,
+      "visible_days_end": 92,
+      "current_x_start": 0.82,
+      "current_x_end": 0.71,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2014-01-08"
+    },
+    {
+      "id": "travel_2014",
+      "start_t": 10.7,
+      "end_t": 12.05,
+      "visible_days_start": 92,
+      "visible_days_end": 265,
+      "current_x_start": 0.71,
+      "current_x_end": 0.84,
+      "y_policy": "follow_window"
+    },
+    {
+      "id": "multi_account",
+      "start_t": 12.05,
+      "end_t": 13.8,
+      "visible_days_start": 265,
+      "visible_days_end": 105,
+      "current_x_start": 0.84,
+      "current_x_end": 0.75,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2015-04-13"
+    },
+    {
+      "id": "accounts_counter",
+      "start_t": 13.8,
+      "end_t": 15.45,
+      "visible_days_start": 105,
+      "visible_days_end": 52,
+      "current_x_start": 0.75,
+      "current_x_end": 0.68,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2015-04-24"
+    },
+    {
+      "id": "high_approach",
+      "start_t": 15.45,
+      "end_t": 18.2,
+      "visible_days_start": 85,
+      "visible_days_end": 30,
+      "current_x_start": 0.73,
+      "current_x_end": 0.65,
+      "y_policy": "critical_anchor",
+      "focus_date": "2015-06-03",
+      "anchor_y_frac": 0.28
+    },
+    {
+      "id": "high_hit",
+      "start_t": 18.2,
+      "end_t": 19.15,
+      "visible_days_start": 30,
+      "visible_days_end": 28,
+      "current_x_start": 0.65,
+      "current_x_end": 0.64,
+      "y_policy": "critical_anchor",
+      "focus_date": "2015-06-03",
+      "anchor_y_frac": 0.28
+    },
+    {
+      "id": "post_high_drawdown",
+      "start_t": 19.15,
+      "end_t": 22.0,
+      "visible_days_start": 28,
+      "visible_days_end": 44,
+      "current_x_start": 0.64,
+      "current_x_end": 0.7,
+      "y_policy": "lookahead_locked",
+      "focus_date": "2015-06-19"
+    }
+  ],
+  "critical_points": [
+    {
+      "id": "sample_low",
+      "date": "2012-12-03",
+      "price": 593.66,
+      "label": "全样本最低收盘",
+      "hit_t": 4.2,
+      "hold_until": 4.95,
+      "leave_anchor": true
+    },
+    {
+      "id": "stage_high",
+      "date": "2015-06-03",
+      "price": 3982.25,
+      "label": "阶段高点",
+      "hit_t": 18.2,
+      "hold_until": 19.15,
+      "leave_anchor": true
+    }
+  ],
+  "stage_rail": {
+    "single_active_track": true,
+    "modes": [
+      {
+        "id": "drawdown_pre_low",
+        "start_date": "2010-12-17",
+        "anchor_price": 1232.98,
+        "end_date": "2012-12-03",
+        "target_value": -0.5185,
+        "color": "cool_blue"
+      },
+      {
+        "id": "rise_from_low",
+        "start_date": "2012-12-03",
+        "anchor_price": 593.66,
+        "end_date": "2015-06-03",
+        "target_value": 5.708,
+        "color": "red"
+      },
+      {
+        "id": "drawdown_from_high",
+        "start_date": "2015-06-03",
+        "anchor_price": 3982.25,
+        "target_value": -0.5486,
+        "color": "cool_blue"
+      }
+    ],
+    "transition_seconds": 0.42,
+    "completed_stage_display": "milestone_badge"
+  },
+  "timeline_bands": [
+    {
+      "id": "ipo_pause_period",
+      "start_date": "2012-11-16",
+      "end_date": "2014-01-08",
+      "label": "IPO暂停期",
+      "opacity": 0.16
+    }
+  ],
+  "phase_contexts": [
+    {
+      "id": "mobile_internet_merger",
+      "start_t": 5.75,
+      "end_t": 11.5,
+      "label": "2013—2015  移动互联网 / 并购潮",
+      "visual": "low_contrast_context_line"
+    }
+  ]
+}

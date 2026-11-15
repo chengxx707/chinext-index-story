@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-15",
+  "scope": "2026 S14–S19及F48本地时序审查；只读来源，新增文档，不更改生产资格",
+  "verification": "supplied_archive_body_review_not_new_online_verification",
+  "cutoff": "2026-11-10",
+  "files": {
+    "S14a": {
+      "filename": "S14_X13_证监会_增强市场内在稳定性_2026年7月座谈会.html",
+      "sha256": "dcfa82f72b776c3031adf4b6603954dcd04edc1573215ffbd809ca3f161b66b6",
+      "bytes": 20457
+    },
+    "S14b": {
+      "filename": "S14_X13_证监会_这场座谈会透露了啥信息_2026年7月.html",
+      "sha256": "dc2be0b694aa5d2c9f634572a9d4d8caf28ef14b06d8e7b6cbd7b044d4670671",
+      "bytes": 21459
+    },
+    "S15_S16": {
+      "filename": "S15_S16_央视新闻_三部门_回购增持再贷款利率降至1%_2026-11-02.html",
+      "sha256": "d131fecdb94ebfc30b39fa02facfab5563f30da9b9596391ceb8a5e87bff11b4",
+      "bytes": 11324
+    },
+    "S17": {
+      "filename": "S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.html",
+      "sha256": "11d907a121701526e4b44c27d9058d8bdd760a511dcf911b1522b3410d836b25",
+      "bytes": 40149
+    },
+    "S18": {
+      "filename": "S18_证券业协会_稳市机制高频落子_2026-11-10.html",
+      "sha256": "91fcddf56bb1a70a69ebd6f957ba3c9da9a3ce840a436a1e1b781435fecce6aa",
+      "bytes": 34750
+    },
+    "S19": {
+      "filename": "S19_中证报_证监会完善稳市机制_国际投资者大会_2026-11-13.html",
+      "sha256": "4a9437352d0c1c9269d028989e1e3311c63043f8909b78e93fda5e6a88947bbd",
+      "bytes": 21783
+    }
+  },
+  "records": [
+    {
+      "id": "S14",
+      "status": "supported_by_readable_supplied_media_reprints",
+      "archive_evidence": [
+        "S14a",
+        "S14b"
+      ],
+      "event_dates": [
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21"
+      ],
+      "publication_date": "2026-07-28",
+      "host": "证监会山西监管局",
+      "original_publishers": [
+        "经济参考报",
+        "人民日报"
+      ],
+      "exact_archive_titles": [
+        "证监会：增强市场内在稳定性",
+        "证监会这场座谈会，透露了啥信息？"
+      ],
+      "supported": [
+        "7月20日下午至21日召开多类座谈会",
+        "7月20日吴清证券营业部调研和投资者座谈会",
+        "人民日报转载提及7月19日国新、诚通增持及累计入市超600亿元"
+      ],
+      "limits": [
+        "这是官网托管的媒体转载，不是证监会原始公告",
+        "7月19日资本平台原始增持公告未随包提供",
+        "文件名7月座谈会不提供发布时间，正文日期为7月28日",
+        "不因附件自称升级而自动更改旧registry资格"
+      ],
+      "safe_display": "2026.07.20—21｜资本市场座谈会；7月28日报道标题另按刊发日展示",
+      "sentiment": "报道和机构评论关注稳市场、投资者诉求；分析师对信心改善的预期不等于已测得情绪改善"
+    },
+    {
+      "id": "S15",
+      "status": "partially_supported_shell_archive_and_cross_references",
+      "archive_evidence": [
+        "S15_S16",
+        "S17",
+        "S18"
+      ],
+      "event_dates": [
+        "2026-11-02"
+      ],
+      "publication_date": null,
+      "host": "央视新闻客户端壳／央视网后续报道／协会转载",
+      "exact_archive_titles": [],
+      "supported": [
+        "S17实际正文提及11月2日股票回购增持再贷款座谈会",
+        "S18报道提及三部门、两场座谈会、再贷款转长期及利率降至1%"
+      ],
+      "limits": [
+        "命名为S15_S16的HTML没有具体文章正文、原题或文章日期，不能当作11月2日新闻已完整存档",
+        "三部门两项工具在11月2日的完整安排、参会数和运行规模仍需原始文章或公告",
+        "可从交叉原文支持较窄的11月2日回购增持再贷款座谈会事实，不能无差别接受回交稿全部数字"
+      ],
+      "safe_display": "2026.11.02｜回购增持再贷款座谈会（较窄事实）；更完整三部门安排待补",
+      "sentiment": "以政策关注事项描述，不虚构统一市场心理"
+    },
+    {
+      "id": "S16",
+      "status": "specific_operation_date_and_details_not_locally_supported",
+      "archive_evidence": [
+        "S15_S16",
+        "S18",
+        "S19"
+      ],
+      "event_dates": [
+        "2026-11-03"
+      ],
+      "publication_date": null,
+      "host": "回交稿附URL但实际文章未随包完整保存",
+      "exact_archive_titles": [],
+      "supported": [
+        "S18的11月9日报道提及31家证券/基金机构参与第三批、意向申报超过1000亿元及中标额度",
+        "S19后续报道提及已开展第三批1000亿元操作"
+      ],
+      "limits": [
+        "这些可旁证第三批工具及规模背景，不能据此确定11月3日操作日期、午间公告、10bp等全部细节",
+        "S15_S16存档为React壳，无法证明回交稿所称已存档正文",
+        "央行操作原始公告或所引中国证券网文章正文仍缺"
+      ],
+      "safe_display": "暂不启用11月3日1000亿元操作这一精确事件卡；保留11月3日行情低点，可另展示日期明确的报道卡",
+      "sentiment": "没有独立情绪测量；机构表态应按来源注明"
+    },
+    {
+      "id": "S17",
+      "status": "supported_by_static_embedded_article_body",
+      "archive_evidence": [
+        "S17"
+      ],
+      "event_dates": [
+        "2026-11-04"
+      ],
+      "publication_date": "2026-11-04 09:32:02",
+      "host": "央视网繁体页",
+      "original_publishers": [
+        "央视网据人民银行消息"
+      ],
+      "exact_archive_titles": [
+        "中國人民銀行加力實施股票回購增持再貸款政策"
+      ],
+      "supported": [
+        "自2026年11月4日起利率下调0.25个百分点至1%",
+        "支持对象21家全国性银行和5家系统重要性城商行",
+        "支持比例100%、期限1年、可按需要展期",
+        "11月2日座谈会后银行报送额度申请超过2000亿元"
+      ],
+      "limits": [
+        "正文位于var contentdate静态字符串，已纯文本提取且未执行JavaScript",
+        "这是央视网转述央行消息，不是央行官网原始政策页",
+        "申请额度不等于实际放款或股票已买入规模",
+        "所谓支持对象扩围相对旧范围还需旧政策原文作比较"
+      ],
+      "safe_display": "2026.11.04｜回购增持再贷款利率降至1%；保留准确标题和来源",
+      "sentiment": "与当日+6.40%长阳并列，不标作政策导致反弹"
+    },
+    {
+      "id": "S18",
+      "status": "readable_secondary_report_with_date_mismatch",
+      "archive_evidence": [
+        "S18"
+      ],
+      "event_dates": [],
+      "publication_date": "2026-11-09",
+      "host": "用户提供的证券业协会网站存档",
+      "original_publishers": [
+        "证券时报"
+      ],
+      "exact_archive_titles": [
+        "稳市机制高频落子 稳市力量加速汇聚"
+      ],
+      "supported": [
+        "正文讨论近期稳市工具、回购增持和中长期资金",
+        "正文提及国常会“日前”、央行行长报告“此前”而未给具体日期",
+        "原文将“走向长期化、制度化、常态化”归于方正证券燕翔评论"
+      ],
+      "limits": [
+        "文件名和回交稿均写11月10日，但存档页显示发布时间2026年11月09日且注明摘自证券时报2026年11月9日",
+        "不能据文件名作为11月10日同期事件",
+        "国常会和央行行长报告日期仍未锁定，报道日期不能替代事件日期",
+        "券商与学者解读不是已证实政策效果或群体情绪"
+      ],
+      "safe_display": "2026.11.09｜当日报道：稳市机制高频落子（报道卡，不伪造某次会议日期）",
+      "sentiment": "“市场波动加大”“稳定预期”可作为报道语境；对风险偏好修复的说法是评论/预期"
+    },
+    {
+      "id": "S19",
+      "status": "readable_report_outside_current_film_cutoff",
+      "archive_evidence": [
+        "S19"
+      ],
+      "event_dates": [
+        "2026-11-12"
+      ],
+      "publication_date": "2026-11-13 07:18",
+      "host": "中国证券报/中证网存档",
+      "original_publishers": [
+        "中国证券报"
+      ],
+      "exact_archive_titles": [
+        "证监会：完善稳市机制 增强股市内在稳定性"
+      ],
+      "supported": [
+        "11月12日上交所国际投资者大会上有关负责人表态",
+        "11月13日报道回顾第三批互换便利等措施"
+      ],
+      "limits": [
+        "当前行情截止2026年11月10日；11月12日发生的新表态不加入截止日前时间轴",
+        "可以作为后续资料附录或核实此前事实，但不能反推11月3日具体操作日",
+        "若以后改变截止日，需要另行统一数据/事件范围；本轮不自动扩展"
+      ],
+      "safe_display": "只入资料附录，当前正式片内不设11月12/13事件节点",
+      "sentiment": "属于截止日后解读，不称片内时段当时情绪"
+    }
+  ],
+  "market_observations": [
+    {
+      "date": "2026-06-25",
+      "open": 4278.34,
+      "high": 4380.41,
+      "low": 4242.86,
+      "close": 4371.99,
+      "daily_pct_csv": 2.84,
+      "daily_pct_recomputed": 2.835994,
+      "candle_body_pct": 2.188933,
+      "color_by_open_close": "red",
+      "daily_up_and_green_candle": false
+    },
+    {
+      "date": "2026-07-17",
+      "open": 3642.06,
+      "high": 3642.06,
+      "low": 3387.26,
+      "close": 3428.63,
+      "daily_pct_csv": -7.15,
+      "daily_pct_recomputed": -7.145101,
+      "candle_body_pct": -5.860145,
+      "color_by_open_close": "green",
+      "daily_up_and_green_candle": false
+    },
+    {
+      "date": "2026-07-20",
+      "open": 3504.12,
+      "high": 3550.59,
+      "low": 3338.21,
+      "close": 3443.1,
+      "daily_pct_csv": 0.42,
+      "daily_pct_recomputed": 0.422034,
+      "candle_body_pct": -1.741379,
+      "color_by_open_close": "green",
+      "daily_up_and_green_candle": true
+    },
+    {
+      "date": "2026-07-21",
+      "open": 3469.22,
+      "high": 3687.15,
+      "low": 3373.04,
+      "close": 3685.97,
+      "daily_pct_csv": 7.05,
+      "daily_pct_recomputed": 7.053818,
+      "candle_body_pct": 6.247802,
+      "color_by_open_close": "red",
+      "daily_up_and_green_candle": false
+    },
+    {
+      "date": "2026-10-30",
+      "open": 2434.8,
+      "high": 2518.24,
+      "low": 2413.63,
+      "close": 2413.63,
+      "daily_pct_csv": -4.13,
+      "daily_pct_recomputed": -4.129346,
+      "candle_body_pct": -0.869476,
+      "color_by_open_close": "green",
+      "daily_up_and_green_candle": false
+    },
+    {
+      "date": "2026-11-02",
+      "open": 2439.08,
+      "high": 2500.14,
+      "low": 2406.97,
+      "close": 2458.7,
+      "daily_pct_csv": 1.87,
+      "daily_pct_recomputed": 1.867312,
+      "candle_body_pct": 0.804402,
+      "color_by_open_close": "red",
+      "daily_up_and_green_candle": false
+    },
+    {
+      "date": "2026-11-03",
+      "open": 2429.77,
+      "high": 2471.9,
+      "low": 2376.39,
+      "close": 2391.65,
+      "daily_pct_csv": -2.73,
+      "daily_pct_recomputed": -2.727051,
+      "candle_body_pct": -1.568873,
+      "color_by_open_close": "green",
+      "daily_up_and_green_candle": false
+    },
+    {
+      "date": "2026-11-04",
+      "open": 2399.46,
+      "high": 2559.09,
+      "low": 2376.28,
+      "close": 2544.73,
+      "daily_pct_csv": 6.4,
+      "daily_pct_recomputed": 6.400602,
+      "candle_body_pct": 6.054279,
+      "color_by_open_close": "red",
+      "daily_up_and_green_candle": false
+    },
+    {
+      "date": "2026-11-09",
+      "open": 2494.63,
+      "high": 2511.71,
+      "low": 2458.01,
+      "close": 2458.56,
+      "daily_pct_csv": -0.27,
+      "daily_pct_recomputed": -0.270563,
+      "candle_body_pct": -1.445906,
+      "color_by_open_close": "green",
+      "daily_up_and_green_candle": false
+    },
+    {
+      "date": "2026-11-10",
+      "open": 2518.44,
+      "high": 2520.01,
+      "low": 2487.56,
+      "close": 2494.4,
+      "daily_pct_csv": 1.46,
+      "daily_pct_recomputed": 1.457764,
+      "candle_body_pct": -0.954559,
+      "color_by_open_close": "green",
+      "daily_up_and_green_candle": true
+    }
+  ],
+  "F48": {
+    "status": "CSV_price_verified_contemporaneous_article_not_supplied",
+    "date": "2026-06-25",
+    "close": 4371.99,
+    "high": 4380.41,
+    "highest_close_sample_verified": true,
+    "media_headline_for_that_day": "not_supplied"
+  },
+  "rendering_notes": [
+    "并列K线形态、日期明确事件、带来源的报道描述和标题/文献情景；不画因果箭头",
+    "7月20日和11月10日可为日涨幅正但绿K，这是开收盘与前收盘基准不同，不是错误",
+    "S15/S16客户端壳不得作为完整文章标题卡",
+    "正式片保持11月10日截止，S19进附录"
+  ],
+  "production_enabled": false
+}

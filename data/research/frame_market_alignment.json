@@ -1,0 +1,373 @@
+{
+  "status": "local_market_facts_verified_external_context_pending_network",
+  "csv_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "frame_date_mapping": [
+    {
+      "requested_seconds": 32,
+      "actual_frame": 960,
+      "logical_time": 32.02541699761716,
+      "date": "2015-06-19",
+      "close": 3314.98,
+      "visible_days": 44
+    },
+    {
+      "requested_seconds": 33,
+      "actual_frame": 990,
+      "logical_time": 33.026211278792694,
+      "date": "2015-07-07",
+      "close": 2352.01,
+      "visible_days": 50
+    },
+    {
+      "requested_seconds": 34,
+      "actual_frame": 1020,
+      "logical_time": 34.02700555996823,
+      "date": "2015-08-07",
+      "close": 2576.99,
+      "visible_days": 66
+    },
+    {
+      "requested_seconds": 35,
+      "actual_frame": 1050,
+      "logical_time": 35.02779984114377,
+      "date": "2015-08-24",
+      "close": 2152.61,
+      "visible_days": 84
+    },
+    {
+      "requested_seconds": 35.25,
+      "actual_frame": 1057,
+      "logical_time": 35.26131850675139,
+      "date": "2015-08-24",
+      "close": 2152.61,
+      "visible_days": 89
+    },
+    {
+      "requested_seconds": 35.5,
+      "actual_frame": 1065,
+      "logical_time": 35.52819698173153,
+      "date": "2015-08-26",
+      "close": 1890.04,
+      "visible_days": 93
+    },
+    {
+      "requested_seconds": 35.75,
+      "actual_frame": 1072,
+      "logical_time": 35.76171564733916,
+      "date": "2015-08-28",
+      "close": 2082.12,
+      "visible_days": 96
+    },
+    {
+      "requested_seconds": 36,
+      "actual_frame": 1080,
+      "logical_time": 36.0285941223193,
+      "date": "2015-09-02",
+      "close": 1855.03,
+      "visible_days": 99
+    },
+    {
+      "requested_seconds": 36.25,
+      "actual_frame": 1087,
+      "logical_time": 36.262112787926924,
+      "date": "2015-09-08",
+      "close": 2001.16,
+      "visible_days": 102
+    },
+    {
+      "requested_seconds": 36.5,
+      "actual_frame": 1095,
+      "logical_time": 36.52899126290707,
+      "date": "2015-09-11",
+      "close": 2060.51,
+      "visible_days": 104
+    },
+    {
+      "requested_seconds": 37,
+      "actual_frame": 1110,
+      "logical_time": 37.029388403494835,
+      "date": "2015-09-15",
+      "close": 1797.56,
+      "visible_days": 105
+    }
+  ],
+  "daily_gap_definition": "open/previous_close-1; full_down_gap means current high < previous low",
+  "daily_market_facts": [
+    {
+      "date": "2015-08-18",
+      "open": 2674.42,
+      "high": 2720.58,
+      "low": 2488.61,
+      "close": 2504.17,
+      "pct_chg": -6.08,
+      "previous_close": 2666.29,
+      "previous_low": 2613.78,
+      "open_gap_pct": 0.304918,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-08-19",
+      "open": 2427.94,
+      "high": 2584.36,
+      "low": 2359.17,
+      "close": 2570.69,
+      "pct_chg": 2.66,
+      "previous_close": 2504.17,
+      "previous_low": 2488.61,
+      "open_gap_pct": -3.044122,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-08-20",
+      "open": 2556.77,
+      "high": 2610.9,
+      "low": 2508.35,
+      "close": 2508.82,
+      "pct_chg": -2.41,
+      "previous_close": 2570.69,
+      "previous_low": 2359.17,
+      "open_gap_pct": -0.541489,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-08-21",
+      "open": 2452.62,
+      "high": 2480.68,
+      "low": 2340.92,
+      "close": 2341.95,
+      "pct_chg": -6.65,
+      "previous_close": 2508.82,
+      "previous_low": 2508.35,
+      "open_gap_pct": -2.240097,
+      "full_down_gap": true
+    },
+    {
+      "date": "2015-08-24",
+      "open": 2222.54,
+      "high": 2246.55,
+      "low": 2152.61,
+      "close": 2152.61,
+      "pct_chg": -8.08,
+      "previous_close": 2341.95,
+      "previous_low": 2340.92,
+      "open_gap_pct": -5.098743,
+      "full_down_gap": true
+    },
+    {
+      "date": "2015-08-25",
+      "open": 1996.04,
+      "high": 2048.03,
+      "low": 1987.12,
+      "close": 1990.71,
+      "pct_chg": -7.52,
+      "previous_close": 2152.61,
+      "previous_low": 2152.61,
+      "open_gap_pct": -7.273496,
+      "full_down_gap": true
+    },
+    {
+      "date": "2015-08-26",
+      "open": 1975.92,
+      "high": 2044.66,
+      "low": 1875.03,
+      "close": 1890.04,
+      "pct_chg": -5.06,
+      "previous_close": 1990.71,
+      "previous_low": 1987.12,
+      "open_gap_pct": -0.742951,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-08-27",
+      "open": 1924.78,
+      "high": 1959.98,
+      "low": 1843.19,
+      "close": 1959.49,
+      "pct_chg": 3.67,
+      "previous_close": 1890.04,
+      "previous_low": 1875.03,
+      "open_gap_pct": 1.838056,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-08-28",
+      "open": 1990.35,
+      "high": 2086.87,
+      "low": 1960.39,
+      "close": 2082.12,
+      "pct_chg": 6.26,
+      "previous_close": 1959.49,
+      "previous_low": 1843.19,
+      "open_gap_pct": 1.5749,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-08-31",
+      "open": 2056.29,
+      "high": 2058.85,
+      "low": 1987.58,
+      "close": 1996.87,
+      "pct_chg": -4.09,
+      "previous_close": 2082.12,
+      "previous_low": 1960.39,
+      "open_gap_pct": -1.240563,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-09-01",
+      "open": 1959.46,
+      "high": 1959.46,
+      "low": 1877.36,
+      "close": 1889.49,
+      "pct_chg": -5.38,
+      "previous_close": 1996.87,
+      "previous_low": 1987.58,
+      "open_gap_pct": -1.873432,
+      "full_down_gap": true
+    },
+    {
+      "date": "2015-09-02",
+      "open": 1787.71,
+      "high": 1953.91,
+      "low": 1779.18,
+      "close": 1855.03,
+      "pct_chg": -1.82,
+      "previous_close": 1889.49,
+      "previous_low": 1877.36,
+      "open_gap_pct": -5.386639,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-09-07",
+      "open": 1882.86,
+      "high": 1953.4,
+      "low": 1878.26,
+      "close": 1893.52,
+      "pct_chg": 2.07,
+      "previous_close": 1855.03,
+      "previous_low": 1779.18,
+      "open_gap_pct": 1.500245,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-09-08",
+      "open": 1875.67,
+      "high": 2004.81,
+      "low": 1859.21,
+      "close": 2001.16,
+      "pct_chg": 5.68,
+      "previous_close": 1893.52,
+      "previous_low": 1878.26,
+      "open_gap_pct": -0.942689,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-09-09",
+      "open": 2023.31,
+      "high": 2102.23,
+      "low": 2017.1,
+      "close": 2071.72,
+      "pct_chg": 3.53,
+      "previous_close": 2001.16,
+      "previous_low": 1859.21,
+      "open_gap_pct": 1.106858,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-09-10",
+      "open": 2030.03,
+      "high": 2078.42,
+      "low": 2024.89,
+      "close": 2039.12,
+      "pct_chg": -1.57,
+      "previous_close": 2071.72,
+      "previous_low": 2017.1,
+      "open_gap_pct": -2.012338,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-09-11",
+      "open": 2039.01,
+      "high": 2084.05,
+      "low": 2029.81,
+      "close": 2060.51,
+      "pct_chg": 1.05,
+      "previous_close": 2039.12,
+      "previous_low": 2024.89,
+      "open_gap_pct": -0.005394,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-09-14",
+      "open": 2068.2,
+      "high": 2075.67,
+      "low": 1905.2,
+      "close": 1906.21,
+      "pct_chg": -7.49,
+      "previous_close": 2060.51,
+      "previous_low": 2029.81,
+      "open_gap_pct": 0.373209,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-09-15",
+      "open": 1843.23,
+      "high": 1892.81,
+      "low": 1794.29,
+      "close": 1797.56,
+      "pct_chg": -5.7,
+      "previous_close": 1906.21,
+      "previous_low": 1905.2,
+      "open_gap_pct": -3.303938,
+      "full_down_gap": true
+    },
+    {
+      "date": "2015-09-16",
+      "open": 1813.73,
+      "high": 1928.78,
+      "low": 1808.75,
+      "close": 1926.25,
+      "pct_chg": 7.16,
+      "previous_close": 1797.56,
+      "previous_low": 1794.29,
+      "open_gap_pct": 0.899553,
+      "full_down_gap": false
+    }
+  ],
+  "intervals": [
+    {
+      "start": "2015-06-03",
+      "end": "2015-06-12",
+      "start_close": 3982.25,
+      "end_close": 3899.71,
+      "return_pct": -2.0727
+    },
+    {
+      "start": "2015-06-03",
+      "end": "2015-09-15",
+      "start_close": 3982.25,
+      "end_close": 1797.56,
+      "return_pct": -54.8607
+    },
+    {
+      "start": "2015-08-21",
+      "end": "2015-08-26",
+      "start_close": 2341.95,
+      "end_close": 1890.04,
+      "return_pct": -19.2963
+    },
+    {
+      "start": "2015-09-15",
+      "end": "2015-11-25",
+      "start_close": 1797.56,
+      "end_close": 2897.57,
+      "return_pct": 61.1946
+    }
+  ],
+  "interpretation_limits": [
+    "CSV proves price and time, not a single cause or investor-wide emotion",
+    "35–36s compresses 2015-08-24 through early September",
+    "Historical candles stay on screen; the visible downward gaps include earlier dates as the camera moves",
+    "2015-06-03 ChiNext close high is not the broader A-share June 12 peak"
+  ]
+}
