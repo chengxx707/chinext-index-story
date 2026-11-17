@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "checks": {
+    "600_frames_diagnostics": true,
+    "playhead_increases_every_frame": true,
+    "no_camera_holds_or_jumps": true,
+    "dates_monotonic": true,
+    "all_hud_closes_exact": true,
+    "no_text_bounds_errors": true,
+    "no_text_overlaps": true,
+    "events_not_early": true,
+    "anchor_dates_immutable": true,
+    "market_advances_during_both_cards": true,
+    "media_spec": true,
+    "full_decode": true,
+    "encoded_chart_changes_every_frame": true,
+    "no_black_intervals": true
+  },
+  "event_stats": [
+    {
+      "id": "turnover",
+      "first_frame": 183,
+      "last_frame": 338,
+      "entry_date": "2015-05-22",
+      "exit_date": "2015-05-28",
+      "days_advanced_during_card": 4,
+      "anchor_motion_output_pixels": -121.78571428571286,
+      "fully_visible_seconds": 4.5
+    },
+    {
+      "id": "drop",
+      "first_frame": 351,
+      "last_frame": 530,
+      "entry_date": "2015-05-28",
+      "exit_date": "2015-06-03",
+      "days_advanced_during_card": 4,
+      "anchor_motion_output_pixels": -140.64285714285893,
+      "fully_visible_seconds": 5.3
+    }
+  ],
+  "history": [
+    "2015-05-18",
+    "2015-06-05"
+  ],
+  "camera_delta_output_px_per_frame": [
+    -0.7857142857178587,
+    -0.7857142857103554
+  ],
+  "video_sha256": "000642e24c021d06b1877084445252004ac811e8074eb2147d67110b0b662a66",
+  "scope": "20s two-event continuous-pan study; no peak hold; no intraday price synthesis; human pacing approval pending",
+  "base_commit": "225a5ae672bac5f251417ee77493d841732adfd6"
+}
