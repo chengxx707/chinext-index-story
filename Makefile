@@ -31,3 +31,15 @@ legacy-ending:
 	$(TASK_PYTHON) tools/render_ending.py --keyframes --video --output-dir output/ending_review
 review:
 	$(TASK_PYTHON) tools/validate_project.py --layout --video output/v6_review/chinext_v6_sample.mp4 --output output/v6_review/validation.json
+
+.PHONY: chapter-2015 chapter-2015-layout
+chapter-2015:
+	$(TASK_PYTHON) tools/render_chapter.py --keyframes --video --workers 2 --output-dir output/chapter_2015_v3
+chapter-2015-layout:
+	$(TASK_PYTHON) tools/render_chapter.py --keyframes --output-dir output/chapter_2015_v3
+
+.PHONY: chapter-2015-docs chapter-2015-review
+chapter-2015-docs:
+	$(TASK_PYTHON) tools/export_chapter_docs.py
+chapter-2015-review:
+	$(TASK_PYTHON) tools/review_chapter.py output/chapter_2015_v3

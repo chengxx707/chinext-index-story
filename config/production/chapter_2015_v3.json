@@ -1,0 +1,744 @@
+{
+  "version": "chapter_2015_v3",
+  "status": "chapter_candidate_pending_user_review",
+  "duration_seconds": 130,
+  "fps": 30,
+  "data_cutoff": "2026-11-10",
+  "csv_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "scope": "2015年3月—9月低点；尾部行情继续至9月18日，测量终点仍为9月15日。结尾相册不在本轮。",
+  "clock": [
+    {
+      "t": 0,
+      "date": "2015-03-02",
+      "fraction": 0.05
+    },
+    {
+      "t": 4,
+      "date": "2015-04-10",
+      "fraction": 0.35
+    },
+    {
+      "t": 10,
+      "date": "2015-04-13",
+      "fraction": 0.35
+    },
+    {
+      "t": 15,
+      "date": "2015-04-24",
+      "fraction": 0.35
+    },
+    {
+      "t": 21,
+      "date": "2015-05-13",
+      "fraction": 0.35
+    },
+    {
+      "t": 26,
+      "date": "2015-05-22",
+      "fraction": 0.35
+    },
+    {
+      "t": 32,
+      "date": "2015-05-28",
+      "fraction": 0.35
+    },
+    {
+      "t": 36,
+      "date": "2015-06-03",
+      "fraction": 0.35
+    },
+    {
+      "t": 43,
+      "date": "2015-06-12",
+      "fraction": 0.35
+    },
+    {
+      "t": 48,
+      "date": "2015-06-19",
+      "fraction": 0.35
+    },
+    {
+      "t": 55,
+      "date": "2015-06-26",
+      "fraction": 0.85
+    },
+    {
+      "t": 60,
+      "date": "2015-07-08",
+      "fraction": 0.35
+    },
+    {
+      "t": 66,
+      "date": "2015-07-10",
+      "fraction": 0.9
+    },
+    {
+      "t": 71,
+      "date": "2015-07-23",
+      "fraction": 0.35
+    },
+    {
+      "t": 75,
+      "date": "2015-07-27",
+      "fraction": 0.35
+    },
+    {
+      "t": 78,
+      "date": "2015-08-03",
+      "fraction": 0.35
+    },
+    {
+      "t": 81,
+      "date": "2015-08-11",
+      "fraction": 0.35
+    },
+    {
+      "t": 85,
+      "date": "2015-08-21",
+      "fraction": 0.35
+    },
+    {
+      "t": 88,
+      "date": "2015-08-24",
+      "fraction": 0.35
+    },
+    {
+      "t": 91,
+      "date": "2015-08-25",
+      "fraction": 0.35
+    },
+    {
+      "t": 99,
+      "date": "2015-08-25",
+      "fraction": 0.9
+    },
+    {
+      "t": 103,
+      "date": "2015-08-26",
+      "fraction": 0.35
+    },
+    {
+      "t": 107,
+      "date": "2015-08-28",
+      "fraction": 0.35
+    },
+    {
+      "t": 110,
+      "date": "2015-09-02",
+      "fraction": 0.35
+    },
+    {
+      "t": 114,
+      "date": "2015-09-07",
+      "fraction": 0.35
+    },
+    {
+      "t": 118,
+      "date": "2015-09-08",
+      "fraction": 0.35
+    },
+    {
+      "t": 120,
+      "date": "2015-09-15",
+      "fraction": 0.35
+    },
+    {
+      "t": 130,
+      "date": "2015-09-18",
+      "fraction": 0.8
+    }
+  ],
+  "camera": [
+    {
+      "t": 0,
+      "span": 90,
+      "low": 600,
+      "high": 3200,
+      "lock_x": 615
+    },
+    {
+      "t": 25,
+      "span": 60,
+      "low": 1000,
+      "high": 4000,
+      "lock_x": 615
+    },
+    {
+      "t": 32,
+      "span": 43,
+      "low": 1800,
+      "high": 4400,
+      "lock_x": 615
+    },
+    {
+      "t": 37,
+      "span": 900,
+      "low": 300,
+      "high": 4500,
+      "lock_x": 480
+    },
+    {
+      "t": 43,
+      "span": 900,
+      "low": 300,
+      "high": 4500,
+      "lock_x": 480
+    },
+    {
+      "t": 48,
+      "span": 78,
+      "low": 1400,
+      "high": 4500,
+      "lock_x": 615
+    },
+    {
+      "t": 65,
+      "span": 86,
+      "low": 1400,
+      "high": 4100,
+      "lock_x": 615
+    },
+    {
+      "t": 77,
+      "span": 65,
+      "low": 1600,
+      "high": 3600,
+      "lock_x": 615
+    },
+    {
+      "t": 90,
+      "span": 44,
+      "low": 1200,
+      "high": 3300,
+      "lock_x": 615
+    },
+    {
+      "t": 108,
+      "span": 74,
+      "low": 1200,
+      "high": 3500,
+      "lock_x": 615
+    },
+    {
+      "t": 119,
+      "span": 105,
+      "low": 1300,
+      "high": 4400,
+      "lock_x": 480
+    },
+    {
+      "t": 130,
+      "span": 105,
+      "low": 1300,
+      "high": 4400,
+      "lock_x": 480
+    }
+  ],
+  "events": [
+    {
+      "id": "april",
+      "start": 4,
+      "end": 9.6,
+      "anchor": "2015-04-10",
+      "label": "2015.04.10",
+      "lines": [
+        "概念与并购",
+        "成为同期报道关注点"
+      ],
+      "source_id": "APR",
+      "source": "第一财经日报 · 中证网转载｜编辑概述"
+    },
+    {
+      "id": "account_rule",
+      "start": 10,
+      "end": 14.6,
+      "anchor": "2015-04-13",
+      "label": "2015.04.13",
+      "lines": [
+        "一人多户放开"
+      ],
+      "source_id": "ACCOUNT_RULE",
+      "source": "自然人开立A股账户｜京华时报报道"
+    },
+    {
+      "id": "accounts",
+      "start": 15,
+      "end": 20.6,
+      "anchor": "2015-04-24",
+      "label": "2015.04.20—24 统计周",
+      "lines": [
+        "单周新开A股账户",
+        "413.03万户"
+      ],
+      "source_id": "ACCOUNTS",
+      "source": "中国结算数据｜据澎湃新闻报道"
+    },
+    {
+      "id": "letv",
+      "start": 21,
+      "end": 25.6,
+      "anchor": "2015-05-13",
+      "label": "2015.05 企业记忆",
+      "lines": [
+        "乐视网盘中总市值",
+        "一度超过1,600亿元"
+      ],
+      "source_id": "LETV",
+      "source": "中国证券报 · 5月16日报道"
+    },
+    {
+      "id": "turnover",
+      "start": 26,
+      "end": 31.6,
+      "anchor": "2015-05-22",
+      "label": "2015.05.22",
+      "lines": [
+        "创业板单日成交额",
+        "2,210.48亿元"
+      ],
+      "source_id": "TURNOVER",
+      "source": "经济参考报 · 5月25日报道回溯"
+    },
+    {
+      "id": "may_drop",
+      "start": 32,
+      "end": 35.6,
+      "anchor": "2015-05-28",
+      "label": "2015.05.28",
+      "lines": [
+        "单日 −5.39%"
+      ],
+      "source_id": null,
+      "source": "创业板指｜前一交易日收盘为基准",
+      "metric": {
+        "kind": "daily",
+        "date": "2015-05-28",
+        "pct": -5.39
+      }
+    },
+    {
+      "id": "high",
+      "start": 36,
+      "end": 43,
+      "anchor": "2015-06-03",
+      "label": "2015.06.03",
+      "lines": [
+        "3,982.25",
+        "阶段高点"
+      ],
+      "source_id": null,
+      "source": "真实收盘｜回看2012年低点",
+      "measurement": [
+        "2012-12-03",
+        "2015-06-03"
+      ]
+    },
+    {
+      "id": "june_change",
+      "start": 43.2,
+      "end": 47.6,
+      "anchor": "2015-06-12",
+      "label": "2015.06.12",
+      "lines": [
+        "高位反复之后",
+        "回撤继续扩大"
+      ],
+      "source_id": null,
+      "source": "真实行情｜不把高点剪成单日崩落"
+    },
+    {
+      "id": "guo",
+      "start": 48,
+      "end": 54.6,
+      "anchor": "2015-06-19",
+      "label": "2015.06.19 当时观点",
+      "lines": [
+        "“和证监会清理场外的配资行为",
+        "有一定的关系”"
+      ],
+      "source_id": "GUO",
+      "source": "郭峰 · 东北证券｜央广网；谈全市场多重因素",
+      "quote": "和证监会清理场外的配资行为有一定的关系",
+      "size": 27
+    },
+    {
+      "id": "june_policy",
+      "start": 55,
+      "end": 59.6,
+      "anchor": "2015-06-26",
+      "label": "2015.06.27 周六公布",
+      "lines": [
+        "定向降准",
+        "并下调存贷款基准利率"
+      ],
+      "source_id": "AR08",
+      "source": "中国人民银行｜周末公布；行情继续"
+    },
+    {
+      "id": "suspend",
+      "start": 60,
+      "end": 65.6,
+      "anchor": "2015-07-08",
+      "label": "2015.07.08",
+      "lines": [
+        "大量上市公司申请停牌"
+      ],
+      "source_id": "SUSPEND",
+      "source": "每日经济新闻 · 7月8日报道｜全A股"
+    },
+    {
+      "id": "cleanup",
+      "start": 66,
+      "end": 70.6,
+      "anchor": "2015-07-10",
+      "label": "2015.07.12 周日公布",
+      "lines": [
+        "清理整顿违法从事",
+        "证券业务活动"
+      ],
+      "source_id": "AR10",
+      "source": "证监会公告〔2015〕19号｜公布即施行"
+    },
+    {
+      "id": "rebound",
+      "start": 71,
+      "end": 74.6,
+      "anchor": "2015-07-23",
+      "label": "2015.07.23",
+      "lines": [
+        "阶段反弹 +26.19%"
+      ],
+      "source_id": null,
+      "source": "收盘口径｜2015.07.07—07.23",
+      "metric": {
+        "kind": "interval",
+        "from": "2015-07-07",
+        "to": "2015-07-23",
+        "pct": 26.19
+      }
+    },
+    {
+      "id": "july_drop",
+      "start": 75,
+      "end": 77.4,
+      "anchor": "2015-07-27",
+      "label": "2015.07.27",
+      "lines": [
+        "单日 −7.40%"
+      ],
+      "source_id": null,
+      "source": "创业板指｜真实收盘",
+      "metric": {
+        "kind": "daily",
+        "date": "2015-07-27",
+        "pct": -7.4
+      }
+    },
+    {
+      "id": "august_drop",
+      "start": 78,
+      "end": 80.6,
+      "anchor": "2015-08-03",
+      "label": "2015.08.03",
+      "lines": [
+        "单日 −5.53%"
+      ],
+      "source_id": null,
+      "source": "创业板指｜真实收盘",
+      "metric": {
+        "kind": "daily",
+        "date": "2015-08-03",
+        "pct": -5.53
+      }
+    },
+    {
+      "id": "fx",
+      "start": 81,
+      "end": 84.6,
+      "anchor": "2015-08-11",
+      "label": "2015.08.11",
+      "lines": [
+        "人民币中间价",
+        "报价机制调整"
+      ],
+      "source_id": "FX",
+      "source": "中证网转载中新网｜据央行消息"
+    },
+    {
+      "id": "gaps",
+      "start": 85,
+      "end": 91.3,
+      "anchor": "2015-08-21",
+      "label": "2015.08.21 起",
+      "lines": [
+        "连续交易日",
+        "完整向下缺口"
+      ],
+      "source_id": "",
+      "source": "真实OHLC｜日期节点依次点亮",
+      "gap_dates": [
+        "2015-08-21",
+        "2015-08-24",
+        "2015-08-25"
+      ]
+    },
+    {
+      "id": "gui",
+      "start": 91.6,
+      "end": 98.6,
+      "anchor": "2015-08-24",
+      "label": "回看2015.08.24 当时观点",
+      "lines": [
+        "海外市场调整",
+        "影响境内投资心态"
+      ],
+      "source_id": "GUI",
+      "source": "桂浩明 · 申万宏源｜央广网；编辑节述"
+    },
+    {
+      "id": "august_policy",
+      "start": 99,
+      "end": 106.6,
+      "anchor": "2015-08-25",
+      "label": "2015.08.25 18:15 盘后公布",
+      "lines": [
+        "央行公布降息降准安排",
+        "8月26日起降息 · 9月6日起降准"
+      ],
+      "source_id": "AR11",
+      "source": "中国人民银行｜公告晚于当日收盘",
+      "size": 27
+    },
+    {
+      "id": "august_result",
+      "start": 107,
+      "end": 109.6,
+      "anchor": "2015-08-26",
+      "label": "2015.08.26 收盘回看",
+      "lines": [
+        "8月26日收盘 −5.06%",
+        "三交易日累计 −19.30%"
+      ],
+      "source_id": null,
+      "source": "回看真实收盘｜累计以8月21日为基准",
+      "size": 28,
+      "metric": {
+        "kind": "interval",
+        "from": "2015-08-21",
+        "to": "2015-08-26",
+        "pct": -19.3
+      }
+    },
+    {
+      "id": "futures",
+      "start": 110,
+      "end": 113.6,
+      "anchor": "2015-09-02",
+      "label": "2015.09.02",
+      "lines": [
+        "股指期货管控措施收紧"
+      ],
+      "source_id": "AR12",
+      "source": "中国金融期货交易所｜9月7日起实施"
+    },
+    {
+      "id": "tax",
+      "start": 114,
+      "end": 119.5,
+      "anchor": "2015-09-07",
+      "label": "2015.09.07 文件日期",
+      "lines": [
+        "个人持股超过一年",
+        "股息红利暂免个税"
+      ],
+      "source_id": "AR13",
+      "source": "财税〔2015〕101号｜9月8日起施行"
+    },
+    {
+      "id": "low",
+      "start": 120,
+      "end": 130,
+      "anchor": "2015-09-15",
+      "label": "2015.09.15",
+      "lines": [
+        "1,797.56",
+        "阶段低点"
+      ],
+      "source_id": null,
+      "source": "真实收盘｜回看6月高点",
+      "measurement": [
+        "2015-06-03",
+        "2015-09-15"
+      ]
+    }
+  ],
+  "sources": {
+    "APR": {
+      "title": "第一财经日报 2015-04-10｜概念与并购",
+      "document": "assets/source_documents/20261117/APR.html",
+      "extracted_text": "data/source_text/20261117/APR.txt",
+      "sha256": "cbb88449f9e462d2eac1de50f1d6a58413718a2f2b120fdd2e49721578379832",
+      "text_sha256": "c70623006bba5c88b9b43b629f8e482f00ecdc844524c102fae2e189b29bf61a",
+      "verification": "user_supplied_archive_body_reviewed_not_new_online_fetch"
+    },
+    "ACCOUNT_RULE": {
+      "title": "京华时报 2015-04-22｜一人多户",
+      "document": "assets/source_documents/20261117/ACCOUNT_RULE.html",
+      "extracted_text": "data/source_text/20261117/ACCOUNT_RULE.txt",
+      "sha256": "931c114b0dec8cabefc7a54797235fce43557d14bb8535618ffee6597c7652b7",
+      "text_sha256": "57a7fb50e72277b565904594f1a59bbc5f1021634cadd931f21da09385f0c7ed",
+      "verification": "user_supplied_archive_body_reviewed_not_new_online_fetch"
+    },
+    "ACCOUNTS": {
+      "title": "澎湃新闻 2015-04-28｜新增账户统计周",
+      "document": "assets/source_documents/20261117/ACCOUNTS.html",
+      "extracted_text": "data/source_text/20261117/ACCOUNTS.txt",
+      "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64",
+      "text_sha256": "8111e51a788dea65932bfb427355578ec670564643b30107dbe648d90685a0ef",
+      "verification": "user_supplied_archive_body_reviewed_not_new_online_fetch"
+    },
+    "SUSPEND": {
+      "title": "每日经济新闻 2015-07-08｜申请停牌",
+      "document": "assets/source_documents/20261117/SUSPEND.html",
+      "extracted_text": "data/source_text/20261117/SUSPEND.txt",
+      "sha256": "3e5542bf49914a6f8232464c457b01a4189a6a414645b9221758e90c5fc3bdd7",
+      "text_sha256": "11e06580a1b2f5568a356d9a376990d4a71ca3bc430219ecce01e543ee3bf8ab",
+      "verification": "user_supplied_archive_body_reviewed_not_new_online_fetch"
+    },
+    "FX": {
+      "title": "中新网 2015-08-11｜中间价机制",
+      "document": "assets/source_documents/20261117/FX.html",
+      "extracted_text": "data/source_text/20261117/FX.txt",
+      "sha256": "9cec168d82e9506d0f15832ba4c8437d7e7b469929bfdf9689f72d0e15928a95",
+      "text_sha256": "f0a9f924491b953de83a136f2d7106ec0d02e8931ee01d4d642cc41dff6148c1",
+      "verification": "user_supplied_archive_body_reviewed_not_new_online_fetch"
+    },
+    "TURNOVER": {
+      "title": "经济参考报 2015-05-25｜成交额",
+      "document": "assets/source_documents/20261117/TURNOVER.html",
+      "extracted_text": "data/source_text/20261117/TURNOVER.txt",
+      "sha256": "48f000607d552becdca6525fbec23b04ce2a32a14e6886b44f69fb1065bba969",
+      "text_sha256": "9ce05bab9cb47ad49a7edc9b735e02cfab4307973b1c702bace9073c986bf83b",
+      "verification": "user_supplied_archive_body_reviewed_not_new_online_fetch"
+    },
+    "LETV": {
+      "title": "中国证券报 2015-05-16｜盘中总市值",
+      "document": "assets/source_documents/20261117/LETV.html",
+      "extracted_text": "data/source_text/20261117/LETV.txt",
+      "sha256": "bf7ea6f258e87e0fd81a7d910b9fb3eb0755357b53be626828db033506391e72",
+      "text_sha256": "a0357845c6fa5638ad55f674851d1ebdb37ebd86177dc0c1c9bcc05843d9cec1",
+      "verification": "user_supplied_archive_body_reviewed_not_new_online_fetch"
+    },
+    "GUO": {
+      "title": "央广网 2015-06-19｜郭峰采访",
+      "document": "assets/source_documents/20261117/GUO.html",
+      "extracted_text": "data/source_text/20261117/GUO.txt",
+      "sha256": "e9f0ffa6c23ac89c0810ce540c00ae82654ba5a7ce7a1cc625d4de7d3da6d767",
+      "text_sha256": "e7a08f5f12c2c8434e350fe56a50053eeea645f8f3bd1b4a42ced67ea225af91",
+      "verification": "user_supplied_archive_body_reviewed_not_new_online_fetch"
+    },
+    "GUI": {
+      "title": "央广网 2015-08-24｜桂浩明采访",
+      "document": "assets/source_documents/20261117/GUI.html",
+      "extracted_text": "data/source_text/20261117/GUI.txt",
+      "sha256": "e14c96d410957b56fb40e2d36225a75473f02159a15c459f0dc3f24dfcfb15e3",
+      "text_sha256": "1efc71a6f1b3e091a36af6b2b5f058de29d712778b86e747c32e2bb527bfc92d",
+      "verification": "user_supplied_archive_body_reviewed_not_new_online_fetch"
+    },
+    "AR08": {
+      "id": "AR08",
+      "kind": "user_supplied_local_archive",
+      "document": "assets/source_documents/20261115/S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.html",
+      "extracted_text": "data/source_text/20261115/S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.txt",
+      "sha256": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e",
+      "title": "央行有关负责人就定向降准并结合 下调存贷款基准利率答记者问",
+      "reference_url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113472/2876973/index.html",
+      "date_context": {
+        "published_at": "2015-06-27 17:03:28",
+        "event_date": "2015-06-27",
+        "effective_date": null
+      },
+      "verification": "local_body_checked_not_new_online_fetch",
+      "text_sha256": "e00e409bd8ef84109d861186a03d77a60d86eb6810bb46d152a62d3943153a85"
+    },
+    "AR09": {
+      "id": "AR09",
+      "kind": "user_supplied_local_archive",
+      "document": "assets/source_documents/20261115/S07_证监会公告2015年18号_减持限制_2015-07-08.html",
+      "extracted_text": "data/source_text/20261115/S07_证监会公告2015年18号_减持限制_2015-07-08.txt",
+      "sha256": "98488925e2c92431316298b262e2c5634384187a609d105e1cd4b92287d0c600",
+      "title": "中国证券监督管理委员会公告〔2015〕18号_吉林监管局",
+      "reference_url": "https://www.csrc.gov.cn/jilin/c105398/c1268071/content.shtml",
+      "date_context": {
+        "page_date": "2015-08-18",
+        "document_signed_date": "2015-07-08",
+        "event_date": "2015-07-08"
+      },
+      "verification": "local_body_checked_not_new_online_fetch",
+      "text_sha256": "375ab0fc9da2018795048829582ff9437f6a977a7884d392961d6d1979416caa"
+    },
+    "AR10": {
+      "id": "AR10",
+      "kind": "user_supplied_local_archive",
+      "document": "assets/source_documents/20261115/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.html",
+      "extracted_text": "data/source_text/20261115/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.txt",
+      "sha256": "841ef82391cfe8dd079f9020c88a15c6336b88008d0805aed822d1a362791f41",
+      "title": "证监会公告[2015]19号_中国证券监督管理委员会",
+      "reference_url": "https://www.csrc.gov.cn/csrc/c100028/c1001903/content.shtml",
+      "date_context": {
+        "published_date": "2015-07-12",
+        "event_date": "2015-07-12",
+        "effective_date": "2015-07-12"
+      },
+      "verification": "local_body_checked_not_new_online_fetch",
+      "text_sha256": "d32d71c3a9b3b030ba5ba8cce0ecb7dcc1f667a720279de6628d89d503612f67"
+    },
+    "AR11": {
+      "id": "AR11",
+      "kind": "user_supplied_local_archive",
+      "document": "assets/source_documents/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html",
+      "extracted_text": "data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt",
+      "sha256": "3cd114631219630b1bb3cfaa5ccaa480ed10f44de7b8b34aa815bd0deada3a2e",
+      "title": "中国人民银行决定下调存贷款基准利率并降低存款准备金率",
+      "reference_url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125434/125798/c342653773544ff6bda66daf0c4f1afd/index.html",
+      "date_context": {
+        "published_at": "2015-08-25 18:15:34",
+        "rate_effective_date": "2015-08-26",
+        "rrr_effective_date": "2015-09-06"
+      },
+      "verification": "local_body_checked_not_new_online_fetch",
+      "text_sha256": "568d02d7831736a3bd7f0fc9c4bfeee5745098726e54dabbc3de563860eea71e"
+    },
+    "AR12": {
+      "id": "AR12",
+      "kind": "user_supplied_local_archive",
+      "document": "assets/source_documents/20261115/S12_中金所_进一步加大市场管控_2015-09-02.html",
+      "extracted_text": "data/source_text/20261115/S12_中金所_进一步加大市场管控_2015-09-02.txt",
+      "sha256": "3c93c464efa39d8a1fc99e3aa0c51ba7ec3c3e0ecb109effded39881fb42ffe5",
+      "title": "中金所进一步加大市场管控 严格限制市场过度投机|\n中国金融期货交易所",
+      "reference_url": "http://www.cffex.com.cn/cn/jysdt/20150902/19271.html",
+      "date_context": {
+        "published_date": "2015-09-02",
+        "effective_date": "2015-09-07"
+      },
+      "verification": "local_body_checked_not_new_online_fetch",
+      "text_sha256": "2230a43ad341c071e0a9675ed93246c2f7fd19753e751ebeb4bf7aa4ab2ac93e"
+    },
+    "AR13": {
+      "id": "AR13",
+      "kind": "user_supplied_local_archive",
+      "document": "assets/source_documents/20261115/S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.html",
+      "extracted_text": "data/source_text/20261115/S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.txt",
+      "sha256": "ee3b65f74ac0cb45fa38bd1b10f506027bf4163c329db3c33dd34be409aa663f",
+      "title": "财政部 国家税务总局 证监会关于上市公司股息红利差别化个人所得税政策有关问题的通知",
+      "reference_url": "https://www.mof.gov.cn/gkml/caizhengwengao/wg2015/201510wg/201602/t20160202_1662802.htm",
+      "date_context": {
+        "document_date": "2015-09-07",
+        "effective_date": "2015-09-08",
+        "page_date": "2016-02-02"
+      },
+      "verification": "local_body_checked_not_new_online_fetch",
+      "text_sha256": "5cf95431860f9ae46b98569e18794306fd94b86641401774ca5cbbdf2edbf369"
+    }
+  }
+}

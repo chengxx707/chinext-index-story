@@ -1,5 +1,14 @@
 # Project instructions
 
+## Latest execution agreement — 2026-11-17
+
+The user approved the V5 continuous candle reveal, decorative leading gold light, variable pace and camera zoom. Develop autonomously through the 2015 chapter, compare actual output with the available NASDAQ reference evidence, fix clear defects internally and ask only about unresolved material choices. The ending is deferred. No whole-film or album render is authorized by the chapter task alone.
+
+The current chapter's sole content input is `config/production/chapter_2015_v3.json`; its derived copy is `docs/production/2015章节屏幕文字稿_V3.md`. Run `tools/export_chapter_docs.py` after content edits. Runtime is `src/chinext_v6/continuous.py`, entry `make chapter-2015`, with global-frame rendering and per-chunk integrity checks. It must not import helpers from ignored output directories. Preserve the old full-film master and 97-second videos as historical baselines until chapter review; do not maintain a second editable chapter script in Markdown.
+
+The chapter is 130 seconds, covering March through the September low and continuing real market time to September 18 while measuring the September 15 endpoint. Whole-film integration must resume after this tail rather than repeat September 15–18. The next human gate is the complete chapter, then whole-film preview and final film; do not ask for every small slice. Deliver through the authorized GitHub feature/preview branches because local links have failed in the user's client. Keep main unchanged until a later explicit merge instruction. Current reference access is to saved actual decoded reference sequences; do not claim fresh playback of an unavailable original video.
+
+
 This repository produces the ChiNext (399006) history video using Python, Pillow, real OHLC data, and FFmpeg. Read `docs/PRODUCTION_SPEC.md` before changing story, time, or visual behavior. The latest user instruction overrides an older attachment or prompt.
 
 ## Skills used by this project

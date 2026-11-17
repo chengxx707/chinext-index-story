@@ -78,3 +78,13 @@ One CSV, `data/cyb_daily.csv`, supplies all OHLC and closing-price metrics. One 
 5. One concentrated full-film review, repair the affected segments and verify the complete assembled media. No publication or posting is part of current authorization.
 
 Failure handling is evidence → diagnosis → targeted correction → rerun affected check → inspect the actual output. Do not batch-expand a failed template. If two visual iterations make no material progress, provide a visible comparison and a concrete recommendation instead of blind iteration. The planned three concentrated reviews are a convergence target, not a guarantee of exactly three rounds.
+
+## 2026-11-17：连续行情正式接入与2015章节
+
+用户认可V5的连续出K、前沿金光、变速和远近镜头，授权自主完成2015完整章节，先按实际参考帧对照改进，再集中交付。结尾相册暂缓；不要求宣称优于参考片。Github独立分支是当前有效的预览交付渠道。
+
+本轮新增唯一章节输入`config/production/chapter_2015_v3.json`，替换2015章节的试排内容与运动机制，旧`film_master_v1.json`保留作全片历史基线，不把旧427秒初排宣称为已更新全片。章节审阅后再统一合并全片编排，避免同步维护两份2015文字。新章节文字只在章节JSON维护。
+
+新入口`tools/render_chapter.py`与`src/chinext_v6/continuous.py`独立于忽略的output试验脚本。行情、相机与事件驻留使用不同曲线但同一全局帧号；切片编码不重置任何状态。真实日期、OHLC和收盘仍由原CSV提供，光点在收盘连线上的移动是装饰，不是盘中价格重建。
+
+初排130秒，3月起至9月低点，并让末尾行情继续至9月18日；历史测量终点仍为9月15日，避免为读数停住行情。源材料、引语、摘要、相机与字形检查纳入执行入口。此处是工程范围说明，不是视频已验收的声明。

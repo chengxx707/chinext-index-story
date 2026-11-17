@@ -1,0 +1,78 @@
+{
+  "video_sha256": "e0dd7e067ab1d7abf69cdafd76b07d69cd4df409b01c5c9e1eb69e6e2fe4b98e",
+  "actual_decoded_frames": 3900,
+  "adjacent_chart_pairs": 3899,
+  "identical_chart_pairs": 0,
+  "min_chart_delta": 0.006159420289855073,
+  "median_chart_delta": 0.4215942028985507,
+  "trading_days_per_second": [
+    0.04790494075450624,
+    9.316939571781404
+  ],
+  "measurements": {
+    "high": {
+      "visible_frames": 197,
+      "visible_seconds": 6.566666666666666,
+      "first": 36.43333333333333,
+      "last": 42.96666666666667
+    },
+    "low": {
+      "visible_frames": 300,
+      "visible_seconds": 10.0,
+      "first": 120.0,
+      "last": 129.96666666666667
+    }
+  },
+  "seams": [
+    {
+      "frame": 600,
+      "time": 20.0,
+      "prior_date": "2015-05-11",
+      "next_date": "2015-05-11",
+      "market_delta": 0.06265537670287813,
+      "encoded_chart_delta": 0.44920289855072465
+    },
+    {
+      "frame": 1200,
+      "time": 40.0,
+      "prior_date": "2015-06-09",
+      "next_date": "2015-06-09",
+      "market_delta": 0.03333333333353039,
+      "encoded_chart_delta": 0.11731884057971015
+    },
+    {
+      "frame": 1800,
+      "time": 60.0,
+      "prior_date": "2015-07-08",
+      "next_date": "2015-07-08",
+      "market_delta": 0.02295189869096248,
+      "encoded_chart_delta": 0.3407971014492754
+    },
+    {
+      "frame": 2400,
+      "time": 80.0,
+      "prior_date": "2015-08-07",
+      "next_date": "2015-08-07",
+      "market_delta": 0.06868612046400813,
+      "encoded_chart_delta": 1.1379951690821255
+    },
+    {
+      "frame": 3000,
+      "time": 100.0,
+      "prior_date": "2015-08-25",
+      "next_date": "2015-08-25",
+      "market_delta": 0.002850027744898398,
+      "encoded_chart_delta": 0.4559903381642512
+    },
+    {
+      "frame": 3600,
+      "time": 120.0,
+      "prior_date": "2015-09-15",
+      "next_date": "2015-09-15",
+      "market_delta": 0.02734540254618878,
+      "encoded_chart_delta": 0.36995169082125606
+    }
+  ],
+  "reference_scope": "Existing decoded sequences from actual NASDAQ reference at 39.5–43s and 97–104s. Original 235s recording absent in current workspace; no fresh full-reference playback or numerical quality rating claimed.",
+  "human_review": "pending"
+}

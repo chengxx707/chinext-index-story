@@ -88,3 +88,9 @@ python tools/validate_project.py --config config/v6_sample.json --events config/
 ## 美术素材
 
 `assets/reference/approved_visual_reference.png`保留用户批准母版；不能把整张母版作为假图表背景。日K和全部数值由代码绘制。`assets/earth_cinematic.png`为本轮以用户参考生成的透明东亚夜景装饰资产，行情与节点均另行渲染。旧`earth_body.png`保留用于基线比较。
+
+## 连续行情与新版2015章节
+
+用户已认可V5运动与题签。当前新增入口为`make chapter-2015`（130秒章节）和`make chapter-2015-layout`；唯一章节输入是`config/production/chapter_2015_v3.json`。实现位于`src/chinext_v6/continuous.py`，不依赖output中的试验脚本。章节先集中审阅，再合并全片；结尾相册暂缓。旧97秒与全片427秒均保留历史状态。
+
+章节按600帧切片缓存；缓存命中复核视频摘要和规格，装配后完整解码。所有切片使用全局帧号，双worker使用spawn。随包原文与UTF-8正文位于20261117来源目录，章节启动时校验摘要和直接引语。
