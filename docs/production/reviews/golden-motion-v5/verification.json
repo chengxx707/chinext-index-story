@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "checks": {
+    "600_frames_diagnostics": true,
+    "playhead_increases_every_frame": true,
+    "bounded_camera_steps": true,
+    "smooth_zoom": true,
+    "variable_speed_without_stops": true,
+    "tracker_present_every_frame": true,
+    "gold_uses_only_observed_close_segment": true,
+    "dates_monotonic": true,
+    "all_hud_closes_exact": true,
+    "no_text_bounds_errors": true,
+    "no_text_overlaps": true,
+    "events_not_early": true,
+    "anchor_dates_immutable": true,
+    "market_advances_during_both_cards": true,
+    "media_spec": true,
+    "full_decode": true,
+    "encoded_chart_changes_every_frame": true,
+    "no_black_intervals": true
+  },
+  "event_stats": [
+    {
+      "id": "turnover",
+      "first_frame": 100,
+      "last_frame": 255,
+      "entry_date": "2015-05-22",
+      "exit_date": "2015-05-27",
+      "days_advanced_during_card": 3,
+      "anchor_motion_output_pixels": -113.43353779433517,
+      "fully_visible_seconds": 4.5
+    },
+    {
+      "id": "drop",
+      "first_frame": 292,
+      "last_frame": 471,
+      "entry_date": "2015-05-28",
+      "exit_date": "2015-06-02",
+      "days_advanced_during_card": 3,
+      "anchor_motion_output_pixels": -152.2883992876726,
+      "fully_visible_seconds": 5.3
+    }
+  ],
+  "history": [
+    "2015-05-18",
+    "2015-06-04"
+  ],
+  "camera_delta_output_px_per_frame": [
+    -2.3233720025023104,
+    0.8771495598024899
+  ],
+  "trading_days_per_second": [
+    0.3025994044878644,
+    1.3646839215675755
+  ],
+  "zoom_range": [
+    0.86,
+    1.28
+  ],
+  "decoded_chart_mean_abs_luma_delta_min": 0.16843478260869565,
+  "decoded_chart_mean_abs_luma_delta_median": 0.4966608695652174,
+  "video_sha256": "0fcf143f8450c13d867860949c129d6534ae6765edbbeded0b78fafb3520b2cd",
+  "scope": "20s variable-speed and zoom study with decorative close-line gold tracker; no peak hold; no intraday price synthesis; human pacing approval pending",
+  "base_commit": "225a5ae672bac5f251417ee77493d841732adfd6"
+}
