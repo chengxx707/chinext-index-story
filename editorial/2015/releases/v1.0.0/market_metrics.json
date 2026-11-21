@@ -1,0 +1,153 @@
+{
+  "window": {
+    "period_id": "pilot",
+    "title": "2015年4月1日至9月15日",
+    "market_source": "data/cyb_daily.csv",
+    "start_date": "2015-04-01",
+    "end_date": "2015-09-15",
+    "first_trading_day": "2015-04-01",
+    "last_trading_day": "2015-09-15",
+    "calendar_days_inclusive": 168,
+    "trading_days": 115,
+    "highest_close": {
+      "date": "2015-06-03",
+      "value": 3982.25
+    },
+    "lowest_close": {
+      "date": "2015-09-15",
+      "value": 1797.56
+    },
+    "intraday_high": {
+      "date": "2015-06-05",
+      "value": 4037.96
+    },
+    "intraday_low": {
+      "date": "2015-09-02",
+      "value": 1779.18
+    },
+    "start_close": {
+      "date": "2015-04-01",
+      "value": 2404.91
+    },
+    "end_close": {
+      "date": "2015-09-15",
+      "value": 1797.56
+    },
+    "return_basis": {
+      "date": "2015-03-31",
+      "value": 2335.17
+    },
+    "period_return_percent": -23.022307,
+    "close_to_close_return_percent": -25.254583,
+    "max_drawdown": {
+      "peak": {
+        "date": "2015-06-03",
+        "value": 3982.25
+      },
+      "trough": {
+        "date": "2015-09-15",
+        "value": 1797.56
+      },
+      "percent": -54.860694
+    },
+    "daily_volatility_percent": 3.873954,
+    "range_amplitude_percent": 96.728718,
+    "full_down_gap_dates": [
+      "2015-06-16",
+      "2015-06-19",
+      "2015-06-26",
+      "2015-07-07",
+      "2015-08-03",
+      "2015-08-21",
+      "2015-08-24",
+      "2015-08-25",
+      "2015-09-01",
+      "2015-09-15"
+    ],
+    "volume": {
+      "source_column": "volume",
+      "unit": "CSV原始单位（未换算）",
+      "observed_trading_days": 115,
+      "total": 4737270394.0,
+      "average_per_trading_day": 41193655.6
+    }
+  },
+  "high_to_low_close_pct": -54.860694,
+  "april1_to_june3_close_pct": 65.588317,
+  "june12_to_june26_close_pct": -25.104687,
+  "july7_to_july23_close_pct": 26.187814,
+  "august24_26_return_pct": -19.296313,
+  "august24_26_basis_date": "2015-08-21",
+  "gap_observations": [
+    {
+      "date": "2015-08-20",
+      "open": 2556.77,
+      "high": 2610.9,
+      "low": 2508.35,
+      "close": 2508.82,
+      "previous_trading_date": "2015-08-19",
+      "previous_close": 2570.69,
+      "previous_low": 2359.17,
+      "daily_return_percent": -2.406747,
+      "opened_below_previous_close": true,
+      "full_down_gap": false
+    },
+    {
+      "date": "2015-08-21",
+      "open": 2452.62,
+      "high": 2480.68,
+      "low": 2340.92,
+      "close": 2341.95,
+      "previous_trading_date": "2015-08-20",
+      "previous_close": 2508.82,
+      "previous_low": 2508.35,
+      "daily_return_percent": -6.651334,
+      "opened_below_previous_close": true,
+      "full_down_gap": true
+    },
+    {
+      "date": "2015-08-24",
+      "open": 2222.54,
+      "high": 2246.55,
+      "low": 2152.61,
+      "close": 2152.61,
+      "previous_trading_date": "2015-08-21",
+      "previous_close": 2341.95,
+      "previous_low": 2340.92,
+      "daily_return_percent": -8.084716,
+      "opened_below_previous_close": true,
+      "full_down_gap": true
+    },
+    {
+      "date": "2015-08-25",
+      "open": 1996.04,
+      "high": 2048.03,
+      "low": 1987.12,
+      "close": 1990.71,
+      "previous_trading_date": "2015-08-24",
+      "previous_close": 2152.61,
+      "previous_low": 2152.61,
+      "daily_return_percent": -7.521102,
+      "opened_below_previous_close": true,
+      "full_down_gap": true
+    },
+    {
+      "date": "2015-08-26",
+      "open": 1975.92,
+      "high": 2044.66,
+      "low": 1875.03,
+      "close": 1890.04,
+      "previous_trading_date": "2015-08-25",
+      "previous_close": 1990.71,
+      "previous_low": 1987.12,
+      "daily_return_percent": -5.05699,
+      "opened_below_previous_close": true,
+      "full_down_gap": false
+    }
+  ],
+  "rise_rail_base": {
+    "date": "2012-12-03",
+    "value": 593.66
+  },
+  "rise_rail_peak_pct": 570.796415
+}

@@ -1,0 +1,3228 @@
+{
+  "schema_version": 1,
+  "package_version": "1.0.0",
+  "period": {
+    "start_date": "2015-04-01",
+    "end_date": "2015-09-15"
+  },
+  "status": "candidate_pending_human_review",
+  "provenance": {
+    "base_commit": "8327dbd30efa5087dc91765b246252a04af693d4",
+    "market_source": "data/cyb_daily.csv",
+    "market_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "frozen_master_sha256": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "event_review_sha256": "4545a5ccf83cc6b38aab31174eba0a417bc8cbccc603d1b40aef3e5e62ac6ffc",
+    "source_registry_sha256": "4121b82f22c68779de14689939d9f38d11d9751812a5b001d2e05fe435a2c6bf",
+    "originals_zip_sha256": "9653d915fab235593f4c412b736e62ebb20893eff686445b1838a1343188062b"
+  },
+  "market_metric_rules": {
+    "period_return_percent": "期末收盘÷期首前一个交易日收盘−1，百分数",
+    "close_to_close_return_percent": "期末收盘÷窗口首个交易日收盘−1，百分数",
+    "max_drawdown": "窗口内每日收盘相对之前窗口内运行最高收盘的最大跌幅，百分数",
+    "daily_volatility_percent": "窗口内日收盘收益率的样本标准差，百分数，未年化",
+    "range_amplitude_percent": "(窗口内盘中最高−盘中最低)÷期首前一个交易日收盘，百分数",
+    "full_down_gap": "当日最高严格低于前一交易日最低",
+    "volume": "仅使用源 CSV volume 列。缺行时不估算该窗口总量与日均量"
+  },
+  "pilot_market_metrics": {
+    "window": {
+      "period_id": "pilot",
+      "title": "2015年4月1日至9月15日",
+      "market_source": "data/cyb_daily.csv",
+      "start_date": "2015-04-01",
+      "end_date": "2015-09-15",
+      "first_trading_day": "2015-04-01",
+      "last_trading_day": "2015-09-15",
+      "calendar_days_inclusive": 168,
+      "trading_days": 115,
+      "highest_close": {
+        "date": "2015-06-03",
+        "value": 3982.25
+      },
+      "lowest_close": {
+        "date": "2015-09-15",
+        "value": 1797.56
+      },
+      "intraday_high": {
+        "date": "2015-06-05",
+        "value": 4037.96
+      },
+      "intraday_low": {
+        "date": "2015-09-02",
+        "value": 1779.18
+      },
+      "start_close": {
+        "date": "2015-04-01",
+        "value": 2404.91
+      },
+      "end_close": {
+        "date": "2015-09-15",
+        "value": 1797.56
+      },
+      "return_basis": {
+        "date": "2015-03-31",
+        "value": 2335.17
+      },
+      "period_return_percent": -23.022307,
+      "close_to_close_return_percent": -25.254583,
+      "max_drawdown": {
+        "peak": {
+          "date": "2015-06-03",
+          "value": 3982.25
+        },
+        "trough": {
+          "date": "2015-09-15",
+          "value": 1797.56
+        },
+        "percent": -54.860694
+      },
+      "daily_volatility_percent": 3.873954,
+      "range_amplitude_percent": 96.728718,
+      "full_down_gap_dates": [
+        "2015-06-16",
+        "2015-06-19",
+        "2015-06-26",
+        "2015-07-07",
+        "2015-08-03",
+        "2015-08-21",
+        "2015-08-24",
+        "2015-08-25",
+        "2015-09-01",
+        "2015-09-15"
+      ],
+      "volume": {
+        "source_column": "volume",
+        "unit": "CSV原始单位（未换算）",
+        "observed_trading_days": 115,
+        "total": 4737270394.0,
+        "average_per_trading_day": 41193655.6
+      }
+    },
+    "high_to_low_close_pct": -54.860694,
+    "april1_to_june3_close_pct": 65.588317,
+    "june12_to_june26_close_pct": -25.104687,
+    "july7_to_july23_close_pct": 26.187814,
+    "august24_26_return_pct": -19.296313,
+    "august24_26_basis_date": "2015-08-21",
+    "gap_observations": [
+      {
+        "date": "2015-08-20",
+        "open": 2556.77,
+        "high": 2610.9,
+        "low": 2508.35,
+        "close": 2508.82,
+        "previous_trading_date": "2015-08-19",
+        "previous_close": 2570.69,
+        "previous_low": 2359.17,
+        "daily_return_percent": -2.406747,
+        "opened_below_previous_close": true,
+        "full_down_gap": false
+      },
+      {
+        "date": "2015-08-21",
+        "open": 2452.62,
+        "high": 2480.68,
+        "low": 2340.92,
+        "close": 2341.95,
+        "previous_trading_date": "2015-08-20",
+        "previous_close": 2508.82,
+        "previous_low": 2508.35,
+        "daily_return_percent": -6.651334,
+        "opened_below_previous_close": true,
+        "full_down_gap": true
+      },
+      {
+        "date": "2015-08-24",
+        "open": 2222.54,
+        "high": 2246.55,
+        "low": 2152.61,
+        "close": 2152.61,
+        "previous_trading_date": "2015-08-21",
+        "previous_close": 2341.95,
+        "previous_low": 2340.92,
+        "daily_return_percent": -8.084716,
+        "opened_below_previous_close": true,
+        "full_down_gap": true
+      },
+      {
+        "date": "2015-08-25",
+        "open": 1996.04,
+        "high": 2048.03,
+        "low": 1987.12,
+        "close": 1990.71,
+        "previous_trading_date": "2015-08-24",
+        "previous_close": 2152.61,
+        "previous_low": 2152.61,
+        "daily_return_percent": -7.521102,
+        "opened_below_previous_close": true,
+        "full_down_gap": true
+      },
+      {
+        "date": "2015-08-26",
+        "open": 1975.92,
+        "high": 2044.66,
+        "low": 1875.03,
+        "close": 1890.04,
+        "previous_trading_date": "2015-08-25",
+        "previous_close": 1990.71,
+        "previous_low": 1987.12,
+        "daily_return_percent": -5.05699,
+        "opened_below_previous_close": true,
+        "full_down_gap": false
+      }
+    ],
+    "rise_rail_base": {
+      "date": "2012-12-03",
+      "value": 593.66
+    },
+    "rise_rail_peak_pct": 570.796415
+  },
+  "market_periods": [
+    {
+      "period_id": "P01",
+      "title": "参与热度与冲顶",
+      "market_source": "data/cyb_daily.csv",
+      "start_date": "2015-04-01",
+      "end_date": "2015-06-03",
+      "first_trading_day": "2015-04-01",
+      "last_trading_day": "2015-06-03",
+      "calendar_days_inclusive": 64,
+      "trading_days": 44,
+      "highest_close": {
+        "date": "2015-06-03",
+        "value": 3982.25
+      },
+      "lowest_close": {
+        "date": "2015-04-01",
+        "value": 2404.91
+      },
+      "intraday_high": {
+        "date": "2015-06-03",
+        "value": 4011.04
+      },
+      "intraday_low": {
+        "date": "2015-04-01",
+        "value": 2345.75
+      },
+      "start_close": {
+        "date": "2015-04-01",
+        "value": 2404.91
+      },
+      "end_close": {
+        "date": "2015-06-03",
+        "value": 3982.25
+      },
+      "return_basis": {
+        "date": "2015-03-31",
+        "value": 2335.17
+      },
+      "period_return_percent": 70.533623,
+      "close_to_close_return_percent": 65.588317,
+      "max_drawdown": {
+        "peak": {
+          "date": "2015-04-13",
+          "value": 2577.78
+        },
+        "trough": {
+          "date": "2015-04-20",
+          "value": 2424.85
+        },
+        "percent": -5.932624
+      },
+      "daily_volatility_percent": 2.729842,
+      "range_amplitude_percent": 71.313438,
+      "full_down_gap_dates": [],
+      "volume": {
+        "source_column": "volume",
+        "unit": "CSV原始单位（未换算）",
+        "observed_trading_days": 44,
+        "total": 1774388287.0,
+        "average_per_trading_day": 40327006.522727
+      }
+    },
+    {
+      "period_id": "P02",
+      "title": "高位反复与急跌",
+      "market_source": "data/cyb_daily.csv",
+      "start_date": "2015-06-04",
+      "end_date": "2015-06-26",
+      "first_trading_day": "2015-06-04",
+      "last_trading_day": "2015-06-26",
+      "calendar_days_inclusive": 23,
+      "trading_days": 16,
+      "highest_close": {
+        "date": "2015-06-04",
+        "value": 3943.47
+      },
+      "lowest_close": {
+        "date": "2015-06-26",
+        "value": 2920.7
+      },
+      "intraday_high": {
+        "date": "2015-06-05",
+        "value": 4037.96
+      },
+      "intraday_low": {
+        "date": "2015-06-26",
+        "value": 2915.94
+      },
+      "start_close": {
+        "date": "2015-06-04",
+        "value": 3943.47
+      },
+      "end_close": {
+        "date": "2015-06-26",
+        "value": 2920.7
+      },
+      "return_basis": {
+        "date": "2015-06-03",
+        "value": 3982.25
+      },
+      "period_return_percent": -26.657041,
+      "close_to_close_return_percent": -25.935788,
+      "max_drawdown": {
+        "peak": {
+          "date": "2015-06-04",
+          "value": 3943.47
+        },
+        "trough": {
+          "date": "2015-06-26",
+          "value": 2920.7
+        },
+        "percent": -25.935788
+      },
+      "daily_volatility_percent": 3.817647,
+      "range_amplitude_percent": 28.175529,
+      "full_down_gap_dates": [
+        "2015-06-16",
+        "2015-06-19",
+        "2015-06-26"
+      ],
+      "volume": {
+        "source_column": "volume",
+        "unit": "CSV原始单位（未换算）",
+        "observed_trading_days": 16,
+        "total": 663787887.0,
+        "average_per_trading_day": 41486742.9375
+      }
+    },
+    {
+      "period_id": "P03",
+      "title": "政策密集出台",
+      "market_source": "data/cyb_daily.csv",
+      "start_date": "2015-06-27",
+      "end_date": "2015-07-12",
+      "first_trading_day": "2015-06-29",
+      "last_trading_day": "2015-07-10",
+      "calendar_days_inclusive": 16,
+      "trading_days": 10,
+      "highest_close": {
+        "date": "2015-06-30",
+        "value": 2858.61
+      },
+      "lowest_close": {
+        "date": "2015-07-07",
+        "value": 2352.01
+      },
+      "intraday_high": {
+        "date": "2015-07-01",
+        "value": 3008.19
+      },
+      "intraday_low": {
+        "date": "2015-07-08",
+        "value": 2304.76
+      },
+      "start_close": {
+        "date": "2015-06-29",
+        "value": 2689.76
+      },
+      "end_close": {
+        "date": "2015-07-10",
+        "value": 2535.89
+      },
+      "return_basis": {
+        "date": "2015-06-26",
+        "value": 2920.7
+      },
+      "period_return_percent": -13.175266,
+      "close_to_close_return_percent": -5.720585,
+      "max_drawdown": {
+        "peak": {
+          "date": "2015-06-30",
+          "value": 2858.61
+        },
+        "trough": {
+          "date": "2015-07-07",
+          "value": 2352.01
+        },
+        "percent": -17.7219
+      },
+      "daily_volatility_percent": 4.625966,
+      "range_amplitude_percent": 24.084295,
+      "full_down_gap_dates": [
+        "2015-07-07"
+      ],
+      "volume": {
+        "source_column": "volume",
+        "unit": "CSV原始单位（未换算）",
+        "observed_trading_days": 10,
+        "total": 389536700.0,
+        "average_per_trading_day": 38953670.0
+      }
+    },
+    {
+      "period_id": "P04",
+      "title": "反弹后再度摇摆",
+      "market_source": "data/cyb_daily.csv",
+      "start_date": "2015-07-13",
+      "end_date": "2015-08-20",
+      "first_trading_day": "2015-07-13",
+      "last_trading_day": "2015-08-20",
+      "calendar_days_inclusive": 39,
+      "trading_days": 29,
+      "highest_close": {
+        "date": "2015-07-23",
+        "value": 2967.95
+      },
+      "lowest_close": {
+        "date": "2015-08-03",
+        "value": 2399.27
+      },
+      "intraday_high": {
+        "date": "2015-07-24",
+        "value": 3014.18
+      },
+      "intraday_low": {
+        "date": "2015-08-19",
+        "value": 2359.17
+      },
+      "start_close": {
+        "date": "2015-07-13",
+        "value": 2683.07
+      },
+      "end_close": {
+        "date": "2015-08-20",
+        "value": 2508.82
+      },
+      "return_basis": {
+        "date": "2015-07-10",
+        "value": 2535.89
+      },
+      "period_return_percent": -1.067475,
+      "close_to_close_return_percent": -6.494426,
+      "max_drawdown": {
+        "peak": {
+          "date": "2015-07-23",
+          "value": 2967.95
+        },
+        "trough": {
+          "date": "2015-08-03",
+          "value": 2399.27
+        },
+        "percent": -19.1607
+      },
+      "daily_volatility_percent": 3.807767,
+      "range_amplitude_percent": 25.82959,
+      "full_down_gap_dates": [
+        "2015-08-03"
+      ],
+      "volume": {
+        "source_column": "volume",
+        "unit": "CSV原始单位（未换算）",
+        "observed_trading_days": 29,
+        "total": 1324673604.0,
+        "average_per_trading_day": 45678400.137931
+      }
+    },
+    {
+      "period_id": "P05",
+      "title": "三个缺口与盘后应对",
+      "market_source": "data/cyb_daily.csv",
+      "start_date": "2015-08-21",
+      "end_date": "2015-08-26",
+      "first_trading_day": "2015-08-21",
+      "last_trading_day": "2015-08-26",
+      "calendar_days_inclusive": 6,
+      "trading_days": 4,
+      "highest_close": {
+        "date": "2015-08-21",
+        "value": 2341.95
+      },
+      "lowest_close": {
+        "date": "2015-08-26",
+        "value": 1890.04
+      },
+      "intraday_high": {
+        "date": "2015-08-21",
+        "value": 2480.68
+      },
+      "intraday_low": {
+        "date": "2015-08-26",
+        "value": 1875.03
+      },
+      "start_close": {
+        "date": "2015-08-21",
+        "value": 2341.95
+      },
+      "end_close": {
+        "date": "2015-08-26",
+        "value": 1890.04
+      },
+      "return_basis": {
+        "date": "2015-08-20",
+        "value": 2508.82
+      },
+      "period_return_percent": -24.664185,
+      "close_to_close_return_percent": -19.296313,
+      "max_drawdown": {
+        "peak": {
+          "date": "2015-08-21",
+          "value": 2341.95
+        },
+        "trough": {
+          "date": "2015-08-26",
+          "value": 1890.04
+        },
+        "percent": -19.296313
+      },
+      "daily_volatility_percent": 1.320027,
+      "range_amplitude_percent": 24.140831,
+      "full_down_gap_dates": [
+        "2015-08-21",
+        "2015-08-24",
+        "2015-08-25"
+      ],
+      "volume": {
+        "source_column": "volume",
+        "unit": "CSV原始单位（未换算）",
+        "observed_trading_days": 4,
+        "total": 131812108.0,
+        "average_per_trading_day": 32953027.0
+      }
+    },
+    {
+      "period_id": "P06",
+      "title": "低点与区间回望",
+      "market_source": "data/cyb_daily.csv",
+      "start_date": "2015-08-27",
+      "end_date": "2015-09-15",
+      "first_trading_day": "2015-08-27",
+      "last_trading_day": "2015-09-15",
+      "calendar_days_inclusive": 20,
+      "trading_days": 12,
+      "highest_close": {
+        "date": "2015-08-28",
+        "value": 2082.12
+      },
+      "lowest_close": {
+        "date": "2015-09-15",
+        "value": 1797.56
+      },
+      "intraday_high": {
+        "date": "2015-09-09",
+        "value": 2102.23
+      },
+      "intraday_low": {
+        "date": "2015-09-02",
+        "value": 1779.18
+      },
+      "start_close": {
+        "date": "2015-08-27",
+        "value": 1959.49
+      },
+      "end_close": {
+        "date": "2015-09-15",
+        "value": 1797.56
+      },
+      "return_basis": {
+        "date": "2015-08-26",
+        "value": 1890.04
+      },
+      "period_return_percent": -4.893018,
+      "close_to_close_return_percent": -8.263885,
+      "max_drawdown": {
+        "peak": {
+          "date": "2015-08-28",
+          "value": 2082.12
+        },
+        "trough": {
+          "date": "2015-09-15",
+          "value": 1797.56
+        },
+        "percent": -13.66684
+      },
+      "daily_volatility_percent": 4.687229,
+      "range_amplitude_percent": 17.092231,
+      "full_down_gap_dates": [
+        "2015-09-01",
+        "2015-09-15"
+      ],
+      "volume": {
+        "source_column": "volume",
+        "unit": "CSV原始单位（未换算）",
+        "observed_trading_days": 12,
+        "total": 453071808.0,
+        "average_per_trading_day": 37755984.0
+      }
+    }
+  ],
+  "event_market_mapping": [
+    {
+      "event_id": "E-APR-01-01",
+      "beat_id": "beat-accounts-rule",
+      "market_anchor": "2015-04-13",
+      "event_clock": {
+        "date": "2015-04-13",
+        "role": "effective_date",
+        "known_publication_date": "2015-04-12",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "2015.04.13 起",
+        "A股“一人一户”限制放开"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-APR-01-02",
+      "beat_id": "beat-accounts-rule",
+      "market_anchor": "2015-04-13",
+      "event_clock": {
+        "date": "2015-04-13",
+        "role": "effective_date",
+        "known_publication_date": "2015-04-12",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "2015.04.13 起",
+        "A股“一人一户”限制放开"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-APR-01-04",
+      "beat_id": "beat-accounts-week",
+      "market_anchor": "2015-04-28",
+      "event_clock": {
+        "date": "2015-04-28",
+        "time": "20:37",
+        "role": "publisher_timestamp",
+        "market_freeze_after_hit": true,
+        "observation_range": [
+          "2015-04-20",
+          "2015-04-24"
+        ],
+        "scope": "A股账户，非独立人数",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "4月20—24日 · 新增A股账户",
+        "413.03 万户"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-IND-01-04",
+      "beat_id": "beat-letv",
+      "market_anchor": "2015-05-13",
+      "event_clock": {
+        "date": "2015-05-13",
+        "role": "historical_observation",
+        "scope": "乐视网总市值；不复权日高×当日公告股本",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "企业背景 · 乐视网",
+        "盘中总市值超过 1,600 亿元"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-JUN-01-01",
+      "beat_id": "beat-access-rules",
+      "market_anchor": "2015-06-12",
+      "event_clock": {
+        "date": "2015-06-12",
+        "role": "public_statement",
+        "document_issue_date": null,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "6月12日 · 证监会公开答问",
+        "加强券商外部接入监管"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-JUN-01-04",
+      "beat_id": "beat-margin-context",
+      "market_anchor": "2015-06-18",
+      "event_clock": {
+        "date": "2015-06-18",
+        "role": "retrospective_statistic",
+        "publication_date": "2015-08-27",
+        "scope": "沪深两市融资融券余额；非创业板资金流量",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "PARTIAL",
+      "selected_claim_scope": [
+        "截至6月18日 · 沪深两融余额",
+        "约 2.27 万亿元",
+        "事后统计回顾"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-JUN-02-01",
+      "beat_id": "beat-june-weekend",
+      "market_anchor": "2015-06-26",
+      "event_clock": {
+        "date": "2015-06-27",
+        "role": "weekend_announcement",
+        "implementation_date": "2015-06-28",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "2015.06.27 · 周六公布",
+        "降息与定向降准",
+        "6月28日起实施"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-JUN-02-02",
+      "beat_id": "beat-brokers",
+      "market_anchor": "2015-07-03",
+      "event_clock": {
+        "date": "2015-07-04",
+        "role": "weekend_announcement",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "7月4日 · 21家券商",
+        "承诺 ≥1,200亿元",
+        "投资蓝筹股ETF"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-JUN-02-04",
+      "beat_id": "beat-liquidity",
+      "market_anchor": "2015-07-03",
+      "event_clock": {
+        "date": "2015-07-05",
+        "role": "weekend_announcement",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "2015.07.05 · 证监会公告",
+        "央行将给予证金公司",
+        "多种形式的流动性支持"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "GPT-2015-0708-SMALLCAP",
+      "beat_id": "beat-smallcaps",
+      "market_anchor": "2015-07-08",
+      "event_clock": {
+        "date": "2015-07-08",
+        "role": "public_statement",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED",
+      "selected_claim_scope": [
+        "证监会：证金公司将加大",
+        "对中小市值股票的购买力度"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-JUN-01-03",
+      "beat_id": "beat-cleanup",
+      "market_anchor": "2015-07-10",
+      "event_clock": {
+        "date": "2015-07-12",
+        "role": "weekend_announcement",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "2015.07.12 · 周日",
+        "清理整顿违法从事证券业务活动"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-AUG-01-01",
+      "beat_id": "beat-fx",
+      "market_anchor": "2015-08-11",
+      "event_clock": {
+        "date": "2015-08-11",
+        "role": "macro_context",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED",
+      "selected_claim_scope": [
+        "2015.08.11",
+        "人民币中间价报价机制调整"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-AUG-01-03",
+      "beat_id": "beat-pmi",
+      "market_anchor": "2015-08-21",
+      "event_clock": {
+        "date": "2015-08-21",
+        "role": "macro_context",
+        "first_release_time": null,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "同期宏观背景",
+        "财新制造业PMI初值 47.1"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-AUG-02-02",
+      "beat_id": "beat-gap-two",
+      "market_anchor": "2015-08-24",
+      "event_clock": null,
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "8月24日 · 完整向下缺口 ②",
+        "2,152.61 · 单日 −8.08%"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-IMG-01-01",
+      "beat_id": "beat-trading-floor",
+      "market_anchor": "2015-08-24",
+      "event_clock": {
+        "date": "2015-08-24",
+        "role": "documentary_scene",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "2015.08.24 · 昆明证券交易大厅"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-AUG-02-03",
+      "beat_id": "beat-gap-three",
+      "market_anchor": "2015-08-25",
+      "event_clock": null,
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "8月25日 · 完整向下缺口 ③",
+        "1,990.71 · 单日 −7.52%"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-AUG-02-05",
+      "beat_id": "beat-august-policy",
+      "market_anchor": "2015-08-25",
+      "event_clock": {
+        "date": "2015-08-25",
+        "time": "18:15:34",
+        "role": "official_website_timestamp",
+        "market_freeze_after_hit": true,
+        "implementation_dates": [
+          {
+            "measure": "降息",
+            "date": "2015-08-26"
+          },
+          {
+            "measure": "降准",
+            "date": "2015-09-06"
+          }
+        ],
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "2015.08.25 · 盘后",
+        "央行公布降息降准安排",
+        "8月26日起降息 · 9月6日起降准"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    },
+    {
+      "event_id": "E-AUG-03-01",
+      "beat_id": "beat-voice",
+      "market_anchor": "2015-08-25",
+      "event_clock": {
+        "date": "2015-08-25",
+        "time": "19:16",
+        "role": "publisher_timestamp",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "evidence_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_claim_scope": [
+        "“当前稳定流动性更加关键。”",
+        "向松祚 · 央广经济之声"
+      ],
+      "time_relation": "同日/周末/统计回指/事后回顾按event_clock.role解释；非因果关系"
+    }
+  ],
+  "stage_narratives": [
+    {
+      "period_id": "P01",
+      "title": "参与热度与冲顶",
+      "start_date": "2015-04-01",
+      "end_date": "2015-06-03",
+      "audience_takeaway": "账户制度、参与统计与企业估值提供当时的背景；日K自己展示上行与回撤。"
+    },
+    {
+      "period_id": "P02",
+      "title": "高位反复与急跌",
+      "start_date": "2015-06-04",
+      "end_date": "2015-06-26",
+      "audience_takeaway": "盘中更高不等于收盘更高；监管表态和高位杠杆与真实价格同轴呈现。"
+    },
+    {
+      "period_id": "P03",
+      "title": "政策密集出台",
+      "start_date": "2015-06-27",
+      "end_date": "2015-07-12",
+      "audience_takeaway": "连续措施有各自的宣布、执行与作用范围；蓝筹ETF承诺不能被写成直接买创业板。"
+    },
+    {
+      "period_id": "P04",
+      "title": "反弹后再度摇摆",
+      "start_date": "2015-07-13",
+      "end_date": "2015-08-20",
+      "audience_takeaway": "反弹确实发生，却没有收复六月高点；7月下旬与8月中旬继续波动。"
+    },
+    {
+      "period_id": "P05",
+      "title": "三个缺口与盘后应对",
+      "start_date": "2015-08-21",
+      "end_date": "2015-08-26",
+      "audience_takeaway": "宏观背景、日K断层、真实营业厅和具名判断组成同一时段，不能替代因果证据。"
+    },
+    {
+      "period_id": "P06",
+      "title": "低点与区间回望",
+      "start_date": "2015-08-27",
+      "end_date": "2015-09-15",
+      "audience_takeaway": "反复之后走到窗口最低收盘；收盘回撤与盘中极值分开结算。"
+    }
+  ],
+  "story_beats": [
+    {
+      "beat_id": "beat-opening",
+      "period_id": "P01",
+      "market_anchor": "2015-04-01",
+      "market_close": 2404.91,
+      "story_purpose": "从正在展开的历史开始，保留既有空间与时间轨。",
+      "primary_focus": "market",
+      "classification": "fact",
+      "event_ids": [],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "2015年4月",
+        "创业板指 · 399006"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-accounts-rule",
+      "period_id": "P01",
+      "market_anchor": "2015-04-13",
+      "market_close": 2577.78,
+      "story_purpose": "以生效日连接日K；4月12日公开宣布另存证据。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-APR-01-01",
+        "E-APR-01-02"
+      ],
+      "source_ids": [
+        "APR-01:S02",
+        "APR-01:S03"
+      ],
+      "source_line": "人民网；上海证券报",
+      "screen_text": [
+        "2015.04.13 起",
+        "A股“一人一户”限制放开"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-accounts-week",
+      "period_id": "P01",
+      "market_anchor": "2015-04-28",
+      "market_close": 2687.97,
+      "story_purpose": "报道盘后出现，括号回指统计周；这是账户数。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-APR-01-04"
+      ],
+      "source_ids": [
+        "APR-01:S06"
+      ],
+      "source_line": "澎湃新闻引中国结算｜4月28日20:37报道｜账户数",
+      "screen_text": [
+        "4月20—24日 · 新增A股账户",
+        "413.03 万户"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-letv",
+      "period_id": "P01",
+      "market_anchor": "2015-05-13",
+      "market_close": 3192.15,
+      "story_purpose": "用当时企业估值解释热度，不转换为指数点位或权重。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-IND-01-04"
+      ],
+      "source_ids": [
+        "IND-01:S01",
+        "LETV-RAW-DAILY"
+      ],
+      "source_line": "公司公告股本×不复权日高｜企业市值，非指数权重",
+      "screen_text": [
+        "企业背景 · 乐视网",
+        "盘中总市值超过 1,600 亿元"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-close-peak",
+      "period_id": "P01",
+      "market_anchor": "2015-06-03",
+      "market_close": 3982.25,
+      "story_purpose": "建立全段比较锚点；峰值稳定停留后才切换活动轨。",
+      "primary_focus": "close_extremum",
+      "classification": "fact",
+      "event_ids": [],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "2015.06.03 · 阶段最高收盘",
+        "3,982.25"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-wick-peak",
+      "period_id": "P02",
+      "market_anchor": "2015-06-05",
+      "market_close": 3885.83,
+      "story_purpose": "暖金只触及真实上影最高处，HUD仍显示当日收盘。",
+      "primary_focus": "intraday_extremum",
+      "classification": "fact",
+      "event_ids": [],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "2015.06.05 · 盘中高点",
+        "4,037.96"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-access-rules",
+      "period_id": "P02",
+      "market_anchor": "2015-06-12",
+      "market_close": 3899.71,
+      "story_purpose": "6月12日是公开答问日，不能伪装成35号通知签发日。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-JUN-01-01"
+      ],
+      "source_ids": [
+        "JUN-01:S01"
+      ],
+      "source_line": "中国证监会",
+      "screen_text": [
+        "6月12日 · 证监会公开答问",
+        "加强券商外部接入监管"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-margin-context",
+      "period_id": "P02",
+      "market_anchor": "2015-06-18",
+      "market_close": 3504.55,
+      "story_purpose": "展示杠杆规模背景；原件是8月27日报道回溯，不扮演当日新闻。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-JUN-01-04"
+      ],
+      "source_ids": [
+        "JUN-01:S04"
+      ],
+      "source_line": "中国证券报／中国经济网｜8月27日报道回溯｜全A口径",
+      "screen_text": [
+        "截至6月18日 · 沪深两融余额",
+        "约 2.27 万亿元",
+        "事后统计回顾"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-june-fall",
+      "period_id": "P02",
+      "market_anchor": "2015-06-26",
+      "market_close": 2920.7,
+      "story_purpose": "把下跌的速度与价格距离交给真实日K，不拼凑单一原因。",
+      "primary_focus": "market",
+      "classification": "fact",
+      "event_ids": [],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "2015.06.26 · 收盘 2,920.70",
+        "较6月12日 −25.10%"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-june-weekend",
+      "period_id": "P03",
+      "market_anchor": "2015-06-26",
+      "market_close": 2920.7,
+      "story_purpose": "市场停在周五，事件日历推进周末；次镜继续下一交易日。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-JUN-02-01"
+      ],
+      "source_ids": [
+        "JUN-02:S01",
+        "JUN-02:S02"
+      ],
+      "source_line": "中国人民银行；人民网（转载国际在线）",
+      "screen_text": [
+        "2015.06.27 · 周六公布",
+        "降息与定向降准",
+        "6月28日起实施"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-brokers",
+      "period_id": "P03",
+      "market_anchor": "2015-07-03",
+      "market_close": 2605.28,
+      "story_purpose": "明确承诺、规模和标的范围，避免画成资金直接进入399006。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-JUN-02-02"
+      ],
+      "source_ids": [
+        "JUN-02:S03",
+        "JUN-02:S04"
+      ],
+      "source_line": "人民网；上市公司股东大会材料（巨潮资讯披露）",
+      "screen_text": [
+        "7月4日 · 21家券商",
+        "承诺 ≥1,200亿元",
+        "投资蓝筹股ETF"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-liquidity",
+      "period_id": "P03",
+      "market_anchor": "2015-07-03",
+      "market_close": 2605.28,
+      "story_purpose": "保留“将”；不给承诺添加已到账的时刻和金额。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-JUN-02-04"
+      ],
+      "source_ids": [
+        "CSRC-2015-17"
+      ],
+      "source_line": "中国证监会",
+      "screen_text": [
+        "2015.07.05 · 证监会公告",
+        "央行将给予证金公司",
+        "多种形式的流动性支持"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-smallcaps",
+      "period_id": "P03",
+      "market_anchor": "2015-07-08",
+      "market_close": 2364.05,
+      "story_purpose": "增加更贴近创业板所处市场的官方节点，保留承诺时态。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "GPT-2015-0708-SMALLCAP"
+      ],
+      "source_ids": [
+        "CSRC-2015-0708"
+      ],
+      "source_line": "中国证监会",
+      "screen_text": [
+        "证监会：证金公司将加大",
+        "对中小市值股票的购买力度"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-cleanup",
+      "period_id": "P03",
+      "market_anchor": "2015-07-10",
+      "market_close": 2535.89,
+      "story_purpose": "规范措施与支持措施同在一段；不倒置为六月下跌的首因。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-JUN-01-03"
+      ],
+      "source_ids": [
+        "CSRC-2015-19"
+      ],
+      "source_line": "中国证监会",
+      "screen_text": [
+        "2015.07.12 · 周日",
+        "清理整顿违法从事证券业务活动"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-rebound",
+      "period_id": "P04",
+      "market_anchor": "2015-07-23",
+      "market_close": 2967.95,
+      "story_purpose": "连起真实低位与反弹端点；同一回撤轨往回缩，六月峰值保留。",
+      "primary_focus": "market",
+      "classification": "fact",
+      "event_ids": [],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "7月7日至23日 · 收盘比较",
+        "+26.19%"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-july-relapse",
+      "period_id": "P04",
+      "market_anchor": "2015-07-27",
+      "market_close": 2683.45,
+      "story_purpose": "观众看到反弹之后仍有大幅下挫，再穿过8月初波动。",
+      "primary_focus": "market",
+      "classification": "fact",
+      "event_ids": [],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "2015.07.27",
+        "创业板指单日 −7.40%"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-fx",
+      "period_id": "P04",
+      "market_anchor": "2015-08-11",
+      "market_close": 2698.91,
+      "story_purpose": "放进宏观背景层；不画汇率事件通向下跌的因果箭头。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-AUG-01-01"
+      ],
+      "source_ids": [
+        "AUG-01:S01"
+      ],
+      "source_line": "中国新闻网（转述央行网站）",
+      "screen_text": [
+        "2015.08.11",
+        "人民币中间价报价机制调整"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-pmi",
+      "period_id": "P05",
+      "market_anchor": "2015-08-21",
+      "market_close": 2341.95,
+      "story_purpose": "只使用初值与日期；网页时间不当作数据首次公布时间。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-AUG-01-03"
+      ],
+      "source_ids": [
+        "AUG-01:S03"
+      ],
+      "source_line": "财新PMI",
+      "screen_text": [
+        "同期宏观背景",
+        "财新制造业PMI初值 47.1"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-gap-one",
+      "period_id": "P05",
+      "market_anchor": "2015-08-21",
+      "market_close": 2341.95,
+      "story_purpose": "以当日最高低于前日最低的真实空白建立缺口定义。",
+      "primary_focus": "gap",
+      "classification": "fact",
+      "event_ids": [],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "8月21日 · 完整向下缺口 ①",
+        "单日 −6.65%"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-gap-two",
+      "period_id": "P05",
+      "market_anchor": "2015-08-24",
+      "market_close": 2152.61,
+      "story_purpose": "沿同一投影继续第二个缺口，收盘点与事件轨同时命中。",
+      "primary_focus": "gap",
+      "classification": "fact",
+      "event_ids": [
+        "E-AUG-02-02"
+      ],
+      "source_ids": [
+        "cyb-ohlc",
+        "AUG-02:S04"
+      ],
+      "source_line": "项目冻结行情；中国新闻网",
+      "screen_text": [
+        "8月24日 · 完整向下缺口 ②",
+        "2,152.61 · 单日 −8.08%"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-trading-floor",
+      "period_id": "P05",
+      "market_anchor": "2015-08-24",
+      "market_close": 2152.61,
+      "story_purpose": "真实照片承担现场感；不替照片中的人编造经历或心理。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-IMG-01-01"
+      ],
+      "source_ids": [
+        "IMG-01:S01"
+      ],
+      "source_line": "中新社记者 刘冉阳 摄｜8月24日图集",
+      "screen_text": [
+        "2015.08.24 · 昆明证券交易大厅"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-gap-three",
+      "period_id": "P05",
+      "market_anchor": "2015-08-25",
+      "market_close": 1990.71,
+      "story_purpose": "第三个缺口后收盘低于两千点；不把这三天与24—26日收益窗混用。",
+      "primary_focus": "gap",
+      "classification": "fact",
+      "event_ids": [
+        "E-AUG-02-03"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "8月25日 · 完整向下缺口 ③",
+        "1,990.71 · 单日 −7.52%"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-august-policy",
+      "period_id": "P05",
+      "market_anchor": "2015-08-25",
+      "market_close": 1990.71,
+      "story_purpose": "先结束8月25日收盘，再亮起网站时点；未来日期只做安排标签。",
+      "primary_focus": "event",
+      "classification": "fact",
+      "event_ids": [
+        "E-AUG-02-05"
+      ],
+      "source_ids": [
+        "PBC-2015-0825"
+      ],
+      "source_line": "中国人民银行网站｜页面时间18:15:34",
+      "screen_text": [
+        "2015.08.25 · 盘后",
+        "央行公布降息降准安排",
+        "8月26日起降息 · 9月6日起降准"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-voice",
+      "period_id": "P05",
+      "market_anchor": "2015-08-25",
+      "market_close": 1990.71,
+      "story_purpose": "只呈现受访者当时的判断，不复述原采访中不准确的跌幅概括。",
+      "primary_focus": "attributed_voice",
+      "classification": "opinion",
+      "event_ids": [
+        "E-AUG-03-01"
+      ],
+      "source_ids": [
+        "CNR-2015-0825-FULL"
+      ],
+      "source_line": "央广网2015.08.25 19:16刊发｜受访者观点",
+      "screen_text": [
+        "“当前稳定流动性更加关键。”",
+        "向松祚 · 央广经济之声"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-august-26",
+      "period_id": "P05",
+      "market_anchor": "2015-08-26",
+      "market_close": 1890.04,
+      "story_purpose": "统计以前一交易日8月21日收盘为基准；8月26日日K与前日重叠。",
+      "primary_focus": "market",
+      "classification": "fact",
+      "event_ids": [],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "8月24—26日 · 三个交易日",
+        "−19.30%"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-intraday-low",
+      "period_id": "P06",
+      "market_anchor": "2015-09-02",
+      "market_close": 1855.03,
+      "story_purpose": "只突出真实下影低点，未把它冒充9月15日收盘。",
+      "primary_focus": "intraday_extremum",
+      "classification": "fact",
+      "event_ids": [],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "2015.09.02 · 窗口盘中低点",
+        "1,779.18"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-closing-low",
+      "period_id": "P06",
+      "market_anchor": "2015-09-15",
+      "market_close": 1797.56,
+      "story_purpose": "完整拉远，真实高低收盘同框；结算来自一直变化的轨，而非最后突然填满。",
+      "primary_focus": "close_extremum",
+      "classification": "fact",
+      "event_ids": [],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "2015.09.15 · 阶段最低收盘",
+        "1,797.56",
+        "较6月3日最高收盘 −54.86%"
+      ],
+      "causal_claim": false
+    },
+    {
+      "beat_id": "beat-bridge",
+      "period_id": "P06",
+      "market_anchor": "2015-09-15",
+      "market_close": 1797.56,
+      "story_purpose": "保留七月波峰在全景中的位置，为后续历史留出接口；不替全片写结束语。",
+      "primary_focus": "market",
+      "classification": "interpretation",
+      "event_ids": [],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "source_line": "冻结日线｜创业板指399006",
+      "screen_text": [
+        "这段下跌，也经历过反弹。"
+      ],
+      "causal_claim": false
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "GPT2015-01",
+      "beat_id": "beat-opening",
+      "start_market_date": "2015-04-01",
+      "end_market_date": "2015-04-10",
+      "story_purpose": "从正在展开的历史开始，保留既有空间与时间轨。",
+      "primary_focus": "market",
+      "screen_text": [
+        "2015年4月",
+        "创业板指 · 399006"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "wide",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_rise_until_peak_hold",
+      "reading_duration": 3.8,
+      "transition_in": "从既有地球轨道入画，不另做海报封面",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-02",
+      "beat_id": "beat-accounts-rule",
+      "start_market_date": "2015-04-10",
+      "end_market_date": "2015-04-17",
+      "story_purpose": "以生效日连接日K；4月12日公开宣布另存证据。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.04.13 起",
+        "A股“一人一户”限制放开"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_rise_until_peak_hold",
+      "reading_duration": 4.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-03",
+      "beat_id": "beat-accounts-week",
+      "start_market_date": "2015-04-17",
+      "end_market_date": "2015-04-28",
+      "story_purpose": "报道盘后出现，括号回指统计周；这是账户数。",
+      "primary_focus": "event",
+      "screen_text": [
+        "4月20—24日 · 新增A股账户",
+        "413.03 万户"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；事件命中后日历独立推进，行情冻结",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_rise_until_peak_hold",
+      "reading_duration": 4.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-04",
+      "beat_id": "beat-letv",
+      "start_market_date": "2015-04-28",
+      "end_market_date": "2015-05-29",
+      "story_purpose": "用当时企业估值解释热度，不转换为指数点位或权重。",
+      "primary_focus": "event",
+      "screen_text": [
+        "企业背景 · 乐视网",
+        "盘中总市值超过 1,600 亿元"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_rise_until_peak_hold",
+      "reading_duration": 4.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-05",
+      "beat_id": "beat-close-peak",
+      "start_market_date": "2015-05-29",
+      "end_market_date": "2015-06-03",
+      "story_purpose": "建立全段比较锚点；峰值稳定停留后才切换活动轨。",
+      "primary_focus": "close_extremum",
+      "screen_text": [
+        "2015.06.03 · 阶段最高收盘",
+        "3,982.25"
+      ],
+      "visual_component": "extreme_close",
+      "camera_scale": "wide",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "none",
+      "keypoint_animation": "双端点按真实价格统一投影，先点亮再连线",
+      "keypoint_close_anchors": [
+        {
+          "date": "2015-04-01",
+          "value": 2404.91
+        },
+        {
+          "date": "2015-06-03",
+          "value": 3982.25
+        }
+      ],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_rise_until_peak_hold",
+      "reading_duration": 5.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-06",
+      "beat_id": "beat-wick-peak",
+      "start_market_date": "2015-06-03",
+      "end_market_date": "2015-06-10",
+      "story_purpose": "暖金只触及真实上影最高处，HUD仍显示当日收盘。",
+      "primary_focus": "intraday_extremum",
+      "screen_text": [
+        "2015.06.05 · 盘中高点",
+        "4,037.96"
+      ],
+      "visual_component": "intraday_extreme",
+      "camera_scale": "close",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "none",
+      "keypoint_animation": "真实影线极值局部光点，不扩大单根蜡烛",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 3.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-07",
+      "beat_id": "beat-access-rules",
+      "start_market_date": "2015-06-10",
+      "end_market_date": "2015-06-17",
+      "story_purpose": "6月12日是公开答问日，不能伪装成35号通知签发日。",
+      "primary_focus": "event",
+      "screen_text": [
+        "6月12日 · 证监会公开答问",
+        "加强券商外部接入监管"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-08",
+      "beat_id": "beat-margin-context",
+      "start_market_date": "2015-06-17",
+      "end_market_date": "2015-06-19",
+      "story_purpose": "展示杠杆规模背景；原件是8月27日报道回溯，不扮演当日新闻。",
+      "primary_focus": "event",
+      "screen_text": [
+        "截至6月18日 · 沪深两融余额",
+        "约 2.27 万亿元",
+        "事后统计回顾"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-09",
+      "beat_id": "beat-june-fall",
+      "start_market_date": "2015-06-19",
+      "end_market_date": "2015-06-26",
+      "story_purpose": "把下跌的速度与价格距离交给真实日K，不拼凑单一原因。",
+      "primary_focus": "market",
+      "screen_text": [
+        "2015.06.26 · 收盘 2,920.70",
+        "较6月12日 −25.10%"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "none",
+      "keypoint_animation": "双端点按真实价格统一投影，先点亮再连线",
+      "keypoint_close_anchors": [
+        {
+          "date": "2015-06-12",
+          "value": 3899.71
+        },
+        {
+          "date": "2015-06-26",
+          "value": 2920.7
+        }
+      ],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.3,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-10",
+      "beat_id": "beat-june-weekend",
+      "start_market_date": "2015-06-26",
+      "end_market_date": "2015-06-26",
+      "story_purpose": "市场停在周五，事件日历推进周末；次镜继续下一交易日。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.06.27 · 周六公布",
+        "降息与定向降准",
+        "6月28日起实施"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；事件命中后日历独立推进，行情冻结",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 5.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-11",
+      "beat_id": "beat-brokers",
+      "start_market_date": "2015-06-26",
+      "end_market_date": "2015-07-03",
+      "story_purpose": "明确承诺、规模和标的范围，避免画成资金直接进入399006。",
+      "primary_focus": "event",
+      "screen_text": [
+        "7月4日 · 21家券商",
+        "承诺 ≥1,200亿元",
+        "投资蓝筹股ETF"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；事件命中后日历独立推进，行情冻结",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-12",
+      "beat_id": "beat-liquidity",
+      "start_market_date": "2015-07-03",
+      "end_market_date": "2015-07-03",
+      "story_purpose": "保留“将”；不给承诺添加已到账的时刻和金额。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.07.05 · 证监会公告",
+        "央行将给予证金公司",
+        "多种形式的流动性支持"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；事件命中后日历独立推进，行情冻结",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 5.3,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-13",
+      "beat_id": "beat-smallcaps",
+      "start_market_date": "2015-07-03",
+      "end_market_date": "2015-07-10",
+      "story_purpose": "增加更贴近创业板所处市场的官方节点，保留承诺时态。",
+      "primary_focus": "event",
+      "screen_text": [
+        "证监会：证金公司将加大",
+        "对中小市值股票的购买力度"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 5.3,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-14",
+      "beat_id": "beat-cleanup",
+      "start_market_date": "2015-07-10",
+      "end_market_date": "2015-07-10",
+      "story_purpose": "规范措施与支持措施同在一段；不倒置为六月下跌的首因。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.07.12 · 周日",
+        "清理整顿违法从事证券业务活动"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；事件命中后日历独立推进，行情冻结",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.3,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-15",
+      "beat_id": "beat-rebound",
+      "start_market_date": "2015-07-10",
+      "end_market_date": "2015-07-24",
+      "story_purpose": "连起真实低位与反弹端点；同一回撤轨往回缩，六月峰值保留。",
+      "primary_focus": "market",
+      "screen_text": [
+        "7月7日至23日 · 收盘比较",
+        "+26.19%"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "none",
+      "keypoint_animation": "双端点按真实价格统一投影，先点亮再连线",
+      "keypoint_close_anchors": [
+        {
+          "date": "2015-07-07",
+          "value": 2352.01
+        },
+        {
+          "date": "2015-07-23",
+          "value": 2967.95
+        }
+      ],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-16",
+      "beat_id": "beat-july-relapse",
+      "start_market_date": "2015-07-24",
+      "end_market_date": "2015-08-10",
+      "story_purpose": "观众看到反弹之后仍有大幅下挫，再穿过8月初波动。",
+      "primary_focus": "market",
+      "screen_text": [
+        "2015.07.27",
+        "创业板指单日 −7.40%"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 3.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-17",
+      "beat_id": "beat-fx",
+      "start_market_date": "2015-08-10",
+      "end_market_date": "2015-08-20",
+      "story_purpose": "放进宏观背景层；不画汇率事件通向下跌的因果箭头。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.08.11",
+        "人民币中间价报价机制调整"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-18",
+      "beat_id": "beat-pmi",
+      "start_market_date": "2015-08-20",
+      "end_market_date": "2015-08-21",
+      "story_purpose": "只使用初值与日期；网页时间不当作数据首次公布时间。",
+      "primary_focus": "event",
+      "screen_text": [
+        "同期宏观背景",
+        "财新制造业PMI初值 47.1"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-19",
+      "beat_id": "beat-gap-one",
+      "start_market_date": "2015-08-21",
+      "end_market_date": "2015-08-21",
+      "story_purpose": "以当日最高低于前日最低的真实空白建立缺口定义。",
+      "primary_focus": "gap",
+      "screen_text": [
+        "8月21日 · 完整向下缺口 ①",
+        "单日 −6.65%"
+      ],
+      "visual_component": "ohlc_gap",
+      "camera_scale": "close",
+      "time_speed": "详见director_timeline.json；事件命中后日历独立推进，行情冻结",
+      "event_animation": "none",
+      "keypoint_animation": "真实缺口空白描边",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 3.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-20",
+      "beat_id": "beat-gap-two",
+      "start_market_date": "2015-08-21",
+      "end_market_date": "2015-08-24",
+      "story_purpose": "沿同一投影继续第二个缺口，收盘点与事件轨同时命中。",
+      "primary_focus": "gap",
+      "screen_text": [
+        "8月24日 · 完整向下缺口 ②",
+        "2,152.61 · 单日 −8.08%"
+      ],
+      "visual_component": "ohlc_gap",
+      "camera_scale": "close",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "真实缺口空白描边",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.3,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-21",
+      "beat_id": "beat-trading-floor",
+      "start_market_date": "2015-08-24",
+      "end_market_date": "2015-08-24",
+      "story_purpose": "真实照片承担现场感；不替照片中的人编造经历或心理。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.08.24 · 昆明证券交易大厅"
+      ],
+      "visual_component": "historical_photo_scene",
+      "camera_scale": "wide",
+      "time_speed": "详见director_timeline.json；事件命中后日历独立推进，行情冻结",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.3,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-22",
+      "beat_id": "beat-gap-three",
+      "start_market_date": "2015-08-24",
+      "end_market_date": "2015-08-25",
+      "story_purpose": "第三个缺口后收盘低于两千点；不把这三天与24—26日收益窗混用。",
+      "primary_focus": "gap",
+      "screen_text": [
+        "8月25日 · 完整向下缺口 ③",
+        "1,990.71 · 单日 −7.52%"
+      ],
+      "visual_component": "ohlc_gap",
+      "camera_scale": "close",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "真实缺口空白描边",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.3,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-23",
+      "beat_id": "beat-august-policy",
+      "start_market_date": "2015-08-25",
+      "end_market_date": "2015-08-25",
+      "story_purpose": "先结束8月25日收盘，再亮起网站时点；未来日期只做安排标签。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.08.25 · 盘后",
+        "央行公布降息降准安排",
+        "8月26日起降息 · 9月6日起降准"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；事件命中后日历独立推进，行情冻结",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 6.3,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-24",
+      "beat_id": "beat-voice",
+      "start_market_date": "2015-08-25",
+      "end_market_date": "2015-08-25",
+      "story_purpose": "只呈现受访者当时的判断，不复述原采访中不准确的跌幅概括。",
+      "primary_focus": "attributed_voice",
+      "screen_text": [
+        "“当前稳定流动性更加关键。”",
+        "向松祚 · 央广经济之声"
+      ],
+      "visual_component": "floating_attribution",
+      "camera_scale": "medium",
+      "time_speed": "详见director_timeline.json；事件命中后日历独立推进，行情冻结",
+      "event_animation": "小面积暖金细边、无箭头连接线，事件日期和轨道节点共用命中帧",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4.3,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-25",
+      "beat_id": "beat-august-26",
+      "start_market_date": "2015-08-25",
+      "end_market_date": "2015-08-26",
+      "story_purpose": "统计以前一交易日8月21日收盘为基准；8月26日日K与前日重叠。",
+      "primary_focus": "market",
+      "screen_text": [
+        "8月24—26日 · 三个交易日",
+        "−19.30%"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "close",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "none",
+      "keypoint_animation": "双端点按真实价格统一投影，先点亮再连线",
+      "keypoint_close_anchors": [
+        {
+          "date": "2015-08-21",
+          "value": 2341.95
+        },
+        {
+          "date": "2015-08-26",
+          "value": 1890.04
+        }
+      ],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 3.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-26",
+      "beat_id": "beat-intraday-low",
+      "start_market_date": "2015-08-26",
+      "end_market_date": "2015-09-11",
+      "story_purpose": "只突出真实下影低点，未把它冒充9月15日收盘。",
+      "primary_focus": "intraday_extremum",
+      "screen_text": [
+        "2015.09.02 · 窗口盘中低点",
+        "1,779.18"
+      ],
+      "visual_component": "intraday_extreme",
+      "camera_scale": "close",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "none",
+      "keypoint_animation": "真实影线极值局部光点，不扩大单根蜡烛",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 3.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-27",
+      "beat_id": "beat-closing-low",
+      "start_market_date": "2015-09-11",
+      "end_market_date": "2015-09-15",
+      "story_purpose": "完整拉远，真实高低收盘同框；结算来自一直变化的轨，而非最后突然填满。",
+      "primary_focus": "close_extremum",
+      "screen_text": [
+        "2015.09.15 · 阶段最低收盘",
+        "1,797.56",
+        "较6月3日最高收盘 −54.86%"
+      ],
+      "visual_component": "extreme_close",
+      "camera_scale": "wide",
+      "time_speed": "详见director_timeline.json；连续市场时钟，事件命中后标签固定于历史锚点",
+      "event_animation": "none",
+      "keypoint_animation": "双端点按真实价格统一投影，先点亮再连线",
+      "keypoint_close_anchors": [
+        {
+          "date": "2015-06-03",
+          "value": 3982.25
+        },
+        {
+          "date": "2015-09-15",
+          "value": 1797.56
+        }
+      ],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 6.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "传递摄影机状态与历史标签，不黑屏换卡"
+    },
+    {
+      "shot_id": "GPT2015-28",
+      "beat_id": "beat-bridge",
+      "start_market_date": "2015-09-15",
+      "end_market_date": "2015-09-15",
+      "story_purpose": "保留七月波峰在全景中的位置，为后续历史留出接口；不替全片写结束语。",
+      "primary_focus": "market",
+      "screen_text": [
+        "这段下跌，也经历过反弹。"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "wide",
+      "time_speed": "详见director_timeline.json；事件命中后日历独立推进，行情冻结",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "行情日期、事件日期与观测区间按director_timeline的角色分列；无虚构交易日",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 3.8,
+      "transition_in": "继承前镜的投影、速度和轨道，0.6—1.2秒连续过渡",
+      "transition_out": "回到时间轨，为下一段保留接口"
+    }
+  ],
+  "source_registry": [
+    {
+      "source_id": "APR-01:S01",
+      "original_path": null,
+      "sha256": "58f6b468488f5a1ccbc5c27e9329419dc557d892e5f47040efa4e5bcfff3b892",
+      "url": "http://www.xinhuanet.com/politics/2015-04/13/c_127681812.htm",
+      "publisher": "新华网",
+      "published_at": "2015-04-13T08:56:14+08:00",
+      "collected_at": "2026-11-21T21:34:38+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/apr01_xinhua_20150413.html",
+      "title": "A股“一人一户”解禁 每人可开20个证券账户",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "APR-01:S02",
+      "original_path": null,
+      "sha256": "53e1eeb49a6f84e5e44a10df441a371dcfa3f03aaf56eacbe90997c71a77c823",
+      "url": "http://finance.people.com.cn/stock/n/2015/0412/c67815-26831853.html",
+      "publisher": "人民网",
+      "published_at": "2015-04-12T19:33:00+08:00",
+      "collected_at": "2026-11-21T21:34:38+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/apr01_people_20150412.html",
+      "title": "同一投资者最多可开立20个A股账户、封闭式基金账户",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "APR-01:S03",
+      "original_path": null,
+      "sha256": "76246a90f0035a32e85a808f09d013e933ce6f80fdad8d2bf3377ae514ff3ee0",
+      "url": "http://paper.cnstock.com/html/2015-04/13/content_511603.htm",
+      "publisher": "上海证券报",
+      "published_at": "2015-04-13",
+      "collected_at": "2026-11-21T21:34:38+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/apr01_cnstock_20150413.html",
+      "title": "A股“一人一户”限制今起全面放开",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "APR-01:S04",
+      "original_path": null,
+      "sha256": "76f4bdfd084cf843f766c4d601501daec6c17985fa88b05c2d188a0a02d60370",
+      "url": "https://finance.huanqiu.com/article/9CaKrnJJSqG",
+      "publisher": "环球网（转载证券日报）",
+      "published_at": "2015-04-13T07:41:00+08:00",
+      "collected_at": "2026-11-21T21:34:38+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/apr01_huanqiu_20150413.html",
+      "title": "A股“一人一户”今起解禁 投资者最多可开20个账户",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "APR-01:S05",
+      "original_path": null,
+      "sha256": "931c114b0dec8cabefc7a54797235fce43557d14bb8535618ffee6597c7652b7",
+      "url": "http://finance.people.com.cn/stock/n/2015/0422/c67815-26884427.html",
+      "publisher": "人民网（转载京华时报）",
+      "published_at": "2015-04-22T08:28:00+08:00",
+      "collected_at": "2026-11-21T21:34:38+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/apr01_people_20150422.html",
+      "title": "一人多户开通首周 A股新增开户迈过300万大关",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "APR-01:S06",
+      "original_path": null,
+      "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64",
+      "url": "https://thepaper.cn/newsDetail_forward_1325946",
+      "publisher": "澎湃新闻",
+      "published_at": "2015-04-28T20:37:00+08:00",
+      "collected_at": "2026-11-21T21:34:38+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/apr01_paper_20150429.html",
+      "title": "韭菜根本割不完！A股上周开户数首破400万",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "AUG-01:S01",
+      "original_path": null,
+      "sha256": "941ecc931f4fc903e179f3a20506bfd618fbdc6e6eba37cd825df38b9b993211",
+      "url": "http://www.chinanews.com.cn/m/cj/2015/08-11/7459747.shtml",
+      "publisher": "中国新闻网（转述央行网站）",
+      "published_at": "2015-08-11T09:41:00+08:00",
+      "collected_at": "2026-11-21T21:42:12+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/aug01_cnnews_20150811.html",
+      "title": "央行：人民币汇率形成机制改革继续朝市场化迈进",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "AUG-01:S02",
+      "original_path": null,
+      "sha256": "c13e9b384c4afdd491afe26d6648706e66694e5d264158e34f9917c27f740a33",
+      "url": "http://v.icbc.com.cn/userfiles/Resources/ICBC/licai/2016/2015%E5%B9%B4%E4%BA%BA%E6%B0%91%E5%B8%81%E6%B1%87%E7%8E%87%E5%A4%A7%E4%BA%8B%E8%AE%B0.pdf",
+      "publisher": "中国工商银行（汇编）",
+      "published_at": "2016",
+      "collected_at": "2026-11-21T21:42:12+08:00",
+      "type": "retrospective",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/aug01_icbc_fx_2015.pdf",
+      "title": "2015年人民币汇率改革大事记",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "AUG-01:S03",
+      "original_path": null,
+      "sha256": "30c9afb1acb5504cf3431f0a9a11baada78fb66396281d42db1f2bfac3e7e1ca",
+      "url": "https://pmi.caixin.com/2015-08-21/100842072.html",
+      "publisher": "财新PMI",
+      "published_at": "2015-08-21T09:43:10+08:00",
+      "collected_at": "2026-11-21T21:42:12+08:00",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/aug01_caixin_20150821.html",
+      "title": "8月财新中国制造业PMI初值录得47.1",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "AUG-02:S04",
+      "original_path": null,
+      "sha256": "2c05174756eea1fa77f1a91a92d539ffced8c71b102ff65c9e9e5d28915f277c",
+      "url": "http://www.chinanews.com/stock/2015/08-24/7485800.shtml",
+      "publisher": "中国新闻网",
+      "published_at": "2015-08-24T15:28:00+08:00",
+      "collected_at": "2026-11-21T21:42:12+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/aug02_cnnews_20150824.utf8.html",
+      "title": "沪指24日跌8.49%重回3200点 今年累计跌幅0.77%",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "AUG-02:S05",
+      "original_path": null,
+      "sha256": "90665ff1a7a3d4bbf6c924a30aa98195cadd257b23823e6d01a526f5c3c2b3d1",
+      "url": "https://finance.china.com.cn/stock/dp/20150826/3309440.shtml",
+      "publisher": "中国网（转载新京报）",
+      "published_at": "2015-08-26T02:31:13+08:00",
+      "collected_at": "2026-11-21T21:42:12+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/aug02_china_20150826.html",
+      "title": "黑色星期二沪指跌回“2”时代 两市两日蒸发7万亿",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "AUG-02:S06",
+      "original_path": null,
+      "sha256": "d2b0224212285b145ba805b86eb8bea24edfb9466cb24940b3e6a79ff06d3d67",
+      "url": "https://finance.caixin.com/2015-08-21/100842146.html",
+      "publisher": "财新网",
+      "published_at": "2015-08-21T11:30:11+08:00",
+      "collected_at": "2026-11-21T21:42:12+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/aug02_caixin_20150821.html",
+      "title": "[今日午盘]全线皆墨 沪指失守3600点跌逾3%",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "AUG-02:S07",
+      "original_path": null,
+      "sha256": "2d5d44cec23acda4d6221606b2248c47f432e88ec01caa9fd1c41cfa292e1a07",
+      "url": "https://m.cnr.cn/news/20150825/t20150825_519657152.html",
+      "publisher": "央广网",
+      "published_at": "2015-08-25T19:16:00+08:00",
+      "collected_at": "2026-11-21T21:42:12+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/aug03_cnr_20150825.html",
+      "title": "稳增长再出招 央行宣布降息降准",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "AUG-03:S07",
+      "original_path": null,
+      "sha256": "2d5d44cec23acda4d6221606b2248c47f432e88ec01caa9fd1c41cfa292e1a07",
+      "url": "https://m.cnr.cn/news/20150825/t20150825_519657152.html",
+      "publisher": "央广网",
+      "published_at": "2015-08-25T19:16:00+08:00",
+      "collected_at": "2026-11-21T21:42:12+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/aug03_cnr_20150825.html",
+      "title": "稳增长再出招 央行宣布降息降准",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "AUG-03:S06",
+      "original_path": null,
+      "sha256": "d2b0224212285b145ba805b86eb8bea24edfb9466cb24940b3e6a79ff06d3d67",
+      "url": "https://finance.caixin.com/2015-08-21/100842146.html",
+      "publisher": "财新网",
+      "published_at": "2015-08-21T11:30:11+08:00",
+      "collected_at": "2026-11-21T21:42:12+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/aug02_caixin_20150821.html",
+      "title": "[今日午盘]全线皆墨 沪指失守3600点跌逾3%",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "AUG-03:S03",
+      "original_path": null,
+      "sha256": "30c9afb1acb5504cf3431f0a9a11baada78fb66396281d42db1f2bfac3e7e1ca",
+      "url": "https://pmi.caixin.com/2015-08-21/100842072.html",
+      "publisher": "财新PMI",
+      "published_at": "2015-08-21T09:43:10+08:00",
+      "collected_at": "2026-11-21T21:42:12+08:00",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/aug01_caixin_20150821.html",
+      "title": "8月财新中国制造业PMI初值录得47.1",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "IMG-01:S01",
+      "original_path": null,
+      "sha256": "472d2d29eafb8860868a63b814b7355290624bebffbb5509c53b9e45c2ef6030",
+      "url": "http://www.chinanews.com/m/tp/hd/2015/0824/71156.shtml",
+      "publisher": "中国新闻网",
+      "published_at": "2015-08-24T16:39:00+08:00",
+      "collected_at": "2026-11-21T21:43:08+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/img01_cnnews_20150824.html",
+      "title": "沪指大跌8.49% 逼近3200点（图集）",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "IMG-01:S02",
+      "original_path": null,
+      "sha256": "a8e6dd6f6f31b6d8944c17071da5e0cc779527b077fa759921193d4d913c02b1",
+      "url": "https://m.thepaper.cn/newsDetail_forward_1367613",
+      "publisher": "澎湃新闻",
+      "published_at": "2015-08-24T15:20:00+08:00",
+      "collected_at": "2026-11-21T21:43:08+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/img01_paper_20150824.html",
+      "title": "沪指暴跌8.49%，创8年来最大单日跌幅，超两千股跌停",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "IMG-01:S03",
+      "original_path": null,
+      "sha256": "376b9713c6a2d577ee0e6237909cc629b751064182071c0757425e1292263f92",
+      "url": "https://finance.sina.com.cn/china/20150825/084723055074.shtml",
+      "publisher": "新浪财经（转载新华网）",
+      "published_at": "2015-08-25T08:47:00+08:00",
+      "collected_at": "2026-11-21T21:43:08+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/img01_sina_20150825.utf8.html",
+      "title": "全球股市遭遇黑色星期一 A股股民户均蒸发近8万",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "IMG-01:S04",
+      "original_path": null,
+      "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64",
+      "url": "https://thepaper.cn/newsDetail_forward_1325946",
+      "publisher": "澎湃新闻",
+      "published_at": "2015-04-28T20:37:00+08:00",
+      "collected_at": "2026-11-21T21:43:08+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/apr01_paper_20150429.html",
+      "title": "韭菜根本割不完！A股上周开户数首破400万",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "IND-01:S01",
+      "original_path": null,
+      "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7",
+      "url": "http://static.cninfo.com.cn/finalpage/2015-05-06/1200968345.PDF",
+      "publisher": "乐视网（巨潮资讯披露）",
+      "published_at": "2015-05-05",
+      "collected_at": "2026-11-21T21:37:15+08:00",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/ind01_leshi_dividend_20150505.pdf",
+      "title": "乐视网信息技术（北京）股份有限公司2014年度权益分派实施公告（公告编号2015-031）",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用",
+      "additional_access_records": [
+        {
+          "url": "https://static.cninfo.com.cn/finalpage/2015-05-06/1200968345.PDF",
+          "method": "WEB_OPEN_BODY_READ",
+          "retrieval_ref": "turn239564655view2",
+          "locator": "二、权益分派方案；三、股权登记日与除权除息日；落款",
+          "support": "在线PDF正文与用户归档的关键数字、日期相同；未比较在线文件字节摘要。",
+          "byte_identity_verified": false
+        }
+      ]
+    },
+    {
+      "source_id": "IND-01:S02",
+      "original_path": null,
+      "sha256": "d222866483f8cc495347f735aeec641873e4f2fa58d3b98dcd430a076cdc57cf",
+      "url": "https://m.21jingji.com/article/20200720/herald/531ff83ea55df366fa6daaed667d358e_zaker.html",
+      "publisher": "21世纪经济报道",
+      "published_at": "2020-07-20",
+      "collected_at": "2026-11-21T21:37:15+08:00",
+      "type": "retrospective",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/ind01_21jingji_20200720.html",
+      "title": "乐视黯然落幕：最后一个交易日成交金额超2000万，退市后将不能再上市",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "IND-01:S03",
+      "original_path": null,
+      "sha256": "3d29b3cacf13ffe11bd7b12f8003df69c8e15800b3ad1488f06b237ad94261d4",
+      "url": "http://www.chinanews.com/stock/2015/05-25/7298231.shtml",
+      "publisher": "中国新闻网（转载广州日报）",
+      "published_at": "2015-05-25T09:28:00+08:00",
+      "collected_at": "2026-11-21T21:37:15+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/ind01_cnnews_20150525.utf8.html",
+      "title": "77只创业板股票市值超200亿 乐视网市值超9个搜狐",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "IND-01:S04",
+      "original_path": null,
+      "sha256": "ba7408e2b76e83470bfd037bd3fd1b210452cba99fe93690274ed22ba5d03913",
+      "url": "https://www.cs.com.cn/tzjj/201804/t20180404_5766433.html",
+      "publisher": "中国证券报·中证网",
+      "published_at": "2018-04-04T08:19:00+08:00",
+      "collected_at": "2026-11-21T21:37:15+08:00",
+      "type": "retrospective",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/ind01_cs_20180404.html",
+      "title": "兴全基金：如果不曾有乐视网 创业板指数会怎样",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "IND-01:S05",
+      "original_path": null,
+      "sha256": "0f70c239a97c621e7c70510a8a4bca9d142630ceeed7111e8493c71aaac4056c",
+      "url": "https://finance.sina.com.cn/money/fund/fundzmt/2020-06-12/doc-iirczymk6685824.shtml",
+      "publisher": "新浪财经",
+      "published_at": "2020-06-12T19:38:00+08:00",
+      "collected_at": "2026-11-21T21:37:15+08:00",
+      "type": "retrospective",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/ind01_sina_20200612.html",
+      "title": "五年后5178再回首：权重股“沧海桑田”",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-01:S01",
+      "original_path": null,
+      "sha256": "4795d91867e01fbc78d160952f3cdb6752f73f786934c09ebe578021e444ab6e",
+      "url": "http://www.csrc.gov.cn/csrc/c100029/c1000237/content.shtml",
+      "publisher": "中国证监会",
+      "published_at": "2015-06-12",
+      "collected_at": "2026-11-21T21:38:51+08:00",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun01_csrc_20150612.html",
+      "title": "2015年6月12日新闻发布会（答问：关于加强证券公司信息系统外部接入管理的通知）",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-01:S02",
+      "original_path": null,
+      "sha256": "e7e49b6ba01c71578e1f1329c2c22a26790035b216bc0e103cbfd8f5f59f23c4",
+      "url": "http://www.csrc.gov.cn/shenzhen/c105616/c1313662/content.shtml",
+      "publisher": "中国证监会深圳监管局",
+      "published_at": "2015-06-15",
+      "collected_at": "2026-11-21T21:38:51+08:00",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun01_csrc_sz_20150615.html",
+      "title": "证券业协会下发评估认证规范",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-01:S03",
+      "original_path": null,
+      "sha256": "d0d4994ebdde871e3505d4fb13ca584247935858fa199a1dfde34c209456f6ae",
+      "url": "http://finance.people.com.cn/stock/n/2015/0713/c67815-27292074.html",
+      "publisher": "人民网",
+      "published_at": "2015-07-13T00:43:00+08:00",
+      "collected_at": "2026-11-21T21:38:51+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun01_people_20150713.html",
+      "title": "证监会：市场回暖违法活动抬头 券商需自查外部接入行为",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-01:S04",
+      "original_path": null,
+      "sha256": "b1bf94bda7be8b8ee284e117df7e798beb55a9c3ab71035bfe8617c532c6f904",
+      "url": "http://finance1.ce.cn/rolling/201508/27/t20150827_6334472.shtml",
+      "publisher": "中国经济网",
+      "published_at": "2015-08-27T07:43:00+08:00",
+      "collected_at": "2026-11-21T21:38:51+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun01_ce_20150827.utf8.html",
+      "title": "从“爆仓”到“避险” 两融余额良性回归",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-01:S05",
+      "original_path": null,
+      "sha256": "e25e2adb9b1cd6441e027198ce26ba17c421c07b116942f38502b2c7626c26a8",
+      "url": "https://www.cs.com.cn/ssgs/gsxw/201506/t20150620_4740024.html",
+      "publisher": "中证网（转载证券时报）",
+      "published_at": "2015-06-20T10:23:00+08:00",
+      "collected_at": "2026-11-21T21:38:51+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun01_cs_20150620.utf8.html",
+      "title": "5新股公布中签率 国泰君安冻资2.35万亿超中核电",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-01:S06",
+      "original_path": null,
+      "sha256": "fb923a64614a86b9f3fb077b607d158e029a99776a622b3f0b3f24b2fb4f1e6b",
+      "url": "http://paper.ce.cn/jjrb/html/2015-06/18/content_244636.htm",
+      "publisher": "经济日报",
+      "published_at": "2015-06-18",
+      "collected_at": "2026-11-21T21:38:51+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun01_econ_20150618.html",
+      "title": "国泰君安18日申购（IPO申购批次与冻结资金预期）",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-02:S01",
+      "original_path": null,
+      "sha256": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113472/2876973/index.html",
+      "publisher": "中国人民银行",
+      "published_at": "2015-06-27T17:03:28+08:00",
+      "collected_at": "2026-11-21T21:40:01+08:00",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun02_pbc_20150628.html",
+      "title": "央行有关负责人就定向降准并结合下调存贷款基准利率答记者问",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-02:S02",
+      "original_path": null,
+      "sha256": "d9c1a04e8763f8ba6ac1d588ed18f8ba8bf3a3f2af0c6fe5f59e6e5c840cd08a",
+      "url": "http://politics.people.com.cn/n/2015/0627/c70731-27217699.html",
+      "publisher": "人民网（转载国际在线）",
+      "published_at": "2015-06-27T17:10:00+08:00",
+      "collected_at": "2026-11-21T21:40:01+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun02_people_20150627.utf8.html",
+      "title": "央行定向降准 并且下调贷款和存款基准利率",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-02:S03",
+      "original_path": null,
+      "sha256": "8104a5583902b90d6f120c78f7e519649a3f038670dcd5d5cfe67eede15c42f6",
+      "url": "http://finance.people.com.cn/n/2015/0704/c1004-27253875.html",
+      "publisher": "人民网",
+      "published_at": "2015-07-04T13:48:00+08:00",
+      "collected_at": "2026-11-21T21:40:01+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun02_people_20150704.utf8.html",
+      "title": "21家证券公司联合公告：坚决维护股票市场稳定发展",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-02:S04",
+      "original_path": null,
+      "sha256": "b65b53508d225ad25adfe2a89d3b02adb407a4dea45dddaec32311890928fe78",
+      "url": "https://static.cninfo.com.cn/finalpage/2015-07-16/1201298862.PDF",
+      "publisher": "上市公司股东大会材料（巨潮资讯披露）",
+      "published_at": "2015-07-16",
+      "collected_at": "2026-11-21T21:40:01+08:00",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun02_cninfo_20150716.pdf",
+      "title": "2015年第三次临时股东大会会议材料（内含21家证券公司联合公告全文）",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-02:S05",
+      "original_path": null,
+      "sha256": "5fa86f4618b121c050c160e8b9746bd91fc5b6be3ea862bba35759c7439ebccc",
+      "url": "http://finance.people.com.cn/money/n/2015/0706/c42877-27257935.html",
+      "publisher": "人民网（转载上海证券报）",
+      "published_at": "2015-07-06T08:17:00+08:00",
+      "collected_at": "2026-11-21T21:40:01+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun02_people_20150706.utf8.html",
+      "title": "央行将多形式支持证金公司流动性",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "JUN-02:S06",
+      "original_path": null,
+      "sha256": "923550dc71e187bf526ac5fae875614aec1c38645b05f009048dbba272170976",
+      "url": "http://finance.people.com.cn/money/n/2015/0705/c42877-27256027.html",
+      "publisher": "人民网（转载新华社、扬子晚报）",
+      "published_at": "2015-07-05T14:06:00+08:00",
+      "collected_at": "2026-11-21T21:40:01+08:00",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun02_people_20150705.utf8.html",
+      "title": "决策层放出救市“大招” 28只新股暂缓发行",
+      "source_time_is_external_metadata": true,
+      "corrected_times_in": "event_review.json",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "content_review": "见逐事件source_evidence；source元数据不等于该来源所有句子已获采用"
+    },
+    {
+      "source_id": "cyb-ohlc",
+      "original_path": "data/cyb_daily.csv",
+      "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+      "url": null,
+      "publisher": "项目冻结行情",
+      "published_at": "2026-11-10",
+      "collected_at": null,
+      "type": "market_data",
+      "parse_status": "PARSED",
+      "provenance": "local_dossier",
+      "archive_member": null,
+      "title": "创业板指399006冻结日K",
+      "materialization": "repository"
+    },
+    {
+      "source_id": "LETV-RAW-DAILY",
+      "original_path": null,
+      "sha256": "f556d7098c44bd79f84e263db6a8484a411649b19a5f5525a027fb1fadf1aece",
+      "url": null,
+      "publisher": "新浪历史行情接口",
+      "published_at": null,
+      "collected_at": null,
+      "type": "market_data",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/ind01_leshi_kline_sina_raw.json",
+      "title": "乐视网不复权日K",
+      "materialization": "originals_pack_required_for_raw_bytes"
+    },
+    {
+      "source_id": "CSRC-2015-17",
+      "original_path": null,
+      "sha256": "c676d67ee4985a2e0c76b12f11d8923de68e26c6efce119c9ce4782ccd3b4ba6",
+      "url": "https://www.csrc.gov.cn/csrc/c101799/c1003755/content.shtml",
+      "publisher": "中国证监会",
+      "published_at": "2015-07-05",
+      "collected_at": null,
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun02_csrc_gg2015_17.html",
+      "title": "证监会公告〔2015〕17号",
+      "materialization": "originals_pack_required_for_raw_bytes"
+    },
+    {
+      "source_id": "CSRC-2015-19",
+      "original_path": null,
+      "sha256": "841ef82391cfe8dd079f9020c88a15c6336b88008d0805aed822d1a362791f41",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c1001903/content.shtml",
+      "publisher": "中国证监会",
+      "published_at": "2015-07-12",
+      "collected_at": null,
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/jun02_csrc_gg2015_19.html",
+      "title": "证监会公告〔2015〕19号",
+      "materialization": "originals_pack_required_for_raw_bytes"
+    },
+    {
+      "source_id": "CNR-2015-0825-FULL",
+      "original_path": null,
+      "sha256": "0b8f838791371217bc671c1a54441022dca2ef68137fdd420daf717e0f6aa254",
+      "url": "https://m.cnr.cn/news/20150825/t20150825_519657152.html",
+      "publisher": "央广网",
+      "published_at": "2015-08-25T19:16:00+08:00",
+      "collected_at": null,
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "archive_member": "00_原始网页归档/aug03_cnr_20150825_quan.html",
+      "title": "稳增长再出招 央行宣布降息降准（完整存档）",
+      "materialization": "originals_pack_required_for_raw_bytes"
+    },
+    {
+      "source_id": "PBC-2015-0825",
+      "original_path": "assets/source_documents/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html",
+      "sha256": "3cd114631219630b1bb3cfaa5ccaa480ed10f44de7b8b34aa815bd0deada3a2e",
+      "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125434/125798/c342653773544ff6bda66daf0c4f1afd/index.html",
+      "publisher": "中国人民银行",
+      "published_at": "2015-08-25T18:15:34+08:00",
+      "collected_at": null,
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "local_dossier",
+      "archive_member": null,
+      "title": "下调存贷款基准利率并降低存款准备金率",
+      "materialization": "repository"
+    },
+    {
+      "source_id": "CSRC-2015-0708",
+      "original_path": null,
+      "sha256": null,
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c1001909/content.shtml",
+      "publisher": "中国证监会",
+      "published_at": "2015-07-08",
+      "collected_at": "2026-11-21",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "local_dossier",
+      "title": "证监会新闻发言人邓舸答记者问",
+      "verification": "本轮在线打开官网正文，第一组问答支持小市值购买承诺；只核到日精度。",
+      "excerpt": "加大对中小市值股票的购买力度",
+      "source_capture_kind": "curated_web_reading_record_not_original_bytes",
+      "evidence_record": "research/evidence/csrc_20150708_excerpt.json",
+      "evidence_record_sha256": "fb0d139f8276a2229c58a770917c7ab1b0f45b25c501e50adaef8bd74315d820",
+      "locator": "网页正文第一问答；检索文本 L32、L36–L38",
+      "retrieved_at": "2026-11-21T15:23:24Z",
+      "note": "这是已读取官方页面的摘录记录，非原始HTML；不可把记录SHA当作原网页SHA。"
+    },
+    {
+      "source_id": "APR-01:WEB01",
+      "title": "上周A股开户数再创历史新高 券商营业部人气火爆",
+      "url": "https://finance.sina.com.cn/stock/quanshang/qsyj/20150429/061922070393.shtml",
+      "publisher": "上海证券报／新浪转载",
+      "published_at": "2015-04-29T06:19:00+08:00",
+      "collected_at": "2026-11-21",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "local_dossier",
+      "original_path": null,
+      "archive_member": null,
+      "sha256": null,
+      "path": null,
+      "hash_scope": "no_original_web_bytes_saved",
+      "locator": "正文，web lines 55–60",
+      "support": "413.03万新增A股账户、4338.08万参与交易账户、6236.98万持仓账户。",
+      "materialization": "review_record_in_release",
+      "evidence_record": "research/source_reconciliation.json",
+      "evidence_record_locator": "web_reading_records[source_id=APR-01:WEB01]",
+      "source_capture_kind": "web_reading_record_and_paraphrase_not_original_html",
+      "retrieval_ref": "turn701618445view1"
+    },
+    {
+      "source_id": "APR-01:WEB02",
+      "title": "股票账户数首次突破2亿",
+      "url": "https://www.chinanews.com/stock/2015/04-29/7242808.shtml",
+      "publisher": "今晚报／中新网转载",
+      "published_at": "2015-04-29T14:05:34+08:00",
+      "collected_at": "2026-11-21",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "local_dossier",
+      "original_path": null,
+      "archive_member": null,
+      "sha256": null,
+      "path": null,
+      "hash_scope": "no_original_web_bytes_saved",
+      "locator": "正文，web lines 31–34",
+      "support": "4月28日公布前一周新增A股账户4130328户，参与交易4338.08万户；不是独立投资者人数。",
+      "materialization": "review_record_in_release",
+      "evidence_record": "research/source_reconciliation.json",
+      "evidence_record_locator": "web_reading_records[source_id=APR-01:WEB02]",
+      "source_capture_kind": "web_reading_record_and_paraphrase_not_original_html",
+      "retrieval_ref": "turn701618445view3"
+    },
+    {
+      "source_id": "CSRC-2015-0703",
+      "title": "中国证券金融公司大幅增资扩股",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c1001913/content.shtml",
+      "publisher": "中国证监会",
+      "published_at": "2015-07-03",
+      "collected_at": "2026-11-21T15:23:24Z",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "local_dossier",
+      "original_path": null,
+      "archive_member": null,
+      "sha256": null,
+      "path": "research/evidence/csrc_20150703_excerpt.json",
+      "hash_scope": "no_original_web_bytes_saved",
+      "locator": "网页正文；检索文本 L32、L36",
+      "support": "7月3日的增资安排；不得并入7月5日17号公告作为同一笔到账资金。",
+      "materialization": "review_record_in_release",
+      "publication_time_precision": "day",
+      "evidence_record": "research/evidence/csrc_20150703_excerpt.json",
+      "evidence_record_sha256": "8d04db888badc988813bb13ed2be5c06c5a1286f7ed41d282b317ca886d95b07",
+      "source_capture_kind": "curated_web_reading_record_not_original_bytes",
+      "retrieval_ref": "turn512536731view0",
+      "reading_summary": "7月3日的增资安排；不得并入7月5日17号公告作为同一笔到账资金。"
+    },
+    {
+      "source_id": "GTJA-2015-0620",
+      "title": "国泰君安：首次公开发行A股网下发行结果及网上中签率公告",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=1840359&stockid=601211",
+      "publisher": "发行人及联席主承销商公告，新浪财经公告栏转载",
+      "published_at": "2015-06-20",
+      "collected_at": "2026-11-21T15:23:24Z",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "local_dossier",
+      "original_path": null,
+      "archive_member": null,
+      "sha256": null,
+      "path": "research/evidence/gtja_20150620_reading_record.json",
+      "hash_scope": "no_original_web_bytes_saved",
+      "locator": "公告日期 L52；重要提示第3项 L76–L81；一、二部分 L96–L103",
+      "support": "网上冻结资金与网下有效申购缴款为分别披露的类别；媒体合称约2.35万亿元。未保存交易所原始PDF。",
+      "materialization": "review_record_in_release",
+      "evidence_record": "research/evidence/gtja_20150620_reading_record.json",
+      "evidence_record_sha256": "159d7b2bac9f63f0f288fc1b294a71ee00655dc4a1bed6e492eed2672b09d52a",
+      "source_capture_kind": "curated_web_reading_record_not_original_bytes",
+      "retrieval_ref": "turn794560309view1",
+      "reading_summary": "公告列明网上与网下申购缴款工作于6月18日结束；网下77个配售对象足额缴款，有效申购资金100,990,295.10万元；网上冻结资金1,336,567,266,720元。原公告数字与包内中证网转载一致。"
+    },
+    {
+      "source_id": "SAC-2015-124",
+      "title": "证券公司外部接入信息系统评估认证规范",
+      "url": "https://www.sac.net.cn/flfg/zlgz/201507/t20150713_14302.html",
+      "publisher": "中国证券业协会",
+      "published_at": "2015-07-13",
+      "collected_at": "2026-11-21",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/jun01_sac_20150612.html",
+      "sha256": "28a088b4303446b97ec030a0ff0501a217cb65d0da70b1a4a20828c4bdf3ee86",
+      "path": "00_原始网页归档/jun01_sac_20150612.html",
+      "hash_scope": "originals_archive_member_bytes",
+      "locator": "中证协发〔2015〕124号通知及所附规范",
+      "support": "文件落款6月12日，网页7月13日；既有接入系统与新接入的过渡安排需区分。",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "document_date": "2015-06-12"
+    },
+    {
+      "source_id": "LETV-CAPITAL-HISTORY",
+      "title": "新浪财经乐视网历史股本结构",
+      "url": null,
+      "publisher": "新浪财经",
+      "published_at": null,
+      "collected_at": "2026-11-21",
+      "type": "market_data",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/ind01_leshi_capital_sina.html",
+      "sha256": "2255b4cbcd6e73f58640781bbb47540f7ff7efa063f691aa032a8e795954a0dd",
+      "path": "00_原始网页归档/ind01_leshi_capital_sina.html",
+      "hash_scope": "originals_archive_member_bytes",
+      "locator": "股本结构表20150416、20150513、20150514、20150519列",
+      "support": "对应日期的总股本与流通股分列；单位万股显示三位小数。",
+      "materialization": "originals_pack_required_for_raw_bytes"
+    },
+    {
+      "source_id": "IND-01:WEB01",
+      "title": "乐视网市值超万科背后：互联网企业缘何股价翻天",
+      "url": "https://finance.people.com.cn/stock/n/2015/0517/c67815-27012241.html",
+      "publisher": "北京青年报／人民网转载",
+      "published_at": "2015-05-17T09:10:00+08:00",
+      "collected_at": "2026-11-21",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "local_dossier",
+      "original_path": null,
+      "archive_member": null,
+      "sha256": null,
+      "path": null,
+      "hash_scope": "no_original_web_bytes_saved",
+      "locator": "正文首段，web lines 28",
+      "support": "同期明确写5月13日市值1526.57亿元，支持日K×股本复算。",
+      "materialization": "review_record_in_release",
+      "evidence_record": "research/source_reconciliation.json",
+      "evidence_record_locator": "web_reading_records[source_id=IND-01:WEB01]",
+      "source_capture_kind": "web_reading_record_and_paraphrase_not_original_html",
+      "retrieval_ref": "turn701618445view0"
+    },
+    {
+      "source_id": "PBC-2015-0825-TEXT",
+      "title": "央行2015年8月25日降息降准公告（仓库提取文本）",
+      "url": "https://github.com/chengxx707/chinext-index-story/blob/8327dbd30efa5087dc91765b246252a04af693d4/data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt",
+      "publisher": "中国人民银行",
+      "published_at": "2015-08-25T18:15:34+08:00",
+      "collected_at": "2026-11-21",
+      "type": "primary",
+      "parse_status": "PARSED",
+      "provenance": "local_dossier",
+      "original_path": "data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt",
+      "archive_member": null,
+      "sha256": "568d02d7831736a3bd7f0fc9c4bfeee5745098726e54dabbc3de563860eea71e",
+      "path": "data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt",
+      "hash_scope": "repository_derived_text_bytes",
+      "locator": "仓库既有S11_F24提取文本",
+      "support": "源自央行公告的文本派生件，另保留原始HTML来源PBC-2015-0825；二者字节hash不同，不合并。",
+      "materialization": "repository",
+      "canonicalization": "One trailing newline added by transfer excluded; Git blob matched."
+    },
+    {
+      "source_id": "PEOPLE-2015-0825-1821",
+      "title": "央行再次双降（公告全文，人民网转载中国经济网）",
+      "url": null,
+      "publisher": "人民网转载中国经济网",
+      "published_at": "2015-08-25T18:21:00+08:00",
+      "collected_at": "2026-11-21",
+      "type": "contemporary",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/aug02_people_20150825_policy.html",
+      "sha256": "92d146528b9fb97a3be3ffec739d78f82dd74bd7c6520e2b6379455356da4253",
+      "path": "00_原始网页归档/aug02_people_20150825_policy.html",
+      "hash_scope": "originals_archive_member_bytes",
+      "locator": "页面刊发时间及公告全文",
+      "support": "18:21是转载页面时间，不是央行最初宣布时间。",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "canonicalization": "Original supplied bytes"
+    },
+    {
+      "source_id": "CHINA-PHOTO-20151204",
+      "title": "图刊：股民煎熬2015",
+      "url": "http://photo.china.com.cn/news/2015-12/04/content_37238094.htm",
+      "publisher": "中国网转载中国新闻网",
+      "published_at": "2015-12-04",
+      "collected_at": "2026-11-21",
+      "type": "retrospective",
+      "parse_status": "PARSED",
+      "provenance": "external_response",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/img01_china_week_20151204.html",
+      "sha256": "9a190b974c285ae6410ba05efc52aecf4aaade3a83ef57d8f7e14a4ca8e562b1",
+      "path": "00_原始网页归档/img01_china_week_20151204.html",
+      "hash_scope": "originals_archive_member_bytes",
+      "locator": "年度图刊中8月24日韦亮摄照片及图注",
+      "support": "用于照片来源定位；年终汇编刊发日不等同照片拍摄日。",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "canonicalization": "Original supplied bytes"
+    }
+  ]
+}

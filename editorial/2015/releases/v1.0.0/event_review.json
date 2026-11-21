@@ -1,0 +1,2171 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "review_basis": "用户提供原件逐项复核、冻结行情复算与明确记录的在线补充核验；不采信外部自报VERIFIED作为结论。",
+  "external_event_count": 39,
+  "events": [
+    {
+      "event_id": "E-APR-01-01",
+      "question_id": "APR-01",
+      "original_status": "VERIFIED",
+      "original_title": "中国结算《关于全面放开自然人投资者A股等账户一人一户限制的通知》发布实施",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "2015年4月13日起，A股市场全面放开自然人投资者一人一户限制。4月12日人民网已报道对外宣布；4月10日为部分同期媒体所称的通知发布实施日，未取得通知原件，不把三种时间合并。",
+      "screen_safe_copy": "2015.04.13｜A股“一人多户”实施",
+      "corrections": [
+        "原event_date=4月10日不能直接用作生效日。",
+        "“4月10日发布实施”仅有媒体转述；“4月12日仅是披露而非文件发布”不能当成已裁定事实。",
+        "中国结算官方回顾检索摘要写4月13日发布，保留差异；正文只使用无争议的实施日期。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "APR-01:S02",
+          "path": "00_原始网页归档/apr01_people_20150412.html",
+          "sha256": "53e1eeb49a6f84e5e44a10df441a371dcfa3f03aaf56eacbe90997c71a77c823",
+          "locator": "正文首段及页面时间",
+          "url": "http://finance.people.com.cn/stock/n/2015/0412/c67815-26831853.html",
+          "support": "4月12日19:33报道称中国结算12日宣布、自4月13日起放开。"
+        },
+        {
+          "source_id": "APR-01:S03",
+          "path": "00_原始网页归档/apr01_cnstock_20150413.html",
+          "sha256": "76246a90f0035a32e85a808f09d013e933ce6f80fdad8d2bf3377ae514ff3ee0",
+          "locator": "正文“在此基础上”段",
+          "url": "http://paper.cnstock.com/html/2015-04/13/content_511603.htm",
+          "support": "该媒体称10日发布实施、13日起放开，支持保留不同日期字段。"
+        },
+        {
+          "source_id": "APR-01:S04",
+          "path": "00_原始网页归档/apr01_huanqiu_20150413.html",
+          "sha256": "76f4bdfd084cf843f766c4d601501daec6c17985fa88b05c2d188a0a02d60370",
+          "locator": "正文首两段",
+          "url": "https://finance.huanqiu.com/article/9CaKrnJJSqG",
+          "support": "证券日报转载也写10日发布实施；不是通知原件。"
+        }
+      ],
+      "event_date": "2015-04-13",
+      "publication_date": "2015-04-12T19:33:00+08:00",
+      "effective_date": "2015-04-13",
+      "scope": "沪深A股自然人证券账户规则，不是创业板指专属政策",
+      "unresolved": [
+        "中国结算通知原件及最初对外公布时刻未取得。"
+      ],
+      "production_use": "MAIN",
+      "date_precision": "day",
+      "original_event_date": "2015-04-10",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-accounts-rule"
+        ],
+        "screen_lines": [
+          [
+            "2015.04.13 起",
+            "A股“一人一户”限制放开"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-APR-01-02",
+      "question_id": "APR-01",
+      "original_status": "VERIFIED",
+      "original_title": "证券账户业务指南修订版明确开户数量上限",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "同期报道所引修订指南允许同一投资者开立多个A股账户，文中上限为20个；一码通账户仍为一个。",
+      "screen_safe_copy": "自然人可开多个A股账户\n当时上限20户",
+      "corrections": [
+        "删除原key_figures的“A股+封闭式基金账户上限”加号表述，现有媒体原句不足以证明两类账户合并计算一个20户总额度。",
+        "账户数不是独立投资者人数，不能用多个子账户数代替新入市人数。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "APR-01:S02",
+          "path": "00_原始网页归档/apr01_people_20150412.html",
+          "sha256": "53e1eeb49a6f84e5e44a10df441a371dcfa3f03aaf56eacbe90997c71a77c823",
+          "locator": "正文第二段",
+          "url": "http://finance.people.com.cn/stock/n/2015/0412/c67815-26831853.html",
+          "support": "明确一码通一个、最多20个A股账户及封闭式基金账户；信用及B股一个。"
+        },
+        {
+          "source_id": "APR-01:S01",
+          "path": "00_原始网页归档/apr01_xinhua_20150413.html",
+          "sha256": "58f6b468488f5a1ccbc5c27e9329419dc557d892e5f47040efa4e5bcfff3b892",
+          "locator": "正文“根据中国结算12日晚间”段",
+          "url": "http://www.xinhuanet.com/politics/2015-04/13/c_127681812.htm",
+          "support": "支持修订指南于12日晚被报道及20户限制。"
+        }
+      ],
+      "event_date": "2015-04-12",
+      "publication_date": "2015-04-12T19:33:00+08:00",
+      "effective_date": "2015-04-13",
+      "scope": "证券账户规则（2015年当时口径）",
+      "unresolved": [
+        "完整官方指南原件未取得；本稿不展开跨市场、账户类别的法律技术细节。"
+      ],
+      "production_use": "CONTEXT",
+      "date_precision": "day",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-accounts-rule"
+        ],
+        "screen_lines": [
+          [
+            "2015.04.13 起",
+            "A股“一人一户”限制放开"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-APR-01-03",
+      "question_id": "APR-01",
+      "original_status": "DISPUTED",
+      "original_title": "一人多户开通首周（4月13—17日）A股周新增开户325.71万户",
+      "review_status": "UNRESOLVED",
+      "approved_claim": "4月13—17日新增A股账户有325.71万和328.41万两种同期媒体数字。325.71万与168.09万基数、93.77%环比近似自洽，但原始周报缺失，不能据算术裁定另一数值必为笔误。",
+      "screen_safe_copy": null,
+      "corrections": [
+        "保留争议，不择取325.71万作无保留大字数字。",
+        "统计区间是4月13—17日；4月17日只是区间终点，不是已公开信息日。",
+        "325.71/328.41均为开户账户口径，不能称325万新股民。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "APR-01:S05",
+          "path": "00_原始网页归档/apr01_people_20150422.html",
+          "sha256": "931c114b0dec8cabefc7a54797235fce43557d14bb8535618ffee6597c7652b7",
+          "locator": "正文“根据中国结算昨天公布的信息”及此前四周段",
+          "url": "http://finance.people.com.cn/stock/n/2015/0422/c67815-26884427.html",
+          "support": "记录325.71万、93.77%、168.09万，4月22日刊发。"
+        },
+        {
+          "source_id": "APR-01:S06",
+          "path": "00_原始网页归档/apr01_paper_20150429.html",
+          "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64",
+          "locator": "正文第三段",
+          "url": "https://thepaper.cn/newsDetail_forward_1325946",
+          "support": "记录4月17日当周328.41万、约93%，与另一稿冲突。"
+        }
+      ],
+      "event_date": {
+        "start": "2015-04-13",
+        "end": "2015-04-17"
+      },
+      "publication_date": "2015-04-22",
+      "effective_date": null,
+      "scope": "新增沪深A股账户，周度；账户不是人数",
+      "unresolved": [
+        "中国结算原始周报仍缺失，差异原因未明。",
+        "S05“期末持仓A股账户数60152万户”异常，不擅自改为6015.2万。"
+      ],
+      "production_use": "APPENDIX",
+      "date_precision": "range",
+      "market_anchor": "2015-04-17",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-APR-01-04",
+      "question_id": "APR-01",
+      "original_status": "PARTIALLY_VERIFIED",
+      "original_title": "4月20—24日A股周新增开户413.03万户，环比增26.81%",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "同期报道引中国结算4月28日公布的数据：4月20—24日新增A股账户413.03万户，环比26.81%。现有多家稿件可相互核对报道值，官方周报原表仍未取得。",
+      "screen_safe_copy": "4月20—24日\nA股新增账户413.03万户\n同期报道引中国结算",
+      "corrections": [
+        "删除“反推基数一致所以证明两周同统计口径”的论证；算术一致不是统计定义证据。",
+        "屏幕主日期如用4月28日，应注明“公布”；统计周另写4月20—24日。",
+        "原始文件名20150429不代表文章日期，澎湃页面实际4月28日20:37，已在收盘后。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "APR-01:S06",
+          "path": "00_原始网页归档/apr01_paper_20150429.html",
+          "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64",
+          "locator": "页面时间、正文首段",
+          "url": "https://thepaper.cn/newsDetail_forward_1325946",
+          "support": "4月28日20:37报道，明确统计周4.20–4.24、413.03万和26.81%。"
+        },
+        {
+          "source_id": "APR-01:WEB01",
+          "path": null,
+          "sha256": null,
+          "locator": "web正文lines55–60",
+          "url": "https://finance.sina.com.cn/stock/quanshang/qsyj/20150429/061922070393.shtml",
+          "support": "上海证券报同值，避免只凭一个错误混杂的澎湃页面。"
+        },
+        {
+          "source_id": "APR-01:WEB02",
+          "path": null,
+          "sha256": null,
+          "locator": "web正文lines31–34",
+          "url": "https://www.chinanews.com/stock/2015/04-29/7242808.shtml",
+          "support": "给出精确4130328户与统计发布4月28日。"
+        }
+      ],
+      "event_date": {
+        "start": "2015-04-20",
+        "end": "2015-04-24"
+      },
+      "publication_date": "2015-04-28T20:37:00+08:00",
+      "effective_date": null,
+      "scope": "新增沪深A股账户，周度；不等同独立投资者人数或创业板开户",
+      "unresolved": [
+        "官方周报原表未取得；保留媒体转述来源标注。"
+      ],
+      "production_use": "MAIN",
+      "date_precision": "range",
+      "market_anchor": "2015-04-28",
+      "display_clock": "2015-04-28T20:37:00+08:00",
+      "candle_link": {
+        "start": "2015-04-20",
+        "end": "2015-04-24"
+      },
+      "publication_time_basis": "包内澎湃页面时间；不声称为全网最早公布时刻",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-accounts-week"
+        ],
+        "screen_lines": [
+          [
+            "4月20—24日 · 新增A股账户",
+            "413.03 万户"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-APR-01-05",
+      "question_id": "APR-01",
+      "original_status": "PARTIALLY_VERIFIED",
+      "original_title": "4月24日期末账户与交易参与规模",
+      "review_status": "PARTIAL",
+      "approved_claim": "同期媒体引中国结算周报：期末股票账户约2.01亿户，期末持仓A股账户6236.98万户，当周参与交易A股账户4338.08万户。B股账户260.03万户只由本包单一媒体转述支持。",
+      "screen_safe_copy": "同期A股交易参与账户\n4338.08万户（当周）",
+      "corrections": [
+        "期末存量、期间参与交易、不同证券账户类别必须分别标明；禁止合成一个“股民人数”。",
+        "两亿是股票账户总量，不能写两亿名投资者或两亿创业板账户。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "APR-01:S06",
+          "path": "00_原始网页归档/apr01_paper_20150429.html",
+          "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64",
+          "locator": "正文末段",
+          "url": "https://thepaper.cn/newsDetail_forward_1325946",
+          "support": "四项量值见原文，B股260.03万仅此来源。"
+        },
+        {
+          "source_id": "APR-01:WEB01",
+          "path": null,
+          "sha256": null,
+          "locator": "web正文lines57–60",
+          "url": "https://finance.sina.com.cn/stock/quanshang/qsyj/20150429/061922070393.shtml",
+          "support": "交叉支持A股参与交易和持仓账户。"
+        },
+        {
+          "source_id": "APR-01:WEB02",
+          "path": null,
+          "sha256": null,
+          "locator": "web正文lines31–34",
+          "url": "https://www.chinanews.com/stock/2015/04-29/7242808.shtml",
+          "support": "交叉支持2.01亿、4338.08万、6236.98万。"
+        }
+      ],
+      "event_date": {
+        "start": "2015-04-20",
+        "end": "2015-04-24"
+      },
+      "publication_date": "2015-04-28T20:37:00+08:00",
+      "effective_date": null,
+      "scope": "沪深证券账户存量及周交易参与账户；三类指标不能混算",
+      "unresolved": [
+        "官方周报原表未取得；B股260.03万不进主片。"
+      ],
+      "production_use": "APPENDIX",
+      "date_precision": "range",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IND-01-01",
+      "question_id": "IND-01",
+      "original_status": "VERIFIED",
+      "original_title": "乐视网2014年度权益分派：10派0.46元并10转12，股本由8.41亿股增至18.51亿股",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "乐视网2014年度权益分派公告署名2015年5月5日：每10股派现0.46元（含税）、转增12股；登记日5月12日，除权除息及转增股起始交易日5月13日。公告基数841190063股、转增1009428076股、转增后1850618138股存在1股加总差异。",
+      "screen_safe_copy": null,
+      "corrections": [
+        "841190063+1009428076=1850618139，较公告所列新股本多1股，保留原文不静默修正。",
+        "新浪显示185061.814万股，精度为0.001万股（10股）；折算1850618140与公告差2股，可由显示精度解释但未证实具体取整规则。",
+        "公告署名5月5日不等于已证明全网首次公开日；cninfo路径为2015-05-06。",
+        "市值只能用不复权价×对应当日总股本；转增不构成同额新增财富。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "IND-01:S01",
+          "path": "00_原始网页归档/ind01_leshi_dividend_20150505.pdf",
+          "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7",
+          "locator": "PDF p1第二、三节；p2第六、七节；p3署名",
+          "url": "http://static.cninfo.com.cn/finalpage/2015-05-06/1200968345.PDF",
+          "support": "原件明确金额、股本、登记及除权日期；已渲染p1目视核对。"
+        },
+        {
+          "source_id": "LETV-CAPITAL-HISTORY",
+          "path": "00_原始网页归档/ind01_leshi_capital_sina.html",
+          "sha256": "2255b4cbcd6e73f58640781bbb47540f7ff7efa063f691aa032a8e795954a0dd",
+          "locator": "HTML股本结构20150513、20150416两列",
+          "url": null,
+          "support": "总股本以万股显示为185061.814与84119.006。"
+        },
+        {
+          "source_id": "IND-01:S01",
+          "path": null,
+          "sha256": null,
+          "locator": "在线PDF lines13,19,37,39,67",
+          "url": "https://static.cninfo.com.cn/finalpage/2015-05-06/1200968345.PDF",
+          "support": "在线关键正文支持用户归档内容，未进行在线字节SHA比较。"
+        }
+      ],
+      "event_date": "2015-05-05",
+      "publication_date": null,
+      "effective_date": "2015-05-13",
+      "scope": "300104公司行动；用于市值口径校正，不作为399006价格变化",
+      "unresolved": [
+        "1股加总差异尚未找到更正公告；不影响约1656亿这一级别展示。"
+      ],
+      "production_use": "APPENDIX",
+      "date_precision": "day",
+      "document_date": "2015-05-05",
+      "archive_path_date": "2015-05-06",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IND-01-02",
+      "question_id": "IND-01",
+      "original_status": "PARTIALLY_VERIFIED",
+      "original_title": "乐视网股价122元，市值首破千亿",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "用户提供的不复权日K中，2015年4月28日乐视网收盘122.00元，按当期公告股本估算收盘市值约1026.25亿元；4月27日日高120.18元已对应约1010.94亿元。",
+      "screen_safe_copy": "2015.04.28｜乐视网\n收盘总市值超过1000亿元",
+      "corrections": [
+        "“4月28日首次突破千亿”必须限定收盘；不能称首次盘中突破，4月27日已有反例。",
+        "不沿用“第五家中国互联网公司”名次，需要跨上市地、行业范围与汇率统一样本。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "LETV-RAW-DAILY",
+          "path": "00_原始网页归档/ind01_leshi_kline_sina_raw.json",
+          "sha256": "f556d7098c44bd79f84e263db6a8484a411649b19a5f5525a027fb1fadf1aece",
+          "locator": "日K day=2015-04-27与2015-04-28",
+          "url": null,
+          "support": "4/27 high120.180；4/28 close122.000。"
+        },
+        {
+          "source_id": "IND-01:S01",
+          "path": "00_原始网页归档/ind01_leshi_dividend_20150505.pdf",
+          "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7",
+          "locator": "PDF p1第二节",
+          "url": "http://static.cninfo.com.cn/finalpage/2015-05-06/1200968345.PDF",
+          "support": "转增前总股本841190063股。"
+        },
+        {
+          "source_id": "IND-01:S02",
+          "path": "00_原始网页归档/ind01_21jingji_20200720.html",
+          "sha256": "d222866483f8cc495347f735aeec641873e4f2fa58d3b98dcd430a076cdc57cf",
+          "locator": "正文叙述2015年4月28日段",
+          "url": "https://m.21jingji.com/article/20200720/herald/531ff83ea55df366fa6daaed667d358e_zaker.html",
+          "support": "回溯报道支持122元与千亿量级，但其“一度”不证明首次。"
+        }
+      ],
+      "event_date": "2015-04-28",
+      "publication_date": null,
+      "effective_date": null,
+      "scope": "300104总市值估算，非创业板指权重或点位",
+      "unresolved": [
+        "价格来自用户提供的第三方日线，未取得交易所原始日线。"
+      ],
+      "production_use": "CONTEXT",
+      "date_precision": "day",
+      "market_anchor": "2015-04-28",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IND-01-03",
+      "question_id": "IND-01",
+      "original_status": "VERIFIED",
+      "original_title": "5月12日（股权登记日）收报179.03元，总市值突破1500亿元",
+      "review_status": "SUPPORTED",
+      "approved_claim": "2015年5月12日乐视网不复权收盘179.03元，公告转增前总股本841190063股，复算总市值1505.98亿元；该日为股权登记日。",
+      "screen_safe_copy": "2015.05.12｜乐视网\n收盘总市值超过1500亿元",
+      "corrections": [
+        "179.03元为转增前不复权价，不能与次日82.49元直接计算跌幅。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "LETV-RAW-DAILY",
+          "path": "00_原始网页归档/ind01_leshi_kline_sina_raw.json",
+          "sha256": "f556d7098c44bd79f84e263db6a8484a411649b19a5f5525a027fb1fadf1aece",
+          "locator": "日K day=2015-05-12",
+          "url": null,
+          "support": "close179.030。"
+        },
+        {
+          "source_id": "IND-01:S01",
+          "path": "00_原始网页归档/ind01_leshi_dividend_20150505.pdf",
+          "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7",
+          "locator": "PDF p1第二、三节",
+          "url": "http://static.cninfo.com.cn/finalpage/2015-05-06/1200968345.PDF",
+          "support": "股本841190063、登记日5/12。"
+        },
+        {
+          "source_id": "IND-01:S02",
+          "path": "00_原始网页归档/ind01_21jingji_20200720.html",
+          "sha256": "d222866483f8cc495347f735aeec641873e4f2fa58d3b98dcd430a076cdc57cf",
+          "locator": "正文5月12日段",
+          "url": "https://m.21jingji.com/article/20200720/herald/531ff83ea55df366fa6daaed667d358e_zaker.html",
+          "support": "回溯报道179.03元、突破1500亿。"
+        }
+      ],
+      "event_date": "2015-05-12",
+      "publication_date": null,
+      "effective_date": null,
+      "scope": "300104收盘总市值；单家公司背景",
+      "unresolved": [
+        "未取得交易所原始日线；已按包内门户数据与公告复算。"
+      ],
+      "production_use": "CONTEXT",
+      "date_precision": "day",
+      "market_anchor": "2015-05-12",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IND-01-04",
+      "question_id": "IND-01",
+      "original_status": "VERIFIED",
+      "original_title": "5月13日除权日盘中市值最高约1656亿元，收盘1526.89亿元——1600亿下界首次出现在该日盘中",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "2015年5月13日乐视网不复权日高89.50元、收盘82.49元；按公告新股本1850618138股，盘中最高总市值约1656.30亿元，收盘约1526.57亿元。",
+      "screen_safe_copy": "2015.05.13｜乐视网\n盘中总市值约1656亿元",
+      "corrections": [
+        "原回溯稿收盘1526.89亿元与82.49×1850618138不符，改为复算1526.57；同期北京青年报也报1526.57。",
+        "“最早突破1600亿”需完整更早历史及逐期股本；本片不用首次字样。",
+        "分笔数据不是验证日内最高价的必要条件：可信日K high足以用于日高估算；但第三方数据仍须保留来源层级。",
+        "5/13的盘中高低不能凭日K虚构精确到分钟的行进过程。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "LETV-RAW-DAILY",
+          "path": "00_原始网页归档/ind01_leshi_kline_sina_raw.json",
+          "sha256": "f556d7098c44bd79f84e263db6a8484a411649b19a5f5525a027fb1fadf1aece",
+          "locator": "日K day=2015-05-13",
+          "url": null,
+          "support": "high89.500、close82.490。"
+        },
+        {
+          "source_id": "IND-01:S01",
+          "path": "00_原始网页归档/ind01_leshi_dividend_20150505.pdf",
+          "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7",
+          "locator": "PDF p1第二、三节",
+          "url": "http://static.cninfo.com.cn/finalpage/2015-05-06/1200968345.PDF",
+          "support": "新股本1850618138、除权日5/13。"
+        },
+        {
+          "source_id": "IND-01:WEB01",
+          "path": null,
+          "sha256": null,
+          "locator": "web正文首段line28",
+          "url": "https://finance.people.com.cn/stock/n/2015/0517/c67815-27012241.html",
+          "support": "同期报道1526.57亿元，与重算一致。"
+        },
+        {
+          "source_id": "IND-01:S02",
+          "path": "00_原始网页归档/ind01_21jingji_20200720.html",
+          "sha256": "d222866483f8cc495347f735aeec641873e4f2fa58d3b98dcd430a076cdc57cf",
+          "locator": "正文5月13日段",
+          "url": "https://m.21jingji.com/article/20200720/herald/531ff83ea55df366fa6daaed667d358e_zaker.html",
+          "support": "盘中1656亿可与日高复算核对；1526.89作为冲突值保留不采用。"
+        }
+      ],
+      "event_date": "2015-05-13",
+      "publication_date": null,
+      "effective_date": null,
+      "scope": "300104盘中最高总市值估算，与399006指数点位分区展示",
+      "unresolved": [
+        "未取得交易所原始日K；公告股本1股内部差异仍保留。"
+      ],
+      "production_use": "MAIN",
+      "date_precision": "day",
+      "market_anchor": "2015-05-13",
+      "display_price_basis": "intraday_high",
+      "causal_claim": false,
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-letv"
+        ],
+        "screen_lines": [
+          [
+            "企业背景 · 乐视网",
+            "盘中总市值超过 1,600 亿元"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IND-01-05",
+      "question_id": "IND-01",
+      "original_status": "REJECTED",
+      "original_title": "“1700亿市值下界”在2015年5月无证据支持",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "按用户包2015年5月全部20个交易日的不复权日高及当期股本复算，月内最高总市值约1656.30亿元（5月13日），未达到1700亿元。此为本包数据及口径限定结论，不能用单日回溯文章当作整月检验。",
+      "screen_safe_copy": null,
+      "corrections": [
+        "撤回旧审核仅凭5月13日1656亿就否定整个5月的推理。",
+        "现已逐日检查全部5月日K并检查股本变化后得出限定结论；不宣称已核验交易所完整原始行情或历史所有时点。",
+        "“1700亿”不进入主片，也不把审核争论做成屏幕事件。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "LETV-RAW-DAILY",
+          "path": "00_原始网页归档/ind01_leshi_kline_sina_raw.json",
+          "sha256": "f556d7098c44bd79f84e263db6a8484a411649b19a5f5525a027fb1fadf1aece",
+          "locator": "2015-05-04至2015-05-29全部20行",
+          "url": null,
+          "support": "逐日high×当期股本，max=1656.30323351亿元。"
+        },
+        {
+          "source_id": "IND-01:S01",
+          "path": "00_原始网页归档/ind01_leshi_dividend_20150505.pdf",
+          "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7",
+          "locator": "PDF p1第二节",
+          "url": "http://static.cninfo.com.cn/finalpage/2015-05-06/1200968345.PDF",
+          "support": "5/13前后股本切换。"
+        },
+        {
+          "source_id": "LETV-CAPITAL-HISTORY",
+          "path": "00_原始网页归档/ind01_leshi_capital_sina.html",
+          "sha256": "2255b4cbcd6e73f58640781bbb47540f7ff7efa063f691aa032a8e795954a0dd",
+          "locator": "20150513/14/19股本列",
+          "url": null,
+          "support": "5/14、5/19股本未相对5/13改变，不可把流通股变化误作总股本扩张。"
+        }
+      ],
+      "event_date": {
+        "start": "2015-05-01",
+        "end": "2015-05-31"
+      },
+      "publication_date": null,
+      "effective_date": null,
+      "scope": "2015年5月、门户不复权日线×当期总股本，不是分钟级路径",
+      "unresolved": [
+        "交易所原始日线未取得；旧1700亿原句究竟指何口径仍未找到。"
+      ],
+      "production_use": "APPENDIX",
+      "date_precision": "range",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IND-01-06",
+      "question_id": "IND-01",
+      "original_status": "VERIFIED",
+      "original_title": "5月22日乐视网市值1487.71亿元居创业板首位；同期创业板总市值5.94万亿、平均129.75亿",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "2015年5月25日广州日报报道（中新网转载）回顾5月22日：乐视网收盘80.39元，总市值约1487.71亿元。本文还报道创业板上市公司整体总市值5.94万亿元、458家公司平均129.75亿元；这是板块公司总体口径。",
+      "screen_safe_copy": "2015.05.22｜乐视网\n收盘总市值约1487.71亿元",
+      "corrections": [
+        "5月25日是文章刊发日，5月22日是数据日。",
+        "创业板公司总市值5.94万亿不是创业板指100只成份的总市值，也不是指数权重。",
+        "只使用已复算乐视数字及明确归属的同期背景，不整段继承报道其他未核数字或预测。",
+        "报告中的3516.63指数收盘须由项目冻结CSV再核，本分审计不把新闻点位替代CSV。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "IND-01:S03",
+          "path": "00_原始网页归档/ind01_cnnews_20150525.utf8.html",
+          "sha256": "3d29b3cacf13ffe11bd7b12f8003df69c8e15800b3ad1488f06b237ad94261d4",
+          "locator": "正文“5月22日，乐视网再次迎来涨停”及市值狂飙两段",
+          "url": "http://www.chinanews.com/stock/2015/05-25/7298231.shtml",
+          "support": "明确80.39、1487.71及458家板块公司统计。"
+        },
+        {
+          "source_id": "LETV-RAW-DAILY",
+          "path": "00_原始网页归档/ind01_leshi_kline_sina_raw.json",
+          "sha256": "f556d7098c44bd79f84e263db6a8484a411649b19a5f5525a027fb1fadf1aece",
+          "locator": "日K day=2015-05-22",
+          "url": null,
+          "support": "close80.390。"
+        },
+        {
+          "source_id": "IND-01:S01",
+          "path": "00_原始网页归档/ind01_leshi_dividend_20150505.pdf",
+          "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7",
+          "locator": "PDF p1第二节",
+          "url": "http://static.cninfo.com.cn/finalpage/2015-05-06/1200968345.PDF",
+          "support": "80.39×1850618138/1e8=1487.71亿元。"
+        }
+      ],
+      "event_date": "2015-05-22",
+      "publication_date": "2015-05-25T09:28:00+08:00",
+      "effective_date": null,
+      "scope": "公司市值与创业板上市公司板块总量，须与399006成份范围区分",
+      "unresolved": [
+        "板块5.94万亿、77只超200亿未获得当时交易所统计原表；仅可作为署名媒体背景。"
+      ],
+      "production_use": "CONTEXT",
+      "date_precision": "day",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IND-01-07",
+      "question_id": "IND-01",
+      "original_status": "PARTIALLY_VERIFIED",
+      "original_title": "2015年6月30日创业板指前十大样本及权重：东方财富6.57%、乐视网3.96%",
+      "review_status": "UNRESOLVED",
+      "approved_claim": "外部JSON称2020年新浪转载文章的图片显示2015年6月30日东方财富6.57%、乐视网3.96%；当前包只有HTML和图片外链，未提供该权重截图文件，也未取得官方历史权重表，不能把外部AI转写值视为独立图像复核。",
+      "screen_safe_copy": null,
+      "corrections": [
+        "精确权重暂不进入主片。",
+        "原附图所示日期若为6/30，也不能当作5月或6/5同样权重。",
+        "总市值排名不等于指数权重排名。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "IND-01:S05",
+          "path": "00_原始网页归档/ind01_sina_20200612.html",
+          "sha256": "0f70c239a97c621e7c70510a8a4bca9d142630ceeed7111e8493c71aaac4056c",
+          "locator": "文章正文“五年前，乐视网...”及内嵌图片外链",
+          "url": "https://finance.sina.com.cn/money/fund/fundzmt/2020-06-12/doc-iirczymk6685824.shtml",
+          "support": "正文可支持该回溯作者称乐视当时为第二大权重，但3.96和6.57为外部AI截图读数，未在此HTML可检索正文独立重现。"
+        }
+      ],
+      "event_date": "2015-06-30",
+      "publication_date": "2020-06-12T19:38:00+08:00",
+      "effective_date": null,
+      "scope": "399006历史样本权重候选值，非总市值比值",
+      "unresolved": [
+        "缺原始权重截图文件及官方历史成份权重表。"
+      ],
+      "production_use": "APPENDIX",
+      "date_precision": "day",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IND-01-08",
+      "question_id": "IND-01",
+      "original_status": "DISPUTED",
+      "original_title": "“乐视网是创业板指第一大权重股、占比超5%”与2015年6月样本权重表冲突",
+      "review_status": "EXCLUDE",
+      "approved_claim": "不同时点的“曾是第一大权重、超过5%”与“2015年6月30日第二、3.96%”可以同时成立；当前材料不足以把二者判成事实冲突，也不足以核验任一未定位日期的精确最大权重。",
+      "screen_safe_copy": null,
+      "corrections": [
+        "撤回“两种说法不能同时成立”的逻辑判断。",
+        "原事件称人民网2019-05-11报道，但source_ids只有2018中证网和2020新浪文章，没有对应2019原文；缺引用。",
+        "中证网2018文章的总市值/自由流通市值/成交金额各1/3是其描述的样本选取排序，不可直接写成指数实时加权公式。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "IND-01:S04",
+          "path": "00_原始网页归档/ind01_cs_20180404.html",
+          "sha256": "ba7408e2b76e83470bfd037bd3fd1b210452cba99fe93690274ed22ba5d03913",
+          "locator": "正文样本规则及“具体到乐视网”段",
+          "url": "https://www.cs.com.cn/tzjj/201804/t20180404_5766433.html",
+          "support": "包含2011初始权重1.2%及作者估算贡献，没有2019-05-11人民网“第一超过5%”这条原始证据。"
+        },
+        {
+          "source_id": "IND-01:S05",
+          "path": "00_原始网页归档/ind01_sina_20200612.html",
+          "sha256": "0f70c239a97c621e7c70510a8a4bca9d142630ceeed7111e8493c71aaac4056c",
+          "locator": "正文及图片外链",
+          "url": "https://finance.sina.com.cn/money/fund/fundzmt/2020-06-12/doc-iirczymk6685824.shtml",
+          "support": "是2020年回顾特定历史截面，不能否定其他日期曾超过5%。"
+        }
+      ],
+      "event_date": null,
+      "publication_date": "2019-05-11（外部JSON声称，未核）",
+      "effective_date": null,
+      "scope": "跨期权重比较的审核问题，不是2015年市场事件",
+      "unresolved": [
+        "未取得被引用2019年人民网原文及其明确历史时点。"
+      ],
+      "production_use": "EXCLUDE",
+      "date_precision": "unknown",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-JUN-01-01",
+      "question_id": "JUN-01",
+      "original_status": "VERIFIED",
+      "original_title": "证监会下发《关于加强证券公司信息系统外部接入管理的通知》（证监办发〔2015〕35号）",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "6月12日证监会在新闻发布会确认已下发外部接入管理通知，并重申证券公司不得通过网上证券交易接口为场外配资活动、非法证券业务提供便利。",
+      "screen_safe_copy": [
+        "2015.06.12｜证监会重申",
+        "不得通过证券交易接口为场外配资提供便利"
+      ],
+      "corrections": [
+        "6月12日为公开答问/确认日，35号通知签发日、下发日和单独施行日未由现有正文确定。",
+        "6月12日不得被写成导致6月3日或6月5日高点形成的原因。",
+        "深圳监管局页面属于“媒体之声”转载，不能仅因域名为监管机关就称该页是35号通知原件。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "JUN-01:S01",
+          "path": "00_原始网页归档/jun01_csrc_20150612.html",
+          "sha256": "4795d91867e01fbc78d160952f3cdb6752f73f786934c09ebe578021e444ab6e",
+          "locator": "第一问答、五项要求及“在此，我会再次重申”段",
+          "url": "http://www.csrc.gov.cn/csrc/c100029/c1000237/content.shtml",
+          "support": "公开确认通知已下发、五项监管要求、禁止为场外配资提供接口便利。"
+        },
+        {
+          "source_id": "SAC-2015-124",
+          "path": "00_原始网页归档/jun01_sac_20150612.html",
+          "sha256": "28a088b4303446b97ec030a0ff0501a217cb65d0da70b1a4a20828c4bdf3ee86",
+          "locator": "引言制定依据",
+          "url": "https://www.sac.net.cn/flfg/zlgz/201507/t20150713_14302.html",
+          "support": "明确引用证监办发[2015]35号，辅助确认文号。"
+        }
+      ],
+      "event_date": "2015-06-12",
+      "publication_date": "2015-06-12",
+      "effective_date": null,
+      "scope": "证券公司信息系统外部接入；全市场监管背景，不是创业板专属政策。",
+      "unresolved": [
+        "35号通知正式签发及下发日期、完整独立正文仍未取得。"
+      ],
+      "production_use": "MAIN",
+      "causal_claim": false,
+      "event_date_meaning": "public_press_conference",
+      "first_publication_time": null,
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-access-rules"
+        ],
+        "screen_lines": [
+          [
+            "6月12日 · 证监会公开答问",
+            "加强券商外部接入监管"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-JUN-01-02",
+      "question_id": "JUN-01",
+      "original_status": "VERIFIED",
+      "original_title": "中证协发布《证券公司外部接入信息系统评估认证规范》，自下发之日起不得接入新的未认证系统",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "中证协发[2015]124号规范正文标明2015年6月12日发布，并规定自发布之日起实施；新增外部系统须经过评估认证，存量系统在自查整改完成后申请认证。",
+      "screen_safe_copy": [
+        "2015.06.12｜外部接入认证规范",
+        "不得新增未经评估认证的外部信息系统"
+      ],
+      "corrections": [
+        "已取得中证协规范全文，旧JSON“规范正文未取得”应更新。",
+        "网页显示发布时间2015-07-13，正文写6月12日发布；二者单独保存。",
+        "不得把新增禁止接入改写为当天一刀切关停全部存量。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "SAC-2015-124",
+          "path": "00_原始网页归档/jun01_sac_20150612.html",
+          "sha256": "28a088b4303446b97ec030a0ff0501a217cb65d0da70b1a4a20828c4bdf3ee86",
+          "locator": "题头、第二条、第三条末段、第十二条",
+          "url": "https://www.sac.net.cn/flfg/zlgz/201507/t20150713_14302.html",
+          "support": "文件发布日、实施条款、增量与存量不同处理。"
+        },
+        {
+          "source_id": "JUN-01:S02",
+          "path": "00_原始网页归档/jun01_csrc_sz_20150615.html",
+          "sha256": "e7e49b6ba01c71578e1f1329c2c22a26790035b216bc0e103cbfd8f5f59f23c4",
+          "locator": "首段及“《规范》规定”段",
+          "url": "http://www.csrc.gov.cn/shenzhen/c105616/c1313662/content.shtml",
+          "support": "6月15日同期转载称协会12日已发布，辅助排除页面7月13日即规范首发日的误读。"
+        }
+      ],
+      "event_date": "2015-06-12",
+      "publication_date": "2015-07-13",
+      "effective_date": "2015-06-12",
+      "scope": "证券公司外部接入系统；存量与新增分别规定。",
+      "unresolved": [],
+      "production_use": "CONTEXT",
+      "causal_claim": false,
+      "event_date_meaning": "document_release_date",
+      "page_timestamp_is_original_release": false,
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-JUN-01-03",
+      "question_id": "JUN-01",
+      "original_status": "VERIFIED",
+      "original_title": "清理整顿违法证券业务活动意见：7月底前后完成券商外部接入自查核实",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "证监会7月12日公布19号公告《清理整顿违法从事证券业务活动的意见》，自公布日起施行；要求证监局于7月底前后完成对券商自查情况的核实，中证协从8月开展认证。",
+      "screen_safe_copy": [
+        "2015.07.12｜清理整顿违法证券业务",
+        "规范外部接入，核实账户实名制"
+      ],
+      "corrections": [
+        "已取得官网全文，旧JSON“意见原文未取得”过时。",
+        "“7月底前后”对应证监局核实工作，不是声称7月底全部市场清理已完成。",
+        "第四条允许35号通知发布前的存量按规定逐步规范，不能概括为当日全部关闭。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "CSRC-2015-19",
+          "path": "00_原始网页归档/jun02_csrc_gg2015_19.html",
+          "sha256": "841ef82391cfe8dd079f9020c88a15c6336b88008d0805aed822d1a362791f41",
+          "locator": "公告题头、落款、意见第一/四/七条",
+          "url": "https://www.csrc.gov.cn/csrc/c100028/c1001903/content.shtml",
+          "support": "公布日期、立即施行、自查核实、存量过渡及禁止新增。"
+        }
+      ],
+      "event_date": "2015-07-12",
+      "publication_date": "2015-07-12",
+      "effective_date": "2015-07-12",
+      "scope": "全市场违法证券业务清理；不是创业板个别公司公告。",
+      "unresolved": [],
+      "production_use": "MAIN",
+      "causal_claim": false,
+      "market_anchor": "2015-07-13",
+      "market_anchor_reason": "Sunday announcement; preserve Sunday date and show next trading day only as observation",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-cleanup"
+        ],
+        "screen_lines": [
+          [
+            "2015.07.12 · 周日",
+            "清理整顿违法从事证券业务活动"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-JUN-01-04",
+      "question_id": "JUN-01",
+      "original_status": "PARTIALLY_VERIFIED",
+      "original_title": "6月18日沪深两融余额2.273万亿元，为历史峰值",
+      "review_status": "PARTIAL",
+      "approved_claim": "中国证券报8月27日文章回顾称，6月18日沪深融资融券余额约2.273万亿元，为当时纪录；主片若使用2.27万亿元，必须说明是截至6月18日的事后统计。",
+      "screen_safe_copy": [
+        "截至2015.06.18｜沪深两融余额约2.27万亿元",
+        "事后统计｜来源：中国证券报2015.08.27"
+      ],
+      "corrections": [
+        "统计观察日为6月18日；包内已读报道公开日是8月27日07:43，不能把它伪装成6月18日当时已发布的新闻。",
+        "“历史峰值”须限为当时纪录，避免宣称截至2026年仍为历史最高。",
+        "融资融券余额是存量统计；余额下降不能直接写成市场资金净流出。",
+        "删除“连续14日净流出”与“大半个月减少8000余亿”作为独立已核验数字的标记。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "JUN-01:S04",
+          "path": "00_原始网页归档/jun01_ce_20150827.utf8.html",
+          "sha256": "b1bf94bda7be8b8ee284e117df7e798beb55a9c3ab71035bfe8617c532c6f904",
+          "locator": "“从‘爆仓’到主动‘避险’”下以“6月15日”起段",
+          "url": "http://finance1.ce.cn/rolling/201508/27/t20150827_6334472.shtml",
+          "support": "明确回顾6月18日余额2.273万亿元；未附交易所日报原表。"
+        }
+      ],
+      "event_date": "2015-06-18",
+      "publication_date": "2015-08-27",
+      "effective_date": null,
+      "scope": "沪深两市融资融券余额；既不是创业板余额，也不是融资净买入额。",
+      "unresolved": [
+        "两所2015-06-18原始日报未取得。",
+        "该统计的首次公开披露时间未知。"
+      ],
+      "production_use": "CONTEXT",
+      "causal_claim": false,
+      "event_date_meaning": "balance_observation_date",
+      "first_publication_time": null,
+      "temporal_mode": "retrospective_metric_only",
+      "same_day_news_eligible": false,
+      "exact_original_value": {
+        "value": "2.273",
+        "unit": "万亿元"
+      },
+      "display_value": {
+        "value": "2.27",
+        "unit": "万亿元",
+        "rounding": "2 decimal places"
+      },
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-margin-context"
+        ],
+        "screen_lines": [
+          [
+            "截至6月18日 · 沪深两融余额",
+            "约 2.27 万亿元",
+            "事后统计回顾"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-JUN-01-05",
+      "question_id": "JUN-01",
+      "original_status": "PARTIALLY_VERIFIED",
+      "original_title": "国泰君安申购日（T日）网上网下合计冻结资金约2.35万亿元",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "国泰君安网上、网下申购缴款于6月18日结束。6月20日公告转载披露网上冻结资金1,336,567,266,720元、网下有效申购资金100,990,295.10万元；两数合计2.34647021772万亿元，同期媒体概括为约2.35万亿元。",
+      "screen_safe_copy": [
+        "2015.06.18｜国泰君安新股申购",
+        "后续披露：申购相关资金合计约2.35万亿元"
+      ],
+      "corrections": [
+        "网上冻结资金与网下有效申购缴款保留各自统计名称；不得把合计当作永久退出股市的资金。",
+        "发行数量15.25亿股，申购资金不是发行实际募资额。",
+        "6月18日是申购缴款结束日；可定位的公告日期为6月20日，同期中证网称6月19日晚公告；不能假定日内已知全部结果。",
+        "并非全部沪深新股批次冻结7万亿元的证据。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "JUN-01:S05",
+          "path": "00_原始网页归档/jun01_cs_20150620.utf8.html",
+          "sha256": "e25e2adb9b1cd6441e027198ce26ba17c421c07b116942f38502b2c7626c26a8",
+          "locator": "正文首两段",
+          "url": "https://www.cs.com.cn/ssgs/gsxw/201506/t20150620_4740024.html",
+          "support": "6月19日晚公告、网上与网下数字、约2.35万亿媒体概括。"
+        },
+        {
+          "source_id": "GTJA-2015-0620",
+          "path": "research/evidence/gtja_20150620_reading_record.json",
+          "sha256": "159d7b2bac9f63f0f288fc1b294a71ee00655dc4a1bed6e492eed2672b09d52a",
+          "locator": "公告日期、重要提示第3项、第一/二部分；网页L52、L76–L81、L96–L103",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=1840359&stockid=601211",
+          "support": "发行人公告转载直接支持申购缴款日期、足额缴款和两项资金数字。",
+          "hash_scope": "curated_reading_record_bytes_not_original_page"
+        }
+      ],
+      "event_date": "2015-06-18",
+      "publication_date": "2015-06-20",
+      "effective_date": null,
+      "scope": "国泰君安单只IPO网上与网下申购；全A股资金面背景。",
+      "unresolved": [
+        "未保存交易所原始公告PDF或逐日冻结/解冻账表。"
+      ],
+      "production_use": "APPENDIX",
+      "causal_claim": false,
+      "event_date_meaning": "subscription_payment_end",
+      "earliest_reported_publication": "2015-06-19 evening (contemporary media)",
+      "exact_intraday_availability": null,
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-JUN-01-06",
+      "question_id": "JUN-01",
+      "original_status": "PARTIALLY_VERIFIED",
+      "original_title": "“本轮新股冻结资金可能超过7万亿元”属申购前的媒体预估，不是已发生数据",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "《经济日报》6月18日刊文预测，本轮新股申购冻结资金可能超过文中所称上一批的7万亿元。这是预测，不能作为本轮已发生数据。",
+      "screen_safe_copy": [],
+      "corrections": [
+        "原稿“上批冻结资金7万亿”的数字不因被引用即成为独立核验结果。",
+        "文中为本报6月17日讯、6月18日刊出；明确保存采写与刊出差异。",
+        "没有本轮11只新股合计已实现冻结规模证据。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "JUN-01:S06",
+          "path": "00_原始网页归档/jun01_econ_20150618.html",
+          "sha256": "fb923a64614a86b9f3fb077b607d158e029a99776a622b3f0b3f24b2fb4f1e6b",
+          "locator": "第08版，最后两段与开头电头",
+          "url": "http://paper.ce.cn/jjrb/html/2015-06/18/content_244636.htm",
+          "support": "确实为“可能会超过”的预期表述；同篇具名投顾认为影响不明显，不能截取前半段制造确定因果。"
+        }
+      ],
+      "event_date": "2015-06-18",
+      "publication_date": "2015-06-18",
+      "effective_date": null,
+      "scope": "同期媒体预测；非已实现统计。",
+      "unresolved": [
+        "本批次合计实际冻结资金未取得。"
+      ],
+      "production_use": "APPENDIX",
+      "causal_claim": false,
+      "claim_type": "attributed_forecast",
+      "on_screen_enabled": false,
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-JUN-02-01",
+      "question_id": "JUN-02",
+      "original_status": "VERIFIED",
+      "original_title": "央行6月27日17时宣布：定向降准0.5个百分点并下调存贷款基准利率，均自6月28日起执行",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "6月27日央行公布定向降准与下调存贷款基准利率，6月28日起执行。部分符合条件银行定向降准0.5个百分点，财务公司3个百分点；一年期贷款与存款基准利率各降0.25个百分点至4.85%和2%。",
+      "screen_safe_copy": [
+        "2015.06.27｜央行宣布定向降准、降息",
+        "6月28日起执行"
+      ],
+      "corrections": [
+        "17:03:28是央行答记者问网页时间，不能作为决定公告首次发布的精确秒级时刻。",
+        "文件名含20150628不表示页面发布日期是6月28日。",
+        "定向降准不能写成所有银行统一降准0.5个百分点。",
+        "周末政策应保留6月27/28日历日期，不给非交易日伪造K线。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "JUN-02:S01",
+          "path": "00_原始网页归档/jun02_pbc_20150628.html",
+          "sha256": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e",
+          "locator": "网页时间、问答2/3",
+          "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113472/2876973/index.html",
+          "support": "6月27日17:03:28页面时刻、定向范围及未普降说明。"
+        },
+        {
+          "source_id": "JUN-02:S02",
+          "path": "00_原始网页归档/jun02_people_20150627.utf8.html",
+          "sha256": "d9c1a04e8763f8ba6ac1d588ed18f8ba8bf3a3f2af0c6fe5f59e6e5c840cd08a",
+          "locator": "正文前两段",
+          "url": "http://politics.people.com.cn/n/2015/0627/c70731-27217699.html",
+          "support": "6月28日实施、利率降幅及调整后数值。"
+        }
+      ],
+      "event_date": "2015-06-27",
+      "publication_date": "2015-06-27",
+      "effective_date": "2015-06-28",
+      "scope": "货币政策与银行体系；不是创业板专项流入。",
+      "unresolved": [
+        "决定公告首次公开的准确时分秒未确认。"
+      ],
+      "production_use": "MAIN",
+      "causal_claim": false,
+      "publication_timestamp": "2015-06-27T17:03:28+08:00",
+      "timestamp_subject": "PBC Q&A webpage, not proven first announcement",
+      "market_anchor": "2015-06-29",
+      "market_anchor_reason": "First trading day after weekend; not evidence of a causal reaction",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-june-weekend"
+        ],
+        "screen_lines": [
+          [
+            "2015.06.27 · 周六公布",
+            "降息与定向降准",
+            "6月28日起实施"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-JUN-02-02",
+      "question_id": "JUN-02",
+      "original_status": "VERIFIED",
+      "original_title": "21家证券公司联合公告：按6月底净资产15%出资、合计不低于1200亿元投资蓝筹股ETF",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "7月4日21家证券公司联合公告，按6月底净资产15%出资，合计不低于1200亿元用于投资蓝筹股ETF；上证综指4500点以下的自营不减持条件是另一条款。",
+      "screen_safe_copy": [
+        "2015.07.04｜21家券商联合公告",
+        "承诺出资≥1200亿元，投资蓝筹股ETF"
+      ],
+      "corrections": [
+        "15%是公告所列比例，原字段“出资比例下限”不准确；不低于适用于合计1200亿元。",
+        "承诺金额不等于7月4日已买入金额，更不是已买入创业板金额。",
+        "4500点条件对应上证综指，禁止将该数字贴在创业板K线上。",
+        "PDF来自西南证券7月股东大会材料，附件转载7月4日联合公告，不能把7月16日披露或7月23日会议当事件日。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "JUN-02:S03",
+          "path": "00_原始网页归档/jun02_people_20150704.utf8.html",
+          "sha256": "8104a5583902b90d6f120c78f7e519649a3f038670dcd5d5cfe67eede15c42f6",
+          "locator": "会议决定第一、二条",
+          "url": "http://finance.people.com.cn/n/2015/0704/c1004-27253875.html",
+          "support": "同期联合公告报道与准确比例、金额下限、资产及上证条件。"
+        },
+        {
+          "source_id": "JUN-02:S04",
+          "path": "00_原始网页归档/jun02_cninfo_20150716.pdf",
+          "sha256": "b65b53508d225ad25adfe2a89d3b02adb407a4dea45dddaec32311890928fe78",
+          "locator": "PDF物理第6页/印刷5/5页，附件第一、二条；已渲染查看",
+          "url": "https://static.cninfo.com.cn/finalpage/2015-07-16/1201298862.PDF",
+          "support": "西南证券会议材料包含联合公告全文；署7月4日。"
+        }
+      ],
+      "event_date": "2015-07-04",
+      "publication_date": "2015-07-04",
+      "effective_date": null,
+      "scope": "21家券商投资蓝筹ETF承诺；不是创业板专项政策。",
+      "unresolved": [
+        "本条来源不支持具体到账时刻或实际买入规模。"
+      ],
+      "production_use": "MAIN",
+      "causal_claim": false,
+      "market_anchor": "2015-07-06",
+      "market_anchor_reason": "Saturday announcement; Monday is observation only",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-brokers"
+        ],
+        "screen_lines": [
+          [
+            "7月4日 · 21家券商",
+            "承诺 ≥1,200亿元",
+            "投资蓝筹股ETF"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-JUN-02-03",
+      "question_id": "JUN-02",
+      "original_status": "VERIFIED",
+      "original_title": "沪深28家已获IPO批文公司7月4日晚公告暂缓发行，10家已申购公司退回申购款",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "7月4日晚，28家已获IPO批文公司公告暂缓后续发行。报道列出的10家已于7月3日启动申购者将退回申购资金；7月5日晚发言人表示近期将没有新股发行、发行审核工作不停止。",
+      "screen_safe_copy": [
+        "2015.07.04晚｜28家公司暂缓发行",
+        "已申购者将退回申购资金"
+      ],
+      "corrections": [
+        "“退回”应为宣布将退回，不能声称7月4日周六已全部退款到账。",
+        "原件仅称下周退款，缺逐家公司退款公告；不锁定全部7月6日完成。",
+        "已证实28家公司暂缓和官方表态，不把“未找到统一决定”写成“官方从未决定暂停IPO”的否定事实。",
+        "页面外层7月5日14:06，内文转载原稿7月5日09:23:43，两时刻不是IPO公告时刻。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "JUN-02:S06",
+          "path": "00_原始网页归档/jun02_people_20150705.utf8.html",
+          "sha256": "923550dc71e187bf526ac5fae875614aec1c38645b05f009048dbba272170976",
+          "locator": "“28只新股暂缓发行”和“已缴款IPO下周退款”段",
+          "url": "http://finance.people.com.cn/money/n/2015/0705/c42877-27256027.html",
+          "support": "28家名单、7月4日晚公告、10家7月3日申购、将退款。"
+        },
+        {
+          "source_id": "JUN-02:S05",
+          "path": "00_原始网页归档/jun02_people_20150706.utf8.html",
+          "sha256": "5fa86f4618b121c050c160e8b9746bd91fc5b6be3ea862bba35759c7439ebccc",
+          "locator": "邓舸7月5日晚回应段",
+          "url": "http://finance.people.com.cn/money/n/2015/0706/c42877-27257935.html",
+          "support": "近期无新股发行、审核不停。"
+        }
+      ],
+      "event_date": "2015-07-04",
+      "publication_date": "2015-07-05",
+      "effective_date": null,
+      "scope": "28家拟上市公司发行安排；不等于全部资本市场融资永久停止。",
+      "unresolved": [
+        "各家公司准确退款日、退款总额未逐一核实。"
+      ],
+      "production_use": "APPENDIX",
+      "causal_claim": false,
+      "market_anchor": "2015-07-06",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-JUN-02-04",
+      "question_id": "JUN-02",
+      "original_status": "VERIFIED",
+      "original_title": "证监会7月5日晚公告：发挥证金公司作用，央行以多种形式给予流动性支持；证金公司拟增资至约1000亿元",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "approved_claim": "7月5日证监会17号公告写明，央行将协助通过多种形式给予证金公司流动性支持。证金公司由240亿元增资至约1000亿元是7月3日另行公布的安排。",
+      "screen_safe_copy": [
+        "2015.07.05｜证监会公告",
+        "央行将通过多种形式支持证金公司流动性"
+      ],
+      "corrections": [
+        "已取得17号公告原件，不能继续称只剩媒体转述。",
+        "支持措施保留“将”字，公告不披露具体支持金额、到账时刻或实际买入规模。",
+        "将增资事项从7月5日公告拆开：官方原页日期7月3日，17号正文没有240/1000亿元。",
+        "证金增资、券商出资、央行支持不是可直接相加的同口径资金。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "CSRC-2015-17",
+          "path": "00_原始网页归档/jun02_csrc_gg2015_17.html",
+          "sha256": "c676d67ee4985a2e0c76b12f11d8923de68e26c6efce119c9ce4782ccd3b4ba6",
+          "locator": "公告全文及落款",
+          "url": "https://www.csrc.gov.cn/csrc/c101799/c1003755/content.shtml",
+          "support": "7月5日17号公告与流动性支持的未来表述。"
+        },
+        {
+          "source_id": "CSRC-2015-0703",
+          "path": "research/evidence/csrc_20150703_excerpt.json",
+          "sha256": "8d04db888badc988813bb13ed2be5c06c5a1286f7ed41d282b317ca886d95b07",
+          "locator": "官网正文L32、L36",
+          "url": "https://www.csrc.gov.cn/csrc/c100028/c1001913/content.shtml",
+          "support": "7月3日第三次增资扩股安排，240亿至约1000亿。",
+          "hash_scope": "curated_reading_record_bytes_not_original_page"
+        }
+      ],
+      "event_date": "2015-07-05",
+      "publication_date": "2015-07-05",
+      "effective_date": null,
+      "scope": "证金公司获得流动性支持的政策安排；不代表399006的实际资金流入。",
+      "unresolved": [
+        "首次公告准确钟点、实际支持和买入金额未由本条证据确定。"
+      ],
+      "production_use": "MAIN",
+      "causal_claim": false,
+      "market_anchor": "2015-07-06",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-liquidity"
+        ],
+        "screen_lines": [
+          [
+            "2015.07.05 · 证监会公告",
+            "央行将给予证金公司",
+            "多种形式的流动性支持"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-JUN-02-05",
+      "question_id": "JUN-02",
+      "original_status": "NEEDS_EXTERNAL_RESEARCH",
+      "original_title": "“开盘先由证金公司垫资入市”“1200亿周一11点前到位”为媒体引述，非公告数据",
+      "review_status": "EXCLUDE",
+      "approved_claim": null,
+      "screen_safe_copy": [],
+      "corrections": [
+        "所列S03和S05均不含“开盘先垫资”“11点到账”证据；原输入未提供声称存在的未具名消息原报道。",
+        "缺少证据不等于该事被证明没有发生。",
+        "新找到7月8日官方问答的问句提到7月6日21家券商出资1280亿元，但没有11点时刻或开盘垫资细节，不能据此补出这两个事实。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "JUN-02:S03",
+          "path": "00_原始网页归档/jun02_people_20150704.utf8.html",
+          "sha256": "8104a5583902b90d6f120c78f7e519649a3f038670dcd5d5cfe67eede15c42f6",
+          "locator": "联合公告第一条",
+          "url": "http://finance.people.com.cn/n/2015/0704/c1004-27253875.html",
+          "support": "仅承诺金额与用途，不支持具体到账时刻。"
+        },
+        {
+          "source_id": "CSRC-2015-17",
+          "path": "00_原始网页归档/jun02_csrc_gg2015_17.html",
+          "sha256": "c676d67ee4985a2e0c76b12f11d8923de68e26c6efce119c9ce4782ccd3b4ba6",
+          "locator": "公告正文",
+          "url": "https://www.csrc.gov.cn/csrc/c101799/c1003755/content.shtml",
+          "support": "仅流动性支持措施，不支持开盘垫资说法。"
+        }
+      ],
+      "event_date": "2015-07-06",
+      "publication_date": "2015-07-06",
+      "effective_date": null,
+      "scope": "未证实的资金执行传闻。",
+      "unresolved": [
+        "“11点前到账”和“开盘先垫资”原始报道、具名归因及执行凭据未取得。"
+      ],
+      "production_use": "EXCLUDE",
+      "causal_claim": false,
+      "publication_date_meaning": "claimed_in_external_submission_not_independently_confirmed",
+      "on_screen_enabled": false,
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-AUG-01-01",
+      "question_id": "AUG-01",
+      "original_status": "VERIFIED",
+      "review_status": "SUPPORTED",
+      "original_title": "央行8月11日公布：完善人民币兑美元汇率中间价报价，做市商参考上日收盘汇率报价",
+      "approved_claim": "2015年8月11日央行宣布完善人民币兑美元中间价报价机制，当日起做市商报价参考上日银行间外汇市场收盘汇率，并综合考虑供求和主要货币变化。",
+      "screen_safe_copy": "8月11日\n人民币中间价报价机制调整",
+      "corrections": [],
+      "source_evidence": [
+        {
+          "source_id": "AUG-01:S01",
+          "path": "00_原始网页归档/aug01_cnnews_20150811.html",
+          "sha256": "941ecc931f4fc903e179f3a20506bfd618fbdc6e6eba37cd825df38b9b993211",
+          "locator": "正文首段及公告引述段",
+          "url": "http://www.chinanews.com.cn/m/cj/2015/08-11/7459747.shtml",
+          "support": "同期中新网按央行网站消息引述机制及生效日"
+        },
+        {
+          "source_id": "AUG-01:S02",
+          "path": "00_原始网页归档/aug01_icbc_fx_2015.pdf",
+          "sha256": "c13e9b384c4afdd491afe26d6648706e66694e5d264158e34f9917c27f740a33",
+          "locator": "PDF第5页声明全文",
+          "url": "http://v.icbc.com.cn/userfiles/Resources/ICBC/licai/2016/2015%E5%B9%B4%E4%BA%BA%E6%B0%91%E5%B8%81%E6%B1%87%E7%8E%87%E5%A4%A7%E4%BA%8B%E8%AE%B0.pdf",
+          "support": "机构汇编保存声明文本"
+        }
+      ],
+      "event_date": "2015-08-11",
+      "publication_date": "2015-08-11",
+      "effective_date": "2015-08-11",
+      "scope": "人民币兑美元中间价规则；同期宏观环境，不是创业板下跌的单一已证实原因。",
+      "unresolved": [
+        "未取得央行原始页面独立首发时间。"
+      ],
+      "production_use": "MAIN",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-fx"
+        ],
+        "screen_lines": [
+          [
+            "2015.08.11",
+            "人民币中间价报价机制调整"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-AUG-01-02",
+      "question_id": "AUG-01",
+      "original_status": "PARTIALLY_VERIFIED",
+      "review_status": "PARTIAL",
+      "original_title": "8月11日中间价较前一日跌1136点；8月12日9时15分公布6.3306，再贬1000余点",
+      "approved_claim": "工商银行汇编所引中国金融信息网稿称8月11日人民币中间价调贬1136点；8月12日9:15公布1美元兑人民币6.3306元。",
+      "screen_safe_copy": "8月12日\n美元兑人民币中间价 6.3306",
+      "corrections": [
+        "将“点”理解为外汇报价点，不是利率基点或百分比；1点在该四位小数报价中为0.0001元。",
+        "原记录event_date=8/11但包含8/12报价，拆开或标8/11—12；如只显示6.3306须锚定8/12。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "AUG-01:S02",
+          "path": "00_原始网页归档/aug01_icbc_fx_2015.pdf",
+          "sha256": "c13e9b384c4afdd491afe26d6648706e66694e5d264158e34f9917c27f740a33",
+          "locator": "PDF第4页，已渲染并目检",
+          "url": "http://v.icbc.com.cn/userfiles/Resources/ICBC/licai/2016/2015%E5%B9%B4%E4%BA%BA%E6%B0%91%E5%B8%81%E6%B1%87%E7%8E%87%E5%A4%A7%E4%BA%8B%E8%AE%B0.pdf",
+          "support": "1136点、9:15、6.3306均在正文"
+        }
+      ],
+      "event_date": "2015-08-11/2015-08-12",
+      "publication_date": "2016（汇编）",
+      "effective_date": null,
+      "scope": "银行间外汇中间价，非创业板行情。",
+      "unresolved": [
+        "未保存交易中心直接逐日发布表；精确时刻只有机构汇编引述。"
+      ],
+      "production_use": "APPENDIX",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "date_precision": "range",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-AUG-01-03",
+      "question_id": "AUG-01",
+      "original_status": "VERIFIED",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "original_title": "8月财新制造业PMI初值47.1于8月21日09:43发布，晚于A股9:30开盘",
+      "approved_claim": "2015年8月21日发布的8月财新中国制造业PMI初值为47.1，7月终值47.8；财新存档文章页面显示09:43:10。",
+      "screen_safe_copy": "8月21日\n财新制造业 PMI 初值 47.1",
+      "corrections": [
+        "文章时间戳不是数据首次发布证明。删除“开盘13分钟后才公开”和据此断言不能影响开盘。",
+        "上屏事件精度降为day；09:43:10仅作source publication metadata。",
+        "初值与9月公布的8月终值不同，不互换。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "AUG-01:S03",
+          "path": "00_原始网页归档/aug01_caixin_20150821.html",
+          "sha256": "30c9afb1acb5504cf3431f0a9a11baada78fb66396281d42db1f2bfac3e7e1ca",
+          "locator": "标题、文章时间与正文首两段",
+          "url": "https://pmi.caixin.com/2015-08-21/100842072.html",
+          "support": "47.1、47.8和文章时间可见；无首发时刻证据"
+        }
+      ],
+      "event_date": "2015-08-21",
+      "publication_date": "2015-08-21T09:43:10+08:00",
+      "effective_date": null,
+      "scope": "制造业调查初值；可作同期宏观背景，不能由同日关系推出创业板走势因果。",
+      "unresolved": [
+        "精确首次公开时刻未在已归档的发布方原始新闻稿中核准；英文网站另一文章09:45不能直接替代此证据。"
+      ],
+      "production_use": "MAIN",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "date_precision": "day",
+      "announcement_at": null,
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-pmi"
+        ],
+        "screen_lines": [
+          [
+            "同期宏观背景",
+            "财新制造业PMI初值 47.1"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-AUG-02-01",
+      "question_id": "AUG-02",
+      "original_status": "PARTIALLY_VERIFIED",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "original_title": "8月21日A股盘中失守3600点，跌逾3%；同日09:43公布的PMI初值47.1",
+      "approved_claim": "财新8月21日午盘稿记载上证综指午间报3552.82点、跌3.04%，创业板指午间报2388.71点、跌4.79%；同日有PMI初值47.1发布。",
+      "screen_safe_copy": "8月21日\n宏观数据与市场波动同处这一时段",
+      "corrections": [
+        "保留午盘口径，不能用2388.71当日收盘。",
+        "删除PMI09:43首次公开推断。",
+        "原引文声称完整PMI首段但已保存可见正文只有概述，不据外部AI摘录补出付费墙后正文。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "AUG-02:S06",
+          "path": "00_原始网页归档/aug02_caixin_20150821.html",
+          "sha256": "d2b0224212285b145ba805b86eb8bea24edfb9466cb24940b3e6a79ff06d3d67",
+          "locator": "付费墙前正文，午间休盘段",
+          "url": "https://finance.caixin.com/2015-08-21/100842146.html",
+          "support": "午盘四指数数值及PMI偏弱概述"
+        }
+      ],
+      "event_date": "2015-08-21",
+      "publication_date": "2015-08-21T11:30:11+08:00",
+      "effective_date": null,
+      "scope": "沪指与创业板午盘行情，与日K收盘分开。",
+      "unresolved": [],
+      "production_use": "APPENDIX",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-AUG-02-02",
+      "question_id": "AUG-02",
+      "original_status": "VERIFIED",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "original_title": "8月24日沪指收跌8.49%、创业板指收跌8.08%，两市2107只个股跌停",
+      "approved_claim": "2015年8月24日创业板指收2152.61点，跌8.08%；上证综指收3209.91点，跌8.49%；沪深成交额按报道合计6317亿元。",
+      "screen_safe_copy": "8月24日\n创业板指 2152.61\n当日 −8.08%",
+      "corrections": [
+        "所引中新网收盘稿没有2107只跌停、2285只下跌、仅15只收红的正文支持，全部从批准声明删除。",
+        "另澎湃存档给2092只跌停，说明不能混用未注明统计时点/范围的精确家数。",
+        "图集上证3210.91与当日收盘稿冲突；数字以行情CSV和独立收盘稿核对。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "AUG-02:S04",
+          "path": "00_原始网页归档/aug02_cnnews_20150824.utf8.html",
+          "sha256": "2c05174756eea1fa77f1a91a92d539ffced8c71b102ff65c9e9e5d28915f277c",
+          "locator": "截至收盘段",
+          "url": "http://www.chinanews.com/stock/2015/08-24/7485800.shtml",
+          "support": "上证、深成指、创业板点位涨跌及成交额"
+        },
+        {
+          "source_id": "IMG-01:S02",
+          "path": "00_原始网页归档/img01_paper_20150824.html",
+          "sha256": "a8e6dd6f6f31b6d8944c17071da5e0cc779527b077fa759921193d4d913c02b1",
+          "locator": "首段行情及跌停统计段",
+          "url": "https://m.thepaper.cn/newsDetail_forward_1367613",
+          "support": "创业板/上证收盘互证；跌停数2092与外部2107不一致"
+        }
+      ],
+      "event_date": "2015-08-24",
+      "publication_date": "2015-08-24T15:28:19+08:00",
+      "effective_date": null,
+      "scope": "创业板日收盘为主；上证与沪深合计另标口径。",
+      "unresolved": [],
+      "production_use": "MAIN",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-gap-two"
+        ],
+        "screen_lines": [
+          [
+            "8月24日 · 完整向下缺口 ②",
+            "2,152.61 · 单日 −8.08%"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-AUG-02-03",
+      "question_id": "AUG-02",
+      "original_status": "VERIFIED",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "original_title": "8月25日沪指再跌7.63%至2964.97点，创业板指1990.71点重回“1”时代；两日累计跌15.47%",
+      "approved_claim": "8月25日创业板指收1990.71点。按前日2152.61复算当日跌幅约7.52%；中国网转载新京报所述两日跌15.47%指上证综指，7.26万亿指沪深两市总市值。",
+      "screen_safe_copy": "8月25日\n创业板指 1990.71\n当日 −7.52%",
+      "corrections": [
+        "将标题“两日累计跌15.47%”明确限定上证；不可贴到创业板。",
+        "8/24—25两日区间基点是8/21收盘；原核验笔记用8/24收盘再减两天总跌点是错误校验。",
+        "市值变化不等于每位账户实际亏损，不使用“户均损失14万”。",
+        "最大连续两日跌幅未完成全历史检查，不上屏最高级。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "AUG-02:S05",
+          "path": "00_原始网页归档/aug02_china_20150826.html",
+          "sha256": "90665ff1a7a3d4bbf6c924a30aa98195cadd257b23823e6d01a526f5c3c2b3d1",
+          "locator": "正文前四段与两市市值段",
+          "url": "https://finance.china.com.cn/stock/dp/20150826/3309440.shtml",
+          "support": "1990.71、上证两日15.47%、沪深总市值减少7.26万亿明确分属不同范围"
+        },
+        {
+          "source_id": "AUG-02:S04",
+          "path": "00_原始网页归档/aug02_cnnews_20150824.utf8.html",
+          "sha256": "2c05174756eea1fa77f1a91a92d539ffced8c71b102ff65c9e9e5d28915f277c",
+          "locator": "8月24日收盘段",
+          "url": "http://www.chinanews.com/stock/2015/08-24/7485800.shtml",
+          "support": "用于前日基点2152.61"
+        }
+      ],
+      "event_date": "2015-08-25",
+      "publication_date": "2015-08-26T02:31:13+08:00",
+      "effective_date": null,
+      "scope": "日K优先取仓库同源CSV；跨指数比较需完整标签。",
+      "unresolved": [],
+      "production_use": "MAIN",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "derived_checks": {
+        "daily_return_from_contemporary_close": "-7.521102289778454991847106540"
+      },
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-gap-three"
+        ],
+        "screen_lines": [
+          [
+            "8月25日 · 完整向下缺口 ③",
+            "1,990.71 · 单日 −7.52%"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-AUG-02-04",
+      "question_id": "AUG-02",
+      "original_status": "PARTIALLY_VERIFIED",
+      "review_status": "PARTIAL",
+      "original_title": "8月18—24日两融余额连续5个交易日净流出，降至1.25万亿元",
+      "approved_claim": "中国网8月26日转载新京报并引Wind称，8月18—24日两融余额连续减少，文中“目前”余额约1.25万亿元。",
+      "screen_safe_copy": null,
+      "corrections": [
+        "媒体“余额净流出”改写为余额下降，不等同现金净流出、平仓金额或创业板资金流。",
+        "1.25万亿截止日不能仅由“目前”精确锚定8/24，故不进主画面。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "AUG-02:S05",
+          "path": "00_原始网页归档/aug02_china_20150826.html",
+          "sha256": "90665ff1a7a3d4bbf6c924a30aa98195cadd257b23823e6d01a526f5c3c2b3d1",
+          "locator": "以“与此同时，两融也迅速出逃”开头一段",
+          "url": "https://finance.china.com.cn/stock/dp/20150826/3309440.shtml",
+          "support": "媒体引Wind的余额变化与约数"
+        }
+      ],
+      "event_date": "2015-08-24",
+      "publication_date": "2015-08-26T02:31:13+08:00",
+      "effective_date": null,
+      "scope": "沪深场内融资融券余额；不是创业板指数的资金流量。",
+      "unresolved": [
+        "未取得交易所逐日表；1.25万亿的精确统计截止日未核准。"
+      ],
+      "production_use": "APPENDIX",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-AUG-02-05",
+      "question_id": "AUG-02",
+      "original_status": "VERIFIED",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "original_title": "央行双降于8月25日傍晚公布（18:21前已见转载），晚于当日15:00收盘",
+      "approved_claim": "央行8月25日公告页面标2015-08-25 18:15:34；公告宣布8月26日起一年期贷款/存款基准利率各下调0.25个百分点至4.60%/1.75%，9月6日起普遍下调存款准备金率0.5个百分点并对特定机构额外下调。",
+      "screen_safe_copy": "8月25日 · 收盘后\n央行宣布降息、降准\n降息8/26生效｜降准9/6生效",
+      "corrections": [
+        "19:16是央广评论稿时间，不是央行公告首发时刻。18:21是另一人民网转载稿时间。",
+        "18:15:34记录为央行页面显示时刻，不夸大为绝对最早传播时刻。",
+        "原source_ids错误指向收盘稿/新京报；改用仓库央行声明、实际People政策稿和CNR全文。",
+        "7.63%是沪指8/25跌幅，不称“A股统一跌7.63%”；创业板数字另算。",
+        "8/25政策在日K收盘后出现，不能演成开盘前利好或直接造成当日跌幅。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "PBC-2015-0825",
+          "path": "repo:assets/source_documents/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html",
+          "sha256": "3cd114631219630b1bb3cfaa5ccaa480ed10f44de7b8b34aa815bd0deada3a2e",
+          "locator": "span#shijian及公告正文两段",
+          "url": "https://github.com/chengxx707/chinext-index-story/blob/8327dbd30efa5087dc91765b246252a04af693d4/assets/source_documents/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html",
+          "support": "原始HTML字节Git blob匹配；页面18:15:34及8/26、9/6分开的生效日"
+        },
+        {
+          "source_id": "PBC-2015-0825-TEXT",
+          "path": "repo:data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt",
+          "sha256": "568d02d7831736a3bd7f0fc9c4bfeee5745098726e54dabbc3de563860eea71e",
+          "locator": "央行标题后的18:15:34与政策正文两段；Git blob 706044ee2bdbbc8080681aaf4bc20f44f0f4b843已核对",
+          "url": "https://github.com/chengxx707/chinext-index-story/blob/8327dbd30efa5087dc91765b246252a04af693d4/data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt",
+          "support": "直接存档支持日期、时刻、幅度与分开的生效日"
+        },
+        {
+          "source_id": "PEOPLE-2015-0825-1821",
+          "path": "00_原始网页归档/aug02_people_20150825_policy.html",
+          "sha256": "92d146528b9fb97a3be3ffec739d78f82dd74bd7c6520e2b6379455356da4253",
+          "locator": "文章时间18:21及正文",
+          "url": null,
+          "support": "同期转载互证政策内容"
+        },
+        {
+          "source_id": "CNR-2015-0825-FULL",
+          "path": "00_原始网页归档/aug03_cnr_20150825_quan.html",
+          "sha256": "0b8f838791371217bc671c1a54441022dca2ef68137fdd420daf717e0f6aa254",
+          "locator": "文章时间19:16和首两段",
+          "url": "https://m.cnr.cn/news/20150825/t20150825_519657152.html",
+          "support": "后续评论发布，不是首发"
+        }
+      ],
+      "event_date": "2015-08-25",
+      "publication_date": "2015-08-25T18:15:34+08:00",
+      "effective_date": {
+        "rate_cut": "2015-08-26",
+        "rrr_cut": "2015-09-06"
+      },
+      "scope": "货币政策；日K层面表现为盘后事件。",
+      "unresolved": [],
+      "production_use": "MAIN",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "announcement_at": "2015-08-25（盘后；页面时刻18:15:34）",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-august-policy"
+        ],
+        "screen_lines": [
+          [
+            "2015.08.25 · 盘后",
+            "央行公布降息降准安排",
+            "8月26日起降息 · 9月6日起降准"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-AUG-03-01",
+      "question_id": "AUG-03",
+      "original_status": "VERIFIED",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "original_title": "央广8月25日19:16刊发对向松祚的采访，谈的是股市与宏观经济，不是创业板指数",
+      "approved_claim": "8月25日19:16央广网刊发向松祚（时任中国农业银行首席经济学家）接受经济之声采访的文稿，其中谈到稳定流动性的紧迫性。",
+      "screen_safe_copy": "“当前稳定流动性更加关键。”\n向松祚｜央广经济之声，2015.08.25",
+      "corrections": [
+        "19:16是网页发布时间，不等同采访录音时刻或广播实际播出时刻。",
+        "删除“连续两天跌幅8%以上已核对为沪指”结论：上证8/25为−7.63%，原话不能作为准确行情。",
+        "采访未明确给指数，不替其补定指数口径；观点不变成模型事实判定或单因果解释。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "CNR-2015-0825-FULL",
+          "path": "00_原始网页归档/aug03_cnr_20150825_quan.html",
+          "sha256": "0b8f838791371217bc671c1a54441022dca2ef68137fdd420daf717e0f6aa254",
+          "locator": "首问最后一句“当前稳定流动性更加关键。”及受访者介绍",
+          "url": "https://m.cnr.cn/news/20150825/t20150825_519657152.html",
+          "support": "原文短引与姓名职务、来源、网页日期可核"
+        },
+        {
+          "source_id": "AUG-03:S07",
+          "path": "00_原始网页归档/aug03_cnr_20150825.html",
+          "sha256": "2d5d44cec23acda4d6221606b2248c47f432e88ec01caa9fd1c41cfa292e1a07",
+          "locator": "移动版文章时间及采访内容",
+          "url": "https://m.cnr.cn/news/20150825/t20150825_519657152.html",
+          "support": "同一稿件另一存档"
+        }
+      ],
+      "event_date": "2015-08-25",
+      "publication_date": "2015-08-25T19:16:00+08:00",
+      "effective_date": null,
+      "scope": "具名同期观点；署名必须与引文同屏，非客观因果定论。",
+      "unresolved": [
+        "完整音频和实际播出时段未获得。"
+      ],
+      "production_use": "MAIN",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "quote_exact": "当前稳定流动性更加关键。",
+      "quote_type": "contemporary_attributed_view",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-voice"
+        ],
+        "screen_lines": [
+          [
+            "“当前稳定流动性更加关键。”",
+            "向松祚 · 央广经济之声"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-AUG-03-02",
+      "question_id": "AUG-03",
+      "original_status": "VERIFIED",
+      "review_status": "UNRESOLVED",
+      "original_title": "同期具名机构观点：何帆称“筑底”、屈宏斌称六年新低、张瑜提“破7”风险",
+      "approved_claim": "现有财新两份存档不能支持外部JSON为三位人士编列的完整具名评论；不得按外部VERIFIED直接采用。",
+      "screen_safe_copy": null,
+      "corrections": [
+        "午盘正文在付费墙前只有行情和概述，所称何帆/屈宏斌/张瑜引文未在已获正文出现。",
+        "PMI新闻存档也没有三位人士的相应评论；页面推荐链接出现人名不能当正文证据。",
+        "“破7”在原研究语境指经济增速，不可改写为人民币破7；但原话尚未核准，全部暂不上屏。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "AUG-03:S06",
+          "path": "00_原始网页归档/aug02_caixin_20150821.html",
+          "sha256": "d2b0224212285b145ba805b86eb8bea24edfb9466cb24940b3e6a79ff06d3d67",
+          "locator": "正文至“请付费阅读”",
+          "url": "https://finance.caixin.com/2015-08-21/100842146.html",
+          "support": "已有可读范围未含研究JSON列出的三段观点"
+        },
+        {
+          "source_id": "AUG-03:S03",
+          "path": "00_原始网页归档/aug01_caixin_20150821.html",
+          "sha256": "30c9afb1acb5504cf3431f0a9a11baada78fb66396281d42db1f2bfac3e7e1ca",
+          "locator": "PMI正文三段",
+          "url": "https://pmi.caixin.com/2015-08-21/100842072.html",
+          "support": "已有正文支持PMI数值，不支持三位评论"
+        }
+      ],
+      "event_date": "2015-08-21",
+      "publication_date": "2015-08-21",
+      "effective_date": null,
+      "scope": "待复核具名观点，不用对付费墙后内容做推定。",
+      "unresolved": [
+        "需要可核验的发表方正文或原新闻稿来确认各段引文。",
+        "搜索发现第三方托管Caixin/Markit样式PDF和英文网页09:45线索；未获得发布方原始新闻稿的原始字节与来源链，未升级。"
+      ],
+      "production_use": "EXCLUDE",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IMG-01-01",
+      "question_id": "IMG-01",
+      "original_status": "VERIFIED",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "original_title": "中新社8月24日多地证券营业部现场原拍可查：昆明、南京、海口，摄影者具名",
+      "approved_claim": "2015年8月24日16:39中新网图集含6张昆明、南京、海口证券营业部照片，各有摄影者署名；首图明确写8月24日，其余5图处于同一组图日期语境。当前已取得这6张网页尺寸JPEG。",
+      "screen_safe_copy": "2015.08.24 · 昆明\n中新社发 刘冉阳 摄",
+      "corrections": [
+        "不能说每张独立图注都明确写8/24：仅首图写日期，另5张按同组上下文归属并应保留此证据等级。",
+        "更新旧“无JPG”状态：文件已存在，但属于媒体网页副本，不是通讯社相机原件。",
+        "图注行情数字有错误；选用日期、城市、署名，不照搬其上证点位。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "IMG-01:S01",
+          "path": "00_原始网页归档/img01_cnnews_20150824.html",
+          "sha256": "472d2d29eafb8860868a63b814b7355290624bebffbb5509c53b9e45c2ef6030",
+          "locator": "context_pictj六组图片及pictext，首组日期、各组摄影者",
+          "url": "http://www.chinanews.com/m/tp/hd/2015/0824/71156.shtml",
+          "support": "网页图源和图注链可核；图像文件亦实际解码查看"
+        }
+      ],
+      "event_date": "2015-08-24",
+      "publication_date": "2015-08-24T16:39:00+08:00",
+      "effective_date": null,
+      "scope": "证券营业部历史现场；画面中的行情屏不是创业板指数专属屏幕。",
+      "unresolved": [
+        "未提供公开发布/转载授权凭据；可先作内部布局候选，最终公开素材准入单独处理。"
+      ],
+      "production_use": "CONTEXT",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-trading-floor"
+        ],
+        "screen_lines": [
+          [
+            "2015.08.24 · 昆明证券交易大厅"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IMG-01-02",
+      "question_id": "IMG-01",
+      "original_status": "VERIFIED",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "original_title": "新华社8月24日洛阳营业部现场照，张怡熙摄",
+      "approved_claim": "新浪8月25日转载新华网的文章内有洛阳营业厅照片，图注明确8月24日、河南洛阳和新华社发张怡熙摄。当前已取得550×385网页JPEG。",
+      "screen_safe_copy": "2015.08.24 · 洛阳\n新华社发 张怡熙 摄",
+      "corrections": [
+        "拍摄图注8/24与转载发布日期8/25分开；未取得新华社当日原发页，不能将新浪发稿时间前推。",
+        "文件已到手不等于通讯社高清原件或授权。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "IMG-01:S03",
+          "path": "00_原始网页归档/img01_sina_20150825.utf8.html",
+          "sha256": "376b9713c6a2d577ee0e6237909cc629b751064182071c0757425e1292263f92",
+          "locator": "首张img alt及img_descr",
+          "url": "https://finance.sina.com.cn/china/20150825/084723055074.shtml",
+          "support": "日期、地点与摄影者逐项可读"
+        }
+      ],
+      "event_date": "2015-08-24",
+      "publication_date": "2015-08-25T08:47:00+08:00",
+      "effective_date": null,
+      "scope": "媒体转载中的现场照；550×385不宜满屏放大。",
+      "unresolved": [
+        "新华社原发页/高清版及授权未取得。"
+      ],
+      "production_use": "CONTEXT",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IMG-01-03",
+      "question_id": "IMG-01",
+      "original_status": "VERIFIED",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "original_title": "澎湃8月24日暴跌稿的配图标注为“资料”，不能作为当日现场证据",
+      "approved_claim": "澎湃8月24日稿配图标“资料”，拍摄日期未给出，不能据文章日期当作8月24日现场证据。",
+      "screen_safe_copy": null,
+      "corrections": [
+        "“资料”只使拍摄日无法确认，不严格证明绝不可能当日拍摄；删除外部包“非当日原拍”的过度断言。",
+        "保留为排除对照，不混入8/24确定日期照片。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "IMG-01:S02",
+          "path": "00_原始网页归档/img01_paper_20150824.html",
+          "sha256": "a8e6dd6f6f31b6d8944c17071da5e0cc779527b077fa759921193d4d913c02b1",
+          "locator": "首图说明",
+          "url": "https://m.thepaper.cn/newsDetail_forward_1367613",
+          "support": "高剑平、卫佳程、资料的完整标记"
+        }
+      ],
+      "event_date": null,
+      "publication_date": "2015-08-24T15:20:00+08:00",
+      "effective_date": null,
+      "scope": "资料图日期不明。",
+      "unresolved": [
+        "真实拍摄日期/地点/原始发布未核准。"
+      ],
+      "production_use": "APPENDIX",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "date_precision": "unknown",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IMG-01-04",
+      "question_id": "IMG-01",
+      "original_status": "VERIFIED",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "original_title": "4月开户报道的配图同为“澎湃资料”，4月开户高峰无可核实的同期原拍",
+      "approved_claim": "已获澎湃4月28日开户报道的配图标“澎湃资料”，未给拍摄日和地点；此包尚无可证明4月13—24日开户现场的照片。",
+      "screen_safe_copy": null,
+      "corrections": [
+        "不能从一张资料图推论“四月开户高峰没有同期现场照”或否定全网存在性。",
+        "文件名20150429与页面4/28不同，以页面发布时间为准。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "IMG-01:S04",
+          "path": "00_原始网页归档/apr01_paper_20150429.html",
+          "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64",
+          "locator": "首图说明及文章页面时间",
+          "url": "https://thepaper.cn/newsDetail_forward_1325946",
+          "support": "配图资料标记与4/28文章日期"
+        }
+      ],
+      "event_date": "2015-04-28",
+      "publication_date": "2015-04-28T20:37:00+08:00",
+      "effective_date": null,
+      "scope": "限定于当前材料包的缺件状态。",
+      "unresolved": [
+        "如主画面要4月现场照，仍需新增有拍摄日期、出处的候选；不应因此阻塞K线/事件主体。"
+      ],
+      "production_use": "APPENDIX",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    },
+    {
+      "event_id": "E-IMG-01-05",
+      "question_id": "IMG-01",
+      "original_status": "DISPUTED",
+      "review_status": "SUPPORTED_WITH_CORRECTION",
+      "original_title": "中新网图集的收盘点位写作3210.91点，与3209.91点相差1点，属图注笔误",
+      "approved_claim": "中新网图集将8月24日上证收盘写3210.91，另中新网收盘稿和澎湃均写3209.91；两者相差1点。批准使用3209.91，不使用图集错误行情字样。",
+      "screen_safe_copy": null,
+      "corrections": [
+        "记录为源间数值冲突与编辑采用决策，不把未经确认的编辑成因写死为“已证实笔误”。",
+        "3507.74−297.83=3209.91；原JSON verification_notes保留错误加减草稿，不能带入生产。",
+        "照片事实与其图注数字可分开审查，数值冲突不自动否定照片署名与地点。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "IMG-01:S01",
+          "path": "00_原始网页归档/img01_cnnews_20150824.html",
+          "sha256": "472d2d29eafb8860868a63b814b7355290624bebffbb5509c53b9e45c2ef6030",
+          "locator": "首图pictext",
+          "url": "http://www.chinanews.com/m/tp/hd/2015/0824/71156.shtml",
+          "support": "3210.91/297.84的异常图注"
+        },
+        {
+          "source_id": "AUG-02:S04",
+          "path": "00_原始网页归档/aug02_cnnews_20150824.utf8.html",
+          "sha256": "2c05174756eea1fa77f1a91a92d539ffced8c71b102ff65c9e9e5d28915f277c",
+          "locator": "截至收盘段",
+          "url": "http://www.chinanews.com/stock/2015/08-24/7485800.shtml",
+          "support": "3209.91/297.83"
+        },
+        {
+          "source_id": "IMG-01:S02",
+          "path": "00_原始网页归档/img01_paper_20150824.html",
+          "sha256": "a8e6dd6f6f31b6d8944c17071da5e0cc779527b077fa759921193d4d913c02b1",
+          "locator": "收盘行情段",
+          "url": "https://m.thepaper.cn/newsDetail_forward_1367613",
+          "support": "3209.91/297.83互证"
+        }
+      ],
+      "event_date": "2015-08-24",
+      "publication_date": "2015-08-24",
+      "effective_date": null,
+      "scope": "上证综指数据冲突，不能覆盖创业板同源CSV。",
+      "unresolved": [],
+      "production_use": "APPENDIX",
+      "review_basis": "Independent reading of supplied originals; any live web corroboration is listed separately.",
+      "selected_in_candidate": false,
+      "editorial_selection": {
+        "decision": "NOT_SELECTED",
+        "beat_ids": [],
+        "screen_lines": [],
+        "review_status_not_upgraded": true
+      }
+    }
+  ],
+  "supplemental_events": [
+    {
+      "event_id": "GPT-2015-0708-SMALLCAP",
+      "question_id": "GPT-SUPPLEMENT",
+      "original_status": null,
+      "review_status": "SUPPORTED",
+      "event_date": "2015-07-08",
+      "publication_date": "2015-07-08",
+      "effective_date": null,
+      "approved_claim": "7月8日证监会公开答问称，证金公司将在继续维护蓝筹股稳定的同时，加大对中小市值股票的购买力度。",
+      "screen_safe_copy": [
+        "2015.07.08｜证监会答问",
+        "证金公司将加大对中小市值股票的购买力度"
+      ],
+      "corrections": [
+        "是宣布的拟采取措施，不是已执行买入金额或已流入创业板的资金。",
+        "中小市值股票与创业板指数成份不是同义集合。",
+        "网页只给日期，没有精确发布钟点；不得配日内触发价或把当天反弹归因于这个未知时刻。"
+      ],
+      "source_evidence": [
+        {
+          "source_id": "CSRC-2015-0708",
+          "path": "research/evidence/csrc_20150708_excerpt.json",
+          "sha256": "fb0d139f8276a2229c58a770917c7ab1b0f45b25c501e50adaef8bd74315d820",
+          "locator": "正文第一问答；web L32、L36–L38",
+          "url": "https://www.csrc.gov.cn/csrc/c100028/c1001909/content.shtml",
+          "support": "直接支持7月8日政策表态及原始未来时态。",
+          "hash_scope": "curated_reading_record_bytes_not_original_page"
+        }
+      ],
+      "scope": "全市场中小市值股票的政策表态；适合交代稳定市场措施从蓝筹向中小市值扩展，非创业板专属。",
+      "unresolved": [
+        "日内首次发布时间和对应实际买入进度未知。"
+      ],
+      "production_use": "MAIN",
+      "causal_claim": false,
+      "claim_type": "announced_policy_intention",
+      "event_date_precision": "day",
+      "market_anchor": "2015-07-08",
+      "anchor_mode": "date_only_no_intraday_claim",
+      "web_reference": "turn512536731view1",
+      "web_url": "https://www.csrc.gov.cn/csrc/c100028/c1001909/content.shtml",
+      "counted_in_original_39": false,
+      "selected_in_candidate": true,
+      "editorial_selection": {
+        "decision": "ADOPT_NARROW_SCOPE",
+        "beat_ids": [
+          "beat-smallcaps"
+        ],
+        "screen_lines": [
+          [
+            "证监会：证金公司将加大",
+            "对中小市值股票的购买力度"
+          ]
+        ],
+        "review_status_not_upgraded": true
+      }
+    }
+  ],
+  "status_counts": {
+    "SUPPORTED_WITH_CORRECTION": 28,
+    "UNRESOLVED": 3,
+    "PARTIAL": 4,
+    "SUPPORTED": 2,
+    "EXCLUDE": 2
+  },
+  "selected_event_count": 18,
+  "reviewers": "GPT editorial review with three independently assigned partitions; root integrates editorial decisions",
+  "human_visual_approval": false
+}

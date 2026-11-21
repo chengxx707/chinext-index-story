@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "package_id": "chinext-editorial-2015",
+  "version": "1.0.0",
+  "created_at": "2026-11-21T15:40:53.503053+00:00",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "8327dbd30efa5087dc91765b246252a04af693d4",
+  "delivery_branch": "editorial/gpt-2015",
+  "delivery_commit": "Use the actual Git commit containing this immutable directory.",
+  "status": "CANDIDATE_CONTENT_VALIDATED",
+  "research_completed": true,
+  "external_events_reviewed": 39,
+  "supplemental_events": 1,
+  "sources_registered": 54,
+  "selected_events": 18,
+  "planned_shots": 28,
+  "planned_duration_seconds": 167,
+  "planned_frames": 5010,
+  "fps": 30,
+  "silent": true,
+  "market_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "frozen_master_sha256": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+  "originals_zip_sha256": "9653d915fab235593f4c412b736e62ebb20893eff686445b1838a1343188062b",
+  "research_zip_sha256": "4557e2ded9b9b4e56be599cbd54747a92e1b58e1ebe54b9edfd554cfe5d3f1d3",
+  "completed": [
+    "external_originals_review",
+    "editorial_selection",
+    "screen_copy",
+    "director_timeline",
+    "schema_and_semantic_validation"
+  ],
+  "not_completed": [
+    "renderer_adapter_capability_validation",
+    "new_video_render",
+    "continuous_visual_review",
+    "human_aesthetic_approval",
+    "formal_master_adoption"
+  ],
+  "formal_master_changed": false,
+  "production_code_changed": false,
+  "original_asset_files_changed": false,
+  "source_archive_bytes_in_public_package": false,
+  "git_write_scope": [
+    "editorial/**",
+    "review-downloads/gpt-editorial-2015-v1.0.0/**"
+  ],
+  "artifacts": [
+    {
+      "path": "CODEX_HANDOFF.md",
+      "sha256": "572443cd7ccea6da6bfd5b949d91101e5474999d83804aa6a68cc383a58dd935",
+      "size_bytes": 5568
+    },
+    {
+      "path": "README.md",
+      "sha256": "a73964f0be45c7c7a6413f7ec1aceca30c60823546bf03e139cd407d22b2b877",
+      "size_bytes": 3221
+    },
+    {
+      "path": "REVIEW_REPORT.md",
+      "sha256": "4ee5c248ccac0afb0bf29bafdad43d2feb6d51d98af6661d5914f4fd179e8167",
+      "size_bytes": 7373
+    },
+    {
+      "path": "archive_manifest.json",
+      "sha256": "fadf5a11919db039aaafa451635ea1babd3ed04e49e80088aad527ce51a0a7f5",
+      "size_bytes": 63667
+    },
+    {
+      "path": "director_storyboard.md",
+      "sha256": "f29c49817d7e30e317ccb455fafd0a0a36ed0a1277feea2278ade48e94b26475",
+      "size_bytes": 8203
+    },
+    {
+      "path": "director_timeline.json",
+      "sha256": "66ad765d6e00a44b5d69fd2b3a493fe468b8f7812900cee68a531eb8b47afbe8",
+      "size_bytes": 82706
+    },
+    {
+      "path": "director_timeline.schema.json",
+      "sha256": "cc3e8e50320383a998d38263585f45c6ea2b578216e2e74c07091e11d965aa8c",
+      "size_bytes": 9122
+    },
+    {
+      "path": "event_review.json",
+      "sha256": "4545a5ccf83cc6b38aab31174eba0a417bc8cbccc603d1b40aef3e5e62ac6ffc",
+      "size_bytes": 104779
+    },
+    {
+      "path": "market_metrics.json",
+      "sha256": "c00d10b48a5928278f1d2a3a1e1c8c837523f2b558004cfa3f870df3b88d0fd7",
+      "size_bytes": 3889
+    },
+    {
+      "path": "narrative.md",
+      "sha256": "17a89d3145051d8d3c2c0d53e55cfba99765b54b43efce59db4d1ea7b9bed758",
+      "size_bytes": 3210
+    },
+    {
+      "path": "period_production.json",
+      "sha256": "ef9c675cb90ae2d45c450c7b76a6e8023610a9b73dfad7dc7f40c95fd1fa056b",
+      "size_bytes": 47601
+    },
+    {
+      "path": "period_screen_copy.md",
+      "sha256": "10c2f28107abb42701ccd2063048f195054254290521da9a3158e91e5dcd2079",
+      "size_bytes": 22083
+    },
+    {
+      "path": "period_storyboard.json",
+      "sha256": "b494f67da27b9705dd2f4c5a3ac8f8ad780173bdc36c3d8ab594dc6c5d13790e",
+      "size_bytes": 130078
+    },
+    {
+      "path": "photo_manifest.json",
+      "sha256": "52765cf480fa73f02d6be532c1e70a22ccd075596fb409235f78dd1e73830a2b",
+      "size_bytes": 17022
+    },
+    {
+      "path": "research/apr_ind.md",
+      "sha256": "4377f91f64e88263d247e249322ab1a0710b37d3e74badc64aa60ce9e1f0a79e",
+      "size_bytes": 8225
+    },
+    {
+      "path": "research/aug_img.md",
+      "sha256": "1cfca206a08b5dd6e76dc93d608aada89ddaf09a3df70e53930f48869ac02531",
+      "size_bytes": 10716
+    },
+    {
+      "path": "research/derived_checks.json",
+      "sha256": "473f57bf744563ce4f0169cf44c99926836d477e3a36e3cf514565b3f2ac6613",
+      "size_bytes": 11682
+    },
+    {
+      "path": "research/evidence/csrc_20150703_excerpt.json",
+      "sha256": "8d04db888badc988813bb13ed2be5c06c5a1286f7ed41d282b317ca886d95b07",
+      "size_bytes": 834
+    },
+    {
+      "path": "research/evidence/csrc_20150708_excerpt.json",
+      "sha256": "fb0d139f8276a2229c58a770917c7ab1b0f45b25c501e50adaef8bd74315d820",
+      "size_bytes": 919
+    },
+    {
+      "path": "research/evidence/gtja_20150620_reading_record.json",
+      "sha256": "159d7b2bac9f63f0f288fc1b294a71ee00655dc4a1bed6e492eed2672b09d52a",
+      "size_bytes": 1071
+    },
+    {
+      "path": "research/jun.md",
+      "sha256": "ba515df624d6a0681ec553944503ff65742fafabb494ff383378d04173a26ed1",
+      "size_bytes": 17268
+    },
+    {
+      "path": "research/source_reconciliation.json",
+      "sha256": "915d50d3078fb17710fae6cc40770cd9552a4e3532e6cce028420eb3efe96cd0",
+      "size_bytes": 20247
+    },
+    {
+      "path": "source_registry.json",
+      "sha256": "4121b82f22c68779de14689939d9f38d11d9751812a5b001d2e05fe435a2c6bf",
+      "size_bytes": 50715
+    },
+    {
+      "path": "validate_candidate.py",
+      "sha256": "068803d130fe2f93295a73643ecd00e4740180d69e1aa8f43434df2cc1f89d0a",
+      "size_bytes": 13323
+    },
+    {
+      "path": "validation_report.json",
+      "sha256": "b4708ff86bad38ea07d5503b1655d518130b1b0b21623ab80e02a49771bc204b",
+      "size_bytes": 4972
+    }
+  ],
+  "manifest_hash_note": "Manifest excludes itself; its exact bytes are bound by the Git commit and optional ZIP hash.",
+  "public_metadata_policy": "No ChatGPT private file identifiers, native file links, account identifiers or signed transfer URLs. Raw pack identity uses filename, byte count and SHA-256 only."
+}

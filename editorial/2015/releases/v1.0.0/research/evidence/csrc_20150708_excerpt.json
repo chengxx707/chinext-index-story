@@ -1,0 +1,15 @@
+{
+  "title": "证监会新闻发言人邓舸答记者问",
+  "publisher": "中国证监会",
+  "url": "https://www.csrc.gov.cn/csrc/c100028/c1001909/content.shtml",
+  "published_at": "2015-07-08",
+  "publication_time_precision": "day",
+  "retrieved_at": "2026-11-21T15:23:24Z",
+  "web_reference": "turn512536731view1",
+  "locator": "网页正文第一问答；检索文本 L32、L36–L38",
+  "capture_type": "curated_web_reading_record_not_original_bytes",
+  "body_excerpt": "加大对中小市值股票的购买力度",
+  "scope_note": "官方公开的拟采取措施；无指数代码、实际买入金额、具体执行时刻或逐笔到账证据。",
+  "input_reading_record_sha256": "b91e0260b2c9e954f3864b5268179f885dd8755805ce62ed1e90db2c684ea6eb",
+  "summary": "官方称证金公司将在维持蓝筹稳定的同时提高中小市值股票购买力度；属于拟采取措施，未给实际买入金额。"
+}

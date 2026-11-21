@@ -1,0 +1,2722 @@
+{
+  "schema_version": "gpt-director-1.0",
+  "package_version": "1.0.0",
+  "fps": 30,
+  "frame_count": 5010,
+  "source_provenance": {
+    "base_commit": "8327dbd30efa5087dc91765b246252a04af693d4",
+    "market_source": "data/cyb_daily.csv",
+    "market_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "frozen_master_sha256": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "event_review_sha256": "4545a5ccf83cc6b38aab31174eba0a417bc8cbccc603d1b40aef3e5e62ac6ffc",
+    "source_registry_sha256": "4121b82f22c68779de14689939d9f38d11d9751812a5b001d2e05fe435a2c6bf",
+    "originals_zip_sha256": "9653d915fab235593f4c412b736e62ebb20893eff686445b1838a1343188062b"
+  },
+  "timebase": "integer_frames_end_exclusive",
+  "global_rules": {
+    "single_market_playhead": true,
+    "market_date_and_event_date_are_separate_roles": true,
+    "future_ohlc_visible": false,
+    "intraday_path_synthesized": false,
+    "camera_changes_price_data": false,
+    "freeze_weekends_and_after_close": true,
+    "semantic_review_required_before_formal_master_adoption": true
+  },
+  "rail": {
+    "rise": {
+      "mode": "single_rise_until_peak_hold",
+      "base_date": "2012-12-03",
+      "base_close": 593.66,
+      "formula": "100*(current_close/base_close-1)",
+      "label": "较2012.12.03收盘",
+      "display_domain_percent": [
+        0,
+        600
+      ],
+      "switch_after_frame": 959
+    },
+    "drawdown": {
+      "mode": "single_drawdown",
+      "base_date": "2015-06-03",
+      "base_close": 3982.25,
+      "formula": "100*(current_close/3982.25-1)",
+      "label": "距2015.06.03最高收盘",
+      "display_domain_percent": [
+        -60,
+        0
+      ],
+      "fill_rule": "abs(current_drawdown)/60，反弹时回退；数值使用实际值，不伪造0—100指数",
+      "start_frame": 960
+    },
+    "completed_milestones": "小号峰值/阶段标签；不保留第二条活动满血轨",
+    "rail_is_not_sentiment_or_portfolio_return": true
+  },
+  "cues": [
+    {
+      "shot_id": "GPT2015-01",
+      "start_frame": 0,
+      "end_frame_exclusive": 120,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-04-01"
+          },
+          {
+            "frame_offset": 119,
+            "date": "2015-04-10"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-04-01",
+        "field": "close",
+        "value": 2404.91,
+        "hit_frame": 0
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 0,
+        "out_frame_exclusive": 120,
+        "full_alpha_from_frame": 6,
+        "lines": [
+          "2015年4月",
+          "创业板指 · 399006"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 3.8
+      },
+      "camera": {
+        "scale": "wide",
+        "visible_trading_days": 120,
+        "target_y_domain": [
+          1292.4,
+          2704.77
+        ],
+        "transition_seconds": 0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-04-01",
+        "hit_frame": 0,
+        "reflection_pulse_seconds": 0,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_rise_until_peak_hold",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-04-01",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-02",
+      "start_frame": 120,
+      "end_frame_exclusive": 300,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-04-10"
+          },
+          {
+            "frame_offset": 30,
+            "date": "2015-04-13"
+          },
+          {
+            "frame_offset": 179,
+            "date": "2015-04-17"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-04-13",
+        "field": "close",
+        "value": 2577.78,
+        "hit_frame": 150
+      },
+      "event_clock": {
+        "date": "2015-04-13",
+        "role": "effective_date",
+        "known_publication_date": "2015-04-12",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 150,
+        "out_frame_exclusive": 300,
+        "full_alpha_from_frame": 156,
+        "lines": [
+          "2015.04.13 起",
+          "A股“一人一户”限制放开"
+        ],
+        "source_line": "人民网；上海证券报",
+        "stable_reading_seconds": 4.8
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          1547.63,
+          2709.34
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-APR-01-01",
+          "E-APR-01-02"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-04-13",
+        "hit_frame": 150,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_rise_until_peak_hold",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-04-13",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-03",
+      "start_frame": 300,
+      "end_frame_exclusive": 510,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-04-17"
+          },
+          {
+            "frame_offset": 60,
+            "date": "2015-04-28"
+          },
+          {
+            "frame_offset": 209,
+            "date": "2015-04-28"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-04-28",
+        "field": "close",
+        "value": 2687.97,
+        "hit_frame": 360
+      },
+      "event_clock": {
+        "date": "2015-04-28",
+        "time": "20:37",
+        "role": "publisher_timestamp",
+        "market_freeze_after_hit": true,
+        "observation_range": [
+          "2015-04-20",
+          "2015-04-24"
+        ],
+        "scope": "A股账户，非独立人数",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 360,
+        "out_frame_exclusive": 510,
+        "full_alpha_from_frame": 366,
+        "lines": [
+          "4月20—24日 · 新增A股账户",
+          "413.03 万户"
+        ],
+        "source_line": "澎湃新闻引中国结算｜4月28日20:37报道｜账户数",
+        "stable_reading_seconds": 4.8
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          1568.17,
+          2939.47
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-APR-01-04"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": [
+          "2015-04-20",
+          "2015-04-24"
+        ]
+      },
+      "earth_orbit": {
+        "node_date": "2015-04-28",
+        "hit_frame": 360,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_rise_until_peak_hold",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "market_freeze_with_event_clock",
+        "single_reversible_stage_rail",
+        "statistics_range_bracket"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-04-28",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-04",
+      "start_frame": 510,
+      "end_frame_exclusive": 720,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-04-28"
+          },
+          {
+            "frame_offset": 60,
+            "date": "2015-05-13"
+          },
+          {
+            "frame_offset": 209,
+            "date": "2015-05-29"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-05-13",
+        "field": "close",
+        "value": 3192.15,
+        "hit_frame": 570
+      },
+      "event_clock": {
+        "date": "2015-05-13",
+        "role": "historical_observation",
+        "scope": "乐视网总市值；不复权日高×当日公告股本",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 570,
+        "out_frame_exclusive": 720,
+        "full_alpha_from_frame": 576,
+        "lines": [
+          "企业背景 · 乐视网",
+          "盘中总市值超过 1,600 亿元"
+        ],
+        "source_line": "公司公告股本×不复权日高｜企业市值，非指数权重",
+        "stable_reading_seconds": 4.8
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          1930.63,
+          3864.48
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-IND-01-04"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-05-13",
+        "hit_frame": 570,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_rise_until_peak_hold",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "company_context_distinct_from_index_value",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-05-13",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-05",
+      "start_frame": 720,
+      "end_frame_exclusive": 960,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-05-29"
+          },
+          {
+            "frame_offset": 60,
+            "date": "2015-06-03"
+          },
+          {
+            "frame_offset": 239,
+            "date": "2015-06-03"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-06-03",
+        "field": "close",
+        "value": 3982.25,
+        "hit_frame": 780
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 780,
+        "out_frame_exclusive": 960,
+        "full_alpha_from_frame": 786,
+        "lines": [
+          "2015.06.03 · 阶段最高收盘",
+          "3,982.25"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 5.8
+      },
+      "camera": {
+        "scale": "wide",
+        "visible_trading_days": 125,
+        "target_y_domain": [
+          1119.24,
+          4320.88
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [
+          {
+            "date": "2015-04-01",
+            "value": 2404.91
+          },
+          {
+            "date": "2015-06-03",
+            "value": 3982.25
+          }
+        ],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-06-03",
+        "hit_frame": 780,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_rise_until_peak_hold",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "single_reversible_stage_rail",
+        "true_close_endpoint_link"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-06-03",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-06",
+      "start_frame": 960,
+      "end_frame_exclusive": 1110,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-06-03"
+          },
+          {
+            "frame_offset": 30,
+            "date": "2015-06-05"
+          },
+          {
+            "frame_offset": 149,
+            "date": "2015-06-10"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-06-05",
+        "field": "high",
+        "value": 4037.96,
+        "hit_frame": 990
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 990,
+        "out_frame_exclusive": 1110,
+        "full_alpha_from_frame": 996,
+        "lines": [
+          "2015.06.05 · 盘中高点",
+          "4,037.96"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 3.8
+      },
+      "camera": {
+        "scale": "close",
+        "visible_trading_days": 18,
+        "target_y_domain": [
+          3075.22,
+          4141.11
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": {
+          "date": "2015-06-05",
+          "field": "high",
+          "value": 4037.96
+        },
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-06-05",
+        "hit_frame": 990,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "single_reversible_stage_rail",
+        "true_intraday_wick_anchor"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-06-05",
+        "value_field": "high",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-07",
+      "start_frame": 1110,
+      "end_frame_exclusive": 1290,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-06-10"
+          },
+          {
+            "frame_offset": 30,
+            "date": "2015-06-12"
+          },
+          {
+            "frame_offset": 179,
+            "date": "2015-06-17"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-06-12",
+        "field": "close",
+        "value": 3899.71,
+        "hit_frame": 1140
+      },
+      "event_clock": {
+        "date": "2015-06-12",
+        "role": "public_statement",
+        "document_issue_date": null,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 1140,
+        "out_frame_exclusive": 1290,
+        "full_alpha_from_frame": 1146,
+        "lines": [
+          "6月12日 · 证监会公开答问",
+          "加强券商外部接入监管"
+        ],
+        "source_line": "中国证监会",
+        "stable_reading_seconds": 4.8
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          2143.96,
+          4240.89
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-JUN-01-01"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-06-12",
+        "hit_frame": 1140,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-06-12",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-08",
+      "start_frame": 1290,
+      "end_frame_exclusive": 1470,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-06-17"
+          },
+          {
+            "frame_offset": 30,
+            "date": "2015-06-18"
+          },
+          {
+            "frame_offset": 179,
+            "date": "2015-06-19"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-06-18",
+        "field": "close",
+        "value": 3504.55,
+        "hit_frame": 1320
+      },
+      "event_clock": {
+        "date": "2015-06-18",
+        "role": "retrospective_statistic",
+        "publication_date": "2015-08-27",
+        "scope": "沪深两市融资融券余额；非创业板资金流量",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 1320,
+        "out_frame_exclusive": 1470,
+        "full_alpha_from_frame": 1326,
+        "lines": [
+          "截至6月18日 · 沪深两融余额",
+          "约 2.27 万亿元",
+          "事后统计回顾"
+        ],
+        "source_line": "中国证券报／中国经济网｜8月27日报道回溯｜全A口径",
+        "stable_reading_seconds": 4.8
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          2143.96,
+          4240.89
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-JUN-01-04"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-06-18",
+        "hit_frame": 1320,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "retrospective_statistic_label",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-06-18",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-09",
+      "start_frame": 1470,
+      "end_frame_exclusive": 1650,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-06-19"
+          },
+          {
+            "frame_offset": 45,
+            "date": "2015-06-26"
+          },
+          {
+            "frame_offset": 179,
+            "date": "2015-06-26"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-06-26",
+        "field": "close",
+        "value": 2920.7,
+        "hit_frame": 1515
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 1515,
+        "out_frame_exclusive": 1650,
+        "full_alpha_from_frame": 1521,
+        "lines": [
+          "2015.06.26 · 收盘 2,920.70",
+          "较6月12日 −25.10%"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 4.3
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          2212.24,
+          4233.57
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [
+          {
+            "date": "2015-06-12",
+            "value": 3899.71
+          },
+          {
+            "date": "2015-06-26",
+            "value": 2920.7
+          }
+        ],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-06-26",
+        "hit_frame": 1515,
+        "reflection_pulse_seconds": 0,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "single_reversible_stage_rail",
+        "true_close_endpoint_link"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-06-26",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-10",
+      "start_frame": 1650,
+      "end_frame_exclusive": 1860,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-06-26"
+          },
+          {
+            "frame_offset": 30,
+            "date": "2015-06-26"
+          },
+          {
+            "frame_offset": 209,
+            "date": "2015-06-26"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-06-26",
+        "field": "close",
+        "value": 2920.7,
+        "hit_frame": 1680
+      },
+      "event_clock": {
+        "date": "2015-06-27",
+        "role": "weekend_announcement",
+        "implementation_date": "2015-06-28",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 1680,
+        "out_frame_exclusive": 1860,
+        "full_alpha_from_frame": 1686,
+        "lines": [
+          "2015.06.27 · 周六公布",
+          "降息与定向降准",
+          "6月28日起实施"
+        ],
+        "source_line": "中国人民银行；人民网（转载国际在线）",
+        "stable_reading_seconds": 5.8
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          2212.24,
+          4233.57
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-JUN-02-01"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-06-27",
+        "hit_frame": 1680,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "market_freeze_with_event_clock",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-06-26",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-11",
+      "start_frame": 1860,
+      "end_frame_exclusive": 2070,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-06-26"
+          },
+          {
+            "frame_offset": 60,
+            "date": "2015-07-03"
+          },
+          {
+            "frame_offset": 209,
+            "date": "2015-07-03"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-07-03",
+        "field": "close",
+        "value": 2605.28,
+        "hit_frame": 1920
+      },
+      "event_clock": {
+        "date": "2015-07-04",
+        "role": "weekend_announcement",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 1920,
+        "out_frame_exclusive": 2070,
+        "full_alpha_from_frame": 1926,
+        "lines": [
+          "7月4日 · 21家券商",
+          "承诺 ≥1,200亿元",
+          "投资蓝筹股ETF"
+        ],
+        "source_line": "人民网；上市公司股东大会材料（巨潮资讯披露）",
+        "stable_reading_seconds": 4.8
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          2251.74,
+          4229.34
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-JUN-02-02"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-07-04",
+        "hit_frame": 1920,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "market_freeze_with_event_clock",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-07-03",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-12",
+      "start_frame": 2070,
+      "end_frame_exclusive": 2250,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-07-03"
+          },
+          {
+            "frame_offset": 15,
+            "date": "2015-07-03"
+          },
+          {
+            "frame_offset": 179,
+            "date": "2015-07-03"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-07-03",
+        "field": "close",
+        "value": 2605.28,
+        "hit_frame": 2085
+      },
+      "event_clock": {
+        "date": "2015-07-05",
+        "role": "weekend_announcement",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 2085,
+        "out_frame_exclusive": 2250,
+        "full_alpha_from_frame": 2091,
+        "lines": [
+          "2015.07.05 · 证监会公告",
+          "央行将给予证金公司",
+          "多种形式的流动性支持"
+        ],
+        "source_line": "中国证监会",
+        "stable_reading_seconds": 5.3
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          2251.74,
+          4229.34
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-JUN-02-04"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-07-05",
+        "hit_frame": 2085,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "market_freeze_with_event_clock",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-07-03",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-13",
+      "start_frame": 2250,
+      "end_frame_exclusive": 2460,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-07-03"
+          },
+          {
+            "frame_offset": 45,
+            "date": "2015-07-08"
+          },
+          {
+            "frame_offset": 209,
+            "date": "2015-07-10"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-07-08",
+        "field": "close",
+        "value": 2364.05,
+        "hit_frame": 2295
+      },
+      "event_clock": {
+        "date": "2015-07-08",
+        "role": "public_statement",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 2295,
+        "out_frame_exclusive": 2460,
+        "full_alpha_from_frame": 2301,
+        "lines": [
+          "证监会：证金公司将加大",
+          "对中小市值股票的购买力度"
+        ],
+        "source_line": "中国证监会",
+        "stable_reading_seconds": 5.3
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          2096.78,
+          4245.94
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [
+          "GPT-2015-0708-SMALLCAP"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-07-08",
+        "hit_frame": 2295,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-07-08",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-14",
+      "start_frame": 2460,
+      "end_frame_exclusive": 2610,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-07-10"
+          },
+          {
+            "frame_offset": 15,
+            "date": "2015-07-10"
+          },
+          {
+            "frame_offset": 149,
+            "date": "2015-07-10"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-07-10",
+        "field": "close",
+        "value": 2535.89,
+        "hit_frame": 2475
+      },
+      "event_clock": {
+        "date": "2015-07-12",
+        "role": "weekend_announcement",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 2475,
+        "out_frame_exclusive": 2610,
+        "full_alpha_from_frame": 2481,
+        "lines": [
+          "2015.07.12 · 周日",
+          "清理整顿违法从事证券业务活动"
+        ],
+        "source_line": "中国证监会",
+        "stable_reading_seconds": 4.3
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          2096.78,
+          4245.94
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-JUN-01-03"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-07-12",
+        "hit_frame": 2475,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "market_freeze_with_event_clock",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-07-10",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-15",
+      "start_frame": 2610,
+      "end_frame_exclusive": 2820,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-07-10"
+          },
+          {
+            "frame_offset": 60,
+            "date": "2015-07-23"
+          },
+          {
+            "frame_offset": 209,
+            "date": "2015-07-24"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-07-23",
+        "field": "close",
+        "value": 2967.95,
+        "hit_frame": 2670
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 2670,
+        "out_frame_exclusive": 2820,
+        "full_alpha_from_frame": 2676,
+        "lines": [
+          "7月7日至23日 · 收盘比较",
+          "+26.19%"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 4.8
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          2096.78,
+          4245.94
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [
+          {
+            "date": "2015-07-07",
+            "value": 2352.01
+          },
+          {
+            "date": "2015-07-23",
+            "value": 2967.95
+          }
+        ],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-07-23",
+        "hit_frame": 2670,
+        "reflection_pulse_seconds": 0,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "single_reversible_stage_rail",
+        "true_close_endpoint_link"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-07-23",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-16",
+      "start_frame": 2820,
+      "end_frame_exclusive": 2970,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-07-24"
+          },
+          {
+            "frame_offset": 30,
+            "date": "2015-07-27"
+          },
+          {
+            "frame_offset": 149,
+            "date": "2015-08-10"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-07-27",
+        "field": "close",
+        "value": 2683.45,
+        "hit_frame": 2850
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 2850,
+        "out_frame_exclusive": 2970,
+        "full_alpha_from_frame": 2856,
+        "lines": [
+          "2015.07.27",
+          "创业板指单日 −7.40%"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 3.8
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          2096.78,
+          4245.94
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-07-27",
+        "hit_frame": 2850,
+        "reflection_pulse_seconds": 0,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-07-27",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-17",
+      "start_frame": 2970,
+      "end_frame_exclusive": 3150,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-08-10"
+          },
+          {
+            "frame_offset": 30,
+            "date": "2015-08-11"
+          },
+          {
+            "frame_offset": 179,
+            "date": "2015-08-20"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-08-11",
+        "field": "close",
+        "value": 2698.91,
+        "hit_frame": 3000
+      },
+      "event_clock": {
+        "date": "2015-08-11",
+        "role": "macro_context",
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 3000,
+        "out_frame_exclusive": 3150,
+        "full_alpha_from_frame": 3006,
+        "lines": [
+          "2015.08.11",
+          "人民币中间价报价机制调整"
+        ],
+        "source_line": "中国新闻网（转述央行网站）",
+        "stable_reading_seconds": 4.8
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          2110.61,
+          4116.85
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-AUG-01-01"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-08-11",
+        "hit_frame": 3000,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-08-11",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-18",
+      "start_frame": 3150,
+      "end_frame_exclusive": 3330,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-08-20"
+          },
+          {
+            "frame_offset": 30,
+            "date": "2015-08-21"
+          },
+          {
+            "frame_offset": 179,
+            "date": "2015-08-21"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-08-21",
+        "field": "close",
+        "value": 2341.95,
+        "hit_frame": 3180
+      },
+      "event_clock": {
+        "date": "2015-08-21",
+        "role": "macro_context",
+        "first_release_time": null,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 3180,
+        "out_frame_exclusive": 3330,
+        "full_alpha_from_frame": 3186,
+        "lines": [
+          "同期宏观背景",
+          "财新制造业PMI初值 47.1"
+        ],
+        "source_line": "财新PMI",
+        "stable_reading_seconds": 4.8
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          1700,
+          2900
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false,
+        "domain_group": "august_gap_comparison"
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-AUG-01-03"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-08-21",
+        "hit_frame": 3180,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-08-21",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-19",
+      "start_frame": 3330,
+      "end_frame_exclusive": 3450,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-08-21"
+          },
+          {
+            "frame_offset": 119,
+            "date": "2015-08-21"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-08-21",
+        "field": "close",
+        "value": 2341.95,
+        "hit_frame": 3330
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 3330,
+        "out_frame_exclusive": 3450,
+        "full_alpha_from_frame": 3336,
+        "lines": [
+          "8月21日 · 完整向下缺口 ①",
+          "单日 −6.65%"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 3.8
+      },
+      "camera": {
+        "scale": "close",
+        "visible_trading_days": 18,
+        "target_y_domain": [
+          1700,
+          2900
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false,
+        "domain_group": "august_gap_comparison"
+      },
+      "link_geometry": {
+        "event_ids": [],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": {
+          "previous_date": "2015-08-20",
+          "previous_low": 2508.35,
+          "current_date": "2015-08-21",
+          "current_high": 2480.68,
+          "price_gap": 27.67,
+          "full_down_gap": true
+        },
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-08-21",
+        "hit_frame": 3330,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "full_down_gap_geometry",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "market_freeze_with_event_clock",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-08-21",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-20",
+      "start_frame": 3450,
+      "end_frame_exclusive": 3630,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-08-21"
+          },
+          {
+            "frame_offset": 45,
+            "date": "2015-08-24"
+          },
+          {
+            "frame_offset": 179,
+            "date": "2015-08-24"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-08-24",
+        "field": "close",
+        "value": 2152.61,
+        "hit_frame": 3495
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 3495,
+        "out_frame_exclusive": 3630,
+        "full_alpha_from_frame": 3501,
+        "lines": [
+          "8月24日 · 完整向下缺口 ②",
+          "2,152.61 · 单日 −8.08%"
+        ],
+        "source_line": "项目冻结行情；中国新闻网",
+        "stable_reading_seconds": 4.3
+      },
+      "camera": {
+        "scale": "close",
+        "visible_trading_days": 18,
+        "target_y_domain": [
+          1700,
+          2900
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false,
+        "domain_group": "august_gap_comparison"
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-AUG-02-02"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": {
+          "previous_date": "2015-08-21",
+          "previous_low": 2340.92,
+          "current_date": "2015-08-24",
+          "current_high": 2246.55,
+          "price_gap": 94.37,
+          "full_down_gap": true
+        },
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-08-24",
+        "hit_frame": 3495,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "full_down_gap_geometry",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-08-24",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-21",
+      "start_frame": 3630,
+      "end_frame_exclusive": 3780,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-08-24"
+          },
+          {
+            "frame_offset": 15,
+            "date": "2015-08-24"
+          },
+          {
+            "frame_offset": 149,
+            "date": "2015-08-24"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-08-24",
+        "field": "close",
+        "value": 2152.61,
+        "hit_frame": 3645
+      },
+      "event_clock": {
+        "date": "2015-08-24",
+        "role": "documentary_scene",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 3645,
+        "out_frame_exclusive": 3780,
+        "full_alpha_from_frame": 3651,
+        "lines": [
+          "2015.08.24 · 昆明证券交易大厅"
+        ],
+        "source_line": "中新社记者 刘冉阳 摄｜8月24日图集",
+        "stable_reading_seconds": 4.3
+      },
+      "camera": {
+        "scale": "wide",
+        "visible_trading_days": 120,
+        "target_y_domain": [
+          1680.2,
+          4290.58
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": true
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-IMG-01-01"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-08-24",
+        "hit_frame": 3645,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": "IMG-20150824-01",
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "historical_photo_scene",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "market_freeze_with_event_clock",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-08-24",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-22",
+      "start_frame": 3780,
+      "end_frame_exclusive": 3960,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-08-24"
+          },
+          {
+            "frame_offset": 45,
+            "date": "2015-08-25"
+          },
+          {
+            "frame_offset": 179,
+            "date": "2015-08-25"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-08-25",
+        "field": "close",
+        "value": 1990.71,
+        "hit_frame": 3825
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 3825,
+        "out_frame_exclusive": 3960,
+        "full_alpha_from_frame": 3831,
+        "lines": [
+          "8月25日 · 完整向下缺口 ③",
+          "1,990.71 · 单日 −7.52%"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 4.3
+      },
+      "camera": {
+        "scale": "close",
+        "visible_trading_days": 18,
+        "target_y_domain": [
+          1700,
+          2900
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false,
+        "domain_group": "august_gap_comparison"
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-AUG-02-03"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": {
+          "previous_date": "2015-08-24",
+          "previous_low": 2152.61,
+          "current_date": "2015-08-25",
+          "current_high": 2048.03,
+          "price_gap": 104.58,
+          "full_down_gap": true
+        },
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-08-25",
+        "hit_frame": 3825,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "full_down_gap_geometry",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-08-25",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-23",
+      "start_frame": 3960,
+      "end_frame_exclusive": 4170,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-08-25"
+          },
+          {
+            "frame_offset": 15,
+            "date": "2015-08-25"
+          },
+          {
+            "frame_offset": 209,
+            "date": "2015-08-25"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-08-25",
+        "field": "close",
+        "value": 1990.71,
+        "hit_frame": 3975
+      },
+      "event_clock": {
+        "date": "2015-08-25",
+        "time": "18:15:34",
+        "role": "official_website_timestamp",
+        "market_freeze_after_hit": true,
+        "implementation_dates": [
+          {
+            "measure": "降息",
+            "date": "2015-08-26"
+          },
+          {
+            "measure": "降准",
+            "date": "2015-09-06"
+          }
+        ],
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 3975,
+        "out_frame_exclusive": 4170,
+        "full_alpha_from_frame": 3981,
+        "lines": [
+          "2015.08.25 · 盘后",
+          "央行公布降息降准安排",
+          "8月26日起降息 · 9月6日起降准"
+        ],
+        "source_line": "中国人民银行网站｜页面时间18:15:34",
+        "stable_reading_seconds": 6.3
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          1700,
+          2900
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false,
+        "domain_group": "august_gap_comparison"
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-AUG-02-05"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-08-25",
+        "hit_frame": 3975,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "market_freeze_with_event_clock",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-08-25",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-24",
+      "start_frame": 4170,
+      "end_frame_exclusive": 4320,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-08-25"
+          },
+          {
+            "frame_offset": 15,
+            "date": "2015-08-25"
+          },
+          {
+            "frame_offset": 149,
+            "date": "2015-08-25"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-08-25",
+        "field": "close",
+        "value": 1990.71,
+        "hit_frame": 4185
+      },
+      "event_clock": {
+        "date": "2015-08-25",
+        "time": "19:16",
+        "role": "publisher_timestamp",
+        "market_freeze_after_hit": true,
+        "persistent_date_label_required": true,
+        "caption_must_not_follow_market_hud": true
+      },
+      "text_cue": {
+        "in_frame": 4185,
+        "out_frame_exclusive": 4320,
+        "full_alpha_from_frame": 4191,
+        "lines": [
+          "“当前稳定流动性更加关键。”",
+          "向松祚 · 央广经济之声"
+        ],
+        "source_line": "央广网2015.08.25 19:16刊发｜受访者观点",
+        "stable_reading_seconds": 4.3
+      },
+      "camera": {
+        "scale": "medium",
+        "visible_trading_days": 52,
+        "target_y_domain": [
+          1700,
+          2900
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false,
+        "domain_group": "august_gap_comparison"
+      },
+      "link_geometry": {
+        "event_ids": [
+          "E-AUG-03-01"
+        ],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-08-25",
+        "hit_frame": 4185,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "independent_event_clock",
+        "market_clock_keys",
+        "market_freeze_with_event_clock",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-08-25",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-25",
+      "start_frame": 4320,
+      "end_frame_exclusive": 4470,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-08-25"
+          },
+          {
+            "frame_offset": 30,
+            "date": "2015-08-26"
+          },
+          {
+            "frame_offset": 149,
+            "date": "2015-08-26"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-08-26",
+        "field": "close",
+        "value": 1890.04,
+        "hit_frame": 4350
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 4350,
+        "out_frame_exclusive": 4470,
+        "full_alpha_from_frame": 4356,
+        "lines": [
+          "8月24—26日 · 三个交易日",
+          "−19.30%"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 3.8
+      },
+      "camera": {
+        "scale": "close",
+        "visible_trading_days": 18,
+        "target_y_domain": [
+          1700,
+          2900
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false,
+        "domain_group": "august_gap_comparison"
+      },
+      "link_geometry": {
+        "event_ids": [],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [
+          {
+            "date": "2015-08-21",
+            "value": 2341.95
+          },
+          {
+            "date": "2015-08-26",
+            "value": 1890.04
+          }
+        ],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-08-26",
+        "hit_frame": 4350,
+        "reflection_pulse_seconds": 0,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "single_reversible_stage_rail",
+        "true_close_endpoint_link"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-08-26",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-26",
+      "start_frame": 4470,
+      "end_frame_exclusive": 4620,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-08-26"
+          },
+          {
+            "frame_offset": 30,
+            "date": "2015-09-02"
+          },
+          {
+            "frame_offset": 149,
+            "date": "2015-09-11"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-09-02",
+        "field": "low",
+        "value": 1779.18,
+        "hit_frame": 4500
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 4500,
+        "out_frame_exclusive": 4620,
+        "full_alpha_from_frame": 4506,
+        "lines": [
+          "2015.09.02 · 窗口盘中低点",
+          "1,779.18"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 3.8
+      },
+      "camera": {
+        "scale": "close",
+        "visible_trading_days": 18,
+        "target_y_domain": [
+          1666.21,
+          2833.55
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": {
+          "date": "2015-09-02",
+          "field": "low",
+          "value": 1779.18
+        },
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-09-02",
+        "hit_frame": 4500,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "single_reversible_stage_rail",
+        "true_intraday_wick_anchor"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-09-02",
+        "value_field": "low",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-27",
+      "start_frame": 4620,
+      "end_frame_exclusive": 4890,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-09-11"
+          },
+          {
+            "frame_offset": 60,
+            "date": "2015-09-15"
+          },
+          {
+            "frame_offset": 269,
+            "date": "2015-09-15"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-09-15",
+        "field": "close",
+        "value": 1797.56,
+        "hit_frame": 4680
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 4680,
+        "out_frame_exclusive": 4890,
+        "full_alpha_from_frame": 4686,
+        "lines": [
+          "2015.09.15 · 阶段最低收盘",
+          "1,797.56",
+          "较6月3日最高收盘 −54.86%"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 6.8
+      },
+      "camera": {
+        "scale": "wide",
+        "visible_trading_days": 125,
+        "target_y_domain": [
+          1508.13,
+          4309.01
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [
+          {
+            "date": "2015-06-03",
+            "value": 3982.25
+          },
+          {
+            "date": "2015-09-15",
+            "value": 1797.56
+          }
+        ],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-09-15",
+        "hit_frame": 4680,
+        "reflection_pulse_seconds": 0.7,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "single_reversible_stage_rail",
+        "true_close_endpoint_link"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-09-15",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-28",
+      "start_frame": 4890,
+      "end_frame_exclusive": 5010,
+      "market_clock": {
+        "mode": "monotone_trading_index",
+        "keyframes": [
+          {
+            "frame_offset": 0,
+            "date": "2015-09-15"
+          },
+          {
+            "frame_offset": 119,
+            "date": "2015-09-15"
+          }
+        ],
+        "hud_rule": "floor_to_last_reached_real_trading_row",
+        "visual_scroll": "continuous_monotone_interpolation",
+        "ohlc_reveal": "one_complete_historical_daily_bar_on_reach; no synthetic_intraday_path"
+      },
+      "primary_anchor": {
+        "date": "2015-09-15",
+        "field": "close",
+        "value": 1797.56,
+        "hit_frame": 4890
+      },
+      "event_clock": null,
+      "text_cue": {
+        "in_frame": 4890,
+        "out_frame_exclusive": 5010,
+        "full_alpha_from_frame": 4896,
+        "lines": [
+          "这段下跌，也经历过反弹。"
+        ],
+        "source_line": "冻结日线｜创业板指399006",
+        "stable_reading_seconds": 3.8
+      },
+      "camera": {
+        "scale": "wide",
+        "visible_trading_days": 125,
+        "target_y_domain": [
+          1508.13,
+          4309.01
+        ],
+        "transition_seconds": 1.0,
+        "continuity": "C1-position-and-velocity; no per-unit reset",
+        "lock_y_scale_while_text_reading": true,
+        "clip_future_candles": true,
+        "photograph_layout": false
+      },
+      "link_geometry": {
+        "event_ids": [],
+        "event_line_has_arrowhead": false,
+        "event_line_meaning": "同日或明确区间关联，不表示因果",
+        "close_endpoints": [],
+        "intraday_anchor": null,
+        "gap": null,
+        "statistics_range": null
+      },
+      "earth_orbit": {
+        "node_date": "2015-09-15",
+        "hit_frame": 4890,
+        "reflection_pulse_seconds": 0,
+        "red_glow": "local_soft_reflection; no full-screen metallic flare"
+      },
+      "rail_mode": "single_drawdown",
+      "photo_asset_id": null,
+      "requires_renderer_capabilities": [
+        "camera_continuity",
+        "coordinated_orbit_hit",
+        "floating_event_anchor",
+        "immutable_historical_date_labels",
+        "market_clock_keys",
+        "market_freeze_with_event_clock",
+        "single_reversible_stage_rail"
+      ],
+      "historical_anchor_label": {
+        "date": "2015-09-15",
+        "value_field": "close",
+        "immutable_during_following_market_motion": true
+      }
+    }
+  ]
+}
