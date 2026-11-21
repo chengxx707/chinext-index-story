@@ -1,0 +1,934 @@
+{
+  "schema_version": 1,
+  "period": {
+    "start_date": "2015-04-01",
+    "end_date": "2015-09-15"
+  },
+  "status": "candidate_pending_human_review",
+  "provenance": {
+    "market_source": "data/cyb_daily.csv",
+    "market_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "frozen_master_sha256": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "period_research_sha256": "61c58c728bea133664556ab6e0d2e16a291499ec9203028c50c760c2e2724657",
+    "source_registry_sha256": "50ba7781bfbd56c070ce9afec32ce675621c0000a8d45a547a4e3d89e36abd81"
+  },
+  "visual_rules": {
+    "aspect_ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "audio": false,
+    "ohlc": "实心日K，红涨绿跌，极值连线按真实投影和实际比较口径绘制",
+    "background": "黑色太空、东亚夜景地球、红色时间轨和细微光效",
+    "typography": "轻量无衬线，暖金仅用于关键极值",
+    "glass": "轻玻璃质感仅用于小面积信息层，文字进入留白区",
+    "stage_rail": "持续一条活动轨；6月3日高点停留结束后转为回撤轨，反弹时按实际收盘回退",
+    "hud": "当日收盘始终与真实交易日绑定；盘后或周末事件有独立信息日期"
+  },
+  "production_units": [
+    {
+      "unit_id": "UNIT-01",
+      "period_id": "P01",
+      "shot_id": "WF2015-01",
+      "beat_id": "april-opening",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 0,
+      "end_frame_exclusive": 120,
+      "duration_frames": 120,
+      "reading_duration": 3,
+      "start_market_date": "2015-04-01",
+      "end_market_date": "2015-04-01",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-02",
+      "period_id": "P01",
+      "shot_id": "WF2015-02",
+      "beat_id": "april-week",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 120,
+      "end_frame_exclusive": 330,
+      "duration_frames": 210,
+      "reading_duration": 5,
+      "start_market_date": "2015-04-01",
+      "end_market_date": "2015-04-24",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-03",
+      "period_id": "P01",
+      "shot_id": "WF2015-03",
+      "beat_id": "april-volume",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 330,
+      "end_frame_exclusive": 510,
+      "duration_frames": 180,
+      "reading_duration": 5,
+      "start_market_date": "2015-04-24",
+      "end_market_date": "2015-04-24",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-04",
+      "period_id": "P01",
+      "shot_id": "WF2015-04",
+      "beat_id": "june-high-close",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 510,
+      "end_frame_exclusive": 750,
+      "duration_frames": 240,
+      "reading_duration": 6,
+      "start_market_date": "2015-04-24",
+      "end_market_date": "2015-06-03",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-05",
+      "period_id": "P02",
+      "shot_id": "WF2015-05",
+      "beat_id": "june-high-intraday",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 750,
+      "end_frame_exclusive": 930,
+      "duration_frames": 180,
+      "reading_duration": 4,
+      "start_market_date": "2015-06-03",
+      "end_market_date": "2015-06-05",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-06",
+      "period_id": "P02",
+      "shot_id": "WF2015-06",
+      "beat_id": "june-consolidation",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 930,
+      "end_frame_exclusive": 1140,
+      "duration_frames": 210,
+      "reading_duration": 5,
+      "start_market_date": "2015-06-05",
+      "end_market_date": "2015-06-12",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-07",
+      "period_id": "P02",
+      "shot_id": "WF2015-07",
+      "beat_id": "june-selloff",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 1140,
+      "end_frame_exclusive": 1350,
+      "duration_frames": 210,
+      "reading_duration": 5,
+      "start_market_date": "2015-06-12",
+      "end_market_date": "2015-06-19",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-08",
+      "period_id": "P02",
+      "shot_id": "WF2015-08",
+      "beat_id": "june-pbc-faq",
+      "source_ids": [
+        "pbc-june-faq"
+      ],
+      "start_frame": 1350,
+      "end_frame_exclusive": 1590,
+      "duration_frames": 240,
+      "reading_duration": 6,
+      "start_market_date": "2015-06-19",
+      "end_market_date": "2015-06-26",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-09",
+      "period_id": "P02",
+      "shot_id": "WF2015-09",
+      "beat_id": "july-low-reference",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 1590,
+      "end_frame_exclusive": 1770,
+      "duration_frames": 180,
+      "reading_duration": 4,
+      "start_market_date": "2015-06-26",
+      "end_market_date": "2015-07-07",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-10",
+      "period_id": "P03",
+      "shot_id": "WF2015-10",
+      "beat_id": "july-csrc-reduction",
+      "source_ids": [
+        "csrc-18"
+      ],
+      "start_frame": 1770,
+      "end_frame_exclusive": 1980,
+      "duration_frames": 210,
+      "reading_duration": 5,
+      "start_market_date": "2015-07-07",
+      "end_market_date": "2015-07-08",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-11",
+      "period_id": "P03",
+      "shot_id": "WF2015-11",
+      "beat_id": "july-csrc-voice",
+      "source_ids": [
+        "csrc-18"
+      ],
+      "start_frame": 1980,
+      "end_frame_exclusive": 2160,
+      "duration_frames": 180,
+      "reading_duration": 5,
+      "start_market_date": "2015-07-08",
+      "end_market_date": "2015-07-08",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-12",
+      "period_id": "P03",
+      "shot_id": "WF2015-12",
+      "beat_id": "july-csrc-cleanup",
+      "source_ids": [
+        "csrc-19"
+      ],
+      "start_frame": 2160,
+      "end_frame_exclusive": 2400,
+      "duration_frames": 240,
+      "reading_duration": 6,
+      "start_market_date": "2015-07-08",
+      "end_market_date": "2015-07-10",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-13",
+      "period_id": "P03",
+      "shot_id": "WF2015-13",
+      "beat_id": "july-rebound",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 2400,
+      "end_frame_exclusive": 2640,
+      "duration_frames": 240,
+      "reading_duration": 6,
+      "start_market_date": "2015-07-10",
+      "end_market_date": "2015-07-23",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-14",
+      "period_id": "P04",
+      "shot_id": "WF2015-14",
+      "beat_id": "august-gap-1",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 2640,
+      "end_frame_exclusive": 2820,
+      "duration_frames": 180,
+      "reading_duration": 4,
+      "start_market_date": "2015-07-23",
+      "end_market_date": "2015-08-21",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-15",
+      "period_id": "P04",
+      "shot_id": "WF2015-15",
+      "beat_id": "august-gap-2",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 2820,
+      "end_frame_exclusive": 3000,
+      "duration_frames": 180,
+      "reading_duration": 4,
+      "start_market_date": "2015-08-21",
+      "end_market_date": "2015-08-24",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-16",
+      "period_id": "P04",
+      "shot_id": "WF2015-16",
+      "beat_id": "august-gap-3",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 3000,
+      "end_frame_exclusive": 3180,
+      "duration_frames": 180,
+      "reading_duration": 4,
+      "start_market_date": "2015-08-24",
+      "end_market_date": "2015-08-25",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-17",
+      "period_id": "P04",
+      "shot_id": "WF2015-17",
+      "beat_id": "august-pbc-announcement",
+      "source_ids": [
+        "pbc-august"
+      ],
+      "start_frame": 3180,
+      "end_frame_exclusive": 3420,
+      "duration_frames": 240,
+      "reading_duration": 7,
+      "start_market_date": "2015-08-25",
+      "end_market_date": "2015-08-25",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-18",
+      "period_id": "P04",
+      "shot_id": "WF2015-18",
+      "beat_id": "august-26",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 3420,
+      "end_frame_exclusive": 3660,
+      "duration_frames": 240,
+      "reading_duration": 6,
+      "start_market_date": "2015-08-25",
+      "end_market_date": "2015-08-26",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-19",
+      "period_id": "P05",
+      "shot_id": "WF2015-19",
+      "beat_id": "september-cffex-rules",
+      "source_ids": [
+        "cffex-september"
+      ],
+      "start_frame": 3660,
+      "end_frame_exclusive": 3900,
+      "duration_frames": 240,
+      "reading_duration": 6,
+      "start_market_date": "2015-08-26",
+      "end_market_date": "2015-09-02",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-20",
+      "period_id": "P05",
+      "shot_id": "WF2015-20",
+      "beat_id": "september-intraday",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 3900,
+      "end_frame_exclusive": 4050,
+      "duration_frames": 150,
+      "reading_duration": 4,
+      "start_market_date": "2015-09-02",
+      "end_market_date": "2015-09-02",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-21",
+      "period_id": "P05",
+      "shot_id": "WF2015-21",
+      "beat_id": "september-dividend-tax",
+      "source_ids": [
+        "mof-101"
+      ],
+      "start_frame": 4050,
+      "end_frame_exclusive": 4320,
+      "duration_frames": 270,
+      "reading_duration": 7,
+      "start_market_date": "2015-09-02",
+      "end_market_date": "2015-09-07",
+      "readiness": "candidate_pending_human_review"
+    },
+    {
+      "unit_id": "UNIT-22",
+      "period_id": "P05",
+      "shot_id": "WF2015-22",
+      "beat_id": "september-low-close",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "start_frame": 4320,
+      "end_frame_exclusive": 4590,
+      "duration_frames": 270,
+      "reading_duration": 7,
+      "start_market_date": "2015-09-07",
+      "end_market_date": "2015-09-15",
+      "readiness": "candidate_pending_human_review"
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "WF2015-01",
+      "beat_id": "april-opening",
+      "start_market_date": "2015-04-01",
+      "end_market_date": "2015-04-01",
+      "story_purpose": "建立创业板指与段落的观察起点。",
+      "primary_focus": "market",
+      "screen_text": [
+        "2015年4月",
+        "创业板指 · 399006"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "wide",
+      "time_speed": "停留在同一真实交易日",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_rise_until_peak_hold",
+      "reading_duration": 3,
+      "transition_in": "由黑场渐入",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-02",
+      "beat_id": "april-week",
+      "start_market_date": "2015-04-01",
+      "end_market_date": "2015-04-24",
+      "story_purpose": "在交易周末标出指数的收盘移动。",
+      "primary_focus": "market",
+      "screen_text": [
+        "4月20—24日",
+        "创业板指周涨跌 +10.99%"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "medium",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_rise_until_peak_hold",
+      "reading_duration": 5,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-03",
+      "beat_id": "april-volume",
+      "start_market_date": "2015-04-24",
+      "end_market_date": "2015-04-24",
+      "story_purpose": "用真实成交量补充4月交易参与。",
+      "primary_focus": "market",
+      "screen_text": [
+        "4月20—24日 · 创业板指成交量",
+        "较4月13—17日 +2.33%"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "medium",
+      "time_speed": "停留在同一真实交易日",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_rise_until_peak_hold",
+      "reading_duration": 5,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-04",
+      "beat_id": "june-high-close",
+      "start_market_date": "2015-04-24",
+      "end_market_date": "2015-06-03",
+      "story_purpose": "用区间真实收盘端点建立峰值记忆。",
+      "primary_focus": "close_extremum",
+      "screen_text": [
+        "2015.06.03 · 阶段最高收盘",
+        "3,982.25"
+      ],
+      "visual_component": "extreme_close",
+      "camera_scale": "wide",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "按真实几何依次点亮双端点并显示区间",
+      "keypoint_close_anchors": [
+        {
+          "date": "2015-04-01",
+          "value": 2404.91
+        },
+        {
+          "date": "2015-06-03",
+          "value": 3982.25
+        }
+      ],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_rise_until_peak_hold",
+      "reading_duration": 6,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-05",
+      "beat_id": "june-high-intraday",
+      "start_market_date": "2015-06-03",
+      "end_market_date": "2015-06-05",
+      "story_purpose": "提示盘中高点和最高收盘是不同口径。",
+      "primary_focus": "intraday_extremum",
+      "screen_text": [
+        "2015.06.05 · 盘中高点",
+        "4,037.96"
+      ],
+      "visual_component": "intraday_extreme",
+      "camera_scale": "close",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "只在真实极值位置短暂暖金强调",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-06",
+      "beat_id": "june-consolidation",
+      "start_market_date": "2015-06-05",
+      "end_market_date": "2015-06-12",
+      "story_purpose": "给高点后的高位反复留出阅读空间。",
+      "primary_focus": "market",
+      "screen_text": [
+        "2015.06.12 · 收盘",
+        "3,899.71",
+        "较6月3日 −2.07%"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "medium",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 5,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-07",
+      "beat_id": "june-selloff",
+      "start_market_date": "2015-06-12",
+      "end_market_date": "2015-06-19",
+      "story_purpose": "表现此前高位与本周收盘的真实距离。",
+      "primary_focus": "market",
+      "screen_text": [
+        "2015.06.19 · 收盘",
+        "3,314.98",
+        "较6月3日 −16.76%"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "medium",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 5,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-08",
+      "beat_id": "june-pbc-faq",
+      "start_market_date": "2015-06-19",
+      "end_market_date": "2015-06-26",
+      "story_purpose": "并列周末政策与上一交易日行情。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.06.27 · 周六",
+        "央行定向降准",
+        "并下调存贷款基准利率"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "留白区短淡入，共用日期线，关键日K保持可见",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "冻结在上一交易日，事件日期独立显示",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 6,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-09",
+      "beat_id": "july-low-reference",
+      "start_market_date": "2015-06-26",
+      "end_market_date": "2015-07-07",
+      "story_purpose": "为下一段收盘反弹给出可复核的比较基准。",
+      "primary_focus": "market",
+      "screen_text": [
+        "2015.07.07 · 收盘",
+        "2,352.01"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "medium",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-10",
+      "beat_id": "july-csrc-reduction",
+      "start_market_date": "2015-07-07",
+      "end_market_date": "2015-07-08",
+      "story_purpose": "交代7月初证券市场监管措施。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.07.08",
+        "大股东及董监高减持限制"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "留白区短淡入，共用日期线，关键日K保持可见",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 5,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-11",
+      "beat_id": "july-csrc-voice",
+      "start_market_date": "2015-07-08",
+      "end_market_date": "2015-07-08",
+      "story_purpose": "保留同期机构的署名表述。",
+      "primary_focus": "attributed_voice",
+      "screen_text": [
+        "“非理性下跌”",
+        "证监会公告中的描述"
+      ],
+      "visual_component": "floating_attribution",
+      "camera_scale": "medium",
+      "time_speed": "停留在同一真实交易日",
+      "event_animation": "留白区短淡入，共用日期线，关键日K保持可见",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 5,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-12",
+      "beat_id": "july-csrc-cleanup",
+      "start_market_date": "2015-07-08",
+      "end_market_date": "2015-07-10",
+      "story_purpose": "保留原公告日期与前一交易日。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.07.12 · 周日",
+        "清理整顿违法从事证券业务活动"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "留白区短淡入，共用日期线，关键日K保持可见",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "冻结在上一交易日，事件日期独立显示",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 6,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-13",
+      "beat_id": "july-rebound",
+      "start_market_date": "2015-07-10",
+      "end_market_date": "2015-07-23",
+      "story_purpose": "连起7月7日和23日两个真实收盘。",
+      "primary_focus": "market",
+      "screen_text": [
+        "7月7日至23日 · 收盘比较",
+        "+26.19%"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "medium",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "按真实几何依次点亮双端点并显示区间",
+      "keypoint_close_anchors": [
+        {
+          "date": "2015-07-07",
+          "value": 2352.01
+        },
+        {
+          "date": "2015-07-23",
+          "value": 2967.95
+        }
+      ],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 6,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-14",
+      "beat_id": "august-gap-1",
+      "start_market_date": "2015-07-23",
+      "end_market_date": "2015-08-21",
+      "story_purpose": "留出空白显示整根日K之间真实的价格断层。",
+      "primary_focus": "gap",
+      "screen_text": [
+        "2015.08.21",
+        "完整向下缺口  1/3",
+        "单日 −6.65%"
+      ],
+      "visual_component": "ohlc_gap",
+      "camera_scale": "close",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-15",
+      "beat_id": "august-gap-2",
+      "start_market_date": "2015-08-21",
+      "end_market_date": "2015-08-24",
+      "story_purpose": "留出空白显示整根日K之间真实的价格断层。",
+      "primary_focus": "gap",
+      "screen_text": [
+        "2015.08.24",
+        "完整向下缺口  2/3",
+        "单日 −8.08%"
+      ],
+      "visual_component": "ohlc_gap",
+      "camera_scale": "close",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-16",
+      "beat_id": "august-gap-3",
+      "start_market_date": "2015-08-24",
+      "end_market_date": "2015-08-25",
+      "story_purpose": "留出空白显示整根日K之间真实的价格断层。",
+      "primary_focus": "gap",
+      "screen_text": [
+        "2015.08.25",
+        "完整向下缺口  3/3",
+        "单日 −7.52%"
+      ],
+      "visual_component": "ohlc_gap",
+      "camera_scale": "close",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-17",
+      "beat_id": "august-pbc-announcement",
+      "start_market_date": "2015-08-25",
+      "end_market_date": "2015-08-25",
+      "story_purpose": "在8月25日行情之后显示公告及实施日期。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.08.25 18:15 · 盘后",
+        "央行公布降息降准安排",
+        "8月26日起降息 · 9月6日起降准"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "停留在同一真实交易日",
+      "event_animation": "留白区短淡入，共用日期线，关键日K保持可见",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "冻结在当日收盘，日期线显示盘后公告时间",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 7,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-18",
+      "beat_id": "august-26",
+      "start_market_date": "2015-08-25",
+      "end_market_date": "2015-08-26",
+      "story_purpose": "显示8月26日K线的实际覆盖，并单列收益统计窗口。",
+      "primary_focus": "market",
+      "screen_text": [
+        "2015.08.26 · 低开、日K区间重叠",
+        "8月24—26日累计 −19.30%"
+      ],
+      "visual_component": "daily_candles",
+      "camera_scale": "close",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 6,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-19",
+      "beat_id": "september-cffex-rules",
+      "start_market_date": "2015-08-26",
+      "end_market_date": "2015-09-02",
+      "story_purpose": "交代同期股指期货措施的市场范围。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.09.02 公布",
+        "股指期货管控措施",
+        "9月7日起实施"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "留白区短淡入，共用日期线，关键日K保持可见",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 6,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-20",
+      "beat_id": "september-intraday",
+      "start_market_date": "2015-09-02",
+      "end_market_date": "2015-09-02",
+      "story_purpose": "提示盘中低点与阶段最低收盘的口径差异。",
+      "primary_focus": "intraday_extremum",
+      "screen_text": [
+        "2015.09.02 · 盘中低点",
+        "1,779.18"
+      ],
+      "visual_component": "intraday_extreme",
+      "camera_scale": "close",
+      "time_speed": "停留在同一真实交易日",
+      "event_animation": "none",
+      "keypoint_animation": "只在真实极值位置短暂暖金强调",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 4,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-21",
+      "beat_id": "september-dividend-tax",
+      "start_market_date": "2015-09-02",
+      "end_market_date": "2015-09-07",
+      "story_purpose": "按时间并列税收政策与行情。",
+      "primary_focus": "event",
+      "screen_text": [
+        "2015.09.07 成文 · 9月8日施行",
+        "持股超过一年",
+        "股息红利暂免个人所得税"
+      ],
+      "visual_component": "floating_event_caption",
+      "camera_scale": "medium",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "留白区短淡入，共用日期线，关键日K保持可见",
+      "keypoint_animation": "none",
+      "keypoint_close_anchors": [],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 7,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "保留阶段语境与红色时间轨，传递摄影机投影"
+    },
+    {
+      "shot_id": "WF2015-22",
+      "beat_id": "september-low-close",
+      "start_market_date": "2015-09-07",
+      "end_market_date": "2015-09-15",
+      "story_purpose": "在同一真实价格投影中收束六月到九月的回撤。",
+      "primary_focus": "close_extremum",
+      "screen_text": [
+        "2015.09.15 · 阶段最低收盘",
+        "1,797.56",
+        "较6月3日最高收盘 −54.86%"
+      ],
+      "visual_component": "extreme_close",
+      "camera_scale": "wide",
+      "time_speed": "连续推进至观察日，入读后停留",
+      "event_animation": "none",
+      "keypoint_animation": "按真实几何依次点亮双端点并显示区间",
+      "keypoint_close_anchors": [
+        {
+          "date": "2015-06-03",
+          "value": 3982.25
+        },
+        {
+          "date": "2015-09-15",
+          "value": 1797.56
+        }
+      ],
+      "timeline_behavior": "日期和收盘来自同一真实K线",
+      "stage_rail_behavior": "single_drawdown",
+      "reading_duration": 7,
+      "transition_in": "从前一镜实际投影延续，缓动重构相机位置",
+      "transition_out": "区间同框停留后淡出"
+    }
+  ],
+  "planned_frame_count": 4590,
+  "render_performed": false,
+  "manual_review": [
+    "事实及文本取舍",
+    "布局及关键价位无遮挡",
+    "实际连续播放与阅读时长"
+  ]
+}

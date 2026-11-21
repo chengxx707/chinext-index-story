@@ -1,0 +1,67 @@
+{
+  "status": "real_photos_not_ready",
+  "qualified_photo_count": 0,
+  "distinct_event_years": [],
+  "minimum_assets_ready": false,
+  "album_rendered": false,
+  "document_fallback_allowed": false,
+  "ready": [],
+  "missing": [
+    {
+      "asset_id": "PHOTO_M01_ALT",
+      "reason": "Real photograph is not qualified: PHOTO_M01_ALT",
+      "source_pages": []
+    },
+    {
+      "asset_id": "PHOTO_M02",
+      "reason": "Real photograph is not qualified: PHOTO_M02",
+      "source_pages": [
+        "https://thepaper.cn/newsDetail_forward_1325946",
+        "https://finance.people.com.cn/stock/n/2015/0422/c67815-26884427.html",
+        "https://m.chinanews.com/wap/detail/cht/zw/7241240.shtml"
+      ]
+    },
+    {
+      "asset_id": "PHOTO_M03",
+      "reason": "Real photograph is not qualified: PHOTO_M03",
+      "source_pages": [
+        "https://money.people.com.cn/n1/2018/0612/c42877-30051635.html",
+        "https://money.people.com.cn/n1/2018/0612/c42877-30051837.html"
+      ]
+    },
+    {
+      "asset_id": "PHOTO_M04",
+      "reason": "Real photograph is not qualified: PHOTO_M04",
+      "source_pages": [
+        "https://china.cnr.cn/xwwgf/20200824/t20200824_525224531.shtml",
+        "https://news.cnr.cn/native/gd/20200824/t20200824_525224769.shtml",
+        "https://www.szse.cn/aboutus/trends/news/t20200824_580949.html"
+      ]
+    },
+    {
+      "asset_id": "PHOTO_M05",
+      "reason": "Real photograph is not qualified: PHOTO_M05",
+      "source_pages": [
+        "https://www.stcn.com/article/detail/898024.html"
+      ]
+    },
+    {
+      "asset_id": "PHOTO_B01",
+      "reason": "Real photograph is not qualified: PHOTO_B01",
+      "source_pages": [
+        "https://www.cs.com.cn/ssgs/gsxw/201307/t20130724_4079034.html",
+        "https://finance.people.com.cn/stock/n/2013/0730/c67815-22371020.html"
+      ]
+    },
+    {
+      "asset_id": "PHOTO_B02",
+      "reason": "Real photograph is not qualified: PHOTO_B02",
+      "source_pages": [
+        "https://static.nfnews.com/content/202007/21/c3792865.html",
+        "https://www.peopleapp.com/rmharticle/30019122803",
+        "https://money.people.com.cn/n1/2020/0608/c42877-31738660.html"
+      ]
+    }
+  ],
+  "note": "Photo availability is separate from scene bindings and final film approval."
+}

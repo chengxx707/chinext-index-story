@@ -1,0 +1,35 @@
+{
+  "task_id": "A.full-content-review",
+  "lane": "A",
+  "title": "用户批准全片正式内容与屏幕文字",
+  "dependencies": {
+    "A.production-check": {
+      "input_hash": "3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790",
+      "artifacts": [
+        "1fd2d2e0eb50cae11844d361cd8781bcee8310b02f4d8873e78567a042031eb3",
+        "4d70d0c64ed863c13b62585864edcf69cbc1e0339164d7302ce8c0a6eacd7f47"
+      ]
+    }
+  },
+  "input_hash": "289f44048359b1f65291f0c00dcfc4f7b05eea11a92d031ee2570b2f525ad25f",
+  "adapter": null,
+  "approval_required": true,
+  "status": "BLOCKED",
+  "reason": "Human approval required for this input hash",
+  "history": [
+    {
+      "status": "PENDING",
+      "at": "2026-11-21T03:58:32.977039+00:00",
+      "reason": null
+    },
+    {
+      "status": "BLOCKED",
+      "at": "2026-11-21T03:58:32.978428+00:00",
+      "reason": "Human approval required for this input hash"
+    }
+  ],
+  "attempts": [],
+  "manifest": null,
+  "manifest_path": null,
+  "code": "approval"
+}

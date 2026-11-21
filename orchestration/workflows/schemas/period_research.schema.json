@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WF-01A period research",
+  "type": "object",
+  "required": ["schema_version", "period", "generated_at", "events", "evidence_counts", "production_registry_modified"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "period": {"type": "object", "required": ["id", "title", "start_date", "end_date", "timezone"]},
+    "generated_at": {"type": "string"},
+    "production_registry_modified": {"const": false},
+    "evidence_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event_id", "event_date", "date_precision", "event_type", "title", "summary",
+          "key_figures", "source_ids", "evidence_status", "verification_notes",
+          "market_anchor", "narrative_candidate", "display_candidate", "grade_provenance"
+        ],
+        "properties": {
+          "event_id": {"type": "string", "minLength": 1},
+          "event_date": {"type": ["string", "null"]},
+          "date_precision": {"enum": ["timestamp", "day", "month", "year", "range", "unknown"]},
+          "event_type": {"enum": ["fact", "market_observation", "attributed_view", "hypothesis"]},
+          "title": {"type": "string", "minLength": 1},
+          "summary": {"type": "string", "minLength": 1},
+          "key_figures": {"type": "array"},
+          "source_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "evidence_status": {"enum": ["VERIFIED", "PARTIALLY_VERIFIED", "DISPUTED", "NEEDS_EXTERNAL_RESEARCH", "REJECTED"]},
+          "verification_notes": {"type": "object"},
+          "market_anchor": {"type": ["string", "null"]},
+          "narrative_candidate": {"type": "boolean"},
+          "display_candidate": {"type": "boolean"},
+          "grade_provenance": {"type": "object"}
+        }
+      }
+    }
+  }
+}

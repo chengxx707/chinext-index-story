@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "production_unit",
+  "description": "整数帧区间、节拍与镜头关联及候选放行状态。",
+  "type": "object",
+  "required": [
+    "unit_id",
+    "period_id",
+    "shot_id",
+    "beat_id",
+    "source_ids",
+    "start_frame",
+    "end_frame_exclusive",
+    "duration_frames",
+    "reading_duration",
+    "start_market_date",
+    "end_market_date",
+    "readiness"
+  ],
+  "properties": {
+    "unit_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "period_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "shot_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "beat_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "start_frame": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "end_frame_exclusive": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "duration_frames": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "reading_duration": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "start_market_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "end_market_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "readiness": {
+      "type": "string",
+      "enum": [
+        "candidate_pending_human_review"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WF-01A local source inventory",
+  "type": "object",
+  "required": ["schema_version", "sources"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "original_path", "sha256", "url", "publisher", "published_at", "collected_at", "type", "parse_status", "provenance"],
+        "properties": {
+          "source_id": {"type": "string", "minLength": 1},
+          "original_path": {"type": ["string", "null"]},
+          "sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+          "url": {"type": ["string", "null"]},
+          "publisher": {"type": ["string", "null"]},
+          "published_at": {"type": ["string", "null"]},
+          "collected_at": {"type": ["string", "null"]},
+          "type": {"enum": ["primary", "contemporary", "retrospective", "market_data", "lead"]},
+          "parse_status": {"enum": ["PARSED", "EMPTY", "MISSING", "LEAD_ONLY", "UNSUPPORTED", "PARSE_ERROR"]},
+          "provenance": {"enum": ["local_dossier", "external_response"]}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "B.representative-review",
+  "lane": "B",
+  "title": "用户集中观看 2015 主体代表段",
+  "dependencies": {
+    "B.representative-render": {
+      "input_hash": "8426a7c5fa21f37fe78c03642fc2d0707a33f3062e40c3a6d040f1d5afee2efe",
+      "artifacts": null
+    }
+  },
+  "input_hash": "e19ff29a962aeb4d170ac8e1ef61191caf373d611ffd2cbc07fb89f9dd8a0c30",
+  "adapter": null,
+  "approval_required": true,
+  "status": "BLOCKED",
+  "reason": "Prerequisites have not passed: B.representative-render (BLOCKED)",
+  "history": [
+    {
+      "status": "PENDING",
+      "at": "2026-11-21T03:58:33.265648+00:00",
+      "reason": null
+    },
+    {
+      "status": "BLOCKED",
+      "at": "2026-11-21T03:58:33.266882+00:00",
+      "reason": "Prerequisites have not passed: B.representative-render (BLOCKED)"
+    }
+  ],
+  "attempts": [],
+  "manifest": null,
+  "manifest_path": null,
+  "code": "dependencies"
+}

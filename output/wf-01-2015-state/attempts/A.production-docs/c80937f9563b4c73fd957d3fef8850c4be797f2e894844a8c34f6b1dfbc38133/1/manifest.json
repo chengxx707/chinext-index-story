@@ -1,0 +1,13 @@
+{
+  "task_id": "A.production-docs",
+  "input_hash": "c80937f9563b4c73fd957d3fef8850c4be797f2e894844a8c34f6b1dfbc38133",
+  "attempt": 1,
+  "artifacts": [
+    {
+      "path": "attempts/A.production-docs/c80937f9563b4c73fd957d3fef8850c4be797f2e894844a8c34f6b1dfbc38133/1/command.log",
+      "sha256": "a06ba27fa0c053675fdddae8e17a729b4c307d39acdcca3a6ac20fd49b5274d1",
+      "bytes": 332
+    }
+  ],
+  "approval": null
+}

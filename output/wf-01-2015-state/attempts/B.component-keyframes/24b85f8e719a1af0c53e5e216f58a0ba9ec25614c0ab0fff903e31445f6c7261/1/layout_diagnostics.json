@@ -1,0 +1,1208 @@
+[
+  {
+    "width": 720,
+    "height": 1280,
+    "node_id": "S10",
+    "beat_index": 0,
+    "kind": "stage",
+    "progress": 0.5,
+    "opacity": 1.0,
+    "source_ids": [
+      "CSV"
+    ],
+    "market_anchor": "2015-06-12",
+    "historical_date": "2015-06-12",
+    "date_precision": "day",
+    "synthetic_archive_photography": false,
+    "large_background_plate": false,
+    "photo_asset": null,
+    "text_boxes": [
+      {
+        "id": "header_en",
+        "text": "C H I N E X T   I N D E X",
+        "bbox": [
+          72.0,
+          59.0,
+          171.0,
+          67.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_cn",
+        "text": "创业板指",
+        "bbox": [
+          71.0,
+          92.0,
+          207.0,
+          126.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_code",
+        "text": "(399006)",
+        "bbox": [
+          221.0,
+          103.0,
+          305.0,
+          125.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_subtitle",
+        "text": "中国创业板市场代表指数",
+        "bbox": [
+          72.0,
+          143.0,
+          204.0,
+          157.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "footer_basis",
+        "text": "日线开高低收 · 价格指数 · 不含分红",
+        "bbox": [
+          280.0,
+          1202.0,
+          440.0,
+          1214.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "footer_source",
+        "text": "东方财富公开接口 / 数据截至2026.11.10",
+        "bbox": [
+          280.0,
+          1224.0,
+          441.0,
+          1235.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "stage_title_0",
+        "text": "急跌、稳定措施与阶段反弹",
+        "bbox": [
+          67.0,
+          424.0,
+          511.0,
+          461.0
+        ],
+        "role": "context"
+      }
+    ],
+    "out_of_bounds": [],
+    "actual_readability_review": "pending_representative_sample"
+  },
+  {
+    "width": 720,
+    "height": 1280,
+    "node_id": "S07",
+    "beat_index": 1,
+    "kind": "event",
+    "progress": 0.5,
+    "opacity": 1.0,
+    "source_ids": [
+      "U:multi_account_2015",
+      "U:accounts_2015"
+    ],
+    "market_anchor": "2015-04-24",
+    "historical_date": "2015-04-20/2015-04-24",
+    "date_precision": "range",
+    "synthetic_archive_photography": false,
+    "large_background_plate": false,
+    "photo_asset": null,
+    "text_boxes": [
+      {
+        "id": "header_en",
+        "text": "C H I N E X T   I N D E X",
+        "bbox": [
+          72.0,
+          59.0,
+          171.0,
+          67.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_cn",
+        "text": "创业板指",
+        "bbox": [
+          71.0,
+          92.0,
+          207.0,
+          126.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_code",
+        "text": "(399006)",
+        "bbox": [
+          221.0,
+          103.0,
+          305.0,
+          125.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_subtitle",
+        "text": "中国创业板市场代表指数",
+        "bbox": [
+          72.0,
+          143.0,
+          204.0,
+          157.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "hud_date",
+        "text": "2015.04.24",
+        "bbox": [
+          596.0,
+          184.0,
+          666.0,
+          195.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "hud_close",
+        "text": "2,734.75",
+        "bbox": [
+          565.0,
+          212.0,
+          666.0,
+          235.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "hud_label",
+        "text": "当日收盘",
+        "bbox": [
+          626.0,
+          238.0,
+          666.0,
+          250.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "footer_basis",
+        "text": "日线开高低收 · 价格指数 · 不含分红",
+        "bbox": [
+          280.0,
+          1202.0,
+          440.0,
+          1214.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "footer_source",
+        "text": "东方财富公开接口 / 数据截至2026.11.10",
+        "bbox": [
+          280.0,
+          1224.0,
+          441.0,
+          1235.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "phase_context",
+        "text": "快速上涨与参与增加",
+        "bbox": [
+          65.0,
+          224.0,
+          182.0,
+          238.0
+        ],
+        "role": "context"
+      },
+      {
+        "id": "event_date",
+        "text": "2015.04.20—24",
+        "bbox": [
+          65.0,
+          276.0,
+          184.0,
+          288.0
+        ],
+        "role": "date"
+      },
+      {
+        "id": "event_line_0_0",
+        "text": "单周新开A股账户",
+        "bbox": [
+          65.0,
+          307.0,
+          233.0,
+          329.0
+        ],
+        "role": "body"
+      },
+      {
+        "id": "event_line_1_0",
+        "text": "413.03万户",
+        "bbox": [
+          65.0,
+          349.36,
+          287.0,
+          391.36
+        ],
+        "role": "body"
+      },
+      {
+        "id": "source_0",
+        "text": "中国结算数据｜据提供研究",
+        "bbox": [
+          65.0,
+          412.32,
+          209.0,
+          426.32
+        ],
+        "role": "source"
+      }
+    ],
+    "out_of_bounds": [],
+    "actual_readability_review": "pending_representative_sample"
+  },
+  {
+    "width": 720,
+    "height": 1280,
+    "node_id": "S11",
+    "beat_index": 1,
+    "kind": "timeline",
+    "progress": 0.5,
+    "opacity": 1.0,
+    "source_ids": [
+      "AR08",
+      "AR09",
+      "AR10"
+    ],
+    "market_anchor": "2015-07-08",
+    "historical_date": "2015-07-08",
+    "date_precision": "day",
+    "synthetic_archive_photography": false,
+    "large_background_plate": false,
+    "photo_asset": null,
+    "text_boxes": [
+      {
+        "id": "header_en",
+        "text": "C H I N E X T   I N D E X",
+        "bbox": [
+          72.0,
+          59.0,
+          171.0,
+          67.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_cn",
+        "text": "创业板指",
+        "bbox": [
+          71.0,
+          92.0,
+          207.0,
+          126.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_code",
+        "text": "(399006)",
+        "bbox": [
+          221.0,
+          103.0,
+          305.0,
+          125.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_subtitle",
+        "text": "中国创业板市场代表指数",
+        "bbox": [
+          72.0,
+          143.0,
+          204.0,
+          157.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "hud_date",
+        "text": "2015.07.08",
+        "bbox": [
+          596.0,
+          184.0,
+          666.0,
+          195.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "hud_close",
+        "text": "2,364.05",
+        "bbox": [
+          565.0,
+          212.0,
+          666.0,
+          235.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "hud_label",
+        "text": "当日收盘",
+        "bbox": [
+          626.0,
+          238.0,
+          666.0,
+          250.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "footer_basis",
+        "text": "日线开高低收 · 价格指数 · 不含分红",
+        "bbox": [
+          280.0,
+          1202.0,
+          440.0,
+          1214.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "footer_source",
+        "text": "东方财富公开接口 / 数据截至2026.11.10",
+        "bbox": [
+          280.0,
+          1224.0,
+          441.0,
+          1235.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "phase_context",
+        "text": "急跌、稳定措施与阶段反弹",
+        "bbox": [
+          65.0,
+          223.0,
+          221.0,
+          238.0
+        ],
+        "role": "context"
+      },
+      {
+        "id": "event_date",
+        "text": "2015.07.08",
+        "bbox": [
+          65.0,
+          276.0,
+          151.0,
+          288.0
+        ],
+        "role": "date"
+      },
+      {
+        "id": "event_line_0_0",
+        "text": "大股东及董监高",
+        "bbox": [
+          65.0,
+          306.0,
+          219.0,
+          329.0
+        ],
+        "role": "body"
+      },
+      {
+        "id": "event_line_1_0",
+        "text": "减持限制",
+        "bbox": [
+          65.0,
+          344.36,
+          153.0,
+          366.36
+        ],
+        "role": "body"
+      },
+      {
+        "id": "source_0",
+        "text": "证监会公告〔2015〕18号",
+        "bbox": [
+          65.0,
+          385.72,
+          201.0,
+          398.72
+        ],
+        "role": "source"
+      },
+      {
+        "id": "timeline_date_0",
+        "text": "06.27",
+        "bbox": [
+          51.0,
+          466.0,
+          79.0,
+          474.0
+        ],
+        "role": "timeline"
+      },
+      {
+        "id": "timeline_date_1",
+        "text": "07.08",
+        "bbox": [
+          183.0,
+          466.0,
+          211.0,
+          474.0
+        ],
+        "role": "timeline"
+      }
+    ],
+    "out_of_bounds": [],
+    "actual_readability_review": "pending_representative_sample"
+  },
+  {
+    "width": 720,
+    "height": 1280,
+    "node_id": "S20",
+    "beat_index": 1,
+    "kind": "quote",
+    "progress": 0.5,
+    "opacity": 1.0,
+    "source_ids": [
+      "AR01"
+    ],
+    "market_anchor": "2018-10-18",
+    "historical_date": "2018-10-19",
+    "date_precision": "day",
+    "synthetic_archive_photography": false,
+    "large_background_plate": false,
+    "photo_asset": null,
+    "text_boxes": [
+      {
+        "id": "header_en",
+        "text": "C H I N E X T   I N D E X",
+        "bbox": [
+          72.0,
+          59.0,
+          171.0,
+          67.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_cn",
+        "text": "创业板指",
+        "bbox": [
+          71.0,
+          92.0,
+          207.0,
+          126.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_code",
+        "text": "(399006)",
+        "bbox": [
+          221.0,
+          103.0,
+          305.0,
+          125.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_subtitle",
+        "text": "中国创业板市场代表指数",
+        "bbox": [
+          72.0,
+          143.0,
+          204.0,
+          157.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "hud_date",
+        "text": "2018.10.18",
+        "bbox": [
+          596.0,
+          184.0,
+          666.0,
+          195.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "hud_close",
+        "text": "1,205.03",
+        "bbox": [
+          565.0,
+          212.0,
+          666.0,
+          235.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "hud_label",
+        "text": "上一交易日",
+        "bbox": [
+          616.0,
+          239.0,
+          666.0,
+          250.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "footer_basis",
+        "text": "日线开高低收 · 价格指数 · 不含分红",
+        "bbox": [
+          280.0,
+          1202.0,
+          440.0,
+          1214.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "footer_source",
+        "text": "东方财富公开接口 / 数据截至2026.11.10",
+        "bbox": [
+          280.0,
+          1224.0,
+          441.0,
+          1235.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "phase_context",
+        "text": "修复、注册制与企业变化",
+        "bbox": [
+          65.0,
+          223.0,
+          208.0,
+          238.0
+        ],
+        "role": "context"
+      },
+      {
+        "id": "card_kicker",
+        "text": "当时的声音",
+        "bbox": [
+          65.0,
+          274.0,
+          145.0,
+          291.0
+        ],
+        "role": "date"
+      },
+      {
+        "id": "card_line_0_0",
+        "text": "“市场预期发生变化”",
+        "bbox": [
+          65.0,
+          317.0,
+          330.0,
+          346.0
+        ],
+        "role": "body"
+      },
+      {
+        "id": "source_0",
+        "text": "刘鹤｜2018.10.19｜新华社",
+        "bbox": [
+          65.0,
+          377.05,
+          209.0,
+          391.05
+        ],
+        "role": "source"
+      }
+    ],
+    "out_of_bounds": [],
+    "actual_readability_review": "pending_representative_sample"
+  },
+  {
+    "width": 720,
+    "height": 1280,
+    "node_id": "S34",
+    "beat_index": 0,
+    "kind": "headline",
+    "progress": 0.5,
+    "opacity": 1.0,
+    "source_ids": [
+      "AR04"
+    ],
+    "market_anchor": "2024-09-25",
+    "historical_date": "2024-09-25",
+    "date_precision": "day",
+    "synthetic_archive_photography": false,
+    "large_background_plate": false,
+    "photo_asset": null,
+    "text_boxes": [
+      {
+        "id": "header_en",
+        "text": "C H I N E X T   I N D E X",
+        "bbox": [
+          72.0,
+          59.0,
+          171.0,
+          67.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_cn",
+        "text": "创业板指",
+        "bbox": [
+          71.0,
+          92.0,
+          207.0,
+          126.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_code",
+        "text": "(399006)",
+        "bbox": [
+          221.0,
+          103.0,
+          305.0,
+          125.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_subtitle",
+        "text": "中国创业板市场代表指数",
+        "bbox": [
+          72.0,
+          143.0,
+          204.0,
+          157.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "hud_date",
+        "text": "2024.09.25",
+        "bbox": [
+          596.0,
+          184.0,
+          666.0,
+          195.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "hud_close",
+        "text": "1,641.54",
+        "bbox": [
+          565.0,
+          212.0,
+          666.0,
+          235.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "hud_label",
+        "text": "当日收盘",
+        "bbox": [
+          626.0,
+          238.0,
+          666.0,
+          250.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "footer_basis",
+        "text": "日线开高低收 · 价格指数 · 不含分红",
+        "bbox": [
+          280.0,
+          1202.0,
+          440.0,
+          1214.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "footer_source",
+        "text": "东方财富公开接口 / 数据截至2026.11.10",
+        "bbox": [
+          280.0,
+          1224.0,
+          441.0,
+          1235.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "phase_context",
+        "text": "反弹与样本新高",
+        "bbox": [
+          65.0,
+          223.0,
+          156.0,
+          237.0
+        ],
+        "role": "context"
+      },
+      {
+        "id": "card_kicker",
+        "text": "2024.09.25｜报道摘要",
+        "bbox": [
+          65.0,
+          273.0,
+          231.0,
+          291.0
+        ],
+        "role": "date"
+      },
+      {
+        "id": "card_line_0_0",
+        "text": "金融政策公布后",
+        "bbox": [
+          65.0,
+          317.0,
+          247.0,
+          343.0
+        ],
+        "role": "body"
+      },
+      {
+        "id": "card_line_1_0",
+        "text": "中国资产延续强势表现",
+        "bbox": [
+          65.0,
+          364.7,
+          325.0,
+          391.7
+        ],
+        "role": "body"
+      },
+      {
+        "id": "source_0",
+        "text": "央广网｜对象为中国资产整体",
+        "bbox": [
+          65.0,
+          420.4,
+          221.0,
+          434.4
+        ],
+        "role": "source"
+      }
+    ],
+    "out_of_bounds": [],
+    "actual_readability_review": "pending_representative_sample"
+  },
+  {
+    "width": 720,
+    "height": 1280,
+    "node_id": "S24",
+    "beat_index": 0,
+    "kind": "document",
+    "progress": 0.5,
+    "opacity": 1.0,
+    "source_ids": [
+      "AR07"
+    ],
+    "market_anchor": "2020-08-24",
+    "historical_date": "2020-08-24",
+    "date_precision": "day",
+    "synthetic_archive_photography": false,
+    "large_background_plate": false,
+    "photo_asset": null,
+    "text_boxes": [
+      {
+        "id": "header_en",
+        "text": "C H I N E X T   I N D E X",
+        "bbox": [
+          72.0,
+          59.0,
+          171.0,
+          67.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_cn",
+        "text": "创业板指",
+        "bbox": [
+          71.0,
+          92.0,
+          207.0,
+          126.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_code",
+        "text": "(399006)",
+        "bbox": [
+          221.0,
+          103.0,
+          305.0,
+          125.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_subtitle",
+        "text": "中国创业板市场代表指数",
+        "bbox": [
+          72.0,
+          143.0,
+          204.0,
+          157.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "hud_date",
+        "text": "2020.08.24",
+        "bbox": [
+          596.0,
+          184.0,
+          666.0,
+          195.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "hud_close",
+        "text": "2,684.63",
+        "bbox": [
+          565.0,
+          212.0,
+          666.0,
+          235.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "hud_label",
+        "text": "当日收盘",
+        "bbox": [
+          626.0,
+          238.0,
+          666.0,
+          250.0
+        ],
+        "role": "status"
+      },
+      {
+        "id": "footer_basis",
+        "text": "日线开高低收 · 价格指数 · 不含分红",
+        "bbox": [
+          280.0,
+          1202.0,
+          440.0,
+          1214.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "footer_source",
+        "text": "东方财富公开接口 / 数据截至2026.11.10",
+        "bbox": [
+          280.0,
+          1224.0,
+          441.0,
+          1235.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "phase_context",
+        "text": "修复、注册制与企业变化",
+        "bbox": [
+          65.0,
+          223.0,
+          208.0,
+          238.0
+        ],
+        "role": "context"
+      },
+      {
+        "id": "card_kicker",
+        "text": "2020.08.24",
+        "bbox": [
+          65.0,
+          276.0,
+          151.0,
+          288.0
+        ],
+        "role": "date"
+      },
+      {
+        "id": "card_line_0_0",
+        "text": "首批18家注册制企业上市",
+        "bbox": [
+          65.0,
+          317.0,
+          356.0,
+          344.0
+        ],
+        "role": "body"
+      },
+      {
+        "id": "source_0",
+        "text": "深交所｜当日通稿",
+        "bbox": [
+          65.0,
+          373.7,
+          161.0,
+          386.7
+        ],
+        "role": "source"
+      }
+    ],
+    "out_of_bounds": [],
+    "actual_readability_review": "pending_representative_sample"
+  },
+  {
+    "width": 720,
+    "height": 1280,
+    "node_id": "C01",
+    "beat_index": 0,
+    "kind": "closing",
+    "progress": 0.5,
+    "opacity": 1.0,
+    "source_ids": [
+      "CSV",
+      "EDIT",
+      "U:letv_delist_2020",
+      "AR07"
+    ],
+    "market_anchor": null,
+    "historical_date": null,
+    "date_precision": "day",
+    "synthetic_archive_photography": false,
+    "large_background_plate": false,
+    "photo_asset": null,
+    "text_boxes": [
+      {
+        "id": "header_en",
+        "text": "C H I N E X T   I N D E X",
+        "bbox": [
+          72.0,
+          59.0,
+          171.0,
+          67.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_cn",
+        "text": "创业板指",
+        "bbox": [
+          71.0,
+          92.0,
+          207.0,
+          126.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_code",
+        "text": "(399006)",
+        "bbox": [
+          221.0,
+          103.0,
+          305.0,
+          125.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_subtitle",
+        "text": "中国创业板市场代表指数",
+        "bbox": [
+          72.0,
+          143.0,
+          204.0,
+          157.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "footer_basis",
+        "text": "日线开高低收 · 价格指数 · 不含分红",
+        "bbox": [
+          280.0,
+          1202.0,
+          440.0,
+          1214.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "footer_source",
+        "text": "东方财富公开接口 / 数据截至2026.11.10",
+        "bbox": [
+          280.0,
+          1224.0,
+          441.0,
+          1235.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "closing_0_0",
+        "text": "十六年，3992个交易日。",
+        "bbox": [
+          207.0,
+          438.0,
+          514.0,
+          466.0
+        ],
+        "role": "closing"
+      },
+      {
+        "id": "closing_1_0",
+        "text": "企业有进有退，市场几经起落。",
+        "bbox": [
+          171.0,
+          507.9,
+          549.0,
+          535.9
+        ],
+        "role": "closing"
+      }
+    ],
+    "out_of_bounds": [],
+    "actual_readability_review": "pending_representative_sample"
+  },
+  {
+    "width": 720,
+    "height": 1280,
+    "node_id": "C03",
+    "beat_index": 0,
+    "kind": "return",
+    "progress": 0.5,
+    "opacity": 1.0,
+    "source_ids": [
+      "CSV",
+      "AR06"
+    ],
+    "market_anchor": "2026-11-10",
+    "historical_date": "2026-11-10",
+    "date_precision": "day",
+    "synthetic_archive_photography": false,
+    "large_background_plate": false,
+    "photo_asset": null,
+    "text_boxes": [
+      {
+        "id": "header_en",
+        "text": "C H I N E X T   I N D E X",
+        "bbox": [
+          72.0,
+          59.0,
+          171.0,
+          67.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_cn",
+        "text": "创业板指",
+        "bbox": [
+          71.0,
+          92.0,
+          207.0,
+          126.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_code",
+        "text": "(399006)",
+        "bbox": [
+          221.0,
+          103.0,
+          305.0,
+          125.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "header_subtitle",
+        "text": "中国创业板市场代表指数",
+        "bbox": [
+          72.0,
+          143.0,
+          204.0,
+          157.0
+        ],
+        "role": "header"
+      },
+      {
+        "id": "closing_0_0",
+        "text": "2026.11.10",
+        "bbox": [
+          301.0,
+          464.0,
+          419.0,
+          481.0
+        ],
+        "role": "closing"
+      },
+      {
+        "id": "closing_1_0",
+        "text": "创业板指 2,494.40",
+        "bbox": [
+          183.0,
+          528.4,
+          537.0,
+          574.4
+        ],
+        "role": "closing"
+      },
+      {
+        "id": "return_footer_0",
+        "text": "价格指数 · 不含分红",
+        "bbox": [
+          315.0,
+          1202.0,
+          405.0,
+          1214.0
+        ],
+        "role": "footer"
+      },
+      {
+        "id": "return_footer_1",
+        "text": "数据截至2026.11.10",
+        "bbox": [
+          319.0,
+          1224.0,
+          400.0,
+          1235.0
+        ],
+        "role": "footer"
+      }
+    ],
+    "out_of_bounds": [],
+    "actual_readability_review": "pending_representative_sample"
+  }
+]

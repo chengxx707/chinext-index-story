@@ -1,0 +1,23 @@
+{
+  "task_id": "A.full-preview",
+  "input_hash": "a22c76c66cac87939171c9f19c827aa44fcd82725fa7e828b9b16660fac7fdea",
+  "attempt": 1,
+  "artifacts": [
+    {
+      "path": "attempts/A.full-preview/a22c76c66cac87939171c9f19c827aa44fcd82725fa7e828b9b16660fac7fdea/1/command.log",
+      "sha256": "7989b466485b4a5bad2a36acf3bb7af583a9a9edd0ad26c2db8b3a93638482b8",
+      "bytes": 75
+    },
+    {
+      "path": "attempts/A.full-preview/a22c76c66cac87939171c9f19c827aa44fcd82725fa7e828b9b16660fac7fdea/1/preview.html",
+      "sha256": "5cceed4c23ea3f4c5e0d7c5d699392b6c2bedf72b16ed4c8ad284f7fce5bc8f2",
+      "bytes": 29048
+    },
+    {
+      "path": "attempts/A.full-preview/a22c76c66cac87939171c9f19c827aa44fcd82725fa7e828b9b16660fac7fdea/1/preview_timing.json",
+      "sha256": "f40382bef2411b2d3e56eab015d22ec569a84368f95c61eff825449b4e8416a9",
+      "bytes": 33526
+    }
+  ],
+  "approval": null
+}

@@ -1,0 +1,37 @@
+{
+  "task_id": "A.2015-master-adoption",
+  "lane": "A",
+  "title": "批准 2015 内容候选进入正式主表评估",
+  "dependencies": {
+    "A.2015-story": {
+      "input_hash": "d1d496889fe9d1be2a93e85dc8c47c2fc11f672a39de97ff1d1c9e9482900128",
+      "artifacts": [
+        "ec201b1422636d52e28c1d5a18449bc3270f1299dd369706348724a30e0e3f0a",
+        "de65449c61acba1232810a8dd051079e07d6a4bcc6e68d696ae736e72b19fbc8",
+        "c99f2cc160b6ccd0904651c96c079cde06a357dfdff4088305569201bf94ec80",
+        "1bf87cb6518d2cdcab444e8779e84ca840d6324ef395c12de3507f51e4158f06"
+      ]
+    }
+  },
+  "input_hash": "eba6e99c6ad2c7a9b10d0818e81c38ad28a6fdba6a9668496d446afc65c7a522",
+  "adapter": null,
+  "approval_required": true,
+  "status": "BLOCKED",
+  "reason": "Human approval required for this input hash",
+  "history": [
+    {
+      "status": "PENDING",
+      "at": "2026-11-21T03:58:32.983275+00:00",
+      "reason": null
+    },
+    {
+      "status": "BLOCKED",
+      "at": "2026-11-21T03:58:32.985226+00:00",
+      "reason": "Human approval required for this input hash"
+    }
+  ],
+  "attempts": [],
+  "manifest": null,
+  "manifest_path": null,
+  "code": "approval"
+}

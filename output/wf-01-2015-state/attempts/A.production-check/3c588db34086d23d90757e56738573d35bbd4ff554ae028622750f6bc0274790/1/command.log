@@ -1,0 +1,91 @@
+{
+  "status": "passed_compilation_checks",
+  "nodes": 57,
+  "beats": 75,
+  "frames": 12810,
+  "duration_seconds": 427.0,
+  "output": "/workspace/chinext-index-story/output/wf-01-2015-state/attempts/A.production-check/3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790/1/compiled_film_v1.json",
+  "clock_policy": "beat_anchor_hold_v1_not_continuous_progression",
+  "checks": [
+    {
+      "id": "selected_sources",
+      "status": "passed",
+      "source_count": 32,
+      "new_online_verification": false
+    },
+    {
+      "id": "frozen_market",
+      "status": "passed",
+      "rows": 3992,
+      "first_date": "2010-06-01",
+      "last_date": "2026-11-10"
+    },
+    {
+      "id": "integer_frame_coverage",
+      "status": "passed",
+      "frames": 12810,
+      "nodes": 57,
+      "beats": 75
+    },
+    {
+      "id": "main_history_and_explicit_jumps",
+      "status": "passed"
+    },
+    {
+      "id": "quotes_and_metrics",
+      "status": "passed"
+    }
+  ],
+  "warnings": [
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2012-11",
+      "date_precision": "month",
+      "observation_date": "2012-11-30",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    },
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2013-07",
+      "date_precision": "month",
+      "observation_date": "2013-07-31",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    },
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2014-01",
+      "date_precision": "month",
+      "observation_date": "2014-01-30",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    },
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2015-05",
+      "date_precision": "month",
+      "observation_date": "2015-05-29",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    },
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2021-05",
+      "date_precision": "month",
+      "observation_date": "2021-05-31",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    },
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2013-07",
+      "date_precision": "month",
+      "observation_date": "2013-07-31",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    }
+  ],
+  "rendered": false,
+  "actual_layout_or_readability_review": false
+}

@@ -1,0 +1,44 @@
+{
+  "task_id": "A.full-render",
+  "lane": "A",
+  "title": "目标规格全片渲染与装配",
+  "dependencies": {
+    "A.full-preview-render": {
+      "input_hash": "38ca477512a6f28d104af384d8f230e657143b59acd457f25b0e7c7d4ea8df10",
+      "artifacts": null
+    },
+    "A.album-render": {
+      "input_hash": "beab6f1cc7efd85780f3a74f9af0da3ad277aa3bbd0c252c797468ec7c4a7a53",
+      "artifacts": null
+    },
+    "B.representative-review": {
+      "input_hash": "e19ff29a962aeb4d170ac8e1ef61191caf373d611ffd2cbc07fb89f9dd8a0c30",
+      "artifacts": null
+    },
+    "A.full-content-review": {
+      "input_hash": "289f44048359b1f65291f0c00dcfc4f7b05eea11a92d031ee2570b2f525ad25f",
+      "artifacts": null
+    }
+  },
+  "input_hash": "f6cc9ea8c4e966003b7bb0c0e7b7b2f1b179692b05657c962eea3737946cb9f2",
+  "adapter": null,
+  "approval_required": true,
+  "status": "BLOCKED",
+  "reason": "全片目标规格渲染与装配入口尚未实现。需检查全片内容、正式档案照片、画面与最终批准。Prerequisites have not passed: A.full-preview-render (BLOCKED), A.album-render (BLOCKED), B.representative-review (BLOCKED), A.full-content-review (BLOCKED)",
+  "history": [
+    {
+      "status": "PENDING",
+      "at": "2026-11-21T03:58:33.268057+00:00",
+      "reason": null
+    },
+    {
+      "status": "BLOCKED",
+      "at": "2026-11-21T03:58:33.269325+00:00",
+      "reason": "全片目标规格渲染与装配入口尚未实现。需检查全片内容、正式档案照片、画面与最终批准。Prerequisites have not passed: A.full-preview-render (BLOCKED), A.album-render (BLOCKED), B.representative-review (BLOCKED), A.full-content-review (BLOCKED)"
+    }
+  ],
+  "attempts": [],
+  "manifest": null,
+  "manifest_path": null,
+  "code": "unavailable"
+}

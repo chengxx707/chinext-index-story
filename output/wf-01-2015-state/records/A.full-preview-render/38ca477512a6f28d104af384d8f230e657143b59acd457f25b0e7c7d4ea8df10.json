@@ -1,0 +1,35 @@
+{
+  "task_id": "A.full-preview-render",
+  "lane": "A",
+  "title": "全片低分辨率画面预演",
+  "dependencies": {
+    "A.full-preview": {
+      "input_hash": "a22c76c66cac87939171c9f19c827aa44fcd82725fa7e828b9b16660fac7fdea",
+      "artifacts": [
+        "5cceed4c23ea3f4c5e0d7c5d699392b6c2bedf72b16ed4c8ad284f7fce5bc8f2",
+        "f40382bef2411b2d3e56eab015d22ec569a84368f95c61eff825449b4e8416a9"
+      ]
+    }
+  },
+  "input_hash": "38ca477512a6f28d104af384d8f230e657143b59acd457f25b0e7c7d4ea8df10",
+  "adapter": null,
+  "approval_required": false,
+  "status": "BLOCKED",
+  "reason": "现有渲染器支持 S07–S15、A01–C03 或 H04，尚无完整画面预演入口。",
+  "history": [
+    {
+      "status": "PENDING",
+      "at": "2026-11-21T03:58:32.988102+00:00",
+      "reason": null
+    },
+    {
+      "status": "BLOCKED",
+      "at": "2026-11-21T03:58:32.989393+00:00",
+      "reason": "现有渲染器支持 S07–S15、A01–C03 或 H04，尚无完整画面预演入口。"
+    }
+  ],
+  "attempts": [],
+  "manifest": null,
+  "manifest_path": null,
+  "code": "unavailable"
+}

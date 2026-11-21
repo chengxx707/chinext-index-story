@@ -1,0 +1,88 @@
+{
+  "task_id": "A.production-check",
+  "lane": "A",
+  "title": "编译全片帧时间表并检查事实与来源",
+  "dependencies": {
+    "A.production-docs": {
+      "input_hash": "c80937f9563b4c73fd957d3fef8850c4be797f2e894844a8c34f6b1dfbc38133",
+      "artifacts": []
+    }
+  },
+  "input_hash": "3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790",
+  "adapter": "production-check",
+  "approval_required": false,
+  "status": "PASSED",
+  "reason": null,
+  "history": [
+    {
+      "status": "PENDING",
+      "at": "2026-11-21T03:58:32.147054+00:00",
+      "reason": null
+    },
+    {
+      "status": "READY",
+      "at": "2026-11-21T03:58:32.150935+00:00",
+      "reason": null
+    },
+    {
+      "status": "RUNNING",
+      "at": "2026-11-21T03:58:32.152157+00:00",
+      "reason": null
+    },
+    {
+      "status": "VALIDATING",
+      "at": "2026-11-21T03:58:32.649465+00:00",
+      "reason": null
+    },
+    {
+      "status": "PASSED",
+      "at": "2026-11-21T03:58:32.661523+00:00",
+      "reason": null
+    }
+  ],
+  "attempts": [
+    {
+      "number": 1,
+      "status": "PASSED",
+      "started_at": "2026-11-21T03:58:32.152142+00:00",
+      "finished_at": "2026-11-21T03:58:32.661498+00:00",
+      "exit_code": 0,
+      "error": null,
+      "command": [
+        "/workspace/chinext-index-story/.venv/bin/python",
+        "tools/compile_film.py",
+        "--output",
+        "/workspace/chinext-index-story/output/wf-01-2015-state/attempts/A.production-check/3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790/1/compiled_film_v1.json",
+        "--report",
+        "/workspace/chinext-index-story/output/wf-01-2015-state/attempts/A.production-check/3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790/1/compile_checks.json"
+      ],
+      "log": "attempts/A.production-check/3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790/1/command.log",
+      "manifest_path": "attempts/A.production-check/3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790/1/manifest.json"
+    }
+  ],
+  "manifest": {
+    "task_id": "A.production-check",
+    "input_hash": "3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790",
+    "attempt": 1,
+    "artifacts": [
+      {
+        "path": "attempts/A.production-check/3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790/1/command.log",
+        "sha256": "1fd2d2e0eb50cae11844d361cd8781bcee8310b02f4d8873e78567a042031eb3",
+        "bytes": 2718
+      },
+      {
+        "path": "attempts/A.production-check/3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790/1/compile_checks.json",
+        "sha256": "1fd2d2e0eb50cae11844d361cd8781bcee8310b02f4d8873e78567a042031eb3",
+        "bytes": 2718
+      },
+      {
+        "path": "attempts/A.production-check/3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790/1/compiled_film_v1.json",
+        "sha256": "4d70d0c64ed863c13b62585864edcf69cbc1e0339164d7302ce8c0a6eacd7f47",
+        "bytes": 119693
+      }
+    ],
+    "approval": null
+  },
+  "manifest_path": "attempts/A.production-check/3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790/1/manifest.json",
+  "code": null
+}

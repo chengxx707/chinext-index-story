@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "shot",
+  "description": "面向无声竖屏的候选镜头及画面可读性参数。",
+  "type": "object",
+  "required": [
+    "shot_id",
+    "beat_id",
+    "start_market_date",
+    "end_market_date",
+    "story_purpose",
+    "primary_focus",
+    "screen_text",
+    "visual_component",
+    "camera_scale",
+    "time_speed",
+    "event_animation",
+    "keypoint_animation",
+    "keypoint_close_anchors",
+    "timeline_behavior",
+    "stage_rail_behavior",
+    "reading_duration",
+    "transition_in",
+    "transition_out"
+  ],
+  "properties": {
+    "shot_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "beat_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "start_market_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "end_market_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "story_purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "primary_focus": {
+      "type": "string",
+      "enum": [
+        "market",
+        "close_extremum",
+        "intraday_extremum",
+        "event",
+        "attributed_voice",
+        "gap"
+      ]
+    },
+    "screen_text": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "maxItems": 4
+    },
+    "visual_component": {
+      "type": "string",
+      "minLength": 1
+    },
+    "camera_scale": {
+      "type": "string",
+      "enum": [
+        "wide",
+        "medium",
+        "close"
+      ]
+    },
+    "time_speed": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_animation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "keypoint_animation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "keypoint_close_anchors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "date",
+          "value"
+        ],
+        "properties": {
+          "date": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "value": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "additionalProperties": false
+      },
+      "maxItems": 2
+    },
+    "timeline_behavior": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stage_rail_behavior": {
+      "type": "string",
+      "enum": [
+        "single_rise_until_peak_hold",
+        "single_drawdown"
+      ]
+    },
+    "reading_duration": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "transition_in": {
+      "type": "string",
+      "minLength": 1
+    },
+    "transition_out": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

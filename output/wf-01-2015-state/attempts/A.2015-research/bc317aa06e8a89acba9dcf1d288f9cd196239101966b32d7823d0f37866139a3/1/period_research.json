@@ -1,0 +1,2356 @@
+{
+  "schema_version": 1,
+  "period": {
+    "id": "2015-drawdown",
+    "title": "创业板指2015年春季参与到9月阶段回撤",
+    "start_date": "2015-04-01",
+    "end_date": "2015-09-15",
+    "timezone": "Asia/Shanghai"
+  },
+  "generated_at": "2026-11-21T11:58:32+08:00",
+  "events": [
+    {
+      "event_id": "industry-mobile-internet",
+      "event_date": "2015-04-01/2015-09-15",
+      "date_precision": "range",
+      "event_type": "hypothesis",
+      "title": "移动互联网产业背景（事后框架）",
+      "summary": "回交研究给出事后券商分期线索，不能据此认定2015年创业板行业结构或阶段回撤归因。",
+      "market_anchor": null,
+      "category": "产业与企业",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "research-1115",
+        "nbd-industry"
+      ],
+      "key_figures": [],
+      "evidence": [
+        {
+          "source_id": "research-1115",
+          "excerpt": "2013~2015 移动互联网时代"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "research-1115",
+            "excerpt": "2013~2015 移动互联网时代",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-04-01/2015-09-15": false
+        },
+        "figure_matches": {},
+        "unavailable_source_ids": [
+          "nbd-industry"
+        ],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "需2015年同期交易所/指数成份行业资料或公司披露支撑具体产业事实，不能使用当前构成回填历史。",
+        "editor_observation": "NEEDS_EXTERNAL_RESEARCH",
+        "editor_body_support": false,
+        "editor_date_support": false,
+        "editor_figures_support": false
+      },
+      "grade_provenance": {
+        "existing_grade": null,
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": null,
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "NEEDS_EXTERNAL_RESEARCH",
+      "narrative_candidate": false,
+      "display_candidate": false
+    },
+    {
+      "event_id": "april-multi-account",
+      "event_date": "2015-04-13",
+      "date_precision": "day",
+      "event_type": "fact",
+      "title": "一人多户放开",
+      "summary": "回交稿转述，中国结算的自然人A股账户一人一户限制自4月13日起取消。",
+      "market_anchor": "2015-04-13",
+      "category": "市场参与",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": "2015-04-22",
+      "implementation_date": "2015-04-13",
+      "provenance": "local_dossier",
+      "source_ids": [
+        "research-1113",
+        "research-1115",
+        "people-april"
+      ],
+      "key_figures": [],
+      "evidence": [
+        {
+          "source_id": "research-1115",
+          "excerpt": "明确自2015年4月13日起,取消自然人开立A股账户的一人一户限制"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "research-1115",
+            "excerpt": "明确自2015年4月13日起,取消自然人开立A股账户的一人一户限制",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-04-13": true,
+          "2015-04-22": true
+        },
+        "figure_matches": {},
+        "unavailable_source_ids": [
+          "people-april"
+        ],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "查见用户回交稿引人民网原话及5.1报告相符。档案缺中国结算原公告和报道完整正文。4月22日是报道日，公告日待核。既有A资格沿用在原注册表，本次试点标部分核实。",
+        "editor_observation": "PARTIALLY_VERIFIED",
+        "editor_body_support": false,
+        "editor_date_support": false,
+        "editor_figures_support": false
+      },
+      "grade_provenance": {
+        "existing_grade": "A",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "PARTIALLY_VERIFIED",
+      "narrative_candidate": false,
+      "display_candidate": false
+    },
+    {
+      "event_id": "april-new-a-accounts",
+      "event_date": "2015-04-20/2015-04-24",
+      "date_precision": "range",
+      "event_type": "fact",
+      "title": "单周新开A股账户（待原周报）",
+      "summary": "用户提供研究称4月20—24日中国结算统计新开A股账户413.03万户。",
+      "market_anchor": "2015-04-24",
+      "category": "市场参与",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": "2015-04-28",
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "research-1113",
+        "research-1115",
+        "chinanews-april",
+        "paper-april"
+      ],
+      "key_figures": [
+        {
+          "label": "新开A股账户",
+          "value": 413.03,
+          "unit": "万户"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "research-1113",
+          "excerpt": "4 月 20–24 当周 **413.03 万户"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "research-1113",
+            "excerpt": "4 月 20–24 当周 **413.03 万户",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-04-20/2015-04-24": true,
+          "2015-04-28": true
+        },
+        "figure_matches": {
+          "413.03": true
+        },
+        "unavailable_source_ids": [
+          "chinanews-april",
+          "paper-april"
+        ],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": "4月22日人民网标题的300万大关属4月13日开通首周，不能用于4月20—24日这周。",
+        "editor_review": "引用限于新开A股账户，不是自然人新增投资者人数或创业板专属账户。4月28日为同期中新网报道日期。周报与媒体正文未取得。",
+        "editor_observation": "PARTIALLY_VERIFIED",
+        "editor_body_support": false,
+        "editor_date_support": false,
+        "editor_figures_support": false
+      },
+      "grade_provenance": {
+        "existing_grade": "A",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "PARTIALLY_VERIFIED",
+      "narrative_candidate": false,
+      "display_candidate": false
+    },
+    {
+      "event_id": "may-letv-context",
+      "event_date": "2015-05",
+      "date_precision": "month",
+      "event_type": "fact",
+      "title": "乐视网企业记忆（市值口径待核）",
+      "summary": "用户研究将乐视网作为创业板单一企业案例。两组事后媒体材料分别表述市值一度超1600亿元和突破1700亿元。",
+      "market_anchor": null,
+      "category": "产业与企业",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "research-1113",
+        "research-1115"
+      ],
+      "key_figures": [
+        {
+          "label": "媒体口径一度超过的保守下界",
+          "value": 1600,
+          "unit": "亿元"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "research-1115",
+          "excerpt": "1600 亿（南方+、中新经纬「2015年市值曾超过1600亿元」）vs 1700 亿"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "research-1115",
+            "excerpt": "1600 亿（南方+、中新经纬「2015年市值曾超过1600亿元」）vs 1700 亿",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-05": true
+        },
+        "figure_matches": {
+          "1600": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": "统计口径、时点及股本范围未核，缺2015年原始报道与可比市值资料。",
+        "editor_review": "两个下界不互斥，不能确定精确峰值；候选只保持月份精度。公司单例不是产业占比或指数权重，也不可据本文假定有同期完整报道。",
+        "editor_observation": "PARTIALLY_VERIFIED",
+        "editor_body_support": false,
+        "editor_date_support": false,
+        "editor_figures_support": false
+      },
+      "grade_provenance": {
+        "existing_grade": "A",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "PARTIALLY_VERIFIED",
+      "narrative_candidate": false,
+      "display_candidate": false
+    },
+    {
+      "event_id": "june-35-notice",
+      "event_date": "2015-06",
+      "date_precision": "month",
+      "event_type": "fact",
+      "title": "外部接入通知日期与正文待核",
+      "summary": "7月12日19号公告引用《关于加强证券公司信息系统外部接入管理的通知》（证监办发〔2015〕35号），支持文件名称及被引用事实。",
+      "market_anchor": null,
+      "category": "监管",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "csrc-19",
+        "research-1115"
+      ],
+      "key_figures": [],
+      "evidence": [
+        {
+          "source_id": "csrc-19",
+          "excerpt": "《关于加强证券公司信息系统外部接入管理的通知》（证监办发〔2015〕35号）"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "csrc-19",
+            "excerpt": "《关于加强证券公司信息系统外部接入管理的通知》（证监办发〔2015〕35号）",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-06": false
+        },
+        "figure_matches": {},
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "不能凭后来的19号公告确定35号原始发布日期和细则，更不能把六月候选月份等同于高点后强平的成因。既有B保持关闭。",
+        "editor_observation": "PARTIALLY_VERIFIED",
+        "editor_body_support": false,
+        "editor_date_support": false,
+        "editor_figures_support": false
+      },
+      "grade_provenance": {
+        "existing_grade": "B",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "PARTIALLY_VERIFIED",
+      "narrative_candidate": false,
+      "display_candidate": false
+    },
+    {
+      "event_id": "june-high-close",
+      "event_date": "2015-06-03",
+      "date_precision": "day",
+      "event_type": "market_observation",
+      "title": "6月阶段高点",
+      "summary": "创业板指6月3日收3,982.25点。",
+      "market_anchor": "2015-06-03",
+      "category": "行情",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "key_figures": [
+        {
+          "label": "当日收盘",
+          "value": 3982.25,
+          "unit": "点"
+        }
+      ],
+      "evidence": [],
+      "market_assertions": [
+        {
+          "date": "2015-06-03",
+          "operation": "close",
+          "expected": 3982.25
+        },
+        {
+          "date": "2015-06-03",
+          "operation": "high",
+          "expected": 4011.04
+        }
+      ],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [],
+        "market_assertions": [
+          {
+            "date": "2015-06-03",
+            "operation": "close",
+            "expected": 3982.25,
+            "source_id": "cyb-ohlc",
+            "actual": 3982.25,
+            "passed": true
+          },
+          {
+            "date": "2015-06-03",
+            "operation": "high",
+            "expected": 4011.04,
+            "source_id": "cyb-ohlc",
+            "actual": 4011.04,
+            "passed": true
+          }
+        ],
+        "date_matches": {
+          "2015-06-03": false
+        },
+        "figure_matches": {
+          "3982.25": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "此处选择收盘锚点，当日最高4,011.04为盘中价。3,982.25是2015阶段高点，不是冻结全样本最高收盘。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": "DATA",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "june-september-drawdown",
+      "event_date": "2015-06-03/2015-09-15",
+      "date_precision": "range",
+      "event_type": "market_observation",
+      "title": "从六月高点到九月阶段低点",
+      "summary": "以6月3日收盘3,982.25为基准，9月15日收盘1,797.56，回撤54.86%。",
+      "market_anchor": "2015-09-15",
+      "category": "行情",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "key_figures": [
+        {
+          "label": "阶段高点到阶段低点",
+          "value": -54.86,
+          "unit": "%"
+        }
+      ],
+      "evidence": [],
+      "market_assertions": [
+        {
+          "date": "2015-09-15",
+          "operation": "interval_return",
+          "expected": -54.86,
+          "previous_date": "2015-06-03"
+        }
+      ],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [],
+        "market_assertions": [
+          {
+            "date": "2015-09-15",
+            "operation": "interval_return",
+            "expected": -54.86,
+            "previous_date": "2015-06-03",
+            "source_id": "cyb-ohlc",
+            "actual": -54.86,
+            "passed": true
+          }
+        ],
+        "date_matches": {
+          "2015-06-03/2015-09-15": false
+        },
+        "figure_matches": {
+          "-54.86": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "从指定两个收盘锚点复算，不表示政策即时止跌，也不声称全年最低。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": "DATA",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "june-high-consolidation",
+      "event_date": "2015-06-12",
+      "date_precision": "day",
+      "event_type": "market_observation",
+      "title": "高位反复",
+      "summary": "6月12日收3,899.71点，较6月3日收盘回落2.07%。",
+      "market_anchor": "2015-06-12",
+      "category": "行情",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "key_figures": [
+        {
+          "label": "当日收盘",
+          "value": 3899.71,
+          "unit": "点"
+        },
+        {
+          "label": "较6月3日收盘",
+          "value": -2.07,
+          "unit": "%"
+        }
+      ],
+      "evidence": [],
+      "market_assertions": [
+        {
+          "date": "2015-06-12",
+          "operation": "close",
+          "expected": 3899.71
+        },
+        {
+          "date": "2015-06-12",
+          "operation": "interval_return",
+          "expected": -2.07,
+          "previous_date": "2015-06-03"
+        }
+      ],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [],
+        "market_assertions": [
+          {
+            "date": "2015-06-12",
+            "operation": "close",
+            "expected": 3899.71,
+            "source_id": "cyb-ohlc",
+            "actual": 3899.71,
+            "passed": true
+          },
+          {
+            "date": "2015-06-12",
+            "operation": "interval_return",
+            "expected": -2.07,
+            "previous_date": "2015-06-03",
+            "source_id": "cyb-ohlc",
+            "actual": -2.07,
+            "passed": true
+          }
+        ],
+        "date_matches": {
+          "2015-06-12": false
+        },
+        "figure_matches": {
+          "3899.71": true,
+          "-2.07": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "选择同一收盘基准。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": "DATA",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "june-early-july-drop",
+      "event_date": "2015-06-19/2015-07-07",
+      "date_precision": "range",
+      "event_type": "market_observation",
+      "title": "回撤扩大",
+      "summary": "6月19日收3,314.98点；7月7日收2,352.01点，分别较6月3日收盘回落16.76%、40.94%。",
+      "market_anchor": "2015-07-07",
+      "category": "行情",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "key_figures": [
+        {
+          "label": "6月19日收盘",
+          "value": 3314.98,
+          "unit": "点"
+        },
+        {
+          "label": "7月7日收盘",
+          "value": 2352.01,
+          "unit": "点"
+        },
+        {
+          "label": "6月19日对6月3日",
+          "value": -16.76,
+          "unit": "%"
+        },
+        {
+          "label": "7月7日对6月3日",
+          "value": -40.94,
+          "unit": "%"
+        }
+      ],
+      "evidence": [],
+      "market_assertions": [
+        {
+          "date": "2015-06-19",
+          "operation": "close",
+          "expected": 3314.98
+        },
+        {
+          "date": "2015-07-07",
+          "operation": "close",
+          "expected": 2352.01
+        },
+        {
+          "date": "2015-06-19",
+          "operation": "interval_return",
+          "expected": -16.76,
+          "previous_date": "2015-06-03"
+        },
+        {
+          "date": "2015-07-07",
+          "operation": "interval_return",
+          "expected": -40.94,
+          "previous_date": "2015-06-03"
+        }
+      ],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [],
+        "market_assertions": [
+          {
+            "date": "2015-06-19",
+            "operation": "close",
+            "expected": 3314.98,
+            "source_id": "cyb-ohlc",
+            "actual": 3314.98,
+            "passed": true
+          },
+          {
+            "date": "2015-07-07",
+            "operation": "close",
+            "expected": 2352.01,
+            "source_id": "cyb-ohlc",
+            "actual": 2352.01,
+            "passed": true
+          },
+          {
+            "date": "2015-06-19",
+            "operation": "interval_return",
+            "expected": -16.76,
+            "previous_date": "2015-06-03",
+            "source_id": "cyb-ohlc",
+            "actual": -16.76,
+            "passed": true
+          },
+          {
+            "date": "2015-07-07",
+            "operation": "interval_return",
+            "expected": -40.94,
+            "previous_date": "2015-06-03",
+            "source_id": "cyb-ohlc",
+            "actual": -40.94,
+            "passed": true
+          }
+        ],
+        "date_matches": {
+          "2015-06-19/2015-07-07": false
+        },
+        "figure_matches": {
+          "3314.98": true,
+          "2352.01": true,
+          "-16.76": true,
+          "-40.94": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "两个交易日通过收盘回看同一高点。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": "DATA",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "june-pbc-faq",
+      "event_date": "2015-06-27",
+      "date_precision": "day",
+      "event_type": "fact",
+      "title": "央行解释定向降准并结合降息",
+      "summary": "央行有关负责人就定向下调部分机构存款准备金率及同步下调存贷款基准利率作答。",
+      "market_anchor": "2015-06-26",
+      "category": "货币政策",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": "2015-06-27T17:03:28+08:00",
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "pbc-june-faq"
+      ],
+      "key_figures": [],
+      "evidence": [
+        {
+          "source_id": "pbc-june-faq",
+          "excerpt": "2015-06-27 17:03:28"
+        },
+        {
+          "source_id": "pbc-june-faq",
+          "excerpt": "人民银行决定再次定向下调金融机构人民币存款准备金率，同时结合下调金融机构贷款及存款基准利率"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "pbc-june-faq",
+            "excerpt": "2015-06-27 17:03:28",
+            "status": "matched"
+          },
+          {
+            "source_id": "pbc-june-faq",
+            "excerpt": "人民银行决定再次定向下调金融机构人民币存款准备金率，同时结合下调金融机构贷款及存款基准利率",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-06-27": true,
+          "2015-06-27T17:03:28+08:00": true
+        },
+        "figure_matches": {},
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "发表时刻见央行FAQ页。6月27日为非交易日，6月26日为前收盘口径；不宣称这是创业板专项政策。FAQ支持广义措施，另需决定原文核实施日和1年期利率。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": null,
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": null,
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "july-rebound",
+      "event_date": "2015-07-07/2015-07-23",
+      "date_precision": "range",
+      "event_type": "market_observation",
+      "title": "7月阶段反弹",
+      "summary": "创业板指7月23日收2,967.95点，较7月7日收盘2,352.01点涨26.19%。",
+      "market_anchor": "2015-07-23",
+      "category": "行情",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "key_figures": [
+        {
+          "label": "7月23日收盘",
+          "value": 2967.95,
+          "unit": "点"
+        },
+        {
+          "label": "较7月7日收盘",
+          "value": 26.19,
+          "unit": "%"
+        }
+      ],
+      "evidence": [],
+      "market_assertions": [
+        {
+          "date": "2015-07-07",
+          "operation": "close",
+          "expected": 2352.01
+        },
+        {
+          "date": "2015-07-23",
+          "operation": "close",
+          "expected": 2967.95
+        },
+        {
+          "date": "2015-07-23",
+          "operation": "interval_return",
+          "expected": 26.19,
+          "previous_date": "2015-07-07"
+        }
+      ],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [],
+        "market_assertions": [
+          {
+            "date": "2015-07-07",
+            "operation": "close",
+            "expected": 2352.01,
+            "source_id": "cyb-ohlc",
+            "actual": 2352.01,
+            "passed": true
+          },
+          {
+            "date": "2015-07-23",
+            "operation": "close",
+            "expected": 2967.95,
+            "source_id": "cyb-ohlc",
+            "actual": 2967.95,
+            "passed": true
+          },
+          {
+            "date": "2015-07-23",
+            "operation": "interval_return",
+            "expected": 26.19,
+            "previous_date": "2015-07-07",
+            "source_id": "cyb-ohlc",
+            "actual": 26.19,
+            "passed": true
+          }
+        ],
+        "date_matches": {
+          "2015-07-07/2015-07-23": false
+        },
+        "figure_matches": {
+          "2967.95": true,
+          "26.19": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "仅陈述价格反弹，不能由此认定政策的单独净效果。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": "DATA",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "july-csrc-reduction",
+      "event_date": "2015-07-08",
+      "date_precision": "day",
+      "event_type": "fact",
+      "title": "证监会限制特定股东和董监高减持",
+      "summary": "18号公告规定，从即日起6个月内，控股股东和持股5%以上股东及董事、监事、高级管理人员不得通过二级市场减持本公司股份。",
+      "market_anchor": "2015-07-08",
+      "category": "监管",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": "2015-08-18",
+      "implementation_date": "2015-07-08",
+      "provenance": "local_dossier",
+      "source_ids": [
+        "csrc-18"
+      ],
+      "key_figures": [
+        {
+          "label": "限制期",
+          "value": 6,
+          "unit": "个月"
+        },
+        {
+          "label": "相关股东持股门槛",
+          "value": 5,
+          "unit": "%"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "csrc-18",
+          "excerpt": "2015年7月8日"
+        },
+        {
+          "source_id": "csrc-18",
+          "excerpt": "从即日起6个月内，上市公司控股股东和持股5%以上股东（以下并称大股东）及董事、监事、高级管理人员不得通过二级市场减持本公司股份"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "csrc-18",
+            "excerpt": "2015年7月8日",
+            "status": "matched"
+          },
+          {
+            "source_id": "csrc-18",
+            "excerpt": "从即日起6个月内，上市公司控股股东和持股5%以上股东（以下并称大股东）及董事、监事、高级管理人员不得通过二级市场减持本公司股份",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-07-08": true,
+          "2015-08-18": true
+        },
+        "figure_matches": {
+          "6": true,
+          "5": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": "网页可见日期8月18日，与正文落款7月8日分别记录。",
+        "editor_review": "起点依据落款与正文“从即日起”。8月18日是归档页面日，原始公告具体时刻未取得；范围不是所有股东。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": null,
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": null,
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "july-csrc-voice",
+      "event_date": "2015-07-08",
+      "date_precision": "day",
+      "event_type": "attributed_view",
+      "title": "当时的声音：证监会公告",
+      "summary": "“近期，证券市场出现非理性下跌”",
+      "market_anchor": "2015-07-08",
+      "category": "当时声音",
+      "attribution": "中国证监会｜2015年7月8日18号公告",
+      "announcement_at": null,
+      "publication_at": "2015-08-18",
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "csrc-18"
+      ],
+      "key_figures": [],
+      "evidence": [
+        {
+          "source_id": "csrc-18",
+          "excerpt": "近期，证券市场出现非理性下跌"
+        },
+        {
+          "source_id": "csrc-18",
+          "excerpt": "2015年7月8日"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "csrc-18",
+            "excerpt": "近期，证券市场出现非理性下跌",
+            "status": "matched"
+          },
+          {
+            "source_id": "csrc-18",
+            "excerpt": "2015年7月8日",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-07-08": true,
+          "2015-08-18": true
+        },
+        "figure_matches": {},
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "当时的监管机构判断，限证券市场广义情境。不是投资者调查、个人心理、独立媒体采访或创业板专属评价。8月18日仅归档页面日。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": null,
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": null,
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "july-csrc-cleanup",
+      "event_date": "2015-07-12",
+      "date_precision": "day",
+      "event_type": "fact",
+      "title": "证监会公布清理整顿违法证券业务的意见",
+      "summary": "19号公告自公布日起施行，提出账户实名与外部接入合规要求；既有存量可持续运行并逐步规范，不得新增客户、账户和资产。",
+      "market_anchor": "2015-07-10",
+      "category": "监管",
+      "attribution": null,
+      "announcement_at": "2015-07-12",
+      "publication_at": "2015-07-12",
+      "implementation_date": "2015-07-12",
+      "provenance": "local_dossier",
+      "source_ids": [
+        "csrc-19"
+      ],
+      "key_figures": [],
+      "evidence": [
+        {
+          "source_id": "csrc-19",
+          "excerpt": "2015年7月12日"
+        },
+        {
+          "source_id": "csrc-19",
+          "excerpt": "现公布《关于清理整顿违法从事证券业务活动的意见》，自公布之日起施行"
+        },
+        {
+          "source_id": "csrc-19",
+          "excerpt": "发布前的存量可以持续运行，按照有关规定逐步规范，但不得新增客户、账户和资产"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "csrc-19",
+            "excerpt": "2015年7月12日",
+            "status": "matched"
+          },
+          {
+            "source_id": "csrc-19",
+            "excerpt": "现公布《关于清理整顿违法从事证券业务活动的意见》，自公布之日起施行",
+            "status": "matched"
+          },
+          {
+            "source_id": "csrc-19",
+            "excerpt": "发布前的存量可以持续运行，按照有关规定逐步规范，但不得新增客户、账户和资产",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-07-12": true
+        },
+        "figure_matches": {},
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "7月12日为周日，7月10日只是此前收盘。政策事实与6月35号通知分开，不改写为当日全部账户立即强平。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": null,
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": null,
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "august-cny-reference",
+      "event_date": "2015-08-11",
+      "date_precision": "day",
+      "event_type": "fact",
+      "title": "中间价机制调整（同期原件待补）",
+      "summary": "回交稿给出央行报价机制调整的当日事件线索，直接公告与完整同期新闻未随包附入。",
+      "market_anchor": null,
+      "category": "汇率背景",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "research-1115",
+        "cs-cny"
+      ],
+      "key_figures": [],
+      "evidence": [
+        {
+          "source_id": "research-1115",
+          "excerpt": "2015-08-11 完善人民币兑美元汇率中间价报价机制"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "research-1115",
+            "excerpt": "2015-08-11 完善人民币兑美元汇率中间价报价机制",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-08-11": true
+        },
+        "figure_matches": {},
+        "unavailable_source_ids": [
+          "cs-cny"
+        ],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "核清公告时刻、适用市场及实施日后可作背景。即使原件取得，也不能单因解释8月下旬缺口。",
+        "editor_observation": "PARTIALLY_VERIFIED",
+        "editor_body_support": false,
+        "editor_date_support": false,
+        "editor_figures_support": false
+      },
+      "grade_provenance": {
+        "existing_grade": "B",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "PARTIALLY_VERIFIED",
+      "narrative_candidate": false,
+      "display_candidate": false
+    },
+    {
+      "event_id": "august-three-gaps",
+      "event_date": "2015-08-21/2015-08-25",
+      "date_precision": "range",
+      "event_type": "market_observation",
+      "title": "三个连续交易日完整向下缺口",
+      "summary": "8月21日、24日、25日的最高依次为2,480.68、2,246.55、2,048.03，均低于前一交易日最低。8月26日最高2,044.66和前日区间重叠。",
+      "market_anchor": "2015-08-25",
+      "category": "行情",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "key_figures": [
+        {
+          "label": "8月21日最高",
+          "value": 2480.68,
+          "unit": "点"
+        },
+        {
+          "label": "8月24日最高",
+          "value": 2246.55,
+          "unit": "点"
+        },
+        {
+          "label": "8月25日最高",
+          "value": 2048.03,
+          "unit": "点"
+        }
+      ],
+      "evidence": [],
+      "market_assertions": [
+        {
+          "date": "2015-08-21",
+          "operation": "whole_session_down_gap",
+          "expected": true,
+          "previous_date": "2015-08-20"
+        },
+        {
+          "date": "2015-08-24",
+          "operation": "whole_session_down_gap",
+          "expected": true,
+          "previous_date": "2015-08-21"
+        },
+        {
+          "date": "2015-08-25",
+          "operation": "whole_session_down_gap",
+          "expected": true,
+          "previous_date": "2015-08-24"
+        },
+        {
+          "date": "2015-08-26",
+          "operation": "whole_session_down_gap",
+          "expected": false,
+          "previous_date": "2015-08-25"
+        },
+        {
+          "date": "2015-08-21",
+          "operation": "high",
+          "expected": 2480.68
+        },
+        {
+          "date": "2015-08-24",
+          "operation": "high",
+          "expected": 2246.55
+        },
+        {
+          "date": "2015-08-25",
+          "operation": "high",
+          "expected": 2048.03
+        },
+        {
+          "date": "2015-08-26",
+          "operation": "high",
+          "expected": 2044.66
+        },
+        {
+          "date": "2015-08-20",
+          "operation": "low",
+          "expected": 2508.35
+        },
+        {
+          "date": "2015-08-21",
+          "operation": "low",
+          "expected": 2340.92
+        },
+        {
+          "date": "2015-08-24",
+          "operation": "low",
+          "expected": 2152.61
+        },
+        {
+          "date": "2015-08-25",
+          "operation": "low",
+          "expected": 1987.12
+        }
+      ],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [],
+        "market_assertions": [
+          {
+            "date": "2015-08-21",
+            "operation": "whole_session_down_gap",
+            "expected": true,
+            "previous_date": "2015-08-20",
+            "source_id": "cyb-ohlc",
+            "actual": true,
+            "passed": true
+          },
+          {
+            "date": "2015-08-24",
+            "operation": "whole_session_down_gap",
+            "expected": true,
+            "previous_date": "2015-08-21",
+            "source_id": "cyb-ohlc",
+            "actual": true,
+            "passed": true
+          },
+          {
+            "date": "2015-08-25",
+            "operation": "whole_session_down_gap",
+            "expected": true,
+            "previous_date": "2015-08-24",
+            "source_id": "cyb-ohlc",
+            "actual": true,
+            "passed": true
+          },
+          {
+            "date": "2015-08-26",
+            "operation": "whole_session_down_gap",
+            "expected": false,
+            "previous_date": "2015-08-25",
+            "source_id": "cyb-ohlc",
+            "actual": false,
+            "passed": true
+          },
+          {
+            "date": "2015-08-21",
+            "operation": "high",
+            "expected": 2480.68,
+            "source_id": "cyb-ohlc",
+            "actual": 2480.68,
+            "passed": true
+          },
+          {
+            "date": "2015-08-24",
+            "operation": "high",
+            "expected": 2246.55,
+            "source_id": "cyb-ohlc",
+            "actual": 2246.55,
+            "passed": true
+          },
+          {
+            "date": "2015-08-25",
+            "operation": "high",
+            "expected": 2048.03,
+            "source_id": "cyb-ohlc",
+            "actual": 2048.03,
+            "passed": true
+          },
+          {
+            "date": "2015-08-26",
+            "operation": "high",
+            "expected": 2044.66,
+            "source_id": "cyb-ohlc",
+            "actual": 2044.66,
+            "passed": true
+          },
+          {
+            "date": "2015-08-20",
+            "operation": "low",
+            "expected": 2508.35,
+            "source_id": "cyb-ohlc",
+            "actual": 2508.35,
+            "passed": true
+          },
+          {
+            "date": "2015-08-21",
+            "operation": "low",
+            "expected": 2340.92,
+            "source_id": "cyb-ohlc",
+            "actual": 2340.92,
+            "passed": true
+          },
+          {
+            "date": "2015-08-24",
+            "operation": "low",
+            "expected": 2152.61,
+            "source_id": "cyb-ohlc",
+            "actual": 2152.61,
+            "passed": true
+          },
+          {
+            "date": "2015-08-25",
+            "operation": "low",
+            "expected": 1987.12,
+            "source_id": "cyb-ohlc",
+            "actual": 1987.12,
+            "passed": true
+          }
+        ],
+        "date_matches": {
+          "2015-08-21/2015-08-25": false
+        },
+        "figure_matches": {
+          "2480.68": true,
+          "2246.55": true,
+          "2048.03": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "比较当日最高与前一交易日最低；三个参考低点为2,508.35、2,340.92、2,152.61。8月26日相对前收低开，但最高超过前低1,987.12。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": "DATA",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "august-two-8pct-claim",
+      "event_date": "2015-08-24/2015-08-25",
+      "date_precision": "range",
+      "event_type": "hypothesis",
+      "title": "两日创业板指收盘均跌逾8%（排除）",
+      "summary": "将回交稿中的评论粗略描述用作两个交易日创业板指收盘数字，已由冻结数据否定。",
+      "market_anchor": null,
+      "category": "行情口径",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "research-1115",
+        "cyb-ohlc"
+      ],
+      "key_figures": [
+        {
+          "label": "8月25日真实收盘涨跌",
+          "value": -7.52,
+          "unit": "%"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "research-1115",
+          "excerpt": "今天和昨天两天连续跌幅8%以上"
+        }
+      ],
+      "market_assertions": [
+        {
+          "date": "2015-08-24",
+          "previous_date": "2015-08-21",
+          "operation": "daily_return",
+          "expected": -8.08
+        },
+        {
+          "date": "2015-08-25",
+          "previous_date": "2015-08-24",
+          "operation": "daily_return",
+          "expected": -7.52
+        }
+      ],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "research-1115",
+            "excerpt": "今天和昨天两天连续跌幅8%以上",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [
+          {
+            "date": "2015-08-24",
+            "previous_date": "2015-08-21",
+            "operation": "daily_return",
+            "expected": -8.08,
+            "source_id": "cyb-ohlc",
+            "actual": -8.08,
+            "passed": true
+          },
+          {
+            "date": "2015-08-25",
+            "previous_date": "2015-08-24",
+            "operation": "daily_return",
+            "expected": -7.52,
+            "source_id": "cyb-ohlc",
+            "actual": -7.52,
+            "passed": true
+          }
+        ],
+        "date_matches": {
+          "2015-08-24/2015-08-25": false
+        },
+        "figure_matches": {
+          "-7.52": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": true,
+        "scope_caution": "8月24日−8.08%，8月25日−7.52%。",
+        "editor_review": "排除的是对创业板指收盘的错误套用。对原访问准确范围不作判断。",
+        "editor_observation": "REJECTED",
+        "editor_body_support": false,
+        "editor_date_support": false,
+        "editor_figures_support": false
+      },
+      "grade_provenance": {
+        "existing_grade": null,
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": null,
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "DISPUTED",
+      "narrative_candidate": false,
+      "display_candidate": false
+    },
+    {
+      "event_id": "august-24-26-return",
+      "event_date": "2015-08-24/2015-08-26",
+      "date_precision": "range",
+      "event_type": "market_observation",
+      "title": "8月24—26日累计回落",
+      "summary": "24日、25日、26日分别下跌8.08%、7.52%、5.06%，以21日收盘为基准，累计下跌19.30%。",
+      "market_anchor": "2015-08-26",
+      "category": "行情",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "key_figures": [
+        {
+          "label": "三交易日累计",
+          "value": -19.3,
+          "unit": "%"
+        },
+        {
+          "label": "24日涨跌",
+          "value": -8.08,
+          "unit": "%"
+        },
+        {
+          "label": "25日涨跌",
+          "value": -7.52,
+          "unit": "%"
+        },
+        {
+          "label": "26日涨跌",
+          "value": -5.06,
+          "unit": "%"
+        }
+      ],
+      "evidence": [],
+      "market_assertions": [
+        {
+          "date": "2015-08-24",
+          "operation": "daily_return",
+          "expected": -8.08,
+          "previous_date": "2015-08-21"
+        },
+        {
+          "date": "2015-08-25",
+          "operation": "daily_return",
+          "expected": -7.52,
+          "previous_date": "2015-08-24"
+        },
+        {
+          "date": "2015-08-26",
+          "operation": "daily_return",
+          "expected": -5.06,
+          "previous_date": "2015-08-25"
+        },
+        {
+          "date": "2015-08-26",
+          "operation": "interval_return",
+          "expected": -19.3,
+          "previous_date": "2015-08-21"
+        }
+      ],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [],
+        "market_assertions": [
+          {
+            "date": "2015-08-24",
+            "operation": "daily_return",
+            "expected": -8.08,
+            "previous_date": "2015-08-21",
+            "source_id": "cyb-ohlc",
+            "actual": -8.08,
+            "passed": true
+          },
+          {
+            "date": "2015-08-25",
+            "operation": "daily_return",
+            "expected": -7.52,
+            "previous_date": "2015-08-24",
+            "source_id": "cyb-ohlc",
+            "actual": -7.52,
+            "passed": true
+          },
+          {
+            "date": "2015-08-26",
+            "operation": "daily_return",
+            "expected": -5.06,
+            "previous_date": "2015-08-25",
+            "source_id": "cyb-ohlc",
+            "actual": -5.06,
+            "passed": true
+          },
+          {
+            "date": "2015-08-26",
+            "operation": "interval_return",
+            "expected": -19.3,
+            "previous_date": "2015-08-21",
+            "source_id": "cyb-ohlc",
+            "actual": -19.3,
+            "passed": true
+          }
+        ],
+        "date_matches": {
+          "2015-08-24/2015-08-26": false
+        },
+        "figure_matches": {
+          "-19.3": true,
+          "-8.08": true,
+          "-7.52": true,
+          "-5.06": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "8月26日收盘1,890.04除以8月21日收盘2,341.95再减1，和三次完整缺口的窗口不同。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": "DATA",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "august-cnr-voice",
+      "event_date": "2015-08-25",
+      "date_precision": "day",
+      "event_type": "attributed_view",
+      "title": "央广同期采访线索（原文待核）",
+      "summary": "回交稿指向央广对向松祚的同期访问，谈及当时市场压力；完整原文及评论对象仍待核。",
+      "market_anchor": null,
+      "category": "当时声音",
+      "attribution": "向松祚（据用户回交稿转引央广，身份与原话待原件核）",
+      "announcement_at": null,
+      "publication_at": "2015-08-25",
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "research-1115",
+        "cnr-august"
+      ],
+      "key_figures": [],
+      "evidence": [
+        {
+          "source_id": "research-1115",
+          "excerpt": "今天和昨天两天连续跌幅8%以上"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "research-1115",
+            "excerpt": "今天和昨天两天连续跌幅8%以上",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-08-25": true
+        },
+        "figure_matches": {},
+        "unavailable_source_ids": [
+          "cnr-august"
+        ],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": "若把“两天连续跌幅8%以上”误读为创业板指收盘，8月25日−7.52%与之不符。原报道可能指其他市场或盘中。",
+        "editor_review": "未获得报道正文，不能采用转录为屏幕引语。需要确认谈论市场、采访时点、盘口与收盘口径。",
+        "editor_observation": "PARTIALLY_VERIFIED",
+        "editor_body_support": false,
+        "editor_date_support": false,
+        "editor_figures_support": false
+      },
+      "grade_provenance": {
+        "existing_grade": null,
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": null,
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "PARTIALLY_VERIFIED",
+      "narrative_candidate": false,
+      "display_candidate": false
+    },
+    {
+      "event_id": "august-pbc-announcement",
+      "event_date": "2015-08-25",
+      "date_precision": "day",
+      "event_type": "fact",
+      "title": "盘后公布降息和降准安排",
+      "summary": "人民银行8月25日18:15:34公布，8月26日起下调存贷款基准利率，9月6日起下调金融机构人民币存款准备金率0.5个百分点。",
+      "market_anchor": "2015-08-25",
+      "category": "货币政策",
+      "attribution": null,
+      "announcement_at": "2015-08-25T18:15:34+08:00",
+      "publication_at": "2015-08-25T18:15:34+08:00",
+      "implementation_date": "2015-08-26",
+      "provenance": "local_dossier",
+      "source_ids": [
+        "pbc-august"
+      ],
+      "key_figures": [
+        {
+          "label": "一年期贷款及存款基准利率分别下调",
+          "value": 0.25,
+          "unit": "个百分点"
+        },
+        {
+          "label": "基本降准幅度",
+          "value": 0.5,
+          "unit": "个百分点"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "pbc-august",
+          "excerpt": "2015-08-25 18:15:34"
+        },
+        {
+          "source_id": "pbc-august",
+          "excerpt": "自2015年8月26日起，下调金融机构人民币贷款和存款基准利率"
+        },
+        {
+          "source_id": "pbc-august",
+          "excerpt": "一年期存款基准利率下调0.25个百分点至1.75%"
+        },
+        {
+          "source_id": "pbc-august",
+          "excerpt": "一年期贷款基准利率下调0.25个百分点至4.6%"
+        },
+        {
+          "source_id": "pbc-august",
+          "excerpt": "自2015年9月6日起，下调金融机构人民币存款准备金率0.5个百分点"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [
+        {
+          "measure": "降息",
+          "date": "2015-08-26"
+        },
+        {
+          "measure": "降准",
+          "date": "2015-09-06"
+        }
+      ],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "pbc-august",
+            "excerpt": "2015-08-25 18:15:34",
+            "status": "matched"
+          },
+          {
+            "source_id": "pbc-august",
+            "excerpt": "自2015年8月26日起，下调金融机构人民币贷款和存款基准利率",
+            "status": "matched"
+          },
+          {
+            "source_id": "pbc-august",
+            "excerpt": "一年期存款基准利率下调0.25个百分点至1.75%",
+            "status": "matched"
+          },
+          {
+            "source_id": "pbc-august",
+            "excerpt": "一年期贷款基准利率下调0.25个百分点至4.6%",
+            "status": "matched"
+          },
+          {
+            "source_id": "pbc-august",
+            "excerpt": "自2015年9月6日起，下调金融机构人民币存款准备金率0.5个百分点",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-08-25": true,
+          "2015-08-25T18:15:34+08:00": true,
+          "2015-08-26": true,
+          "2015-09-06": true
+        },
+        "figure_matches": {
+          "0.25": true,
+          "0.5": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "北京时间公告晚于8月25日收盘。不同措施的实施日分别记录；8月26日行情仍跌，当时价格和政策后续效果不能以公告单独推断。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": null,
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": null,
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "september-cffex-rules",
+      "event_date": "2015-09-02",
+      "date_precision": "day",
+      "event_type": "fact",
+      "title": "中金所公布进一步收紧股指期货交易措施",
+      "summary": "9月2日公布的开仓、保证金、手续费和长期未交易账户管理措施自9月7日起实施。",
+      "market_anchor": "2015-09-02",
+      "category": "股指期货",
+      "attribution": null,
+      "announcement_at": "2015-09-02",
+      "publication_at": "2015-09-02",
+      "implementation_date": "2015-09-07",
+      "provenance": "local_dossier",
+      "source_ids": [
+        "cffex-september"
+      ],
+      "key_figures": [],
+      "evidence": [
+        {
+          "source_id": "cffex-september",
+          "excerpt": "今日（9月2日），中金所公布一系列股指期货严格管控措施"
+        },
+        {
+          "source_id": "cffex-september",
+          "excerpt": "自2015年9月7日起，沪深300、上证50、中证500股指期货客户"
+        },
+        {
+          "source_id": "cffex-september",
+          "excerpt": "自2015年9月7日结算时起"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "cffex-september",
+            "excerpt": "今日（9月2日），中金所公布一系列股指期货严格管控措施",
+            "status": "matched"
+          },
+          {
+            "source_id": "cffex-september",
+            "excerpt": "自2015年9月7日起，沪深300、上证50、中证500股指期货客户",
+            "status": "matched"
+          },
+          {
+            "source_id": "cffex-september",
+            "excerpt": "自2015年9月7日结算时起",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-09-02": true,
+          "2015-09-07": true
+        },
+        "figure_matches": {},
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "只核9月2日原件中的一轮措施，部分保证金从9月7日结算时起。仅限公告提及的金融期货产品范围，不是创业板股票直接交易规则。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": null,
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": null,
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "september-dividend-tax",
+      "event_date": "2015-09-07",
+      "date_precision": "day",
+      "event_type": "fact",
+      "title": "股息红利差别化个人所得税通知",
+      "summary": "9月7日财税〔2015〕101号写明个人从公开市场取得的上市公司股票持股期限超过一年，股息红利所得暂免个税；通知自9月8日起施行。",
+      "market_anchor": "2015-09-07",
+      "category": "税收政策",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": "2016-02-02",
+      "implementation_date": "2015-09-08",
+      "provenance": "local_dossier",
+      "source_ids": [
+        "mof-101"
+      ],
+      "key_figures": [
+        {
+          "label": "暂免规则最低持股门槛（严格大于）",
+          "value": 1,
+          "unit": "年"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "mof-101",
+          "excerpt": "2015年9月7日 财税〔2015〕101号"
+        },
+        {
+          "source_id": "mof-101",
+          "excerpt": "持股期限超过1年的，股息红利所得暂免征收个人所得税"
+        },
+        {
+          "source_id": "mof-101",
+          "excerpt": "本通知自2015年9月8日起施行"
+        },
+        {
+          "source_id": "mof-101",
+          "excerpt": "发布日期：2016年02月02日"
+        }
+      ],
+      "market_assertions": [],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [
+          {
+            "source_id": "mof-101",
+            "excerpt": "2015年9月7日 财税〔2015〕101号",
+            "status": "matched"
+          },
+          {
+            "source_id": "mof-101",
+            "excerpt": "持股期限超过1年的，股息红利所得暂免征收个人所得税",
+            "status": "matched"
+          },
+          {
+            "source_id": "mof-101",
+            "excerpt": "本通知自2015年9月8日起施行",
+            "status": "matched"
+          },
+          {
+            "source_id": "mof-101",
+            "excerpt": "发布日期：2016年02月02日",
+            "status": "matched"
+          }
+        ],
+        "market_assertions": [],
+        "date_matches": {
+          "2015-09-07": true,
+          "2016-02-02": true,
+          "2015-09-08": true
+        },
+        "figure_matches": {
+          "1": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": "页面发布日期跨年，不用于替换原文文号旁的文件日期。",
+        "editor_review": "9月7日为文告日，9月8日施行，2016年2月2日为当前归档网页发布时间；不称为9月15日低点当天政策。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": null,
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": null,
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    },
+    {
+      "event_id": "september-low-close",
+      "event_date": "2015-09-15",
+      "date_precision": "day",
+      "event_type": "market_observation",
+      "title": "9月阶段低点",
+      "summary": "创业板指9月15日收1,797.56点。",
+      "market_anchor": "2015-09-15",
+      "category": "行情",
+      "attribution": null,
+      "announcement_at": null,
+      "publication_at": null,
+      "implementation_date": null,
+      "provenance": "local_dossier",
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "key_figures": [
+        {
+          "label": "当日收盘",
+          "value": 1797.56,
+          "unit": "点"
+        }
+      ],
+      "evidence": [],
+      "market_assertions": [
+        {
+          "date": "2015-09-15",
+          "operation": "close",
+          "expected": 1797.56
+        },
+        {
+          "date": "2015-09-15",
+          "operation": "low",
+          "expected": 1794.29
+        }
+      ],
+      "market_assertion": null,
+      "implementation_dates": [],
+      "verification_notes": {
+        "excerpts": [],
+        "market_assertions": [
+          {
+            "date": "2015-09-15",
+            "operation": "close",
+            "expected": 1797.56,
+            "source_id": "cyb-ohlc",
+            "actual": 1797.56,
+            "passed": true
+          },
+          {
+            "date": "2015-09-15",
+            "operation": "low",
+            "expected": 1794.29,
+            "source_id": "cyb-ohlc",
+            "actual": 1794.29,
+            "passed": true
+          }
+        ],
+        "date_matches": {
+          "2015-09-15": false
+        },
+        "figure_matches": {
+          "1797.56": true
+        },
+        "unavailable_source_ids": [],
+        "invalid_market_anchor": false,
+        "direct_causal_claim": false,
+        "conflict": false,
+        "scope_caution": null,
+        "editor_review": "6月3日至9月15日区间最低收盘属于选定阶段端点。1,794.29为9月15日盘中低点，不作收盘。",
+        "editor_observation": "VERIFIED",
+        "editor_body_support": true,
+        "editor_date_support": true,
+        "editor_figures_support": true
+      },
+      "grade_provenance": {
+        "existing_grade": "DATA",
+        "production_event_id": null,
+        "production_enabled": null,
+        "origin": "dossier_metadata",
+        "decision": "Historical grade is contextual; verification is computed independently."
+      },
+      "evidence_status": "VERIFIED",
+      "narrative_candidate": true,
+      "display_candidate": true
+    }
+  ],
+  "evidence_counts": {
+    "DISPUTED": 1,
+    "NEEDS_EXTERNAL_RESEARCH": 1,
+    "PARTIALLY_VERIFIED": 6,
+    "VERIFIED": 15
+  },
+  "open_questions": [
+    {
+      "id": "APR-01",
+      "date_range": "2015-04-01/2015-04-28",
+      "question": "4月13日自然人一人多户规则原公告何时发布并实施？4月20—24日的413.03万户来自周报什么字段，与4月13—17日325.71万是同一口径吗？",
+      "required_evidence": [
+        "中国结算公告全文与实施条款",
+        "两周统计原表及统计口径、覆盖市场、时段、分项与单位",
+        "可恢复的同期权威报道正文，注明转述来源、刊发时刻与相应统计期"
+      ],
+      "authoritative_avenues": [
+        "中国证券登记结算、人民网、新华社、中新网、证券时报同期报道"
+      ],
+      "search_terms": [
+        "中国结算 2015年4月13日 取消一人一户 自然人账户",
+        "2015年4月20日 24日 413.03万 新增 A股账户 中国结算 周报",
+        "中国结算 4月13—17日 325.71万 新增账户"
+      ],
+      "source_ids": [
+        "research-1113",
+        "people-april",
+        "chinanews-april",
+        "paper-april"
+      ]
+    },
+    {
+      "id": "IND-01",
+      "date_range": "2015-04-01/2015-06-30",
+      "question": "能否用同期历史成份/行业数据或企业公告描述创业板移动互联网背景，并核清乐视网五月1600亿与1700亿两个市值下界的时间和股本口径？",
+      "required_evidence": [
+        "带生效日的399006历史成份、分类/权重表或当期交易所行业统计",
+        "乐视网当时的法定披露及未复权价格、股本和同日市值算法",
+        "报告绝对市值与指数权重各自的定义，原页不全则保留月精度并标研究候选"
+      ],
+      "authoritative_avenues": [
+        "深交所、国证指数、巨潮资讯、2015年证券报刊"
+      ],
+      "search_terms": [
+        "2015 创业板指数 399006 历史成份 行业 权重 6月",
+        "300104 乐视网 2015年5月 总股本 市值 1600 1700 未复权"
+      ],
+      "source_ids": [
+        "research-1113",
+        "research-1115",
+        "nbd-industry"
+      ]
+    },
+    {
+      "id": "JUN-01",
+      "date_range": "2015-06-01/2015-07-12",
+      "question": "六月中下旬创业板成交、融资与IPO申购资金变化有哪些可对齐的时点资料？35号外部接入通知实际公告何时发布、适用范围为何？",
+      "required_evidence": [
+        "35号通知全文的发布日期、施行日期、存量和新增的具体条款",
+        "深市、创业板或全A股的统计分列，成交/两融/申购冻结与解冻金额明示分母、范围和交易日",
+        "发布与资金实际发生分开，精确到当时能观察到的交易时段"
+      ],
+      "authoritative_avenues": [
+        "证监会、深交所、上交所、中国结算、证券时报、上海证券报"
+      ],
+      "search_terms": [
+        "证监办发〔2015〕35号 信息系统外部接入 通知 全文",
+        "2015年6月19日 创业板 两融 余额 IPO 冻结 解冻 交易日",
+        "2015年6月 申购冻结资金 统计 银行间 股票市场"
+      ],
+      "source_ids": [
+        "research-1115",
+        "pbc-june-faq",
+        "csrc-19"
+      ]
+    },
+    {
+      "id": "JUN-02",
+      "date_range": "2015-06-27/2015-07-06",
+      "question": "六月降息降准的原始决定与实际实施时间是什么？七月初券商出资、IPO暂缓和证金资金支持哪些受当时原件支持？",
+      "required_evidence": [
+        "央行决定全文，分别给出公布与实施日、利率和范围",
+        "证券业协会或券商联合承诺全文、公布时刻、承诺金额",
+        "交易所/发行人IPO暂缓具体范围和对象；证金资金通稿，将融资支持、承诺、实际买入区分"
+      ],
+      "authoritative_avenues": [
+        "人民银行、证监会、证券业协会、证金公司、交易所及官方同期通稿"
+      ],
+      "search_terms": [
+        "2015年6月27日 人民银行 定向降准 降息 决定 6月28日",
+        "2015年7月4日 21家券商 不低于1200亿元 证券业协会 公告",
+        "2015年7月 IPO 暂缓 证金 流动性支持 公告"
+      ],
+      "source_ids": [
+        "pbc-june-faq",
+        "research-1115"
+      ]
+    },
+    {
+      "id": "AUG-01",
+      "date_range": "2015-08-11/2015-08-26",
+      "question": "8月11日中间价机制原公告何时发布和实施？8月17—26日何时有可查的市场数据及对汇率与增长预期的同期署名解读？",
+      "required_evidence": [
+        "人民银行原件、外汇交易中心可查时间序列以及同期报道全文",
+        "公告、统计、受访发言和报道时间分别记录，保留当地时区并换算北京时间",
+        "若涉及8月21日PMI，核对发布时刻与A股9:30的先后"
+      ],
+      "authoritative_avenues": [
+        "人民银行、外汇交易中心、统计发布机构、新华社、中证报同期报道"
+      ],
+      "search_terms": [
+        "2015年8月11日 人民银行 中间价报价 原公告 公布时刻",
+        "2015年8月21日 PMI 初值 发布时刻 9:30",
+        "2015年8月21日 人民币 汇率 股市 机构 解读"
+      ],
+      "source_ids": [
+        "cs-cny",
+        "research-1115"
+      ]
+    },
+    {
+      "id": "AUG-02",
+      "date_range": "2015-08-20/2015-08-26",
+      "question": "8月21日A股开盘前、24日开盘前和25日开盘前，各有哪些同期全球市场与国内资金/交易证据已经发生？",
+      "required_evidence": [
+        "境外指数、汇率与油价按当地交易时段分列，记录发布时刻与北京时间",
+        "交易所或权威报道的两融、追加担保/平仓、停牌和成交统计，写明适用市场、时段和分母",
+        "将8月24日美股常规时段与8月24日A股开盘、收盘分开，不能跨时区倒推"
+      ],
+      "authoritative_avenues": [
+        "交易所与统计原始发布、新华社、中新社、证券时报、Reuters/AP同期原文"
+      ],
+      "search_terms": [
+        "2015年8月21日 纽约股市 收盘 新华社",
+        "August 24 2015 Reuters China global selloff time",
+        "2015年8月24日 融资余额 平仓 证券时报"
+      ],
+      "source_ids": [
+        "research-1115",
+        "cnr-august"
+      ]
+    },
+    {
+      "id": "AUG-03",
+      "date_range": "2015-08-17/2015-08-26",
+      "question": "核查央广8月25日向松祚采访或另找可靠的同期具名短句。谈的是哪个市场，采访是什么时段？",
+      "required_evidence": [
+        "央广完整原文/节目存档、原话上下文、采访和刊发时刻、受访者机构",
+        "另找1—2位有名有姓的同期署名观点或机构研报，记录是事实、主观判断还是机制假说",
+        "比较当天实际创业板收盘，不能把宏观采访数字转换成该指数行情"
+      ],
+      "authoritative_avenues": [
+        "央广网、新华社、中新网及可以留档的当时机构公开讲话"
+      ],
+      "search_terms": [
+        "央广 稳增长再出招 央行宣布降息降准 2015 向松祚",
+        "2015年8月24日 创业板 机构 解读 原文 记者"
+      ],
+      "source_ids": [
+        "cnr-august",
+        "research-1115"
+      ]
+    },
+    {
+      "id": "IMG-01",
+      "date_range": "2015-04-13/2015-09-15",
+      "question": "是否能取得四月开户、八月连续缺口的真实同期现场照？区分原拍与资料图，照片涉及的市场也需明确。",
+      "required_evidence": [
+        "真实原图文件 JPG/PNG、原图链接、报道正文、原图注及使用权信息",
+        "报道日、拍摄日（不详则注明）、地点、所涉市场、摄影或媒体、资料图标签",
+        "只返回原页而无图时明确待取原图，不用文献、截图或生成图冒充新闻现场"
+      ],
+      "authoritative_avenues": [
+        "人民网、新华社、中新社、澎湃新闻、证券报及Reuters/AP的真实新闻档案"
+      ],
+      "search_terms": [
+        "2015年8月24日 证券营业部 股民 新华社 摄",
+        "2015年4月 开户证券营业部 高剑平 澎湃资料",
+        "August 24 2015 Shanghai brokerage photo caption"
+      ],
+      "source_ids": [
+        "paper-april",
+        "chinanews-april"
+      ]
+    }
+  ],
+  "external_unresolved": [],
+  "production_registry_modified": false,
+  "external_import_performed": false
+}

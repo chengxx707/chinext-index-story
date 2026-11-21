@@ -1,0 +1,39 @@
+{
+  "task_id": "A.album-render",
+  "lane": "A",
+  "title": "生成相册与结尾代表段 A01–C03",
+  "dependencies": {
+    "A.archive-photos": {
+      "input_hash": "623ba6f7e2395dc4f1db8df3e2b39ca67ef561bf88349339efdfbed1ba83f0d8",
+      "artifacts": null
+    },
+    "A.production-check": {
+      "input_hash": "3c588db34086d23d90757e56738573d35bbd4ff554ae028622750f6bc0274790",
+      "artifacts": [
+        "1fd2d2e0eb50cae11844d361cd8781bcee8310b02f4d8873e78567a042031eb3",
+        "4d70d0c64ed863c13b62585864edcf69cbc1e0339164d7302ce8c0a6eacd7f47"
+      ]
+    }
+  },
+  "input_hash": "beab6f1cc7efd85780f3a74f9af0da3ad277aa3bbd0c252c797468ec7c4a7a53",
+  "adapter": "album-render",
+  "approval_required": true,
+  "status": "BLOCKED",
+  "reason": "Prerequisites have not passed: A.archive-photos (BLOCKED)",
+  "history": [
+    {
+      "status": "PENDING",
+      "at": "2026-11-21T03:58:32.862725+00:00",
+      "reason": null
+    },
+    {
+      "status": "BLOCKED",
+      "at": "2026-11-21T03:58:32.866169+00:00",
+      "reason": "Prerequisites have not passed: A.archive-photos (BLOCKED)"
+    }
+  ],
+  "attempts": [],
+  "manifest": null,
+  "manifest_path": null,
+  "code": "dependencies"
+}

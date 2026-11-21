@@ -1,0 +1,6 @@
+{
+  "status": "not_included_real_photos_required",
+  "reason": "The document-only album was rejected. No document/chart substitute is included in this study.",
+  "source_manifest": "data/research/photo_retrieval_v2.json",
+  "ready_photo_count": 0
+}

@@ -1,0 +1,3752 @@
+{
+  "schema_version": "compiled_film_v1",
+  "status": "compiled_not_rendered",
+  "source_master": "/workspace/chinext-index-story/config/production/film_master_v1.json",
+  "master_sha256": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "audio": false,
+    "duration_seconds_estimate": 427,
+    "frame_count_plan": 12810
+  },
+  "data_cutoff": "2026-11-10",
+  "market_clock_policy": "beat_anchor_hold_v1_not_continuous_progression",
+  "layout_review": "pending_actual_layout_and_playback",
+  "frame_interval": "[start_frame,end_frame_exclusive)",
+  "node_count": 57,
+  "beat_count": 75,
+  "dependencies": {
+    "assets/source_documents/20261115/F29_中国政府网_刘鹤就当前经济金融热点问题接受采访_2018-10-19.html": "d924bb46db42f3277cfe1a3cb263a5880aa7a391688be68a1229fd3629c159c7",
+    "assets/source_documents/20261115/F37_中国政府网_刘鹤主持国务院金融委会议研究当前形势_2022-03-16.html": "b62f02fdd247085e581679d07b0d9b0a99ef3b496f8c82e4cb40178a010048b2",
+    "assets/source_documents/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.html": "7c490df2877657312f338e17f6d658481fa5512ee2e428e03f68e0a54bd4d93b",
+    "assets/source_documents/20261115/F44_央广网_一行一局一会发布重磅利好_2024-09-25.html": "0cbe191f42d610049c60085b4ecfda67f1931c30a23299b31698773b1f237db1",
+    "assets/source_documents/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.html": "43ad5fb55b99e2b7ba89986b05a50cab4972c2d28995349b696b77f4d4941466",
+    "assets/source_documents/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.html": "41e5250915b1a90a620a490f29769b1314f56f75ba9f401416f6a6c39b0e72a1",
+    "assets/source_documents/20261115/S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.html": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e",
+    "assets/source_documents/20261115/S07_证监会公告2015年18号_减持限制_2015-07-08.html": "98488925e2c92431316298b262e2c5634384187a609d105e1cd4b92287d0c600",
+    "assets/source_documents/20261115/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.html": "841ef82391cfe8dd079f9020c88a15c6336b88008d0805aed822d1a362791f41",
+    "assets/source_documents/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html": "3cd114631219630b1bb3cfaa5ccaa480ed10f44de7b8b34aa815bd0deada3a2e",
+    "assets/source_documents/20261115/S12_中金所_进一步加大市场管控_2015-09-02.html": "3c93c464efa39d8a1fc99e3aa0c51ba7ec3c3e0ecb109effded39881fb42ffe5",
+    "assets/source_documents/20261115/S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.html": "ee3b65f74ac0cb45fa38bd1b10f506027bf4163c329db3c33dd34be409aa663f",
+    "assets/source_documents/20261115/S14_X13_证监会_增强市场内在稳定性_2026年7月座谈会.html": "dcfa82f72b776c3031adf4b6603954dcd04edc1573215ffbd809ca3f161b66b6",
+    "assets/source_documents/20261115/S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.html": "11d907a121701526e4b44c27d9058d8bdd760a511dcf911b1522b3410d836b25",
+    "assets/source_documents/20261115/S18_证券业协会_稳市机制高频落子_2026-11-10.html": "91fcddf56bb1a70a69ebd6f957ba3c9da9a3ce840a436a1e1b781435fecce6aa",
+    "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "data/research/full_film_facts_v1.json": "6ac83955995e9a7c6476b1ec7da453e4e9dc4a9f3f62dc2766dad005bb721e22",
+    "data/source_text/20261115/F29_中国政府网_刘鹤就当前经济金融热点问题接受采访_2018-10-19.txt": "d54549d1beb968f57cddbd89cb5e75640af0c7d56047749af266ffd6a94744b7",
+    "data/source_text/20261115/F37_中国政府网_刘鹤主持国务院金融委会议研究当前形势_2022-03-16.txt": "c253d5ebaab33de36189f93a3dd533dd00f4fbfb2d75b9180a390a88b1622856",
+    "data/source_text/20261115/F40_证监会_全面实行股票发行注册制制度规则发布实施_2023-02-17.txt": "7458fd1fc86d0a85923941a78bc5b1be3f79743f89d61497ac9c91877941435b",
+    "data/source_text/20261115/F44_央广网_一行一局一会发布重磅利好_2024-09-25.txt": "805da2482915f9e0458ceea52526ae14d043c651fefe22ed214e1482af6c0650",
+    "data/source_text/20261115/M01_F02_深交所_关于编制和发布创业板指数的公告_2010-05-31.txt": "1bd8af4c00ab15319c78bb77a0fb38462d9c53b30b448838eb93f394bf747ee1",
+    "data/source_text/20261115/M04_F31_深交所_创业板改革并试点注册制首批18家企业成功上市_2020-08-24.txt": "b1d2dc0bc5ae4993865c9cfa9cc130a4dc5848a9ec87f8baa1652efb721508e7",
+    "data/source_text/20261115/S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.txt": "e00e409bd8ef84109d861186a03d77a60d86eb6810bb46d152a62d3943153a85",
+    "data/source_text/20261115/S07_证监会公告2015年18号_减持限制_2015-07-08.txt": "375ab0fc9da2018795048829582ff9437f6a977a7884d392961d6d1979416caa",
+    "data/source_text/20261115/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.txt": "d32d71c3a9b3b030ba5ba8cce0ecb7dcc1f667a720279de6628d89d503612f67",
+    "data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt": "568d02d7831736a3bd7f0fc9c4bfeee5745098726e54dabbc3de563860eea71e",
+    "data/source_text/20261115/S12_中金所_进一步加大市场管控_2015-09-02.txt": "2230a43ad341c071e0a9675ed93246c2f7fd19753e751ebeb4bf7aa4ab2ac93e",
+    "data/source_text/20261115/S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.txt": "5cf95431860f9ae46b98569e18794306fd94b86641401774ca5cbbdf2edbf369",
+    "data/source_text/20261115/S14_X13_证监会_增强市场内在稳定性_2026年7月座谈会.txt": "cf89366a141ae8a8ba697cca86bd2213b88afcafab5a295cb074c17a6052bbe9",
+    "data/source_text/20261115/S17_央视网_央行加力实施股票回购增持再贷款政策_2026-11-04.txt": "9fce016f61bdc02962bd40149f95d29f88e7de21be1e41481801ce3c9b9e0478",
+    "data/source_text/20261115/S18_证券业协会_稳市机制高频落子_2026-11-10.txt": "b8a8b86c590dca948612074ff18b1e7004e70dbc1601a1ba7deb8e7506a9fd6b",
+    "docs/source/events_source_20261113.md": "a7c2d2bc200fd88ba8255ff5b5df1418ed326aece83d58754334148535c973f2"
+  },
+  "checks": [
+    {
+      "id": "selected_sources",
+      "status": "passed",
+      "source_count": 32,
+      "new_online_verification": false
+    },
+    {
+      "id": "frozen_market",
+      "status": "passed",
+      "rows": 3992,
+      "first_date": "2010-06-01",
+      "last_date": "2026-11-10"
+    },
+    {
+      "id": "integer_frame_coverage",
+      "status": "passed",
+      "frames": 12810,
+      "nodes": 57,
+      "beats": 75
+    },
+    {
+      "id": "main_history_and_explicit_jumps",
+      "status": "passed"
+    },
+    {
+      "id": "quotes_and_metrics",
+      "status": "passed"
+    }
+  ],
+  "warnings": [
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2012-11",
+      "date_precision": "month",
+      "observation_date": "2012-11-30",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    },
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2013-07",
+      "date_precision": "month",
+      "observation_date": "2013-07-31",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    },
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2014-01",
+      "date_precision": "month",
+      "observation_date": "2014-01-30",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    },
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2015-05",
+      "date_precision": "month",
+      "observation_date": "2015-05-29",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    },
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2021-05",
+      "date_precision": "month",
+      "observation_date": "2021-05-31",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    },
+    {
+      "id": "period_observation_selected",
+      "historical_date": "2013-07",
+      "date_precision": "month",
+      "observation_date": "2013-07-31",
+      "event_market_anchor": null,
+      "note": "Editorial period-end observation; not an exact event date."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "H01",
+      "phase_id": "hook",
+      "role": "opening",
+      "title": "先看2015高点",
+      "start_frame": 0,
+      "end_frame_exclusive": 120,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "H01_b01",
+          "beat_index": 0,
+          "start_frame": 0,
+          "end_frame_exclusive": 120,
+          "screen_lines": [
+            "2015.06.03",
+            "3,982.25",
+            "阶段高点"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2015-06-03",
+          "date_precision": "day",
+          "event_market_anchor": "2015-06-03",
+          "market_observation_date": "2015-06-03",
+          "market_observation_index": 1213,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "H02",
+      "phase_id": "hook",
+      "role": "opening",
+      "title": "穿过2018低点",
+      "start_frame": 120,
+      "end_frame_exclusive": 240,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "H02_b01",
+          "beat_index": 0,
+          "start_frame": 120,
+          "end_frame_exclusive": 240,
+          "screen_lines": [
+            "2018.10.18",
+            "1,205.03",
+            "最大回撤 −69.74%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2018-10-18",
+          "date_precision": "day",
+          "event_market_anchor": "2018-10-18",
+          "market_observation_date": "2018-10-18",
+          "market_observation_index": 2036,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "H03",
+      "phase_id": "hook",
+      "role": "opening",
+      "title": "3997个自然日",
+      "start_frame": 240,
+      "end_frame_exclusive": 420,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "H03_b01",
+          "beat_index": 0,
+          "start_frame": 240,
+          "end_frame_exclusive": 420,
+          "screen_lines": [
+            "3997个自然日",
+            "收盘点位再次超过3,982.25",
+            "2015.06.03—2026.05.13"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2026-05-13",
+          "date_precision": "day",
+          "event_market_anchor": "2026-05-13",
+          "market_observation_date": "2026-05-13",
+          "market_observation_index": 3869,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "H04",
+      "phase_id": "hook",
+      "role": "opening",
+      "title": "返回起点",
+      "start_frame": 420,
+      "end_frame_exclusive": 540,
+      "declared_time_jump": {
+        "from": "2026-05-13",
+        "to": "2010-06-01",
+        "kind": "explicit_rewind",
+        "screen_cue": "回到2010"
+      },
+      "beats": [
+        {
+          "id": "H04_b01",
+          "beat_index": 0,
+          "start_frame": 420,
+          "end_frame_exclusive": 540,
+          "screen_lines": [
+            "回到2010"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "EDIT"
+          ],
+          "historical_date": null,
+          "date_precision": "day",
+          "event_market_anchor": null,
+          "market_observation_date": null,
+          "market_observation_index": null,
+          "market_observation_policy": "no_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "EDIT",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "回溯转场中隐藏当前收盘HUD；轨道回到2010，再以“市场起点”插页交代2009。"
+        }
+      ]
+    },
+    {
+      "id": "P00",
+      "phase_id": "prelude",
+      "role": "prelude",
+      "title": "市场先于指数",
+      "start_frame": 540,
+      "end_frame_exclusive": 720,
+      "declared_time_jump": {
+        "kind": "context_insert",
+        "date": "2009-10-30",
+        "resume": "2010-06-01"
+      },
+      "beats": [
+        {
+          "id": "P00_b01",
+          "beat_index": 0,
+          "start_frame": 540,
+          "end_frame_exclusive": 720,
+          "screen_lines": [
+            "市场起点｜2009.10.30",
+            "创业板开板",
+            "首批28家公司挂牌"
+          ],
+          "source_line": "深交所大事记｜据提供研究",
+          "source_ids": [
+            "U:market_open_2009"
+          ],
+          "historical_date": "2009-10-30",
+          "date_precision": "day",
+          "event_market_anchor": null,
+          "market_observation_date": null,
+          "market_observation_index": null,
+          "market_observation_policy": "no_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "U:market_open_2009",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "指数行情尚未开始，隐藏K线和收盘HUD；不是回放2009指数。"
+        }
+      ]
+    },
+    {
+      "id": "S01",
+      "phase_id": "phase_01",
+      "role": "main",
+      "title": "基日与首日",
+      "start_frame": 720,
+      "end_frame_exclusive": 960,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S01_b01",
+          "beat_index": 0,
+          "start_frame": 720,
+          "end_frame_exclusive": 810,
+          "screen_lines": [
+            "2010.05.31",
+            "基日 · 基点1,000"
+          ],
+          "source_line": "深交所发布公告",
+          "source_ids": [
+            "AR06",
+            "CSV"
+          ],
+          "historical_date": "2010-05-31",
+          "date_precision": "day",
+          "event_market_anchor": null,
+          "market_observation_date": null,
+          "market_observation_index": null,
+          "market_observation_policy": "no_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 60,
+          "source_date_context": [
+            {
+              "source_id": "AR06",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [
+                "2010-06-01"
+              ],
+              "effective_dates": [],
+              "page_date": "2010-06-01"
+            },
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "基日仅绘制1000标记，无日K、无伪造收盘。"
+        },
+        {
+          "id": "S01_b02",
+          "beat_index": 1,
+          "start_frame": 810,
+          "end_frame_exclusive": 960,
+          "screen_lines": [
+            "2010.06.01",
+            "创业板指正式发布",
+            "首日收盘 973.23"
+          ],
+          "source_line": "深交所公告｜行情：本片日线数据",
+          "source_ids": [
+            "AR06",
+            "CSV"
+          ],
+          "historical_date": "2010-06-01",
+          "date_precision": "day",
+          "event_market_anchor": "2010-06-01",
+          "market_observation_date": "2010-06-01",
+          "market_observation_index": 0,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "AR06",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [
+                "2010-06-01"
+              ],
+              "effective_dates": [],
+              "page_date": "2010-06-01"
+            },
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "phase_id": "phase_01",
+      "role": "main",
+      "title": "初段上涨",
+      "start_frame": 960,
+      "end_frame_exclusive": 1140,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S02_b01",
+          "beat_index": 0,
+          "start_frame": 960,
+          "end_frame_exclusive": 1140,
+          "screen_lines": [
+            "2010.12.17",
+            "1,232.98",
+            "阶段高点"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2010-12-17",
+          "date_precision": "day",
+          "event_market_anchor": "2010-12-17",
+          "market_observation_date": "2010-12-17",
+          "market_observation_index": 132,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "phase_id": "phase_01",
+      "role": "main",
+      "title": "锁定期与发行背景",
+      "start_frame": 1140,
+      "end_frame_exclusive": 1440,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S03_b01",
+          "beat_index": 0,
+          "start_frame": 1140,
+          "end_frame_exclusive": 1290,
+          "screen_lines": [
+            "2012.10.30",
+            "首批公司控股股东",
+            "锁定期届满"
+          ],
+          "source_line": "据提供研究｜中新社等报道",
+          "source_ids": [
+            "U:unlock_2012",
+            "U:ipo_pause_2012"
+          ],
+          "historical_date": "2012-10-30",
+          "date_precision": "day",
+          "event_market_anchor": "2012-10-30",
+          "market_observation_date": "2012-10-30",
+          "market_observation_index": 585,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "U:unlock_2012",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "U:ipo_pause_2012",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        },
+        {
+          "id": "S03_b02",
+          "beat_index": 1,
+          "start_frame": 1290,
+          "end_frame_exclusive": 1440,
+          "screen_lines": [
+            "2012.11",
+            "IPO暂停",
+            "至2014.01"
+          ],
+          "source_line": "据提供研究｜中国金融信息网",
+          "source_ids": [
+            "U:unlock_2012",
+            "U:ipo_pause_2012"
+          ],
+          "historical_date": "2012-11",
+          "date_precision": "month",
+          "event_market_anchor": null,
+          "market_observation_date": "2012-11-30",
+          "market_observation_index": 608,
+          "market_observation_policy": "period_end_observation_not_event_day",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "U:unlock_2012",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "U:ipo_pause_2012",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "月份制度区间，不把观察K线日期写成具体政策日。"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "phase_id": "phase_01",
+      "role": "main",
+      "title": "首次深度回撤",
+      "start_frame": 1440,
+      "end_frame_exclusive": 1680,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S04_b01",
+          "beat_index": 0,
+          "start_frame": 1440,
+          "end_frame_exclusive": 1680,
+          "screen_lines": [
+            "2012.12.03",
+            "593.66",
+            "样本内最低收盘",
+            "较2010阶段高点 −51.85%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2012-12-03",
+          "date_precision": "day",
+          "event_market_anchor": "2012-12-03",
+          "market_observation_date": "2012-12-03",
+          "market_observation_index": 609,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 210,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "phase_id": "phase_02",
+      "role": "main",
+      "title": "企业进入手游并购",
+      "start_frame": 1680,
+      "end_frame_exclusive": 1860,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S05_b01",
+          "beat_index": 0,
+          "start_frame": 1680,
+          "end_frame_exclusive": 1860,
+          "screen_lines": [
+            "2013.07",
+            "华谊兄弟并购",
+            "手游公司银汉科技"
+          ],
+          "source_line": "据提供研究｜中证网、人民网",
+          "source_ids": [
+            "U:huayi_2013"
+          ],
+          "historical_date": "2013-07",
+          "date_precision": "month",
+          "event_market_anchor": null,
+          "market_observation_date": "2013-07-31",
+          "market_observation_index": 765,
+          "market_observation_policy": "period_end_observation_not_event_day",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "U:huayi_2013",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "采用月份；不把披露日与复牌日混成一个日期，不使用个股涨幅。"
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "phase_id": "phase_02",
+      "role": "main",
+      "title": "发行恢复",
+      "start_frame": 1860,
+      "end_frame_exclusive": 2040,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S06_b01",
+          "beat_index": 0,
+          "start_frame": 1860,
+          "end_frame_exclusive": 2040,
+          "screen_lines": [
+            "2014.01",
+            "IPO重启"
+          ],
+          "source_line": "据提供研究｜发行重启报道",
+          "source_ids": [
+            "U:ipo_restart_2014"
+          ],
+          "historical_date": "2014-01",
+          "date_precision": "month",
+          "event_market_anchor": null,
+          "market_observation_date": "2014-01-30",
+          "market_observation_index": 888,
+          "market_observation_policy": "period_end_observation_not_event_day",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "U:ipo_restart_2014",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "全片保留月份精度，不输出2014.01.08为确切制度日。"
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "phase_id": "phase_02",
+      "role": "main",
+      "title": "参与增加的可见数字",
+      "start_frame": 2040,
+      "end_frame_exclusive": 2400,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S07_b01",
+          "beat_index": 0,
+          "start_frame": 2040,
+          "end_frame_exclusive": 2190,
+          "screen_lines": [
+            "2015.04.13",
+            "一人多户放开"
+          ],
+          "source_line": "据提供研究｜中国结算政策",
+          "source_ids": [
+            "U:multi_account_2015",
+            "U:accounts_2015"
+          ],
+          "historical_date": "2015-04-13",
+          "date_precision": "day",
+          "event_market_anchor": "2015-04-13",
+          "market_observation_date": "2015-04-13",
+          "market_observation_index": 1177,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "U:multi_account_2015",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "U:accounts_2015",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        },
+        {
+          "id": "S07_b02",
+          "beat_index": 1,
+          "start_frame": 2190,
+          "end_frame_exclusive": 2400,
+          "screen_lines": [
+            "2015.04.20—24",
+            "单周新开A股账户",
+            "413.03万户"
+          ],
+          "source_line": "中国结算数据｜据提供研究",
+          "source_ids": [
+            "U:multi_account_2015",
+            "U:accounts_2015"
+          ],
+          "historical_date": "2015-04-20/2015-04-24",
+          "date_precision": "range",
+          "event_market_anchor": "2015-04-24",
+          "market_observation_date": "2015-04-24",
+          "market_observation_index": 1186,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 180,
+          "source_date_context": [
+            {
+              "source_id": "U:multi_account_2015",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "U:accounts_2015",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "账户数不是人数；这是统计周，不能与4月22日的前一周300万标题混用。"
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "phase_id": "phase_02",
+      "role": "main",
+      "title": "企业记忆：乐视",
+      "start_frame": 2400,
+      "end_frame_exclusive": 2550,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S08_b01",
+          "beat_index": 0,
+          "start_frame": 2400,
+          "end_frame_exclusive": 2550,
+          "screen_lines": [
+            "2015.05",
+            "乐视网市值",
+            "一度超1,600亿元"
+          ],
+          "source_line": "据提供研究｜媒体市值口径",
+          "source_ids": [
+            "U:letv_peak_2015"
+          ],
+          "historical_date": "2015-05",
+          "date_precision": "month",
+          "event_market_anchor": null,
+          "market_observation_date": "2015-05-29",
+          "market_observation_index": 1210,
+          "market_observation_policy": "period_end_observation_not_event_day",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "U:letv_peak_2015",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "公司市值不是指数权重；月精度，不作精确峰值日或个股收益故事。"
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "phase_id": "phase_02",
+      "role": "main",
+      "title": "2015阶段高点",
+      "start_frame": 2550,
+      "end_frame_exclusive": 2790,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S09_b01",
+          "beat_index": 0,
+          "start_frame": 2550,
+          "end_frame_exclusive": 2790,
+          "screen_lines": [
+            "2015.06.03",
+            "3,982.25",
+            "阶段高点",
+            "较2012低点 +570.80%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2015-06-03",
+          "date_precision": "day",
+          "event_market_anchor": "2015-06-03",
+          "market_observation_date": "2015-06-03",
+          "market_observation_index": 1213,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 210,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "phase_id": "phase_03",
+      "role": "main",
+      "title": "先反复，再扩大回撤",
+      "start_frame": 2790,
+      "end_frame_exclusive": 3030,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S10_b01",
+          "beat_index": 0,
+          "start_frame": 2790,
+          "end_frame_exclusive": 2910,
+          "screen_lines": [
+            "2015.06.12",
+            "3,899.71",
+            "较6月3日高点 −2.07%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2015-06-12",
+          "date_precision": "day",
+          "event_market_anchor": "2015-06-12",
+          "market_observation_date": "2015-06-12",
+          "market_observation_index": 1220,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        },
+        {
+          "id": "S10_b02",
+          "beat_index": 1,
+          "start_frame": 2910,
+          "end_frame_exclusive": 3030,
+          "screen_lines": [
+            "2015.06.19",
+            "3,314.98",
+            "较6月3日高点 −16.76%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2015-06-19",
+          "date_precision": "day",
+          "event_market_anchor": "2015-06-19",
+          "market_observation_date": "2015-06-19",
+          "market_observation_index": 1225,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "phase_id": "phase_03",
+      "role": "main",
+      "title": "同期措施依次出现",
+      "start_frame": 3030,
+      "end_frame_exclusive": 3630,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S11_b01",
+          "beat_index": 0,
+          "start_frame": 3030,
+          "end_frame_exclusive": 3210,
+          "screen_lines": [
+            "2015.06.27",
+            "定向降准",
+            "并结合下调存贷款基准利率"
+          ],
+          "source_line": "中国人民银行｜当日答记者问",
+          "source_ids": [
+            "AR08",
+            "AR09",
+            "AR10"
+          ],
+          "historical_date": "2015-06-27",
+          "date_precision": "day",
+          "event_market_anchor": "2015-06-26",
+          "market_observation_date": "2015-06-26",
+          "market_observation_index": 1229,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "上一交易日",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "AR08",
+              "publication_date": "2015-06-27",
+              "published_at": "2015-06-27 17:03:28",
+              "event_dates": [
+                "2015-06-27"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR09",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [
+                "2015-07-08"
+              ],
+              "effective_dates": [],
+              "page_date": "2015-08-18"
+            },
+            {
+              "source_id": "AR10",
+              "publication_date": "2015-07-12",
+              "published_at": null,
+              "event_dates": [
+                "2015-07-12"
+              ],
+              "effective_dates": [
+                "2015-07-12"
+              ],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "周六政策日，行情HUD停留上一交易日06.26；不伪造06.27K线。"
+        },
+        {
+          "id": "S11_b02",
+          "beat_index": 1,
+          "start_frame": 3210,
+          "end_frame_exclusive": 3330,
+          "screen_lines": [
+            "2015.07.08",
+            "大股东及董监高",
+            "减持限制"
+          ],
+          "source_line": "证监会公告〔2015〕18号",
+          "source_ids": [
+            "AR08",
+            "AR09",
+            "AR10"
+          ],
+          "historical_date": "2015-07-08",
+          "date_precision": "day",
+          "event_market_anchor": "2015-07-08",
+          "market_observation_date": "2015-07-08",
+          "market_observation_index": 1237,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "AR08",
+              "publication_date": "2015-06-27",
+              "published_at": "2015-06-27 17:03:28",
+              "event_dates": [
+                "2015-06-27"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR09",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [
+                "2015-07-08"
+              ],
+              "effective_dates": [],
+              "page_date": "2015-08-18"
+            },
+            {
+              "source_id": "AR10",
+              "publication_date": "2015-07-12",
+              "published_at": null,
+              "event_dates": [
+                "2015-07-12"
+              ],
+              "effective_dates": [
+                "2015-07-12"
+              ],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        },
+        {
+          "id": "S11_b03",
+          "beat_index": 2,
+          "start_frame": 3330,
+          "end_frame_exclusive": 3450,
+          "screen_lines": [
+            "当时公告表述",
+            "“非理性下跌”"
+          ],
+          "source_line": "证监会公告〔2015〕18号｜2015.07.08",
+          "source_ids": [
+            "AR08",
+            "AR09",
+            "AR10"
+          ],
+          "historical_date": "2015-07-08",
+          "date_precision": "day",
+          "event_market_anchor": "2015-07-08",
+          "market_observation_date": "2015-07-08",
+          "market_observation_index": 1237,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "AR08",
+              "publication_date": "2015-06-27",
+              "published_at": "2015-06-27 17:03:28",
+              "event_dates": [
+                "2015-06-27"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR09",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [
+                "2015-07-08"
+              ],
+              "effective_dates": [],
+              "page_date": "2015-08-18"
+            },
+            {
+              "source_id": "AR10",
+              "publication_date": "2015-07-12",
+              "published_at": null,
+              "event_dates": [
+                "2015-07-12"
+              ],
+              "effective_dates": [
+                "2015-07-12"
+              ],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "这是公告原话，不是情绪调查结果。与上一拍共用同一政策卡位置，避免重新弹窗。"
+        },
+        {
+          "id": "S11_b04",
+          "beat_index": 3,
+          "start_frame": 3450,
+          "end_frame_exclusive": 3630,
+          "screen_lines": [
+            "2015.07.12",
+            "清理整顿违法从事",
+            "证券业务活动的意见"
+          ],
+          "source_line": "证监会公告〔2015〕19号",
+          "source_ids": [
+            "AR08",
+            "AR09",
+            "AR10"
+          ],
+          "historical_date": "2015-07-12",
+          "date_precision": "day",
+          "event_market_anchor": "2015-07-10",
+          "market_observation_date": "2015-07-10",
+          "market_observation_index": 1239,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "上一交易日",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "AR08",
+              "publication_date": "2015-06-27",
+              "published_at": "2015-06-27 17:03:28",
+              "event_dates": [
+                "2015-06-27"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR09",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [
+                "2015-07-08"
+              ],
+              "effective_dates": [],
+              "page_date": "2015-08-18"
+            },
+            {
+              "source_id": "AR10",
+              "publication_date": "2015-07-12",
+              "published_at": null,
+              "event_dates": [
+                "2015-07-12"
+              ],
+              "effective_dates": [
+                "2015-07-12"
+              ],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "周日公布并实施，行情HUD为07.10；正文引用6月文件不等于证实其精确日。"
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "phase_id": "phase_03",
+      "role": "main",
+      "title": "7月出现阶段反弹",
+      "start_frame": 3630,
+      "end_frame_exclusive": 3810,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S12_b01",
+          "beat_index": 0,
+          "start_frame": 3630,
+          "end_frame_exclusive": 3810,
+          "screen_lines": [
+            "2015.07.07—07.23",
+            "阶段反弹",
+            "+26.19%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2015-07-23",
+          "date_precision": "day",
+          "event_market_anchor": "2015-07-23",
+          "market_observation_date": "2015-07-23",
+          "market_observation_index": 1248,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "07.07起点仅作回看基准；游标从前场景继续到07.23，不倒退。"
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "phase_id": "phase_03",
+      "role": "main",
+      "title": "8月连续下跌与同期公告",
+      "start_frame": 3810,
+      "end_frame_exclusive": 4380,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S13_b01",
+          "beat_index": 0,
+          "start_frame": 3810,
+          "end_frame_exclusive": 3960,
+          "screen_lines": [
+            "2015.08.24",
+            "单日 −8.08%",
+            "向下跳空"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV",
+            "AR11"
+          ],
+          "historical_date": "2015-08-24",
+          "date_precision": "day",
+          "event_market_anchor": "2015-08-24",
+          "market_observation_date": "2015-08-24",
+          "market_observation_index": 1270,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR11",
+              "publication_date": "2015-08-25",
+              "published_at": "2015-08-25 18:15:34",
+              "event_dates": [],
+              "effective_dates": [
+                "2015-08-26",
+                "2015-09-06"
+              ],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        },
+        {
+          "id": "S13_b02",
+          "beat_index": 1,
+          "start_frame": 3960,
+          "end_frame_exclusive": 4080,
+          "screen_lines": [
+            "2015.08.25",
+            "单日 −7.52%",
+            "再次向下跳空"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV",
+            "AR11"
+          ],
+          "historical_date": "2015-08-25",
+          "date_precision": "day",
+          "event_market_anchor": "2015-08-25",
+          "market_observation_date": "2015-08-25",
+          "market_observation_index": 1271,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR11",
+              "publication_date": "2015-08-25",
+              "published_at": "2015-08-25 18:15:34",
+              "event_dates": [],
+              "effective_dates": [
+                "2015-08-26",
+                "2015-09-06"
+              ],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        },
+        {
+          "id": "S13_b03",
+          "beat_index": 2,
+          "start_frame": 4080,
+          "end_frame_exclusive": 4260,
+          "screen_lines": [
+            "2015.08.25 18:15",
+            "央行公布降息降准安排",
+            "8月26日起降息 · 9月6日起降准"
+          ],
+          "source_line": "中国人民银行｜盘后公布",
+          "source_ids": [
+            "CSV",
+            "AR11"
+          ],
+          "historical_date": "2015-08-25",
+          "date_precision": "day",
+          "event_market_anchor": "2015-08-25",
+          "market_observation_date": "2015-08-25",
+          "market_observation_index": 1271,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR11",
+              "publication_date": "2015-08-25",
+              "published_at": "2015-08-25 18:15:34",
+              "event_dates": [],
+              "effective_dates": [
+                "2015-08-26",
+                "2015-09-06"
+              ],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "公告晚于当日收盘，不把它放在8月25日开盘前；此拍冻结08.25行情。"
+        },
+        {
+          "id": "S13_b04",
+          "beat_index": 3,
+          "start_frame": 4260,
+          "end_frame_exclusive": 4380,
+          "screen_lines": [
+            "2015.08.26",
+            "单日 −5.06%",
+            "三交易日累计 −19.30%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV",
+            "AR11"
+          ],
+          "historical_date": "2015-08-26",
+          "date_precision": "day",
+          "event_market_anchor": "2015-08-26",
+          "market_observation_date": "2015-08-26",
+          "market_observation_index": 1272,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR11",
+              "publication_date": "2015-08-25",
+              "published_at": "2015-08-25 18:15:34",
+              "event_dates": [],
+              "effective_dates": [
+                "2015-08-26",
+                "2015-09-06"
+              ],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "累计以08.21收盘为基准；08.26低开但与前一日区间重叠，不写第三次完整缺口。"
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "phase_id": "phase_03",
+      "role": "main",
+      "title": "低点之前已有措施",
+      "start_frame": 4380,
+      "end_frame_exclusive": 4740,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S14_b01",
+          "beat_index": 0,
+          "start_frame": 4380,
+          "end_frame_exclusive": 4560,
+          "screen_lines": [
+            "2015.09.02",
+            "中金所进一步加大市场管控",
+            "9月7日起实施"
+          ],
+          "source_line": "中国金融期货交易所｜股指期货措施",
+          "source_ids": [
+            "AR12",
+            "AR13"
+          ],
+          "historical_date": "2015-09-02",
+          "date_precision": "day",
+          "event_market_anchor": "2015-09-02",
+          "market_observation_date": "2015-09-02",
+          "market_observation_index": 1277,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "AR12",
+              "publication_date": "2015-09-02",
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [
+                "2015-09-07"
+              ],
+              "page_date": null
+            },
+            {
+              "source_id": "AR13",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [
+                "2015-09-08"
+              ],
+              "page_date": "2016-02-02"
+            }
+          ],
+          "implementation_note": "标股指期货背景，不写成创业板现货交易规则。"
+        },
+        {
+          "id": "S14_b02",
+          "beat_index": 1,
+          "start_frame": 4560,
+          "end_frame_exclusive": 4740,
+          "screen_lines": [
+            "2015.09.07公布｜9月8日施行",
+            "持股超过一年",
+            "股息红利暂免个人所得税"
+          ],
+          "source_line": "财政部等｜财税〔2015〕101号",
+          "source_ids": [
+            "AR12",
+            "AR13"
+          ],
+          "historical_date": "2015-09-07",
+          "date_precision": "day",
+          "event_market_anchor": "2015-09-07",
+          "market_observation_date": "2015-09-07",
+          "market_observation_index": 1278,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "AR12",
+              "publication_date": "2015-09-02",
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [
+                "2015-09-07"
+              ],
+              "page_date": null
+            },
+            {
+              "source_id": "AR13",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [
+                "2015-09-08"
+              ],
+              "page_date": "2016-02-02"
+            }
+          ],
+          "implementation_note": "发生日先于09.15低点，不与低点同步成一件事。"
+        }
+      ]
+    },
+    {
+      "id": "S15",
+      "phase_id": "phase_03",
+      "role": "main",
+      "title": "9月阶段低点",
+      "start_frame": 4740,
+      "end_frame_exclusive": 4950,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S15_b01",
+          "beat_index": 0,
+          "start_frame": 4740,
+          "end_frame_exclusive": 4950,
+          "screen_lines": [
+            "2015.09.15",
+            "1,797.56",
+            "阶段低点",
+            "较6月高点 −54.86%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2015-09-15",
+          "date_precision": "day",
+          "event_market_anchor": "2015-09-15",
+          "market_observation_date": "2015-09-15",
+          "market_observation_index": 1284,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 180,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S16",
+      "phase_id": "phase_03",
+      "role": "main",
+      "title": "低点后再反弹",
+      "start_frame": 4950,
+      "end_frame_exclusive": 5160,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S16_b01",
+          "beat_index": 0,
+          "start_frame": 4950,
+          "end_frame_exclusive": 5160,
+          "screen_lines": [
+            "2015.11.25",
+            "2,897.57",
+            "阶段反弹",
+            "较9月低点 +61.19%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2015-11-25",
+          "date_precision": "day",
+          "event_market_anchor": "2015-11-25",
+          "market_observation_date": "2015-11-25",
+          "market_observation_index": 1330,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 180,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S17",
+      "phase_id": "phase_04",
+      "role": "main",
+      "title": "熔断实施与暂停",
+      "start_frame": 5160,
+      "end_frame_exclusive": 5460,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S17_b01",
+          "beat_index": 0,
+          "start_frame": 5160,
+          "end_frame_exclusive": 5310,
+          "screen_lines": [
+            "2016.01.04",
+            "指数熔断机制实施"
+          ],
+          "source_line": "据提供研究｜交易所规定及当日报道",
+          "source_ids": [
+            "U:circuit_start_2016",
+            "U:circuit_pause_2016"
+          ],
+          "historical_date": "2016-01-04",
+          "date_precision": "day",
+          "event_market_anchor": "2016-01-04",
+          "market_observation_date": "2016-01-04",
+          "market_observation_index": 1357,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "U:circuit_start_2016",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "U:circuit_pause_2016",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        },
+        {
+          "id": "S17_b02",
+          "beat_index": 1,
+          "start_frame": 5310,
+          "end_frame_exclusive": 5460,
+          "screen_lines": [
+            "2016.01.08",
+            "指数熔断机制暂停实施"
+          ],
+          "source_line": "据提供研究｜交易所通知",
+          "source_ids": [
+            "U:circuit_start_2016",
+            "U:circuit_pause_2016"
+          ],
+          "historical_date": "2016-01-08",
+          "date_precision": "day",
+          "event_market_anchor": "2016-01-08",
+          "market_observation_date": "2016-01-08",
+          "market_observation_index": 1361,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "U:circuit_start_2016",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "U:circuit_pause_2016",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "暂停通知发文01.07，实施日01.08分开。"
+        }
+      ]
+    },
+    {
+      "id": "S18",
+      "phase_id": "phase_04",
+      "role": "main",
+      "title": "企业记忆：宁德上市",
+      "start_frame": 5460,
+      "end_frame_exclusive": 5640,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S18_b01",
+          "beat_index": 0,
+          "start_frame": 5460,
+          "end_frame_exclusive": 5640,
+          "screen_lines": [
+            "2018.06.11",
+            "宁德时代上市",
+            "按募资规模，当时创业板最大IPO"
+          ],
+          "source_line": "据提供研究｜人民网报道",
+          "source_ids": [
+            "U:catl_listing_2018"
+          ],
+          "historical_date": "2018-06-11",
+          "date_precision": "day",
+          "event_market_anchor": "2018-06-11",
+          "market_observation_date": "2018-06-11",
+          "market_observation_index": 1950,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "U:catl_listing_2018",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "不写成截至2026仍保持的纪录；不展示当前成分权重。"
+        }
+      ]
+    },
+    {
+      "id": "S19",
+      "phase_id": "phase_04",
+      "role": "main",
+      "title": "2018低点与跨阶段回撤",
+      "start_frame": 5640,
+      "end_frame_exclusive": 5880,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S19_b01",
+          "beat_index": 0,
+          "start_frame": 5640,
+          "end_frame_exclusive": 5880,
+          "screen_lines": [
+            "2018.10.18",
+            "1,205.03",
+            "阶段低点",
+            "较2015年6月高点 −69.74%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2018-10-18",
+          "date_precision": "day",
+          "event_market_anchor": "2018-10-18",
+          "market_observation_date": "2018-10-18",
+          "market_observation_index": 2036,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 210,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S20",
+      "phase_id": "phase_05",
+      "role": "main",
+      "title": "低点次日的当时声音",
+      "start_frame": 5880,
+      "end_frame_exclusive": 6150,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S20_b01",
+          "beat_index": 0,
+          "start_frame": 5880,
+          "end_frame_exclusive": 6000,
+          "screen_lines": [
+            "2018.10.19",
+            "刘鹤就经济金融热点接受采访"
+          ],
+          "source_line": "新华社｜中国政府网刊载",
+          "source_ids": [
+            "AR01"
+          ],
+          "historical_date": "2018-10-19",
+          "date_precision": "day",
+          "event_market_anchor": "2018-10-18",
+          "market_observation_date": "2018-10-18",
+          "market_observation_index": 2036,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "上一交易日",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "AR01",
+              "publication_date": "2018-10-19",
+              "published_at": "2018-10-19 13:43:56",
+              "event_dates": [
+                "2018-10-19"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "网页13:43刊发；此文献拍保留上一交易日收盘，后续场景再推进10.19及以后行情。"
+        },
+        {
+          "id": "S20_b02",
+          "beat_index": 1,
+          "start_frame": 6000,
+          "end_frame_exclusive": 6150,
+          "screen_lines": [
+            "当时的声音",
+            "“市场预期发生变化”"
+          ],
+          "source_line": "刘鹤｜2018.10.19｜新华社",
+          "source_ids": [
+            "AR01"
+          ],
+          "historical_date": "2018-10-19",
+          "date_precision": "day",
+          "event_market_anchor": "2018-10-18",
+          "market_observation_date": "2018-10-18",
+          "market_observation_index": 2036,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "上一交易日",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "AR01",
+              "publication_date": "2018-10-19",
+              "published_at": "2018-10-19 13:43:56",
+              "event_dates": [
+                "2018-10-19"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "右上标上一交易日；不把10.19尚未完成的收盘提前当成采访时状态。"
+        }
+      ]
+    },
+    {
+      "id": "S21",
+      "phase_id": "phase_05",
+      "role": "main",
+      "title": "修复中保留单日冲击",
+      "start_frame": 6150,
+      "end_frame_exclusive": 6330,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S21_b01",
+          "beat_index": 0,
+          "start_frame": 6150,
+          "end_frame_exclusive": 6330,
+          "screen_lines": [
+            "2020.02.03",
+            "单日 −6.85%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2020-02-03",
+          "date_precision": "day",
+          "event_market_anchor": "2020-02-03",
+          "market_observation_date": "2020-02-03",
+          "market_observation_index": 2348,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S22",
+      "phase_id": "phase_05",
+      "role": "main",
+      "title": "创业板注册制规则",
+      "start_frame": 6330,
+      "end_frame_exclusive": 6510,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S22_b01",
+          "beat_index": 0,
+          "start_frame": 6330,
+          "end_frame_exclusive": 6510,
+          "screen_lines": [
+            "2020.06.12",
+            "创业板改革并试点注册制",
+            "制度规则发布"
+          ],
+          "source_line": "据提供研究｜证监会制度规则",
+          "source_ids": [
+            "U:registration_chain_2020"
+          ],
+          "historical_date": "2020-06-12",
+          "date_precision": "day",
+          "event_market_anchor": "2020-06-12",
+          "market_observation_date": "2020-06-12",
+          "market_observation_index": 2438,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "U:registration_chain_2020",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S23",
+      "phase_id": "phase_05",
+      "role": "main",
+      "title": "企业更替：乐视摘牌",
+      "start_frame": 6510,
+      "end_frame_exclusive": 6690,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S23_b01",
+          "beat_index": 0,
+          "start_frame": 6510,
+          "end_frame_exclusive": 6690,
+          "screen_lines": [
+            "2020.07.21",
+            "乐视网摘牌",
+            "最后交易收盘 0.18元"
+          ],
+          "source_line": "据提供研究｜摘牌及最后交易报道",
+          "source_ids": [
+            "U:letv_delist_2020"
+          ],
+          "historical_date": "2020-07-21",
+          "date_precision": "day",
+          "event_market_anchor": "2020-07-21",
+          "market_observation_date": "2020-07-21",
+          "market_observation_index": 2463,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "U:letv_delist_2020",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "0.18元为该股票07.20最后交易收盘；右上仍是创业板指数当日收盘，标签不得混淆。"
+        }
+      ]
+    },
+    {
+      "id": "S24",
+      "phase_id": "phase_05",
+      "role": "main",
+      "title": "首批注册制企业上市",
+      "start_frame": 6690,
+      "end_frame_exclusive": 6930,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S24_b01",
+          "beat_index": 0,
+          "start_frame": 6690,
+          "end_frame_exclusive": 6930,
+          "screen_lines": [
+            "2020.08.24",
+            "首批18家注册制企业上市"
+          ],
+          "source_line": "深交所｜当日通稿",
+          "source_ids": [
+            "AR07"
+          ],
+          "historical_date": "2020-08-24",
+          "date_precision": "day",
+          "event_market_anchor": "2020-08-24",
+          "market_observation_date": "2020-08-24",
+          "market_observation_index": 2487,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 210,
+          "source_date_context": [
+            {
+              "source_id": "AR07",
+              "publication_date": "2020-08-24",
+              "published_at": null,
+              "event_dates": [
+                "2020-08-24"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S25",
+      "phase_id": "phase_05",
+      "role": "main",
+      "title": "企业记忆：万亿市值",
+      "start_frame": 6930,
+      "end_frame_exclusive": 7110,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S25_b01",
+          "beat_index": 0,
+          "start_frame": 6930,
+          "end_frame_exclusive": 7110,
+          "screen_lines": [
+            "2021.05",
+            "宁德时代市值",
+            "首次突破1万亿元"
+          ],
+          "source_line": "据提供研究｜媒体市值口径",
+          "source_ids": [
+            "U:catl_trillion_2021"
+          ],
+          "historical_date": "2021-05",
+          "date_precision": "month",
+          "event_market_anchor": null,
+          "market_observation_date": "2021-05-31",
+          "market_observation_index": 2671,
+          "market_observation_policy": "period_end_observation_not_event_day",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "U:catl_trillion_2021",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "只作企业历史事实；没有已存原始同期报道图片，不伪造媒体头版。"
+        }
+      ]
+    },
+    {
+      "id": "S26",
+      "phase_id": "phase_05",
+      "role": "main",
+      "title": "2021阶段高点",
+      "start_frame": 7110,
+      "end_frame_exclusive": 7350,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S26_b01",
+          "beat_index": 0,
+          "start_frame": 7110,
+          "end_frame_exclusive": 7350,
+          "screen_lines": [
+            "2021.08.04",
+            "3,563.13",
+            "阶段高点",
+            "较2018低点 +195.69%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2021-08-04",
+          "date_precision": "day",
+          "event_market_anchor": "2021-08-04",
+          "market_observation_date": "2021-08-04",
+          "market_observation_index": 2717,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 210,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S27",
+      "phase_id": "phase_06",
+      "role": "main",
+      "title": "调整中的政策声音",
+      "start_frame": 7350,
+      "end_frame_exclusive": 7620,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S27_b01",
+          "beat_index": 0,
+          "start_frame": 7350,
+          "end_frame_exclusive": 7470,
+          "screen_lines": [
+            "2022.03.16",
+            "国务院金融委专题会议"
+          ],
+          "source_line": "新华社｜中国政府网刊载",
+          "source_ids": [
+            "AR02"
+          ],
+          "historical_date": "2022-03-16",
+          "date_precision": "day",
+          "event_market_anchor": "2022-03-15",
+          "market_observation_date": "2022-03-15",
+          "market_observation_index": 2863,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "上一交易日",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "AR02",
+              "publication_date": "2022-03-16",
+              "published_at": "2022-03-16 14:00",
+              "event_dates": [
+                "2022-03-16"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "网页14:00刊发；会议文献拍显示上一交易日03.15，后续场景再推进03.16及以后行情。"
+        },
+        {
+          "id": "S27_b02",
+          "beat_index": 1,
+          "start_frame": 7470,
+          "end_frame_exclusive": 7620,
+          "screen_lines": [
+            "会议原文",
+            "“慎重出台收缩性政策”"
+          ],
+          "source_line": "国务院金融委专题会议｜2022.03.16",
+          "source_ids": [
+            "AR02"
+          ],
+          "historical_date": "2022-03-16",
+          "date_precision": "day",
+          "event_market_anchor": "2022-03-15",
+          "market_observation_date": "2022-03-15",
+          "market_observation_index": 2863,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "上一交易日",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "AR02",
+              "publication_date": "2022-03-16",
+              "published_at": "2022-03-16 14:00",
+              "event_dates": [
+                "2022-03-16"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "行情HUD明确标上一交易日。"
+        }
+      ]
+    },
+    {
+      "id": "S28",
+      "phase_id": "phase_06",
+      "role": "main",
+      "title": "2022阶段低点",
+      "start_frame": 7620,
+      "end_frame_exclusive": 7800,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S28_b01",
+          "beat_index": 0,
+          "start_frame": 7620,
+          "end_frame_exclusive": 7800,
+          "screen_lines": [
+            "2022.04.26",
+            "2,150.51",
+            "较2021高点 −39.65%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2022-04-26",
+          "date_precision": "day",
+          "event_market_anchor": "2022-04-26",
+          "market_observation_date": "2022-04-26",
+          "market_observation_index": 2891,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S29",
+      "phase_id": "phase_06",
+      "role": "main",
+      "title": "反弹没有被省略",
+      "start_frame": 7800,
+      "end_frame_exclusive": 7980,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S29_b01",
+          "beat_index": 0,
+          "start_frame": 7800,
+          "end_frame_exclusive": 7980,
+          "screen_lines": [
+            "2022.07.07",
+            "2,849.71",
+            "阶段反弹 +32.51%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2022-07-07",
+          "date_precision": "day",
+          "event_market_anchor": "2022-07-07",
+          "market_observation_date": "2022-07-07",
+          "market_observation_index": 2939,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S30",
+      "phase_id": "phase_06",
+      "role": "main",
+      "title": "全面注册制",
+      "start_frame": 7980,
+      "end_frame_exclusive": 8160,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S30_b01",
+          "beat_index": 0,
+          "start_frame": 7980,
+          "end_frame_exclusive": 8160,
+          "screen_lines": [
+            "2023.02.17",
+            "全面实行股票发行注册制",
+            "制度规则发布实施"
+          ],
+          "source_line": "中国证监会｜当日发布",
+          "source_ids": [
+            "AR03"
+          ],
+          "historical_date": "2023-02-17",
+          "date_precision": "day",
+          "event_market_anchor": "2023-02-17",
+          "market_observation_date": "2023-02-17",
+          "market_observation_index": 3088,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "AR03",
+              "publication_date": "2023-02-17",
+              "published_at": null,
+              "event_dates": [
+                "2023-02-17"
+              ],
+              "effective_dates": [
+                "2023-02-17"
+              ],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S31",
+      "phase_id": "phase_06",
+      "role": "main",
+      "title": "2023年度观察",
+      "start_frame": 8160,
+      "end_frame_exclusive": 8340,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S31_b01",
+          "beat_index": 0,
+          "start_frame": 8160,
+          "end_frame_exclusive": 8340,
+          "screen_lines": [
+            "2023",
+            "全年 −19.41%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2023-12-29",
+          "date_precision": "day",
+          "event_market_anchor": "2023-12-29",
+          "market_observation_date": "2023-12-29",
+          "market_observation_index": 3301,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S32",
+      "phase_id": "phase_06",
+      "role": "main",
+      "title": "调整延续到2024",
+      "start_frame": 8340,
+      "end_frame_exclusive": 8580,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S32_b01",
+          "beat_index": 0,
+          "start_frame": 8340,
+          "end_frame_exclusive": 8580,
+          "screen_lines": [
+            "2024.09.23",
+            "1,530.51",
+            "阶段低点",
+            "较2022反弹高点 −46.29%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2024-09-23",
+          "date_precision": "day",
+          "event_market_anchor": "2024-09-23",
+          "market_observation_date": "2024-09-23",
+          "market_observation_index": 3477,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 210,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S33",
+      "phase_id": "phase_07",
+      "role": "main",
+      "title": "一揽子金融政策",
+      "start_frame": 8580,
+      "end_frame_exclusive": 8820,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S33_b01",
+          "beat_index": 0,
+          "start_frame": 8580,
+          "end_frame_exclusive": 8820,
+          "screen_lines": [
+            "2024.09.24",
+            "一揽子金融政策公布"
+          ],
+          "source_line": "据提供研究；央广网次日报道",
+          "source_ids": [
+            "U:policy_2024",
+            "AR04"
+          ],
+          "historical_date": "2024-09-24",
+          "date_precision": "day",
+          "event_market_anchor": "2024-09-23",
+          "market_observation_date": "2024-09-23",
+          "market_observation_index": 3477,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "上一交易日",
+          "stable_frames_min": 210,
+          "source_date_context": [
+            {
+              "source_id": "U:policy_2024",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR04",
+              "publication_date": "2024-09-25",
+              "published_at": null,
+              "event_dates": [
+                "2024-09-24"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "晨间政策拍保留09.23上一交易日收盘；政策日09.24与AR04报道日09.25分开，不使用次日报道原题做当日截图。"
+        }
+      ]
+    },
+    {
+      "id": "S34",
+      "phase_id": "phase_07",
+      "role": "main",
+      "title": "报道中的时代语言",
+      "start_frame": 8820,
+      "end_frame_exclusive": 9090,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S34_b01",
+          "beat_index": 0,
+          "start_frame": 8820,
+          "end_frame_exclusive": 9090,
+          "screen_lines": [
+            "2024.09.25｜报道摘要",
+            "金融政策公布后",
+            "中国资产延续强势表现"
+          ],
+          "source_line": "央广网｜对象为中国资产整体",
+          "source_ids": [
+            "AR04"
+          ],
+          "historical_date": "2024-09-25",
+          "date_precision": "day",
+          "event_market_anchor": "2024-09-25",
+          "market_observation_date": "2024-09-25",
+          "market_observation_index": 3479,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 240,
+          "source_date_context": [
+            {
+              "source_id": "AR04",
+              "publication_date": "2024-09-25",
+              "published_at": null,
+              "event_dates": [
+                "2024-09-24"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "这是对AR04长原标题的编辑摘要；不加引号，不冒充逐字原标题或只谈创业板的情绪指标。"
+        }
+      ]
+    },
+    {
+      "id": "S35",
+      "phase_id": "phase_07",
+      "role": "main",
+      "title": "明确五日计算边界",
+      "start_frame": 9090,
+      "end_frame_exclusive": 9300,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S35_b01",
+          "beat_index": 0,
+          "start_frame": 9090,
+          "end_frame_exclusive": 9300,
+          "screen_lines": [
+            "09.24收盘 → 10.08收盘",
+            "其后5个交易日",
+            "+57.88%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2024-10-08",
+          "date_precision": "day",
+          "event_market_anchor": "2024-10-08",
+          "market_observation_date": "2024-10-08",
+          "market_observation_index": 3483,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 180,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "09.24为D0；10.08为T+5，不是含09.24当天的五日累计。"
+        }
+      ]
+    },
+    {
+      "id": "S36",
+      "phase_id": "phase_07",
+      "role": "main",
+      "title": "上涨阶段中的单日冲击",
+      "start_frame": 9300,
+      "end_frame_exclusive": 9480,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S36_b01",
+          "beat_index": 0,
+          "start_frame": 9300,
+          "end_frame_exclusive": 9480,
+          "screen_lines": [
+            "2025.04.07",
+            "单日 −12.50%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2025-04-07",
+          "date_precision": "day",
+          "event_market_anchor": "2025-04-07",
+          "market_observation_date": "2025-04-07",
+          "market_observation_index": 3604,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S37",
+      "phase_id": "phase_07",
+      "role": "main",
+      "title": "2025全年",
+      "start_frame": 9480,
+      "end_frame_exclusive": 9660,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S37_b01",
+          "beat_index": 0,
+          "start_frame": 9480,
+          "end_frame_exclusive": 9660,
+          "screen_lines": [
+            "2025",
+            "全年 +49.57%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2025-12-31",
+          "date_precision": "day",
+          "event_market_anchor": "2025-12-31",
+          "market_observation_date": "2025-12-31",
+          "market_observation_index": 3786,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S38",
+      "phase_id": "phase_07",
+      "role": "main",
+      "title": "再次越过2015高点",
+      "start_frame": 9660,
+      "end_frame_exclusive": 9840,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S38_b01",
+          "beat_index": 0,
+          "start_frame": 9660,
+          "end_frame_exclusive": 9840,
+          "screen_lines": [
+            "2026.05.13",
+            "4,038.33",
+            "收盘再次越过2015高点"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2026-05-13",
+          "date_precision": "day",
+          "event_market_anchor": "2026-05-13",
+          "market_observation_date": "2026-05-13",
+          "market_observation_index": 3869,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S39",
+      "phase_id": "phase_07",
+      "role": "main",
+      "title": "样本最高收盘",
+      "start_frame": 9840,
+      "end_frame_exclusive": 10080,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S39_b01",
+          "beat_index": 0,
+          "start_frame": 9840,
+          "end_frame_exclusive": 10080,
+          "screen_lines": [
+            "2026.06.25",
+            "4,371.99",
+            "样本内最高收盘",
+            "较2024低点 +185.66%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2026-06-25",
+          "date_precision": "day",
+          "event_market_anchor": "2026-06-25",
+          "market_observation_date": "2026-06-25",
+          "market_observation_index": 3899,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 210,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S40",
+      "phase_id": "phase_08",
+      "role": "main",
+      "title": "7月行情与同期表态",
+      "start_frame": 10080,
+      "end_frame_exclusive": 10680,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S40_b01",
+          "beat_index": 0,
+          "start_frame": 10080,
+          "end_frame_exclusive": 10230,
+          "screen_lines": [
+            "2026.07.17",
+            "单日 −7.15%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV",
+            "AR14"
+          ],
+          "historical_date": "2026-07-17",
+          "date_precision": "day",
+          "event_market_anchor": "2026-07-17",
+          "market_observation_date": "2026-07-17",
+          "market_observation_index": 3915,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR14",
+              "publication_date": "2026-07-28",
+              "published_at": null,
+              "event_dates": [
+                "2026-07-20",
+                "2026-07-21"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        },
+        {
+          "id": "S40_b02",
+          "beat_index": 1,
+          "start_frame": 10230,
+          "end_frame_exclusive": 10380,
+          "screen_lines": [
+            "2026.07.20—21",
+            "证监会系列座谈会"
+          ],
+          "source_line": "经济参考报稿｜山西监管局转载",
+          "source_ids": [
+            "CSV",
+            "AR14"
+          ],
+          "historical_date": "2026-07-20/2026-07-21",
+          "date_precision": "range",
+          "event_market_anchor": "2026-07-21",
+          "market_observation_date": "2026-07-21",
+          "market_observation_index": 3917,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR14",
+              "publication_date": "2026-07-28",
+              "published_at": null,
+              "event_dates": [
+                "2026-07-20",
+                "2026-07-21"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        },
+        {
+          "id": "S40_b03",
+          "beat_index": 2,
+          "start_frame": 10380,
+          "end_frame_exclusive": 10500,
+          "screen_lines": [
+            "同期报道",
+            "“主动回应市场关切”"
+          ],
+          "source_line": "经济参考报稿｜2026.07.28转载",
+          "source_ids": [
+            "CSV",
+            "AR14"
+          ],
+          "historical_date": "2026-07-28",
+          "date_precision": "day",
+          "event_market_anchor": "2026-07-28",
+          "market_observation_date": "2026-07-28",
+          "market_observation_index": 3922,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR14",
+              "publication_date": "2026-07-28",
+              "published_at": null,
+              "event_dates": [
+                "2026-07-20",
+                "2026-07-21"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "行情推进到07.28，再用当天转载文献回看07.20—21会议；非证监会一手会议稿。"
+        },
+        {
+          "id": "S40_b04",
+          "beat_index": 3,
+          "start_frame": 10500,
+          "end_frame_exclusive": 10680,
+          "screen_lines": [
+            "2026.07",
+            "单月 −23.00%",
+            "6月30日收盘 → 7月31日收盘"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV",
+            "AR14"
+          ],
+          "historical_date": "2026-07-31",
+          "date_precision": "day",
+          "event_market_anchor": "2026-07-31",
+          "market_observation_date": "2026-07-31",
+          "market_observation_index": 3925,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR14",
+              "publication_date": "2026-07-28",
+              "published_at": null,
+              "event_dates": [
+                "2026-07-20",
+                "2026-07-21"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "标准月度口径，不用7月1日作为起算。"
+        }
+      ]
+    },
+    {
+      "id": "S41",
+      "phase_id": "phase_08",
+      "role": "main",
+      "title": "年内最低收盘",
+      "start_frame": 10680,
+      "end_frame_exclusive": 10860,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S41_b01",
+          "beat_index": 0,
+          "start_frame": 10680,
+          "end_frame_exclusive": 10860,
+          "screen_lines": [
+            "2026.11.03",
+            "2,391.65",
+            "2026年最低收盘"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2026-11-03",
+          "date_precision": "day",
+          "event_market_anchor": "2026-11-03",
+          "market_observation_date": "2026-11-03",
+          "market_observation_index": 3986,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "S42",
+      "phase_id": "phase_08",
+      "role": "main",
+      "title": "11月4日：政策与行情分别陈述",
+      "start_frame": 10860,
+      "end_frame_exclusive": 11160,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S42_b01",
+          "beat_index": 0,
+          "start_frame": 10860,
+          "end_frame_exclusive": 11010,
+          "screen_lines": [
+            "2026.11.04起",
+            "回购增持再贷款利率",
+            "降至1%"
+          ],
+          "source_line": "央视网据央行消息｜当日报道",
+          "source_ids": [
+            "AR17",
+            "CSV"
+          ],
+          "historical_date": "2026-11-04",
+          "date_precision": "day",
+          "event_market_anchor": "2026-11-03",
+          "market_observation_date": "2026-11-03",
+          "market_observation_index": 3986,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "上一交易日",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "AR17",
+              "publication_date": "2026-11-04",
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [
+                "2026-11-04"
+              ],
+              "page_date": null
+            },
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "政策文献拍冻结在上一交易日11.03收盘，右上明确标“上一交易日”；不预先显示11.04尚未完成的收盘。"
+        },
+        {
+          "id": "S42_b02",
+          "beat_index": 1,
+          "start_frame": 11010,
+          "end_frame_exclusive": 11160,
+          "screen_lines": [
+            "2026.11.04",
+            "单日 +6.40%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "AR17",
+            "CSV"
+          ],
+          "historical_date": "2026-11-04",
+          "date_precision": "day",
+          "event_market_anchor": "2026-11-04",
+          "market_observation_date": "2026-11-04",
+          "market_observation_index": 3987,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "AR17",
+              "publication_date": "2026-11-04",
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [
+                "2026-11-04"
+              ],
+              "page_date": null
+            },
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "此拍再推进到11.04真实收盘；不写政策使指数上涨。"
+        }
+      ]
+    },
+    {
+      "id": "S43",
+      "phase_id": "phase_08",
+      "role": "main",
+      "title": "截止日前的媒体报道",
+      "start_frame": 11160,
+      "end_frame_exclusive": 11400,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S43_b01",
+          "beat_index": 0,
+          "start_frame": 11160,
+          "end_frame_exclusive": 11400,
+          "screen_lines": [
+            "2026.11.09｜媒体原题",
+            "稳市机制高频落子",
+            "稳市力量加速汇聚"
+          ],
+          "source_line": "证券时报稿｜中国证券业协会转载",
+          "source_ids": [
+            "AR18"
+          ],
+          "historical_date": "2026-11-09",
+          "date_precision": "day",
+          "event_market_anchor": "2026-11-09",
+          "market_observation_date": "2026-11-09",
+          "market_observation_index": 3990,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 210,
+          "source_date_context": [
+            {
+              "source_id": "AR18",
+              "publication_date": "2026-11-09",
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": "实际报道日11.09；文件名11.10不作为事件或刊发日期。"
+        }
+      ]
+    },
+    {
+      "id": "S44",
+      "phase_id": "phase_08",
+      "role": "main",
+      "title": "回到数据截止日",
+      "start_frame": 11400,
+      "end_frame_exclusive": 11640,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "S44_b01",
+          "beat_index": 0,
+          "start_frame": 11400,
+          "end_frame_exclusive": 11640,
+          "screen_lines": [
+            "2026.11.10",
+            "2,494.40",
+            "数据截止日",
+            "较样本最高收盘 −42.95%"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV"
+          ],
+          "historical_date": "2026-11-10",
+          "date_precision": "day",
+          "event_market_anchor": "2026-11-10",
+          "market_observation_date": "2026-11-10",
+          "market_observation_index": 3991,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 210,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "A01",
+      "phase_id": "ending",
+      "role": "album",
+      "title": "相册：指数诞生",
+      "start_frame": 11640,
+      "end_frame_exclusive": 11760,
+      "declared_time_jump": {
+        "kind": "declared_album_recap",
+        "from": "2026-11-10",
+        "to": "2010-06-01"
+      },
+      "beats": [
+        {
+          "id": "A01_b01",
+          "beat_index": 0,
+          "start_frame": 11640,
+          "end_frame_exclusive": 11760,
+          "screen_lines": [
+            "2010｜指数诞生",
+            "关于编制和发布创业板指数的公告"
+          ],
+          "source_line": "深交所｜文献节选重排",
+          "source_ids": [
+            "AR06"
+          ],
+          "historical_date": "2010-06-01",
+          "date_precision": "day",
+          "event_market_anchor": "2010-06-01",
+          "market_observation_date": "2010-06-01",
+          "market_observation_index": 0,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "AR06",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [
+                "2010-06-01"
+              ],
+              "effective_dates": [],
+              "page_date": "2010-06-01"
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "A02",
+      "phase_id": "ending",
+      "role": "album",
+      "title": "相册：企业的跨界记忆",
+      "start_frame": 11760,
+      "end_frame_exclusive": 11910,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "A02_b01",
+          "beat_index": 0,
+          "start_frame": 11760,
+          "end_frame_exclusive": 11910,
+          "screen_lines": [
+            "2013｜手游并购",
+            "华谊兄弟 · 银汉科技"
+          ],
+          "source_line": "本片历史题签｜据提供研究",
+          "source_ids": [
+            "U:huayi_2013",
+            "CSV"
+          ],
+          "historical_date": "2013-07",
+          "date_precision": "month",
+          "event_market_anchor": null,
+          "market_observation_date": "2013-07-31",
+          "market_observation_index": 765,
+          "market_observation_policy": "period_end_observation_not_event_day",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "U:huayi_2013",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "A03",
+      "phase_id": "ending",
+      "role": "album",
+      "title": "相册：企业登场",
+      "start_frame": 11910,
+      "end_frame_exclusive": 12060,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "A03_b01",
+          "beat_index": 0,
+          "start_frame": 11910,
+          "end_frame_exclusive": 12060,
+          "screen_lines": [
+            "2018｜企业登场",
+            "宁德时代｜2018.06.11上市"
+          ],
+          "source_line": "本片历史题签｜据提供研究",
+          "source_ids": [
+            "U:catl_listing_2018",
+            "CSV"
+          ],
+          "historical_date": "2018-06-11",
+          "date_precision": "day",
+          "event_market_anchor": "2018-06-11",
+          "market_observation_date": "2018-06-11",
+          "market_observation_index": 1950,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "U:catl_listing_2018",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "A04",
+      "phase_id": "ending",
+      "role": "album",
+      "title": "相册：注册制首批上市",
+      "start_frame": 12060,
+      "end_frame_exclusive": 12210,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "A04_b01",
+          "beat_index": 0,
+          "start_frame": 12060,
+          "end_frame_exclusive": 12210,
+          "screen_lines": [
+            "2020｜注册制首批上市",
+            "18家企业，一次新的登场"
+          ],
+          "source_line": "深交所｜文献节选重排",
+          "source_ids": [
+            "AR07"
+          ],
+          "historical_date": "2020-08-24",
+          "date_precision": "day",
+          "event_market_anchor": "2020-08-24",
+          "market_observation_date": "2020-08-24",
+          "market_observation_index": 2487,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "AR07",
+              "publication_date": "2020-08-24",
+              "published_at": null,
+              "event_dates": [
+                "2020-08-24"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "A05",
+      "phase_id": "ending",
+      "role": "album",
+      "title": "相册：制度继续变化",
+      "start_frame": 12210,
+      "end_frame_exclusive": 12360,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "A05_b01",
+          "beat_index": 0,
+          "start_frame": 12210,
+          "end_frame_exclusive": 12360,
+          "screen_lines": [
+            "2023｜全面注册制",
+            "制度规则发布实施"
+          ],
+          "source_line": "中国证监会｜文献节选重排",
+          "source_ids": [
+            "AR03"
+          ],
+          "historical_date": "2023-02-17",
+          "date_precision": "day",
+          "event_market_anchor": "2023-02-17",
+          "market_observation_date": "2023-02-17",
+          "market_observation_index": 3088,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "AR03",
+              "publication_date": "2023-02-17",
+              "published_at": null,
+              "event_dates": [
+                "2023-02-17"
+              ],
+              "effective_dates": [
+                "2023-02-17"
+              ],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "C01",
+      "phase_id": "ending",
+      "role": "closing",
+      "title": "历史收束第一屏",
+      "start_frame": 12360,
+      "end_frame_exclusive": 12510,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "C01_b01",
+          "beat_index": 0,
+          "start_frame": 12360,
+          "end_frame_exclusive": 12510,
+          "screen_lines": [
+            "十六年，3992个交易日。",
+            "企业有进有退，市场几经起落。"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV",
+            "EDIT",
+            "U:letv_delist_2020",
+            "AR07"
+          ],
+          "historical_date": null,
+          "date_precision": "day",
+          "event_market_anchor": null,
+          "market_observation_date": null,
+          "market_observation_index": null,
+          "market_observation_policy": "no_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 120,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "EDIT",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "U:letv_delist_2020",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR07",
+              "publication_date": "2020-08-24",
+              "published_at": null,
+              "event_dates": [
+                "2020-08-24"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "phase_id": "ending",
+      "role": "closing",
+      "title": "历史收束第二屏",
+      "start_frame": 12510,
+      "end_frame_exclusive": 12630,
+      "declared_time_jump": null,
+      "beats": [
+        {
+          "id": "C02_b01",
+          "beat_index": 0,
+          "start_frame": 12510,
+          "end_frame_exclusive": 12630,
+          "screen_lines": [
+            "规则在变化。",
+            "时间，继续向前。"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "EDIT",
+            "AR03",
+            "AR07"
+          ],
+          "historical_date": null,
+          "date_precision": "day",
+          "event_market_anchor": null,
+          "market_observation_date": null,
+          "market_observation_index": null,
+          "market_observation_policy": "no_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 90,
+          "source_date_context": [
+            {
+              "source_id": "EDIT",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR03",
+              "publication_date": "2023-02-17",
+              "published_at": null,
+              "event_dates": [
+                "2023-02-17"
+              ],
+              "effective_dates": [
+                "2023-02-17"
+              ],
+              "page_date": null
+            },
+            {
+              "source_id": "AR07",
+              "publication_date": "2020-08-24",
+              "published_at": null,
+              "event_dates": [
+                "2020-08-24"
+              ],
+              "effective_dates": [],
+              "page_date": null
+            }
+          ],
+          "implementation_note": ""
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "phase_id": "ending",
+      "role": "closing",
+      "title": "回到时间轨",
+      "start_frame": 12630,
+      "end_frame_exclusive": 12810,
+      "declared_time_jump": {
+        "kind": "return_from_album",
+        "to": "2026-11-10"
+      },
+      "beats": [
+        {
+          "id": "C03_b01",
+          "beat_index": 0,
+          "start_frame": 12630,
+          "end_frame_exclusive": 12810,
+          "screen_lines": [
+            "2026.11.10",
+            "创业板指 2,494.40",
+            "价格指数 · 不含分红",
+            "数据截至2026.11.10"
+          ],
+          "source_line": null,
+          "source_ids": [
+            "CSV",
+            "AR06"
+          ],
+          "historical_date": "2026-11-10",
+          "date_precision": "day",
+          "event_market_anchor": "2026-11-10",
+          "market_observation_date": "2026-11-10",
+          "market_observation_index": 3991,
+          "market_observation_policy": "explicit_market_observation",
+          "hud_label": "当日收盘",
+          "stable_frames_min": 150,
+          "source_date_context": [
+            {
+              "source_id": "CSV",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [],
+              "effective_dates": [],
+              "page_date": null
+            },
+            {
+              "source_id": "AR06",
+              "publication_date": null,
+              "published_at": null,
+              "event_dates": [
+                "2010-06-01"
+              ],
+              "effective_dates": [],
+              "page_date": "2010-06-01"
+            }
+          ],
+          "implementation_note": "后两行沿用常驻口径尾注；最终事实和尾注稳定保持，不在退出时再塞新信息。"
+        }
+      ]
+    }
+  ]
+}

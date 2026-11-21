@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WF-01A external research response",
+  "type": "object",
+  "required": ["schema_version", "period_id", "sources", "events", "unresolved"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "period_id": {"type": "string", "minLength": 1},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "publisher", "source_type", "path", "url", "published_at", "collected_at"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "title": {"type": "string", "minLength": 1},
+          "publisher": {"type": ["string", "null"]},
+          "source_type": {"enum": ["primary", "contemporary", "retrospective", "market_data", "lead"]},
+          "path": {"type": ["string", "null"], "description": "Path from repository root to a copied original"},
+          "archive_member": {"type": ["string", "null"]},
+          "sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+          "url": {"type": ["string", "null"]},
+          "published_at": {"type": ["string", "null"], "description": "ISO date or explicit-offset timestamp"},
+          "collected_at": {"type": ["string", "null"], "description": "ISO date or explicit-offset timestamp"}
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event_id", "event_date", "date_precision", "event_type", "title", "summary", "key_figures", "source_ids", "evidence"],
+        "properties": {
+          "event_id": {"type": "string", "minLength": 1},
+          "event_date": {"type": ["string", "null"]},
+          "date_precision": {"enum": ["timestamp", "day", "month", "year", "range", "unknown"]},
+          "event_type": {"enum": ["fact", "market_observation", "attributed_view", "hypothesis"]},
+          "title": {"type": "string", "minLength": 1},
+          "summary": {"type": "string", "minLength": 1},
+          "category": {"type": ["string", "null"]},
+          "attribution": {"type": ["string", "null"]},
+          "announcement_at": {"type": ["string", "null"]},
+          "publication_at": {"type": ["string", "null"]},
+          "implementation_date": {"type": ["string", "null"]},
+          "market_anchor": {"type": ["string", "null"], "description": "Explicit observation date from the project OHLC"},
+          "key_figures": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["label", "value", "unit"],
+              "properties": {
+                "label": {"type": "string"},
+                "value": {"type": ["number", "string", "boolean"]},
+                "unit": {"type": "string"}
+              }
+            }
+          },
+          "source_ids": {"type": "array", "items": {"type": "string"}},
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["source_id", "excerpt"],
+              "properties": {
+                "source_id": {"type": "string"},
+                "excerpt": {"type": "string", "minLength": 1}
+              }
+            }
+          },
+          "causal_claim": {"type": "boolean"}
+        }
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["question_id", "reason", "attempted_sources"],
+        "properties": {
+          "question_id": {"type": "string", "minLength": 1},
+          "reason": {"type": "string", "minLength": 1},
+          "attempted_sources": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}

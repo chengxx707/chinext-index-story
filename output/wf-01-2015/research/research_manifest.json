@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "workflow": "WF-01A",
+  "period_id": "2015-drawdown",
+  "generated_at": "2026-11-21T11:58:32+08:00",
+  "inputs": [
+    {
+      "path": "assets/source_documents/20261115/S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.html",
+      "sha256": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e",
+      "bytes": 29907
+    },
+    {
+      "path": "assets/source_documents/20261115/S07_证监会公告2015年18号_减持限制_2015-07-08.html",
+      "sha256": "98488925e2c92431316298b262e2c5634384187a609d105e1cd4b92287d0c600",
+      "bytes": 11760
+    },
+    {
+      "path": "assets/source_documents/20261115/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.html",
+      "sha256": "841ef82391cfe8dd079f9020c88a15c6336b88008d0805aed822d1a362791f41",
+      "bytes": 16486
+    },
+    {
+      "path": "assets/source_documents/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html",
+      "sha256": "3cd114631219630b1bb3cfaa5ccaa480ed10f44de7b8b34aa815bd0deada3a2e",
+      "bytes": 28347
+    },
+    {
+      "path": "assets/source_documents/20261115/S12_中金所_进一步加大市场管控_2015-09-02.html",
+      "sha256": "3c93c464efa39d8a1fc99e3aa0c51ba7ec3c3e0ecb109effded39881fb42ffe5",
+      "bytes": 35720
+    },
+    {
+      "path": "assets/source_documents/20261115/S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.html",
+      "sha256": "ee3b65f74ac0cb45fa38bd1b10f506027bf4163c329db3c33dd34be409aa663f",
+      "bytes": 20939
+    },
+    {
+      "path": "config/event_registry.json",
+      "sha256": "fc99e9b18b06d0df703b95d2f9d0934d2941134b8c4c57878291c77716fb7c4d",
+      "bytes": 27959
+    },
+    {
+      "path": "data/cyb_daily.csv",
+      "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+      "bytes": 360001
+    },
+    {
+      "path": "data/source_text/20261115/S02_央行_定向降准并结合下调存贷款基准利率答记者问_2015-06-27.txt",
+      "sha256": "e00e409bd8ef84109d861186a03d77a60d86eb6810bb46d152a62d3943153a85",
+      "bytes": 7659
+    },
+    {
+      "path": "data/source_text/20261115/S07_证监会公告2015年18号_减持限制_2015-07-08.txt",
+      "sha256": "375ab0fc9da2018795048829582ff9437f6a977a7884d392961d6d1979416caa",
+      "bytes": 1519
+    },
+    {
+      "path": "data/source_text/20261115/S08_F16_证监会公告2015年19号_清理整顿违法从事证券业务活动的意见.txt",
+      "sha256": "d32d71c3a9b3b030ba5ba8cce0ecb7dcc1f667a720279de6628d89d503612f67",
+      "bytes": 3790
+    },
+    {
+      "path": "data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt",
+      "sha256": "568d02d7831736a3bd7f0fc9c4bfeee5745098726e54dabbc3de563860eea71e",
+      "bytes": 2326
+    },
+    {
+      "path": "data/source_text/20261115/S12_中金所_进一步加大市场管控_2015-09-02.txt",
+      "sha256": "2230a43ad341c071e0a9675ed93246c2f7fd19753e751ebeb4bf7aa4ab2ac93e",
+      "bytes": 7650
+    },
+    {
+      "path": "data/source_text/20261115/S13_财税2015年101号_股息红利差别化个人所得税_2015-09-07.txt",
+      "sha256": "5cf95431860f9ae46b98569e18794306fd94b86641401774ca5cbbdf2edbf369",
+      "bytes": 3625
+    },
+    {
+      "path": "docs/source/events_source_20261113.md",
+      "sha256": "a7c2d2bc200fd88ba8255ff5b5df1418ed326aece83d58754334148535c973f2",
+      "bytes": 39234
+    },
+    {
+      "path": "docs/source/events_supplement_20261115.md",
+      "sha256": "b8fd35dc953130256c6004ab1edc809f308dfcd22083729c8540a7986b8a5a59",
+      "bytes": 76731
+    },
+    {
+      "path": "orchestration/workflows/research/2015_drawdown.json",
+      "sha256": "5aa4a2fada77f318c0128e5efa67fb274d49dce6a28b14cba99615a128c36a1d",
+      "bytes": 52196
+    }
+  ],
+  "outputs": [
+    {
+      "path": "period_research.json",
+      "sha256": "61c58c728bea133664556ab6e0d2e16a291499ec9203028c50c760c2e2724657",
+      "bytes": 78673
+    },
+    {
+      "path": "source_registry.json",
+      "sha256": "50ba7781bfbd56c070ce9afec32ce675621c0000a8d45a547a4e3d89e36abd81",
+      "bytes": 12104
+    },
+    {
+      "path": "evidence_report.md",
+      "sha256": "7ec04c432a405581a836fba779801f976d6a49d3f8e722bb87068dd42371e3f0",
+      "bytes": 19708
+    },
+    {
+      "path": "external_research_requests/research_request.json",
+      "sha256": "a7219bfd0826bf348c62646c0eeae7cebf57e5268b84e94dda24fff9ea1b3606",
+      "bytes": 8775
+    },
+    {
+      "path": "external_research_requests/research_request.md",
+      "sha256": "6b5eb77733dfbc3e238764f8982b606b5057e23d4176ff08b1f27599f4a7cb79",
+      "bytes": 16639
+    },
+    {
+      "path": "external_research_requests/return.schema.json",
+      "sha256": "cc3ed795a53ef19d6f8e7308e5dc296338b43690776822e8ab9841093b2b48a1",
+      "bytes": 3709
+    }
+  ],
+  "evidence_counts": {
+    "DISPUTED": 1,
+    "NEEDS_EXTERNAL_RESEARCH": 1,
+    "PARTIALLY_VERIFIED": 6,
+    "VERIFIED": 15
+  },
+  "source_count": 15,
+  "open_question_count": 8,
+  "scope": "local_source_verification_and_research_candidates",
+  "network_requests": 0,
+  "production_registry_modified": false
+}

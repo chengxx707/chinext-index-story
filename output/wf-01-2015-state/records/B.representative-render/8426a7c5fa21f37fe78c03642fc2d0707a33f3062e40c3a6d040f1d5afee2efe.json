@@ -1,0 +1,44 @@
+{
+  "task_id": "B.representative-render",
+  "lane": "B",
+  "title": "生成 2015 年主体代表段 S07–S15",
+  "dependencies": {
+    "B.component-keyframes": {
+      "input_hash": "24b85f8e719a1af0c53e5e216f58a0ba9ec25614c0ab0fff903e31445f6c7261",
+      "artifacts": [
+        "0bd7ffe78323f54b7cb2f06422357ef23572e3a41c6d0c98eb36cd050205fcc1",
+        "a9f45c62885c74e66fd72e4ee8c8c2047998cabed090c891698f8ee5402f6822",
+        "21683269433aee9ef0541eb3bfaf997af4691208bbc390cc8814196018ff4ba7",
+        "edde34168fe696b06d223d928c10671c1d0c715f4bfbb435153c82db2884c60a",
+        "2f9c7dce9fcfe20d3240163499b39bd402a9ca273c755bbcc1c2c9f150ade8a8",
+        "7297adbd377422b0ccac7bd2601097baa441540c5aaf121f9ed2f0bb664809bf",
+        "43e44d8dcf8b373419b2b1f35498f6590a19cf5c37cdcbd5177f939d2f10429a",
+        "7b355b5f48ed250be6ed2d8975e846ea39a6aabd62dafd9e6e8f4bccce754f78",
+        "8dfd6e0d3354c489eaf331b8cc37a1fe90e6e905930a0521f847658c9be646be",
+        "84d948a6d38bab3028645b3018a29dfed1874cc1a15bcd6bb8fe24a01a8218f0",
+        "d0059108012d0e5b1c0dd181b831c040c2786d3be3a7951171217212953a3c46"
+      ]
+    }
+  },
+  "input_hash": "8426a7c5fa21f37fe78c03642fc2d0707a33f3062e40c3a6d040f1d5afee2efe",
+  "adapter": "representative-render",
+  "approval_required": true,
+  "status": "BLOCKED",
+  "reason": "Human approval required for this input hash",
+  "history": [
+    {
+      "status": "PENDING",
+      "at": "2026-11-21T03:58:33.263030+00:00",
+      "reason": null
+    },
+    {
+      "status": "BLOCKED",
+      "at": "2026-11-21T03:58:33.264498+00:00",
+      "reason": "Human approval required for this input hash"
+    }
+  ],
+  "attempts": [],
+  "manifest": null,
+  "manifest_path": null,
+  "code": "approval"
+}

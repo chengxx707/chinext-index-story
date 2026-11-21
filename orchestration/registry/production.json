@@ -1,0 +1,234 @@
+[
+  {
+    "task_id": "A.production-docs",
+    "lane": "A",
+    "title": "核对冻结主表与屏幕文字稿",
+    "adapter": "production-docs",
+    "inputs": [
+      "config/production/film_master_v1.json",
+      "docs/production/全片生产主表与完整屏幕文字稿_V1.md",
+      "tools/export_production_docs.py",
+      "requirements.lock"
+    ]
+  },
+  {
+    "task_id": "A.production-check",
+    "lane": "A",
+    "title": "编译全片帧时间表并检查事实与来源",
+    "dependencies": [
+      "A.production-docs"
+    ],
+    "adapter": "production-check",
+    "inputs": [
+      "config/production/film_master_v1.json",
+      "data/cyb_daily.csv",
+      "data/research/full_film_facts_v1.json",
+      "src/chinext_v6/*.py",
+      "tools/compile_film.py",
+      "requirements.lock"
+    ],
+    "max_attempts": 2
+  },
+  {
+    "task_id": "A.archive-photos",
+    "lane": "A",
+    "title": "检查正式相册所需真实档案照片",
+    "adapter": "photo-status",
+    "inputs": [
+      "Makefile",
+      "tools/check_archive_photos.py",
+      "data/research/photo_retrieval_v2.json",
+      "src/chinext_v6/*.py",
+      "requirements.lock"
+    ]
+  },
+  {
+    "task_id": "A.album-render",
+    "lane": "A",
+    "title": "生成相册与结尾代表段 A01–C03",
+    "dependencies": [
+      "A.archive-photos",
+      "A.production-check"
+    ],
+    "adapter": "album-render",
+    "approval": true,
+    "inputs": [
+      "config/production/film_master_v1.json",
+      "data/cyb_daily.csv",
+      "data/research/photo_retrieval_v2.json",
+      "src/chinext_v6/*.py",
+      "tools/render_film.py",
+      "assets/earth_body.png",
+      "assets/earth_cinematic.png",
+      "requirements.lock",
+      "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+      "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+      "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf",
+      "/usr/share/fonts/truetype/liberation2/LiberationSans-Italic.ttf"
+    ]
+  },
+  {
+    "task_id": "B.component-keyframes",
+    "lane": "B",
+    "title": "绘制静态组件并检查文字边界",
+    "adapter": "component-keyframes",
+    "inputs": [
+      "config/production/film_master_v1.json",
+      "data/cyb_daily.csv",
+      "data/research/photo_retrieval_v2.json",
+      "src/chinext_v6/*.py",
+      "tools/preview_components.py",
+      "assets/earth_body.png",
+      "assets/earth_cinematic.png",
+      "requirements.lock",
+      "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+      "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+      "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf",
+      "/usr/share/fonts/truetype/liberation2/LiberationSans-Italic.ttf"
+    ]
+  },
+  {
+    "task_id": "B.representative-render",
+    "lane": "B",
+    "title": "生成 2015 年主体代表段 S07–S15",
+    "dependencies": [
+      "B.component-keyframes"
+    ],
+    "adapter": "representative-render",
+    "approval": true,
+    "inputs": [
+      "config/production/film_master_v1.json",
+      "data/cyb_daily.csv",
+      "data/research/photo_retrieval_v2.json",
+      "src/chinext_v6/*.py",
+      "tools/render_film.py",
+      "assets/earth_body.png",
+      "assets/earth_cinematic.png",
+      "requirements.lock",
+      "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+      "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+      "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf",
+      "/usr/share/fonts/truetype/liberation2/LiberationSans-Italic.ttf"
+    ]
+  },
+  {
+    "task_id": "B.representative-review",
+    "lane": "B",
+    "title": "用户集中观看 2015 主体代表段",
+    "dependencies": [
+      "B.representative-render"
+    ],
+    "approval": true
+  },
+  {
+    "task_id": "A.full-preview",
+    "lane": "A",
+    "title": "全片编排粗预演（允许明确标记的照片占位）",
+    "dependencies": [
+      "A.production-check"
+    ],
+    "adapter": "full-timing-preview",
+    "inputs": [
+      "orchestration/workflows/__main__.py",
+      "orchestration/workflows/preview.py",
+      "orchestration/workflows/preview.html"
+    ]
+  },
+  {
+    "task_id": "A.full-preview-render",
+    "lane": "A",
+    "title": "全片低分辨率画面预演",
+    "dependencies": [
+      "A.full-preview"
+    ],
+    "unavailable": "现有渲染器支持 S07–S15、A01–C03 或 H04，尚无完整画面预演入口。"
+  },
+  {
+    "task_id": "A.full-content-review",
+    "lane": "A",
+    "title": "用户批准全片正式内容与屏幕文字",
+    "dependencies": [
+      "A.production-check"
+    ],
+    "approval": true
+  },
+  {
+    "task_id": "A.full-render",
+    "lane": "A",
+    "title": "目标规格全片渲染与装配",
+    "dependencies": [
+      "A.full-preview-render",
+      "A.album-render",
+      "B.representative-review",
+      "A.full-content-review"
+    ],
+    "approval": true,
+    "unavailable": "全片目标规格渲染与装配入口尚未实现。需检查全片内容、正式档案照片、画面与最终批准"
+  },
+  {
+    "task_id": "A.final-review",
+    "lane": "A",
+    "title": "用户集中审阅完整成片",
+    "dependencies": [
+      "A.full-render"
+    ],
+    "approval": true
+  },
+  {
+    "task_id": "A.2015-research",
+    "lane": "A",
+    "title": "WF-01A · 2015 归档研究与证据核验",
+    "adapter": "wf01-research",
+    "max_attempts": 2,
+    "inputs": [
+      "orchestration/workflows/*.py",
+      "orchestration/workflows/research/**/*.py",
+      "orchestration/workflows/research/**/*.json",
+      "orchestration/workflows/research/**/*.md",
+      "orchestration/workflows/schemas/*.schema.json",
+      "config/event_registry.json",
+      "config/production/film_master_v1.json",
+      "data/cyb_daily.csv",
+      "requirements.lock",
+      "/usr/bin/pdftotext"
+    ]
+  },
+  {
+    "task_id": "A.2015-story",
+    "lane": "A",
+    "title": "WF-01B · 2015 行情叙事与导演候选",
+    "dependencies": [
+      "A.2015-research"
+    ],
+    "adapter": "wf01-content",
+    "inputs": [
+      "orchestration/workflows/*.py",
+      "orchestration/workflows/content/**/*.py",
+      "orchestration/workflows/content/**/*.json",
+      "orchestration/workflows/content/**/*.md",
+      "orchestration/workflows/schemas/*.schema.json",
+      "data/cyb_daily.csv",
+      "config/event_registry.json",
+      "config/production/film_master_v1.json",
+      "src/chinext_v6/*.py",
+      "docs/PRODUCTION_SPEC.md",
+      "docs/QUALITY_GATES.md",
+      "requirements.lock",
+      "tools/validate_project.py"
+    ]
+  },
+  {
+    "task_id": "A.2015-master-adoption",
+    "lane": "A",
+    "title": "批准 2015 内容候选进入正式主表评估",
+    "dependencies": [
+      "A.2015-story"
+    ],
+    "approval": true,
+    "inputs": [
+      "config/production/film_master_v1.json",
+      "config/event_registry.json",
+      "docs/PRODUCTION_SPEC.md"
+    ]
+  }
+]

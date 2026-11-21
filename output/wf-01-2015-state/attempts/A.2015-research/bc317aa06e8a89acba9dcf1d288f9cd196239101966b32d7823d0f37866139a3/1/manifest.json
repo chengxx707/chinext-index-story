@@ -1,0 +1,48 @@
+{
+  "task_id": "A.2015-research",
+  "input_hash": "bc317aa06e8a89acba9dcf1d288f9cd196239101966b32d7823d0f37866139a3",
+  "attempt": 1,
+  "artifacts": [
+    {
+      "path": "attempts/A.2015-research/bc317aa06e8a89acba9dcf1d288f9cd196239101966b32d7823d0f37866139a3/1/command.log",
+      "sha256": "8ddc7f4db9ac538d09ef565f34838185d90b99bcfb5bcc848f23cddfc4efca91",
+      "bytes": 284
+    },
+    {
+      "path": "attempts/A.2015-research/bc317aa06e8a89acba9dcf1d288f9cd196239101966b32d7823d0f37866139a3/1/evidence_report.md",
+      "sha256": "7ec04c432a405581a836fba779801f976d6a49d3f8e722bb87068dd42371e3f0",
+      "bytes": 19708
+    },
+    {
+      "path": "attempts/A.2015-research/bc317aa06e8a89acba9dcf1d288f9cd196239101966b32d7823d0f37866139a3/1/external_research_requests/research_request.json",
+      "sha256": "a7219bfd0826bf348c62646c0eeae7cebf57e5268b84e94dda24fff9ea1b3606",
+      "bytes": 8775
+    },
+    {
+      "path": "attempts/A.2015-research/bc317aa06e8a89acba9dcf1d288f9cd196239101966b32d7823d0f37866139a3/1/external_research_requests/research_request.md",
+      "sha256": "6b5eb77733dfbc3e238764f8982b606b5057e23d4176ff08b1f27599f4a7cb79",
+      "bytes": 16639
+    },
+    {
+      "path": "attempts/A.2015-research/bc317aa06e8a89acba9dcf1d288f9cd196239101966b32d7823d0f37866139a3/1/external_research_requests/return.schema.json",
+      "sha256": "cc3ed795a53ef19d6f8e7308e5dc296338b43690776822e8ab9841093b2b48a1",
+      "bytes": 3709
+    },
+    {
+      "path": "attempts/A.2015-research/bc317aa06e8a89acba9dcf1d288f9cd196239101966b32d7823d0f37866139a3/1/period_research.json",
+      "sha256": "61c58c728bea133664556ab6e0d2e16a291499ec9203028c50c760c2e2724657",
+      "bytes": 78673
+    },
+    {
+      "path": "attempts/A.2015-research/bc317aa06e8a89acba9dcf1d288f9cd196239101966b32d7823d0f37866139a3/1/research_manifest.json",
+      "sha256": "8a2b7461befa9448ee26e7865a88668892f99d2c9a01b3ae4fd50f2d3aa889da",
+      "bytes": 5228
+    },
+    {
+      "path": "attempts/A.2015-research/bc317aa06e8a89acba9dcf1d288f9cd196239101966b32d7823d0f37866139a3/1/source_registry.json",
+      "sha256": "50ba7781bfbd56c070ce9afec32ce675621c0000a8d45a547a4e3d89e36abd81",
+      "bytes": 12104
+    }
+  ],
+  "approval": null
+}

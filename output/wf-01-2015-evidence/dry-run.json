@@ -1,0 +1,242 @@
+{
+  "mode": "dry_run",
+  "executed": false,
+  "tasks": [
+    {
+      "task_id": "A.production-docs",
+      "lane": "A",
+      "title": "核对冻结主表与屏幕文字稿",
+      "dependencies": {},
+      "input_hash": "c80937f9563b4c73fd957d3fef8850c4be797f2e894844a8c34f6b1dfbc38133",
+      "adapter": "production-docs",
+      "approval_required": false,
+      "status": "READY",
+      "reason": null
+    },
+    {
+      "task_id": "A.archive-photos",
+      "lane": "A",
+      "title": "检查正式相册所需真实档案照片",
+      "dependencies": {},
+      "input_hash": "623ba6f7e2395dc4f1db8df3e2b39ca67ef561bf88349339efdfbed1ba83f0d8",
+      "adapter": "photo-status",
+      "approval_required": false,
+      "status": "READY",
+      "reason": null
+    },
+    {
+      "task_id": "B.component-keyframes",
+      "lane": "B",
+      "title": "绘制静态组件并检查文字边界",
+      "dependencies": {},
+      "input_hash": "24b85f8e719a1af0c53e5e216f58a0ba9ec25614c0ab0fff903e31445f6c7261",
+      "adapter": "component-keyframes",
+      "approval_required": false,
+      "status": "READY",
+      "reason": null
+    },
+    {
+      "task_id": "A.2015-research",
+      "lane": "A",
+      "title": "WF-01A · 2015 归档研究与证据核验",
+      "dependencies": {},
+      "input_hash": "bc317aa06e8a89acba9dcf1d288f9cd196239101966b32d7823d0f37866139a3",
+      "adapter": "wf01-research",
+      "approval_required": false,
+      "status": "READY",
+      "reason": null
+    },
+    {
+      "task_id": "A.production-check",
+      "lane": "A",
+      "title": "编译全片帧时间表并检查事实与来源",
+      "dependencies": {
+        "A.production-docs": {
+          "input_hash": "c80937f9563b4c73fd957d3fef8850c4be797f2e894844a8c34f6b1dfbc38133",
+          "artifacts": null
+        }
+      },
+      "input_hash": "5f9b1895ddcd928e4b811bc4c6c7dda964689a92549026412ed37d4019d8fdb9",
+      "adapter": "production-check",
+      "approval_required": false,
+      "status": "BLOCKED",
+      "reason": "Prerequisites have not passed: A.production-docs (READY)"
+    },
+    {
+      "task_id": "B.representative-render",
+      "lane": "B",
+      "title": "生成 2015 年主体代表段 S07–S15",
+      "dependencies": {
+        "B.component-keyframes": {
+          "input_hash": "24b85f8e719a1af0c53e5e216f58a0ba9ec25614c0ab0fff903e31445f6c7261",
+          "artifacts": null
+        }
+      },
+      "input_hash": "39e9faa6746102fe04a1adac22f9583e127316f4b104ffc39db388d637b56da4",
+      "adapter": "representative-render",
+      "approval_required": true,
+      "status": "BLOCKED",
+      "reason": "Prerequisites have not passed: B.component-keyframes (READY)"
+    },
+    {
+      "task_id": "A.2015-story",
+      "lane": "A",
+      "title": "WF-01B · 2015 行情叙事与导演候选",
+      "dependencies": {
+        "A.2015-research": {
+          "input_hash": "bc317aa06e8a89acba9dcf1d288f9cd196239101966b32d7823d0f37866139a3",
+          "artifacts": null
+        }
+      },
+      "input_hash": "4a9404245d5708c7aeaadfc059af9421e7e97c05772e59c3e5e9e9e1aa0c77ef",
+      "adapter": "wf01-content",
+      "approval_required": false,
+      "status": "BLOCKED",
+      "reason": "Prerequisites have not passed: A.2015-research (READY)"
+    },
+    {
+      "task_id": "A.album-render",
+      "lane": "A",
+      "title": "生成相册与结尾代表段 A01–C03",
+      "dependencies": {
+        "A.archive-photos": {
+          "input_hash": "623ba6f7e2395dc4f1db8df3e2b39ca67ef561bf88349339efdfbed1ba83f0d8",
+          "artifacts": null
+        },
+        "A.production-check": {
+          "input_hash": "5f9b1895ddcd928e4b811bc4c6c7dda964689a92549026412ed37d4019d8fdb9",
+          "artifacts": null
+        }
+      },
+      "input_hash": "1938519dfc7eb32547e58be9e316d2d2d7ca9482ff34e6da86cc88fdb75f9bc0",
+      "adapter": "album-render",
+      "approval_required": true,
+      "status": "BLOCKED",
+      "reason": "Prerequisites have not passed: A.archive-photos (READY), A.production-check (BLOCKED)"
+    },
+    {
+      "task_id": "A.full-preview",
+      "lane": "A",
+      "title": "全片编排粗预演（允许明确标记的照片占位）",
+      "dependencies": {
+        "A.production-check": {
+          "input_hash": "5f9b1895ddcd928e4b811bc4c6c7dda964689a92549026412ed37d4019d8fdb9",
+          "artifacts": null
+        }
+      },
+      "input_hash": "3c554a6bde62cc6a39e3e0f3dbc937dfda8b8757604089f6347f5e109e31db14",
+      "adapter": "full-timing-preview",
+      "approval_required": false,
+      "status": "BLOCKED",
+      "reason": "Prerequisites have not passed: A.production-check (BLOCKED)"
+    },
+    {
+      "task_id": "A.full-content-review",
+      "lane": "A",
+      "title": "用户批准全片正式内容与屏幕文字",
+      "dependencies": {
+        "A.production-check": {
+          "input_hash": "5f9b1895ddcd928e4b811bc4c6c7dda964689a92549026412ed37d4019d8fdb9",
+          "artifacts": null
+        }
+      },
+      "input_hash": "bce264b693e22652777f94c23a69ebd1037ad5e4766007b0f277990e629242b4",
+      "adapter": null,
+      "approval_required": true,
+      "status": "BLOCKED",
+      "reason": "Prerequisites have not passed: A.production-check (BLOCKED)"
+    },
+    {
+      "task_id": "B.representative-review",
+      "lane": "B",
+      "title": "用户集中观看 2015 主体代表段",
+      "dependencies": {
+        "B.representative-render": {
+          "input_hash": "39e9faa6746102fe04a1adac22f9583e127316f4b104ffc39db388d637b56da4",
+          "artifacts": null
+        }
+      },
+      "input_hash": "f9a10d6c23f26ae69cc6e04fc7a55cdf7e90c23dc2ac5ead0173f0179269e73b",
+      "adapter": null,
+      "approval_required": true,
+      "status": "BLOCKED",
+      "reason": "Prerequisites have not passed: B.representative-render (BLOCKED)"
+    },
+    {
+      "task_id": "A.2015-master-adoption",
+      "lane": "A",
+      "title": "批准 2015 内容候选进入正式主表评估",
+      "dependencies": {
+        "A.2015-story": {
+          "input_hash": "4a9404245d5708c7aeaadfc059af9421e7e97c05772e59c3e5e9e9e1aa0c77ef",
+          "artifacts": null
+        }
+      },
+      "input_hash": "a036c1f879bee5c7f4163c714aba838738e08b658f905c43a236e12b1225a33e",
+      "adapter": null,
+      "approval_required": true,
+      "status": "BLOCKED",
+      "reason": "Prerequisites have not passed: A.2015-story (BLOCKED)"
+    },
+    {
+      "task_id": "A.full-preview-render",
+      "lane": "A",
+      "title": "全片低分辨率画面预演",
+      "dependencies": {
+        "A.full-preview": {
+          "input_hash": "3c554a6bde62cc6a39e3e0f3dbc937dfda8b8757604089f6347f5e109e31db14",
+          "artifacts": null
+        }
+      },
+      "input_hash": "8e9ac04280cea51b296131a5f697f85c48068ede516f2e3bf44b5b33578d3703",
+      "adapter": null,
+      "approval_required": false,
+      "status": "BLOCKED",
+      "reason": "现有渲染器支持 S07–S15、A01–C03 或 H04，尚无完整画面预演入口。。Prerequisites have not passed: A.full-preview (BLOCKED)"
+    },
+    {
+      "task_id": "A.full-render",
+      "lane": "A",
+      "title": "目标规格全片渲染与装配",
+      "dependencies": {
+        "A.full-preview-render": {
+          "input_hash": "8e9ac04280cea51b296131a5f697f85c48068ede516f2e3bf44b5b33578d3703",
+          "artifacts": null
+        },
+        "A.album-render": {
+          "input_hash": "1938519dfc7eb32547e58be9e316d2d2d7ca9482ff34e6da86cc88fdb75f9bc0",
+          "artifacts": null
+        },
+        "B.representative-review": {
+          "input_hash": "f9a10d6c23f26ae69cc6e04fc7a55cdf7e90c23dc2ac5ead0173f0179269e73b",
+          "artifacts": null
+        },
+        "A.full-content-review": {
+          "input_hash": "bce264b693e22652777f94c23a69ebd1037ad5e4766007b0f277990e629242b4",
+          "artifacts": null
+        }
+      },
+      "input_hash": "f78301106d636bf3721c2675b025dbe75ad28976994ea03f6913b8673ac437c2",
+      "adapter": null,
+      "approval_required": true,
+      "status": "BLOCKED",
+      "reason": "全片目标规格渲染与装配入口尚未实现。需检查全片内容、正式档案照片、画面与最终批准。Prerequisites have not passed: A.full-preview-render (BLOCKED), A.album-render (BLOCKED), B.representative-review (BLOCKED), A.full-content-review (BLOCKED)"
+    },
+    {
+      "task_id": "A.final-review",
+      "lane": "A",
+      "title": "用户集中审阅完整成片",
+      "dependencies": {
+        "A.full-render": {
+          "input_hash": "f78301106d636bf3721c2675b025dbe75ad28976994ea03f6913b8673ac437c2",
+          "artifacts": null
+        }
+      },
+      "input_hash": "a27fa5ab2c909c113c1353b6bf9b9e6e0fc3fe4f27b93f796fbe653056c4a338",
+      "adapter": null,
+      "approval_required": true,
+      "status": "BLOCKED",
+      "reason": "Prerequisites have not passed: A.full-render (BLOCKED)"
+    }
+  ]
+}

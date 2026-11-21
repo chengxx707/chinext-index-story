@@ -1,0 +1,325 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "market_period",
+  "description": "使用冻结 OHLC 计算的真实行情区间。",
+  "type": "object",
+  "required": [
+    "period_id",
+    "title",
+    "market_source",
+    "start_date",
+    "end_date",
+    "first_trading_day",
+    "last_trading_day",
+    "calendar_days_inclusive",
+    "trading_days",
+    "highest_close",
+    "lowest_close",
+    "intraday_high",
+    "intraday_low",
+    "start_close",
+    "end_close",
+    "return_basis",
+    "period_return_percent",
+    "close_to_close_return_percent",
+    "max_drawdown",
+    "daily_volatility_percent",
+    "range_amplitude_percent",
+    "full_down_gap_dates",
+    "volume"
+  ],
+  "properties": {
+    "period_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "market_source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "start_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "end_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "first_trading_day": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "last_trading_day": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "calendar_days_inclusive": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "trading_days": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "highest_close": {
+      "type": "object",
+      "required": [
+        "date",
+        "value"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "lowest_close": {
+      "type": "object",
+      "required": [
+        "date",
+        "value"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "intraday_high": {
+      "type": "object",
+      "required": [
+        "date",
+        "value"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "intraday_low": {
+      "type": "object",
+      "required": [
+        "date",
+        "value"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "start_close": {
+      "type": "object",
+      "required": [
+        "date",
+        "value"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "end_close": {
+      "type": "object",
+      "required": [
+        "date",
+        "value"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "return_basis": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "date",
+        "value"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "period_return_percent": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "close_to_close_return_percent": {
+      "type": "number"
+    },
+    "max_drawdown": {
+      "type": "object",
+      "required": [
+        "peak",
+        "trough",
+        "percent"
+      ],
+      "properties": {
+        "peak": {
+          "type": "object",
+          "required": [
+            "date",
+            "value"
+          ],
+          "properties": {
+            "date": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "value": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          },
+          "additionalProperties": false
+        },
+        "trough": {
+          "type": "object",
+          "required": [
+            "date",
+            "value"
+          ],
+          "properties": {
+            "date": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "value": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          },
+          "additionalProperties": false
+        },
+        "percent": {
+          "type": "number",
+          "maximum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "daily_volatility_percent": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "range_amplitude_percent": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "full_down_gap_dates": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "uniqueItems": true
+    },
+    "volume": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "source_column",
+        "unit",
+        "observed_trading_days",
+        "total",
+        "average_per_trading_day"
+      ],
+      "properties": {
+        "source_column": {
+          "type": "string",
+          "enum": [
+            "volume"
+          ]
+        },
+        "unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed_trading_days": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "total": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "average_per_trading_day": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

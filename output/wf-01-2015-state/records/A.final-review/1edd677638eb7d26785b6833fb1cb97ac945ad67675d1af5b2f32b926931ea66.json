@@ -1,0 +1,32 @@
+{
+  "task_id": "A.final-review",
+  "lane": "A",
+  "title": "用户集中审阅完整成片",
+  "dependencies": {
+    "A.full-render": {
+      "input_hash": "f6cc9ea8c4e966003b7bb0c0e7b7b2f1b179692b05657c962eea3737946cb9f2",
+      "artifacts": null
+    }
+  },
+  "input_hash": "1edd677638eb7d26785b6833fb1cb97ac945ad67675d1af5b2f32b926931ea66",
+  "adapter": null,
+  "approval_required": true,
+  "status": "BLOCKED",
+  "reason": "Prerequisites have not passed: A.full-render (BLOCKED)",
+  "history": [
+    {
+      "status": "PENDING",
+      "at": "2026-11-21T03:58:33.270561+00:00",
+      "reason": null
+    },
+    {
+      "status": "BLOCKED",
+      "at": "2026-11-21T03:58:33.271856+00:00",
+      "reason": "Prerequisites have not passed: A.full-render (BLOCKED)"
+    }
+  ],
+  "attempts": [],
+  "manifest": null,
+  "manifest_path": null,
+  "code": "dependencies"
+}

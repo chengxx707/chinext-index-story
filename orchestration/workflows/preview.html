@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>创业板指数 · 全片编排粗预演</title>
+<style>
+  :root { color-scheme: dark; font: 16px/1.5 system-ui, sans-serif; }
+  body { margin: 24px auto; padding: 0 16px; max-width: 620px; background: #11161d; color: #edf1f4; }
+  h1 { font-size: 1.3rem; font-weight: 650; }
+  button { padding: 6px 18px; }
+  input { width: 100%; }
+  small, #context { color: #b8c4ce; }
+  #stage { min-height: 12em; padding: 16px; margin: 20px 0; background: #1c2530; }
+  #copy { font-size: 1.25rem; white-space: pre-wrap; }
+  #placeholder { padding: 12px; border: 1px dashed #deb877; color: #ffdb99; }
+</style>
+<h1>全片编排粗预演</h1>
+<small>按编译时间轴播放文案和观察日。画面、镜头运动及阅读效果待实际渲染验证。</small>
+<section id="stage" aria-label="当前节拍">
+  <p id="context"></p>
+  <p id="placeholder" hidden></p>
+  <p id="copy"></p>
+  <p id="source"></p>
+</section>
+<button id="play">播放</button> <output id="clock" for="scrubber"></output>
+<label for="scrubber">时间位置</label>
+<input id="scrubber" type="range" min="0" step="1" value="0">
+<script>
+  const data = /* PREVIEW_DATA */;
+  const scrubber = document.getElementById('scrubber');
+  const play = document.getElementById('play');
+  scrubber.max = data.frame_count - 1;
+  let start = null;
+  let startFrame = 0;
+  function render() {
+    const frame = Number(scrubber.value);
+    const beat = data.beats.find(item => frame < item.end_frame_exclusive);
+    document.getElementById('context').textContent =
+      beat.scene_id + ' · ' + beat.title + ' · 行情观察日 ' + (beat.market_observation_date || '—');
+    const placeholder = document.getElementById('placeholder');
+    placeholder.hidden = !beat.placeholder;
+    placeholder.textContent = beat.placeholder ?? '';
+    document.getElementById('copy').textContent = beat.screen_lines.join('\n');
+    document.getElementById('source').textContent = beat.source_line ?? '';
+    document.getElementById('clock').textContent = (frame / data.fps).toFixed(1) + ' / ' + data.duration_seconds + ' 秒';
+  }
+  function tick(time) {
+    if (start === null) return;
+    scrubber.value = Math.min(Number(scrubber.max), startFrame + Math.floor((time - start) * data.fps / 1000));
+    render();
+    if (scrubber.value === scrubber.max) {
+      start = null;
+      play.textContent = '播放';
+    } else {
+      requestAnimationFrame(tick);
+    }
+  }
+  play.addEventListener('click', () => {
+    if (start !== null) {
+      start = null;
+      play.textContent = '播放';
+      return;
+    }
+    if (scrubber.value === scrubber.max) scrubber.value = 0;
+    startFrame = Number(scrubber.value);
+    start = performance.now();
+    play.textContent = '暂停';
+    requestAnimationFrame(tick);
+  });
+  scrubber.addEventListener('input', () => {
+    if (start !== null) {
+      startFrame = Number(scrubber.value);
+      start = performance.now();
+    }
+    render();
+  });
+  render();
+</script>
+</html>

@@ -1,0 +1,33 @@
+{
+  "task_id": "A.2015-story",
+  "input_hash": "d1d496889fe9d1be2a93e85dc8c47c2fc11f672a39de97ff1d1c9e9482900128",
+  "attempt": 1,
+  "artifacts": [
+    {
+      "path": "attempts/A.2015-story/d1d496889fe9d1be2a93e85dc8c47c2fc11f672a39de97ff1d1c9e9482900128/1/candidate/period_production.json",
+      "sha256": "ec201b1422636d52e28c1d5a18449bc3270f1299dd369706348724a30e0e3f0a",
+      "bytes": 33042
+    },
+    {
+      "path": "attempts/A.2015-story/d1d496889fe9d1be2a93e85dc8c47c2fc11f672a39de97ff1d1c9e9482900128/1/candidate/period_screen_copy.md",
+      "sha256": "de65449c61acba1232810a8dd051079e07d6a4bcc6e68d696ae736e72b19fbc8",
+      "bytes": 4924
+    },
+    {
+      "path": "attempts/A.2015-story/d1d496889fe9d1be2a93e85dc8c47c2fc11f672a39de97ff1d1c9e9482900128/1/candidate/period_storyboard.json",
+      "sha256": "c99f2cc160b6ccd0904651c96c079cde06a357dfdff4088305569201bf94ec80",
+      "bytes": 96579
+    },
+    {
+      "path": "attempts/A.2015-story/d1d496889fe9d1be2a93e85dc8c47c2fc11f672a39de97ff1d1c9e9482900128/1/candidate/story_audit.md",
+      "sha256": "1bf87cb6518d2cdcab444e8779e84ca840d6324ef395c12de3507f51e4158f06",
+      "bytes": 4004
+    },
+    {
+      "path": "attempts/A.2015-story/d1d496889fe9d1be2a93e85dc8c47c2fc11f672a39de97ff1d1c9e9482900128/1/command.log",
+      "sha256": "6c1897e7cf3bd56b0454573fc3e5b3a13a54450e2e4bda8ed0999e37603e918c",
+      "bytes": 131
+    }
+  ],
+  "approval": null
+}

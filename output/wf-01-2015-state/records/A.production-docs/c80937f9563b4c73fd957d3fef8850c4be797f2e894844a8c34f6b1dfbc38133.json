@@ -1,0 +1,70 @@
+{
+  "task_id": "A.production-docs",
+  "lane": "A",
+  "title": "核对冻结主表与屏幕文字稿",
+  "dependencies": {},
+  "input_hash": "c80937f9563b4c73fd957d3fef8850c4be797f2e894844a8c34f6b1dfbc38133",
+  "adapter": "production-docs",
+  "approval_required": false,
+  "status": "PASSED",
+  "reason": null,
+  "history": [
+    {
+      "status": "PENDING",
+      "at": "2026-11-21T03:58:31.297381+00:00",
+      "reason": null
+    },
+    {
+      "status": "READY",
+      "at": "2026-11-21T03:58:31.300419+00:00",
+      "reason": null
+    },
+    {
+      "status": "RUNNING",
+      "at": "2026-11-21T03:58:31.301542+00:00",
+      "reason": null
+    },
+    {
+      "status": "VALIDATING",
+      "at": "2026-11-21T03:58:31.422275+00:00",
+      "reason": null
+    },
+    {
+      "status": "PASSED",
+      "at": "2026-11-21T03:58:31.433292+00:00",
+      "reason": null
+    }
+  ],
+  "attempts": [
+    {
+      "number": 1,
+      "status": "PASSED",
+      "started_at": "2026-11-21T03:58:31.301529+00:00",
+      "finished_at": "2026-11-21T03:58:31.433268+00:00",
+      "exit_code": 0,
+      "error": null,
+      "command": [
+        "/workspace/chinext-index-story/.venv/bin/python",
+        "tools/export_production_docs.py",
+        "--check"
+      ],
+      "log": "attempts/A.production-docs/c80937f9563b4c73fd957d3fef8850c4be797f2e894844a8c34f6b1dfbc38133/1/command.log",
+      "manifest_path": "attempts/A.production-docs/c80937f9563b4c73fd957d3fef8850c4be797f2e894844a8c34f6b1dfbc38133/1/manifest.json"
+    }
+  ],
+  "manifest": {
+    "task_id": "A.production-docs",
+    "input_hash": "c80937f9563b4c73fd957d3fef8850c4be797f2e894844a8c34f6b1dfbc38133",
+    "attempt": 1,
+    "artifacts": [
+      {
+        "path": "attempts/A.production-docs/c80937f9563b4c73fd957d3fef8850c4be797f2e894844a8c34f6b1dfbc38133/1/command.log",
+        "sha256": "a06ba27fa0c053675fdddae8e17a729b4c307d39acdcca3a6ac20fd49b5274d1",
+        "bytes": 332
+      }
+    ],
+    "approval": null
+  },
+  "manifest_path": "attempts/A.production-docs/c80937f9563b4c73fd957d3fef8850c4be797f2e894844a8c34f6b1dfbc38133/1/manifest.json",
+  "code": null
+}
