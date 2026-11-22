@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "proposal_id": "INTEGRATION-2015-V1.0.1",
+  "created_at": "2026-11-22T15:41:23+08:00",
+  "status": "PROPOSAL_NOT_ADOPTED",
+  "renderer_consumable": false,
+  "do_not_import_as_production_master": true,
+  "requires_new_user_approval_to_prepare": false,
+  "candidate_version_unchanged": "1.0.1",
+  "candidate_commit": "c313edfa7959dfc6e9c56badfd3f662ae7fe01b4",
+  "frozen_master_path": "config/production/film_master_v1.json",
+  "frozen_master_sha256": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+  "candidate_manifest_sha256": "1be7273db7a0c2be9159a9933af6c857a087691bb3951a21f1883c3f1b19d4a4",
+  "source_market_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "priority": "Codex first imports and previews the unchanged 167-second candidate; this mapping must not block that work.",
+  "legacy_replaced_nodes": [
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15"
+  ],
+  "legacy_replaced_span_seconds": [
+    68,
+    165
+  ],
+  "legacy_duration_seconds": 97,
+  "legacy_beat_count": 18,
+  "mapping": [
+    {
+      "legacy_node": "S07",
+      "legacy_start_seconds": 68,
+      "legacy_duration_seconds": 12,
+      "legacy_historical_period": "2014.01—2015.04.24",
+      "candidate_shots": [
+        "GPT2015-01",
+        "GPT2015-02",
+        "GPT2015-03"
+      ],
+      "candidate_duration_seconds": 17.0,
+      "editorial_action": "REPLACE_WITH_ENTRY_BRIDGE",
+      "rationale": "保留制度与开户统计；另续接2014至2015春季行情，报道锚改为4月28日盘后。"
+    },
+    {
+      "legacy_node": "S08",
+      "legacy_start_seconds": 80,
+      "legacy_duration_seconds": 5,
+      "legacy_historical_period": "2015.05",
+      "candidate_shots": [
+        "GPT2015-04"
+      ],
+      "candidate_duration_seconds": 7.0,
+      "editorial_action": "REPLACE_WITH_CORRECTED_CLAIM",
+      "rationale": "改用5月13日收盘总市值超过1500亿元，不恢复旧盘中1600亿。"
+    },
+    {
+      "legacy_node": "S09",
+      "legacy_start_seconds": 85,
+      "legacy_duration_seconds": 8,
+      "legacy_historical_period": "2012.12.03—2015.06.03",
+      "candidate_shots": [
+        "GPT2015-05"
+      ],
+      "candidate_duration_seconds": 8.0,
+      "editorial_action": "RETAIN_CORE_ANCHOR",
+      "rationale": "最高收盘3982.25保留；2012基准涨幅由单活动轨承载。"
+    },
+    {
+      "legacy_node": "S10",
+      "legacy_start_seconds": 93,
+      "legacy_duration_seconds": 8,
+      "legacy_historical_period": "2015.06.03—2015.06.19",
+      "candidate_shots": [
+        "GPT2015-06",
+        "GPT2015-07",
+        "GPT2015-08",
+        "GPT2015-09"
+      ],
+      "candidate_duration_seconds": 23.0,
+      "editorial_action": "EXPAND_AND_REFRAME",
+      "rationale": "增加盘中高点、监管与定性杠杆背景，终点到6月26日；旧6月12、19日大字回撤不重复保留。"
+    },
+    {
+      "legacy_node": "S11",
+      "legacy_start_seconds": 101,
+      "legacy_duration_seconds": 20,
+      "legacy_historical_period": "2015.06.27—2015.07.12",
+      "candidate_shots": [
+        "GPT2015-10",
+        "GPT2015-11",
+        "GPT2015-12",
+        "GPT2015-13",
+        "GPT2015-14"
+      ],
+      "candidate_duration_seconds": 32.0,
+      "editorial_action": "RESELECT_POLICY_BEATS",
+      "rationale": "保留6月27日与7月12日；加入券商承诺、证金支持、中小市值措施；减持限制及旧引语本候选不采用。"
+    },
+    {
+      "legacy_node": "S12",
+      "legacy_start_seconds": 121,
+      "legacy_duration_seconds": 6,
+      "legacy_historical_period": "2015.07.07—2015.07.23",
+      "candidate_shots": [
+        "GPT2015-15"
+      ],
+      "candidate_duration_seconds": 7.0,
+      "editorial_action": "RETAIN_CORE_ANCHOR",
+      "rationale": "保留7月7日至23日反弹及回撤轨回退。"
+    },
+    {
+      "legacy_node": "S13",
+      "legacy_start_seconds": 127,
+      "legacy_duration_seconds": 19,
+      "legacy_historical_period": "2015.08.21—2015.08.26",
+      "candidate_shots": [
+        "GPT2015-18",
+        "GPT2015-19",
+        "GPT2015-20",
+        "GPT2015-21",
+        "GPT2015-22",
+        "GPT2015-23",
+        "GPT2015-24",
+        "GPT2015-25"
+      ],
+      "candidate_duration_seconds": 44.0,
+      "editorial_action": "EXPAND_CONTEXT_AND_SCENE",
+      "rationale": "扩展PMI、三个真实缺口、现场照片、盘后措施与具名声音。"
+    },
+    {
+      "legacy_node": "S14",
+      "legacy_start_seconds": 146,
+      "legacy_duration_seconds": 12,
+      "legacy_historical_period": "2015.09.02—2015.09.08",
+      "candidate_shots": [],
+      "candidate_duration_seconds": 0.0,
+      "editorial_action": "OMIT_POLICY_BEATS",
+      "rationale": "两项九月政策本候选不采用；新9月2日盘中低点属于价格读点，不是政策的同义替换。"
+    },
+    {
+      "legacy_node": "S15",
+      "legacy_start_seconds": 158,
+      "legacy_duration_seconds": 7,
+      "legacy_historical_period": "2015.06.03—2015.09.15",
+      "candidate_shots": [
+        "GPT2015-27",
+        "GPT2015-28"
+      ],
+      "candidate_duration_seconds": 13.0,
+      "editorial_action": "RETAIN_AND_CLOSE_CHAPTER",
+      "rationale": "9月15日最低收盘和区间回撤保留；接短暂回望后交给原S16。"
+    }
+  ],
+  "new_only_shots": [
+    {
+      "shot_id": "GPT2015-16",
+      "purpose": "7月27日再挫，接续反弹之后的历史"
+    },
+    {
+      "shot_id": "GPT2015-17",
+      "purpose": "8月11日宏观背景"
+    },
+    {
+      "shot_id": "GPT2015-26",
+      "purpose": "9月2日盘中低点；不等同旧S14政策"
+    }
+  ],
+  "explicit_omissions": [
+    {
+      "legacy_node": "S11",
+      "beat_index": 1,
+      "duration_seconds": 4,
+      "topic": "2015年7月8日大股东及董监高减持限制",
+      "decision": "OMITTED_IN_THIS_CANDIDATE",
+      "reason": "密集措施段已有较多读点；保留研究记录，待连续预览如暴露理解缺口再决定是否恢复。",
+      "fact_disproved": false,
+      "additional_user_approval_gate": false
+    },
+    {
+      "legacy_node": "S11",
+      "beat_index": 2,
+      "duration_seconds": 4,
+      "topic": "同日公告引语“非理性下跌”",
+      "decision": "OMITTED_IN_THIS_CANDIDATE",
+      "reason": "密集措施段已有较多读点；保留研究记录，待连续预览如暴露理解缺口再决定是否恢复。",
+      "fact_disproved": false,
+      "additional_user_approval_gate": false
+    },
+    {
+      "legacy_node": "S14",
+      "beat_index": 0,
+      "duration_seconds": 6,
+      "topic": "9月2日中金所股指期货措施",
+      "decision": "OMITTED_IN_THIS_CANDIDATE",
+      "reason": "密集措施段已有较多读点；保留研究记录，待连续预览如暴露理解缺口再决定是否恢复。",
+      "fact_disproved": false,
+      "additional_user_approval_gate": false
+    },
+    {
+      "legacy_node": "S14",
+      "beat_index": 1,
+      "duration_seconds": 6,
+      "topic": "9月7日公布、9月8日施行的股息红利税通知",
+      "decision": "OMITTED_IN_THIS_CANDIDATE",
+      "reason": "密集措施段已有较多读点；保留研究记录，待连续预览如暴露理解缺口再决定是否恢复。",
+      "fact_disproved": false,
+      "additional_user_approval_gate": false
+    }
+  ],
+  "entry_bridge": {
+    "id": "BRIDGE-S06-2015",
+    "status": "EDITORIAL_PLAN_RUNTIME_ENDPOINT_UNRESOLVED",
+    "start_market_date_mode": "inherit_verified_compiled_S06_terminal_market_date",
+    "start_market_date": null,
+    "end_market_date": "2015-04-01",
+    "duration_frames": null,
+    "duration_frames_symbol": "B",
+    "duration_seconds_symbol": "b=B/30",
+    "frame_count_constraint": "B is a positive integer chosen after continuous playback",
+    "screen_lines": [
+      "2014—2015年春"
+    ],
+    "display_role": "阶段小签；HUD仍逐日显示真实日期与收盘",
+    "new_external_claims": [],
+    "do_not_infer_policy_day_from_month": true,
+    "time_precision_note": "S06的IPO重启仍为2014年1月；图表观察锚点不是制度发生日。",
+    "camera": "继承S06末帧相机及速度，通过真实日K连续推进；到2015-04-01交给GPT2015-01。",
+    "rail": "继承2012-12-03收盘593.66基准的单活动涨幅轨；不按桥段时长填充。",
+    "avoid": "不补编2014政策或单一涨价原因；不把一年多日K压成一次无提示跳切。"
+  },
+  "exit_connection": {
+    "candidate_last_shot": "GPT2015-28",
+    "next_legacy_node": "S16",
+    "shared_market_date": "2015-09-15",
+    "shared_close": 1797.56,
+    "next_anchor_date": "2015-11-25",
+    "next_anchor_close": 2897.57,
+    "rebound_pct": 61.19461937292776,
+    "rebound_display": "+61.19%",
+    "legacy_duration_seconds": 7,
+    "screen_lines": [
+      "2015.11.25",
+      "2,897.57",
+      "较9月15日收盘 +61.19%"
+    ],
+    "screen_reveal": "终点日期与数值在真实播放头到达11月25日时出现；能否在旧7秒内读清须实际预览，不为保时长提前显示未来价格。",
+    "rail_transition": "9月15日收盘结算后，旧回撤收为小里程碑；唯一活动轨切到1797.56基准的阶段反弹，标签同步切换。",
+    "camera_transition": "继承完整末帧投影、速度、日K位置与时间轨；不重置图表，不倒放市场日期。",
+    "forward_history_preserved": true
+  },
+  "timing_budget": {
+    "original_full_seconds": 427,
+    "before_seconds": 68,
+    "candidate_seconds": 167,
+    "after_seconds": 262,
+    "duration_formula_seconds": "68 + b + 167 + 262 = 497 + b",
+    "duration_formula_frames": "2040 + B + 5010 + 7860 = 14910 + B",
+    "S16_new_start_formula_seconds": "235 + b",
+    "later_unit_shift_formula_seconds": "+70 + b",
+    "assumptions": [
+      "保留原H01—S06",
+      "保留候选全部28镜",
+      "保留原S16—C03的暂定时长",
+      "不恢复四个明确省略的旧节拍"
+    ],
+    "approved_new_full_duration": null,
+    "note": "497秒只是替换算术，不是可采用的成片时长。若实际播放需调整S16等单元，重新计算，不视为本次已批准。"
+  },
+  "next_output": "167秒真实连续预览及观看报告；不为本提案生成新正文版本或先渲染全片。"
+}

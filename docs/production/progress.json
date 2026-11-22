@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T15:18:42+08:00",
+  "updated_at": "2026-11-22T15:41:23+08:00",
   "timezone": "Asia/Shanghai",
   "snapshot_not_live_heartbeat": true,
   "content_version": "1.0.1",
@@ -34,5 +34,14 @@
   "video_rendered_for_version": false,
   "user_visual_approval": false,
   "formal_master_adopted": false,
-  "source_of_truth": "editorial/2015/releases/v1.0.1/manifest.json"
+  "source_of_truth": "editorial/2015/releases/v1.0.1/manifest.json",
+  "integration_proposal": {
+    "status": "COMPLETED_NOT_ADOPTED",
+    "path": "editorial/2015/integration/v1.0.1/README.md",
+    "blocks_167_second_preview": false
+  },
+  "last_remote_receipt_check": {
+    "checked_at": "2026-11-22T15:41:23+08:00",
+    "result": "No v1.0.1 execution receipt observed in inspected remote branch heads/open PRs; local Codex state remains unknown."
+  }
 }

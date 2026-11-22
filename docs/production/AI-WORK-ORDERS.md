@@ -1,6 +1,6 @@
 # 内容生产任务与执行状态
 
-更新时间：2026-11-22 15:18（北京时间）。计划、实际执行、交付、用户视觉批准分别记录。
+更新时间：2026-11-22 15:41（北京时间）。计划、实际执行、交付、用户视觉批准分别记录。
 
 |任务|负责人|任务状态|执行状态／证据|
 |---|---|---|---|
@@ -9,6 +9,7 @@
 |GPT-2015-BOARD|GPT|COMPLETED|V1.0.1：167秒、28镜完整候选|
 |USER-D01|用户|CONFIRMED|2026-11-22明确采用方案A，无须重复确认|
 |GPT-2015-STANDARD-A|GPT|COMPLETED|精确数取舍、补证与文案同步已落实|
+|GPT-2015-INTEGRATION-MAP|GPT|COMPLETED_PROPOSAL|已明确2014入口、9月出口和四个旧节拍省略；未改主表|
 |CODEX-2015-IMPORT|Codex|READY|执行UNKNOWN；待真实接单回执，不是假定Standby|
 |CODEX-2015-PREVIEW|Codex|READY_AFTER_IMPORT|167秒整段预演；待能力对照、最小适配和实际输出|
 |USER-2015-VISUAL|用户|PENDING_MEDIA|有连续预览后集中观看；尚未视觉批准|
