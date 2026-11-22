@@ -1,0 +1,956 @@
+{
+  "passed": true,
+  "frame_count": 5010,
+  "shots": 28,
+  "fps": 30,
+  "join_frames": [
+    120,
+    300,
+    510,
+    720,
+    960,
+    1110,
+    1290,
+    1470,
+    1650,
+    1860,
+    2070,
+    2250,
+    2460,
+    2610,
+    2820,
+    2970,
+    3150,
+    3330,
+    3450,
+    3630,
+    3780,
+    3960,
+    4170,
+    4320,
+    4470,
+    4620,
+    4890
+  ],
+  "all_joins_preserve_market_row_and_projection": true,
+  "locked_y_all_reading_frames": true,
+  "rail_switch_frames": [
+    960
+  ],
+  "july7": {
+    "value": -0.40937660870111114,
+    "progress": 0.6822943478351853
+  },
+  "july23": {
+    "value": -0.25470525456714177,
+    "progress": 0.424508757611903
+  },
+  "final_close": 1797.56,
+  "final_drawdown": -0.5486069433109424,
+  "missing_photo_inherits_incoming_camera": true,
+  "camera_adjustments": [
+    {
+      "shot_id": "GPT2015-21",
+      "field": "camera_target",
+      "authored_span_and_domain": [
+        120.0,
+        1680.2,
+        4290.58
+      ],
+      "applied_span_and_domain": [
+        18.0,
+        1700.0,
+        2900.0
+      ],
+      "reason": "continue_incoming_chart_when_photo_is_missing"
+    }
+  ],
+  "anchors": [
+    {
+      "shot_id": "GPT2015-01",
+      "primary_anchor": {
+        "date": "2015-04-01",
+        "field": "close",
+        "value": 2404.91,
+        "hit_frame": 0
+      },
+      "caption_full_alpha_frame": 6,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          534.5,
+          376.5366440805172
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-02",
+      "primary_anchor": {
+        "date": "2015-04-13",
+        "field": "close",
+        "value": 2577.78,
+        "hit_frame": 150
+      },
+      "caption_full_alpha_frame": 156,
+      "event_label": "2015.04.13 · 生效",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          516.2461538461527,
+          317.49512356784396
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-03",
+      "primary_anchor": {
+        "date": "2015-04-28",
+        "field": "close",
+        "value": 2687.97,
+        "hit_frame": 360
+      },
+      "caption_full_alpha_frame": 366,
+      "event_label": "2015.04.28 20:37 · 刊发",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.3999999999988,
+          359.30795595420403
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": {
+          "from": "2015-04-20",
+          "to": "2015-04-24",
+          "x": [
+            490.16923076922956,
+            542.3230769230757
+          ],
+          "y": 854,
+          "visible": true
+        },
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-04",
+      "primary_anchor": {
+        "date": "2015-05-13",
+        "field": "close",
+        "value": 3192.15,
+        "hit_frame": 570
+      },
+      "caption_full_alpha_frame": 576,
+      "event_label": "2015.05.13 · 历史观察",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          411.93846153846033,
+          457.2077358636916
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-05",
+      "primary_anchor": {
+        "date": "2015-06-03",
+        "field": "close",
+        "value": 3982.25,
+        "hit_frame": 780
+      },
+      "caption_full_alpha_frame": 786,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.4,
+          313.03753076548276
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [
+          [
+            335.168,
+            606.6666208568109
+          ],
+          [
+            568.4,
+            313.03753076548276
+          ]
+        ],
+        "close_endpoints_visible": true,
+        "close_endpoint_markers": 2,
+        "close_link_progress": 1.0,
+        "close_link_complete": true,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-06",
+      "primary_anchor": {
+        "date": "2015-06-05",
+        "field": "high",
+        "value": 4037.96,
+        "hit_frame": 990
+      },
+      "caption_full_alpha_frame": 996,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          455.40000000000344,
+          307.6770586082989
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": [
+          455.40000000000344,
+          307.6770586082989
+        ],
+        "wick_visible": true,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-07",
+      "primary_anchor": {
+        "date": "2015-06-12",
+        "field": "close",
+        "value": 3899.71,
+        "hit_frame": 1140
+      },
+      "caption_full_alpha_frame": 1146,
+      "event_label": "2015.06.12 · 公开表述",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          529.2846153846142,
+          346.9718970113452
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-08",
+      "primary_anchor": {
+        "date": "2015-06-18",
+        "field": "close",
+        "value": 3504.55,
+        "hit_frame": 1320
+      },
+      "caption_full_alpha_frame": 1326,
+      "event_label": "2015年6月",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          555.3615384615373,
+          459.2862613439648
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-09",
+      "primary_anchor": {
+        "date": "2015-06-26",
+        "field": "close",
+        "value": 2920.7,
+        "hit_frame": 1515
+      },
+      "caption_full_alpha_frame": 1521,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.3999999999988,
+          637.1067663370156
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [
+          [
+            451.053846153845,
+            348.44041299540396
+          ],
+          [
+            568.3999999999988,
+            637.1067663370156
+          ]
+        ],
+        "close_endpoints_visible": true,
+        "close_endpoint_markers": 2,
+        "close_link_progress": 1.0,
+        "close_link_complete": true,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-10",
+      "primary_anchor": {
+        "date": "2015-06-26",
+        "field": "close",
+        "value": 2920.7,
+        "hit_frame": 1680
+      },
+      "caption_full_alpha_frame": 1686,
+      "event_label": "2015.06.27 · 周末公布",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.3999999999988,
+          637.1067663370156
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-11",
+      "primary_anchor": {
+        "date": "2015-07-03",
+        "field": "close",
+        "value": 2605.28,
+        "hit_frame": 1920
+      },
+      "caption_full_alpha_frame": 1926,
+      "event_label": "2015.07.04 · 周末公布",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.3999999999988,
+          739.4517394822005
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-12",
+      "primary_anchor": {
+        "date": "2015-07-03",
+        "field": "close",
+        "value": 2605.28,
+        "hit_frame": 2085
+      },
+      "caption_full_alpha_frame": 2091,
+      "event_label": "2015.07.05 · 周末公布",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.3999999999988,
+          739.4517394822005
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-13",
+      "primary_anchor": {
+        "date": "2015-07-08",
+        "field": "close",
+        "value": 2364.05,
+        "hit_frame": 2295
+      },
+      "caption_full_alpha_frame": 2301,
+      "event_label": "2015.07.08 · 公开表述",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          542.3230769230757,
+          771.8813117683187
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-14",
+      "primary_anchor": {
+        "date": "2015-07-10",
+        "field": "close",
+        "value": 2535.89,
+        "hit_frame": 2475
+      },
+      "caption_full_alpha_frame": 2481,
+      "event_label": "2015.07.12 · 周末公布",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.3999999999988,
+          724.2270468462098
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-15",
+      "primary_anchor": {
+        "date": "2015-07-23",
+        "field": "close",
+        "value": 2967.95,
+        "hit_frame": 2670
+      },
+      "caption_full_alpha_frame": 2676,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          555.3615384615373,
+          604.4091831227084
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [
+          [
+            398.89999999999884,
+            775.2202162705429
+          ],
+          [
+            555.3615384615373,
+            604.4091831227084
+          ]
+        ],
+        "close_endpoints_visible": true,
+        "close_endpoint_markers": 2,
+        "close_link_progress": 1.0,
+        "close_link_complete": true,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-16",
+      "primary_anchor": {
+        "date": "2015-07-27",
+        "field": "close",
+        "value": 2683.45,
+        "hit_frame": 2850
+      },
+      "caption_full_alpha_frame": 2856,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          438.0153846153834,
+          683.3060544584862
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-17",
+      "primary_anchor": {
+        "date": "2015-08-11",
+        "field": "close",
+        "value": 2698.91,
+        "hit_frame": 3000
+      },
+      "caption_full_alpha_frame": 3006,
+      "event_label": "2015.08.11 · 同期背景",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          477.13076923076807,
+          671.2318765451791
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-18",
+      "primary_anchor": {
+        "date": "2015-08-21",
+        "field": "close",
+        "value": 2341.95,
+        "hit_frame": 3180
+      },
+      "caption_full_alpha_frame": 3186,
+      "event_label": "2015.08.21 · 同期背景",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.3999999999988,
+          527.1648333333335
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-19",
+      "primary_anchor": {
+        "date": "2015-08-21",
+        "field": "close",
+        "value": 2341.95,
+        "hit_frame": 3330
+      },
+      "caption_full_alpha_frame": 3336,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.4000000000034,
+          527.1648333333335
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": {
+          "previous_low": [
+            530.7333333333368,
+            444.51950000000005
+          ],
+          "current_high": [
+            568.4000000000034,
+            458.26226666666673
+          ],
+          "visible": true
+        },
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-20",
+      "primary_anchor": {
+        "date": "2015-08-24",
+        "field": "close",
+        "value": 2152.61,
+        "hit_frame": 3495
+      },
+      "caption_full_alpha_frame": 3501,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.4000000000034,
+          621.2036999999999
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": {
+          "previous_low": [
+            530.7333333333368,
+            527.6764000000001
+          ],
+          "current_high": [
+            568.4000000000034,
+            574.5468333333333
+          ],
+          "visible": true
+        },
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-21",
+      "primary_anchor": {
+        "date": "2015-08-24",
+        "field": "close",
+        "value": 2152.61,
+        "hit_frame": 3645
+      },
+      "caption_full_alpha_frame": 3651,
+      "event_label": null,
+      "photo_asset_id": "IMG-20150824-01",
+      "last_frame_geometry": {}
+    },
+    {
+      "shot_id": "GPT2015-22",
+      "primary_anchor": {
+        "date": "2015-08-25",
+        "field": "close",
+        "value": 1990.71,
+        "hit_frame": 3825
+      },
+      "caption_full_alpha_frame": 3831,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.4000000000034,
+          701.6140333333333
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": {
+          "previous_low": [
+            530.7333333333368,
+            621.2036999999999
+          ],
+          "current_high": [
+            568.4000000000034,
+            673.1451
+          ],
+          "visible": true
+        },
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-23",
+      "primary_anchor": {
+        "date": "2015-08-25",
+        "field": "close",
+        "value": 1990.71,
+        "hit_frame": 3975
+      },
+      "caption_full_alpha_frame": 3981,
+      "event_label": "2015.08.25 18:15:34 · 官网公布",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.3999999999988,
+          701.6140333333333
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-24",
+      "primary_anchor": {
+        "date": "2015-08-25",
+        "field": "close",
+        "value": 1990.71,
+        "hit_frame": 4185
+      },
+      "caption_full_alpha_frame": 4191,
+      "event_label": "2015.08.25 19:16 · 刊发",
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.3999999999988,
+          701.6140333333333
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": true
+      }
+    },
+    {
+      "shot_id": "GPT2015-25",
+      "primary_anchor": {
+        "date": "2015-08-26",
+        "field": "close",
+        "value": 1890.04,
+        "hit_frame": 4350
+      },
+      "caption_full_alpha_frame": 4356,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.4000000000034,
+          751.6134666666667
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [
+          [
+            455.40000000000344,
+            527.1648333333335
+          ],
+          [
+            568.4000000000034,
+            751.6134666666667
+          ]
+        ],
+        "close_endpoints_visible": true,
+        "close_endpoint_markers": 2,
+        "close_link_progress": 1.0,
+        "close_link_complete": true,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-26",
+      "primary_anchor": {
+        "date": "2015-09-02",
+        "field": "low",
+        "value": 1779.18,
+        "hit_frame": 4500
+      },
+      "caption_full_alpha_frame": 4506,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          380.0666666666701,
+          788.3217571572977
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": [
+          380.0666666666701,
+          788.3217571572977
+        ],
+        "wick_visible": true,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-27",
+      "primary_anchor": {
+        "date": "2015-09-15",
+        "field": "close",
+        "value": 1797.56,
+        "hit_frame": 4680
+      },
+      "caption_full_alpha_frame": 4686,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.4,
+          784.4121133358087
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [
+          [
+            183.29600000000002,
+            319.5313472908515
+          ],
+          [
+            568.4,
+            784.4121133358087
+          ]
+        ],
+        "close_endpoints_visible": true,
+        "close_endpoint_markers": 2,
+        "close_link_progress": 1.0,
+        "close_link_complete": true,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    },
+    {
+      "shot_id": "GPT2015-28",
+      "primary_anchor": {
+        "date": "2015-09-15",
+        "field": "close",
+        "value": 1797.56,
+        "hit_frame": 4890
+      },
+      "caption_full_alpha_frame": 4896,
+      "event_label": null,
+      "photo_asset_id": null,
+      "last_frame_geometry": {
+        "anchor": [
+          568.4,
+          784.4121133358087
+        ],
+        "anchor_visible": true,
+        "close_endpoints": [],
+        "close_endpoints_visible": false,
+        "close_endpoint_markers": 0,
+        "close_link_progress": 0.0,
+        "close_link_complete": false,
+        "wick_anchor": null,
+        "wick_visible": false,
+        "gap": null,
+        "statistics_bracket": null,
+        "event_leader_visible": false
+      }
+    }
+  ]
+}

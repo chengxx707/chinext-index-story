@@ -1,0 +1,672 @@
+{
+  "task_id": "WF-02-2015",
+  "release": "1.0.1",
+  "input_commit": "c313edfa7959dfc6e9c56badfd3f662ae7fe01b4",
+  "status": "SUBJECT_PREVIEW_PLAYED_AND_VALIDATED_PHOTO_MISSING",
+  "media": {
+    "duration_seconds": 167,
+    "width": 540,
+    "height": 960,
+    "fps": 30,
+    "frames": 5010,
+    "audio": false,
+    "complete_runtime_playback": true,
+    "playback_dropped_frames": 0
+  },
+  "technical_validation": {
+    "content_checks_passed": 34,
+    "retained_capability_gate": "historical_photo_scene",
+    "layout_sample_frames": 67,
+    "keyframes_at_target_resolution": 39,
+    "regression_tests_passed": 165
+  },
+  "not_performed": [
+    "camera original received",
+    "fully approved human visual review",
+    "427-second integrated production"
+  ],
+  "published_paths": [
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/README.md",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/README.md",
+      "sha256": "fe544a0296ee1a71e30b1c36eb673691651600a09c968964c6f9cfbd42036fb5",
+      "bytes": 3320
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/intake_receipt.json",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/intake_receipt.json",
+      "sha256": "bfe7022d32c225b3f75659e6621f0a6c0fbd0fcaba47e0d47c3ed5bdef9df34b",
+      "bytes": 6937
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/photo_source_receipt.json",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/photo_source_receipt.json",
+      "sha256": "005eab06098d26767c290078f5acdae1a5a411d66f54a10d5a47db37ab3475c4",
+      "bytes": 2940
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/content_validation.json",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/content_validation.json",
+      "sha256": "9abdbbdcf68bbe97ad3fdfcfb87b9ca61e222a17b68020bfee3a4466181fd906",
+      "bytes": 6190
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/regression_tests.log",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/regression_tests.log",
+      "sha256": "26481d7baa4840ab963671d609f941966ac58cfaf893ba8b11cff4494d6874b8",
+      "bytes": 261
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/clock_validation.json",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/clock_validation.json",
+      "sha256": "f80977a8d9e0cd9c2adec5ae0f8c31a2974a19d97b4614479841ed304acba778",
+      "bytes": 24746
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/content_renderer_validation.exit",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/content_renderer_validation.exit",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "bytes": 2
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/content_renderer_validation.json",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/content_renderer_validation.json",
+      "sha256": "72da6c94424ed8f85d7b16617153af9f2a7cd0fe605eb62f5b37d31ec51f8b8b",
+      "bytes": 6457
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/content_renderer_validation.log",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/content_renderer_validation.log",
+      "sha256": "967a37479c253220e747640ecdbe37e72f45b0b4cd2e3b31380eea7bf9f3985e",
+      "bytes": 6458
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/decoded_anchors_01.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/decoded_anchors_01.jpg",
+      "sha256": "a8e29c9c249fc176ef2acb87785ad2a19dd02d358b09fd17845eb1f645c6f5c6",
+      "bytes": 194315
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/decoded_joins_01.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/decoded_joins_01.jpg",
+      "sha256": "58dc82d06399f7f32f3868144590daf7fc3dc196f651e1a286d739a6d36af2b3",
+      "bytes": 204613
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/decoded_joins_02.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/decoded_joins_02.jpg",
+      "sha256": "9137788fd91bd0c8a9c0c45b980e704a2f281f25e721a555d28da3fe2889b9b3",
+      "bytes": 135868
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/decoded_sections_01.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/decoded_sections_01.jpg",
+      "sha256": "c92a1f4a9e71e9a824f62e49d0f674c7a6bf2d04333ead1543c3d2c7b01e7428",
+      "bytes": 204037
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/decoded_sections_02.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/decoded_sections_02.jpg",
+      "sha256": "cceeaa17f1ed891f5d819b96533b0d5e47e3e166c67e24994188a2ae42fb2420",
+      "bytes": 213245
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/decoded_sections_03.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/decoded_sections_03.jpg",
+      "sha256": "fd0d85ee6fe8844ff93a61b06f84ab4b5008f8dff7097b487730e8054ff96603",
+      "bytes": 178688
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/freeze_check.log",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/freeze_check.log",
+      "sha256": "c2cde5dabb6dc71ac70057e128871bc6aa0e1ec0defa5c7668e05ac2a01bf83f",
+      "bytes": 6260
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframe_contact_01.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframe_contact_01.jpg",
+      "sha256": "64186165502afe8f134176381c5da0c3ab2b26b01906e05e8762413128f25559",
+      "bytes": 136553
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframe_contact_02.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframe_contact_02.jpg",
+      "sha256": "5e3ec98841b05c97400ff9562a21df610e1b6826015c6272dd4820a4aafa67ca",
+      "bytes": 143161
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframe_contact_03.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframe_contact_03.jpg",
+      "sha256": "23b2fd4a09c0bb2f204bcdeb9eb346c715d3c570c2e4c616c14069a74e85b1ef",
+      "bytes": 45803
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-01-f0006.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-01-f0006.png",
+      "sha256": "136651fb517a6a63f36a03a61e99c6ad54bf46af7578f929bcb70cc5ba98a836",
+      "bytes": 538240
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-02-f0156.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-02-f0156.png",
+      "sha256": "96fa5b66336377db2006aea9ce998d2c3a0c733216098f86e1201a8d8d16dcf8",
+      "bytes": 541976
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-03-f0360.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-03-f0360.png",
+      "sha256": "579767303b8c2cb874e1b3d4aaea1d63321055c9ac9ed20f4fdd83e21ea3d9fb",
+      "bytes": 542186
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-03-f0366.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-03-f0366.png",
+      "sha256": "e1940677e6eba91016f374cce931df6854266e27abe830348df9b422a9c82c37",
+      "bytes": 550235
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-04-f0576.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-04-f0576.png",
+      "sha256": "31a172d046bcd0e291046e44a1182be6cf82ed4a378184a57f28943a8c0a9bc0",
+      "bytes": 551961
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-05-f0780.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-05-f0780.png",
+      "sha256": "b7ea842c8b0f2df35747c3d8557517419ab47341564265bbea0973828d7aad9d",
+      "bytes": 537994
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-05-f0786.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-05-f0786.png",
+      "sha256": "8d24418960fc94984aa2d4c08a59c280e141b813fdff4d6cd0893f5a8b2a4e76",
+      "bytes": 545016
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-06-f0996.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-06-f0996.png",
+      "sha256": "fcb6a4643fb4caa6d30f5f888360913acd615e8a805dc1d60762d0749fd224ea",
+      "bytes": 541438
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-07-f1146.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-07-f1146.png",
+      "sha256": "496e8fc96fff384eddaaf42bfc0b2bed4c140ffb2c6efde67daf44c8e4570375",
+      "bytes": 552081
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-08-f1320.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-08-f1320.png",
+      "sha256": "1c671f54b47b2e8fbee3e4947e9d885961e6a20ec0089de442c857a52b4ffb84",
+      "bytes": 548238
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-08-f1326.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-08-f1326.png",
+      "sha256": "7078413e4ecacaac4bae2623be97a3679189f77d62cc7ae7eb3ceb286cb28ba9",
+      "bytes": 556764
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-09-f1521.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-09-f1521.png",
+      "sha256": "92e851476f7330a0ea3e2e8b177ea040e890882cf1f3e34a9037be4ce9f60b95",
+      "bytes": 549431
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-10-f1686.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-10-f1686.png",
+      "sha256": "fcd7fc309a50a9e3ea3a49e82b390a5cb49be6d39d5c22b5f41a4248f8e3f13c",
+      "bytes": 554951
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-11-f1926.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-11-f1926.png",
+      "sha256": "7ae9aef69457e43087d8a91fe29a2e9b9b853f19d1c01abc3b63629b109351b3",
+      "bytes": 557436
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-12-f2091.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-12-f2091.png",
+      "sha256": "6ac6292957ba7551599531f47fe6953b28eca79a591adeaaa1b6bf2292ae0e9f",
+      "bytes": 557632
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-13-f2295.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-13-f2295.png",
+      "sha256": "17262ce05fffc883bed919beb1490a2c66812256feada0220bc47dd6ade98444",
+      "bytes": 547593
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-13-f2301.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-13-f2301.png",
+      "sha256": "24db07bb5356144b001093f5de1d2a8af0fe1d7a6462fe66d631d9d0a905f4c8",
+      "bytes": 555438
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-14-f2481.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-14-f2481.png",
+      "sha256": "d5983429ed6aa2fa938e8d3f6e7bd8d6f79828f49f1e566915231f7326428b87",
+      "bytes": 553304
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-15-f2670.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-15-f2670.png",
+      "sha256": "b056456c4f995cd7b7098b67aab6a246046366332d75c6c1a7722f3ecc6a72e1",
+      "bytes": 540119
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-15-f2676.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-15-f2676.png",
+      "sha256": "e662c5f919668faf183b5ed4fde934e07c0e78afa7c631de68216eea9b49a42e",
+      "bytes": 545284
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-16-f2856.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-16-f2856.png",
+      "sha256": "4eeb267df0b1391b95855366ea30bfb9cc03428f7e717d92c4b99b3e942a61ea",
+      "bytes": 545702
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-17-f3006.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-17-f3006.png",
+      "sha256": "412b6ad59ad6bbe802158bf08030e75711d0e61b7a4158eca7367853f6f6b017",
+      "bytes": 551913
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-18-f3186.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-18-f3186.png",
+      "sha256": "ac81c2c012f9f7512faf3049ad4424510ef463095d2df6d6af0c5c544d265068",
+      "bytes": 546914
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-19-f3330.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-19-f3330.png",
+      "sha256": "4421bac97c6b735ad20b3accd7becace0c81733292ac2c6da960c450b584140b",
+      "bytes": 539612
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-19-f3336.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-19-f3336.png",
+      "sha256": "efbe219fe1f64dfd63146bf85f9da62119e7fb8acf79405ad500c466a826ac08",
+      "bytes": 544920
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-20-f3495.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-20-f3495.png",
+      "sha256": "1a8b26bfa84059f063a00a9103ca3f67e2cfca2dba08952cca02e69d5c8ec826",
+      "bytes": 540346
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-20-f3501.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-20-f3501.png",
+      "sha256": "f270be759a20e810be7ec57e47e58c53e9ccf98a59d80e9ad3493ce189a682c4",
+      "bytes": 546997
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-21-f3645.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-21-f3645.png",
+      "sha256": "8de451b3e2ca469c4cfa3f909791b32fad23747a353eef0f91e2e2012e6547b1",
+      "bytes": 526133
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-21-f3651.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-21-f3651.png",
+      "sha256": "8de451b3e2ca469c4cfa3f909791b32fad23747a353eef0f91e2e2012e6547b1",
+      "bytes": 526133
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-22-f3825.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-22-f3825.png",
+      "sha256": "b3bb9f2dfa98547597d89fc63ae2f6ab60594a221817529c33790dd805005fbd",
+      "bytes": 539460
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-22-f3831.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-22-f3831.png",
+      "sha256": "de1edd4279dc1c8d4441069162386d5e77cffaa92cb90ad56d4db3b4b06cbd12",
+      "bytes": 545897
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-23-f3975.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-23-f3975.png",
+      "sha256": "05c46e44be3695e55c81913ffa45b5619a35bd88c58f5f9c471e7a3ba01d3d93",
+      "bytes": 548256
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-23-f3981.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-23-f3981.png",
+      "sha256": "a882d62e379f61a1e3940facf8a4ec1668abcbfe2cd96547463b2e66e2069793",
+      "bytes": 558073
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-24-f4191.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-24-f4191.png",
+      "sha256": "91c689cc3aa1ba4dcc7f9a3842227111ff81b0215f15c02069243677e0f10b46",
+      "bytes": 557446
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-25-f4356.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-25-f4356.png",
+      "sha256": "49050ef5c21129d960ac248d94870ef9e17f1f7fadd92f950735ec51e4349964",
+      "bytes": 542829
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-26-f4506.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-26-f4506.png",
+      "sha256": "eae7c782e5fb51bfd7efb99e7e8a9e79dbbf7b8ce3e215bb565fd2b78b640b5c",
+      "bytes": 545074
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-27-f4680.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-27-f4680.png",
+      "sha256": "12ec00bf3e7ec8720b0227a69014c68c52a32b2f5206e2112ed71addfe88084d",
+      "bytes": 546952
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-27-f4686.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-27-f4686.png",
+      "sha256": "d4529a0cfb0a1bc7d11fc31ae327f5f75b6ecab77c45156eab9d2ade3081cbb2",
+      "bytes": 554991
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-28-f4896.png",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-28-f4896.png",
+      "sha256": "052383c0cf02662e7f1270f13dc883506b20fb25bec63cbf473ea96ef0c979c1",
+      "bytes": 544896
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/layout_diagnostics.json",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/layout_diagnostics.json",
+      "sha256": "ff914aedff1cba27c6d46dfa7d643c9e11953989af5d912c8353856982e5af87",
+      "bytes": 392785
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/media_validation.json",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/media_validation.json",
+      "sha256": "dca8db06556af58f4646485558ecf0c0ec8c44f5d5c24835189582bc804aaa07",
+      "bytes": 3646
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_000007.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_000007.jpg",
+      "sha256": "71ece7741ef12a544a056872d439354887048c38bdc53b861cd6dce4b67587ed",
+      "bytes": 32379
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_004949.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_004949.jpg",
+      "sha256": "bd85dad4387385005179949d30524f00b852f18d1b0e4e17a9fc7c4fbf88800a",
+      "bytes": 31387
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_009893.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_009893.jpg",
+      "sha256": "f343b67d7335ba1fec16883ce9950906b58dc12272393fc1af43d11a0eae68e6",
+      "bytes": 34077
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_014850.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_014850.jpg",
+      "sha256": "d4b850aa7b413fbf4ee6ceacbec192447c76e12bf8db81e6d89f07bc9605d1d0",
+      "bytes": 34177
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_019812.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_019812.jpg",
+      "sha256": "1654fbd42e1b45f7ec83e922100e2087da46fea990ccf206d3c508b57f65385d",
+      "bytes": 34503
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_024742.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_024742.jpg",
+      "sha256": "2e683534a1eeb12e3e459ba3bd62f59dcc1bfae03b8d32bcc41df6c82a4fcb42",
+      "bytes": 31264
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_029674.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_029674.jpg",
+      "sha256": "3e03c36b25c1973ba8a6cf179c93db46ee8823d58be054327d88583bd54317c9",
+      "bytes": 33875
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_034611.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_034611.jpg",
+      "sha256": "b43ee853b401e14ba94b2dc312180dcb8524d0338f597848626c01d17dedc9fe",
+      "bytes": 33433
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_039571.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_039571.jpg",
+      "sha256": "491e1c07eeb205c8991825e1e6d5bac866a945adf472a87071c659137432859a",
+      "bytes": 34311
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_044496.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_044496.jpg",
+      "sha256": "4b9efa3c46ed744db7c526e1ad0aa33990fe1763003e7ca07a69a9b86bae2e55",
+      "bytes": 34967
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_049425.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_049425.jpg",
+      "sha256": "7ee270696defdee2fc05f7aeba71c85e7bd8b7cd802b868f3f61547760680e24",
+      "bytes": 32473
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_054377.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_054377.jpg",
+      "sha256": "dd30fc1ad2adfd24212e93bf022c70d3148f06de6d18c532254a078cecbb8217",
+      "bytes": 35641
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_059295.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_059295.jpg",
+      "sha256": "1306b9df8a7dd69726677e563e3e3b60329f71e684030bf8228993ab5ae9c25d",
+      "bytes": 35148
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_064230.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_064230.jpg",
+      "sha256": "a61ba4263d93fc0beaa60cc5a3c5ebad9c480dbd92459ae3a86f51c0197cd58a",
+      "bytes": 35889
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_069161.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_069161.jpg",
+      "sha256": "2f3f02727bb98420a1f361f8ff8048dcbc96bc50798b242d99b73e24f6fd00b1",
+      "bytes": 33666
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_074093.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_074093.jpg",
+      "sha256": "9df8fa1be72145b86c0857a291937a7c472e1d123f9d5e9299d7c8cde325b216",
+      "bytes": 36045
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_079036.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_079036.jpg",
+      "sha256": "4f8f3656996c9d04ca6ea6245f282e128b9074124779292f8237514c7fbe7427",
+      "bytes": 36631
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_083961.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_083961.jpg",
+      "sha256": "b4eb0440bb0423c65b400e98d8f02def3838ec1ae05551a9f6d7c8f4ae6c4ebe",
+      "bytes": 36707
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_088896.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_088896.jpg",
+      "sha256": "674abd281b2ac916b28393baff633f7c133141ba5ef6e54b0a6d7514783982b5",
+      "bytes": 33128
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_093842.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_093842.jpg",
+      "sha256": "8e3c297b11b087c84c584b192fcabff24b62674c381ead340be11bceee5845c9",
+      "bytes": 35205
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_098758.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_098758.jpg",
+      "sha256": "47bb9a397e82da427e0150ac880f2ec8bb4b72f995fe360e90de10ede37d0b1d",
+      "bytes": 34966
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_103699.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_103699.jpg",
+      "sha256": "54ab7f1b8662c4bc824ba4f710495df4d431281eede9e3fa477a024ae5f17358",
+      "bytes": 36343
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_108644.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_108644.jpg",
+      "sha256": "ae43e37767f61d89bbf5cd9258580b2969b9cf1f9882bc59c35f425ff63f68d7",
+      "bytes": 36529
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_113589.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_113589.jpg",
+      "sha256": "8362ab672ef78d64cf336a807b00a9d36cb457037812fd2d35e1c055d9c39528",
+      "bytes": 33454
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_118523.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_118523.jpg",
+      "sha256": "c57993a2e21c83453f6becfe6f941aefa6dffcb559a031b0cb7a1de6b199a418",
+      "bytes": 33890
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_123456.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_123456.jpg",
+      "sha256": "7b287f7e49c0b11426f9ae59fdd794cbb36cdf79a02db8d247b9105e0b43dcb3",
+      "bytes": 31037
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_128392.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_128392.jpg",
+      "sha256": "b4c997c17410475db78ec9eb73f70d411dbaec552795cc78ce54d3fa5e0c5146",
+      "bytes": 33702
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_133324.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_133324.jpg",
+      "sha256": "0ba7540b87328c34d3cff3a4f6c9fdd858ef1a6f63094422769838e29a0b1f98",
+      "bytes": 37385
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_138272.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_138272.jpg",
+      "sha256": "a1b58ab9be6e4b4ce69a7a52b55bb27e34e488ff69032d77a589e1f549ea84aa",
+      "bytes": 37351
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_143195.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_143195.jpg",
+      "sha256": "e20c519cfef03f7777fd92763ee31e36370beedfd38978e87d6031a40fba21f3",
+      "bytes": 37741
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_148122.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_148122.jpg",
+      "sha256": "120d01afc0a8fe7badd7367a3e0858cd89d3bd188368ea4e8818d274fc88a268",
+      "bytes": 33181
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_153055.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_153055.jpg",
+      "sha256": "cc756774ff8bbad14912c0865bead2231d71857dbaa826b568dac0ee85142083",
+      "bytes": 32760
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_157992.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_157992.jpg",
+      "sha256": "7ff6fa23c9864da8f332a00534393540436ccc142f6ef005c18a60b795eca0a6",
+      "bytes": 37116
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_162922.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_162922.jpg",
+      "sha256": "e514b2150e57ba8d78a3df2b4c5149e0cc054423096717498120d1520a026168",
+      "bytes": 37113
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback/watch_167000.jpg",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback/watch_167000.jpg",
+      "sha256": "3e46732e9052b946ac74694394a5df753f355276463355e699e8dd100f88fa66",
+      "bytes": 35697
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback.log",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback.log",
+      "sha256": "92d53d8834d80753c6fdfd8886b39a230551a8627b790cc46644d9f195b45987",
+      "bytes": 732
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/playback_observation.json",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/playback_observation.json",
+      "sha256": "065f4fb6e7003d08c0605294679c1b0a9f989e294b8ec9d6edb443abe333826a",
+      "bytes": 5303
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/preview_2015_v1.0.1_photo_missing.ffmpeg.log",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/preview_2015_v1.0.1_photo_missing.ffmpeg.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/preview_2015_v1.0.1_photo_missing.mp4",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/preview_2015_v1.0.1_photo_missing.mp4",
+      "sha256": "876ebe10519d8ba321cfa9f01edebd5b8588a39e8133448dd24277c3395afccf",
+      "bytes": 4170426
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/render.log",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/render.log",
+      "sha256": "63ab0f45bd3cce4c79c4265fcb48314ceb7f6a116a3b5c67cf9bfdcf0e643070",
+      "bytes": 453
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/renderer_capabilities.json",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/renderer_capabilities.json",
+      "sha256": "5867c820bcdfa40dbdedf9eb2c6a0bf289083bbdff94e9046e4b59b6fff940f5",
+      "bytes": 2741
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/visual_review.md",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/visual_review.md",
+      "sha256": "6e5ff6791a2a32392a0009141472b090c97a18dc9ec8e27ca6df189147222070",
+      "bytes": 3721
+    },
+    {
+      "source_path": "output/wf-02-2015-gpt-v1.0.1/final/visual_review_samples.json",
+      "path": "review-downloads/wf-02-2015-gpt-v1.0.1/final/visual_review_samples.json",
+      "sha256": "e03c1e048d69d69c1bf9161c8f4edaa7912c6ac17d23a4050610e449263aca7e",
+      "bytes": 2801
+    },
+    {
+      "source_path": "src/chinext_v6/drawing.py",
+      "path": "src/chinext_v6/drawing.py",
+      "sha256": "7a07abaa8f2d2d8970c43f7f6ef8c539d65ad4e7dc2210646421e99bf132fe60",
+      "bytes": 27693
+    },
+    {
+      "source_path": "src/chinext_v6/editorial_clock.py",
+      "path": "src/chinext_v6/editorial_clock.py",
+      "sha256": "065f10181313e96d4ff9393471a6219e95f1e18267c707096003b4cfc4dbaa17",
+      "bytes": 11417
+    },
+    {
+      "source_path": "src/chinext_v6/editorial_overlay.py",
+      "path": "src/chinext_v6/editorial_overlay.py",
+      "sha256": "fad70aff3a87c6331467459109021e26e6f7cdfd397567ba1c16e26c3a8b20fc",
+      "bytes": 10966
+    },
+    {
+      "source_path": "tools/render_editorial_preview.py",
+      "path": "tools/render_editorial_preview.py",
+      "sha256": "ee8f9c3752678d0eea528434f801aa5b4aa3781dc37dbc0f2024d8b960d4c759",
+      "bytes": 8720
+    }
+  ]
+}

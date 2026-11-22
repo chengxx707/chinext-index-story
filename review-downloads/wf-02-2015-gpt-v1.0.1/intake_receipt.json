@@ -1,0 +1,174 @@
+{
+  "task_id": "WF-02-2015",
+  "source_branch": "editorial/gpt-2015",
+  "source_commit": "c313edfa7959dfc6e9c56badfd3f662ae7fe01b4",
+  "release": "editorial/2015/releases/v1.0.1",
+  "version": "1.0.1",
+  "branch_before": "ops/ops-001-orchestrator",
+  "working_head": "225a5ae672bac5f251417ee77493d841732adfd6",
+  "import": "Complete exact Git subtree via git archive; no checkout/reset",
+  "package_members": [
+    {
+      "path": "editorial/2015/releases/v1.0.1/CODEX_HANDOFF.md",
+      "sha256": "bc904aa57537029c32d75f7adc85afc21c370cfdc8c894836799f269e0e42aa0",
+      "bytes": 6249
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/README.md",
+      "sha256": "f42d40c223f70070a8505570ceb82eda6c516080dc453379e54ffc3801744ef4",
+      "bytes": 1552
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/REVIEW_REPORT.md",
+      "sha256": "d154f2668a2ed7b1b219eb406b8678792a0e25b02541b70be1e56b942458b416",
+      "bytes": 4002
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/archive_manifest.json",
+      "sha256": "fadf5a11919db039aaafa451635ea1babd3ed04e49e80088aad527ce51a0a7f5",
+      "bytes": 63667
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/director_storyboard.md",
+      "sha256": "891b61eb86228b0594a56eabf25c5516a5b48ca1fd2950168d4e97e8f37d77e8",
+      "bytes": 8904
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/director_timeline.json",
+      "sha256": "8a979d4cbc80182fa329d4579d5503f30bf5bd8d11aba3edc0c78647980be7ea",
+      "bytes": 83281
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/director_timeline.schema.json",
+      "sha256": "2559c15e4415c02d495ab30a8bef5e148174b6ee2c9ffd326b07dfc835e82c9d",
+      "bytes": 9122
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/event_review.json",
+      "sha256": "eaa9047a57800bb451fc0dbf0b50dd7d579d32ccae08901a6d7b12a93da3f5a3",
+      "bytes": 109684
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/manifest.json",
+      "sha256": "1be7273db7a0c2be9159a9933af6c857a087691bb3951a21f1883c3f1b19d4a4",
+      "bytes": 6897
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/market_metrics.json",
+      "sha256": "c00d10b48a5928278f1d2a3a1e1c8c837523f2b558004cfa3f870df3b88d0fd7",
+      "bytes": 3889
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/narrative.md",
+      "sha256": "3c9ed60ebe55371235a5ea2bba339b37ec588ea76a234d481050e5d0a6869794",
+      "bytes": 3554
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/period_production.json",
+      "sha256": "dcc2f7a2c69a5fac2227b305c334681d193b4839f07c1dad7337c9cf5d627411",
+      "bytes": 48019
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/period_screen_copy.md",
+      "sha256": "094ce4f3eff0ddb61128e11802a5d9b48ea7b9fd04619c909e06624d140c8111",
+      "bytes": 21803
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/period_storyboard.json",
+      "sha256": "22c7532df5e4e83dc08f2bdfd070b6b23fd4c6fe20d2528f66fddfd70050f8c8",
+      "bytes": 134088
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/photo_manifest.json",
+      "sha256": "52765cf480fa73f02d6be532c1e70a22ccd075596fb409235f78dd1e73830a2b",
+      "bytes": 17022
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/research/apr_ind.md",
+      "sha256": "af53a0a17f9c5f54edec2bd344260ae758c98f0a87cec68692d16752fe726310",
+      "bytes": 8473
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/research/aug_img.md",
+      "sha256": "1cfca206a08b5dd6e76dc93d608aada89ddaf09a3df70e53930f48869ac02531",
+      "bytes": 10716
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/research/derived_checks.json",
+      "sha256": "473f57bf744563ce4f0169cf44c99926836d477e3a36e3cf514565b3f2ac6613",
+      "bytes": 11682
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/research/evidence/csrc_20150703_excerpt.json",
+      "sha256": "8d04db888badc988813bb13ed2be5c06c5a1286f7ed41d282b317ca886d95b07",
+      "bytes": 834
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/research/evidence/csrc_20150708_excerpt.json",
+      "sha256": "fb0d139f8276a2229c58a770917c7ab1b0f45b25c501e50adaef8bd74315d820",
+      "bytes": 919
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/research/evidence/gtja_20150620_reading_record.json",
+      "sha256": "159d7b2bac9f63f0f288fc1b294a71ee00655dc4a1bed6e492eed2672b09d52a",
+      "bytes": 1071
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/research/evidence/rigor_a_reading_records.json",
+      "sha256": "736629b5c60e098df8ee0590ef16a6ff465a5ca25934063d1d03f9dfffc31c33",
+      "bytes": 3181
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/research/jun.md",
+      "sha256": "42976120d98f0f81a10a18e497b0cdf2845b475d32cb1cbbbaf9d760dac32afd",
+      "bytes": 17516
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/research/source_reconciliation.json",
+      "sha256": "915d50d3078fb17710fae6cc40770cd9552a4e3532e6cce028420eb3efe96cd0",
+      "bytes": 20247
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/rigor_application.json",
+      "sha256": "f5aa3af6e0ac466c81e01df647dc5b2056c9531c5689cdbf65c7b635f4806df6",
+      "bytes": 16396
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/rigor_policy.json",
+      "sha256": "93c825626c2696e798651f753306656faac3cdcb2dd37d8941fa667864d3f03a",
+      "bytes": 1429
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/source_registry.json",
+      "sha256": "065038613204508cde3600597be2a1adbef68af19ca9dfb43b69ac475bb4484f",
+      "bytes": 53838
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/validate_candidate.py",
+      "sha256": "4e01958238f5241300592e93b03c153dc5ee81c8b60acd08e22b9d290b3eb13c",
+      "bytes": 15767
+    },
+    {
+      "path": "editorial/2015/releases/v1.0.1/validation_report.json",
+      "sha256": "e291b47cb2da19b228a153e4ba78f444657f3c3a921889d8d34a82aec26e43c9",
+      "bytes": 6069
+    }
+  ],
+  "protected_sha256": {
+    "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "config/event_registry.json": "fc99e9b18b06d0df703b95d2f9d0934d2941134b8c4c57878291c77716fb7c4d",
+    "config/production/film_master_v1.json": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706"
+  },
+  "data_ingest_002": {
+    "manifest_sha256": "142c05f9fad675dd99e96378036636955b86ad075fdeb0bc003e1dbe771d36f9",
+    "handoff_source_id_and_declared_sha256_matches": 37,
+    "scope": "Intake lineage comparison. Missing original bytes remain unverified."
+  },
+  "content_validation": {
+    "command": "python3 editorial/2015/releases/v1.0.1/validate_candidate.py --repo-root . --output output/wf-02-2015-gpt-v1.0.1/content_validation.json",
+    "exit_code": 0,
+    "checks": 34,
+    "report_sha256": "9abdbbdcf68bbe97ad3fdfcfb87b9ca61e222a17b68020bfee3a4466181fd906"
+  },
+  "photo_source_receipt_sha256": "005eab06098d26767c290078f5acdae1a5a411d66f54a10d5a47db37ab3475c4"
+}

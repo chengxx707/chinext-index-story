@@ -1,0 +1,92 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'output/wf-02-2015-gpt-v1.0.1/final/preview_2015_v1.0.1_photo_missing.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.103
+  Duration: 00:02:47.00, start: 0.000000, bitrate: 199 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 540x960, 196 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.103
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 540x960, q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 wrapped_avframe
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 12.133333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 4.533333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 16.666667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 26.133333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 5.866667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 32
+frame= 1149 fps=0.0 q=-0.0 size=N/A time=00:00:38.30 bitrate=N/A speed=76.6x    [freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 50.633333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 4.366667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 55
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 55
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 1.1
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 56.1
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 56.1
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 2.233333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 58.333333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 58.333333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 3.666667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 62
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 64.133333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 2.533333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 66.666667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 66.666667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 2.333333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 69
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 69.6
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 5.4
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 75
+frame= 2326 fps=2325 q=-0.0 size=N/A time=00:01:17.53 bitrate=N/A speed=77.5x    [freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 83.333333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 3.666667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 87
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 106.133333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 2.2
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 108.333333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 108.333333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 2.666667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 111
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 112
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 3
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 115
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 116.866667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 4.133333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 121
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 121
+frame= 3679 fps=2452 q=-0.0 size=N/A time=00:02:02.63 bitrate=N/A speed=81.7x    [freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 5.166667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 126.166667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 127.633333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 4.366667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 132
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 133
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 6
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 139
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 139.633333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 4.366667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 144
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 145.166667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 3.833333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 149
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 156.133333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 2.2
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 158.333333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 158.333333
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_duration: 4.666667
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_end: 163
+[freezedetect @ 0x7f056c0026c0] lavfi.freezedetect.freeze_start: 163.166667
+[out#0/null @ 0x55aa1f6ae580] video:2153KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 5010 fps=2514 q=-0.0 Lsize=N/A time=00:02:47.00 bitrate=N/A speed=83.8x    

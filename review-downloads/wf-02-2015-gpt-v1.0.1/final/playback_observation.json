@@ -1,0 +1,267 @@
+{
+  "passed": true,
+  "mode": "chromium_headless_actual_realtime_playback_no_seeks",
+  "wallSeconds": 167.89,
+  "result": {
+    "currentTime": 167,
+    "duration": 167,
+    "width": 540,
+    "height": 960,
+    "muted": true,
+    "ended": true,
+    "error": null,
+    "readyState": 4,
+    "frames": 5010,
+    "dropped": 0,
+    "events": [
+      {
+        "event": "loadedmetadata",
+        "at": 0,
+        "clock": 41.19999999925494,
+        "code": null
+      },
+      {
+        "event": "play",
+        "at": 0,
+        "clock": 50.100000001490116,
+        "code": null
+      },
+      {
+        "event": "waiting",
+        "at": 0,
+        "clock": 50.19999999925494,
+        "code": null
+      },
+      {
+        "event": "playing",
+        "at": 0.0005,
+        "clock": 53.100000001490116,
+        "code": null
+      },
+      {
+        "event": "ended",
+        "at": 167,
+        "clock": 167053.40000000224,
+        "code": null
+      }
+    ],
+    "played": [
+      [
+        0,
+        167
+      ]
+    ]
+  },
+  "snapshots": [
+    {
+      "second": 0.0066,
+      "frames": 4,
+      "dropped": 0,
+      "file": "playback/watch_000007.jpg"
+    },
+    {
+      "second": 4.9485,
+      "frames": 153,
+      "dropped": 0,
+      "file": "playback/watch_004949.jpg"
+    },
+    {
+      "second": 9.8933,
+      "frames": 301,
+      "dropped": 0,
+      "file": "playback/watch_009893.jpg"
+    },
+    {
+      "second": 14.8496,
+      "frames": 449,
+      "dropped": 0,
+      "file": "playback/watch_014850.jpg"
+    },
+    {
+      "second": 19.8116,
+      "frames": 598,
+      "dropped": 0,
+      "file": "playback/watch_019812.jpg"
+    },
+    {
+      "second": 24.742,
+      "frames": 746,
+      "dropped": 0,
+      "file": "playback/watch_024742.jpg"
+    },
+    {
+      "second": 29.6735,
+      "frames": 894,
+      "dropped": 0,
+      "file": "playback/watch_029674.jpg"
+    },
+    {
+      "second": 34.6112,
+      "frames": 1042,
+      "dropped": 0,
+      "file": "playback/watch_034611.jpg"
+    },
+    {
+      "second": 39.571,
+      "frames": 1191,
+      "dropped": 0,
+      "file": "playback/watch_039571.jpg"
+    },
+    {
+      "second": 44.4957,
+      "frames": 1339,
+      "dropped": 0,
+      "file": "playback/watch_044496.jpg"
+    },
+    {
+      "second": 49.425,
+      "frames": 1487,
+      "dropped": 0,
+      "file": "playback/watch_049425.jpg"
+    },
+    {
+      "second": 54.3768,
+      "frames": 1635,
+      "dropped": 0,
+      "file": "playback/watch_054377.jpg"
+    },
+    {
+      "second": 59.2945,
+      "frames": 1783,
+      "dropped": 0,
+      "file": "playback/watch_059295.jpg"
+    },
+    {
+      "second": 64.2295,
+      "frames": 1931,
+      "dropped": 0,
+      "file": "playback/watch_064230.jpg"
+    },
+    {
+      "second": 69.1611,
+      "frames": 2079,
+      "dropped": 0,
+      "file": "playback/watch_069161.jpg"
+    },
+    {
+      "second": 74.0928,
+      "frames": 2227,
+      "dropped": 0,
+      "file": "playback/watch_074093.jpg"
+    },
+    {
+      "second": 79.0364,
+      "frames": 2375,
+      "dropped": 0,
+      "file": "playback/watch_079036.jpg"
+    },
+    {
+      "second": 83.9607,
+      "frames": 2523,
+      "dropped": 0,
+      "file": "playback/watch_083961.jpg"
+    },
+    {
+      "second": 88.8961,
+      "frames": 2671,
+      "dropped": 0,
+      "file": "playback/watch_088896.jpg"
+    },
+    {
+      "second": 93.8418,
+      "frames": 2819,
+      "dropped": 0,
+      "file": "playback/watch_093842.jpg"
+    },
+    {
+      "second": 98.7576,
+      "frames": 2967,
+      "dropped": 0,
+      "file": "playback/watch_098758.jpg"
+    },
+    {
+      "second": 103.6987,
+      "frames": 3115,
+      "dropped": 0,
+      "file": "playback/watch_103699.jpg"
+    },
+    {
+      "second": 108.6435,
+      "frames": 3263,
+      "dropped": 0,
+      "file": "playback/watch_108644.jpg"
+    },
+    {
+      "second": 113.5888,
+      "frames": 3412,
+      "dropped": 0,
+      "file": "playback/watch_113589.jpg"
+    },
+    {
+      "second": 118.5226,
+      "frames": 3560,
+      "dropped": 0,
+      "file": "playback/watch_118523.jpg"
+    },
+    {
+      "second": 123.4559,
+      "frames": 3708,
+      "dropped": 0,
+      "file": "playback/watch_123456.jpg"
+    },
+    {
+      "second": 128.3915,
+      "frames": 3856,
+      "dropped": 0,
+      "file": "playback/watch_128392.jpg"
+    },
+    {
+      "second": 133.3239,
+      "frames": 4004,
+      "dropped": 0,
+      "file": "playback/watch_133324.jpg"
+    },
+    {
+      "second": 138.2721,
+      "frames": 4152,
+      "dropped": 0,
+      "file": "playback/watch_138272.jpg"
+    },
+    {
+      "second": 143.1951,
+      "frames": 4300,
+      "dropped": 0,
+      "file": "playback/watch_143195.jpg"
+    },
+    {
+      "second": 148.1219,
+      "frames": 4448,
+      "dropped": 0,
+      "file": "playback/watch_148122.jpg"
+    },
+    {
+      "second": 153.0547,
+      "frames": 4596,
+      "dropped": 0,
+      "file": "playback/watch_153055.jpg"
+    },
+    {
+      "second": 157.9924,
+      "frames": 4744,
+      "dropped": 0,
+      "file": "playback/watch_157992.jpg"
+    },
+    {
+      "second": 162.9217,
+      "frames": 4892,
+      "dropped": 0,
+      "file": "playback/watch_162922.jpg"
+    },
+    {
+      "second": 167,
+      "frames": 5010,
+      "dropped": 0,
+      "file": "playback/watch_167000.jpg"
+    }
+  ]
+}

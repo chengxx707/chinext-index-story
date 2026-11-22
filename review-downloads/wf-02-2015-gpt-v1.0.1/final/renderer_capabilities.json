@@ -1,0 +1,56 @@
+{
+  "capabilities": [
+    "camera_continuity",
+    "company_context_distinct_from_index_value",
+    "coordinated_orbit_hit",
+    "floating_event_anchor",
+    "full_down_gap_geometry",
+    "immutable_historical_date_labels",
+    "independent_event_clock",
+    "market_clock_keys",
+    "market_freeze_with_event_clock",
+    "retrospective_statistic_label",
+    "single_reversible_stage_rail",
+    "statistics_range_bracket",
+    "true_close_endpoint_link",
+    "true_intraday_wick_anchor"
+  ],
+  "verified_evidence": [
+    "clock_validation.json",
+    "layout_diagnostics.json",
+    "media_validation.json"
+  ],
+  "implemented_or_reused": {
+    "camera_continuity": "editorial_clock.py：27个接缝投影和交易行一致，阅读期纵轴固定；缺照片镜继承前一镜近景",
+    "market_clock_keys": "editorial_clock.py：全部5010帧按导演市场时钟和真实OHLC揭示",
+    "single_reversible_stage_rail": "SceneDrawer._rail：第960帧换轨；7月按成交日实际收盘回退",
+    "company_context_distinct_from_index_value": "editorial_overlay.py：题签显示乐视收盘总市值，HUD单独显示399006点位",
+    "market_freeze_with_event_clock": "editorial_clock.py：保留候选盘后与周末冻结区间",
+    "immutable_historical_date_labels": "editorial_overlay.py：固定事件日期标签；GPT2015-08仅显示2015年6月",
+    "statistics_range_bracket": "editorial_overlay.py：4/20–24括号跟随真实图表投影",
+    "coordinated_orbit_hit": "editorial_overlay.py：既有地球红轨节点和局部反光按命中帧联动，缺照片镜无照片联动",
+    "true_close_endpoint_link": "editorial_overlay.py：先点亮两端，随后绘制真实收盘端点比较线",
+    "independent_event_clock": "editorial_overlay.py：事件/报道时间和行情HUD分开绘制",
+    "floating_event_anchor": "editorial_overlay.py：浮字位于图表上方，点与垂直线使用同一真实投影",
+    "full_down_gap_geometry": "editorial_overlay.py：前低到当日最高，绘制8/21、24、25的真实空白",
+    "retrospective_statistic_label": "editorial_overlay.py：6月定性背景保留事后回顾标签",
+    "true_intraday_wick_anchor": "editorial_overlay.py：6/05上影和9/02下影使用冻结日线极值"
+  },
+  "missing": {
+    "historical_photo_scene": {
+      "asset_id": "IMG-20150824-01",
+      "shot_id": "GPT2015-21",
+      "reason": "指定原件未进入运行环境",
+      "frame_span": [
+        3630,
+        3780
+      ],
+      "effect": "沿用前一镜的8月24日近景、真实收盘和单回撤轨，省略照片与图注，保留150帧"
+    }
+  },
+  "deferred": [
+    "全片采用映射",
+    "最终分辨率连续成片",
+    "用户观看验收"
+  ]
+}

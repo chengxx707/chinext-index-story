@@ -1,0 +1,75 @@
+{
+  "candidate_commit": "c313edfa7959dfc6e9c56badfd3f662ae7fe01b4",
+  "candidate_version": "v1.0.1",
+  "status": "MISSING_ORIGINALS_IN_RUNTIME",
+  "target": {
+    "originals_zip": {
+      "file_name": "2015-drawdown_originals_pack.zip",
+      "sha256": "9653d915fab235593f4c412b736e62ebb20893eff686445b1838a1343188062b",
+      "size_bytes": 5280475,
+      "root_directory": "2015-drawdown_原始资料包"
+    },
+    "asset": {
+      "asset_id": "IMG-20150824-01",
+      "path": "05_8月24日营业部现场照片/20150824_01_昆明证券交易大厅股民_中新社刘冉阳.jpg",
+      "sha256": "e9d18208a1e60e402af95d132c6e3a5cd5d313ecc1a00d08142e1898669a555e",
+      "bytes": 68047,
+      "size": [
+        940,
+        625
+      ],
+      "format": "JPEG",
+      "image_url": "http://i2.chinanews.com/simg/hd/2015/08/24/7deac038a01e4f21ba5f602e22d774cb.jpg",
+      "caption_safe": "2015.08.24 · 昆明｜中新社发 刘冉阳 摄",
+      "rights_status": "NOT_PROVIDED",
+      "public_release_ready": false
+    },
+    "shot": {
+      "shot_id": "GPT2015-21",
+      "start_frame": 3630,
+      "end_frame_exclusive": 3780,
+      "anchor_frame": 3645,
+      "fps": 30
+    }
+  },
+  "checks": [
+    {
+      "kind": "local_workspace",
+      "result": "Exact-size ZIP and JPEG absent; no candidate archive named originals was found."
+    },
+    {
+      "kind": "attached_research_zip",
+      "name": "2015-drawdown_research_pack.zip",
+      "bytes": 43709,
+      "sha256": "4557e2ded9b9b4e56be599cbd54747a92e1b58e1ebe54b9edfd554cfe5d3f1d3",
+      "result": "Inspected ZIP member list. It contains research JSON and a README without original JPEGs."
+    },
+    {
+      "kind": "tracked_editorial_zip",
+      "name": "chinext-2015-editorial-v1.0.0.zip",
+      "bytes": 154242,
+      "sha256": "e1d507cce1c968a960b63dfc03bb0c2c8ade37e60d69de1bc0d0f6d29c1dba9c",
+      "result": "Inspected ZIP member list. Editorial content only; no originals ZIP or JPEG."
+    },
+    {
+      "kind": "github_releases",
+      "http_status": 200,
+      "result": "Visible repository Releases web page reports no releases. GitHub API probe received 403 from the proxy."
+    },
+    {
+      "kind": "original_image_url",
+      "url": "http://i2.chinanews.com/simg/hd/2015/08/24/7deac038a01e4f21ba5f602e22d774cb.jpg",
+      "http_status": 403,
+      "bytes": 16,
+      "content_type": "text/plain",
+      "result": "Request returned a text response rather than the specified image. HTTPS variant failed proxy CONNECT with 403 and downloaded zero bytes."
+    },
+    {
+      "kind": "original_gallery_url",
+      "url": "https://www.chinanews.com/m/tp/hd/2015/0824/71156.shtml",
+      "result": "HTTPS connection failed proxy CONNECT with 403; zero bytes downloaded."
+    }
+  ],
+  "staged_path": null,
+  "note": "The upstream editorial manifest records receipt of an exact media web JPEG. No verified copy was available to this runtime. A substitute was not used."
+}
