@@ -1,0 +1,44 @@
+{
+  "task": "DIRECTOR-V1.0-STRUCTURE-REVIEW",
+  "result": "CONTRACT_PENDING_CORRECTIONS",
+  "editorial_commit": "b636137210beb95cef99c715138581027da40cd0",
+  "implementation_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+  "frozen_inputs_sha256": {
+    "editorial/2015/HANDOFF_TO_CODEX.md": "0eb6a056018fc51c47520e99b63179e64d327fdd7f9f3b0fd69a25b55d894fd3",
+    "editorial/2015/director/README.md": "28483151e77c11dada628ba3789d52446b2b54c7be35305cb837948f820b9590",
+    "editorial/2015/director/DIRECTOR_SYSTEM_V1.0.md": "906e0955b0a2c3c03a7044d2ae45d0a3ec9f818ef8b2658075941652d086726d",
+    "editorial/2015/director/2015_STORY_ARCHITECTURE_V1.0.md": "c076d2cc3de509ecd1e11be98e1247d18e60dc03c41c303d411a76f9f7fb69da",
+    "editorial/2015/director/2015_BEAT_SHEET_V1.0.json": "c3f231876e13cb6a3b06f687279bfb1462bf51042e61d5f597824f5feeb238d1",
+    "editorial/2015/director/REFERENCE_DECONSTRUCTION.md": "6a2436ef1ef712d01eee79a65bfa1f879e469108ca3d3e5501cc8fb9555d6c81",
+    "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "config/production/film_master_v1.json": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "config/event_registry.json": "fc99e9b18b06d0df703b95d2f9d0934d2941134b8c4c57878291c77716fb7c4d"
+  },
+  "artifacts": {
+    "README.md": {
+      "sha256": "2939383489a98a9c07b1b907bd192d357bcea3a2d27f2a15df8709393de25a18",
+      "bytes": 13305
+    },
+    "data_audit.json": {
+      "sha256": "fc2a5f5f172abdacb604728d364e1f196a70d28db0a446660dbf71a37dcc9403",
+      "bytes": 31993
+    },
+    "structure_checks.json": {
+      "sha256": "aaa6e50c96cdff206f3c6cb39b5c7d3536e6937b0bedec39836962ed919322f2",
+      "bytes": 8789
+    },
+    "v1.0.1-baseline-validation.json": {
+      "sha256": "dd6e1c3a80825b5475e7af003dd9439150daadf1d17fd6a1771249d6eb22ef14",
+      "bytes": 6190
+    }
+  },
+  "verification": {
+    "ohlc_rows": 3992,
+    "beat_anchors": 18,
+    "exact_beat_anchors": 13,
+    "structural_dimensions_checked_per_beat": 7,
+    "v1.0.1_content_checks_passed": 34,
+    "new_production_code_modified": false,
+    "new_candidate_rendered": false
+  }
+}

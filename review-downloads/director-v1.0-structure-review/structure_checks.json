@@ -1,0 +1,274 @@
+{
+  "method": "Read pinned Git blobs; compare required keys and schema constants; record implementation constraints by source inspection. No new schema or renderer was executed.",
+  "current_implementation_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+  "raw_beat_sheet_compatible": false,
+  "required_root_fields_missing": [
+    "cues",
+    "fps",
+    "frame_count",
+    "global_rules",
+    "package_version",
+    "rail",
+    "source_provenance",
+    "timebase"
+  ],
+  "schema_version": {
+    "candidate": "chinext-director-beat-sheet/1.0",
+    "expected": "gpt-director-1.0"
+  },
+  "released_cues_required_keys": [
+    "camera",
+    "earth_orbit",
+    "end_frame_exclusive",
+    "event_clock",
+    "historical_anchor_label",
+    "link_geometry",
+    "market_clock",
+    "photo_asset_id",
+    "primary_anchor",
+    "rail_mode",
+    "requires_renderer_capabilities",
+    "shot_id",
+    "start_frame",
+    "text_cue"
+  ],
+  "released_cues_inspected": 28,
+  "released_frame_count": 5010,
+  "identical_authored_beat_fields": [
+    "act",
+    "anchor",
+    "audience_takeaway",
+    "camera_motion",
+    "director_state",
+    "duration_seconds",
+    "id",
+    "market_motion",
+    "market_window",
+    "narrative_purpose",
+    "primary_layer",
+    "secondary_layers",
+    "title",
+    "transition_out",
+    "visual_mode"
+  ],
+  "enum_values_used": {
+    "director_state": [
+      "S1_FLOW",
+      "S1_FLOW_TO_S3_TAKEOVER",
+      "S2_SIGNAL_TO_S3_TAKEOVER",
+      "S2_SIGNAL_TO_S6_SETTLEMENT",
+      "S3_TAKEOVER",
+      "S3_TAKEOVER_TO_S4_SHOCK",
+      "S4_SHOCK",
+      "S4_SHOCK_TO_S3_TAKEOVER",
+      "S4_SHOCK_TO_S6_SETTLEMENT",
+      "S5_REACTION_REPAIR",
+      "S5_REACTION_REPAIR_TO_S6_SETTLEMENT"
+    ],
+    "visual_mode": [
+      "M1_FLOW_TO_M6_SETTLEMENT",
+      "M1_MARKET",
+      "M1_MARKET_THEN_M3_EVENT",
+      "M1_MARKET_TO_M2_RANGE",
+      "M1_MARKET_TO_M2_SETTLEMENT",
+      "M1_MARKET_WITH_M2_REPEATED_SETTLEMENT",
+      "M1_TO_M2",
+      "M1_TO_M5_DOCUMENTARY",
+      "M2_KEY_POINT",
+      "M2_KEY_POINT_TO_M3_EVENT",
+      "M3_CONTEXT_THEN_M1",
+      "M3_EVENT_TAKEOVER",
+      "M4_COMPANY"
+    ],
+    "primary_layer": [
+      "L1_MARKET",
+      "L1_MARKET_THEN_L2_EVENT",
+      "L2_EVENT",
+      "L3_MARKET_STRUCTURE",
+      "L4_INDUSTRY_COMPANY",
+      "L6_MACRO_GLOBAL"
+    ]
+  },
+  "per_beat_contract_coverage": [
+    {
+      "id": "B01",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B02",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B03",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B04",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B05",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B06",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B07",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B08",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B09",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B10",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B11",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B12",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B13",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B14",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B15",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B16",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B17",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    },
+    {
+      "id": "B18",
+      "market_clock": "DATE_WINDOW_AND_ANCHOR_ONLY",
+      "event_clock": "NOT_STRUCTURED",
+      "camera_story_clock": "DURATION_AND_MOTION_PROSE_ONLY",
+      "primary_focus": "BEAT_LEVEL_FIELD",
+      "secondary_layers": "BEAT_LEVEL_LIST",
+      "transition": "EXIT_PROSE_ONLY",
+      "acceptance": "AUDIENCE_TAKEAWAY_ONLY"
+    }
+  ]
+}
