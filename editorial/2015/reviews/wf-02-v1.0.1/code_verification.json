@@ -1,0 +1,121 @@
+{
+  "schema_version": "wf02-independent-code-audit-1.0",
+  "reviewed_commit": "31de236cdbaeac8ec39391794ff79b0f2ab1dc88",
+  "editorial_input_commit": "c313edfa7959dfc6e9c56badfd3f662ae7fe01b4",
+  "candidate_version": "1.0.1",
+  "audit_date": "2026-11-22",
+  "method": {
+    "source": "Read actual committed editorial_clock.py and model.py through the GitHub read connector; execute their source in temporary in-memory Python modules.",
+    "drawing_dependency": "Provide the same clamp-to-[0,1] smoothstep expression v*v*(3-2*v) as drawing.smooth; no image compositor or encoding is run.",
+    "frozen_inputs": "Read local received copies of data/cyb_daily.csv and editorial/2015/releases/v1.0.1/director_timeline.json; independently recompute both SHA-256 digests.",
+    "runs": [
+      "EditorialClock(..., width=540, photo_available=False): inspect all states, all cue joins, primary-anchor coordinates after each hit, and selected stage values.",
+      "EditorialClock(..., width=540, photo_available=True): inspect camera_adjustments and projections at frames 3630, 3645, 3780 and 3810; no photograph file was loaded or drawn."
+    ],
+    "tolerance": {
+      "join_projection_absolute": 1e-8,
+      "current_close_absolute": 1e-8
+    },
+    "primary_anchor_visibility": "For each frame at or after that cue's hit, project its fixed date/value through that frame's camera and check 26 <= x <= 704 and 252 <= y <= 846. This checks anchor coordinates, not rasterized marker visibility or occlusion.",
+    "source_files_modified": false,
+    "browser_used": false,
+    "video_encoded": false
+  },
+  "input_digests": {
+    "data/cyb_daily.csv": {
+      "bytes": 360001,
+      "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205"
+    },
+    "editorial/2015/releases/v1.0.1/director_timeline.json": {
+      "bytes": 83281,
+      "sha256": "8a979d4cbc80182fa329d4579d5503f30bf5bd8d11aba3edc0c78647980be7ea"
+    }
+  },
+  "independent_clock_results": {
+    "frame_count": 5010,
+    "join_count": 27,
+    "projection_matches_at_all_joins": true,
+    "market_row_matches_at_all_joins": true,
+    "monotone_playhead": true,
+    "wrong_current_close_frames": [],
+    "out_of_bounds_primary_anchor_frames_after_hit_count": 0,
+    "july_7_stage_value_fraction": -0.40937660870111114,
+    "july_23_stage_value_fraction": -0.25470525456714177,
+    "final_close": 1797.56,
+    "final_stage_value_fraction": -0.5486069433109424,
+    "cue_13_end_clock_separation": {
+      "event_anchor_date": "2015-07-08",
+      "market_hud_date_at_frame_2459": "2015-07-10"
+    }
+  },
+  "zoom_at_32_seconds": {
+    "frames": [960, 975, 990],
+    "window_spans": [125.0, 71.5, 18.0],
+    "y_domain_ranges": [3201.6400000000003, 2133.765, 1065.8899999999999],
+    "interpretation": "One-second horizontal zoom approximately 6.94x and vertical zoom approximately 3.00x; this is whole-chart camera motion, not per-candle OHLC alteration."
+  },
+  "photo_available_clock_branch": {
+    "photograph_rendered_in_this_check": false,
+    "camera_adjustments": [
+      {
+        "shot_id": "GPT2015-21",
+        "field": "transition_seconds",
+        "authored": 1.0,
+        "applied": 0.5,
+        "reason": "settle_vertical_scale_before_reading"
+      }
+    ],
+    "projection_at_frame_3630": {
+      "window_start": 1255.6,
+      "window_span": 18.0,
+      "y_min": 1700.0,
+      "y_max": 2900.0
+    },
+    "projection_at_frame_3645": {
+      "window_start": 1174.0,
+      "window_span": 120.0,
+      "y_min": 1680.2,
+      "y_max": 4290.58
+    },
+    "projection_at_frame_3780": {
+      "window_start": 1174.0,
+      "window_span": 120.0,
+      "y_min": 1680.2,
+      "y_max": 4290.58
+    },
+    "projection_at_frame_3810": {
+      "window_start": 1256.3407407407406,
+      "window_span": 18.0,
+      "y_min": 1700.0,
+      "y_max": 2900.0
+    }
+  },
+  "code_review_findings": [
+    {
+      "status": "CONFIRMED_REPRODUCIBILITY_GAP",
+      "path": "tools/render_editorial_preview.py",
+      "finding": "The committed render entry produces layout_diagnostics.json and media_validation.json, but does not produce the delivered clock_validation.json or renderer_capabilities.json. No generator for those two reports or new adapter tests was added in this commit.",
+      "qualification": "This does not establish that the delivered reports are false; it limits automatic regeneration of their evidence in later runs."
+    },
+    {
+      "status": "CONFIRMED_MOTION_BEHAVIOR_REQUIRES_VISUAL_JUDGMENT",
+      "path": "src/chinext_v6/editorial_clock.py::_projections",
+      "time_range_seconds": [32, 33],
+      "finding": "Large one-second camera magnification as measured above."
+    },
+    {
+      "status": "CONFIRMED_UNRENDERED_PHOTO_BRANCH_BEHAVIOR",
+      "path": "src/chinext_v6/editorial_clock.py::_projections",
+      "time_range_seconds": [121, 127],
+      "finding": "Enabling the photo restores an 18-to-120-candle pullback in 0.5 seconds, then a return to the 18-candle window after 126 seconds. The currently delivered photo-missing video does not contain that pullback."
+    }
+  ],
+  "not_measured_or_not_performed": [
+    "Numerical derivatives or acceleration thresholds for camera C1; continuity is analytically supported for the current configuration, with positions checked independently.",
+    "Raster visibility or occlusion of every anchor and link in all frames.",
+    "Actual photo rendering, JPEG verification, or completed photo-scene visual acceptance.",
+    "Continuous video playback or comparison with the NASDAQ motion reference.",
+    "New video encoding, independent rerun of the 165 existing regression tests, or execution of newly written tests.",
+    "Human aesthetic approval, smartphone text legibility approval, or full-film assembly."
+  ]
+}

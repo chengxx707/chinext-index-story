@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "document_kind": "production_change_request",
+  "task_id": "WF-02R1",
+  "status": "READY",
+  "execution_status": "NOT_ACKNOWLEDGED",
+  "created_at": "2026-11-22T16:28:33+08:00",
+  "auto_import_as_renderer_config": false,
+  "note": "This is an execution specification. Codex must implement and validate an explicit visual revision and resolved timeline; this JSON is not claimed to be accepted by the current adapter.",
+  "content_version": "1.0.1",
+  "content_input_commit": "c313edfa7959dfc6e9c56badfd3f662ae7fe01b4",
+  "implementation_base_commit": "31de236cdbaeac8ec39391794ff79b0f2ab1dc88",
+  "invariants": {
+    "fps": 30,
+    "frame_count": 5010,
+    "duration_seconds": 167,
+    "shot_count": 28,
+    "silent": true,
+    "immutable": [
+      "released_v1.0.1",
+      "raw_assets",
+      "frozen_ohlc",
+      "formal_427s_master"
+    ],
+    "resolved_timeline_fields_unchanged": [
+      "start_frame",
+      "end_frame_exclusive",
+      "market_clock",
+      "primary_anchor",
+      "rail_mode"
+    ],
+    "no_future_candles": true,
+    "one_active_price_based_rail": true
+  },
+  "work_items": [
+    {
+      "id": "R1-01",
+      "priority": "REQUIRED_FOR_COMPLETE_PREVIEW",
+      "subject": "Photo intake, credit and camera handoff",
+      "shot_ids": [
+        "GPT2015-21"
+      ],
+      "asset_id": "IMG-20150824-01",
+      "sha256": "e9d18208a1e60e402af95d132c6e3a5cd5d313ecc1a00d08142e1898669a555e",
+      "credit": "中新社发 刘冉阳 摄",
+      "frame_interval": [
+        3630,
+        3780
+      ],
+      "camera": "inherit previous market projection; transition photo layer without 18-to-120-candle pullback",
+      "photo_fit": "contain; preserve watermark and documentary context",
+      "must_run_photo_available_true": true,
+      "asset_delivery": "private package; public repository manifest only"
+    },
+    {
+      "id": "R1-02",
+      "priority": "VISUAL_REVISION_REQUIRED",
+      "subject": "Shared hierarchy for extrema, events and photograph",
+      "scope": "all 28 shots",
+      "styles": [
+        "extremum_or_interval",
+        "policy_or_event",
+        "documentary_photo"
+      ],
+      "target_pixel_font_starting_ranges_at_1080_width": {
+        "hero_value": [
+          96,
+          120
+        ],
+        "event_main": [
+          48,
+          60
+        ],
+        "date_and_qualifier": [
+          32,
+          40
+        ],
+        "short_source": [
+          28,
+          32
+        ]
+      },
+      "pixel_ranges_are_not_auto_acceptance": true,
+      "reference": "assets/reference/approved_visual_reference.png",
+      "preserve": [
+        "solid true OHLC",
+        "simple sans title",
+        "East Asia earth",
+        "red orbit",
+        "single rail"
+      ],
+      "requirements": [
+        "visible link to real anchor without causal arrow",
+        "no important candle occlusion",
+        "no repeated competing primary number",
+        "label distinct endpoint versus stage-rail baselines",
+        "phone reading inspection at 390px width"
+      ]
+    },
+    {
+      "id": "R1-03",
+      "priority": "VISUAL_REVISION_REQUIRED",
+      "subject": "Bounded motion and after-close reading repair",
+      "camera_trial": {
+        "shot_id": "GPT2015-06",
+        "visible_trading_days": 48,
+        "replaces_visible_trading_days": 18,
+        "hit_frame_unchanged": 990,
+        "transition_seconds_initial": 1.0,
+        "y_domain": "derive padded domain from already reached real visible OHLC; settle before stable reading"
+      },
+      "review_ranges_seconds": [
+        [
+          30,
+          36
+        ],
+        [
+          120,
+          128
+        ],
+        [
+          131,
+          145
+        ]
+      ],
+      "after_close": {
+        "shots": [
+          "GPT2015-23",
+          "GPT2015-24"
+        ],
+        "frozen_market_date": "2015-08-25",
+        "frozen_market_close": 1990.71,
+        "full_readability_from_frames_unchanged": [
+          3981,
+          4191
+        ],
+        "preserve_implementation_dates": [
+          "2015-08-26",
+          "2015-09-06"
+        ],
+        "preserve_event_timestamp_semantics": true,
+        "text_and_geometry_exit_rule_required": true
+      },
+      "low_motion_fraction_is_not_a_target": true
+    },
+    {
+      "id": "R1-04",
+      "priority": "REPRODUCIBILITY_REQUIRED",
+      "subject": "Generate current-run clock and capability reports",
+      "reports": [
+        "clock_validation.json",
+        "renderer_capabilities.json",
+        "resolved_config_validation.json"
+      ],
+      "bind_hashes": [
+        "content_manifest",
+        "resolved_director_timeline",
+        "visual_revision",
+        "relevant_renderer_code",
+        "actual_photo",
+        "actual_media"
+      ],
+      "new_tests": [
+        "cue joins",
+        "historical event label versus HUD",
+        "weekend/after-close freeze",
+        "rail retracement",
+        "photo-present and photo-missing branches"
+      ],
+      "reuse_existing_orchestration": true
+    }
+  ],
+  "deliverables": {
+    "complete_preview": {
+      "duration_seconds": 167,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "audio_streams": 0,
+      "if_blocked": "report actual output and specific blocker; do not infer full-video resolution from stills"
+    },
+    "same_time_comparisons_seconds": [
+      26.2,
+      33.2,
+      76.7,
+      132.7,
+      156.2
+    ],
+    "photo_comparison_private_seconds": 121.7,
+    "playback_method_must_be_stated": true,
+    "photo_containing_media_delivery": "local/private download, no public repository image bytes",
+    "user_aesthetic_acceptance": "PENDING"
+  }
+}

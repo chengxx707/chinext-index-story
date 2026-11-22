@@ -1,25 +1,20 @@
 # 内容生产任务与执行状态
 
-更新时间：2026-11-22 15:41（北京时间）。计划、实际执行、交付、用户视觉批准分别记录。
+更新时间：2026-11-22 16:28（北京时间）。计划、执行、交付、内部审计、用户视觉批准分别记录。
 
-|任务|负责人|任务状态|执行状态／证据|
+|任务|负责人|状态|证据|
 |---|---|---|---|
-|GPT-2015-AUDIT|GPT|COMPLETED|39条逐项审阅；不是旧23项底稿|
-|GPT-2015-STORY|GPT|COMPLETED|六阶段叙事|
-|GPT-2015-BOARD|GPT|COMPLETED|V1.0.1：167秒、28镜完整候选|
-|USER-D01|用户|CONFIRMED|2026-11-22明确采用方案A，无须重复确认|
-|GPT-2015-STANDARD-A|GPT|COMPLETED|精确数取舍、补证与文案同步已落实|
-|GPT-2015-INTEGRATION-MAP|GPT|COMPLETED_PROPOSAL|已明确2014入口、9月出口和四个旧节拍省略；未改主表|
-|CODEX-2015-IMPORT|Codex|READY|执行UNKNOWN；待真实接单回执，不是假定Standby|
-|CODEX-2015-PREVIEW|Codex|READY_AFTER_IMPORT|167秒整段预演；待能力对照、最小适配和实际输出|
-|USER-2015-VISUAL|用户|PENDING_MEDIA|有连续预览后集中观看；尚未视觉批准|
+|GPT-2015-AUDIT|GPT|COMPLETED|39/39条独立审计|
+|GPT-2015-STANDARD-A|GPT|COMPLETED|用户已确认方案A，已落实|
+|GPT-2015-STORY / BOARD|GPT|COMPLETED|V1.0.1，167秒28镜|
+|GPT-2015-INTEGRATION-MAP|GPT|COMPLETED_PROPOSAL|全片接入提案，未采用|
+|CODEX-2015-IMPORT|Codex|COMPLETED|输入29个文件一致|
+|WF-02-CONTINUOUS-PREVIEW|Codex|DELIVERED_WITH_PHOTO_GAP|提交31de236，167秒缺照片版|
+|GPT-WF02-REVIEW|GPT|COMPLETED|[完整审计](../../editorial/2015/reviews/wf-02-v1.0.1/README.md)|
+|PHOTO-20150824-INTAKE|协调转交／Codex|PACKAGE_READY_RECEIPT_PENDING|最小包已交本对话；未声称Codex已接收|
+|WF-02R1|Codex|READY / NOT_ACKNOWLEDGED|[修订任务书](../../editorial/2015/reviews/wf-02-v1.0.1/CODEX_NEXT.md)|
+|USER-2015-VISUAL|用户|PENDING_REVISED_PREVIEW|尚未视觉批准|
 
-## 当前有效交接
+当前唯一有效制作交接：[HANDOFF_TO_CODEX.md](../../editorial/2015/HANDOFF_TO_CODEX.md)。下一轮用同一完整167秒验收，内部定点渲染服务于整段修订。
 
-读取 [HANDOFF_TO_CODEX.md](../../editorial/2015/HANDOFF_TO_CODEX.md)，导入完整V1.0.1。旧版本仍可追溯，但不覆盖本版文案。
-
-GPT负责证据判断、叙事和画面文字；Codex负责接收校验、适配、渲染、工程QA及真实播放记录。候选可预演，正式主表采用仍需映射差异和集中评审。不能把候选待视觉评审误读为事实审核尚未开始。
-
-## 运行状态
-
-没有注册一个持续后台运行的GPT生产进程。此页更新时本轮内容任务已完成。Codex未返回执行回执时不写RUNNING、COMPLETED或FAILED。收到回执后只据实更新对应项。
+没有注册持续后台GPT生产进程；本页是已完成工作的状态快照。GitHub任务已就绪不等于另一Codex会话已启动。

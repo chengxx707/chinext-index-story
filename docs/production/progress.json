@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T15:41:23+08:00",
+  "updated_at": "2026-11-22T16:28:33+08:00",
   "timezone": "Asia/Shanghai",
   "snapshot_not_live_heartbeat": true,
   "content_version": "1.0.1",
@@ -27,11 +27,19 @@
     "pending": []
   },
   "codex": {
-    "task_readiness": "READY",
-    "execution": "UNKNOWN",
-    "acknowledgement_received": false
+    "task_readiness": "WF-02R1_READY",
+    "execution": "WF-02_DELIVERED_WITH_PHOTO_GAP",
+    "acknowledgement_received": true,
+    "receipt_commit": "31de236cdbaeac8ec39391794ff79b0f2ab1dc88",
+    "content_input_commit": "c313edfa7959dfc6e9c56badfd3f662ae7fe01b4",
+    "next_task": {
+      "id": "WF-02R1",
+      "status": "READY",
+      "execution": "NOT_ACKNOWLEDGED",
+      "path": "editorial/2015/reviews/wf-02-v1.0.1/CODEX_NEXT.md"
+    }
   },
-  "video_rendered_for_version": false,
+  "video_rendered_for_version": true,
   "user_visual_approval": false,
   "formal_master_adopted": false,
   "source_of_truth": "editorial/2015/releases/v1.0.1/manifest.json",
@@ -41,7 +49,36 @@
     "blocks_167_second_preview": false
   },
   "last_remote_receipt_check": {
-    "checked_at": "2026-11-22T15:41:23+08:00",
-    "result": "No v1.0.1 execution receipt observed in inspected remote branch heads/open PRs; local Codex state remains unknown."
+    "checked_at": "2026-11-22T16:28:33+08:00",
+    "result": "WF-02 delivery at 31de236 received and independently audited; next WF-02R1 execution not acknowledged."
+  },
+  "production_stage": "INTEGRATED_PREVIEW_VISUAL_REVISION",
+  "preview": {
+    "duration_seconds": 167,
+    "fps": 30,
+    "frame_count": 5010,
+    "width": 540,
+    "height": 960,
+    "audio_streams": 0,
+    "photo_scene_complete": false,
+    "sha256": "876ebe10519d8ba321cfa9f01edebd5b8588a39e8133448dd24277c3395afccf"
+  },
+  "gpt_preview_review": {
+    "status": "COMPLETED_WITH_REVISIONS_REQUIRED",
+    "path": "editorial/2015/reviews/wf-02-v1.0.1/REVIEW_REPORT.md",
+    "whole_video_realtime_viewing_completed": false,
+    "actual_encoded_frames_inspected": true,
+    "phone_size_frames_inspected": true,
+    "nasdaq_reference_sampled": true,
+    "independent_clock_state_frames_checked": 5010
+  },
+  "photo_handoff": {
+    "asset_id": "IMG-20150824-01",
+    "package_name": "img-20150824-01-handoff.zip",
+    "package_bytes": 71414,
+    "package_sha256": "e882a725dd071d4bfbfba4212f4856a7db7edd51aec6641a7a175f4a9e41129d",
+    "gpt_status": "VERIFIED_PACKAGE_READY",
+    "codex_receipt": "PENDING",
+    "user_action": "Transfer the separate photo package to Codex; other revision work may proceed."
   }
 }

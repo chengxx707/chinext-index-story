@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "delivery": "private review ZIP in the coordinating conversation; no new image bytes in this public review commit",
+  "reason": "Automatic approval review rejected a new JPEG public upload as third-party image redistribution; the public update is text-only and references existing committed media. No retry of the rejected image upload.",
+  "reviewed_commit": "31de236cdbaeac8ec39391794ff79b0f2ab1dc88",
+  "images": [
+    {
+      "name": "phone_readability.jpg",
+      "bytes": 182742,
+      "sha256": "984272ce83ba1934ee36043203ca4e41e51f22ce623fca763def10ca1787a417"
+    },
+    {
+      "name": "peak_visual_comparison.jpg",
+      "bytes": 150483,
+      "sha256": "867cb9020346fa1bfd427e1c8a598d12b082dcdc161007535a1cdc50e7ab851d"
+    },
+    {
+      "name": "zoom_32_contact.jpg",
+      "bytes": 217593,
+      "sha256": "99608847bdb60fab125b7ec7df41211a5256cb6bd5a3e4b4acb0b967158b9b90"
+    },
+    {
+      "name": "policy_contact.jpg",
+      "bytes": 238104,
+      "sha256": "8b2322ad067d8a660b16eb1795055e6b3b47f8c2361fed92802f15537896c819"
+    }
+  ],
+  "existing_public_sources": {
+    "approved_reference": "https://github.com/chengxx707/chinext-index-story/blob/31de236cdbaeac8ec39391794ff79b0f2ab1dc88/assets/reference/approved_visual_reference.png",
+    "peak_frame": "https://github.com/chengxx707/chinext-index-story/blob/31de236cdbaeac8ec39391794ff79b0f2ab1dc88/review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-05-f0786.png",
+    "policy_frame": "https://github.com/chengxx707/chinext-index-story/blob/31de236cdbaeac8ec39391794ff79b0f2ab1dc88/review-downloads/wf-02-2015-gpt-v1.0.1/final/keyframes/GPT2015-23-f3981.png",
+    "raw_preview": "https://github.com/chengxx707/chinext-index-story/blob/31de236cdbaeac8ec39391794ff79b0f2ab1dc88/review-downloads/wf-02-2015-gpt-v1.0.1/final/preview_2015_v1.0.1_photo_missing.mp4"
+  }
+}

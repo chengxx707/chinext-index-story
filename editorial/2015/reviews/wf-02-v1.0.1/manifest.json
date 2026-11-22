@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "package": "wf-02-v1.0.1-gpt-review",
+  "created_at": "2026-11-22T16:31:07+08:00",
+  "reviewed_commit": "31de236cdbaeac8ec39391794ff79b0f2ab1dc88",
+  "public_package": "text_only",
+  "files": [
+    {
+      "path": "CODEX_NEXT.md",
+      "bytes": 8597,
+      "sha256": "1eecfa1c594d203468dfa7374c847429557329b0534e55f4ee594bb31d3bd790"
+    },
+    {
+      "path": "PHOTO_INTAKE.md",
+      "bytes": 1570,
+      "sha256": "acf9836b172c5a8ad8d4616b3ef3e3a4be2b10116c43e5ae0689fc972ebb9c58"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1911,
+      "sha256": "bac8109b72f60d329f48ef2eddc61328d85c0d456b0dd3bfbb6ce5bf6fc13193"
+    },
+    {
+      "path": "REVIEW_REPORT.md",
+      "bytes": 10882,
+      "sha256": "9dad38551c9fb08d518aded23dc1b612cd2e3e84c3d4b7d86c7c12cc33de0289"
+    },
+    {
+      "path": "code_review.md",
+      "bytes": 9349,
+      "sha256": "9e8a1c28d8133c1796cb4e75d887ca53c5b8162d65bfac5e1588dc8170834476"
+    },
+    {
+      "path": "code_verification.json",
+      "bytes": 5767,
+      "sha256": "79c89c4ea4e8f805867012cac1f5e2d6396c66bb5ea76eaa5723b617aee50b07"
+    },
+    {
+      "path": "photo_manifest.json",
+      "bytes": 2519,
+      "sha256": "d4fb82671edee9bda0aa9f70ca7a4bf7e87db4256fad0c5fde528ff49a5b22d2"
+    },
+    {
+      "path": "receipt_review.md",
+      "bytes": 7923,
+      "sha256": "41e4e1dbf3e82f83f56f6c7733b00694f582492165e30c3e37f1a7b4b69412ce"
+    },
+    {
+      "path": "revision_request.json",
+      "bytes": 5653,
+      "sha256": "2c40535d23bd74a1588fa9634c36eaa1cda9dddeac9e8602dac83b6602df8e99"
+    },
+    {
+      "path": "visual_evidence_receipt.json",
+      "bytes": 1878,
+      "sha256": "60d25898db0352964b7aca7eef852f429708ee1a8781fcb5dfe3e55b3495b781"
+    }
+  ]
+}
