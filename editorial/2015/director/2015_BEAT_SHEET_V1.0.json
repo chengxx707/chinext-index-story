@@ -22,7 +22,7 @@
     "reason": "Calculated directly from all beat duration_seconds values; timing remains an editorial budget pending readability tests and continuous preview."
   },
   "invariants": [
-    "Use real OHLC candles and preserve chronological trading order.",
+    "The main historical sequence preserves chronological trading order. B01 is an explicitly labeled isolated flash-forward hook to 2015-06-03, followed by a clear rewind to 2015-04-01; do not treat the hook as the start of the continuous market playhead or duplicate/synthesize OHLC bars.",
     "No synthetic intraday price path; only real daily OHLC.",
     "Market clock, event clock and camera/story clock are independent but evaluated from one director timeline.",
     "Event/date adjacency is not causality; no causal arrows or unsupported policy-effect language.",
