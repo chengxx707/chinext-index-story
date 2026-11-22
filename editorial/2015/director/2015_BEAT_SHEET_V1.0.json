@@ -1,0 +1,511 @@
+{
+  "schema_version": "chinext-director-beat-sheet/1.0",
+  "project": "创业板指（399006）2015历史章节",
+  "status": "DIRECTOR_CANDIDATE_NOT_RENDER_CONFIG",
+  "user_decisions": {
+    "visual_lead": "A_FINANCIAL_DOCUMENTARY",
+    "chapter_ending": "A_LOW_POINT_THROUGH_RECOVERY"
+  },
+  "rigor_standard": "A_T1_T2_T3",
+  "source_inputs": {
+    "frozen_ohlc": "data/cyb_daily.csv",
+    "content_release": "editorial/2015/releases/v1.0.1",
+    "reference_video": "user-provided Nasdaq-100 screen recording, 235.033s, 220x480, 30fps"
+  },
+  "duration_budget": {
+    "target_seconds": 226,
+    "range_seconds": [
+      210,
+      240
+    ],
+    "locked": false,
+    "reason": "Beat durations are editorial estimates; final timing follows reading tests and full continuous preview."
+  },
+  "invariants": [
+    "Use real OHLC candles and preserve chronological trading order.",
+    "No synthetic intraday price path; only real daily OHLC.",
+    "Market clock, event clock and camera/story clock are independent but evaluated from one director timeline.",
+    "Event/date adjacency is not causality; no causal arrows or unsupported policy-effect language.",
+    "Do not call 2015-09-15 the confirmed market bottom; label it period low close.",
+    "All percentages must state their date range and close/high/low basis.",
+    "Only one primary visual focal point at a time; other layers become secondary or exit.",
+    "No future candles or future market values before the market clock reaches them."
+  ],
+  "beats": [
+    {
+      "id": "B01",
+      "act": 1,
+      "title": "高光钩子：3982.25",
+      "duration_seconds": 8,
+      "market_window": [
+        "2015-06-03",
+        "2015-06-03"
+      ],
+      "anchor": {
+        "date": "2015-06-03",
+        "field": "close",
+        "value": 3982.25
+      },
+      "narrative_purpose": "先亮出这段旅程的阶段最高收盘，再把时间拨回上涨形成期。",
+      "director_state": "S2_SIGNAL_TO_S6_SETTLEMENT",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L2_EVENT"
+      ],
+      "visual_mode": "M2_KEY_POINT",
+      "market_motion": "freeze_on_anchor",
+      "camera_motion": "short controlled push-in then hold",
+      "audience_takeaway": "3982.25是阶段最高收盘，不是盘中最高价。",
+      "transition_out": "snap-freeze to date rewind; no loading pause"
+    },
+    {
+      "id": "B02",
+      "act": 1,
+      "title": "回到参与度快速变化的春天",
+      "duration_seconds": 10,
+      "market_window": [
+        "2015-04-01",
+        "2015-04-10"
+      ],
+      "anchor": {
+        "date": "2015-04-10",
+        "field": "close",
+        "value": 2404.91
+      },
+      "narrative_purpose": "建立2015年春季行情基线。",
+      "director_state": "S1_FLOW",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L2_EVENT"
+      ],
+      "visual_mode": "M1_MARKET",
+      "market_motion": "fast_forward_real_trading_days",
+      "camera_motion": "wide to medium",
+      "audience_takeaway": "先看到市场上行路径，再进入制度和参与度背景。",
+      "transition_out": "event date signal"
+    },
+    {
+      "id": "B03",
+      "act": 1,
+      "title": "一人一户限制放开与开户增长",
+      "duration_seconds": 14,
+      "market_window": [
+        "2015-04-10",
+        "2015-04-28"
+      ],
+      "anchor": {
+        "date": "2015-04-28",
+        "field": "close",
+        "value": 2687.97
+      },
+      "narrative_purpose": "呈现交易账户制度变化与市场参与度数据。",
+      "director_state": "S3_TAKEOVER",
+      "primary_layer": "L3_MARKET_STRUCTURE",
+      "secondary_layers": [
+        "L1_MARKET",
+        "L2_EVENT"
+      ],
+      "visual_mode": "M3_EVENT_TAKEOVER",
+      "market_motion": "medium then hold for publisher timestamp",
+      "camera_motion": "large account figure becomes focal; bracket marks observation week",
+      "audience_takeaway": "413.03万是A股新开账户数，不是创业板账户数或独立投资者人数。",
+      "transition_out": "figure resolves into company-scale visual"
+    },
+    {
+      "id": "B04",
+      "act": 1,
+      "title": "代表性企业与估值扩张",
+      "duration_seconds": 12,
+      "market_window": [
+        "2015-04-28",
+        "2015-05-29"
+      ],
+      "anchor": {
+        "date": "2015-05-29",
+        "field": "close",
+        "value": 3192.15
+      },
+      "narrative_purpose": "将抽象指数转为具体企业资本市场背景。",
+      "director_state": "S3_TAKEOVER",
+      "primary_layer": "L4_INDUSTRY_COMPANY",
+      "secondary_layers": [
+        "L1_MARKET"
+      ],
+      "visual_mode": "M4_COMPANY",
+      "market_motion": "continue slowly",
+      "camera_motion": "company focus with small index context",
+      "audience_takeaway": "企业市值不是创业板指数点位，也不是指数权重。",
+      "transition_out": "company scene dissolves back into rising candles"
+    },
+    {
+      "id": "B05",
+      "act": 2,
+      "title": "登上阶段最高收盘",
+      "duration_seconds": 12,
+      "market_window": [
+        "2015-05-29",
+        "2015-06-03"
+      ],
+      "anchor": {
+        "date": "2015-06-03",
+        "field": "close",
+        "value": 3982.25
+      },
+      "narrative_purpose": "让观众看到高点如何在K线中形成。",
+      "director_state": "S4_SHOCK_TO_S6_SETTLEMENT",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L2_EVENT"
+      ],
+      "visual_mode": "M2_KEY_POINT",
+      "market_motion": "accelerate into anchor then decelerate",
+      "camera_motion": "wide approach then focal push",
+      "audience_takeaway": "阶段最高收盘与盘中最高价是不同字段。",
+      "transition_out": "brief hold then reveal next higher intraday wick"
+    },
+    {
+      "id": "B06",
+      "act": 2,
+      "title": "盘中影线越过收盘高点",
+      "duration_seconds": 8,
+      "market_window": [
+        "2015-06-03",
+        "2015-06-10"
+      ],
+      "anchor": {
+        "date": "2015-06-10",
+        "field": "high",
+        "value": 4037.96
+      },
+      "narrative_purpose": "展示盘中高点高于阶段最高收盘，但收盘回落。",
+      "director_state": "S2_SIGNAL_TO_S3_TAKEOVER",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L2_EVENT"
+      ],
+      "visual_mode": "M2_KEY_POINT",
+      "market_motion": "continue real daily bars",
+      "camera_motion": "close crop with stable y-domain",
+      "audience_takeaway": "4037.96是盘中high，6月5日close为3885.83。",
+      "transition_out": "camera widens into reversal"
+    },
+    {
+      "id": "B07",
+      "act": 2,
+      "title": "高位反复与融资背景",
+      "duration_seconds": 12,
+      "market_window": [
+        "2015-06-10",
+        "2015-06-19"
+      ],
+      "anchor": {
+        "date": "2015-06-19",
+        "field": "close",
+        "value": 3314.98
+      },
+      "narrative_purpose": "呈现高位转折和杠杆环境的同期背景。",
+      "director_state": "S1_FLOW_TO_S3_TAKEOVER",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L3_MARKET_STRUCTURE",
+        "L2_EVENT"
+      ],
+      "visual_mode": "M1_MARKET_THEN_M3_EVENT",
+      "market_motion": "faster downward progression",
+      "camera_motion": "medium, no abrupt reset",
+      "audience_takeaway": "这是沪深市场事后回顾性背景，不是创业板专属余额，也不是6月18日即时公布。",
+      "transition_out": "market remains under pressure"
+    },
+    {
+      "id": "B08",
+      "act": 2,
+      "title": "第一次急跌：从高位向下",
+      "duration_seconds": 14,
+      "market_window": [
+        "2015-06-19",
+        "2015-07-07"
+      ],
+      "anchor": {
+        "date": "2015-07-07",
+        "field": "close",
+        "value": 2352.01
+      },
+      "narrative_purpose": "用真实K线呈现从高位向下的速度和幅度，不归因于单一事件。",
+      "director_state": "S4_SHOCK",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L2_EVENT"
+      ],
+      "visual_mode": "M1_MARKET_TO_M2_RANGE",
+      "market_motion": "compressed real trading sequence with acceleration",
+      "camera_motion": "widen to preserve full fall",
+      "audience_takeaway": "下跌是持续的交易日序列，不是某一条新闻的瞬间结果。",
+      "transition_out": "weekend event takeover"
+    },
+    {
+      "id": "B09",
+      "act": 3,
+      "title": "稳定市场措施集中出现",
+      "duration_seconds": 16,
+      "market_window": [
+        "2015-07-03",
+        "2015-07-03"
+      ],
+      "anchor": {
+        "date": "2015-07-03",
+        "field": "close",
+        "value": 2605.28
+      },
+      "narrative_purpose": "把周末公告和多项措施组织成历史事件场景。",
+      "director_state": "S3_TAKEOVER",
+      "primary_layer": "L2_EVENT",
+      "secondary_layers": [
+        "L1_MARKET",
+        "L3_MARKET_STRUCTURE"
+      ],
+      "visual_mode": "M3_EVENT_TAKEOVER",
+      "market_motion": "freeze at last real close",
+      "camera_motion": "event stage occupies central visual field",
+      "audience_takeaway": "这些是不同主体和范围的措施；1200亿元是承诺且标的为蓝筹ETF，不是已买入创业板。",
+      "transition_out": "event layers clear; market clock resumes at next trading day"
+    },
+    {
+      "id": "B10",
+      "act": 4,
+      "title": "反弹：7月7日至23日",
+      "duration_seconds": 12,
+      "market_window": [
+        "2015-07-07",
+        "2015-07-23"
+      ],
+      "anchor": {
+        "date": "2015-07-23",
+        "field": "close",
+        "value": 2967.95
+      },
+      "narrative_purpose": "展示同期出现的强劲反弹，但不作因果归因。",
+      "director_state": "S5_REACTION_REPAIR",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L2_EVENT"
+      ],
+      "visual_mode": "M1_MARKET_TO_M2_SETTLEMENT",
+      "market_motion": "accelerate upward real trading days",
+      "camera_motion": "pull wider to show full recovery leg",
+      "audience_takeaway": "这是7月7日至7月23日收盘区间，不代表已收复六月高点。",
+      "transition_out": "short hold then abrupt true down-day"
+    },
+    {
+      "id": "B11",
+      "act": 4,
+      "title": "7月27日再度重挫",
+      "duration_seconds": 8,
+      "market_window": [
+        "2015-07-23",
+        "2015-07-27"
+      ],
+      "anchor": {
+        "date": "2015-07-27",
+        "field": "close",
+        "value": 2683.45
+      },
+      "narrative_purpose": "打破反弹意味着稳定的预期。",
+      "director_state": "S4_SHOCK",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L2_EVENT"
+      ],
+      "visual_mode": "M2_KEY_POINT",
+      "market_motion": "one real session revealed with sharp transition",
+      "camera_motion": "brief impact push then hold",
+      "audience_takeaway": "单日跌幅由冻结OHLC字段计算；不是整个阶段回撤。",
+      "transition_out": "impact decays into August context"
+    },
+    {
+      "id": "B12",
+      "act": 5,
+      "title": "汇率与宏观压力背景",
+      "duration_seconds": 12,
+      "market_window": [
+        "2015-08-10",
+        "2015-08-20"
+      ],
+      "anchor": {
+        "date": "2015-08-20",
+        "field": "close",
+        "value": 2504.17
+      },
+      "narrative_purpose": "建立国内宏观和市场压力背景。",
+      "director_state": "S3_TAKEOVER_TO_S4_SHOCK",
+      "primary_layer": "L6_MACRO_GLOBAL",
+      "secondary_layers": [
+        "L1_MARKET",
+        "L2_EVENT"
+      ],
+      "visual_mode": "M3_CONTEXT_THEN_M1",
+      "market_motion": "real candles continue",
+      "camera_motion": "macro date/map layer enters then hands focus to K-line",
+      "audience_takeaway": "汇率机制调整与创业板下跌是同期背景，不直接画因果箭头。",
+      "transition_out": "PMI timestamp approaches"
+    },
+    {
+      "id": "B13",
+      "act": 5,
+      "title": "PMI时间点与8月24日市场冲击",
+      "duration_seconds": 14,
+      "market_window": [
+        "2015-08-20",
+        "2015-08-24"
+      ],
+      "anchor": {
+        "date": "2015-08-24",
+        "field": "close",
+        "value": 2152.61
+      },
+      "narrative_purpose": "把宏观数据发布时间、开市时间与真实下跌顺序并置。",
+      "director_state": "S4_SHOCK",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L6_MACRO_GLOBAL",
+        "L5_PEOPLE_SENTIMENT"
+      ],
+      "visual_mode": "M1_TO_M5_DOCUMENTARY",
+      "market_motion": "rapid real daily bar sequence",
+      "camera_motion": "close on gaps then documentary photo window",
+      "audience_takeaway": "PMI公布晚于当日开盘；照片图注只按原始来源，不推断人物情绪。",
+      "transition_out": "photo exits to below-2000 close"
+    },
+    {
+      "id": "B14",
+      "act": 5,
+      "title": "跌破2000点与盘后双降",
+      "duration_seconds": 16,
+      "market_window": [
+        "2015-08-24",
+        "2015-08-25"
+      ],
+      "anchor": {
+        "date": "2015-08-25",
+        "field": "close",
+        "value": 1990.71
+      },
+      "narrative_purpose": "呈现连续下跌、整数关口和盘后公告的时间关系。",
+      "director_state": "S4_SHOCK_TO_S3_TAKEOVER",
+      "primary_layer": "L1_MARKET_THEN_L2_EVENT",
+      "secondary_layers": [
+        "L6_MACRO_GLOBAL"
+      ],
+      "visual_mode": "M2_KEY_POINT_TO_M3_EVENT",
+      "market_motion": "reveal real 8/25 bar then freeze after close",
+      "camera_motion": "price drops through 2000 threshold; after-close policy takes center",
+      "audience_takeaway": "盘后公告不能放到盘中；政策实施日期不是未来行情。",
+      "transition_out": "next trading day proves market continues lower"
+    },
+    {
+      "id": "B15",
+      "act": 5,
+      "title": "政策实施日，市场仍继续下跌",
+      "duration_seconds": 10,
+      "market_window": [
+        "2015-08-25",
+        "2015-08-26"
+      ],
+      "anchor": {
+        "date": "2015-08-26",
+        "field": "close",
+        "value": 1890.04
+      },
+      "narrative_purpose": "避免把政策公告直接写成市场立即反转。",
+      "director_state": "S4_SHOCK",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L2_EVENT"
+      ],
+      "visual_mode": "M1_TO_M2",
+      "market_motion": "resume at 8/26 real session",
+      "camera_motion": "hold on actual candle and daily −5.06%",
+      "audience_takeaway": "政策实施当天创业板仍下跌；只呈现时间与价格事实。",
+      "transition_out": "widen to September search for low"
+    },
+    {
+      "id": "B16",
+      "act": 6,
+      "title": "寻找阶段低点",
+      "duration_seconds": 12,
+      "market_window": [
+        "2015-08-26",
+        "2015-09-15"
+      ],
+      "anchor": {
+        "date": "2015-09-15",
+        "field": "close",
+        "value": 1797.56
+      },
+      "narrative_purpose": "区分9月2日盘中低点和9月15日最低收盘。",
+      "director_state": "S4_SHOCK_TO_S6_SETTLEMENT",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L2_EVENT",
+        "L3_MARKET_STRUCTURE"
+      ],
+      "visual_mode": "M2_KEY_POINT",
+      "market_motion": "compressed decline with two distinct low markers",
+      "camera_motion": "wide enough to show 9/2 wick and 9/15 close",
+      "audience_takeaway": "阶段最低收盘不等于最低盘中价，也不等于最终市场底。",
+      "transition_out": "sudden rebound on next real trading day"
+    },
+    {
+      "id": "B17",
+      "act": 6,
+      "title": "急速反弹、反复回落与ETF份额变化",
+      "duration_seconds": 22,
+      "market_window": [
+        "2015-09-15",
+        "2015-09-29"
+      ],
+      "anchor": {
+        "date": "2015-09-29",
+        "field": "close",
+        "value": 2122.26
+      },
+      "narrative_purpose": "展示阶段低点后市场不是直线上升，而是多次反弹和回落。",
+      "director_state": "S5_REACTION_REPAIR",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L3_MARKET_STRUCTURE",
+        "L5_PEOPLE_SENTIMENT"
+      ],
+      "visual_mode": "M1_MARKET_WITH_M2_REPEATED_SETTLEMENT",
+      "market_motion": "alternating real up/down sessions",
+      "camera_motion": "one continuous path; avoid repetitive camera resets",
+      "audience_takeaway": "低点后出现快速反弹，但之后仍有回落；ETF份额增加是市场结构观察，不证明反弹原因。",
+      "transition_out": "expand time window into October"
+    },
+    {
+      "id": "B18",
+      "act": 6,
+      "title": "修复延续与章节结算",
+      "duration_seconds": 22,
+      "market_window": [
+        "2015-09-29",
+        "2015-11-25"
+      ],
+      "anchor": {
+        "date": "2015-11-25",
+        "field": "close",
+        "value": 2897.57
+      },
+      "narrative_purpose": "让观众看到阶段低点之后的更长修复，而非把9月15日当作故事终点。",
+      "director_state": "S5_REACTION_REPAIR_TO_S6_SETTLEMENT",
+      "primary_layer": "L1_MARKET",
+      "secondary_layers": [
+        "L3_MARKET_STRUCTURE"
+      ],
+      "visual_mode": "M1_FLOW_TO_M6_SETTLEMENT",
+      "market_motion": "time-compress regular sessions but preserve major oscillations",
+      "camera_motion": "gradually widen to full period path",
+      "audience_takeaway": "9/15至11/25收盘反弹61.19%，是观察区间结果，不是对后市的判断。",
+      "transition_out": "handoff to subsequent 2015 chapter/full-film section"
+    }
+  ]
+}

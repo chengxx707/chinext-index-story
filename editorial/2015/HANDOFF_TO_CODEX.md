@@ -1,14 +1,27 @@
-# CODEX_READY：WF-02R1整段视觉修订
+# HANDOFF TO CODEX｜Director System V1.0
 
-WF-02的167秒连续主体已交付并完成本轮GPT审计。当前执行任务是 **WF-02R1**。
+用户已确认：
+- 导演主导方式A：金融纪录片式；
+- 2015章节结尾A：阶段低点之后继续呈现反弹与修复；
+- 信息严谨程度方案A：T1/T2/T3。
 
-1. 读取[本轮审计](reviews/wf-02-v1.0.1/REVIEW_REPORT.md)与[具体任务书](reviews/wf-02-v1.0.1/CODEX_NEXT.md)，记录实际输入提交。
-2. 基于实现提交`31de236cdbaeac8ec39391794ff79b0f2ab1dc88`和内容V1.0.1做四项有限修订：补图及相机交接、共享信息层级、关键过渡与盘后阅读、报告可复跑。
-3. 接收本对话单独交付的`img-20150824-01-handoff.zip`，按[接收说明](reviews/wf-02-v1.0.1/PHOTO_INTAKE.md)核验。缺的是传入运行环境，不是重新研究照片。
-4. 回交完整167秒修订预览、同时间码对比和真实验证/观看记录。含照片媒体按既有资产规则走本地／私有交付，GitHub保留回执和摘要。
+本轮GPT交付：
+- editorial/2015/director/REFERENCE_DECONSTRUCTION.md
+- editorial/2015/director/DIRECTOR_SYSTEM_V1.0.md
+- editorial/2015/director/2015_STORY_ARCHITECTURE_V1.0.md
+- editorial/2015/director/2015_BEAT_SHEET_V1.0.json
+- editorial/2015/director/README.md
 
-[结构化要求](reviews/wf-02-v1.0.1/revision_request.json)是制作任务说明，不冒充现有渲染器已经支持的配置。实现显式视觉修订和解析后的导演时序，再验证实际使用的输入。
+## 当前任务：DIRECTOR-V1.0-STRUCTURE-REVIEW
 
-V1.0.1、方案A、已审39条事件、冻结日线和正式427秒主表保持可追溯。旧Standby指令已失效；不要重开完成的研究，也不要覆盖旧候选。
+只做结构和数据审查，不开始编码渲染。
 
-本次交接已获用户此前授权，无需再次询问信息标准。GitHub就绪不表示你的会话已自动启动；收到任务后据实登记接单状态。完成修订后由用户集中观看，正式全片采用继续参考[接缝映射](integration/v1.0.1/README.md)。
+1. 检查Beat Sheet字段与现有DirectorTimeline、EditorialClock、renderer的映射差距。
+2. 使用冻结 data/cyb_daily.csv 复核Beat Sheet所有行情锚点、区间百分比和日期。
+3. 检查每个beat是否有市场时钟、事件时钟、镜头时钟、主视觉、辅助层、转场与验收条件。
+4. 列出需要新增的渲染能力、现有可复用能力、缺少的数据／素材。
+5. 检查2015年9月低点后反弹段是否按真实交易日顺序表达；不得将9月15日写成最终市场底。
+6. 返回结构审计、数据差异和实现方案。不要自行改写GPT叙事或Beat Sheet。
+7. 不修改V1.0.1内容包、冻结OHLC、正式427秒主表、原始素材或已批准视觉资产；不渲染视频、不推送main。
+
+这是导演系统设计审查，不是立即执行新版本渲染。GPT收到审查回执后会形成下一轮工程契约。
