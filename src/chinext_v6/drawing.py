@@ -303,7 +303,7 @@ class SceneDrawer:
             if yh > yl:
                 continue
             d.line((x,yh,x,yl), rgba(color,.93), max(.7,body_w*.13))
-            if bottom < 250 or top > 866:
+            if bottom < 252 or top > 866:
                 continue
             top, bottom = max(252,top), min(866,max(top+1.15,bottom))
             d.rectangle((x-body_w/2,top,x+body_w/2,bottom), fill=color)

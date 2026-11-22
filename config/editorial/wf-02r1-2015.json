@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "revision_id": "WF-02R1",
+  "review_commit": "99170907de537d35a2abea2406505b988780ef47",
+  "review_files_sha256": {
+    "CODEX_NEXT.md": "1eecfa1c594d203468dfa7374c847429557329b0534e55f4ee594bb31d3bd790",
+    "REVIEW_REPORT.md": "9dad38551c9fb08d518aded23dc1b612cd2e3e84c3d4b7d86c7c12cc33de0289",
+    "PHOTO_INTAKE.md": "acf9836b172c5a8ad8d4616b3ef3e3a4be2b10116c43e5ae0689fc972ebb9c58",
+    "revision_request.json": "2c40535d23bd74a1588fa9634c36eaa1cda9dddeac9e8602dac83b6602df8e99"
+  },
+  "base": {
+    "version": "1.0.1",
+    "commit": "c313edfa7959dfc6e9c56badfd3f662ae7fe01b4",
+    "manifest_sha256": "1be7273db7a0c2be9159a9933af6c857a087691bb3951a21f1883c3f1b19d4a4",
+    "director_timeline_sha256": "8a979d4cbc80182fa329d4579d5503f30bf5bd8d11aba3edc0c78647980be7ea"
+  },
+  "presentation": {
+    "extremum_or_interval": [
+      "GPT2015-05", "GPT2015-06", "GPT2015-09", "GPT2015-15", "GPT2015-25", "GPT2015-26", "GPT2015-27"
+    ],
+    "default": "policy_or_event",
+    "exit_frames": 6,
+    "target_font_px_at_1080": {
+      "hero_value": 112,
+      "event_main": 54,
+      "date_and_qualifier": 36,
+      "short_source": 30
+    },
+    "source_short": {
+      "GPT2015-03": "澎湃／上海证券报引中国结算",
+      "GPT2015-04": "北京青年报／大众证券报｜非指数权重",
+      "GPT2015-08": "中国证券报｜8月27日报道回顾",
+      "GPT2015-11": "人民网／巨潮资讯股东大会材料",
+      "GPT2015-17": "中新网／央行三季度报告"
+    }
+  },
+  "camera_trial": {
+    "shot_id": "GPT2015-06",
+    "visible_trading_days": 48,
+    "transition_seconds": 1.0,
+    "y_domain": "visible_ohlc_through_hit",
+    "y_padding_low_fraction": 0.18,
+    "y_padding_high_fraction": 0.25
+  },
+  "photo": {
+    "shot_id": "GPT2015-21",
+    "asset_id": "IMG-20150824-01",
+    "asset_sha256": "e9d18208a1e60e402af95d132c6e3a5cd5d313ecc1a00d08142e1898669a555e",
+    "camera": "inherit_previous_projection",
+    "photo_fit": "contain",
+    "source_line": "中新社发 刘冉阳 摄｜8月24日图集"
+  }
+}

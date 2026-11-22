@@ -1,0 +1,63 @@
+{
+  "scope": "private local codec-output review",
+  "before": "output/wf-02-2015-gpt-v1.0.1/final/preview_2015_v1.0.1_photo_missing.mp4",
+  "after": "preview_2015_v1.0.1_r1_photo_missing.mp4",
+  "same_frame_phone_views": [
+    {
+      "path": "phone-comparisons/frame_786.jpg",
+      "frame": 786,
+      "time_seconds": 26.2,
+      "display_width_per_panel": 390
+    },
+    {
+      "path": "phone-comparisons/frame_996.jpg",
+      "frame": 996,
+      "time_seconds": 33.2,
+      "display_width_per_panel": 390
+    },
+    {
+      "path": "phone-comparisons/frame_2301.jpg",
+      "frame": 2301,
+      "time_seconds": 76.7,
+      "display_width_per_panel": 390
+    },
+    {
+      "path": "phone-comparisons/frame_3651.jpg",
+      "frame": 3651,
+      "time_seconds": 121.7,
+      "display_width_per_panel": 390
+    },
+    {
+      "path": "phone-comparisons/frame_3981.jpg",
+      "frame": 3981,
+      "time_seconds": 132.7,
+      "display_width_per_panel": 390
+    },
+    {
+      "path": "phone-comparisons/frame_4686.jpg",
+      "frame": 4686,
+      "time_seconds": 156.2,
+      "display_width_per_panel": 390
+    }
+  ],
+  "continuous_review_clips": [
+    {
+      "path": "review_peak-zoom.mp4",
+      "start_seconds": 30,
+      "end_seconds_exclusive": 36,
+      "source_frames": 180
+    },
+    {
+      "path": "review_missing-photo-continuity.mp4",
+      "start_seconds": 120,
+      "end_seconds_exclusive": 128,
+      "source_frames": 240
+    },
+    {
+      "path": "review_after-close-handoff.mp4",
+      "start_seconds": 131,
+      "end_seconds_exclusive": 145,
+      "source_frames": 420
+    }
+  ]
+}

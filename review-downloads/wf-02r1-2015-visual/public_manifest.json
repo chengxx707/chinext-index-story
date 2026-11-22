@@ -1,0 +1,125 @@
+{
+  "source_commit": "99170907de537d35a2abea2406505b988780ef47",
+  "published_files": [
+    {
+      "source": "output/wf-02r1-2015-visual/README.md",
+      "path": "review-downloads/wf-02r1-2015-visual/README.md",
+      "sha256": "e761e5d24eaaaacdc2d68f250c332af7f9d74f1c5c5e137a95c0acaf148e9e99"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/intake_receipt.json",
+      "path": "review-downloads/wf-02r1-2015-visual/intake_receipt.json",
+      "sha256": "f7eec210dea9abdc86e62690f972554f2db997a4a3030f57c341301cf2f98d06"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/execution_receipt.json",
+      "path": "review-downloads/wf-02r1-2015-visual/execution_receipt.json",
+      "sha256": "a5f97bd688fe51850bc89bfca7a865d33dbf7354a89df54dd74898aeb78718e3"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/content_validation.json",
+      "path": "review-downloads/wf-02r1-2015-visual/content_validation.json",
+      "sha256": "0ed0c8d0004e12221b7cc66bd067aba77d86e98ebf12408f466a14d8a33436c7"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/verified/resolved_director_timeline.json",
+      "path": "review-downloads/wf-02r1-2015-visual/verified/resolved_director_timeline.json",
+      "sha256": "9d9afad1c16b0beffdeb311b29c1ad9819508bba072178565b9245ef5581bfd0"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/verified/resolved_config_validation.json",
+      "path": "review-downloads/wf-02r1-2015-visual/verified/resolved_config_validation.json",
+      "sha256": "bb28b44cfdb4bc041904cc5346d98f75c14e27aabd87f93395cedff8341a78ba"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/verified/clock_validation.json",
+      "path": "review-downloads/wf-02r1-2015-visual/verified/clock_validation.json",
+      "sha256": "fe9cb3e34d55ee33e217bde3b6aea301e0a6c5b7604888337fa2f1f5f3969c85"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/verified/renderer_capabilities.json",
+      "path": "review-downloads/wf-02r1-2015-visual/verified/renderer_capabilities.json",
+      "sha256": "06d57cf492a0c1d26ef96c73971df347c40208441e04ae19862844b7448e1718"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/verified/render_input_stability.json",
+      "path": "review-downloads/wf-02r1-2015-visual/verified/render_input_stability.json",
+      "sha256": "136cdda070d400e3b89f7fe21364b81bc31dd241917d0771e50fb8cf7e688588"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/verified/media_validation.json",
+      "path": "review-downloads/wf-02r1-2015-visual/verified/media_validation.json",
+      "sha256": "e1950ab57feeda450ec2cbc74350e546c00824b1eea6d59b1ae21cebd6d28a78"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/verified/layout_diagnostics.json",
+      "path": "review-downloads/wf-02r1-2015-visual/verified/layout_diagnostics.json",
+      "sha256": "3152e1c5af1c46c75b051e945d846e37b4658129cc62eae931949c9e73de315e"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/verified/capability_content_crosscheck.json",
+      "path": "review-downloads/wf-02r1-2015-visual/verified/capability_content_crosscheck.json",
+      "sha256": "3930794dd195ea2b0493c1e4829d273ae6aac2dee48e29e9900ef6bf6b01244a"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/verified/visual_comparisons.json",
+      "path": "review-downloads/wf-02r1-2015-visual/verified/visual_comparisons.json",
+      "sha256": "5a5773789702ccb25514c1167d743a573af67fbc768610009c013c319295850d"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/verified/playback_observation.json",
+      "path": "review-downloads/wf-02r1-2015-visual/verified/playback_observation.json",
+      "sha256": "6ed3b007a16f1fda2d88a555ad653b1d6d7f604447e5c84fe4b2e97307e36e6d"
+    },
+    {
+      "source": "output/wf-02r1-2015-visual/verified/regression_tests.log",
+      "path": "review-downloads/wf-02r1-2015-visual/verified/regression_tests.log",
+      "sha256": "1d5d023a45a7a882aeecd996ce55f5198431523e4e4cced1135714a935ba7ebd"
+    },
+    {
+      "source": "config/editorial/wf-02r1-2015.json",
+      "path": "config/editorial/wf-02r1-2015.json",
+      "sha256": "905671a3032a8762d8cbb1979ee3163338e3782181d27b1ed4ed8dedcfd24334"
+    },
+    {
+      "source": "src/chinext_v6/drawing.py",
+      "path": "src/chinext_v6/drawing.py",
+      "sha256": "7a07abaa8f2d2d8970c43f7f6ef8c539d65ad4e7dc2210646421e99bf132fe60"
+    },
+    {
+      "source": "src/chinext_v6/editorial_clock.py",
+      "path": "src/chinext_v6/editorial_clock.py",
+      "sha256": "6602b3eb3b57569e9360d7ade63ad1bceeb362ee334bd52ad55a23950bb041f0"
+    },
+    {
+      "source": "src/chinext_v6/editorial_overlay.py",
+      "path": "src/chinext_v6/editorial_overlay.py",
+      "sha256": "cdaf5a1ad6e43c215560eefcb1161e4427f8b98867b1dc4aa2451e6b72d8e3e8"
+    },
+    {
+      "source": "src/chinext_v6/editorial_revision.py",
+      "path": "src/chinext_v6/editorial_revision.py",
+      "sha256": "6f9780ec77d973bc028bd5a19e1285e28d1ee6e686bc63269235ba691692d965"
+    },
+    {
+      "source": "src/chinext_v6/editorial_validation.py",
+      "path": "src/chinext_v6/editorial_validation.py",
+      "sha256": "36fef663d2f542a7d31bbf61dc31d904ec68e6fb3dcb0d33dc79e531efffd34e"
+    },
+    {
+      "source": "tools/render_editorial_preview.py",
+      "path": "tools/render_editorial_preview.py",
+      "sha256": "1ecbf3836e5e1104b39d53b7ed4698f111079d42d86267fa88d623a7e6f31bb2"
+    },
+    {
+      "source": "tests/test_editorial_preview.py",
+      "path": "tests/test_editorial_preview.py",
+      "sha256": "6dbaebf4683e6487dab9734197ad536757806ddeb697e663c2e98a5017a8d1f5"
+    }
+  ],
+  "private_delivery": {
+    "name": "chinext-2015-wf-02r1-preview-review.zip",
+    "bytes": 35072299,
+    "sha256": "7e42e90ff30dec73b23e8f32f530ecdfee9d3eedba4ba088410f5648ebbe7692"
+  }
+}

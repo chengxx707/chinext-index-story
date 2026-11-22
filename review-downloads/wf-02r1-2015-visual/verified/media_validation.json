@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "encoded_frames": 5010,
+  "output": "preview_2015_v1.0.1_r1_photo_missing.mp4",
+  "output_sha256": "cce66bea51b0d3bfe15946acd602cde364d1203e0efafcbe6727b7bfd741fe8b",
+  "media": {
+    "passed": true,
+    "checks": {
+      "one_video_stream": true,
+      "no_audio_stream": true,
+      "dimensions": true,
+      "frame_rate": true,
+      "frame_count": true,
+      "duration": true,
+      "probe_without_decode_errors": true,
+      "full_decode": true
+    },
+    "path": "/workspace/chinext-index-story/output/wf-02r1-2015-visual/verified/preview_2015_v1.0.1_r1_photo_missing.mp4",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1080,
+          "height": 1920,
+          "coded_width": 1088,
+          "coded_height": 1920,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 2,
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 4,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 2565120,
+          "duration": "167.000000",
+          "bit_rate": "404728",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "5010",
+          "nb_read_frames": "5010",
+          "extradata_size": 46,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc61.19.101 libx264"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/workspace/chinext-index-story/output/wf-02r1-2015-visual/verified/preview_2015_v1.0.1_r1_photo_missing.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "167.000000",
+        "size": "8508005",
+        "bit_rate": "407569",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf61.7.103"
+        }
+      }
+    }
+  },
+  "blackdetect": {
+    "passed": true,
+    "intervals": [],
+    "filter": "blackdetect=d=0.1:pic_th=0.98:pix_th=0.02"
+  },
+  "photo_asset_id": "IMG-20150824-01",
+  "photo_rendered": false,
+  "missing_photo_treatment": {
+    "shot_id": "GPT2015-21",
+    "start_frame": 3630,
+    "end_frame_exclusive": 3780,
+    "treatment": "Hold the prior close camera on the Aug 24 chart with HUD and rail; omit photo and caption"
+  }
+}

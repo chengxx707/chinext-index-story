@@ -1,0 +1,32 @@
+{
+  "task": "WF-02R1",
+  "latest_handoff_commit": "99170907de537d35a2abea2406505b988780ef47",
+  "review_document_hashes": {
+    "editorial/2015/HANDOFF_TO_CODEX.md": "f604674f839ff39636dd6e439e1cd5b87bb984a1e8eda07dd41045f42661758f",
+    "editorial/2015/reviews/wf-02-v1.0.1/CODEX_NEXT.md": "1eecfa1c594d203468dfa7374c847429557329b0534e55f4ee594bb31d3bd790",
+    "editorial/2015/reviews/wf-02-v1.0.1/PHOTO_INTAKE.md": "acf9836b172c5a8ad8d4616b3ef3e3a4be2b10116c43e5ae0689fc972ebb9c58",
+    "editorial/2015/reviews/wf-02-v1.0.1/REVIEW_REPORT.md": "9dad38551c9fb08d518aded23dc1b612cd2e3e84c3d4b7d86c7c12cc33de0289",
+    "editorial/2015/reviews/wf-02-v1.0.1/revision_request.json": "2c40535d23bd74a1588fa9634c36eaa1cda9dddeac9e8602dac83b6602df8e99",
+    "editorial/2015/integration/v1.0.1/README.md": "337a2d9c48c146da3e58648d91555c6628757703a40714de2e9d467ed5fa1125"
+  },
+  "release_commit": "c313edfa7959dfc6e9c56badfd3f662ae7fe01b4",
+  "release_files": 29,
+  "release_identical_at_handoff": true,
+  "input_implementation_commit": "31de236cdbaeac8ec39391794ff79b0f2ab1dc88",
+  "content_validation_exit": 0,
+  "photo": {
+    "status": "NOT_RECEIVED_IN_THIS_TASK",
+    "expected_zip": "img-20150824-01-handoff.zip",
+    "expected_zip_sha256": "e882a725dd071d4bfbfba4212f4856a7db7edd51aec6641a7a175f4a9e41129d",
+    "asset_id": "IMG-20150824-01",
+    "asset_sha256": "e9d18208a1e60e402af95d132c6e3a5cd5d313ecc1a00d08142e1898669a555e",
+    "searched_attachment_and_shared_download_filenames": true,
+    "original_delivery": "private only"
+  },
+  "protected_files_sha256": {
+    "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "config/production/film_master_v1.json": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "config/event_registry.json": "fc99e9b18b06d0df703b95d2f9d0934d2941134b8c4c57878291c77716fb7c4d"
+  },
+  "formal_adoption_map": "reference_only"
+}
