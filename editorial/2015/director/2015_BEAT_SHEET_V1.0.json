@@ -13,13 +13,13 @@
     "reference_video": "user-provided Nasdaq-100 screen recording, 235.033s, 220x480, 30fps"
   },
   "duration_budget": {
-    "target_seconds": 226,
+    "target_seconds": 234,
     "range_seconds": [
-      210,
-      240
+      220,
+      250
     ],
     "locked": false,
-    "reason": "Beat durations are editorial estimates; final timing follows reading tests and full continuous preview."
+    "reason": "Calculated directly from all beat duration_seconds values; timing remains an editorial budget pending readability tests and continuous preview."
   },
   "invariants": [
     "Use real OHLC candles and preserve chronological trading order.",
