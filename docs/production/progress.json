@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-22T15:18:42+08:00",
+  "timezone": "Asia/Shanghai",
+  "snapshot_not_live_heartbeat": true,
+  "content_version": "1.0.1",
+  "content_status": "COMPLETED",
+  "active_gpt_jobs": [],
+  "external_events": {
+    "reviewed": 39,
+    "not_reviewed": 0,
+    "active_review": 0,
+    "evidence_status_counts": {
+      "SUPPORTED_WITH_CORRECTION": 28,
+      "UNRESOLVED": 3,
+      "PARTIAL": 4,
+      "SUPPORTED": 2,
+      "EXCLUDE": 2
+    }
+  },
+  "selected_external": 17,
+  "selected_supplemental": 1,
+  "shots": 28,
+  "duration_seconds": 167,
+  "user_decisions": {
+    "standard_a": "CONFIRMED",
+    "pending": []
+  },
+  "codex": {
+    "task_readiness": "READY",
+    "execution": "UNKNOWN",
+    "acknowledgement_received": false
+  },
+  "video_rendered_for_version": false,
+  "user_visual_approval": false,
+  "formal_master_adopted": false,
+  "source_of_truth": "editorial/2015/releases/v1.0.1/manifest.json"
+}

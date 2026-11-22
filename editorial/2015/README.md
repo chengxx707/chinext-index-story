@@ -1,14 +1,13 @@
-# 创业板指 2015 内容候选
+# 创业板指2015内容候选
 
-当前版本：**V1.0.0**。内容和配置已交付，状态为**可接收的候选，待实际渲染评审**。
+当前版本：**V1.0.1，方案A已确认并落实，可交Codex接收与连续预演。**
 
-- [本轮交付报告](releases/v1.0.0/REVIEW_REPORT.md)：完成项、主要修正、未决项与验证范围。
-- [画面文字脚本](releases/v1.0.0/period_screen_copy.md)：167秒，28个节拍，完整上屏文字。
-- [叙事与取舍](releases/v1.0.0/narrative.md)：六阶段组织及没有采用的材料。
-- [导演分镜](releases/v1.0.0/director_storyboard.md)：市场时钟、事件、K线、地球时间轨与单活动轨如何联动。
-- [Codex下一步任务](releases/v1.0.0/CODEX_HANDOFF.md)：接收、最小适配、连续预览和回交要求。
-- [逐事件复核](releases/v1.0.0/event_review.json)与[来源注册表](releases/v1.0.0/source_registry.json)。
+- [制作看板](../../docs/production/PROJECT-DASHBOARD.md)
+- [本版报告](releases/v1.0.1/REVIEW_REPORT.md)
+- [167秒完整画面文字稿](releases/v1.0.1/period_screen_copy.md)
+- [导演分镜](releases/v1.0.1/director_storyboard.md)
+- [Codex当前执行入口](HANDOFF_TO_CODEX.md)
+- [39条审计台账](01-research/event-audit-register.md)
+- [已确认标准A](STANDARD_A.md)
 
-机器输入包括 `period_storyboard.json`、`period_production.json`、`director_timeline.json`，必须作为同一版本一起读取。`manifest.json` 绑定输入与产物摘要。独立导演文件不是可忽略的注释。
-
-本版本从工作流审计基线 `8327dbd30efa5087dc91765b246252a04af693d4` 接续；未采用为正式主表，未改变427秒全片计划，未生成新视频。
+本版完整自包含，机器分镜、生产单元和导演时序须一起读取。V1.0.0原目录保留，不能将后续进度误写回未开始。本版尚未渲染，未获视觉批准，未进入正式主表。

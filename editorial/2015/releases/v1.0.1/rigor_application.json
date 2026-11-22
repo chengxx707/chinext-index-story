@@ -1,0 +1,545 @@
+{
+  "schema_version": 1,
+  "package_version": "1.0.1",
+  "policy_id": "2015-STANDARD-A",
+  "reviewed_at": "2026-11-22T15:18:42+08:00",
+  "method": "逐条人工选择主张，再做同步与数据校验；机器检查本身不是事实真实性证明",
+  "shots": [
+    {
+      "shot_id": "GPT2015-01",
+      "beat_id": "beat-opening",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015年4月",
+        "创业板指 · 399006"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "冻结OHLC、真实日期和已核口径",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-02",
+      "beat_id": "beat-accounts-rule",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.04.13 起",
+        "A股“一人一户”限制放开"
+      ],
+      "source_ids": [
+        "APR-01:S02",
+        "APR-01:S03"
+      ],
+      "evidence_rule_applied": "一手原文或已审计的限定事实",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-03",
+      "beat_id": "beat-accounts-week",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "4月20—24日 · 新增A股账户",
+        "413.03 万户"
+      ],
+      "source_ids": [
+        "APR-01:S06",
+        "APR-01:WEB01"
+      ],
+      "evidence_rule_applied": "澎湃与上海证券报两篇不同同期稿件；共同转述中国结算；官方周报未取得",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-04",
+      "beat_id": "beat-letv",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.05.13 · 乐视网",
+        "收盘总市值超过 1,500 亿元"
+      ],
+      "source_ids": [
+        "IND-01:WEB01",
+        "IND-01:WEB02",
+        "IND-01:S01",
+        "LETV-RAW-DAILY"
+      ],
+      "evidence_rule_applied": "北京青年报、大众证券报/财信网两篇不同同期稿件；公告股本×不复权收盘价辅助复算",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-05",
+      "beat_id": "beat-close-peak",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.06.03 · 阶段最高收盘",
+        "3,982.25"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "冻结OHLC、真实日期和已核口径",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-06",
+      "beat_id": "beat-wick-peak",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.06.05 · 盘中高点",
+        "4,037.96"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "冻结OHLC、真实日期和已核口径",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-07",
+      "beat_id": "beat-access-rules",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "6月12日 · 证监会重申",
+        "不得为场外配资",
+        "提供交易接口便利"
+      ],
+      "source_ids": [
+        "JUN-01:S01"
+      ],
+      "evidence_rule_applied": "一手原文或已审计的限定事实",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-08",
+      "beat_id": "beat-margin-context",
+      "tier": "T2",
+      "selected_screen_claim": [
+        "2015年6月 · 杠杆背景",
+        "沪深融资融券规模处于高位",
+        "事后报道回顾"
+      ],
+      "source_ids": [
+        "JUN-01:S04"
+      ],
+      "evidence_rule_applied": "中国证券报事后回顾支持定性高位背景；已删除精确余额，PARTIAL不升级",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-09",
+      "beat_id": "beat-june-fall",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.06.26 · 收盘 2,920.70",
+        "较6月12日 −25.10%"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "冻结OHLC、真实日期和已核口径",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-10",
+      "beat_id": "beat-june-weekend",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.06.27 · 周六公布",
+        "降息与定向降准",
+        "6月28日起实施"
+      ],
+      "source_ids": [
+        "JUN-02:S01",
+        "JUN-02:S02"
+      ],
+      "evidence_rule_applied": "一手原文或已审计的限定事实",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-11",
+      "beat_id": "beat-brokers",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "7月4日 · 21家券商",
+        "承诺 ≥1,200亿元",
+        "投资蓝筹股ETF"
+      ],
+      "source_ids": [
+        "JUN-02:S03",
+        "JUN-02:S04"
+      ],
+      "evidence_rule_applied": "一手原文或已审计的限定事实",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-12",
+      "beat_id": "beat-liquidity",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.07.05 · 证监会公告",
+        "央行将给予证金公司",
+        "多种形式的流动性支持"
+      ],
+      "source_ids": [
+        "CSRC-2015-17"
+      ],
+      "evidence_rule_applied": "一手原文或已审计的限定事实",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-13",
+      "beat_id": "beat-smallcaps",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "证监会：证金公司将加大",
+        "对中小市值股票的购买力度"
+      ],
+      "source_ids": [
+        "CSRC-2015-0708"
+      ],
+      "evidence_rule_applied": "一手原文或已审计的限定事实",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-14",
+      "beat_id": "beat-cleanup",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.07.12 · 周日",
+        "清理整顿违法从事证券业务活动"
+      ],
+      "source_ids": [
+        "CSRC-2015-19"
+      ],
+      "evidence_rule_applied": "一手原文或已审计的限定事实",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-15",
+      "beat_id": "beat-rebound",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "7月7日至23日 · 收盘比较",
+        "+26.19%"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "冻结OHLC、真实日期和已核口径",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-16",
+      "beat_id": "beat-july-relapse",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.07.27",
+        "创业板指单日 −7.40%"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "冻结OHLC、真实日期和已核口径",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-17",
+      "beat_id": "beat-fx",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.08.11",
+        "人民币中间价报价机制调整"
+      ],
+      "source_ids": [
+        "AUG-01:S01",
+        "PBC-2015-Q3-REPORT"
+      ],
+      "evidence_rule_applied": "央行自身报告确认生效日期；中新网同日报道作时间交叉；不采用首发分钟",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-18",
+      "beat_id": "beat-pmi",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "同期宏观背景",
+        "财新制造业PMI初值 47.1"
+      ],
+      "source_ids": [
+        "AUG-01:S03"
+      ],
+      "evidence_rule_applied": "指标发布方财新PMI自己的原文；仅日期和初值，不用网页钟点作首发时间",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-19",
+      "beat_id": "beat-gap-one",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "8月21日 · 完整向下缺口 ①",
+        "单日 −6.65%"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "冻结OHLC、真实日期和已核口径",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-20",
+      "beat_id": "beat-gap-two",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "8月24日 · 完整向下缺口 ②",
+        "2,152.61 · 单日 −8.08%"
+      ],
+      "source_ids": [
+        "cyb-ohlc",
+        "AUG-02:S04"
+      ],
+      "evidence_rule_applied": "一手原文或已审计的限定事实",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-21",
+      "beat_id": "beat-trading-floor",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.08.24 · 昆明证券交易大厅"
+      ],
+      "source_ids": [
+        "IMG-01:S01"
+      ],
+      "evidence_rule_applied": "一手原文或已审计的限定事实",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-22",
+      "beat_id": "beat-gap-three",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "8月25日 · 完整向下缺口 ③",
+        "1,990.71 · 单日 −7.52%"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "冻结OHLC、真实日期和已核口径",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-23",
+      "beat_id": "beat-august-policy",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.08.25 · 盘后",
+        "央行公布降息降准安排",
+        "8月26日起降息 · 9月6日起降准"
+      ],
+      "source_ids": [
+        "PBC-2015-0825"
+      ],
+      "evidence_rule_applied": "一手原文或已审计的限定事实",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-24",
+      "beat_id": "beat-voice",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "“当前稳定流动性更加关键。”",
+        "向松祚 · 央广经济之声"
+      ],
+      "source_ids": [
+        "CNR-2015-0825-FULL"
+      ],
+      "evidence_rule_applied": "原采访正文中的具名直接短引语；仅作为受访者观点",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-25",
+      "beat_id": "beat-august-26",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "8月24—26日 · 三个交易日",
+        "−19.30%"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "冻结OHLC、真实日期和已核口径",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-26",
+      "beat_id": "beat-intraday-low",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.09.02 · 阶段盘中低点",
+        "1,779.18"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "冻结OHLC、真实日期和已核口径",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-27",
+      "beat_id": "beat-closing-low",
+      "tier": "T1",
+      "selected_screen_claim": [
+        "2015.09.15 · 阶段最低收盘",
+        "1,797.56",
+        "较6月3日最高收盘 −54.86%"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "冻结OHLC、真实日期和已核口径",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    },
+    {
+      "shot_id": "GPT2015-28",
+      "beat_id": "beat-bridge",
+      "tier": "T3",
+      "selected_screen_claim": [
+        "这段下跌，也经历过反弹。"
+      ],
+      "source_ids": [
+        "cyb-ohlc"
+      ],
+      "evidence_rule_applied": "以冻结行情中真实反弹为依据的编辑概括；不是专家原话或未来预测",
+      "editorial_gate": "PASS_FOR_CANDIDATE",
+      "visual_gate": "NOT_EXECUTED",
+      "causal_claim": false
+    }
+  ],
+  "unresolved_core_screen_claims": [],
+  "excluded_from_screen": [
+    "325.71/328.41万首周开户争议",
+    "乐视盘中1600亿",
+    "两融2.27万亿元",
+    "未经验证的历史权重",
+    "11点到账细节",
+    "未在原文找到的三位人士评论"
+  ],
+  "changes": [
+    {
+      "shot_id": "GPT2015-03",
+      "source_ids": [
+        "APR-01:S06",
+        "APR-01:WEB01"
+      ],
+      "source_line": "澎湃／上海证券报引中国结算｜4月20—24日账户数",
+      "reason": "补全两篇不同同期稿源；统计周与4月28日20:37报道时点继续分列。"
+    },
+    {
+      "shot_id": "GPT2015-04",
+      "screen_text": [
+        "2015.05.13 · 乐视网",
+        "收盘总市值超过 1,500 亿元"
+      ],
+      "source_ids": [
+        "IND-01:WEB01",
+        "IND-01:WEB02",
+        "IND-01:S01",
+        "LETV-RAW-DAILY"
+      ],
+      "source_line": "北京青年报／大众证券报同期报道｜企业市值，非指数权重",
+      "story_purpose": "以同期双源支持的5月13日收盘市值呈现企业估值背景，不再采用盘中1600亿元。",
+      "reason": "保留有双同期报道及股本×收盘价复算支持的事实；盘中派生值仅留研究档案。"
+    },
+    {
+      "shot_id": "GPT2015-07",
+      "screen_text": [
+        "6月12日 · 证监会重申",
+        "不得为场外配资",
+        "提供交易接口便利"
+      ],
+      "story_purpose": "让观众理解监管针对的具体交易通道；6月12日为公开答问，非35号签发日。",
+      "reason": "用官方已核原意替换含混的“外部接入监管”，不增加因果断言。"
+    },
+    {
+      "shot_id": "GPT2015-08",
+      "screen_text": [
+        "2015年6月 · 杠杆背景",
+        "沪深融资融券规模处于高位",
+        "事后报道回顾"
+      ],
+      "source_line": "中国证券报8月27日报道回顾｜沪深两市口径",
+      "story_purpose": "以有来源的定性背景交代杠杆交易；精确余额未达方案A门槛，不再上屏。",
+      "reason": "删除未达T1的2.27万亿元；保留T2定性背景，审计PARTIAL不升级。"
+    },
+    {
+      "shot_id": "GPT2015-17",
+      "source_ids": [
+        "AUG-01:S01",
+        "PBC-2015-Q3-REPORT"
+      ],
+      "source_line": "中新网同期报道；央行三季度报告核对",
+      "reason": "补充央行本人报告核对8月11日生效日期，不虚构首发分钟。"
+    },
+    {
+      "shot_id": "GPT2015-26",
+      "screen_text": [
+        "2015.09.02 · 阶段盘中低点",
+        "1,779.18"
+      ],
+      "reason": "去掉内部术语“窗口”；不改日期、价格或影线锚点。"
+    }
+  ]
+}

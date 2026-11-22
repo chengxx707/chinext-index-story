@@ -1,28 +1,34 @@
-# HANDOFF TO CODEX｜2015内容审计与生产协作
+# CODEX_READY：接收2015 V1.0.1并制作整段连续预览
 
-协作分支：`editorial/gpt-2015`
+**本文件取代此前错误的Standby／禁止渲染指令。** 用户已确认方案A并授权继续内容生产。现在有完整候选可以接收，不再等待GPT从头审39条。
 
-## 当前任务
+协作分支：editorial/gpt-2015。候选目录：editorial/2015/releases/v1.0.1/。
 
-1. 保持Standby，不自行重写2015历史叙事或分镜。
-2. 可读取本分支的：
-   - `docs/production/PROJECT-DASHBOARD.md`
-   - `docs/production/AI-WORK-ORDERS.md`
-   - `editorial/2015/01-research/event-audit-register.md`
-3. 不修改 `config/production/film_master_v1.json`、正式事件注册表、原始资料和已批准视觉资产。
-4. 不触发渲染。
+## 执行入口
 
-## GPT下一步内容交付
+1. 记录你实际读取的commit，保留本地未提交工作；以完整V1.0.1目录作为一个版本导入。
+2. 读取 [本版报告](releases/v1.0.1/REVIEW_REPORT.md)、[完整脚本](releases/v1.0.1/period_screen_copy.md)及[具体任务](releases/v1.0.1/CODEX_HANDOFF.md)。
+3. 复用DATA-INGEST-002及已有接口做校验、导演能力对照和最小适配。
+4. 输出整段167秒、30fps静音快速预览和目标尺寸关键帧，再回交真实观看记录。不再只渲染一个峰值短片。
 
-GPT将独立复核事件、完成raw-to-canonical映射、形成历史叙事和导演候选。完成后会在本分支新增版本化候选包，并更新本文件，给出确切Commit SHA及Codex任务。
+~~~bash
+python3 editorial/2015/releases/v1.0.1/validate_candidate.py --repo-root . --output output/wf-02-2015-gpt-v1.0.1/content_validation.json
+~~~
 
-## Codex后续接单条件
+## 内容注意
 
-只有收到明确的 `CODEX_READY` 交接，才执行：
-- Schema验证；
-- 数据/日期/市场锚点一致性校验；
-- 候选配置编译；
-- 指定镜头预览；
-- 产物Manifest与QA报告。
+- 乐视：5月13日收盘总市值超过1500亿元，非盘中1600亿、非指数权重。
+- 本镜（GPT2015-08）事件浮签使用 observation_label 显示“2015年6月”；event_clock.date=2015-06-18 仅用于真实日K观察锚点，不另显示成该背景事实的精确发生日期。行情HUD仍显示真实交易日。
+- 六月杠杆：只用定性高位背景，保留事后回顾。不能从审计底稿复制2.27万亿回屏幕。
+- 账户：413.03万是4月20—24日新增A股账户，非人数；报道在4月28日盘后。
+- 7月反弹时同一回撤轨缩回；三个完整缺口为8月21、24、25日。
+- 图片ID为IMG-20150824-01，原件包及SHA已在版本任务书写明。
+- 原件未传到你本地时，继续主体接入并如实标照片缺镜；不生成历史照片或用文字页假装相册。
 
-Codex不得把WF-01A的VERIFIED标签视为用户批准，也不得把GPT候选自动提升为正式主表。
+## 回执与边界
+
+接单后记录实际输入commit、版本和执行状态；结束后交产物路径、真实校验结果、未实现能力、连续观看问题。没有执行证据不写通过。
+
+本次允许候选接收、最小工程适配、167秒预览。正式427秒主表采用另作映射，不机械把167秒替换旧97秒。不修改冻结数据和原始资产，不自动批量渲染全片。
+
+GitHub交接文件已就绪不表示另一会话已经启动；若当前Codex不会主动读取，用户只需让它读取本文件，无须再次组织长提示词。

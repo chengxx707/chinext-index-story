@@ -1,0 +1,263 @@
+{
+  "apr_ind": {
+    "derived_checks": [
+      {
+        "id": "LETv-May-2015-full-daily-recalculation",
+        "formula": "unadjusted_price_cny * shares / 100000000",
+        "inputs": [
+          "IND-01:GPT-S06",
+          "IND-01:S01",
+          "IND-01:GPT-S07"
+        ],
+        "rows": [
+          {
+            "date": "2015-05-04",
+            "unadjusted_high": "133.000",
+            "unadjusted_close": "126.250",
+            "shares_basis": 841190063,
+            "high_cap_cny_100m": "1118.78278379",
+            "close_cap_cny_100m": "1062.0024545375"
+          },
+          {
+            "date": "2015-05-05",
+            "unadjusted_high": "129.980",
+            "unadjusted_close": "125.790",
+            "shares_basis": 841190063,
+            "high_cap_cny_100m": "1093.3788438874",
+            "close_cap_cny_100m": "1058.1329802477"
+          },
+          {
+            "date": "2015-05-06",
+            "unadjusted_high": "138.370",
+            "unadjusted_close": "136.990",
+            "shares_basis": 841190063,
+            "high_cap_cny_100m": "1163.9546901731",
+            "close_cap_cny_100m": "1152.3462673037"
+          },
+          {
+            "date": "2015-05-07",
+            "unadjusted_high": "148.910",
+            "unadjusted_close": "145.680",
+            "shares_basis": 841190063,
+            "high_cap_cny_100m": "1252.6161228133",
+            "close_cap_cny_100m": "1225.4456837784"
+          },
+          {
+            "date": "2015-05-08",
+            "unadjusted_high": "149.000",
+            "unadjusted_close": "147.950",
+            "shares_basis": 841190063,
+            "high_cap_cny_100m": "1253.37319387",
+            "close_cap_cny_100m": "1244.5406982085"
+          },
+          {
+            "date": "2015-05-11",
+            "unadjusted_high": "162.750",
+            "unadjusted_close": "162.750",
+            "shares_basis": 841190063,
+            "high_cap_cny_100m": "1369.0368275325",
+            "close_cap_cny_100m": "1369.0368275325"
+          },
+          {
+            "date": "2015-05-12",
+            "unadjusted_high": "179.030",
+            "unadjusted_close": "179.030",
+            "shares_basis": 841190063,
+            "high_cap_cny_100m": "1505.9825697889",
+            "close_cap_cny_100m": "1505.9825697889"
+          },
+          {
+            "date": "2015-05-13",
+            "unadjusted_high": "89.500",
+            "unadjusted_close": "82.490",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1656.30323351",
+            "close_cap_cny_100m": "1526.5749020362"
+          },
+          {
+            "date": "2015-05-14",
+            "unadjusted_high": "81.000",
+            "unadjusted_close": "74.240",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1499.00069178",
+            "close_cap_cny_100m": "1373.8989056512"
+          },
+          {
+            "date": "2015-05-15",
+            "unadjusted_high": "74.850",
+            "unadjusted_close": "71.600",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1385.187676293",
+            "close_cap_cny_100m": "1325.042586808"
+          },
+          {
+            "date": "2015-05-18",
+            "unadjusted_high": "77.500",
+            "unadjusted_close": "76.800",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1434.22905695",
+            "close_cap_cny_100m": "1421.274729984"
+          },
+          {
+            "date": "2015-05-19",
+            "unadjusted_high": "78.710",
+            "unadjusted_close": "73.700",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1456.6215364198",
+            "close_cap_cny_100m": "1363.905567706"
+          },
+          {
+            "date": "2015-05-20",
+            "unadjusted_high": "75.760",
+            "unadjusted_close": "74.500",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1402.0283013488",
+            "close_cap_cny_100m": "1378.71051281"
+          },
+          {
+            "date": "2015-05-21",
+            "unadjusted_high": "75.000",
+            "unadjusted_close": "73.080",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1387.9636035",
+            "close_cap_cny_100m": "1352.4317352504"
+          },
+          {
+            "date": "2015-05-22",
+            "unadjusted_high": "80.390",
+            "unadjusted_close": "80.390",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1487.7119211382",
+            "close_cap_cny_100m": "1487.7119211382"
+          },
+          {
+            "date": "2015-05-25",
+            "unadjusted_high": "78.610",
+            "unadjusted_close": "76.340",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1454.7709182818",
+            "close_cap_cny_100m": "1412.7618865492"
+          },
+          {
+            "date": "2015-05-26",
+            "unadjusted_high": "76.880",
+            "unadjusted_close": "74.890",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1422.7552244944",
+            "close_cap_cny_100m": "1385.9279235482"
+          },
+          {
+            "date": "2015-05-27",
+            "unadjusted_high": "76.500",
+            "unadjusted_close": "71.720",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1415.72287557",
+            "close_cap_cny_100m": "1327.2633285736"
+          },
+          {
+            "date": "2015-05-28",
+            "unadjusted_high": "71.000",
+            "unadjusted_close": "64.680",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1313.93887798",
+            "close_cap_cny_100m": "1196.9798116584"
+          },
+          {
+            "date": "2015-05-29",
+            "unadjusted_high": "69.750",
+            "unadjusted_close": "67.820",
+            "shares_basis": 1850618138,
+            "high_cap_cny_100m": "1290.806151255",
+            "close_cap_cny_100m": "1255.0892211916"
+          }
+        ],
+        "maximum": {
+          "date": "2015-05-13",
+          "unadjusted_high": "89.500",
+          "unadjusted_close": "82.490",
+          "shares_basis": 1850618138,
+          "high_cap_cny_100m": "1656.30323351",
+          "close_cap_cny_100m": "1526.5749020362"
+        },
+        "all_high_caps_below_1700": true,
+        "scope_limit": "对用户提供的门户日K文件计算；未拿到交易所原件；不是整个上市历史所有时点声明"
+      },
+      {
+        "id": "LETv-share-arithmetic",
+        "announced_before": 841190063,
+        "announced_increment": 1009428076,
+        "calculated_after": 1850618139,
+        "announced_after": 1850618138,
+        "difference_shares": 1,
+        "sina_display_after_wanshares": "185061.814",
+        "sina_display_precision_shares": 10,
+        "sina_display_folded_after": 1850618140,
+        "difference_vs_announced_after": 2,
+        "display_conclusion": "两位小数亿元不受影响；精确到股的分歧保留，不将差异武断定性为已证实取整"
+      },
+      {
+        "id": "APR-weekly-arithmetic-only",
+        "325_71_over_168_09_percent": "93.77119400321256469748349100",
+        "328_41_over_168_09_percent": "95.37747635195431019096912370",
+        "413_03_over_325_71_percent": "26.80912468146510699702189060",
+        "conclusion": "数值自洽可排查转录，但不能单靠算式证明统计口径一致或裁决冲突"
+      }
+    ],
+    "major_findings": [
+      "13条事件全部有独立审核结论；原VERIFIED仅保留为外部状态，不继承。",
+      "主片可用4/13一人多户实施、4/20–24新增A股账户413.03万（4/28发布后显示）、5/13乐视盘中市值约1656亿元；后者不是指数权重。",
+      "5/13收盘1526.89亿改为1526.57亿：不复权82.49元×公告股本复算，并获同期北京青年报交叉支持。",
+      "4/27盘中已经超过千亿，不能把4/28写成首次盘中突破；4/28收盘超过千亿可保留。",
+      "1700亿旧排除理由不充分，现完成5月20个日K全月复算后，在本包口径下最高1656.30亿，1700亿不上屏。",
+      "外部README所谓年鉴含逐月497.53/8184.79表未获原件支持：该50页PDF表2.1（PDF页9–10、印刷页8–9）是2014/2015年统计；已全文提取并核对该表，月度数字只见媒体报道。",
+      "股本原公告内部差1股；新浪以万股保留三位小数的显示值与公告差2股，不影响约数但不能把精确值混成同一来源。",
+      "历史权重的跨日期差异不是自动事实冲突；官方表及截图缺失时不把3.96%、6.57%、曾超过5%写进主片。"
+    ],
+    "verification_limits": "用户提供归档正文逐条比对、PDF版面核对、不复权日K和股本复算；部分附加公开网页检索与打开。哈希只证明归档字节对应，不保证来源真实；未声称取得交易所官方日线。"
+  },
+  "jun": {
+    "derived_checks": [
+      {
+        "id": "JUN-GTJA-SUBSCRIPTION-SUM",
+        "inputs": {
+          "online_frozen_cny": "1336567266720",
+          "offline_valid_subscriptions_cny": "1009902951000.00"
+        },
+        "formula": "online_frozen_cny + offline_valid_subscriptions_cny",
+        "sum_cny": "2346470217720.00",
+        "sum_1e12_cny": "2.34647021772",
+        "display_1e12_cny": "2.35",
+        "arithmetic_verified": true,
+        "scope_caution": "算术一致不建立额外统计口径、冻结期间或资金因果；两项名称分别保留。"
+      }
+    ],
+    "major_findings": [
+      "原件补回使三项“缺原文”已可关闭：中证协124号、证监会17号、证监会19号。原35号通知独立全文仍缺。",
+      "6月12日35号是公开确认；124号正文发布日6月12日与页面7月13日应分开。",
+      "6月27日17:03:28是央行问答页面时间，不是已证实的首次公告时刻；6月28日是实施日期。",
+      "≥1200亿元是7月4日出资承诺，蓝筹ETF不是创业板；上证4500点不能贴在创业板图上。",
+      "17号流动性支持与7月3日240至约1000亿增资安排必须分开；两者均不可当作同日实际买入额。",
+      "两融余额统计日6月18日，手头报道日期8月27日；仅以回顾性指标使用，不当作6月18日首发新闻。",
+      "新增7月8日官方中小市值购买力度表态可丰富真实政策叙事，但保留未来时态。",
+      "7万亿是预测；11点到账/垫资无原始证据。这两者不进主片。"
+    ],
+    "verification_limits": [
+      "存档字节吻合不等于独立验证源站曾发布这些字节。",
+      "新网络证据是文本抽取及阅读记录，未伪称下载了原始HTML或交易所PDF。",
+      "本轮只做内容审核，不代表用户已经批准视觉或主表采用。"
+    ]
+  },
+  "aug_img": {
+    "derived_checks": null,
+    "major_findings": [
+      "PMI日期与47.1可用；首发时刻不可由09:43文章时间推断。",
+      "8/25公告页面18:15:34、8/26降息、9/6降准可分开呈现；19:16为央广评论发布。",
+      "外部向松祚“连续两日8%以上=沪指”核验错误；仅采用真实短句“当前稳定流动性更加关键。”。",
+      "AUG-03-02三人观点缺归档正文支持，暂停采用。",
+      "八张有日期/图组上下文的网页照片已获得；第八张来自12月回顾，另有一张拍摄日不明资料图；均未提供授权。",
+      "2107跌停数无所引正文支持；另源2092与其不同，删除精确家数。",
+      "研究JSON政策事件source_ids失配；修正引用，不沿用外部VERIFIED。"
+    ],
+    "verification_limits": null
+  }
+}

@@ -1,0 +1,1555 @@
+{
+  "schema_version": 1,
+  "package": "chinext-editorial-2015",
+  "version": "1.0.0",
+  "originals_zip": {
+    "file_name": "2015-drawdown_originals_pack.zip",
+    "sha256": "9653d915fab235593f4c412b736e62ebb20893eff686445b1838a1343188062b",
+    "size_bytes": 5280475,
+    "root_directory": "2015-drawdown_原始资料包"
+  },
+  "research_zip": {
+    "file_name": "2015-drawdown_research_pack.zip",
+    "sha256": "4557e2ded9b9b4e56be599cbd54747a92e1b58e1ebe54b9edfd554cfe5d3f1d3",
+    "size_bytes": 43709
+  },
+  "counts": {
+    "files": 117,
+    "source_records": 37,
+    "unique_source_digests": 33,
+    "events": 39,
+    "source_digest_matches": 37
+  },
+  "input_jsons": [
+    {
+      "question_id": "APR-01",
+      "archive_member": "06_回交JSON_与清单/APR-01_A股一人多户与4月开户周报.json",
+      "sha256": "0518ec14208ccd47207861fd7e40c2054659930ad6abe54bf3e9029f73e8e7e7",
+      "event_count": 5
+    },
+    {
+      "question_id": "AUG-01",
+      "archive_member": "06_回交JSON_与清单/AUG-01_中间价机制与8月窗口.json",
+      "sha256": "c684c6f030454b13def213f85cb794c9022725c50bec50fd5cd57deb704c5d32",
+      "event_count": 3
+    },
+    {
+      "question_id": "AUG-02",
+      "archive_member": "06_回交JSON_与清单/AUG-02_8月下旬市场与资金时点.json",
+      "sha256": "f8ebde5f133027202dcd432585afb32f5196a56f9fb80ee4759aae3bd23f9e26",
+      "event_count": 5
+    },
+    {
+      "question_id": "AUG-03",
+      "archive_member": "06_回交JSON_与清单/AUG-03_央广向松祚采访与同期具名观点.json",
+      "sha256": "70465a1e3bdfa6ff649cd0094c55ade045453867b85d47a59af20faeb10a626b",
+      "event_count": 2
+    },
+    {
+      "question_id": "IMG-01",
+      "archive_member": "06_回交JSON_与清单/IMG-01_同期现场照可得性与图注核验.json",
+      "sha256": "529cc13bf4e84b046134b0561c531706255cf6e94ac6575034f25b61c341df4e",
+      "event_count": 5
+    },
+    {
+      "question_id": "IND-01",
+      "archive_member": "06_回交JSON_与清单/IND-01_创业板指成份与乐视网市值口径.json",
+      "sha256": "4adfe730cb445005ea7151876277137bb806d7858ce071324ea0dd6a21a116b1",
+      "event_count": 8
+    },
+    {
+      "question_id": "JUN-01",
+      "archive_member": "06_回交JSON_与清单/JUN-01_外部接入通知与6月资金面.json",
+      "sha256": "254debfa9deb0a70d338d73eb4c3081eab7c7548d76abe6bd4d7c48d36ffdc95",
+      "event_count": 6
+    },
+    {
+      "question_id": "JUN-02",
+      "archive_member": "06_回交JSON_与清单/JUN-02_六月双降与七月救市资金.json",
+      "sha256": "f92824ba0b5ddf2bc25e6386052c13299c1adca9105ba58272dc943102fc3cbe",
+      "event_count": 5
+    }
+  ],
+  "files": [
+    {
+      "archive_member": "00_原始网页归档/apr01_ce_20150515.html",
+      "size_bytes": 31172,
+      "sha256": "c731bfbe084832a48a5472ba01b5a2e217166fbd0d0bdcb94e29af396e97e170"
+    },
+    {
+      "archive_member": "00_原始网页归档/apr01_cnstock_20150413.html",
+      "size_bytes": 24629,
+      "sha256": "76246a90f0035a32e85a808f09d013e933ce6f80fdad8d2bf3377ae514ff3ee0"
+    },
+    {
+      "archive_member": "00_原始网页归档/apr01_huanqiu_20150413.html",
+      "size_bytes": 42081,
+      "sha256": "76f4bdfd084cf843f766c4d601501daec6c17985fa88b05c2d188a0a02d60370"
+    },
+    {
+      "archive_member": "00_原始网页归档/apr01_paper_20150429.html",
+      "size_bytes": 29948,
+      "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64"
+    },
+    {
+      "archive_member": "00_原始网页归档/apr01_people_20150412.html",
+      "size_bytes": 67963,
+      "sha256": "53e1eeb49a6f84e5e44a10df441a371dcfa3f03aaf56eacbe90997c71a77c823"
+    },
+    {
+      "archive_member": "00_原始网页归档/apr01_people_20150422.html",
+      "size_bytes": 68185,
+      "sha256": "931c114b0dec8cabefc7a54797235fce43557d14bb8535618ffee6597c7652b7"
+    },
+    {
+      "archive_member": "00_原始网页归档/apr01_people_20150515.html",
+      "size_bytes": 67983,
+      "sha256": "948c1c71e1dfef66be0c759e75c5097468099045231c506c1e311e12cc517d8d"
+    },
+    {
+      "archive_member": "00_原始网页归档/apr01_xinhua_20150413.html",
+      "size_bytes": 46027,
+      "sha256": "58f6b468488f5a1ccbc5c27e9329419dc557d892e5f47040efa4e5bcfff3b892"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug01_caixin_20150821.html",
+      "size_bytes": 67105,
+      "sha256": "30c9afb1acb5504cf3431f0a9a11baada78fb66396281d42db1f2bfac3e7e1ca"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug01_cnnews_20150811.html",
+      "size_bytes": 21265,
+      "sha256": "941ecc931f4fc903e179f3a20506bfd618fbdc6e6eba37cd825df38b9b993211"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug01_cs_20150811.html",
+      "size_bytes": 22752,
+      "sha256": "b1c52d2ae5a64d0e4da2b783cec7b49321971483c7b1a350ffd68f441120bdd0"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug01_fmprc_20150811.html",
+      "size_bytes": 54334,
+      "sha256": "5f8c855fd9cba91d4f00dcebe1db418b74fe149d04824fe3dc3dfb20d7de8754"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug01_icbc_fx_2015.pdf",
+      "size_bytes": 195955,
+      "sha256": "c13e9b384c4afdd491afe26d6648706e66694e5d264158e34f9917c27f740a33"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug02_caixin_20150821.html",
+      "size_bytes": 66080,
+      "sha256": "d2b0224212285b145ba805b86eb8bea24edfb9466cb24940b3e6a79ff06d3d67"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug02_china_20150826.html",
+      "size_bytes": 47432,
+      "sha256": "90665ff1a7a3d4bbf6c924a30aa98195cadd257b23823e6d01a526f5c3c2b3d1"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug02_cnnews_20150824.html",
+      "size_bytes": 61989,
+      "sha256": "da22b0182bcc7a6f315278ae40d05cabccc886b0691f3f3ed2178d749910a548"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug02_cnnews_20150824.utf8.html",
+      "size_bytes": 64618,
+      "sha256": "2c05174756eea1fa77f1a91a92d539ffced8c71b102ff65c9e9e5d28915f277c"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug02_people_20150825_policy.html",
+      "size_bytes": 21170,
+      "sha256": "92d146528b9fb97a3be3ffec739d78f82dd74bd7c6520e2b6379455356da4253"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug03_cnr_20150825.html",
+      "size_bytes": 23415,
+      "sha256": "2d5d44cec23acda4d6221606b2248c47f432e88ec01caa9fd1c41cfa292e1a07"
+    },
+    {
+      "archive_member": "00_原始网页归档/aug03_cnr_20150825_quan.html",
+      "size_bytes": 32632,
+      "sha256": "0b8f838791371217bc671c1a54441022dca2ef68137fdd420daf717e0f6aa254"
+    },
+    {
+      "archive_member": "00_原始网页归档/cl_2015_yearbook.pdf",
+      "size_bytes": 1477722,
+      "sha256": "e034495d4174600da815713a9cdc171b2a8dbd9747bfdd29d3010bd9602c9392"
+    },
+    {
+      "archive_member": "00_原始网页归档/cl_2016_yearbook.pdf",
+      "size_bytes": 530,
+      "sha256": "ebe638990217d42ad483c22064f6797fb869e9ac32f1d268edae43db5c6be9bc"
+    },
+    {
+      "archive_member": "00_原始网页归档/cl_dsj.html",
+      "size_bytes": 814815,
+      "sha256": "68e696f45bbbcabc7ec6fbd93c6af9d0fc3c280fdf6f4d45cee09171e56004df"
+    },
+    {
+      "archive_member": "00_原始网页归档/cl_if_1.html",
+      "size_bytes": 142,
+      "sha256": "526deb42dca2a28ab89c1d0383fac22fdcede2c5d83a5b1000ddfe406223ea4b"
+    },
+    {
+      "archive_member": "00_原始网页归档/cl_if_2.html",
+      "size_bytes": 142,
+      "sha256": "526deb42dca2a28ab89c1d0383fac22fdcede2c5d83a5b1000ddfe406223ea4b"
+    },
+    {
+      "archive_member": "00_原始网页归档/cl_if_3.html",
+      "size_bytes": 142,
+      "sha256": "526deb42dca2a28ab89c1d0383fac22fdcede2c5d83a5b1000ddfe406223ea4b"
+    },
+    {
+      "archive_member": "00_原始网页归档/cl_tjnb.html",
+      "size_bytes": 27442,
+      "sha256": "3419ab78945ae04cf500934c0566d812fcac35c3c18108ccaeab8bbd88fd33a0"
+    },
+    {
+      "archive_member": "00_原始网页归档/cl_tjnb_iframe.html",
+      "size_bytes": 7576,
+      "sha256": "d1ba006f58f2b199a455977a019ca35ba918fa86de72c420ad0585bbf671d742"
+    },
+    {
+      "archive_member": "00_原始网页归档/cl_tjnb_list.html",
+      "size_bytes": 27442,
+      "sha256": "3419ab78945ae04cf500934c0566d812fcac35c3c18108ccaeab8bbd88fd33a0"
+    },
+    {
+      "archive_member": "00_原始网页归档/img01_china_week_20151204.html",
+      "size_bytes": 12493,
+      "sha256": "9a190b974c285ae6410ba05efc52aecf4aaade3a83ef57d8f7e14a4ca8e562b1"
+    },
+    {
+      "archive_member": "00_原始网页归档/img01_cnnews_20150824.html",
+      "size_bytes": 19458,
+      "sha256": "472d2d29eafb8860868a63b814b7355290624bebffbb5509c53b9e45c2ef6030"
+    },
+    {
+      "archive_member": "00_原始网页归档/img01_paper_20150824.html",
+      "size_bytes": 65142,
+      "sha256": "a8e6dd6f6f31b6d8944c17071da5e0cc779527b077fa759921193d4d913c02b1"
+    },
+    {
+      "archive_member": "00_原始网页归档/img01_sina_20150825.html",
+      "size_bytes": 102527,
+      "sha256": "03c075f0dc4fc7b9bc7b27da52b252d43b7272d07af76f8e278bee6998c7c083"
+    },
+    {
+      "archive_member": "00_原始网页归档/img01_sina_20150825.utf8.html",
+      "size_bytes": 107183,
+      "sha256": "376b9713c6a2d577ee0e6237909cc629b751064182071c0757425e1292263f92"
+    },
+    {
+      "archive_member": "00_原始网页归档/ind01_21jingji_20200720.html",
+      "size_bytes": 10648,
+      "sha256": "d222866483f8cc495347f735aeec641873e4f2fa58d3b98dcd430a076cdc57cf"
+    },
+    {
+      "archive_member": "00_原始网页归档/ind01_cnnews_20150525.html",
+      "size_bytes": 64351,
+      "sha256": "525ffe5dce7fc0e263e7199435c94045f1f34b45e97514e282eb764b231cae2a"
+    },
+    {
+      "archive_member": "00_原始网页归档/ind01_cnnews_20150525.utf8.html",
+      "size_bytes": 69042,
+      "sha256": "3d29b3cacf13ffe11bd7b12f8003df69c8e15800b3ad1488f06b237ad94261d4"
+    },
+    {
+      "archive_member": "00_原始网页归档/ind01_cs_20180404.html",
+      "size_bytes": 20814,
+      "sha256": "ba7408e2b76e83470bfd037bd3fd1b210452cba99fe93690274ed22ba5d03913"
+    },
+    {
+      "archive_member": "00_原始网页归档/ind01_cs_20180404.utf8.html",
+      "size_bytes": 23337,
+      "sha256": "e7fe8ac8de7a2c7c4d52bb08bd311add7598f2e1684f6876dde7780b20c1fa89"
+    },
+    {
+      "archive_member": "00_原始网页归档/ind01_leshi_capital_sina.html",
+      "size_bytes": 231684,
+      "sha256": "2255b4cbcd6e73f58640781bbb47540f7ff7efa063f691aa032a8e795954a0dd"
+    },
+    {
+      "archive_member": "00_原始网页归档/ind01_leshi_dividend_20150505.pdf",
+      "size_bytes": 153176,
+      "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7"
+    },
+    {
+      "archive_member": "00_原始网页归档/ind01_leshi_kline_sina_raw.json",
+      "size_bytes": 106282,
+      "sha256": "f556d7098c44bd79f84e263db6a8484a411649b19a5f5525a027fb1fadf1aece"
+    },
+    {
+      "archive_member": "00_原始网页归档/ind01_leshi_kline_tencent_qfq.json",
+      "size_bytes": 9577,
+      "sha256": "c7f42b32d0968c6fef894df85ce7283b59f3916297b94e616ed01fd12809467e"
+    },
+    {
+      "archive_member": "00_原始网页归档/ind01_sina_20200612.html",
+      "size_bytes": 109896,
+      "sha256": "0f70c239a97c621e7c70510a8a4bca9d142630ceeed7111e8493c71aaac4056c"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun01_ce_20150827.html",
+      "size_bytes": 41171,
+      "sha256": "cc5d5c7ba0441727f463f9bc336055e77094e1c98eb410bdd921aee8f15c1dee"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun01_ce_20150827.utf8.html",
+      "size_bytes": 45192,
+      "sha256": "b1bf94bda7be8b8ee284e117df7e798beb55a9c3ab71035bfe8617c532c6f904"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun01_cnstock_20150702.html",
+      "size_bytes": 98,
+      "sha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun01_cs_20150620.html",
+      "size_bytes": 20851,
+      "sha256": "2afa40382bfdcdd6f61c0448b372611a63b0c65362057942879f65eee228d529"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun01_cs_20150620.utf8.html",
+      "size_bytes": 22900,
+      "sha256": "e25e2adb9b1cd6441e027198ce26ba17c421c07b116942f38502b2c7626c26a8"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun01_csrc_20150612.html",
+      "size_bytes": 17677,
+      "sha256": "4795d91867e01fbc78d160952f3cdb6752f73f786934c09ebe578021e444ab6e"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun01_csrc_sz_20150615.html",
+      "size_bytes": 18543,
+      "sha256": "e7e49b6ba01c71578e1f1329c2c22a26790035b216bc0e103cbfd8f5f59f23c4"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun01_econ_20150618.html",
+      "size_bytes": 25175,
+      "sha256": "fb923a64614a86b9f3fb077b607d158e029a99776a622b3f0b3f24b2fb4f1e6b"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun01_people_20150713.html",
+      "size_bytes": 65878,
+      "sha256": "d0d4994ebdde871e3505d4fb13ca584247935858fa199a1dfde34c209456f6ae"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun01_people_20150713.utf8.html",
+      "size_bytes": 69389,
+      "sha256": "aac2af10f2fadf05007d78ac68da1a992e427e6590ce0f4bf64cfd90c0c9113f"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun01_sac_20150612.html",
+      "size_bytes": 41614,
+      "sha256": "28a088b4303446b97ec030a0ff0501a217cb65d0da70b1a4a20828c4bdf3ee86"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_cninfo_20150716.pdf",
+      "size_bytes": 224167,
+      "sha256": "b65b53508d225ad25adfe2a89d3b02adb407a4dea45dddaec32311890928fe78"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_csrc_gg2015_17.html",
+      "size_bytes": 15146,
+      "sha256": "c676d67ee4985a2e0c76b12f11d8923de68e26c6efce119c9ce4782ccd3b4ba6"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_csrc_gg2015_19.html",
+      "size_bytes": 16486,
+      "sha256": "841ef82391cfe8dd079f9020c88a15c6336b88008d0805aed822d1a362791f41"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_pbc_20150628.html",
+      "size_bytes": 29907,
+      "sha256": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_people_20150627.html",
+      "size_bytes": 21255,
+      "sha256": "ed9c2153e77a9885fbcaf7a21b465a1183182a98ba6f8ecc8c7851924aff98e4"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_people_20150627.utf8.html",
+      "size_bytes": 22965,
+      "sha256": "d9c1a04e8763f8ba6ac1d588ed18f8ba8bf3a3f2af0c6fe5f59e6e5c840cd08a"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_people_20150704.html",
+      "size_bytes": 60038,
+      "sha256": "1114ad60476301e051426790fd8fdc7bd7fe2df575f19d7796917651343f8f63"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_people_20150704.utf8.html",
+      "size_bytes": 62760,
+      "sha256": "8104a5583902b90d6f120c78f7e519649a3f038670dcd5d5cfe67eede15c42f6"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_people_20150705.html",
+      "size_bytes": 76031,
+      "sha256": "0a1cc171b11706943917d608e7e3244f56e8b80aa8f3782dfda602db445bfccd"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_people_20150705.utf8.html",
+      "size_bytes": 82966,
+      "sha256": "923550dc71e187bf526ac5fae875614aec1c38645b05f009048dbba272170976"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_people_20150706.html",
+      "size_bytes": 65488,
+      "sha256": "677c4ad2a5380e4a818e3b5d9782f5c39878c5921a590be4e80d34af9893ff24"
+    },
+    {
+      "archive_member": "00_原始网页归档/jun02_people_20150706.utf8.html",
+      "size_bytes": 68832,
+      "sha256": "5fa86f4618b121c050c160e8b9746bd91fc5b6be3ea862bba35759c7439ebccc"
+    },
+    {
+      "archive_member": "01_中国结算开户统计/中国经济网_20150515_京华时报_4月近500万投资者入场.html",
+      "size_bytes": 31172,
+      "sha256": "c731bfbe084832a48a5472ba01b5a2e217166fbd0d0bdcb94e29af396e97e170"
+    },
+    {
+      "archive_member": "01_中国结算开户统计/中国证券登记结算统计年鉴2015.pdf",
+      "size_bytes": 1477722,
+      "sha256": "e034495d4174600da815713a9cdc171b2a8dbd9747bfdd29d3010bd9602c9392"
+    },
+    {
+      "archive_member": "01_中国结算开户统计/人民网_20150515_4月新增近500万投资者.html",
+      "size_bytes": 67983,
+      "sha256": "948c1c71e1dfef66be0c759e75c5097468099045231c506c1e311e12cc517d8d"
+    },
+    {
+      "archive_member": "02_乐视网行情与股本/乐视网_2014年度权益分派实施公告.pdf",
+      "size_bytes": 153176,
+      "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7"
+    },
+    {
+      "archive_member": "02_乐视网行情与股本/乐视网_日线行情_不复权_20130626-20210627.json",
+      "size_bytes": 106282,
+      "sha256": "f556d7098c44bd79f84e263db6a8484a411649b19a5f5525a027fb1fadf1aece"
+    },
+    {
+      "archive_member": "02_乐视网行情与股本/乐视网_日线行情_前复权_2015年4-9月.json",
+      "size_bytes": 9577,
+      "sha256": "c7f42b32d0968c6fef894df85ce7283b59f3916297b94e616ed01fd12809467e"
+    },
+    {
+      "archive_member": "02_乐视网行情与股本/乐视网_股本结构_新浪财经.html",
+      "size_bytes": 231684,
+      "sha256": "2255b4cbcd6e73f58640781bbb47540f7ff7efa063f691aa032a8e795954a0dd"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/21家证券公司联合公告全文_巨潮资讯披露.pdf",
+      "size_bytes": 224167,
+      "sha256": "b65b53508d225ad25adfe2a89d3b02adb407a4dea45dddaec32311890928fe78"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/中证协发2015-124号_证券公司外部接入信息系统评估认证规范.html",
+      "size_bytes": 41614,
+      "sha256": "28a088b4303446b97ec030a0ff0501a217cb65d0da70b1a4a20828c4bdf3ee86"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/人民网_20150627_央行定向降准降息.html",
+      "size_bytes": 21255,
+      "sha256": "ed9c2153e77a9885fbcaf7a21b465a1183182a98ba6f8ecc8c7851924aff98e4"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/人民网_20150704_21家券商联合公告.html",
+      "size_bytes": 60038,
+      "sha256": "1114ad60476301e051426790fd8fdc7bd7fe2df575f19d7796917651343f8f63"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/人民网_20150705_28只新股暂缓发行.html",
+      "size_bytes": 76031,
+      "sha256": "0a1cc171b11706943917d608e7e3244f56e8b80aa8f3782dfda602db445bfccd"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/人民网_20150706_央行多形式支持证金公司.html",
+      "size_bytes": 65488,
+      "sha256": "677c4ad2a5380e4a818e3b5d9782f5c39878c5921a590be4e80d34af9893ff24"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/人民网_20150713_清理整顿报道.html",
+      "size_bytes": 65878,
+      "sha256": "d0d4994ebdde871e3505d4fb13ca584247935858fa199a1dfde34c209456f6ae"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/央行_20150627_定向降准并下调存贷款基准利率答记者问.html",
+      "size_bytes": 29907,
+      "sha256": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/深圳证监局_引用证监办发2015-35号文.html",
+      "size_bytes": 18543,
+      "sha256": "e7e49b6ba01c71578e1f1329c2c22a26790035b216bc0e103cbfd8f5f59f23c4"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/证监会_20150612新闻发布会_回应外部接入.html",
+      "size_bytes": 17677,
+      "sha256": "4795d91867e01fbc78d160952f3cdb6752f73f786934c09ebe578021e444ab6e"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/证监会公告2015-17号_央行给予证金公司流动性支持.html",
+      "size_bytes": 15146,
+      "sha256": "c676d67ee4985a2e0c76b12f11d8923de68e26c6efce119c9ce4782ccd3b4ba6"
+    },
+    {
+      "archive_member": "03_2015年6-7月政策原文/证监会公告2015-19号_关于清理整顿违法从事证券业务活动的意见.html",
+      "size_bytes": 16486,
+      "sha256": "841ef82391cfe8dd079f9020c88a15c6336b88008d0805aed822d1a362791f41"
+    },
+    {
+      "archive_member": "04_2015年8月全球市场与观点/中国网_20150826_两日市值蒸发7.26万亿.html",
+      "size_bytes": 47432,
+      "sha256": "90665ff1a7a3d4bbf6c924a30aa98195cadd257b23823e6d01a526f5c3c2b3d1"
+    },
+    {
+      "archive_member": "04_2015年8月全球市场与观点/中国网_20151204_图刊_股民煎熬2015.html",
+      "size_bytes": 12493,
+      "sha256": "9a190b974c285ae6410ba05efc52aecf4aaade3a83ef57d8f7e14a4ca8e562b1"
+    },
+    {
+      "archive_member": "04_2015年8月全球市场与观点/中新网_20150811_央行公告与发言人表态.html",
+      "size_bytes": 21265,
+      "sha256": "941ecc931f4fc903e179f3a20506bfd618fbdc6e6eba37cd825df38b9b993211"
+    },
+    {
+      "archive_member": "04_2015年8月全球市场与观点/中新网_20150824_收盘稿.html",
+      "size_bytes": 64618,
+      "sha256": "2c05174756eea1fa77f1a91a92d539ffced8c71b102ff65c9e9e5d28915f277c"
+    },
+    {
+      "archive_member": "04_2015年8月全球市场与观点/中新网_20150824_收盘稿_原始字节.html",
+      "size_bytes": 61989,
+      "sha256": "da22b0182bcc7a6f315278ae40d05cabccc886b0691f3f3ed2178d749910a548"
+    },
+    {
+      "archive_member": "04_2015年8月全球市场与观点/中证网_20150811_央行完善中间价报价机制.html",
+      "size_bytes": 22752,
+      "sha256": "b1c52d2ae5a64d0e4da2b783cec7b49321971483c7b1a350ffd68f441120bdd0"
+    },
+    {
+      "archive_member": "04_2015年8月全球市场与观点/人民网_20150825_央行再次双降_公告全文.html",
+      "size_bytes": 21170,
+      "sha256": "92d146528b9fb97a3be3ffec739d78f82dd74bd7c6520e2b6379455356da4253"
+    },
+    {
+      "archive_member": "04_2015年8月全球市场与观点/央广_20150825_稳增长再出招_央行宣布降息降准_含向松祚采访.html",
+      "size_bytes": 32632,
+      "sha256": "0b8f838791371217bc671c1a54441022dca2ef68137fdd420daf717e0f6aa254"
+    },
+    {
+      "archive_member": "04_2015年8月全球市场与观点/央行_20150811_完善中间价报价声明与答记者问_外交部转载.html",
+      "size_bytes": 54334,
+      "sha256": "5f8c855fd9cba91d4f00dcebe1db418b74fe149d04824fe3dc3dfb20d7de8754"
+    },
+    {
+      "archive_member": "04_2015年8月全球市场与观点/新华网_20150825_全球股市遭遇黑色星期一.html",
+      "size_bytes": 107183,
+      "sha256": "376b9713c6a2d577ee0e6237909cc629b751064182071c0757425e1292263f92"
+    },
+    {
+      "archive_member": "04_2015年8月全球市场与观点/财新_20150821_8月制造业PMI初值47.1.html",
+      "size_bytes": 67105,
+      "sha256": "30c9afb1acb5504cf3431f0a9a11baada78fb66396281d42db1f2bfac3e7e1ca"
+    },
+    {
+      "archive_member": "05_8月24日营业部现场照片/20150824_01_昆明证券交易大厅股民_中新社刘冉阳.jpg",
+      "size_bytes": 68047,
+      "sha256": "e9d18208a1e60e402af95d132c6e3a5cd5d313ecc1a00d08142e1898669a555e"
+    },
+    {
+      "archive_member": "05_8月24日营业部现场照片/20150824_02_南京证券交易大厅股民查看行情_中新社泱波.jpg",
+      "size_bytes": 84342,
+      "sha256": "797d585e9dd2c000e94efabb72b262790197f53a26ea2cbb98f6c9f9813a288c"
+    },
+    {
+      "archive_member": "05_8月24日营业部现场照片/20150824_03_海口证券交易大厅股民关注大盘_中新社骆云飞.jpg",
+      "size_bytes": 136311,
+      "sha256": "836a433595886103b72f77aa82d278bdbb11db9aca353a5978ce5333cf7f68fb"
+    },
+    {
+      "archive_member": "05_8月24日营业部现场照片/20150824_04_海口股民在飘绿大盘前休息_中新社骆云飞.jpg",
+      "size_bytes": 113745,
+      "sha256": "2fa28ae13a88d77608f94e852cb667215e0a8696f0e77b39c708970e3e2ed3bc"
+    },
+    {
+      "archive_member": "05_8月24日营业部现场照片/20150824_05_南京股民查看行情_中新社泱波.jpg",
+      "size_bytes": 87736,
+      "sha256": "5014f39abaf534a7453a5a71a3f3b30dab0796e39143cee04c9e311804e2c459"
+    },
+    {
+      "archive_member": "05_8月24日营业部现场照片/20150824_06_昆明交易大厅股票信息屏_中新社刘冉阳.jpg",
+      "size_bytes": 133618,
+      "sha256": "6d4dddd62268a214bcce505a8d732de9115cd9639eb18baba94f79ed3faf3e1c"
+    },
+    {
+      "archive_member": "05_8月24日营业部现场照片/20150824_07_洛阳营业厅股民_新华社张怡熙.jpg",
+      "size_bytes": 59571,
+      "sha256": "cd693f627447fa211c955e995d972742dee5223cd978a2879d6087fe2e1a825b"
+    },
+    {
+      "archive_member": "05_8月24日营业部现场照片/20150824_08_受伤股民面对翻绿股指_中新社韦亮.jpg",
+      "size_bytes": 68390,
+      "sha256": "9d3753b0adfa204f79d78d42ba5c03dc747d627f603a6063692d3069ec731136"
+    },
+    {
+      "archive_member": "05_8月24日营业部现场照片/20150824_99_澎湃配图_标注为资料_不可作当日证据.jpg",
+      "size_bytes": 47460,
+      "sha256": "7cc0c199a988704f43dba159b70bcdb57d3bf04aa58ae05524c3de98c1b9f964"
+    },
+    {
+      "archive_member": "05_8月24日营业部现场照片/图注与使用说明.md",
+      "size_bytes": 2023,
+      "sha256": "cb27de61dc427f8efb99e92abe8441112423f08a09294d71c2f0f0f19c1ad49c"
+    },
+    {
+      "archive_member": "06_回交JSON_与清单/APR-01_A股一人多户与4月开户周报.json",
+      "size_bytes": 15084,
+      "sha256": "0518ec14208ccd47207861fd7e40c2054659930ad6abe54bf3e9029f73e8e7e7"
+    },
+    {
+      "archive_member": "06_回交JSON_与清单/AUG-01_中间价机制与8月窗口.json",
+      "size_bytes": 9259,
+      "sha256": "c684c6f030454b13def213f85cb794c9022725c50bec50fd5cd57deb704c5d32"
+    },
+    {
+      "archive_member": "06_回交JSON_与清单/AUG-02_8月下旬市场与资金时点.json",
+      "size_bytes": 14127,
+      "sha256": "f8ebde5f133027202dcd432585afb32f5196a56f9fb80ee4759aae3bd23f9e26"
+    },
+    {
+      "archive_member": "06_回交JSON_与清单/AUG-03_央广向松祚采访与同期具名观点.json",
+      "size_bytes": 7295,
+      "sha256": "70465a1e3bdfa6ff649cd0094c55ade045453867b85d47a59af20faeb10a626b"
+    },
+    {
+      "archive_member": "06_回交JSON_与清单/IMG-01_同期现场照可得性与图注核验.json",
+      "size_bytes": 11412,
+      "sha256": "529cc13bf4e84b046134b0561c531706255cf6e94ac6575034f25b61c341df4e"
+    },
+    {
+      "archive_member": "06_回交JSON_与清单/IND-01_创业板指成份与乐视网市值口径.json",
+      "size_bytes": 20142,
+      "sha256": "4adfe730cb445005ea7151876277137bb806d7858ce071324ea0dd6a21a116b1"
+    },
+    {
+      "archive_member": "06_回交JSON_与清单/JUN-01_外部接入通知与6月资金面.json",
+      "size_bytes": 16413,
+      "sha256": "254debfa9deb0a70d338d73eb4c3081eab7c7548d76abe6bd4d7c48d36ffdc95"
+    },
+    {
+      "archive_member": "06_回交JSON_与清单/JUN-02_六月双降与七月救市资金.json",
+      "size_bytes": 16409,
+      "sha256": "f92824ba0b5ddf2bc25e6386052c13299c1adca9105ba58272dc943102fc3cbe"
+    },
+    {
+      "archive_member": "06_回交JSON_与清单/research_manifest.json",
+      "size_bytes": 19981,
+      "sha256": "e38ce5767c9af7890c7b94417c7e99c572c7efd2d9d797dabf2b3be45c9bcb4e"
+    },
+    {
+      "archive_member": "README.md",
+      "size_bytes": 6364,
+      "sha256": "854ced01cc7acad04e537b2d095a5dc21fac46cd4bfc77df643db74de4a434fe"
+    }
+  ],
+  "source_mapping": [
+    {
+      "source_id": "APR-01:S01",
+      "question_id": "APR-01",
+      "external_source": {
+        "id": "S01",
+        "title": "A股“一人一户”解禁 每人可开20个证券账户",
+        "publisher": "新华网",
+        "source_type": "contemporary",
+        "path": "originals/apr01_xinhua_20150413.html",
+        "archive_member": null,
+        "sha256": "58f6b468488f5a1ccbc5c27e9329419dc557d892e5f47040efa4e5bcfff3b892",
+        "url": "http://www.xinhuanet.com/politics/2015-04/13/c_127681812.htm",
+        "published_at": "2015-04-13T08:56:14+08:00",
+        "collected_at": "2026-11-21T21:34:38+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/apr01_xinhua_20150413.html",
+          "size_bytes": 46027,
+          "sha256": "58f6b468488f5a1ccbc5c27e9329419dc557d892e5f47040efa4e5bcfff3b892"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "APR-01:S02",
+      "question_id": "APR-01",
+      "external_source": {
+        "id": "S02",
+        "title": "同一投资者最多可开立20个A股账户、封闭式基金账户",
+        "publisher": "人民网",
+        "source_type": "contemporary",
+        "path": "originals/apr01_people_20150412.html",
+        "archive_member": null,
+        "sha256": "53e1eeb49a6f84e5e44a10df441a371dcfa3f03aaf56eacbe90997c71a77c823",
+        "url": "http://finance.people.com.cn/stock/n/2015/0412/c67815-26831853.html",
+        "published_at": "2015-04-12T19:33:00+08:00",
+        "collected_at": "2026-11-21T21:34:38+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/apr01_people_20150412.html",
+          "size_bytes": 67963,
+          "sha256": "53e1eeb49a6f84e5e44a10df441a371dcfa3f03aaf56eacbe90997c71a77c823"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "APR-01:S03",
+      "question_id": "APR-01",
+      "external_source": {
+        "id": "S03",
+        "title": "A股“一人一户”限制今起全面放开",
+        "publisher": "上海证券报",
+        "source_type": "contemporary",
+        "path": "originals/apr01_cnstock_20150413.html",
+        "archive_member": null,
+        "sha256": "76246a90f0035a32e85a808f09d013e933ce6f80fdad8d2bf3377ae514ff3ee0",
+        "url": "http://paper.cnstock.com/html/2015-04/13/content_511603.htm",
+        "published_at": "2015-04-13",
+        "collected_at": "2026-11-21T21:34:38+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/apr01_cnstock_20150413.html",
+          "size_bytes": 24629,
+          "sha256": "76246a90f0035a32e85a808f09d013e933ce6f80fdad8d2bf3377ae514ff3ee0"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "APR-01:S04",
+      "question_id": "APR-01",
+      "external_source": {
+        "id": "S04",
+        "title": "A股“一人一户”今起解禁 投资者最多可开20个账户",
+        "publisher": "环球网（转载证券日报）",
+        "source_type": "contemporary",
+        "path": "originals/apr01_huanqiu_20150413.html",
+        "archive_member": null,
+        "sha256": "76f4bdfd084cf843f766c4d601501daec6c17985fa88b05c2d188a0a02d60370",
+        "url": "https://finance.huanqiu.com/article/9CaKrnJJSqG",
+        "published_at": "2015-04-13T07:41:00+08:00",
+        "collected_at": "2026-11-21T21:34:38+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/apr01_huanqiu_20150413.html",
+          "size_bytes": 42081,
+          "sha256": "76f4bdfd084cf843f766c4d601501daec6c17985fa88b05c2d188a0a02d60370"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "APR-01:S05",
+      "question_id": "APR-01",
+      "external_source": {
+        "id": "S05",
+        "title": "一人多户开通首周 A股新增开户迈过300万大关",
+        "publisher": "人民网（转载京华时报）",
+        "source_type": "contemporary",
+        "path": "originals/apr01_people_20150422.html",
+        "archive_member": null,
+        "sha256": "931c114b0dec8cabefc7a54797235fce43557d14bb8535618ffee6597c7652b7",
+        "url": "http://finance.people.com.cn/stock/n/2015/0422/c67815-26884427.html",
+        "published_at": "2015-04-22T08:28:00+08:00",
+        "collected_at": "2026-11-21T21:34:38+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/apr01_people_20150422.html",
+          "size_bytes": 68185,
+          "sha256": "931c114b0dec8cabefc7a54797235fce43557d14bb8535618ffee6597c7652b7"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "APR-01:S06",
+      "question_id": "APR-01",
+      "external_source": {
+        "id": "S06",
+        "title": "韭菜根本割不完！A股上周开户数首破400万",
+        "publisher": "澎湃新闻",
+        "source_type": "contemporary",
+        "path": "originals/apr01_paper_20150429.html",
+        "archive_member": null,
+        "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64",
+        "url": "https://thepaper.cn/newsDetail_forward_1325946",
+        "published_at": "2015-04-28T20:37:00+08:00",
+        "collected_at": "2026-11-21T21:34:38+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/apr01_paper_20150429.html",
+          "size_bytes": 29948,
+          "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "AUG-01:S01",
+      "question_id": "AUG-01",
+      "external_source": {
+        "id": "S01",
+        "title": "央行：人民币汇率形成机制改革继续朝市场化迈进",
+        "publisher": "中国新闻网（转述央行网站）",
+        "source_type": "contemporary",
+        "path": "originals/aug01_cnnews_20150811.html",
+        "archive_member": null,
+        "sha256": "941ecc931f4fc903e179f3a20506bfd618fbdc6e6eba37cd825df38b9b993211",
+        "url": "http://www.chinanews.com.cn/m/cj/2015/08-11/7459747.shtml",
+        "published_at": "2015-08-11T09:41:00+08:00",
+        "collected_at": "2026-11-21T21:42:12+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/aug01_cnnews_20150811.html",
+          "size_bytes": 21265,
+          "sha256": "941ecc931f4fc903e179f3a20506bfd618fbdc6e6eba37cd825df38b9b993211"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "AUG-01:S02",
+      "question_id": "AUG-01",
+      "external_source": {
+        "id": "S02",
+        "title": "2015年人民币汇率改革大事记",
+        "publisher": "中国工商银行（汇编）",
+        "source_type": "retrospective",
+        "path": "originals/aug01_icbc_fx_2015.pdf",
+        "archive_member": null,
+        "sha256": "c13e9b384c4afdd491afe26d6648706e66694e5d264158e34f9917c27f740a33",
+        "url": "http://v.icbc.com.cn/userfiles/Resources/ICBC/licai/2016/2015%E5%B9%B4%E4%BA%BA%E6%B0%91%E5%B8%81%E6%B1%87%E7%8E%87%E5%A4%A7%E4%BA%8B%E8%AE%B0.pdf",
+        "published_at": "2016",
+        "collected_at": "2026-11-21T21:42:12+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/aug01_icbc_fx_2015.pdf",
+          "size_bytes": 195955,
+          "sha256": "c13e9b384c4afdd491afe26d6648706e66694e5d264158e34f9917c27f740a33"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "AUG-01:S03",
+      "question_id": "AUG-01",
+      "external_source": {
+        "id": "S03",
+        "title": "8月财新中国制造业PMI初值录得47.1",
+        "publisher": "财新PMI",
+        "source_type": "primary",
+        "path": "originals/aug01_caixin_20150821.html",
+        "archive_member": null,
+        "sha256": "30c9afb1acb5504cf3431f0a9a11baada78fb66396281d42db1f2bfac3e7e1ca",
+        "url": "https://pmi.caixin.com/2015-08-21/100842072.html",
+        "published_at": "2015-08-21T09:43:10+08:00",
+        "collected_at": "2026-11-21T21:42:12+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/aug01_caixin_20150821.html",
+          "size_bytes": 67105,
+          "sha256": "30c9afb1acb5504cf3431f0a9a11baada78fb66396281d42db1f2bfac3e7e1ca"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "AUG-02:S04",
+      "question_id": "AUG-02",
+      "external_source": {
+        "id": "S04",
+        "title": "沪指24日跌8.49%重回3200点 今年累计跌幅0.77%",
+        "publisher": "中国新闻网",
+        "source_type": "contemporary",
+        "path": "originals/aug02_cnnews_20150824.utf8.html",
+        "archive_member": null,
+        "sha256": "2c05174756eea1fa77f1a91a92d539ffced8c71b102ff65c9e9e5d28915f277c",
+        "url": "http://www.chinanews.com/stock/2015/08-24/7485800.shtml",
+        "published_at": "2015-08-24T15:28:00+08:00",
+        "collected_at": "2026-11-21T21:42:12+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/aug02_cnnews_20150824.utf8.html",
+          "size_bytes": 64618,
+          "sha256": "2c05174756eea1fa77f1a91a92d539ffced8c71b102ff65c9e9e5d28915f277c"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "AUG-02:S05",
+      "question_id": "AUG-02",
+      "external_source": {
+        "id": "S05",
+        "title": "黑色星期二沪指跌回“2”时代 两市两日蒸发7万亿",
+        "publisher": "中国网（转载新京报）",
+        "source_type": "contemporary",
+        "path": "originals/aug02_china_20150826.html",
+        "archive_member": null,
+        "sha256": "90665ff1a7a3d4bbf6c924a30aa98195cadd257b23823e6d01a526f5c3c2b3d1",
+        "url": "https://finance.china.com.cn/stock/dp/20150826/3309440.shtml",
+        "published_at": "2015-08-26T02:31:13+08:00",
+        "collected_at": "2026-11-21T21:42:12+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/aug02_china_20150826.html",
+          "size_bytes": 47432,
+          "sha256": "90665ff1a7a3d4bbf6c924a30aa98195cadd257b23823e6d01a526f5c3c2b3d1"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "AUG-02:S06",
+      "question_id": "AUG-02",
+      "external_source": {
+        "id": "S06",
+        "title": "[今日午盘]全线皆墨 沪指失守3600点跌逾3%",
+        "publisher": "财新网",
+        "source_type": "contemporary",
+        "path": "originals/aug02_caixin_20150821.html",
+        "archive_member": null,
+        "sha256": "d2b0224212285b145ba805b86eb8bea24edfb9466cb24940b3e6a79ff06d3d67",
+        "url": "https://finance.caixin.com/2015-08-21/100842146.html",
+        "published_at": "2015-08-21T11:30:11+08:00",
+        "collected_at": "2026-11-21T21:42:12+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/aug02_caixin_20150821.html",
+          "size_bytes": 66080,
+          "sha256": "d2b0224212285b145ba805b86eb8bea24edfb9466cb24940b3e6a79ff06d3d67"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "AUG-02:S07",
+      "question_id": "AUG-02",
+      "external_source": {
+        "id": "S07",
+        "title": "稳增长再出招 央行宣布降息降准",
+        "publisher": "央广网",
+        "source_type": "contemporary",
+        "path": "originals/aug03_cnr_20150825.html",
+        "archive_member": null,
+        "sha256": "2d5d44cec23acda4d6221606b2248c47f432e88ec01caa9fd1c41cfa292e1a07",
+        "url": "https://m.cnr.cn/news/20150825/t20150825_519657152.html",
+        "published_at": "2015-08-25T19:16:00+08:00",
+        "collected_at": "2026-11-21T21:42:12+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/aug03_cnr_20150825.html",
+          "size_bytes": 23415,
+          "sha256": "2d5d44cec23acda4d6221606b2248c47f432e88ec01caa9fd1c41cfa292e1a07"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "AUG-03:S07",
+      "question_id": "AUG-03",
+      "external_source": {
+        "id": "S07",
+        "title": "稳增长再出招 央行宣布降息降准",
+        "publisher": "央广网",
+        "source_type": "contemporary",
+        "path": "originals/aug03_cnr_20150825.html",
+        "archive_member": null,
+        "sha256": "2d5d44cec23acda4d6221606b2248c47f432e88ec01caa9fd1c41cfa292e1a07",
+        "url": "https://m.cnr.cn/news/20150825/t20150825_519657152.html",
+        "published_at": "2015-08-25T19:16:00+08:00",
+        "collected_at": "2026-11-21T21:42:12+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/aug03_cnr_20150825.html",
+          "size_bytes": 23415,
+          "sha256": "2d5d44cec23acda4d6221606b2248c47f432e88ec01caa9fd1c41cfa292e1a07"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "AUG-03:S06",
+      "question_id": "AUG-03",
+      "external_source": {
+        "id": "S06",
+        "title": "[今日午盘]全线皆墨 沪指失守3600点跌逾3%",
+        "publisher": "财新网",
+        "source_type": "contemporary",
+        "path": "originals/aug02_caixin_20150821.html",
+        "archive_member": null,
+        "sha256": "d2b0224212285b145ba805b86eb8bea24edfb9466cb24940b3e6a79ff06d3d67",
+        "url": "https://finance.caixin.com/2015-08-21/100842146.html",
+        "published_at": "2015-08-21T11:30:11+08:00",
+        "collected_at": "2026-11-21T21:42:12+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/aug02_caixin_20150821.html",
+          "size_bytes": 66080,
+          "sha256": "d2b0224212285b145ba805b86eb8bea24edfb9466cb24940b3e6a79ff06d3d67"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "AUG-03:S03",
+      "question_id": "AUG-03",
+      "external_source": {
+        "id": "S03",
+        "title": "8月财新中国制造业PMI初值录得47.1",
+        "publisher": "财新PMI",
+        "source_type": "primary",
+        "path": "originals/aug01_caixin_20150821.html",
+        "archive_member": null,
+        "sha256": "30c9afb1acb5504cf3431f0a9a11baada78fb66396281d42db1f2bfac3e7e1ca",
+        "url": "https://pmi.caixin.com/2015-08-21/100842072.html",
+        "published_at": "2015-08-21T09:43:10+08:00",
+        "collected_at": "2026-11-21T21:42:12+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/aug01_caixin_20150821.html",
+          "size_bytes": 67105,
+          "sha256": "30c9afb1acb5504cf3431f0a9a11baada78fb66396281d42db1f2bfac3e7e1ca"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "IMG-01:S01",
+      "question_id": "IMG-01",
+      "external_source": {
+        "id": "S01",
+        "title": "沪指大跌8.49% 逼近3200点（图集）",
+        "publisher": "中国新闻网",
+        "source_type": "contemporary",
+        "path": "originals/img01_cnnews_20150824.html",
+        "archive_member": null,
+        "sha256": "472d2d29eafb8860868a63b814b7355290624bebffbb5509c53b9e45c2ef6030",
+        "url": "http://www.chinanews.com/m/tp/hd/2015/0824/71156.shtml",
+        "published_at": "2015-08-24T16:39:00+08:00",
+        "collected_at": "2026-11-21T21:43:08+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/img01_cnnews_20150824.html",
+          "size_bytes": 19458,
+          "sha256": "472d2d29eafb8860868a63b814b7355290624bebffbb5509c53b9e45c2ef6030"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "IMG-01:S02",
+      "question_id": "IMG-01",
+      "external_source": {
+        "id": "S02",
+        "title": "沪指暴跌8.49%，创8年来最大单日跌幅，超两千股跌停",
+        "publisher": "澎湃新闻",
+        "source_type": "contemporary",
+        "path": "originals/img01_paper_20150824.html",
+        "archive_member": null,
+        "sha256": "a8e6dd6f6f31b6d8944c17071da5e0cc779527b077fa759921193d4d913c02b1",
+        "url": "https://m.thepaper.cn/newsDetail_forward_1367613",
+        "published_at": "2015-08-24T15:20:00+08:00",
+        "collected_at": "2026-11-21T21:43:08+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/img01_paper_20150824.html",
+          "size_bytes": 65142,
+          "sha256": "a8e6dd6f6f31b6d8944c17071da5e0cc779527b077fa759921193d4d913c02b1"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "IMG-01:S03",
+      "question_id": "IMG-01",
+      "external_source": {
+        "id": "S03",
+        "title": "全球股市遭遇黑色星期一 A股股民户均蒸发近8万",
+        "publisher": "新浪财经（转载新华网）",
+        "source_type": "contemporary",
+        "path": "originals/img01_sina_20150825.utf8.html",
+        "archive_member": null,
+        "sha256": "376b9713c6a2d577ee0e6237909cc629b751064182071c0757425e1292263f92",
+        "url": "https://finance.sina.com.cn/china/20150825/084723055074.shtml",
+        "published_at": "2015-08-25T08:47:00+08:00",
+        "collected_at": "2026-11-21T21:43:08+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/img01_sina_20150825.utf8.html",
+          "size_bytes": 107183,
+          "sha256": "376b9713c6a2d577ee0e6237909cc629b751064182071c0757425e1292263f92"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "IMG-01:S04",
+      "question_id": "IMG-01",
+      "external_source": {
+        "id": "S04",
+        "title": "韭菜根本割不完！A股上周开户数首破400万",
+        "publisher": "澎湃新闻",
+        "source_type": "contemporary",
+        "path": "originals/apr01_paper_20150429.html",
+        "archive_member": null,
+        "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64",
+        "url": "https://thepaper.cn/newsDetail_forward_1325946",
+        "published_at": "2015-04-28T20:37:00+08:00",
+        "collected_at": "2026-11-21T21:43:08+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/apr01_paper_20150429.html",
+          "size_bytes": 29948,
+          "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "IND-01:S01",
+      "question_id": "IND-01",
+      "external_source": {
+        "id": "S01",
+        "title": "乐视网信息技术（北京）股份有限公司2014年度权益分派实施公告（公告编号2015-031）",
+        "publisher": "乐视网（巨潮资讯披露）",
+        "source_type": "primary",
+        "path": "originals/ind01_leshi_dividend_20150505.pdf",
+        "archive_member": null,
+        "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7",
+        "url": "http://static.cninfo.com.cn/finalpage/2015-05-06/1200968345.PDF",
+        "published_at": "2015-05-05",
+        "collected_at": "2026-11-21T21:37:15+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/ind01_leshi_dividend_20150505.pdf",
+          "size_bytes": 153176,
+          "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "IND-01:S02",
+      "question_id": "IND-01",
+      "external_source": {
+        "id": "S02",
+        "title": "乐视黯然落幕：最后一个交易日成交金额超2000万，退市后将不能再上市",
+        "publisher": "21世纪经济报道",
+        "source_type": "retrospective",
+        "path": "originals/ind01_21jingji_20200720.html",
+        "archive_member": null,
+        "sha256": "d222866483f8cc495347f735aeec641873e4f2fa58d3b98dcd430a076cdc57cf",
+        "url": "https://m.21jingji.com/article/20200720/herald/531ff83ea55df366fa6daaed667d358e_zaker.html",
+        "published_at": "2020-07-20",
+        "collected_at": "2026-11-21T21:37:15+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/ind01_21jingji_20200720.html",
+          "size_bytes": 10648,
+          "sha256": "d222866483f8cc495347f735aeec641873e4f2fa58d3b98dcd430a076cdc57cf"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "IND-01:S03",
+      "question_id": "IND-01",
+      "external_source": {
+        "id": "S03",
+        "title": "77只创业板股票市值超200亿 乐视网市值超9个搜狐",
+        "publisher": "中国新闻网（转载广州日报）",
+        "source_type": "contemporary",
+        "path": "originals/ind01_cnnews_20150525.utf8.html",
+        "archive_member": null,
+        "sha256": "3d29b3cacf13ffe11bd7b12f8003df69c8e15800b3ad1488f06b237ad94261d4",
+        "url": "http://www.chinanews.com/stock/2015/05-25/7298231.shtml",
+        "published_at": "2015-05-25T09:28:00+08:00",
+        "collected_at": "2026-11-21T21:37:15+08:00",
+        "note": "原页以GB18030编码；originals/ind01_cnnews_20150525.html 为原始字节，.utf8.html 为转码副本，本项哈希取自转码副本"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/ind01_cnnews_20150525.utf8.html",
+          "size_bytes": 69042,
+          "sha256": "3d29b3cacf13ffe11bd7b12f8003df69c8e15800b3ad1488f06b237ad94261d4"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "IND-01:S04",
+      "question_id": "IND-01",
+      "external_source": {
+        "id": "S04",
+        "title": "兴全基金：如果不曾有乐视网 创业板指数会怎样",
+        "publisher": "中国证券报·中证网",
+        "source_type": "retrospective",
+        "path": "originals/ind01_cs_20180404.html",
+        "archive_member": null,
+        "sha256": "ba7408e2b76e83470bfd037bd3fd1b210452cba99fe93690274ed22ba5d03913",
+        "url": "https://www.cs.com.cn/tzjj/201804/t20180404_5766433.html",
+        "published_at": "2018-04-04T08:19:00+08:00",
+        "collected_at": "2026-11-21T21:37:15+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/ind01_cs_20180404.html",
+          "size_bytes": 20814,
+          "sha256": "ba7408e2b76e83470bfd037bd3fd1b210452cba99fe93690274ed22ba5d03913"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "IND-01:S05",
+      "question_id": "IND-01",
+      "external_source": {
+        "id": "S05",
+        "title": "五年后5178再回首：权重股“沧海桑田”",
+        "publisher": "新浪财经",
+        "source_type": "retrospective",
+        "path": "originals/ind01_sina_20200612.html",
+        "archive_member": null,
+        "sha256": "0f70c239a97c621e7c70510a8a4bca9d142630ceeed7111e8493c71aaac4056c",
+        "url": "https://finance.sina.com.cn/money/fund/fundzmt/2020-06-12/doc-iirczymk6685824.shtml",
+        "published_at": "2020-06-12T19:38:00+08:00",
+        "collected_at": "2026-11-21T21:37:15+08:00",
+        "note": "文中以指数样本页面截图给出 2015-06-30 创业板指（399006）前十大样本权重，权重数值来自该截图，非可检索表格"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/ind01_sina_20200612.html",
+          "size_bytes": 109896,
+          "sha256": "0f70c239a97c621e7c70510a8a4bca9d142630ceeed7111e8493c71aaac4056c"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-01:S01",
+      "question_id": "JUN-01",
+      "external_source": {
+        "id": "S01",
+        "title": "2015年6月12日新闻发布会（答问：关于加强证券公司信息系统外部接入管理的通知）",
+        "publisher": "中国证监会",
+        "source_type": "primary",
+        "path": "originals/jun01_csrc_20150612.html",
+        "archive_member": null,
+        "sha256": "4795d91867e01fbc78d160952f3cdb6752f73f786934c09ebe578021e444ab6e",
+        "url": "http://www.csrc.gov.cn/csrc/c100029/c1000237/content.shtml",
+        "published_at": "2015-06-12",
+        "collected_at": "2026-11-21T21:38:51+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun01_csrc_20150612.html",
+          "size_bytes": 17677,
+          "sha256": "4795d91867e01fbc78d160952f3cdb6752f73f786934c09ebe578021e444ab6e"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-01:S02",
+      "question_id": "JUN-01",
+      "external_source": {
+        "id": "S02",
+        "title": "证券业协会下发评估认证规范",
+        "publisher": "中国证监会深圳监管局",
+        "source_type": "primary",
+        "path": "originals/jun01_csrc_sz_20150615.html",
+        "archive_member": null,
+        "sha256": "e7e49b6ba01c71578e1f1329c2c22a26790035b216bc0e103cbfd8f5f59f23c4",
+        "url": "http://www.csrc.gov.cn/shenzhen/c105616/c1313662/content.shtml",
+        "published_at": "2015-06-15",
+        "collected_at": "2026-11-21T21:38:51+08:00",
+        "note": "用于取得35号文号与中证协规范的制定依据；原题注明来源为媒体之声栏目"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun01_csrc_sz_20150615.html",
+          "size_bytes": 18543,
+          "sha256": "e7e49b6ba01c71578e1f1329c2c22a26790035b216bc0e103cbfd8f5f59f23c4"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-01:S03",
+      "question_id": "JUN-01",
+      "external_source": {
+        "id": "S03",
+        "title": "证监会：市场回暖违法活动抬头 券商需自查外部接入行为",
+        "publisher": "人民网",
+        "source_type": "contemporary",
+        "path": "originals/jun01_people_20150713.html",
+        "archive_member": null,
+        "sha256": "d0d4994ebdde871e3505d4fb13ca584247935858fa199a1dfde34c209456f6ae",
+        "url": "http://finance.people.com.cn/stock/n/2015/0713/c67815-27292074.html",
+        "published_at": "2015-07-13T00:43:00+08:00",
+        "collected_at": "2026-11-21T21:38:51+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun01_people_20150713.html",
+          "size_bytes": 65878,
+          "sha256": "d0d4994ebdde871e3505d4fb13ca584247935858fa199a1dfde34c209456f6ae"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-01:S04",
+      "question_id": "JUN-01",
+      "external_source": {
+        "id": "S04",
+        "title": "从“爆仓”到“避险” 两融余额良性回归",
+        "publisher": "中国经济网",
+        "source_type": "contemporary",
+        "path": "originals/jun01_ce_20150827.utf8.html",
+        "archive_member": null,
+        "sha256": "b1bf94bda7be8b8ee284e117df7e798beb55a9c3ab71035bfe8617c532c6f904",
+        "url": "http://finance1.ce.cn/rolling/201508/27/t20150827_6334472.shtml",
+        "published_at": "2015-08-27T07:43:00+08:00",
+        "collected_at": "2026-11-21T21:38:51+08:00",
+        "note": "原页存在转码缺字（正文标注 (MISSING)），数值句可读；本项哈希取自转码副本"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun01_ce_20150827.utf8.html",
+          "size_bytes": 45192,
+          "sha256": "b1bf94bda7be8b8ee284e117df7e798beb55a9c3ab71035bfe8617c532c6f904"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-01:S05",
+      "question_id": "JUN-01",
+      "external_source": {
+        "id": "S05",
+        "title": "5新股公布中签率 国泰君安冻资2.35万亿超中核电",
+        "publisher": "中证网（转载证券时报）",
+        "source_type": "contemporary",
+        "path": "originals/jun01_cs_20150620.utf8.html",
+        "archive_member": null,
+        "sha256": "e25e2adb9b1cd6441e027198ce26ba17c421c07b116942f38502b2c7626c26a8",
+        "url": "https://www.cs.com.cn/ssgs/gsxw/201506/t20150620_4740024.html",
+        "published_at": "2015-06-20T10:23:00+08:00",
+        "collected_at": "2026-11-21T21:38:51+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun01_cs_20150620.utf8.html",
+          "size_bytes": 22900,
+          "sha256": "e25e2adb9b1cd6441e027198ce26ba17c421c07b116942f38502b2c7626c26a8"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-01:S06",
+      "question_id": "JUN-01",
+      "external_source": {
+        "id": "S06",
+        "title": "国泰君安18日申购（IPO申购批次与冻结资金预期）",
+        "publisher": "经济日报",
+        "source_type": "contemporary",
+        "path": "originals/jun01_econ_20150618.html",
+        "archive_member": null,
+        "sha256": "fb923a64614a86b9f3fb077b607d158e029a99776a622b3f0b3f24b2fb4f1e6b",
+        "url": "http://paper.ce.cn/jjrb/html/2015-06/18/content_244636.htm",
+        "published_at": "2015-06-18",
+        "collected_at": "2026-11-21T21:38:51+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun01_econ_20150618.html",
+          "size_bytes": 25175,
+          "sha256": "fb923a64614a86b9f3fb077b607d158e029a99776a622b3f0b3f24b2fb4f1e6b"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-02:S01",
+      "question_id": "JUN-02",
+      "external_source": {
+        "id": "S01",
+        "title": "央行有关负责人就定向降准并结合下调存贷款基准利率答记者问",
+        "publisher": "中国人民银行",
+        "source_type": "primary",
+        "path": "originals/jun02_pbc_20150628.html",
+        "archive_member": null,
+        "sha256": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113472/2876973/index.html",
+        "published_at": "2015-06-27T17:03:28+08:00",
+        "collected_at": "2026-11-21T21:40:01+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun02_pbc_20150628.html",
+          "size_bytes": 29907,
+          "sha256": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-02:S02",
+      "question_id": "JUN-02",
+      "external_source": {
+        "id": "S02",
+        "title": "央行定向降准 并且下调贷款和存款基准利率",
+        "publisher": "人民网（转载国际在线）",
+        "source_type": "contemporary",
+        "path": "originals/jun02_people_20150627.utf8.html",
+        "archive_member": null,
+        "sha256": "d9c1a04e8763f8ba6ac1d588ed18f8ba8bf3a3f2af0c6fe5f59e6e5c840cd08a",
+        "url": "http://politics.people.com.cn/n/2015/0627/c70731-27217699.html",
+        "published_at": "2015-06-27T17:10:00+08:00",
+        "collected_at": "2026-11-21T21:40:01+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun02_people_20150627.utf8.html",
+          "size_bytes": 22965,
+          "sha256": "d9c1a04e8763f8ba6ac1d588ed18f8ba8bf3a3f2af0c6fe5f59e6e5c840cd08a"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-02:S03",
+      "question_id": "JUN-02",
+      "external_source": {
+        "id": "S03",
+        "title": "21家证券公司联合公告：坚决维护股票市场稳定发展",
+        "publisher": "人民网",
+        "source_type": "contemporary",
+        "path": "originals/jun02_people_20150704.utf8.html",
+        "archive_member": null,
+        "sha256": "8104a5583902b90d6f120c78f7e519649a3f038670dcd5d5cfe67eede15c42f6",
+        "url": "http://finance.people.com.cn/n/2015/0704/c1004-27253875.html",
+        "published_at": "2015-07-04T13:48:00+08:00",
+        "collected_at": "2026-11-21T21:40:01+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun02_people_20150704.utf8.html",
+          "size_bytes": 62760,
+          "sha256": "8104a5583902b90d6f120c78f7e519649a3f038670dcd5d5cfe67eede15c42f6"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-02:S04",
+      "question_id": "JUN-02",
+      "external_source": {
+        "id": "S04",
+        "title": "2015年第三次临时股东大会会议材料（内含21家证券公司联合公告全文）",
+        "publisher": "上市公司股东大会材料（巨潮资讯披露）",
+        "source_type": "primary",
+        "path": "originals/jun02_cninfo_20150716.pdf",
+        "archive_member": null,
+        "sha256": "b65b53508d225ad25adfe2a89d3b02adb407a4dea45dddaec32311890928fe78",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-07-16/1201298862.PDF",
+        "published_at": "2015-07-16",
+        "collected_at": "2026-11-21T21:40:01+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun02_cninfo_20150716.pdf",
+          "size_bytes": 224167,
+          "sha256": "b65b53508d225ad25adfe2a89d3b02adb407a4dea45dddaec32311890928fe78"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-02:S05",
+      "question_id": "JUN-02",
+      "external_source": {
+        "id": "S05",
+        "title": "央行将多形式支持证金公司流动性",
+        "publisher": "人民网（转载上海证券报）",
+        "source_type": "contemporary",
+        "path": "originals/jun02_people_20150706.utf8.html",
+        "archive_member": null,
+        "sha256": "5fa86f4618b121c050c160e8b9746bd91fc5b6be3ea862bba35759c7439ebccc",
+        "url": "http://finance.people.com.cn/money/n/2015/0706/c42877-27257935.html",
+        "published_at": "2015-07-06T08:17:00+08:00",
+        "collected_at": "2026-11-21T21:40:01+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun02_people_20150706.utf8.html",
+          "size_bytes": 68832,
+          "sha256": "5fa86f4618b121c050c160e8b9746bd91fc5b6be3ea862bba35759c7439ebccc"
+        }
+      ],
+      "digest_match": true
+    },
+    {
+      "source_id": "JUN-02:S06",
+      "question_id": "JUN-02",
+      "external_source": {
+        "id": "S06",
+        "title": "决策层放出救市“大招” 28只新股暂缓发行",
+        "publisher": "人民网（转载新华社、扬子晚报）",
+        "source_type": "contemporary",
+        "path": "originals/jun02_people_20150705.utf8.html",
+        "archive_member": null,
+        "sha256": "923550dc71e187bf526ac5fae875614aec1c38645b05f009048dbba272170976",
+        "url": "http://finance.people.com.cn/money/n/2015/0705/c42877-27256027.html",
+        "published_at": "2015-07-05T14:06:00+08:00",
+        "collected_at": "2026-11-21T21:40:01+08:00"
+      },
+      "matched_archive_members": [
+        {
+          "archive_member": "00_原始网页归档/jun02_people_20150705.utf8.html",
+          "size_bytes": 82966,
+          "sha256": "923550dc71e187bf526ac5fae875614aec1c38645b05f009048dbba272170976"
+        }
+      ],
+      "digest_match": true
+    }
+  ],
+  "provenance_note": "字节匹配仅证明本次检查与所给文件一致，不证明抓取者身份、网页初发时间、历史真实性或图片使用许可。公开仓库保留索引与派生审核，不复制整份第三方网页/照片包。"
+}

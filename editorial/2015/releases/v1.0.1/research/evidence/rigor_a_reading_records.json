@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-22T15:18:42+08:00",
+  "capture_kind": "reading_records_and_paraphrase_not_original_web_bytes",
+  "records": [
+    {
+      "source_id": "IND-01:WEB02",
+      "url": "https://tech.sina.com.cn/i/2015-05-18/doc-icczmvup1916208.shtml",
+      "title": "乐视网上周两天蒸发200亿市值 仍等于4.7个优酷",
+      "page_publisher": "新浪科技；页面标财经网",
+      "original_reporting": "正文显示大众证券报和财信网记者独立采访",
+      "published_at": "2015-05-18T18:17:00+08:00",
+      "locator": "页面时间；正文首段及“而就在13日”段；记者15日致电采访段",
+      "support": "正文两处明确5月13日收盘总市值1526.57亿元。与北京青年报5月17日稿源、采访和内容不同；不能把多个转载站名算作多份独立证据。",
+      "does_not_support": [
+        "5月13日盘中1600亿元的独立同期复核",
+        "创业板指权重"
+      ]
+    },
+    {
+      "source_id": "PBC-2015-Q3-REPORT",
+      "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2161441/4e34b7dafed8490d8612a70b893f479f/2015110619161324598.pdf",
+      "title": "中国货币政策执行报告：二〇一五年第三季度",
+      "publisher": "中国人民银行货币政策分析小组",
+      "published_at": "2015-11-06",
+      "locator": "PDF第24页（纸面第18页）第二部分第八节；第25页专栏3",
+      "support": "央行自己回顾确认，自2015年8月11日起完善人民币兑美元中间价报价；做市商在开盘前参考上日收盘汇率等因素报价。支持措施与实施日期，不证明首次公告分钟。",
+      "time_role": "官方事后报告；不是2015年8月11日即时发布原件"
+    },
+    {
+      "source_ids": [
+        "APR-01:S06",
+        "APR-01:WEB01",
+        "APR-01:WEB02"
+      ],
+      "urls": [
+        "https://www.thepaper.cn/newsDetail_forward_1325946",
+        "https://finance.sina.com.cn/stock/quanshang/qsyj/20150429/061922070393.shtml",
+        "https://www.chinanews.com/stock/2015/04-29/7242808.shtml"
+      ],
+      "support": "澎湃4月28日20:37稿与上海证券报吴悦萌4月29日稿均写413.03万新增A股账户；统计周为4月20—24日。",
+      "independence": "采用澎湃与上海证券报两篇不同稿件交叉核对报道值。今晚报稿包含相同段落并署李超、吴悦萌，不再把它计作相对上海证券报独立的第三个来源。共同数据出处均为中国结算，不能声称取得官方原表或两次独立数据采集。"
+    },
+    {
+      "source_id": "IND-01:WEB01",
+      "url": "https://finance.people.com.cn/stock/n/2015/0517/c67815-27012241.html",
+      "published_at": "2015-05-17T09:10:00+08:00",
+      "original_reporting": "北京青年报，刘慎良",
+      "support": "首段写5月13日总市值1526.57亿元；与另一同期稿的明确收盘口径及82.49元乘公告股本相互核对。",
+      "not_a_new_source_id": true
+    }
+  ],
+  "bounded_research_decision": "未取得盘中1600亿所需的双同期稿源，不继续追逐；改用已有双源及复算支持的收盘超过1500亿元。"
+}

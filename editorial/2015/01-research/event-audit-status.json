@@ -1,0 +1,686 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-22T15:18:42+08:00",
+  "timezone": "Asia/Shanghai",
+  "scope": "39 external records only; supplemental event counted separately",
+  "candidate_version": "1.0.1",
+  "reviewed": 39,
+  "not_reviewed": 0,
+  "active_research": 0,
+  "evidence_dispositions": {
+    "SUPPORTED_WITH_CORRECTION": 28,
+    "UNRESOLVED": 3,
+    "PARTIAL": 4,
+    "SUPPORTED": 2,
+    "EXCLUDE": 2
+  },
+  "selected_external": 17,
+  "selected_supplemental": 1,
+  "pending_user_decisions": [],
+  "rows": [
+    {
+      "event_id": "E-APR-01-01",
+      "title": "中国结算《关于全面放开自然人投资者A股等账户一人一户限制的通知》发布实施",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "2015.04.13 起",
+          "A股“一人一户”限制放开"
+        ]
+      ],
+      "unresolved": [
+        "中国结算通知原件及最初对外公布时刻未取得。"
+      ],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-APR-01-02",
+      "title": "证券账户业务指南修订版明确开户数量上限",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "2015.04.13 起",
+          "A股“一人一户”限制放开"
+        ]
+      ],
+      "unresolved": [
+        "完整官方指南原件未取得；本稿不展开跨市场、账户类别的法律技术细节。"
+      ],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-APR-01-03",
+      "title": "一人多户开通首周（4月13—17日）A股周新增开户325.71万户",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "UNRESOLVED",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "中国结算原始周报仍缺失，差异原因未明。",
+        "S05“期末持仓A股账户数60152万户”异常，不擅自改为6015.2万。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-APR-01-04",
+      "title": "4月20—24日A股周新增开户413.03万户，环比增26.81%",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "4月20—24日 · 新增A股账户",
+          "413.03 万户"
+        ]
+      ],
+      "unresolved": [
+        "官方周报原表未取得；保留媒体转述来源标注。"
+      ],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-APR-01-05",
+      "title": "4月24日期末账户与交易参与规模",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "PARTIAL",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "官方周报原表未取得；B股260.03万不进主片。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IND-01-01",
+      "title": "乐视网2014年度权益分派：10派0.46元并10转12，股本由8.41亿股增至18.51亿股",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "1股加总差异尚未找到更正公告；不影响约1656亿这一级别展示。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IND-01-02",
+      "title": "乐视网股价122元，市值首破千亿",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "价格来自用户提供的第三方日线，未取得交易所原始日线。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IND-01-03",
+      "title": "5月12日（股权登记日）收报179.03元，总市值突破1500亿元",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "未取得交易所原始日线；已按包内门户数据与公告复算。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IND-01-04",
+      "title": "5月13日除权日盘中市值最高约1656亿元，收盘1526.89亿元——1600亿下界首次出现在该日盘中",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "2015.05.13 · 乐视网",
+          "收盘总市值超过 1,500 亿元"
+        ]
+      ],
+      "unresolved": [
+        "未取得交易所原始日K；公告股本1股内部差异仍保留。"
+      ],
+      "current_handling": "REPLACE_INTRADAY_WITH_SUPPORTED_CLOSE_CAP",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IND-01-05",
+      "title": "“1700亿市值下界”在2015年5月无证据支持",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "交易所原始日线未取得；旧1700亿原句究竟指何口径仍未找到。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IND-01-06",
+      "title": "5月22日乐视网市值1487.71亿元居创业板首位；同期创业板总市值5.94万亿、平均129.75亿",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "板块5.94万亿、77只超200亿未获得当时交易所统计原表；仅可作为署名媒体背景。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IND-01-07",
+      "title": "2015年6月30日创业板指前十大样本及权重：东方财富6.57%、乐视网3.96%",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "UNRESOLVED",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "缺原始权重截图文件及官方历史成份权重表。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IND-01-08",
+      "title": "“乐视网是创业板指第一大权重股、占比超5%”与2015年6月样本权重表冲突",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "EXCLUDE",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "未取得被引用2019年人民网原文及其明确历史时点。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-JUN-01-01",
+      "title": "证监会下发《关于加强证券公司信息系统外部接入管理的通知》（证监办发〔2015〕35号）",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "6月12日 · 证监会重申",
+          "不得为场外配资",
+          "提供交易接口便利"
+        ]
+      ],
+      "unresolved": [
+        "35号通知正式签发及下发日期、完整独立正文仍未取得。"
+      ],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-JUN-01-02",
+      "title": "中证协发布《证券公司外部接入信息系统评估认证规范》，自下发之日起不得接入新的未认证系统",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-JUN-01-03",
+      "title": "清理整顿违法证券业务活动意见：7月底前后完成券商外部接入自查核实",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "2015.07.12 · 周日",
+          "清理整顿违法从事证券业务活动"
+        ]
+      ],
+      "unresolved": [],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-JUN-01-04",
+      "title": "6月18日沪深两融余额2.273万亿元，为历史峰值",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "PARTIAL",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "2015年6月 · 杠杆背景",
+          "沪深融资融券规模处于高位",
+          "事后报道回顾"
+        ]
+      ],
+      "unresolved": [
+        "两所2015-06-18原始日报未取得。",
+        "该统计的首次公开披露时间未知。"
+      ],
+      "current_handling": "ADOPT_QUALITATIVE_CONTEXT_ONLY",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-JUN-01-05",
+      "title": "国泰君安申购日（T日）网上网下合计冻结资金约2.35万亿元",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "未保存交易所原始公告PDF或逐日冻结/解冻账表。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-JUN-01-06",
+      "title": "“本轮新股冻结资金可能超过7万亿元”属申购前的媒体预估，不是已发生数据",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "本批次合计实际冻结资金未取得。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-JUN-02-01",
+      "title": "央行6月27日17时宣布：定向降准0.5个百分点并下调存贷款基准利率，均自6月28日起执行",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "2015.06.27 · 周六公布",
+          "降息与定向降准",
+          "6月28日起实施"
+        ]
+      ],
+      "unresolved": [
+        "决定公告首次公开的准确时分秒未确认。"
+      ],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-JUN-02-02",
+      "title": "21家证券公司联合公告：按6月底净资产15%出资、合计不低于1200亿元投资蓝筹股ETF",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "7月4日 · 21家券商",
+          "承诺 ≥1,200亿元",
+          "投资蓝筹股ETF"
+        ]
+      ],
+      "unresolved": [
+        "本条来源不支持具体到账时刻或实际买入规模。"
+      ],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-JUN-02-03",
+      "title": "沪深28家已获IPO批文公司7月4日晚公告暂缓发行，10家已申购公司退回申购款",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "各家公司准确退款日、退款总额未逐一核实。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-JUN-02-04",
+      "title": "证监会7月5日晚公告：发挥证金公司作用，央行以多种形式给予流动性支持；证金公司拟增资至约1000亿元",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "2015.07.05 · 证监会公告",
+          "央行将给予证金公司",
+          "多种形式的流动性支持"
+        ]
+      ],
+      "unresolved": [
+        "首次公告准确钟点、实际支持和买入金额未由本条证据确定。"
+      ],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-JUN-02-05",
+      "title": "“开盘先由证金公司垫资入市”“1200亿周一11点前到位”为媒体引述，非公告数据",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "EXCLUDE",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "“11点前到账”和“开盘先垫资”原始报道、具名归因及执行凭据未取得。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-AUG-01-01",
+      "title": "央行8月11日公布：完善人民币兑美元汇率中间价报价，做市商参考上日收盘汇率报价",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "2015.08.11",
+          "人民币中间价报价机制调整"
+        ]
+      ],
+      "unresolved": [
+        "未取得央行原始页面独立首发时间。"
+      ],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-AUG-01-02",
+      "title": "8月11日中间价较前一日跌1136点；8月12日9时15分公布6.3306，再贬1000余点",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "PARTIAL",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "未保存交易中心直接逐日发布表；精确时刻只有机构汇编引述。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-AUG-01-03",
+      "title": "8月财新制造业PMI初值47.1于8月21日09:43发布，晚于A股9:30开盘",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "同期宏观背景",
+          "财新制造业PMI初值 47.1"
+        ]
+      ],
+      "unresolved": [
+        "精确首次公开时刻未在已归档的发布方原始新闻稿中核准；英文网站另一文章09:45不能直接替代此证据。"
+      ],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-AUG-02-01",
+      "title": "8月21日A股盘中失守3600点，跌逾3%；同日09:43公布的PMI初值47.1",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-AUG-02-02",
+      "title": "8月24日沪指收跌8.49%、创业板指收跌8.08%，两市2107只个股跌停",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "8月24日 · 完整向下缺口 ②",
+          "2,152.61 · 单日 −8.08%"
+        ]
+      ],
+      "unresolved": [],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-AUG-02-03",
+      "title": "8月25日沪指再跌7.63%至2964.97点，创业板指1990.71点重回“1”时代；两日累计跌15.47%",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "8月25日 · 完整向下缺口 ③",
+          "1,990.71 · 单日 −7.52%"
+        ]
+      ],
+      "unresolved": [],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-AUG-02-04",
+      "title": "8月18—24日两融余额连续5个交易日净流出，降至1.25万亿元",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "PARTIAL",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "未取得交易所逐日表；1.25万亿的精确统计截止日未核准。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-AUG-02-05",
+      "title": "央行双降于8月25日傍晚公布（18:21前已见转载），晚于当日15:00收盘",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "2015.08.25 · 盘后",
+          "央行公布降息降准安排",
+          "8月26日起降息 · 9月6日起降准"
+        ]
+      ],
+      "unresolved": [],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-AUG-03-01",
+      "title": "央广8月25日19:16刊发对向松祚的采访，谈的是股市与宏观经济，不是创业板指数",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "“当前稳定流动性更加关键。”",
+          "向松祚 · 央广经济之声"
+        ]
+      ],
+      "unresolved": [
+        "完整音频和实际播出时段未获得。"
+      ],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-AUG-03-02",
+      "title": "同期具名机构观点：何帆称“筑底”、屈宏斌称六年新低、张瑜提“破7”风险",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "UNRESOLVED",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "需要可核验的发表方正文或原新闻稿来确认各段引文。",
+        "搜索发现第三方托管Caixin/Markit样式PDF和英文网页09:45线索；未获得发布方原始新闻稿的原始字节与来源链，未升级。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IMG-01-01",
+      "title": "中新社8月24日多地证券营业部现场原拍可查：昆明、南京、海口，摄影者具名",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": true,
+      "selected_screen_lines": [
+        [
+          "2015.08.24 · 昆明证券交易大厅"
+        ]
+      ],
+      "unresolved": [
+        "未提供公开发布/转载授权凭据；可先作内部布局候选，最终公开素材准入单独处理。"
+      ],
+      "current_handling": "ADOPT_NARROW_SCOPE",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IMG-01-02",
+      "title": "新华社8月24日洛阳营业部现场照，张怡熙摄",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "新华社原发页/高清版及授权未取得。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IMG-01-03",
+      "title": "澎湃8月24日暴跌稿的配图标注为“资料”，不能作为当日现场证据",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "真实拍摄日期/地点/原始发布未核准。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IMG-01-04",
+      "title": "4月开户报道的配图同为“澎湃资料”，4月开户高峰无可核实的同期原拍",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [
+        "如主画面要4月现场照，仍需新增有拍摄日期、出处的候选；不应因此阻塞K线/事件主体。"
+      ],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    },
+    {
+      "event_id": "E-IMG-01-05",
+      "title": "中新网图集的收盘点位写作3210.91点，与3209.91点相差1点，属图注笔误",
+      "review_work_status": "COMPLETED",
+      "evidence_disposition": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_candidate": false,
+      "selected_screen_lines": [],
+      "unresolved": [],
+      "current_handling": "NOT_SELECTED",
+      "blocks_candidate_import": false,
+      "active_research": false,
+      "source_of_truth": "../releases/v1.0.1/event_review.json"
+    }
+  ]
+}

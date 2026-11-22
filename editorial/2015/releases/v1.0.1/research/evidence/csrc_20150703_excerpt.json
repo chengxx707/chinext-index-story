@@ -1,0 +1,15 @@
+{
+  "title": "中国证券金融公司大幅增资扩股",
+  "publisher": "中国证监会",
+  "url": "https://www.csrc.gov.cn/csrc/c100028/c1001913/content.shtml",
+  "published_at": "2015-07-03",
+  "publication_time_precision": "day",
+  "retrieved_at": "2026-11-21T15:23:24Z",
+  "web_reference": "turn512536731view0",
+  "locator": "网页正文；检索文本 L32、L36",
+  "capture_type": "curated_web_reading_record_not_original_bytes",
+  "body_excerpt": "将现有注册资本从240亿元增资到约1000亿元。",
+  "scope_note": "7月3日的增资安排；不得并入7月5日17号公告作为同一笔到账资金。",
+  "input_reading_record_sha256": "f00d592daa42268178f92877988b3110d2831c64aa21f0a3bd2b81476a8d59f0",
+  "summary": "7月3日公布的是增资安排，不是7月5日公告中另一笔实际到账资金。"
+}

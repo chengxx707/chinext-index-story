@@ -1,31 +1,24 @@
-# AI Work Orders｜GPT / Codex / External Research
+# 内容生产任务与执行状态
 
-> 规则：状态必须由实际执行记录更新。计划不等于运行；等待不等于后台工作。
+更新时间：2026-11-22 15:18（北京时间）。计划、实际执行、交付、用户视觉批准分别记录。
 
-| Work Order | 负责人 | 状态 | 输入 | 交付/退出条件 |
-|---|---|---|---|---|
-| EXT-2015-01 | 外部AI | COMPLETED | 8项采集任务 | 原始研究包回传 |
-| OPS-001 | Codex | REVIEWED_WITH_CONDITIONS | 本地调度器 | 后续集成依项目审查 |
-| OPS-001.1 | Codex | IMPLEMENTED_REPORTED | 调度器与DAG | 依赖修正和验证证据 |
-| WF-01A | Codex + GPT | IN_PROGRESS | 外部资料、档案、行情 | 39条raw记录映射、证据审计 |
-| WF-01B | GPT主编 / Codex编译 | CANDIDATE | 研究包与冻结OHLC | GPT批准的故事/分镜候选及Schema校验 |
-| GPT-2015-AUDIT | GPT | IN_PROGRESS | 23规范化事件、原始回交包 | 逐条核验记录、争议和缺口 |
-| GPT-2015-STORY | GPT | PENDING | 完成核验的研究包 | 六阶段历史叙事 |
-| GPT-2015-BOARD | GPT | PENDING | 历史叙事 | 画面文字与镜头分镜 |
-| CODEX-2015-IMPORT | Codex | WAITING | GPT候选包 | 导入、Schema校验、预览，不改正式主表 |
-| USER-D01 | 用户 | DECISION_REQUIRED | T1/T2/T3严谨标准 | 确认或调整内容证据门槛 |
+|任务|负责人|任务状态|执行状态／证据|
+|---|---|---|---|
+|GPT-2015-AUDIT|GPT|COMPLETED|39条逐项审阅；不是旧23项底稿|
+|GPT-2015-STORY|GPT|COMPLETED|六阶段叙事|
+|GPT-2015-BOARD|GPT|COMPLETED|V1.0.1：167秒、28镜完整候选|
+|USER-D01|用户|CONFIRMED|2026-11-22明确采用方案A，无须重复确认|
+|GPT-2015-STANDARD-A|GPT|COMPLETED|精确数取舍、补证与文案同步已落实|
+|CODEX-2015-IMPORT|Codex|READY|执行UNKNOWN；待真实接单回执，不是假定Standby|
+|CODEX-2015-PREVIEW|Codex|READY_AFTER_IMPORT|167秒整段预演；待能力对照、最小适配和实际输出|
+|USER-2015-VISUAL|用户|PENDING_MEDIA|有连续预览后集中观看；尚未视觉批准|
 
-## 工作状态定义
+## 当前有效交接
 
-- CREATED：已登记，尚未开始。
-- RUNNING：当前执行轮次正在实际处理。
-- WAITING：等待明确外部输入或审批。
-- COMPLETED：有交付物和可追溯证据。
-- BLOCKED：存在阻断项，列明原因及解除条件。
-- FAILED：执行失败，保留日志和恢复点。
+读取 [HANDOFF_TO_CODEX.md](../../editorial/2015/HANDOFF_TO_CODEX.md)，导入完整V1.0.1。旧版本仍可追溯，但不覆盖本版文案。
 
-## 当前交接规则
+GPT负责证据判断、叙事和画面文字；Codex负责接收校验、适配、渲染、工程QA及真实播放记录。候选可预演，正式主表采用仍需映射差异和集中评审。不能把候选待视觉评审误读为事实审核尚未开始。
 
-GPT负责研究判断、历史叙事、屏幕文字和导演候选；Codex负责结构校验、确定性计算、编译、渲染和工程QA。Codex不得自行把未核验事件升格为正式上屏事实。
+## 运行状态
 
-所有候选内容进入 editorial/2015/ 下的候选目录。只有用户批准后才允许进入正式生产配置。禁止直接覆盖 config/production/film_master_v1.json。
+没有注册一个持续后台运行的GPT生产进程。此页更新时本轮内容任务已完成。Codex未返回执行回执时不写RUNNING、COMPLETED或FAILED。收到回执后只据实更新对应项。

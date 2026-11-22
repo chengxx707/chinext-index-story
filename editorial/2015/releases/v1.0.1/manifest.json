@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "package_id": "chinext-editorial-2015",
+  "version": "1.0.1",
+  "created_at": "2026-11-22T15:21:22+08:00",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "8327dbd30efa5087dc91765b246252a04af693d4",
+  "delivery_branch": "editorial/gpt-2015",
+  "delivery_commit": "Use the actual Git commit containing this immutable directory.",
+  "status": "CANDIDATE_CONTENT_VALIDATED",
+  "research_completed": true,
+  "external_events_reviewed": 39,
+  "supplemental_events": 1,
+  "sources_registered": 56,
+  "selected_events": 18,
+  "planned_shots": 28,
+  "planned_duration_seconds": 167,
+  "planned_frames": 5010,
+  "fps": 30,
+  "silent": true,
+  "market_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "frozen_master_sha256": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+  "originals_zip_sha256": "9653d915fab235593f4c412b736e62ebb20893eff686445b1838a1343188062b",
+  "research_zip_sha256": "4557e2ded9b9b4e56be599cbd54747a92e1b58e1ebe54b9edfd554cfe5d3f1d3",
+  "completed": [
+    "external_originals_review",
+    "editorial_selection",
+    "screen_copy",
+    "director_timeline",
+    "confirmed_standard_a_applied",
+    "schema_and_semantic_validation"
+  ],
+  "not_completed": [
+    "renderer_adapter_capability_validation",
+    "new_video_render",
+    "continuous_visual_review",
+    "human_aesthetic_approval",
+    "formal_master_adoption"
+  ],
+  "formal_master_changed": false,
+  "production_code_changed": false,
+  "original_asset_files_changed": false,
+  "source_archive_bytes_in_public_package": false,
+  "git_write_scope": [
+    "editorial/**",
+    "docs/production/PROJECT-DASHBOARD.md",
+    "docs/production/AI-WORK-ORDERS.md",
+    "docs/production/progress.json"
+  ],
+  "artifacts": [
+    {
+      "path": "CODEX_HANDOFF.md",
+      "sha256": "bc904aa57537029c32d75f7adc85afc21c370cfdc8c894836799f269e0e42aa0",
+      "size_bytes": 6249
+    },
+    {
+      "path": "README.md",
+      "sha256": "f42d40c223f70070a8505570ceb82eda6c516080dc453379e54ffc3801744ef4",
+      "size_bytes": 1552
+    },
+    {
+      "path": "REVIEW_REPORT.md",
+      "sha256": "d154f2668a2ed7b1b219eb406b8678792a0e25b02541b70be1e56b942458b416",
+      "size_bytes": 4002
+    },
+    {
+      "path": "archive_manifest.json",
+      "sha256": "fadf5a11919db039aaafa451635ea1babd3ed04e49e80088aad527ce51a0a7f5",
+      "size_bytes": 63667
+    },
+    {
+      "path": "director_storyboard.md",
+      "sha256": "891b61eb86228b0594a56eabf25c5516a5b48ca1fd2950168d4e97e8f37d77e8",
+      "size_bytes": 8904
+    },
+    {
+      "path": "director_timeline.json",
+      "sha256": "8a979d4cbc80182fa329d4579d5503f30bf5bd8d11aba3edc0c78647980be7ea",
+      "size_bytes": 83281
+    },
+    {
+      "path": "director_timeline.schema.json",
+      "sha256": "2559c15e4415c02d495ab30a8bef5e148174b6ee2c9ffd326b07dfc835e82c9d",
+      "size_bytes": 9122
+    },
+    {
+      "path": "event_review.json",
+      "sha256": "eaa9047a57800bb451fc0dbf0b50dd7d579d32ccae08901a6d7b12a93da3f5a3",
+      "size_bytes": 109684
+    },
+    {
+      "path": "market_metrics.json",
+      "sha256": "c00d10b48a5928278f1d2a3a1e1c8c837523f2b558004cfa3f870df3b88d0fd7",
+      "size_bytes": 3889
+    },
+    {
+      "path": "narrative.md",
+      "sha256": "3c9ed60ebe55371235a5ea2bba339b37ec588ea76a234d481050e5d0a6869794",
+      "size_bytes": 3554
+    },
+    {
+      "path": "period_production.json",
+      "sha256": "dcc2f7a2c69a5fac2227b305c334681d193b4839f07c1dad7337c9cf5d627411",
+      "size_bytes": 48019
+    },
+    {
+      "path": "period_screen_copy.md",
+      "sha256": "094ce4f3eff0ddb61128e11802a5d9b48ea7b9fd04619c909e06624d140c8111",
+      "size_bytes": 21803
+    },
+    {
+      "path": "period_storyboard.json",
+      "sha256": "22c7532df5e4e83dc08f2bdfd070b6b23fd4c6fe20d2528f66fddfd70050f8c8",
+      "size_bytes": 134088
+    },
+    {
+      "path": "photo_manifest.json",
+      "sha256": "52765cf480fa73f02d6be532c1e70a22ccd075596fb409235f78dd1e73830a2b",
+      "size_bytes": 17022
+    },
+    {
+      "path": "research/apr_ind.md",
+      "sha256": "af53a0a17f9c5f54edec2bd344260ae758c98f0a87cec68692d16752fe726310",
+      "size_bytes": 8473
+    },
+    {
+      "path": "research/aug_img.md",
+      "sha256": "1cfca206a08b5dd6e76dc93d608aada89ddaf09a3df70e53930f48869ac02531",
+      "size_bytes": 10716
+    },
+    {
+      "path": "research/derived_checks.json",
+      "sha256": "473f57bf744563ce4f0169cf44c99926836d477e3a36e3cf514565b3f2ac6613",
+      "size_bytes": 11682
+    },
+    {
+      "path": "research/evidence/csrc_20150703_excerpt.json",
+      "sha256": "8d04db888badc988813bb13ed2be5c06c5a1286f7ed41d282b317ca886d95b07",
+      "size_bytes": 834
+    },
+    {
+      "path": "research/evidence/csrc_20150708_excerpt.json",
+      "sha256": "fb0d139f8276a2229c58a770917c7ab1b0f45b25c501e50adaef8bd74315d820",
+      "size_bytes": 919
+    },
+    {
+      "path": "research/evidence/gtja_20150620_reading_record.json",
+      "sha256": "159d7b2bac9f63f0f288fc1b294a71ee00655dc4a1bed6e492eed2672b09d52a",
+      "size_bytes": 1071
+    },
+    {
+      "path": "research/evidence/rigor_a_reading_records.json",
+      "sha256": "736629b5c60e098df8ee0590ef16a6ff465a5ca25934063d1d03f9dfffc31c33",
+      "size_bytes": 3181
+    },
+    {
+      "path": "research/jun.md",
+      "sha256": "42976120d98f0f81a10a18e497b0cdf2845b475d32cb1cbbbaf9d760dac32afd",
+      "size_bytes": 17516
+    },
+    {
+      "path": "research/source_reconciliation.json",
+      "sha256": "915d50d3078fb17710fae6cc40770cd9552a4e3532e6cce028420eb3efe96cd0",
+      "size_bytes": 20247
+    },
+    {
+      "path": "rigor_application.json",
+      "sha256": "f5aa3af6e0ac466c81e01df647dc5b2056c9531c5689cdbf65c7b635f4806df6",
+      "size_bytes": 16396
+    },
+    {
+      "path": "rigor_policy.json",
+      "sha256": "93c825626c2696e798651f753306656faac3cdcb2dd37d8941fa667864d3f03a",
+      "size_bytes": 1429
+    },
+    {
+      "path": "source_registry.json",
+      "sha256": "065038613204508cde3600597be2a1adbef68af19ca9dfb43b69ac475bb4484f",
+      "size_bytes": 53838
+    },
+    {
+      "path": "validate_candidate.py",
+      "sha256": "4e01958238f5241300592e93b03c153dc5ee81c8b60acd08e22b9d290b3eb13c",
+      "size_bytes": 15767
+    },
+    {
+      "path": "validation_report.json",
+      "sha256": "e291b47cb2da19b228a153e4ba78f444657f3c3a921889d8d34a82aec26e43c9",
+      "size_bytes": 6069
+    }
+  ],
+  "manifest_hash_note": "Manifest excludes itself; its exact bytes are bound by the Git commit and optional ZIP hash.",
+  "public_metadata_policy": "No ChatGPT private file identifiers, native file links, account identifiers or signed transfer URLs. Raw pack identity uses filename, byte count and SHA-256 only.",
+  "previous_editorial_commit": "29147c9d087fc928d90ba88adcff49325349eb0f",
+  "previous_editorial_version": "1.0.0",
+  "content_standard": "2015-STANDARD-A",
+  "content_standard_user_confirmed_on": "2026-11-22"
+}

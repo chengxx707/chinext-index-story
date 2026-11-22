@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "package_version": "1.0.1",
+  "generated_at": "2026-11-22T07:20:48.156595+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "id": "frozen_market_sha",
+      "passed": true,
+      "detail": {
+        "rows": 3992,
+        "start": "2010-06-01",
+        "end": "2026-11-10"
+      }
+    },
+    {
+      "id": "frozen_master_sha",
+      "passed": true,
+      "detail": "正式主表输入未变"
+    },
+    {
+      "id": "market_rows",
+      "passed": true,
+      "detail": "日期唯一递增、正有限价格和OHLC关系"
+    },
+    {
+      "id": "event_counts_and_ids",
+      "passed": true,
+      "detail": {
+        "external": 39,
+        "supplemental": 1
+      }
+    },
+    {
+      "id": "source_ids_unique",
+      "passed": true,
+      "detail": 56
+    },
+    {
+      "id": "all_review_source_references",
+      "passed": true,
+      "detail": "原39条、补充1条的所有证据ID可解析"
+    },
+    {
+      "id": "portable_evidence_files",
+      "passed": true,
+      "detail": "随包阅读记录存在且SHA匹配"
+    },
+    {
+      "id": "embedded_registry",
+      "passed": true,
+      "detail": "分镜内嵌来源与独立注册表一致"
+    },
+    {
+      "id": "provenance_event_review_sha256",
+      "passed": true,
+      "detail": "event_review.json"
+    },
+    {
+      "id": "provenance_source_registry_sha256",
+      "passed": true,
+      "detail": "source_registry.json"
+    },
+    {
+      "id": "provenance_same",
+      "passed": true,
+      "detail": "三个候选文件绑定相同输入"
+    },
+    {
+      "id": "schemas",
+      "passed": true,
+      "detail": "现有四类记录Schema、来源Schema及导演伴随Schema通过"
+    },
+    {
+      "id": "record_set_sizes",
+      "passed": true,
+      "detail": "28镜、28节拍、28生产单元、28导演cue"
+    },
+    {
+      "id": "frame_intervals",
+      "passed": true,
+      "detail": "0..5009连续，无重叠、无空档"
+    },
+    {
+      "id": "market_clock_and_hits",
+      "passed": true,
+      "detail": "逐帧映射真实交易行、跨镜接续、命中日正确"
+    },
+    {
+      "id": "exact_prices_and_endpoints",
+      "passed": true,
+      "detail": "主锚点、收盘与真实双端点匹配CSV"
+    },
+    {
+      "id": "beat_source_event_links",
+      "passed": true,
+      "detail": "全部节拍/单元来源与事件可回查"
+    },
+    {
+      "id": "event_clock_freezes",
+      "passed": true,
+      "detail": "盘后、周末市场冻结，独立事件日期标签必显"
+    },
+    {
+      "id": "reading_time_arithmetic",
+      "passed": true,
+      "detail": "计划稳定阅读秒数与整数帧一致；尚未作视觉可读性验收"
+    },
+    {
+      "id": "three_full_gaps",
+      "passed": true,
+      "detail": "不是8月24—26日三天都形成完整缺口"
+    },
+    {
+      "id": "gap_domain_stays_constant",
+      "passed": true,
+      "detail": "三个缺口使用相同纵轴范围"
+    },
+    {
+      "id": "interval_returns",
+      "passed": true,
+      "detail": "−25.10%、+26.19%、−19.30%、−54.86%按声明起止日复算"
+    },
+    {
+      "id": "reversible_single_rail",
+      "passed": true,
+      "detail": {
+        "july7": -40.94,
+        "july23": -25.47,
+        "mode_switch_frame": 960
+      }
+    },
+    {
+      "id": "photo_asset_links",
+      "passed": true,
+      "detail": {
+        "selected": [
+          "IMG-20150824-01"
+        ],
+        "assets": 9
+      }
+    },
+    {
+      "id": "no_unresolved_or_excluded_screen_claims",
+      "passed": true,
+      "detail": "部分支持的两融记录仅作定性背景采用，精确余额不再上屏"
+    },
+    {
+      "id": "available_source_bytes",
+      "passed": true,
+      "detail": {
+        "verified_files_or_records": 57,
+        "mismatches": [],
+        "raw_originals_checked": true
+      }
+    },
+    {
+      "id": "screen_copy_cross_file_sync",
+      "passed": true,
+      "detail": "28镜文案、来源和机器镜头一致"
+    },
+    {
+      "id": "standard_a_confirmed",
+      "passed": true,
+      "detail": "用户已确认，不重复请求"
+    },
+    {
+      "id": "standard_a_claim_coverage",
+      "passed": true,
+      "detail": "28镜均登记实际采用主张与证据层级；人工审稿结论，不代替事实证据"
+    },
+    {
+      "id": "unsupported_precise_values_removed",
+      "passed": true,
+      "detail": "两融精确数撤下；乐视采用有双同期来源的收盘口径"
+    },
+    {
+      "id": "independent_source_links_explicit",
+      "passed": true,
+      "detail": "同稿转载不重复计数；补充来源已实际关联到镜头"
+    },
+    {
+      "id": "photo_document_id_consistent",
+      "passed": true,
+      "detail": "文字分镜与照片Manifest统一"
+    },
+    {
+      "id": "current_review_display_fields",
+      "passed": true,
+      "detail": "旧版显示值已移入非活动历史字段，当前记录与上屏一致"
+    }
+  ],
+  "summary": {
+    "executed_checks": 33,
+    "failed": 0,
+    "shots": 28,
+    "frames": 5010,
+    "duration_seconds": 167.0,
+    "events_reviewed": 39,
+    "supplemental_events": 1,
+    "source_records": 56
+  },
+  "errors": [],
+  "not_executed": [
+    "视频编码与实际连续播放",
+    "版式与遮挡检查",
+    "与视觉参考质量比较",
+    "用户视觉验收"
+  ],
+  "renderer_capabilities_checked": false,
+  "required_renderer_capabilities": [
+    "camera_continuity",
+    "company_context_distinct_from_index_value",
+    "coordinated_orbit_hit",
+    "floating_event_anchor",
+    "full_down_gap_geometry",
+    "historical_photo_scene",
+    "immutable_historical_date_labels",
+    "independent_event_clock",
+    "market_clock_keys",
+    "market_freeze_with_event_clock",
+    "retrospective_statistic_label",
+    "single_reversible_stage_rail",
+    "statistics_range_bracket",
+    "true_close_endpoint_link",
+    "true_intraday_wick_anchor"
+  ],
+  "raw_originals_checked": true,
+  "manifest_checked": false,
+  "ready_for_candidate_import": true,
+  "ready_for_final_production": false
+}

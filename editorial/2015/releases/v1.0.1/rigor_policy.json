@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "policy_id": "2015-STANDARD-A",
+  "status": "USER_CONFIRMED",
+  "confirmed_on": "2026-11-22",
+  "scope": "2015 candidate screen claims",
+  "confirmation_required_again": false,
+  "tiers": {
+    "T1": "日期、价格、百分比、账户数、政策细节、直接引语：项目冻结OHLC按确定口径复算；外部事实优先一手原文，无一手时用至少两篇不同原创稿源的可靠同期报道交叉。引语核对原话、说话人及上下文。",
+    "T2": "定性历史背景：至少一个可靠权威来源；争议陈述交叉核对，或收窄、删除。精确数字不会因为放在背景栏目就变成T2。",
+    "T3": "编辑解释与阶段串联：明确是编辑概括；不伪装为外部引语，不将先后顺序写成已经证明的因果。"
+  },
+  "independence_rule": "同一报社稿件的多个转载不算多个独立来源；相同官方数据被两家报道不等于取得原始统计表。",
+  "time_rule": "观察期、报道日、政策宣布日、生效日、日K锚点分别记录；不捏造首次公开时刻。",
+  "release_rule": "以实际选中上屏主张达标为准，不以39条全部变成SUPPORTED为前提；缺证精确数去掉后可用有证据的定性背景。",
+  "execution_rule": "完成有限补查后，非核心缺证项收窄或删除并推进整段；不启动无限后台审计。",
+  "visual_review_not_approved": true
+}
