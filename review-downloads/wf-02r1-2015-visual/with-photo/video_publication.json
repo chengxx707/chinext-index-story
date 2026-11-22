@@ -1,0 +1,10 @@
+{
+  "status": "REVIEW_VIDEO_PUBLISHED_AT_USER_REQUEST",
+  "artifact": "review-downloads/wf-02r1-2015-visual/chinext-2015-v1.0.1-wf-02r1-with-photo.mp4",
+  "render_receipt_commit": "a19f2bb2b49787917bf69c068bbe2f7c197ae9d6",
+  "render_receipt_path": "review-downloads/wf-02r1-2015-visual/with-photo/execution_receipt.json",
+  "sha256": "442069455645250164466acd335d7f958aa2113804fd492de648bd0eb3630017",
+  "bytes": 8759283,
+  "duration_seconds": 167,
+  "contains_photo": true
+}

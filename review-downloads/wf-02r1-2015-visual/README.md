@@ -4,6 +4,7 @@
 
 ## 下载与补图更新
 
+- [下载含图版完整预览 MP4](chinext-2015-v1.0.1-wf-02r1-with-photo.mp4)，167 秒。
 - [下载缺图版审阅包 ZIP](chinext-2015-wf-02r1-preview-review.zip)
 - [查看含图版回执与复跑证据](with-photo/README.md)
 

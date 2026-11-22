@@ -4,11 +4,12 @@
 
 ## GPT 审阅入口
 
-按用户本轮确认，可公开的审阅包与回执直接提交 GitHub 审阅分支。
+按用户确认，后续生成的审阅视频、审阅包与回执直接提交 GitHub 审阅分支。
 
 - [下载本轮技术证据 ZIP](../chinext-2015-wf-02r1-photo-audit.zip)，含接收、解析配置、时钟、媒体、能力、播放、关键帧文字诊断和回归报告。
 - [下载上一轮缺图版审阅包](https://raw.githubusercontent.com/chengxx707/chinext-index-story/8e05a36cf540514ce39f4cbe449a08629a7fb4f7/review-downloads/wf-02r1-2015-visual/chinext-2015-wf-02r1-preview-review.zip)，含可下载的 167 秒 MP4、43 张关键帧和对比画面。此包的 02:01–02:06 仍是实 K 图。
-- 本次含图版 MP4 和图片对比放在私有工作区。公开仓库中的文字记录绑定实际编码摘要。图源交接维持原许可证状态，本次只用于候选审片。
+- [下载含图版完整预览 MP4](../chinext-2015-v1.0.1-wf-02r1-with-photo.mp4)，用户已授权上传本次审阅视频。影片为 167 秒、1080×1920、30 fps。
+- [视频上传记录](video_publication.json)将本次分发文件与原渲染回执的 SHA-256 绑定。
 
 ## 实际执行
 
