@@ -1,0 +1,37 @@
+{
+  "status": "RECEIVED_BYTES_AND_FORMAT_VERIFIED",
+  "editorial_release": "editorial/2015/releases/v1.0.1",
+  "release_commit": "c313edfa7959dfc6e9c56badfd3f662ae7fe01b4",
+  "asset_id": "IMG-20150824-01",
+  "shot_id": "GPT2015-21",
+  "timeline": {
+    "fps": 30,
+    "start_frame_inclusive": 3630,
+    "end_frame_exclusive": 3780,
+    "start_timecode": "02:01",
+    "end_timecode": "02:06",
+    "duration_seconds": 5
+  },
+  "archive": {
+    "name": "img-20150824-01-handoff.zip",
+    "bytes": 71414,
+    "sha256": "e882a725dd071d4bfbfba4212f4856a7db7edd51aec6641a7a175f4a9e41129d",
+    "crc_passed": true,
+    "member_count": 3
+  },
+  "photo": {
+    "bytes": 68047,
+    "sha256": "e9d18208a1e60e402af95d132c6e3a5cd5d313ecc1a00d08142e1898669a555e",
+    "dimensions": [
+      940,
+      625
+    ],
+    "format": "JPEG"
+  },
+  "local_photo_path": "output/research_inbox/2015/photo_handoff/IMG-20150824-01/IMG-20150824-01.jpg",
+  "caption": "2015.08.24 · 昆明｜中新社发 刘冉阳 摄",
+  "source_page_url": "http://www.chinanews.com/m/tp/hd/2015/0824/71156.shtml",
+  "source_archive_sha256": "472d2d29eafb8860868a63b814b7355290624bebffbb5509c53b9e45c2ef6030",
+  "source_archive_refetched": false,
+  "public_release_ready": false
+}

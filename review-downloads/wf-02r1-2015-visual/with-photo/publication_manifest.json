@@ -1,0 +1,36 @@
+{
+  "user_publication_scope": "Photo-free package and photo-run code and textual evidence",
+  "protected_media_in_repo": false,
+  "photo_audit_zip": "review-downloads/wf-02r1-2015-visual/chinext-2015-wf-02r1-photo-audit.zip",
+  "parent_commit": "8e05a36cf540514ce39f4cbe449a08629a7fb4f7",
+  "files": {
+    "src/chinext_v6/editorial_overlay.py": {
+      "bytes": 18471,
+      "sha256": "27b989dc489c438e0f5afe386ca80f94cc06e8ac74e06d9eae624352e8224cf0"
+    },
+    "tests/test_editorial_preview.py": {
+      "bytes": 5890,
+      "sha256": "8f311e8536d02f79e5758a5fdde2b493ccf20422b4d14a7e2083b8d4d1004bf9"
+    },
+    "review-downloads/wf-02r1-2015-visual/README.md": {
+      "bytes": 3714,
+      "sha256": "93dab47c86b967b8cf1ab34d0be77d6e57313eccb148845fb400f161d8ab9d3b"
+    },
+    "review-downloads/wf-02r1-2015-visual/chinext-2015-wf-02r1-photo-audit.zip": {
+      "bytes": 56343,
+      "sha256": "a84344ce740dfa43bbe724a266ad283743c6ab04e2a30b8b443522eafa0e4973"
+    },
+    "review-downloads/wf-02r1-2015-visual/with-photo/README.md": {
+      "bytes": 3349,
+      "sha256": "c85b182d17a84fdc09d4f753d8150597f59d87ce9b0c7470b761aab0eb8e7fbb"
+    },
+    "review-downloads/wf-02r1-2015-visual/with-photo/execution_receipt.json": {
+      "bytes": 1826,
+      "sha256": "7b4112af1de12b14f6d15bd628fd14255d15643fc0bd03377a43bb780a8de9ea"
+    },
+    "review-downloads/wf-02r1-2015-visual/with-photo/photo_intake.json": {
+      "bytes": 1236,
+      "sha256": "d6218515621ee9d5f13122c2d504be805d85353b925b6c919725dca657d93623"
+    }
+  }
+}

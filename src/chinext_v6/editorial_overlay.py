@@ -102,6 +102,9 @@ def _caption_parts(cue: dict, label: str | None) -> tuple[list[str], list[str], 
         supporting.append(main.pop())
     if label and (not qualifiers or shot in {3, 18}):
         qualifiers.insert(0, label)
+        if cue["photo_asset_id"]:
+            date = cue["event_clock"]["date"].replace("-", ".")
+            main[0] = main[0].removeprefix(f"{date} · ")
     return qualifiers, main, supporting
 
 

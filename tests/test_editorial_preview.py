@@ -97,7 +97,11 @@ def test_photo_clock_and_overlay_branches_preserve_market_and_credit(clock, dire
     scene.frame(3651)
     shown = scene.last_layout["overlay"]
     assert shown["photo_visible"] and not shown["missing_photo"]
-    assert "中新社发 刘冉阳 摄" in scene.clock.cue_at(3651)["text_cue"]["source_line"]
+    assert shown["caption_lines"] == [
+        "2015.08.24 · 同期现场",
+        "昆明证券交易大厅",
+        "中新社发 刘冉阳 摄｜8月24日图集",
+    ]
 
 
 def test_current_run_reports_hashes_and_rejects_tampered_parsed_config(tmp_path, clock, director):

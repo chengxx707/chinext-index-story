@@ -1,0 +1,52 @@
+{
+  "task": "WF-02R1",
+  "status": "PHOTO_REVIEW_RENDERED_AND_TECHNICALLY_VERIFIED",
+  "handoff_commit": "99170907de537d35a2abea2406505b988780ef47",
+  "release_commit": "c313edfa7959dfc6e9c56badfd3f662ae7fe01b4",
+  "release_files": 29,
+  "protected_files_sha256": {
+    "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "config/production/film_master_v1.json": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "config/event_registry.json": "fc99e9b18b06d0df703b95d2f9d0934d2941134b8c4c57878291c77716fb7c4d"
+  },
+  "photo_intake_sha256": "d6218515621ee9d5f13122c2d504be805d85353b925b6c919725dca657d93623",
+  "media": {
+    "name": "preview_2015_v1.0.1_r1.mp4",
+    "sha256": "442069455645250164466acd335d7f958aa2113804fd492de648bd0eb3630017",
+    "bytes": 8759283,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "duration_seconds": 167,
+    "fps": 30,
+    "frames": 5010,
+    "audio": false,
+    "contains_photo": true,
+    "distribution": "PRIVATE_REVIEW"
+  },
+  "editorial_audit": {
+    "photo_scene_passed": true,
+    "capability_missing": {},
+    "user_visual_acceptance": "PENDING",
+    "formal_full_film_adoption": "PENDING"
+  },
+  "qa": {
+    "content_and_capability_checks_passed": 35,
+    "regressions_passed": 171,
+    "layout_samples_passed": 127,
+    "joins_passed": 27,
+    "browser_wall_seconds": 167.905,
+    "browser_played": [
+      [
+        0,
+        167
+      ]
+    ],
+    "browser_dropped_frames": 0
+  },
+  "github_previous_photo_free_archive": {
+    "url": "https://raw.githubusercontent.com/chengxx707/chinext-index-story/8e05a36cf540514ce39f4cbe449a08629a7fb4f7/review-downloads/wf-02r1-2015-visual/chinext-2015-wf-02r1-preview-review.zip",
+    "sha256": "7e42e90ff30dec73b23e8f32f530ecdfee9d3eedba4ba088410f5648ebbe7692"
+  }
+}
