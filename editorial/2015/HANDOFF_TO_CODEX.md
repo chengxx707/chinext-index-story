@@ -1,27 +1,21 @@
-# HANDOFF TO CODEX｜Director System V1.0
+# HANDOFF TO CODEX｜V1.0.2 Compile & Validate
 
-用户已确认：
-- 导演主导方式A：金融纪录片式；
-- 2015章节结尾A：阶段低点之后继续呈现反弹与修复；
-- 信息严谨程度方案A：T1/T2/T3。
+GPT已根据Codex结构审计 d6df0a70a244fa0af86e126967d7aa9449971cbf 定稿V1.0.2导演工程契约。
 
-本轮GPT交付：
-- editorial/2015/director/REFERENCE_DECONSTRUCTION.md
-- editorial/2015/director/DIRECTOR_SYSTEM_V1.0.md
-- editorial/2015/director/2015_STORY_ARCHITECTURE_V1.0.md
-- editorial/2015/director/2015_BEAT_SHEET_V1.0.json
-- editorial/2015/director/README.md
+## 必须先读
+- editorial/2015/director/V1.0.2_DIRECTOR_CONTRACT.md
+- editorial/2015/director/2015_BEAT_SHEET_V1.0.2.json
+- editorial/2015/director/EVENT_CLOCK_REGISTER_V1.0.2.json
 
-## 当前任务：DIRECTOR-V1.0-STRUCTURE-REVIEW
+## 当前任务：DIRECTOR-V1.0.2-COMPILE-AND-VALIDATE
 
-只做结构和数据审查，不开始编码渲染。
+1. 将导演契约编译为renderer当前Schema可接受的独立候选配置；不得覆盖V1.0.1。
+2. 逐项复算18个Beat的主锚和辅助锚。5个旧错配已按契约纠正。
+3. 验证时间顺序：B08 6/19→7/3；6/26收盘冻结、6/27公告、6/28实施、6/29恢复；B09冻结7/3收盘显示7/4—5周末事件；B10从7/6恢复并到7/7、7/23。
+4. B11经过7/24真实收盘作为7/27单日跌幅分母。B12从7/28开始，覆盖7/28—8/7，再到8/11、8/18、8/20，不得漏掉9个交易日。
+5. B17按9/16、9/21、9/25、9/28、9/29真实交易顺序；B18从9/30之后继续至10/8、10/12、11/25。
+6. PMI时间戳只标财新网页刊发时间09:43:10，不写成已验证首次发布时刻。ETF份额为T2并标来源；原始份额文件未导入。两市成交4044亿元须明确沪深两市口径。
+7. 输出schema验证、行情复算、时钟接缝、事件时钟、主视觉焦点唯一性、手机阅读窗口和资产引用报告。
+8. 本轮只编译与验证，不渲染整段视频、不修改正式427秒主表、不修改冻结OHLC、不修改V1.0.1。
 
-1. 检查Beat Sheet字段与现有DirectorTimeline、EditorialClock、renderer的映射差距。
-2. 使用冻结 data/cyb_daily.csv 复核Beat Sheet所有行情锚点、区间百分比和日期。
-3. 检查每个beat是否有市场时钟、事件时钟、镜头时钟、主视觉、辅助层、转场与验收条件。
-4. 列出需要新增的渲染能力、现有可复用能力、缺少的数据／素材。
-5. 检查2015年9月低点后反弹段是否按真实交易日顺序表达；不得将9月15日写成最终市场底。
-6. 返回结构审计、数据差异和实现方案。不要自行改写GPT叙事或Beat Sheet。
-7. 不修改V1.0.1内容包、冻结OHLC、正式427秒主表、原始素材或已批准视觉资产；不渲染视频、不推送main。
-
-这是导演系统设计审查，不是立即执行新版本渲染。GPT收到审查回执后会形成下一轮工程契约。
+请提交结构验证回执与需要GPT裁定的差异清单。不要自行更改历史叙事、日期、价格或事件事实。仅在editorial分支提交。
