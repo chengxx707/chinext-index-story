@@ -1,0 +1,39 @@
+{
+  "source_commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+  "mode": "r1_new_encode",
+  "frame_span": [
+    5520,
+    7320
+  ],
+  "fps": 30,
+  "frames": 1800,
+  "seconds": 60.0,
+  "playback_basis": "r1_chromium_390px_1x",
+  "phone_dropped_frames": 0,
+  "artifacts": {
+    "target.mp4": {
+      "sha256": "0012ce1a4e119dc2256334f074e9cdc7d54af0496a03702d32c2a93245fb18d1",
+      "bytes": 2558964
+    },
+    "phone-390.mp4": {
+      "sha256": "92b0ae97e76ed91e7d9d8162bd9ba2cc65d5c6df78d68586127815eb28c28c4f",
+      "bytes": 1115516
+    },
+    "keyframe-contact.jpg": {
+      "sha256": "68041c8ab887577911c6766d40930451bc681330161edd027f2eac5050a0572b",
+      "bytes": 506314
+    },
+    "diagnostics.json": {
+      "sha256": "8571f6f9e7acd13d66b6931f00bd124f12ba620528468c2e220560ad74a2eab0",
+      "bytes": 13683690
+    },
+    "media_validation.json": {
+      "sha256": "abd6d04d1cd8d0cca6eb1179498e66ec68be4b156aacb2813e057f5e6e600b93",
+      "bytes": 3322
+    },
+    "playback_observation.json": {
+      "sha256": "2be7e4afe2ccc8b9769fb70aadfa5e7fa60ee9b8c92eb3fa24313b5f0739bc73",
+      "bytes": 3662
+    }
+  }
+}

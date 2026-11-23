@@ -1,0 +1,165 @@
+{
+  "intro-and-cut.jpg": {
+    "sheet": "intro-and-cut.jpg",
+    "media": "decoded_from_390px_phone_mp4",
+    "matches": [
+      {
+        "node": "Date cue",
+        "baseline": {
+          "frame": 6,
+          "local_timecode": "00:00.200"
+        },
+        "r1": {
+          "frame": 6,
+          "local_timecode": "00:00.200"
+        }
+      },
+      {
+        "node": "Zoom in flight",
+        "baseline": {
+          "frame": 24,
+          "local_timecode": "00:00.800"
+        },
+        "r1": {
+          "frame": 24,
+          "local_timecode": "00:00.800"
+        }
+      },
+      {
+        "node": "Close figure",
+        "baseline": {
+          "frame": 59,
+          "local_timecode": "00:01.967"
+        },
+        "r1": {
+          "frame": 59,
+          "local_timecode": "00:01.967"
+        }
+      },
+      {
+        "node": "April return",
+        "baseline": {
+          "frame": 246,
+          "local_timecode": "00:08.200"
+        },
+        "r1": {
+          "frame": 246,
+          "local_timecode": "00:08.200"
+        }
+      }
+    ],
+    "baseline_mp4_sha256": "75484263de3d7f9da4aadc7cc5ce8695bb7a14d9b7a2920cd68997a96ec91d70",
+    "r1_mp4_sha256": "23c2a2e05769b599ce1c30526e0aefeeaf5f25e9d6ef4db50c6dda4dbf271fb2"
+  },
+  "daily-and-etf.jpg": {
+    "sheet": "daily-and-etf.jpg",
+    "media": "decoded_from_390px_phone_mp4",
+    "matches": [
+      {
+        "node": "Sep 25 daily",
+        "baseline": {
+          "frame": 6085,
+          "local_timecode": "00:18.833"
+        },
+        "r1": {
+          "frame": 6109,
+          "local_timecode": "00:19.633"
+        }
+      },
+      {
+        "node": "ETF full",
+        "baseline": {
+          "frame": 6154,
+          "local_timecode": "00:21.133"
+        },
+        "r1": {
+          "frame": 6202,
+          "local_timecode": "00:22.733"
+        }
+      },
+      {
+        "node": "ETF exit",
+        "baseline": {
+          "frame": 6274,
+          "local_timecode": "00:25.133"
+        },
+        "r1": {
+          "frame": 6340,
+          "local_timecode": "00:27.333"
+        }
+      },
+      {
+        "node": "Sep 28 daily",
+        "baseline": {
+          "frame": 6310,
+          "local_timecode": "00:26.333"
+        },
+        "r1": {
+          "frame": 6376,
+          "local_timecode": "00:28.533"
+        }
+      }
+    ],
+    "baseline_mp4_sha256": "6846262ca3f6f6b9f2aa5686d602164f1d98f453567654346544de5765324607",
+    "r1_mp4_sha256": "92b0ae97e76ed91e7d9d8162bd9ba2cc65d5c6df78d68586127815eb28c28c4f"
+  },
+  "turnover-and-repair.jpg": {
+    "sheet": "turnover-and-repair.jpg",
+    "media": "decoded_from_390px_phone_mp4",
+    "matches": [
+      {
+        "node": "Turnover full",
+        "baseline": {
+          "frame": 6367,
+          "local_timecode": "00:28.233"
+        },
+        "r1": {
+          "frame": 6457,
+          "local_timecode": "00:31.233"
+        }
+      },
+      {
+        "node": "Turnover exit",
+        "baseline": {
+          "frame": 6463,
+          "local_timecode": "00:31.433"
+        },
+        "r1": {
+          "frame": 6565,
+          "local_timecode": "00:34.833"
+        }
+      },
+      {
+        "node": "Sep 29 daily",
+        "baseline": {
+          "frame": 6498,
+          "local_timecode": "00:32.600"
+        },
+        "r1": {
+          "frame": 6600,
+          "local_timecode": "00:36.000"
+        }
+      },
+      {
+        "node": "Nov 25 repair",
+        "baseline": {
+          "frame": 7042,
+          "local_timecode": "00:50.733"
+        },
+        "r1": {
+          "frame": 7162,
+          "local_timecode": "00:54.733"
+        }
+      }
+    ],
+    "baseline_mp4_sha256": "6846262ca3f6f6b9f2aa5686d602164f1d98f453567654346544de5765324607",
+    "r1_mp4_sha256": "92b0ae97e76ed91e7d9d8162bd9ba2cc65d5c6df78d68586127815eb28c28c4f"
+  },
+  "pmi-context.jpg": {
+    "sheet": "pmi-context.jpg",
+    "media": "actual_target_stills_resized_to_390px",
+    "frame": 4440,
+    "baseline_still_sha256": "70156bb07763322b07a280605f6f8e4fb4aaf33e1d16baeeced61d4d90991939",
+    "r1_still_sha256": "f910d6acce19b51295d84589eb41d00c024345b35fc9eca5cf3fd451901d1455"
+  }
+}

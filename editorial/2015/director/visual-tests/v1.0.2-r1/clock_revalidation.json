@@ -1,0 +1,540 @@
+{
+  "passed": true,
+  "scope": "legacy_schema_and_actual_clock_only",
+  "published_schema": {
+    "data": "editorial/2015/releases/v1.0.1/director_timeline.schema.json",
+    "draft": "2020-12",
+    "sha256": "2559c15e4415c02d495ab30a8bef5e148174b6ee2c9ffd326b07dfc835e82c9d"
+  },
+  "canonical_direct_legacy_schema_accepted": false,
+  "canonical_direct_schema_errors": [
+    {
+      "field": "$.package_version",
+      "message": "'1.0.1' was expected"
+    },
+    {
+      "field": "$.cues[0]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[1]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[2]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[3]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[4]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[5]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[6]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[7]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[8]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[9]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[10]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[11]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[12]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[13]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[14]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[15]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[16]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[17]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[18]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[19]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[20]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[21]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[22]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[23]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[24]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[25]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[26]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[27]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[28]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[29]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[30]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[31]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'evidence_flag', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[32]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[33]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[34]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[35]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[36]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[37]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[38]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[39]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[40]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[41]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[42]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[43]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[44]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[45]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[46]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$.cues[47]",
+      "message": "Additional properties are not allowed ('acceptance_checks', 'asset_refs', 'beat_id', 'camera_story_clock', 'copy_is_hud_only', 'event_refs', 'primary_focus', 'secondary_layers', 'source_ids', 'transition_in', 'transition_out' were unexpected)"
+    },
+    {
+      "field": "$",
+      "message": "Additional properties are not allowed ('beat_ranges', 'compatibility' were unexpected)"
+    }
+  ],
+  "legacy_schema_passed": true,
+  "legacy_projection_schema_errors": {
+    "flash_forward": [],
+    "main_before_august": [],
+    "main_through_november": []
+  },
+  "runtime": {
+    "passed": true,
+    "actual_runtime_executed": true,
+    "module": "src/chinext_v6/editorial_clock.py",
+    "module_sha256": "6602b3eb3b57569e9360d7ade63ad1bceeb362ee334bd52ad55a23950bb041f0",
+    "segment_runs": [
+      {
+        "id": "flash_forward",
+        "start_frame": 0,
+        "end_frame_exclusive": 240,
+        "actual_frames": 240,
+        "primary_hits_checked": 1,
+        "observed_rail_modes": {
+          "single_rise_until_peak_hold": 240
+        },
+        "first_market_date": "2015-06-03",
+        "last_market_date": "2015-06-03",
+        "freeze_cues": [],
+        "projection_adjustments": []
+      },
+      {
+        "id": "main_before_august",
+        "start_frame": 240,
+        "end_frame_exclusive": 3840,
+        "actual_frames": 3600,
+        "primary_hits_checked": 24,
+        "observed_rail_modes": {
+          "single_rise_until_peak_hold": 1440,
+          "single_drawdown": 2160
+        },
+        "first_market_date": "2015-04-01",
+        "last_market_date": "2015-07-27",
+        "freeze_cues": [
+          {
+            "shot_id": "V102-B08-02",
+            "event_date": "2015-06-27",
+            "time": null,
+            "market_date": "2015-06-26",
+            "close": 2920.7,
+            "start_frame": 2430,
+            "end_frame_exclusive": 2550
+          },
+          {
+            "shot_id": "V102-B08-03",
+            "event_date": "2015-06-28",
+            "time": null,
+            "market_date": "2015-06-26",
+            "close": 2920.7,
+            "start_frame": 2550,
+            "end_frame_exclusive": 2640
+          },
+          {
+            "shot_id": "V102-B09-01",
+            "event_date": "2015-07-04",
+            "time": null,
+            "market_date": "2015-07-03",
+            "close": 2605.28,
+            "start_frame": 2760,
+            "end_frame_exclusive": 2910
+          },
+          {
+            "shot_id": "V102-B09-02",
+            "event_date": "2015-07-04",
+            "time": null,
+            "market_date": "2015-07-03",
+            "close": 2605.28,
+            "start_frame": 2910,
+            "end_frame_exclusive": 3060
+          },
+          {
+            "shot_id": "V102-B09-03",
+            "event_date": "2015-07-05",
+            "time": null,
+            "market_date": "2015-07-03",
+            "close": 2605.28,
+            "start_frame": 3060,
+            "end_frame_exclusive": 3240
+          }
+        ],
+        "projection_adjustments": []
+      },
+      {
+        "id": "main_through_november",
+        "start_frame": 3840,
+        "end_frame_exclusive": 7320,
+        "actual_frames": 3480,
+        "primary_hits_checked": 23,
+        "observed_rail_modes": {
+          "single_drawdown": 3480
+        },
+        "first_market_date": "2015-07-28",
+        "last_market_date": "2015-11-25",
+        "freeze_cues": [
+          {
+            "shot_id": "V102-B13-02",
+            "event_date": "2015-08-21",
+            "time": "09:43:10",
+            "market_date": "2015-08-21",
+            "close": 2341.95,
+            "start_frame": 4434,
+            "end_frame_exclusive": 4524
+          },
+          {
+            "shot_id": "V102-B13-04",
+            "event_date": "2015-08-24",
+            "time": null,
+            "market_date": "2015-08-24",
+            "close": 2152.61,
+            "start_frame": 4632,
+            "end_frame_exclusive": 4740
+          },
+          {
+            "shot_id": "V102-B14-02",
+            "event_date": "2015-08-25",
+            "time": "18:15:34",
+            "market_date": "2015-08-25",
+            "close": 1990.71,
+            "start_frame": 4950,
+            "end_frame_exclusive": 5220
+          },
+          {
+            "shot_id": "V102-B17-ETF",
+            "event_date": "2015-09-25",
+            "time": null,
+            "market_date": "2015-09-25",
+            "close": 2020.97,
+            "start_frame": 6175,
+            "end_frame_exclusive": 6343
+          },
+          {
+            "shot_id": "V102-B17-TURNOVER",
+            "event_date": "2015-09-28",
+            "time": null,
+            "market_date": "2015-09-28",
+            "close": 2122.26,
+            "start_frame": 6442,
+            "end_frame_exclusive": 6568
+          }
+        ],
+        "projection_adjustments": [
+          {
+            "shot_id": "V102-B16-02",
+            "field": "visible_trading_days",
+            "authored": 50.0,
+            "applied": 94,
+            "reason": "preserve_geometry_endpoints"
+          }
+        ]
+      }
+    ],
+    "joins": [
+      {
+        "frame": 240,
+        "kind": "explicit_isolated_flash_forward_cut",
+        "out_date": "2015-06-03",
+        "in_date": "2015-04-01",
+        "passed": true
+      },
+      {
+        "frame": 3840,
+        "kind": "next_trading_row_at_compatible_camera",
+        "out_date": "2015-07-27",
+        "in_date": "2015-07-28",
+        "consecutive_csv_rows": true,
+        "camera_span_and_domain_equal": true,
+        "window_start_change_in_trading_rows": 1.0,
+        "out_projection": {
+          "window_start": 1198.8,
+          "window_span": 64.0,
+          "y_min": 1300.0,
+          "y_max": 4550.0
+        },
+        "in_projection": {
+          "window_start": 1199.8,
+          "window_span": 64.0,
+          "y_min": 1300.0,
+          "y_max": 4550.0
+        },
+        "passed": true
+      }
+    ],
+    "frame_checks": {
+      "frame_count": 7320,
+      "main_unique_trading_days": 161,
+      "expected_main_trading_days": 161,
+      "june_weekend_hold": true,
+      "compiled_price_checkpoint_hits": 66,
+      "august_after_close_hold": true,
+      "july_weekend_held_entire_beat": true,
+      "checked_beat_market_sequences": {
+        "B08": [
+          "2015-06-19",
+          "2015-06-23",
+          "2015-06-24",
+          "2015-06-25",
+          "2015-06-26",
+          "2015-06-29",
+          "2015-06-30",
+          "2015-07-01",
+          "2015-07-02",
+          "2015-07-03"
+        ],
+        "B09": [
+          "2015-07-03"
+        ],
+        "B10": [
+          "2015-07-03",
+          "2015-07-06",
+          "2015-07-07",
+          "2015-07-08",
+          "2015-07-09",
+          "2015-07-10",
+          "2015-07-13",
+          "2015-07-14",
+          "2015-07-15",
+          "2015-07-16",
+          "2015-07-17",
+          "2015-07-20",
+          "2015-07-21",
+          "2015-07-22",
+          "2015-07-23"
+        ],
+        "B11": [
+          "2015-07-23",
+          "2015-07-24",
+          "2015-07-27"
+        ],
+        "B12": [
+          "2015-07-28",
+          "2015-07-29",
+          "2015-07-30",
+          "2015-07-31",
+          "2015-08-03",
+          "2015-08-04",
+          "2015-08-05",
+          "2015-08-06",
+          "2015-08-07",
+          "2015-08-10",
+          "2015-08-11",
+          "2015-08-12",
+          "2015-08-13",
+          "2015-08-14",
+          "2015-08-17",
+          "2015-08-18",
+          "2015-08-19",
+          "2015-08-20"
+        ],
+        "B16": [
+          "2015-08-26",
+          "2015-08-27",
+          "2015-08-28",
+          "2015-08-31",
+          "2015-09-01",
+          "2015-09-02",
+          "2015-09-07",
+          "2015-09-08",
+          "2015-09-09",
+          "2015-09-10",
+          "2015-09-11",
+          "2015-09-14",
+          "2015-09-15"
+        ],
+        "B17": [
+          "2015-09-15",
+          "2015-09-16",
+          "2015-09-17",
+          "2015-09-18",
+          "2015-09-21",
+          "2015-09-22",
+          "2015-09-23",
+          "2015-09-24",
+          "2015-09-25",
+          "2015-09-28",
+          "2015-09-29"
+        ],
+        "B18": [
+          "2015-09-29",
+          "2015-09-30",
+          "2015-10-08",
+          "2015-10-09",
+          "2015-10-12",
+          "2015-10-13",
+          "2015-10-14",
+          "2015-10-15",
+          "2015-10-16",
+          "2015-10-19",
+          "2015-10-20",
+          "2015-10-21",
+          "2015-10-22",
+          "2015-10-23",
+          "2015-10-26",
+          "2015-10-27",
+          "2015-10-28",
+          "2015-10-29",
+          "2015-10-30",
+          "2015-11-02",
+          "2015-11-03",
+          "2015-11-04",
+          "2015-11-05",
+          "2015-11-06",
+          "2015-11-09",
+          "2015-11-10",
+          "2015-11-11",
+          "2015-11-12",
+          "2015-11-13",
+          "2015-11-16",
+          "2015-11-17",
+          "2015-11-18",
+          "2015-11-19",
+          "2015-11-20",
+          "2015-11-23",
+          "2015-11-24",
+          "2015-11-25"
+        ]
+      }
+    },
+    "errors": [],
+    "photo_clock_option": "photo_available_true_for_timing_only; image not read",
+    "future_ohlc_evidence": "per-frame current row is exact floor of real playhead; chart clip flag checked; compositor not evaluated"
+  },
+  "renderer_executed": false,
+  "renderer_output_validated": false
+}

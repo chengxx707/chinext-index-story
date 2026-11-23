@@ -1,0 +1,49 @@
+{
+  "status": "REUSED_AND_HASH_VERIFIED",
+  "source_commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+  "frame_span": [
+    2280,
+    3600
+  ],
+  "seconds": 44,
+  "files": {
+    "B08-B10/target.mp4": {
+      "sha256": "fd16c04694228e7a29656298fd88d558c180388c6b850d8a5fbd7a9634bc8959",
+      "bytes": 1771382
+    },
+    "B08-B10/phone-390.mp4": {
+      "sha256": "713b9c0ff005f4a52fe6c72d6df5121bc2da5c3820d4cea23220e18b306b0ae1",
+      "bytes": 731622
+    },
+    "B08-B10/keyframe-contact.jpg": {
+      "sha256": "a99b4b445f6a3835fcefa4c47edaf71ed72a37950b0098aebc54a8dbb417c2a2",
+      "bytes": 362808
+    },
+    "B08-B10/manifest.json": {
+      "sha256": "d55668381603e6ae38c481059056365896b471c8e330d3de4e8b8fbfd5ea878c",
+      "bytes": 1910
+    },
+    "B08-B10/review.md": {
+      "sha256": "4f392aa38c2a86483b3af12ec291a692875676b6733b0d08e66ba0f6e2ccb914",
+      "bytes": 1121
+    },
+    "B08-B10/contact_sources.json": {
+      "sha256": "aa28d8558a0f4ccfe32d1fc82770a8e6de8abcd44637fe482de82f1f40a7f6ad",
+      "bytes": 365
+    },
+    "B08-B10/diagnostics.json": {
+      "sha256": "2ebb891a5ec29a1eb72f4e7a8f94840f9b9b3114fd72b8d5875a3e082bd3493a",
+      "bytes": 10303188
+    },
+    "B08-B10/media_validation.json": {
+      "sha256": "cdefaadd8dcbddecd143890c3d41aa4a362d586379af6ed73a462995b3bc7e5d",
+      "bytes": 3326
+    },
+    "B08-B10/solo-review/playback_observation.json": {
+      "sha256": "1ffe99926e34840a8f417c1d9f6eaac36f07eed305fcef03247b138ecd1598bc",
+      "bytes": 2843
+    }
+  },
+  "prior_media_report": "B08-B10/media_validation.json",
+  "prior_single_playback": "B08-B10/solo-review/playback_observation.json"
+}

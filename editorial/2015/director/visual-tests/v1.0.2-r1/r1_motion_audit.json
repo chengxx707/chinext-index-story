@@ -1,0 +1,790 @@
+{
+  "passed": true,
+  "checks": {
+    "baseline": true,
+    "candidate": true,
+    "b01": true,
+    "b17": true,
+    "b08_and_b13": true
+  },
+  "sections": {
+    "baseline": {
+      "passed": true,
+      "checks": {
+        "zip_contains_exact_commit_manifest_and_listed_artifacts": true,
+        "all_available_artifacts_match_committed_manifest": true,
+        "candidate_matches_published_digest": true,
+        "published_clip_frame_ranges_and_duration": true,
+        "locked_source_data_master_assets_and_v101_match": true
+      },
+      "commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+      "archive_sha256": "dd46b813641e683bb751a3dfdd83abbdc1d8e6ae261b11bf9196beb06e34834e",
+      "counts": {
+        "git_blobs": 26,
+        "zip_entries": 146,
+        "local_entries": 146
+      },
+      "artifact_mismatches": [],
+      "frozen_sha256": {
+        "data/cyb_daily.csv": {
+          "sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+          "matches": true
+        },
+        "config/production/film_master_v1.json": {
+          "sha256": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+          "matches": true
+        },
+        "config/event_registry.json": {
+          "sha256": "fc99e9b18b06d0df703b95d2f9d0934d2941134b8c4c57878291c77716fb7c4d",
+          "matches": true
+        },
+        "assets/earth_cinematic.png": {
+          "sha256": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197",
+          "matches": true
+        },
+        "assets/earth_body.png": {
+          "sha256": "a619239f32ba3ae6c9b5ee692ca0116a62d736f9f80bb72e8192b8238eecb253",
+          "matches": true
+        },
+        "assets/reference/approved_visual_reference.png": {
+          "sha256": "460b236f55775acdfd5686bd2df97e440f1eec2eb688954fd3e42fc1317f6e82",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/CODEX_HANDOFF.md": {
+          "sha256": "bc904aa57537029c32d75f7adc85afc21c370cfdc8c894836799f269e0e42aa0",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/README.md": {
+          "sha256": "f42d40c223f70070a8505570ceb82eda6c516080dc453379e54ffc3801744ef4",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/REVIEW_REPORT.md": {
+          "sha256": "d154f2668a2ed7b1b219eb406b8678792a0e25b02541b70be1e56b942458b416",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/archive_manifest.json": {
+          "sha256": "fadf5a11919db039aaafa451635ea1babd3ed04e49e80088aad527ce51a0a7f5",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/director_storyboard.md": {
+          "sha256": "891b61eb86228b0594a56eabf25c5516a5b48ca1fd2950168d4e97e8f37d77e8",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/director_timeline.json": {
+          "sha256": "8a979d4cbc80182fa329d4579d5503f30bf5bd8d11aba3edc0c78647980be7ea",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/director_timeline.schema.json": {
+          "sha256": "2559c15e4415c02d495ab30a8bef5e148174b6ee2c9ffd326b07dfc835e82c9d",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/event_review.json": {
+          "sha256": "eaa9047a57800bb451fc0dbf0b50dd7d579d32ccae08901a6d7b12a93da3f5a3",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/manifest.json": {
+          "sha256": "1be7273db7a0c2be9159a9933af6c857a087691bb3951a21f1883c3f1b19d4a4",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/market_metrics.json": {
+          "sha256": "c00d10b48a5928278f1d2a3a1e1c8c837523f2b558004cfa3f870df3b88d0fd7",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/narrative.md": {
+          "sha256": "3c9ed60ebe55371235a5ea2bba339b37ec588ea76a234d481050e5d0a6869794",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/period_production.json": {
+          "sha256": "dcc2f7a2c69a5fac2227b305c334681d193b4839f07c1dad7337c9cf5d627411",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/period_screen_copy.md": {
+          "sha256": "094ce4f3eff0ddb61128e11802a5d9b48ea7b9fd04619c909e06624d140c8111",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/period_storyboard.json": {
+          "sha256": "22c7532df5e4e83dc08f2bdfd070b6b23fd4c6fe20d2528f66fddfd70050f8c8",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/photo_manifest.json": {
+          "sha256": "52765cf480fa73f02d6be532c1e70a22ccd075596fb409235f78dd1e73830a2b",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/research/apr_ind.md": {
+          "sha256": "af53a0a17f9c5f54edec2bd344260ae758c98f0a87cec68692d16752fe726310",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/research/aug_img.md": {
+          "sha256": "1cfca206a08b5dd6e76dc93d608aada89ddaf09a3df70e53930f48869ac02531",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/research/derived_checks.json": {
+          "sha256": "473f57bf744563ce4f0169cf44c99926836d477e3a36e3cf514565b3f2ac6613",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/research/evidence/csrc_20150703_excerpt.json": {
+          "sha256": "8d04db888badc988813bb13ed2be5c06c5a1286f7ed41d282b317ca886d95b07",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/research/evidence/csrc_20150708_excerpt.json": {
+          "sha256": "fb0d139f8276a2229c58a770917c7ab1b0f45b25c501e50adaef8bd74315d820",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/research/evidence/gtja_20150620_reading_record.json": {
+          "sha256": "159d7b2bac9f63f0f288fc1b294a71ee00655dc4a1bed6e492eed2672b09d52a",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/research/evidence/rigor_a_reading_records.json": {
+          "sha256": "736629b5c60e098df8ee0590ef16a6ff465a5ca25934063d1d03f9dfffc31c33",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/research/jun.md": {
+          "sha256": "42976120d98f0f81a10a18e497b0cdf2845b475d32cb1cbbbaf9d760dac32afd",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/research/source_reconciliation.json": {
+          "sha256": "915d50d3078fb17710fae6cc40770cd9552a4e3532e6cce028420eb3efe96cd0",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/rigor_application.json": {
+          "sha256": "f5aa3af6e0ac466c81e01df647dc5b2056c9531c5689cdbf65c7b635f4806df6",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/rigor_policy.json": {
+          "sha256": "93c825626c2696e798651f753306656faac3cdcb2dd37d8941fa667864d3f03a",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/source_registry.json": {
+          "sha256": "065038613204508cde3600597be2a1adbef68af19ca9dfb43b69ac475bb4484f",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/validate_candidate.py": {
+          "sha256": "4e01958238f5241300592e93b03c153dc5ee81c8b60acd08e22b9d290b3eb13c",
+          "matches": true
+        },
+        "editorial/2015/releases/v1.0.1/validation_report.json": {
+          "sha256": "e291b47cb2da19b228a153e4ba78f444657f3c3a921889d8d34a82aec26e43c9",
+          "matches": true
+        }
+      },
+      "frame_ranges": {
+        "B01-B02": [
+          0,
+          540
+        ],
+        "B08-B10": [
+          2280,
+          3600
+        ],
+        "B16-B18": [
+          5520,
+          7200
+        ]
+      }
+    },
+    "candidate": {
+      "passed": true,
+      "checks": {
+        "same_48_cues_in_same_order": true,
+        "scoped_timeline_is_244_seconds": true,
+        "unchanged_cues_are_byte_equivalent_as_values": true,
+        "rail_basis_unchanged": true,
+        "b13_only_changes_context_label": true,
+        "hook_preserves_real_market_clock_and_original_boundaries": true,
+        "hook_camera_and_captions_timed_separately": true,
+        "all_tail_cue_preservation_checks": true,
+        "total_b17_extension_120_frames": true
+      },
+      "cue_comparisons": {
+        "V102-B17-01": {
+          "passed": true,
+          "checks": {
+            "shift_matches_accumulated_prior_holds": true,
+            "only_terminal_hold_added": true,
+            "facts_links_and_copies_unchanged": true,
+            "full_reading_gets_exact_added_frames": true,
+            "fade_duration_preserved": true
+          },
+          "reading_frames_added": 12,
+          "start_shift_frames": 0
+        },
+        "V102-B17-02": {
+          "passed": true,
+          "checks": {
+            "shift_matches_accumulated_prior_holds": true,
+            "only_terminal_hold_added": true,
+            "facts_links_and_copies_unchanged": true,
+            "full_reading_gets_exact_added_frames": true,
+            "fade_duration_preserved": true
+          },
+          "reading_frames_added": 12,
+          "start_shift_frames": 12
+        },
+        "V102-B17-03": {
+          "passed": true,
+          "checks": {
+            "shift_matches_accumulated_prior_holds": true,
+            "only_terminal_hold_added": true,
+            "facts_links_and_copies_unchanged": true,
+            "full_reading_gets_exact_added_frames": true,
+            "fade_duration_preserved": true
+          },
+          "reading_frames_added": 24,
+          "start_shift_frames": 24
+        },
+        "V102-B17-ETF": {
+          "passed": true,
+          "checks": {
+            "shift_matches_accumulated_prior_holds": true,
+            "only_terminal_hold_added": true,
+            "facts_links_and_copies_unchanged": true,
+            "full_reading_gets_exact_added_frames": true,
+            "fade_duration_preserved": true
+          },
+          "reading_frames_added": 18,
+          "start_shift_frames": 48
+        },
+        "V102-B17-04": {
+          "passed": true,
+          "checks": {
+            "shift_matches_accumulated_prior_holds": true,
+            "only_terminal_hold_added": true,
+            "facts_links_and_copies_unchanged": true,
+            "full_reading_gets_exact_added_frames": true,
+            "fade_duration_preserved": true
+          },
+          "reading_frames_added": 24,
+          "start_shift_frames": 66
+        },
+        "V102-B17-TURNOVER": {
+          "passed": true,
+          "checks": {
+            "shift_matches_accumulated_prior_holds": true,
+            "only_terminal_hold_added": true,
+            "facts_links_and_copies_unchanged": true,
+            "full_reading_gets_exact_added_frames": true,
+            "fade_duration_preserved": true
+          },
+          "reading_frames_added": 12,
+          "start_shift_frames": 90
+        },
+        "V102-B17-05": {
+          "passed": true,
+          "checks": {
+            "shift_matches_accumulated_prior_holds": true,
+            "only_terminal_hold_added": true,
+            "facts_links_and_copies_unchanged": true,
+            "full_reading_gets_exact_added_frames": true,
+            "fade_duration_preserved": true
+          },
+          "reading_frames_added": 18,
+          "start_shift_frames": 102
+        },
+        "V102-B18-01": {
+          "passed": true,
+          "checks": {
+            "shift_matches_accumulated_prior_holds": true,
+            "only_terminal_hold_added": true,
+            "facts_links_and_copies_unchanged": true,
+            "full_reading_gets_exact_added_frames": true,
+            "fade_duration_preserved": true
+          },
+          "reading_frames_added": 0,
+          "start_shift_frames": 120
+        },
+        "V102-B18-02": {
+          "passed": true,
+          "checks": {
+            "shift_matches_accumulated_prior_holds": true,
+            "only_terminal_hold_added": true,
+            "facts_links_and_copies_unchanged": true,
+            "full_reading_gets_exact_added_frames": true,
+            "fade_duration_preserved": true
+          },
+          "reading_frames_added": 0,
+          "start_shift_frames": 120
+        },
+        "V102-B18-03": {
+          "passed": true,
+          "checks": {
+            "shift_matches_accumulated_prior_holds": true,
+            "only_terminal_hold_added": true,
+            "facts_links_and_copies_unchanged": true,
+            "full_reading_gets_exact_added_frames": true,
+            "fade_duration_preserved": true
+          },
+          "reading_frames_added": 0,
+          "start_shift_frames": 120
+        },
+        "V102-B18-04": {
+          "passed": true,
+          "checks": {
+            "shift_matches_accumulated_prior_holds": true,
+            "only_terminal_hold_added": true,
+            "facts_links_and_copies_unchanged": true,
+            "full_reading_gets_exact_added_frames": true,
+            "fade_duration_preserved": true
+          },
+          "reading_frames_added": 0,
+          "start_shift_frames": 120
+        }
+      }
+    },
+    "b01": {
+      "passed": true,
+      "checks": {
+        "holds_real_june3_without_future_candles_or_duplicated_rail": true,
+        "one_eased_push_to_same_final_projection": true,
+        "projection_uses_smoothstep_for_each_component": true,
+        "opening_price_is_deferred_in_hud_and_caption": true,
+        "actual_value_enters_after_push_and_holds_at_full_opacity": true,
+        "same_explicit_f240_return_and_real_restarted_tape": true,
+        "early_chart_and_late_keypoint_have_distinct_focus_phases": true,
+        "timed_qualifier_source_anchor_and_single_orbit_pulse": true,
+        "no_frame_layout_errors": true
+      },
+      "samples": {
+        "0": {
+          "projection": {
+            "window_start": 1155.4,
+            "window_span": 72.0,
+            "y_min": 1000.0,
+            "y_max": 4800.0
+          },
+          "drawn_caption": [
+            "闪前 · 2015.06.03",
+            "阶段最高收盘"
+          ],
+          "hero_alpha": 0,
+          "camera": {
+            "start_frame": 0,
+            "settled_frame": 48,
+            "easing": "smoothstep",
+            "progress": 0.0,
+            "eased_progress": 0.0,
+            "anchor_logical": [
+              568.3999999999992,
+              452.81388157894736
+            ]
+          },
+          "intro_overlay": {
+            "date_alpha": 0.12,
+            "value_alpha": 0.0,
+            "source_alpha": 0.0,
+            "qualifier_visible": true,
+            "value_visible": false,
+            "source_visible": false,
+            "value_in_frame": 48,
+            "value_full_frame": 54
+          },
+          "orbit": null
+        },
+        "6": {
+          "projection": {
+            "window_start": 1156.15625,
+            "window_span": 71.0546875,
+            "y_min": 1012.890625,
+            "y_max": 4789.2578125
+          },
+          "drawn_caption": [
+            "闪前 · 2015.06.03",
+            "阶段最高收盘"
+          ],
+          "hero_alpha": 0,
+          "camera": {
+            "start_frame": 0,
+            "settled_frame": 48,
+            "easing": "smoothstep",
+            "progress": 0.125,
+            "eased_progress": 0.04296875,
+            "anchor_logical": [
+              568.4,
+              452.0634538401862
+            ]
+          },
+          "intro_overlay": {
+            "date_alpha": 1.0,
+            "value_alpha": 0.0,
+            "source_alpha": 0.0,
+            "qualifier_visible": true,
+            "value_visible": false,
+            "source_visible": false,
+            "value_in_frame": 48,
+            "value_full_frame": 54
+          },
+          "orbit": null
+        },
+        "24": {
+          "projection": {
+            "window_start": 1164.2,
+            "window_span": 61.0,
+            "y_min": 1150.0,
+            "y_max": 4675.0
+          },
+          "drawn_caption": [
+            "闪前 · 2015.06.03",
+            "阶段最高收盘"
+          ],
+          "hero_alpha": 0,
+          "camera": {
+            "start_frame": 0,
+            "settled_frame": 48,
+            "easing": "smoothstep",
+            "progress": 0.5,
+            "eased_progress": 0.5,
+            "anchor_logical": [
+              568.3999999999995,
+              443.4589361702128
+            ]
+          },
+          "intro_overlay": {
+            "date_alpha": 1.0,
+            "value_alpha": 0.0,
+            "source_alpha": 0.0,
+            "qualifier_visible": true,
+            "value_visible": false,
+            "source_visible": false,
+            "value_in_frame": 48,
+            "value_full_frame": 54
+          },
+          "orbit": null
+        },
+        "47": {
+          "projection": {
+            "window_start": 1172.9774016203703,
+            "window_span": 50.02824797453704,
+            "y_min": 1299.6148003472222,
+            "y_max": 4550.320999710648
+          },
+          "drawn_caption": [
+            "闪前 · 2015.06.03",
+            "阶段最高收盘"
+          ],
+          "hero_alpha": 0,
+          "camera": {
+            "start_frame": 0,
+            "settled_frame": 48,
+            "easing": "smoothstep",
+            "progress": 0.9791666666666666,
+            "eased_progress": 0.9987160011574074,
+            "anchor_logical": [
+              568.4000000000009,
+              432.55130528583834
+            ]
+          },
+          "intro_overlay": {
+            "date_alpha": 1.0,
+            "value_alpha": 0.0,
+            "source_alpha": 0.0,
+            "qualifier_visible": true,
+            "value_visible": false,
+            "source_visible": false,
+            "value_in_frame": 48,
+            "value_full_frame": 54
+          },
+          "orbit": null
+        },
+        "48": {
+          "projection": {
+            "window_start": 1173.0,
+            "window_span": 50.0,
+            "y_min": 1300.0,
+            "y_max": 4550.0
+          },
+          "drawn_caption": [
+            "闪前 · 2015.06.03",
+            "阶段最高收盘",
+            "3,982.25",
+            "项目冻结日线"
+          ],
+          "hero_alpha": 0.12,
+          "camera": {
+            "start_frame": 0,
+            "settled_frame": 48,
+            "easing": "smoothstep",
+            "progress": 1.0,
+            "eased_progress": 1.0,
+            "anchor_logical": [
+              568.4,
+              432.52084615384615
+            ]
+          },
+          "intro_overlay": {
+            "date_alpha": 1.0,
+            "value_alpha": 0.12,
+            "source_alpha": 0.12,
+            "qualifier_visible": true,
+            "value_visible": true,
+            "source_visible": true,
+            "value_in_frame": 48,
+            "value_full_frame": 54
+          },
+          "orbit": {
+            "visible": true,
+            "pulse": true,
+            "point": [
+              637.962354551677,
+              883.1771265011508
+            ],
+            "node_date": "2015-06-03",
+            "hit_frame": 48
+          }
+        },
+        "54": {
+          "projection": {
+            "window_start": 1173.0,
+            "window_span": 50.0,
+            "y_min": 1300.0,
+            "y_max": 4550.0
+          },
+          "drawn_caption": [
+            "闪前 · 2015.06.03",
+            "阶段最高收盘",
+            "3,982.25",
+            "项目冻结日线"
+          ],
+          "hero_alpha": 1.0,
+          "camera": {
+            "start_frame": 0,
+            "settled_frame": 48,
+            "easing": "smoothstep",
+            "progress": 1.0,
+            "eased_progress": 1.0,
+            "anchor_logical": [
+              568.4,
+              432.52084615384615
+            ]
+          },
+          "intro_overlay": {
+            "date_alpha": 1.0,
+            "value_alpha": 1.0,
+            "source_alpha": 1.0,
+            "qualifier_visible": true,
+            "value_visible": true,
+            "source_visible": true,
+            "value_in_frame": 48,
+            "value_full_frame": 54
+          },
+          "orbit": {
+            "visible": true,
+            "pulse": true,
+            "point": [
+              637.962354551677,
+              883.1771265011508
+            ],
+            "node_date": "2015-06-03",
+            "hit_frame": 48
+          }
+        },
+        "239": {
+          "projection": {
+            "window_start": 1173.0,
+            "window_span": 50.0,
+            "y_min": 1300.0,
+            "y_max": 4550.0
+          },
+          "drawn_caption": [
+            "闪前 · 2015.06.03",
+            "阶段最高收盘",
+            "3,982.25",
+            "项目冻结日线"
+          ],
+          "hero_alpha": 1.0,
+          "camera": {
+            "start_frame": 0,
+            "settled_frame": 48,
+            "easing": "smoothstep",
+            "progress": 1.0,
+            "eased_progress": 1.0,
+            "anchor_logical": [
+              568.4,
+              432.52084615384615
+            ]
+          },
+          "intro_overlay": {
+            "date_alpha": 1.0,
+            "value_alpha": 1.0,
+            "source_alpha": 1.0,
+            "qualifier_visible": true,
+            "value_visible": true,
+            "source_visible": true,
+            "value_in_frame": 48,
+            "value_full_frame": 54
+          },
+          "orbit": {
+            "visible": true,
+            "pulse": false,
+            "point": [
+              637.962354551677,
+              883.1771265011508
+            ],
+            "node_date": "2015-06-03",
+            "hit_frame": 48
+          }
+        }
+      },
+      "push_steps": {
+        "first": 0.02824797453703809,
+        "max": 0.6871021412037024,
+        "last": 0.02824797453703809
+      },
+      "stable_value_reading_frames": 186
+    },
+    "b17": {
+      "passed": true,
+      "checks": {
+        "01_stable_visible_actual_reading": true,
+        "01_full_six_frame_exit_fade": true,
+        "02_stable_visible_actual_reading": true,
+        "02_full_six_frame_exit_fade": true,
+        "03_stable_visible_actual_reading": true,
+        "03_full_six_frame_exit_fade": true,
+        "ETF_only_after_completed_real_close": true,
+        "ETF_actual_t2_provenance_and_no_causal_geometry": true,
+        "ETF_stable_visible_actual_reading": true,
+        "ETF_full_six_frame_exit_fade": true,
+        "04_stable_visible_actual_reading": true,
+        "04_full_six_frame_exit_fade": true,
+        "TURNOVER_only_after_completed_real_close": true,
+        "TURNOVER_actual_t2_provenance_and_no_causal_geometry": true,
+        "TURNOVER_stable_visible_actual_reading": true,
+        "TURNOVER_full_six_frame_exit_fade": true,
+        "05_stable_visible_actual_reading": true,
+        "05_full_six_frame_exit_fade": true,
+        "etf_and_turnover_never_share_a_frame": true,
+        "etf_then_sep28_rebound_then_turnover_then_sep29_pullback": true,
+        "all_actual_b17_trading_days_present_in_order": true,
+        "only_one_rail_no_future_or_layout_errors": true
+      },
+      "readings": {
+        "01": {
+          "from_frame": 5903,
+          "end_frame_exclusive": 5964,
+          "stable_seconds": 2.033,
+          "prior_stable_seconds": 1.633,
+          "fade": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ]
+        },
+        "02": {
+          "from_frame": 6000,
+          "end_frame_exclusive": 6058,
+          "stable_seconds": 1.933,
+          "prior_stable_seconds": 1.533,
+          "fade": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ]
+        },
+        "03": {
+          "from_frame": 6100,
+          "end_frame_exclusive": 6169,
+          "stable_seconds": 2.3,
+          "prior_stable_seconds": 1.5,
+          "fade": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ]
+        },
+        "ETF": {
+          "from_frame": 6193,
+          "end_frame_exclusive": 6337,
+          "stable_seconds": 4.8,
+          "prior_stable_seconds": 4.2,
+          "fade": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ]
+        },
+        "04": {
+          "from_frame": 6367,
+          "end_frame_exclusive": 6436,
+          "stable_seconds": 2.3,
+          "prior_stable_seconds": 1.5,
+          "fade": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ]
+        },
+        "TURNOVER": {
+          "from_frame": 6448,
+          "end_frame_exclusive": 6562,
+          "stable_seconds": 3.8,
+          "prior_stable_seconds": 3.4,
+          "fade": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ]
+        },
+        "05": {
+          "from_frame": 6591,
+          "end_frame_exclusive": 6654,
+          "stable_seconds": 2.1,
+          "prior_stable_seconds": 1.5,
+          "fade": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ]
+        }
+      },
+      "b17_trading_days": [
+        "2015-09-15",
+        "2015-09-16",
+        "2015-09-17",
+        "2015-09-18",
+        "2015-09-21",
+        "2015-09-22",
+        "2015-09-23",
+        "2015-09-24",
+        "2015-09-25",
+        "2015-09-28",
+        "2015-09-29"
+      ]
+    },
+    "b08_and_b13": {
+      "passed": true,
+      "checks": {
+        "b08_reuses_exact_previous_encoding_and_diagnostics": true,
+        "b13_current_still_decodes_without_error": true,
+        "b13_actual_recapped_date_and_original_pmi_numbers": true
+      },
+      "b08_reused_files": {
+        "target.mp4": true,
+        "phone-390.mp4": true,
+        "diagnostics.json": true
+      },
+      "b13_frame": 4440,
+      "b13_visible_copy": "2015.08.21 · 当日回顾财新8月制造业PMI初值47.109:30A股开盘09:43:10财新网页刊发"
+    }
+  },
+  "scope": "committed baseline integrity, authored timing and rendered-frame diagnostic checks"
+}

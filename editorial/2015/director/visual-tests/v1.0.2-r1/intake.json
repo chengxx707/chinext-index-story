@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "editorial_base_commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+  "compiled_commit": "5e211d52afe376ff393a050493c4a1e780e780d9",
+  "runtime_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+  "baseline_candidate_sha256": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+  "candidate_schema_errors": [],
+  "clock_passed": true,
+  "runtime_errors": [],
+  "candidate_frames": 7320,
+  "fps": 30,
+  "candidate_cues": 48,
+  "frame_ranges": {
+    "B01-B02": [
+      0,
+      540
+    ],
+    "B08-B10": [
+      2280,
+      3600
+    ],
+    "B16-B18": [
+      5520,
+      7320
+    ]
+  },
+  "newly_rendered_ranges": [
+    [
+      0,
+      540
+    ],
+    [
+      5520,
+      7320
+    ]
+  ],
+  "references": {
+    "latest_preferred_reference": "MISSING_ORIGINAL",
+    "white_house_reference": "MISSING_ORIGINAL",
+    "approved_fallback": "assets/reference/approved_visual_reference.png",
+    "historical_building_with_verified_rights": "NOT_AVAILABLE"
+  },
+  "protected_input_sha256": {
+    "/workspace/chinext-index-story/data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "/workspace/chinext-index-story/config/production/film_master_v1.json": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "/workspace/chinext-index-story/config/event_registry.json": "fc99e9b18b06d0df703b95d2f9d0934d2941134b8c4c57878291c77716fb7c4d",
+    "/workspace/chinext-index-story/assets/earth_cinematic.png": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197",
+    "/workspace/chinext-index-story/assets/earth_body.png": "a619239f32ba3ae6c9b5ee692ca0116a62d736f9f80bb72e8192b8238eecb253",
+    "/workspace/chinext-index-story/assets/reference/approved_visual_reference.png": "460b236f55775acdfd5686bd2df97e440f1eec2eb688954fd3e42fc1317f6e82",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/CODEX_HANDOFF.md": "bc904aa57537029c32d75f7adc85afc21c370cfdc8c894836799f269e0e42aa0",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/README.md": "f42d40c223f70070a8505570ceb82eda6c516080dc453379e54ffc3801744ef4",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/REVIEW_REPORT.md": "d154f2668a2ed7b1b219eb406b8678792a0e25b02541b70be1e56b942458b416",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/archive_manifest.json": "fadf5a11919db039aaafa451635ea1babd3ed04e49e80088aad527ce51a0a7f5",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/director_storyboard.md": "891b61eb86228b0594a56eabf25c5516a5b48ca1fd2950168d4e97e8f37d77e8",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/director_timeline.json": "8a979d4cbc80182fa329d4579d5503f30bf5bd8d11aba3edc0c78647980be7ea",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/director_timeline.schema.json": "2559c15e4415c02d495ab30a8bef5e148174b6ee2c9ffd326b07dfc835e82c9d",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/event_review.json": "eaa9047a57800bb451fc0dbf0b50dd7d579d32ccae08901a6d7b12a93da3f5a3",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/manifest.json": "1be7273db7a0c2be9159a9933af6c857a087691bb3951a21f1883c3f1b19d4a4",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/market_metrics.json": "c00d10b48a5928278f1d2a3a1e1c8c837523f2b558004cfa3f870df3b88d0fd7",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/narrative.md": "3c9ed60ebe55371235a5ea2bba339b37ec588ea76a234d481050e5d0a6869794",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/period_production.json": "dcc2f7a2c69a5fac2227b305c334681d193b4839f07c1dad7337c9cf5d627411",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/period_screen_copy.md": "094ce4f3eff0ddb61128e11802a5d9b48ea7b9fd04619c909e06624d140c8111",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/period_storyboard.json": "22c7532df5e4e83dc08f2bdfd070b6b23fd4c6fe20d2528f66fddfd70050f8c8",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/photo_manifest.json": "52765cf480fa73f02d6be532c1e70a22ccd075596fb409235f78dd1e73830a2b",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/research/apr_ind.md": "af53a0a17f9c5f54edec2bd344260ae758c98f0a87cec68692d16752fe726310",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/research/aug_img.md": "1cfca206a08b5dd6e76dc93d608aada89ddaf09a3df70e53930f48869ac02531",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/research/derived_checks.json": "473f57bf744563ce4f0169cf44c99926836d477e3a36e3cf514565b3f2ac6613",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/research/evidence/csrc_20150703_excerpt.json": "8d04db888badc988813bb13ed2be5c06c5a1286f7ed41d282b317ca886d95b07",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/research/evidence/csrc_20150708_excerpt.json": "fb0d139f8276a2229c58a770917c7ab1b0f45b25c501e50adaef8bd74315d820",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/research/evidence/gtja_20150620_reading_record.json": "159d7b2bac9f63f0f288fc1b294a71ee00655dc4a1bed6e492eed2672b09d52a",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/research/evidence/rigor_a_reading_records.json": "736629b5c60e098df8ee0590ef16a6ff465a5ca25934063d1d03f9dfffc31c33",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/research/jun.md": "42976120d98f0f81a10a18e497b0cdf2845b475d32cb1cbbbaf9d760dac32afd",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/research/source_reconciliation.json": "915d50d3078fb17710fae6cc40770cd9552a4e3532e6cce028420eb3efe96cd0",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/rigor_application.json": "f5aa3af6e0ac466c81e01df647dc5b2056c9531c5689cdbf65c7b635f4806df6",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/rigor_policy.json": "93c825626c2696e798651f753306656faac3cdcb2dd37d8941fa667864d3f03a",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/source_registry.json": "065038613204508cde3600597be2a1adbef68af19ca9dfb43b69ac475bb4484f",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/validate_candidate.py": "4e01958238f5241300592e93b03c153dc5ee81c8b60acd08e22b9d290b3eb13c",
+    "/workspace/chinext-index-story/editorial/2015/releases/v1.0.1/validation_report.json": "e291b47cb2da19b228a153e4ba78f444657f3c3a921889d8d34a82aec26e43c9",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/editorial/2015/releases/v1.0.1/director_timeline.schema.json": "2559c15e4415c02d495ab30a8bef5e148174b6ee2c9ffd326b07dfc835e82c9d",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/__init__.py": "c890833f13b3e2f7cb43104770d80e2580b4e889aca26c2f05ab287a30009de7",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/content_components.py": "ea7d86efef1e5051f6b78cc2b4197604ac4014643a3288ac3d7e9004549e3d0d",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/drawing.py": "7a07abaa8f2d2d8970c43f7f6ef8c539d65ad4e7dc2210646421e99bf132fe60",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/editorial_clock.py": "6602b3eb3b57569e9360d7ade63ad1bceeb362ee334bd52ad55a23950bb041f0",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/editorial_overlay.py": "27b989dc489c438e0f5afe386ca80f94cc06e8ac74e06d9eae624352e8224cf0",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/editorial_revision.py": "6f9780ec77d973bc028bd5a19e1285e28d1ee6e686bc63269235ba691692d965",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/editorial_validation.py": "36fef663d2f542a7d31bbf61dc31d904ec68e6fb3dcb0d33dc79e531efffd34e",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/ending.py": "e634b81d3248097c6d7cf0b36383fd48cb2bc3500265afeba4c242b1b692a46e",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/film_renderer.py": "ffbb79acd912833625df5ba69a61b0895e3c3ea57a3ead5d7cb6e4859cbd4994",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/landmarks.py": "ace0bb9d49ac2c475560580bedd94274026f1d6938be0f8c836e42cc29515c10",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/model.py": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/production.py": "8b015f4c4df4a4cab3603aa49f76e6acba683737596a0921aa469b445f687a39",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/renderer.py": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/src/chinext_v6/scene_cache.py": "cb53204e71ebcaf277f78e2e5d5bc9dcaa426f8571260db053cec83c90e95048",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/runtime/tools/render_editorial_preview.py": "1ecbf3836e5e1104b39d53b7ed4698f111079d42d86267fa88d623a7e6f31bb2",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/editorial/2015/HANDOFF_TO_CODEX.md": "58ab45bc6415268f0c15ee20276ee62fa7508337c83822eb1a437f53ffa0d3ea",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/editorial/2015/director/GPT_VISUAL_DECISIONS_V1.0.2.md": "f73fd77dff6a29617c1267872812db101d8bc3d2b4d42adde0848211a58032fb",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/editorial/2015/director/EVENT_CLOCK_REGISTER_V1.0.2.json": "ce450846cc8265a438ffaf5418a113c62e76348a0b44c2ed9495fba456b8572a",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/editorial/2015/director/compiled/v1.0.2/candidate.schema.json": "9707766d23e5e13372b54f517eeccdab6e6101dad31c007582fd2d99d5ae429f",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/docs/production/PROJECT-DASHBOARD.md": "a5ec90e31b995247620d3eb6be18a9190f8c699e0c0f3c6dc6f5f8ff73489ba0",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/editorial/2015/director/compiled/v1.0.2/tools/compile_candidate.py": "c482cdbd7949bccfc6aab68644b4f4054fd6ed5caf77ce3084f03f4d5a465a4a",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/editorial/2015/director/compiled/v1.0.2/tools/event_audit.py": "f061abbac077a79234b14070c8bcc4910cd9889779e1c0678d1980dc0f062083",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/editorial/2015/director/compiled/v1.0.2/tools/market_audit.py": "7b62f9989e88748b25939e232748750955be38916b5ae1096895c86caa9b37d3",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/editorial/2015/director/compiled/v1.0.2/tools/runtime_audit.py": "1973a41b49153ec786fb7925b92b06a54156171d6320a174bc02410cc3bf47ce",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/editorial/2015/director/compiled/v1.0.2/tools/scene_plan.py": "6c731fa3c74aeae78d3ff21252515f592873f4c4dce07cbfd6041a6b024ca868",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/baseline_candidate.json": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/baseline_manifest.json": "828810e801b0e2b746177fb3dfdb804766e7e17d3c47e7d9f63335b566dc21c4",
+    "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/inputs/baseline_receipt.json": "dbb98ddf1f0ebc29eb8bf3751759ae3a7dc87abdd1a91867195f162ab7609bd9"
+  }
+}

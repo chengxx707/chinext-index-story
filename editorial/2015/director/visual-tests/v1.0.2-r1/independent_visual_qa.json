@@ -1,0 +1,1612 @@
+{
+  "passed": true,
+  "scope": "independent ffprobe/full-decode checks and actual R1 compositor diagnostics",
+  "authorized_global_ranges": {
+    "B01-B02": [
+      0,
+      540
+    ],
+    "B16-B18": [
+      5520,
+      7320
+    ]
+  },
+  "candidate_sha256": "f942258c33bde9a1d4305bab90d7fbe30a6b6ddc9050da23cb699d4010bdb87a",
+  "frozen_ohlc_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "candidate": {
+    "passed": true,
+    "checks": {
+      "v102_r1_global_timebase": true,
+      "bounded_r1_beat_timing": true,
+      "hook_true_date_anchor_and_visual_start": true,
+      "pmi_context_marks_same_day_retrospective": true,
+      "exact_pmi_dual_timeline_semantics": true,
+      "etf_copy_units_period_and_attribution": true,
+      "whole_day_two_exchange_turnover_attribution": true,
+      "t2_layers_have_separate_time_windows": true,
+      "t2_stable_reading_extended": true,
+      "no_causal_links": true
+    },
+    "cues": {
+      "pmi": {
+        "shot_id": "V102-B13-02",
+        "start_frame": 4434,
+        "end_frame_exclusive": 4524,
+        "reading_window": [
+          4440,
+          4518
+        ],
+        "exit_window": [
+          4518,
+          4524
+        ],
+        "stable_reading_seconds": 2.6
+      },
+      "etf": {
+        "shot_id": "V102-B17-ETF",
+        "start_frame": 6175,
+        "end_frame_exclusive": 6343,
+        "reading_window": [
+          6193,
+          6337
+        ],
+        "exit_window": [
+          6337,
+          6343
+        ],
+        "stable_reading_seconds": 4.8
+      },
+      "turnover": {
+        "shot_id": "V102-B17-TURNOVER",
+        "start_frame": 6442,
+        "end_frame_exclusive": 6568,
+        "reading_window": [
+          6448,
+          6562
+        ],
+        "exit_window": [
+          6562,
+          6568
+        ],
+        "stable_reading_seconds": 3.8
+      }
+    }
+  },
+  "media": {
+    "B01-B02": {
+      "target": {
+        "passed": true,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/result/B01-B02/target.mp4",
+        "sha256": "0b978bc49125f86ba9a4ff54fc30cf8e37e085ddf302aa5aeff456d015a93215",
+        "checks": {
+          "single_video_and_no_other_stream": true,
+          "dimensions": true,
+          "rate_and_average_rate": true,
+          "decoded_probe_frame_count": true,
+          "exact_stream_duration": true,
+          "container_duration": true,
+          "no_start_edit_offset": true,
+          "decode_without_error": true,
+          "independent_decode_frame_count": true,
+          "no_black_intervals_at_threshold": true,
+          "sha256_unchanged_while_checked": true
+        },
+        "metadata": {
+          "stream_types": [
+            "video"
+          ],
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 540,
+          "duration_seconds": 18.0,
+          "codec": "h264",
+          "time_base": "1/15360"
+        },
+        "black_filter": "blackdetect=d=0:pic_th=0.98:pix_th=0.02",
+        "black_intervals": [],
+        "decode_error": null
+      },
+      "phone": {
+        "passed": true,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/result/B01-B02/phone-390.mp4",
+        "sha256": "23c2a2e05769b599ce1c30526e0aefeeaf5f25e9d6ef4db50c6dda4dbf271fb2",
+        "checks": {
+          "single_video_and_no_other_stream": true,
+          "dimensions": true,
+          "rate_and_average_rate": true,
+          "decoded_probe_frame_count": true,
+          "exact_stream_duration": true,
+          "container_duration": true,
+          "no_start_edit_offset": true,
+          "decode_without_error": true,
+          "independent_decode_frame_count": true,
+          "no_black_intervals_at_threshold": true,
+          "sha256_unchanged_while_checked": true
+        },
+        "metadata": {
+          "stream_types": [
+            "video"
+          ],
+          "width": 390,
+          "height": 694,
+          "fps": "30/1",
+          "frames": 540,
+          "duration_seconds": 18.0,
+          "codec": "h264",
+          "time_base": "1/15360"
+        },
+        "black_filter": "blackdetect=d=0:pic_th=0.98:pix_th=0.02",
+        "black_intervals": [],
+        "decode_error": null
+      }
+    },
+    "B16-B18": {
+      "target": {
+        "passed": true,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/result/B16-B18/target.mp4",
+        "sha256": "0012ce1a4e119dc2256334f074e9cdc7d54af0496a03702d32c2a93245fb18d1",
+        "checks": {
+          "single_video_and_no_other_stream": true,
+          "dimensions": true,
+          "rate_and_average_rate": true,
+          "decoded_probe_frame_count": true,
+          "exact_stream_duration": true,
+          "container_duration": true,
+          "no_start_edit_offset": true,
+          "decode_without_error": true,
+          "independent_decode_frame_count": true,
+          "no_black_intervals_at_threshold": true,
+          "sha256_unchanged_while_checked": true
+        },
+        "metadata": {
+          "stream_types": [
+            "video"
+          ],
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1800,
+          "duration_seconds": 60.0,
+          "codec": "h264",
+          "time_base": "1/15360"
+        },
+        "black_filter": "blackdetect=d=0:pic_th=0.98:pix_th=0.02",
+        "black_intervals": [],
+        "decode_error": null
+      },
+      "phone": {
+        "passed": true,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/result/B16-B18/phone-390.mp4",
+        "sha256": "92b0ae97e76ed91e7d9d8162bd9ba2cc65d5c6df78d68586127815eb28c28c4f",
+        "checks": {
+          "single_video_and_no_other_stream": true,
+          "dimensions": true,
+          "rate_and_average_rate": true,
+          "decoded_probe_frame_count": true,
+          "exact_stream_duration": true,
+          "container_duration": true,
+          "no_start_edit_offset": true,
+          "decode_without_error": true,
+          "independent_decode_frame_count": true,
+          "no_black_intervals_at_threshold": true,
+          "sha256_unchanged_while_checked": true
+        },
+        "metadata": {
+          "stream_types": [
+            "video"
+          ],
+          "width": 390,
+          "height": 694,
+          "fps": "30/1",
+          "frames": 1800,
+          "duration_seconds": 60.0,
+          "codec": "h264",
+          "time_base": "1/15360"
+        },
+        "black_filter": "blackdetect=d=0:pic_th=0.98:pix_th=0.02",
+        "black_intervals": [],
+        "decode_error": null
+      }
+    }
+  },
+  "blocks": {
+    "B01-B02": {
+      "passed": true,
+      "diagnostics_sha256": "22dd88f549c5c21956c31d654231c6cbef3c4d5052661203bdec3f5dd12ef4a7",
+      "checks": {
+        "claim_matches_authorized_range": true,
+        "diagnostics_link_to_actual_target_sha": true,
+        "diagnostics_report_no_layout_errors": true,
+        "source_rgba_frames_match_target_dimensions": true,
+        "caption_band_does_not_cover_chart": true
+      },
+      "clock_focus_and_rail": {
+        "passed": true,
+        "failures": [],
+        "failure_count": 0,
+        "first_date": "2015-06-03",
+        "last_date": "2015-04-10",
+        "trading_days_observed": [
+          "2015-06-03",
+          "2015-04-01",
+          "2015-04-02",
+          "2015-04-03",
+          "2015-04-07",
+          "2015-04-08",
+          "2015-04-09",
+          "2015-04-10"
+        ],
+        "computed_without_trusting_pct_chg": true
+      },
+      "camera": {
+        "passed": true,
+        "joins": [
+          {
+            "frame": 240,
+            "from": "V102-B01-01",
+            "to": "V102-B02-01",
+            "explicit_flash_return": true,
+            "camera_delta": {
+              "window_start": -54.2,
+              "window_span": 14.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 330,
+            "from": "V102-B02-01",
+            "to": "V102-B02-02",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0111606736
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          }
+        ],
+        "continuity_scope": "exact sampled projection seam and finite-difference velocity evidence"
+      },
+      "phone_bbox_summary": {
+        "passed": true,
+        "out_of_frame_boxes": [],
+        "roles": {
+          "flash_forward": {
+            "min_px": 12.29,
+            "max_px": 12.29,
+            "boxes": 240
+          },
+          "footer": {
+            "min_px": 5.42,
+            "max_px": 5.78,
+            "boxes": 1080
+          },
+          "key_point_qualifier": {
+            "min_px": 15.18,
+            "max_px": 15.18,
+            "boxes": 240
+          },
+          "market_context": {
+            "min_px": 16.63,
+            "max_px": 21.69,
+            "boxes": 224
+          },
+          "market_key_point": {
+            "min_px": 31.45,
+            "max_px": 31.45,
+            "boxes": 192
+          },
+          "market_source": {
+            "min_px": 10.12,
+            "max_px": 10.12,
+            "boxes": 192
+          },
+          "rail": {
+            "min_px": 7.95,
+            "max_px": 12.29,
+            "boxes": 1080
+          },
+          "rewind_to": {
+            "min_px": 13.37,
+            "max_px": 13.37,
+            "boxes": 90
+          },
+          "status": {
+            "min_px": 5.78,
+            "max_px": 11.57,
+            "boxes": 1140
+          },
+          "timeline": {
+            "min_px": 6.87,
+            "max_px": 9.76,
+            "boxes": 1620
+          },
+          "title": {
+            "min_px": 6.87,
+            "max_px": 18.43,
+            "boxes": 2160
+          }
+        },
+        "scope": "rendered target boxes scaled to phone; reading experience needs playback/visual observation"
+      },
+      "caption_reading": {
+        "passed": true,
+        "failures": [],
+        "cue_reading": {
+          "V102-B01-01": {
+            "planned_global_frames": [
+              54,
+              240
+            ],
+            "fully_drawn_frames_in_window": 186,
+            "rendered_reading_seconds": 6.2,
+            "planned_reading_seconds": 6.2,
+            "all_full_opacity_frames": 186,
+            "min_caption_glyph_bbox_height_at_390px": 10.12
+          },
+          "V102-B02-01": {
+            "planned_global_frames": [
+              246,
+              330
+            ],
+            "fully_drawn_frames_in_window": 84,
+            "rendered_reading_seconds": 2.8,
+            "planned_reading_seconds": 2.8,
+            "all_full_opacity_frames": 84,
+            "min_caption_glyph_bbox_height_at_390px": 13.37
+          },
+          "V102-B02-02": {
+            "planned_global_frames": [
+              412,
+              540
+            ],
+            "fully_drawn_frames_in_window": 128,
+            "rendered_reading_seconds": 4.267,
+            "planned_reading_seconds": 4.267,
+            "all_full_opacity_frames": 128,
+            "min_caption_glyph_bbox_height_at_390px": 16.63
+          }
+        },
+        "scope": "actual caption visibility/full opacity; not subjective reading speed"
+      },
+      "hook_opening_eased_reveal": {
+        "passed": true,
+        "checks": {
+          "actual_same_row_eased_projection": true,
+          "real_candle_stays_on_axis_during_push": true,
+          "historical_qualifier_before_value": true,
+          "no_competing_numeric_hud_across_hook": true,
+          "one_value_reveal_and_stable_hold": true,
+          "hook_returns_to_ordinary_hud_at_240": true
+        },
+        "sampled_frames": [
+          {
+            "frame": 0,
+            "market_date": "2015-06-03",
+            "market_close": 3982.25,
+            "projection": {
+              "window_start": 1155.4,
+              "window_span": 72.0,
+              "y_min": 1000.0,
+              "y_max": 4800.0
+            },
+            "hook_camera": {
+              "start_frame": 0,
+              "settled_frame": 48,
+              "easing": "smoothstep",
+              "progress": 0.0,
+              "eased_progress": 0.0,
+              "anchor_logical": [
+                568.3999999999992,
+                452.81388157894736
+              ]
+            },
+            "hud": {
+              "market_date_visible": true,
+              "close_visible": false,
+              "close_text": null,
+              "treatment": "opening_value_deferred_to_hero"
+            },
+            "reveal": {
+              "date_alpha": 0.12,
+              "value_alpha": 0.0,
+              "source_alpha": 0.0,
+              "qualifier_visible": true,
+              "value_visible": false,
+              "source_visible": false,
+              "value_in_frame": 48,
+              "value_full_frame": 54
+            }
+          },
+          {
+            "frame": 6,
+            "market_date": "2015-06-03",
+            "market_close": 3982.25,
+            "projection": {
+              "window_start": 1156.15625,
+              "window_span": 71.0546875,
+              "y_min": 1012.890625,
+              "y_max": 4789.2578125
+            },
+            "hook_camera": {
+              "start_frame": 0,
+              "settled_frame": 48,
+              "easing": "smoothstep",
+              "progress": 0.125,
+              "eased_progress": 0.04296875,
+              "anchor_logical": [
+                568.4,
+                452.0634538401862
+              ]
+            },
+            "hud": {
+              "market_date_visible": true,
+              "close_visible": false,
+              "close_text": null,
+              "treatment": "opening_value_deferred_to_hero"
+            },
+            "reveal": {
+              "date_alpha": 1.0,
+              "value_alpha": 0.0,
+              "source_alpha": 0.0,
+              "qualifier_visible": true,
+              "value_visible": false,
+              "source_visible": false,
+              "value_in_frame": 48,
+              "value_full_frame": 54
+            }
+          },
+          {
+            "frame": 24,
+            "market_date": "2015-06-03",
+            "market_close": 3982.25,
+            "projection": {
+              "window_start": 1164.2,
+              "window_span": 61.0,
+              "y_min": 1150.0,
+              "y_max": 4675.0
+            },
+            "hook_camera": {
+              "start_frame": 0,
+              "settled_frame": 48,
+              "easing": "smoothstep",
+              "progress": 0.5,
+              "eased_progress": 0.5,
+              "anchor_logical": [
+                568.3999999999995,
+                443.4589361702128
+              ]
+            },
+            "hud": {
+              "market_date_visible": true,
+              "close_visible": false,
+              "close_text": null,
+              "treatment": "opening_value_deferred_to_hero"
+            },
+            "reveal": {
+              "date_alpha": 1.0,
+              "value_alpha": 0.0,
+              "source_alpha": 0.0,
+              "qualifier_visible": true,
+              "value_visible": false,
+              "source_visible": false,
+              "value_in_frame": 48,
+              "value_full_frame": 54
+            }
+          },
+          {
+            "frame": 47,
+            "market_date": "2015-06-03",
+            "market_close": 3982.25,
+            "projection": {
+              "window_start": 1172.9774016203703,
+              "window_span": 50.02824797453704,
+              "y_min": 1299.6148003472222,
+              "y_max": 4550.320999710648
+            },
+            "hook_camera": {
+              "start_frame": 0,
+              "settled_frame": 48,
+              "easing": "smoothstep",
+              "progress": 0.9791666666666666,
+              "eased_progress": 0.9987160011574074,
+              "anchor_logical": [
+                568.4000000000009,
+                432.55130528583834
+              ]
+            },
+            "hud": {
+              "market_date_visible": true,
+              "close_visible": false,
+              "close_text": null,
+              "treatment": "opening_value_deferred_to_hero"
+            },
+            "reveal": {
+              "date_alpha": 1.0,
+              "value_alpha": 0.0,
+              "source_alpha": 0.0,
+              "qualifier_visible": true,
+              "value_visible": false,
+              "source_visible": false,
+              "value_in_frame": 48,
+              "value_full_frame": 54
+            }
+          },
+          {
+            "frame": 48,
+            "market_date": "2015-06-03",
+            "market_close": 3982.25,
+            "projection": {
+              "window_start": 1173.0,
+              "window_span": 50.0,
+              "y_min": 1300.0,
+              "y_max": 4550.0
+            },
+            "hook_camera": {
+              "start_frame": 0,
+              "settled_frame": 48,
+              "easing": "smoothstep",
+              "progress": 1.0,
+              "eased_progress": 1.0,
+              "anchor_logical": [
+                568.4,
+                432.52084615384615
+              ]
+            },
+            "hud": {
+              "market_date_visible": true,
+              "close_visible": false,
+              "close_text": null,
+              "treatment": "opening_value_deferred_to_hero"
+            },
+            "reveal": {
+              "date_alpha": 1.0,
+              "value_alpha": 0.12,
+              "source_alpha": 0.12,
+              "qualifier_visible": true,
+              "value_visible": true,
+              "source_visible": true,
+              "value_in_frame": 48,
+              "value_full_frame": 54
+            }
+          },
+          {
+            "frame": 54,
+            "market_date": "2015-06-03",
+            "market_close": 3982.25,
+            "projection": {
+              "window_start": 1173.0,
+              "window_span": 50.0,
+              "y_min": 1300.0,
+              "y_max": 4550.0
+            },
+            "hook_camera": {
+              "start_frame": 0,
+              "settled_frame": 48,
+              "easing": "smoothstep",
+              "progress": 1.0,
+              "eased_progress": 1.0,
+              "anchor_logical": [
+                568.4,
+                432.52084615384615
+              ]
+            },
+            "hud": {
+              "market_date_visible": true,
+              "close_visible": false,
+              "close_text": null,
+              "treatment": "opening_value_deferred_to_hero"
+            },
+            "reveal": {
+              "date_alpha": 1.0,
+              "value_alpha": 1.0,
+              "source_alpha": 1.0,
+              "qualifier_visible": true,
+              "value_visible": true,
+              "source_visible": true,
+              "value_in_frame": 48,
+              "value_full_frame": 54
+            }
+          },
+          {
+            "frame": 239,
+            "market_date": "2015-06-03",
+            "market_close": 3982.25,
+            "projection": {
+              "window_start": 1173.0,
+              "window_span": 50.0,
+              "y_min": 1300.0,
+              "y_max": 4550.0
+            },
+            "hook_camera": {
+              "start_frame": 0,
+              "settled_frame": 48,
+              "easing": "smoothstep",
+              "progress": 1.0,
+              "eased_progress": 1.0,
+              "anchor_logical": [
+                568.4,
+                432.52084615384615
+              ]
+            },
+            "hud": {
+              "market_date_visible": true,
+              "close_visible": false,
+              "close_text": null,
+              "treatment": "opening_value_deferred_to_hero"
+            },
+            "reveal": {
+              "date_alpha": 1.0,
+              "value_alpha": 1.0,
+              "source_alpha": 1.0,
+              "qualifier_visible": true,
+              "value_visible": true,
+              "source_visible": true,
+              "value_in_frame": 48,
+              "value_full_frame": 54
+            }
+          },
+          {
+            "frame": 240,
+            "market_date": "2015-04-01",
+            "market_close": 2404.91,
+            "projection": {
+              "window_start": 1118.8,
+              "window_span": 64.0,
+              "y_min": 1300.0,
+              "y_max": 4550.0
+            },
+            "hook_camera": null,
+            "hud": {
+              "market_date_visible": true,
+              "close_visible": true,
+              "close_text": "2,404.91",
+              "treatment": "market_close"
+            },
+            "reveal": null
+          }
+        ]
+      },
+      "caption_chart_issues": []
+    },
+    "B16-B18": {
+      "passed": true,
+      "diagnostics_sha256": "8571f6f9e7acd13d66b6931f00bd124f12ba620528468c2e220560ad74a2eab0",
+      "checks": {
+        "claim_matches_authorized_range": true,
+        "diagnostics_link_to_actual_target_sha": true,
+        "diagnostics_report_no_layout_errors": true,
+        "source_rgba_frames_match_target_dimensions": true,
+        "caption_band_does_not_cover_chart": true
+      },
+      "clock_focus_and_rail": {
+        "passed": true,
+        "failures": [],
+        "failure_count": 0,
+        "first_date": "2015-08-26",
+        "last_date": "2015-11-25",
+        "trading_days_observed": [
+          "2015-08-26",
+          "2015-08-27",
+          "2015-08-28",
+          "2015-08-31",
+          "2015-09-01",
+          "2015-09-02",
+          "2015-09-07",
+          "2015-09-08",
+          "2015-09-09",
+          "2015-09-10",
+          "2015-09-11",
+          "2015-09-14",
+          "2015-09-15",
+          "2015-09-16",
+          "2015-09-17",
+          "2015-09-18",
+          "2015-09-21",
+          "2015-09-22",
+          "2015-09-23",
+          "2015-09-24",
+          "2015-09-25",
+          "2015-09-28",
+          "2015-09-29",
+          "2015-09-30",
+          "2015-10-08",
+          "2015-10-09",
+          "2015-10-12",
+          "2015-10-13",
+          "2015-10-14",
+          "2015-10-15",
+          "2015-10-16",
+          "2015-10-19",
+          "2015-10-20",
+          "2015-10-21",
+          "2015-10-22",
+          "2015-10-23",
+          "2015-10-26",
+          "2015-10-27",
+          "2015-10-28",
+          "2015-10-29",
+          "2015-10-30",
+          "2015-11-02",
+          "2015-11-03",
+          "2015-11-04",
+          "2015-11-05",
+          "2015-11-06",
+          "2015-11-09",
+          "2015-11-10",
+          "2015-11-11",
+          "2015-11-12",
+          "2015-11-13",
+          "2015-11-16",
+          "2015-11-17",
+          "2015-11-18",
+          "2015-11-19",
+          "2015-11-20",
+          "2015-11-23",
+          "2015-11-24",
+          "2015-11-25"
+        ],
+        "computed_without_trusting_pct_chg": true
+      },
+      "camera": {
+        "passed": true,
+        "joins": [
+          {
+            "frame": 5700,
+            "from": "V102-B16-01",
+            "to": "V102-B16-02",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                -0.2079568199
+              ],
+              "window_span": [
+                0.0,
+                0.2898175143
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 5880,
+            "from": "V102-B16-02",
+            "to": "V102-B17-01",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.7025661322
+              ],
+              "window_span": [
+                0.0,
+                -0.8657407407
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 5970,
+            "from": "V102-B17-01",
+            "to": "V102-B17-02",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.029296875
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6064,
+            "from": "V102-B17-02",
+            "to": "V102-B17-03",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0283854167
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6175,
+            "from": "V102-B17-03",
+            "to": "V102-B17-ETF",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                -0.1259259259
+              ],
+              "window_span": [
+                0.0,
+                0.1574074074
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6343,
+            "from": "V102-B17-ETF",
+            "to": "V102-B17-04",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.1348422497
+              ],
+              "window_span": [
+                0.0,
+                -0.1574074074
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6442,
+            "from": "V102-B17-04",
+            "to": "V102-B17-TURNOVER",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6568,
+            "from": "V102-B17-TURNOVER",
+            "to": "V102-B17-05",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0099735396
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6660,
+            "from": "V102-B17-05",
+            "to": "V102-B18-01",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                -0.0732568964
+              ],
+              "window_span": [
+                0.0,
+                0.0922146636
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6750,
+            "from": "V102-B18-01",
+            "to": "V102-B18-02",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0747878362
+              ],
+              "window_span": [
+                0.0,
+                -0.0922146636
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6900,
+            "from": "V102-B18-02",
+            "to": "V102-B18-03",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.002692679
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 7050,
+            "from": "V102-B18-03",
+            "to": "V102-B18-04",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                -0.2363675629
+              ],
+              "window_span": [
+                0.0,
+                0.5269409351
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          }
+        ],
+        "continuity_scope": "exact sampled projection seam and finite-difference velocity evidence"
+      },
+      "phone_bbox_summary": {
+        "passed": true,
+        "out_of_frame_boxes": [],
+        "roles": {
+          "endpoint_date": {
+            "min_px": 6.87,
+            "max_px": 6.87,
+            "boxes": 468
+          },
+          "etf_end_shares": {
+            "min_px": 15.9,
+            "max_px": 15.9,
+            "boxes": 155
+          },
+          "etf_observation_window": {
+            "min_px": 12.29,
+            "max_px": 12.29,
+            "boxes": 155
+          },
+          "etf_report_date": {
+            "min_px": 11.93,
+            "max_px": 11.93,
+            "boxes": 155
+          },
+          "etf_share_change": {
+            "min_px": 15.54,
+            "max_px": 15.54,
+            "boxes": 155
+          },
+          "etf_source": {
+            "min_px": 12.29,
+            "max_px": 12.29,
+            "boxes": 155
+          },
+          "etf_start_shares": {
+            "min_px": 15.9,
+            "max_px": 15.9,
+            "boxes": 155
+          },
+          "footer": {
+            "min_px": 5.42,
+            "max_px": 5.78,
+            "boxes": 3600
+          },
+          "key_point_qualifier": {
+            "min_px": 11.93,
+            "max_px": 11.93,
+            "boxes": 403
+          },
+          "key_point_suffix": {
+            "min_px": 14.1,
+            "max_px": 14.1,
+            "boxes": 173
+          },
+          "market_basis": {
+            "min_px": 11.93,
+            "max_px": 13.01,
+            "boxes": 1258
+          },
+          "market_context": {
+            "min_px": 15.18,
+            "max_px": 15.18,
+            "boxes": 567
+          },
+          "market_key_point": {
+            "min_px": 26.39,
+            "max_px": 33.62,
+            "boxes": 403
+          },
+          "metric_title": {
+            "min_px": 15.9,
+            "max_px": 15.9,
+            "boxes": 280
+          },
+          "milestone": {
+            "min_px": 6.14,
+            "max_px": 6.14,
+            "boxes": 1800
+          },
+          "rail": {
+            "min_px": 7.95,
+            "max_px": 12.29,
+            "boxes": 3600
+          },
+          "status": {
+            "min_px": 5.78,
+            "max_px": 11.57,
+            "boxes": 5400
+          },
+          "timeline": {
+            "min_px": 6.87,
+            "max_px": 9.76,
+            "boxes": 5400
+          },
+          "title": {
+            "min_px": 6.87,
+            "max_px": 18.43,
+            "boxes": 7200
+          },
+          "turnover_calendar": {
+            "min_px": 13.74,
+            "max_px": 13.74,
+            "boxes": 125
+          },
+          "turnover_source": {
+            "min_px": 12.29,
+            "max_px": 12.29,
+            "boxes": 125
+          },
+          "turnover_unit": {
+            "min_px": 13.74,
+            "max_px": 13.74,
+            "boxes": 125
+          },
+          "turnover_value": {
+            "min_px": 30.72,
+            "max_px": 30.72,
+            "boxes": 125
+          }
+        },
+        "scope": "rendered target boxes scaled to phone; reading experience needs playback/visual observation"
+      },
+      "caption_reading": {
+        "passed": true,
+        "failures": [],
+        "cue_reading": {
+          "V102-B16-01": {
+            "planned_global_frames": [
+              5591,
+              5700
+            ],
+            "fully_drawn_frames_in_window": 109,
+            "rendered_reading_seconds": 3.633,
+            "planned_reading_seconds": 3.633,
+            "all_full_opacity_frames": 109,
+            "min_caption_glyph_bbox_height_at_390px": 11.93
+          },
+          "V102-B16-02": {
+            "planned_global_frames": [
+              5771,
+              5880
+            ],
+            "fully_drawn_frames_in_window": 109,
+            "rendered_reading_seconds": 3.633,
+            "planned_reading_seconds": 3.633,
+            "all_full_opacity_frames": 109,
+            "min_caption_glyph_bbox_height_at_390px": 11.93
+          },
+          "V102-B17-01": {
+            "planned_global_frames": [
+              5903,
+              5964
+            ],
+            "fully_drawn_frames_in_window": 61,
+            "rendered_reading_seconds": 2.033,
+            "planned_reading_seconds": 2.033,
+            "all_full_opacity_frames": 62,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B17-02": {
+            "planned_global_frames": [
+              6000,
+              6058
+            ],
+            "fully_drawn_frames_in_window": 58,
+            "rendered_reading_seconds": 1.933,
+            "planned_reading_seconds": 1.933,
+            "all_full_opacity_frames": 59,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B17-03": {
+            "planned_global_frames": [
+              6100,
+              6169
+            ],
+            "fully_drawn_frames_in_window": 69,
+            "rendered_reading_seconds": 2.3,
+            "planned_reading_seconds": 2.3,
+            "all_full_opacity_frames": 70,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B17-ETF": {
+            "planned_global_frames": [
+              6193,
+              6337
+            ],
+            "fully_drawn_frames_in_window": 144,
+            "rendered_reading_seconds": 4.8,
+            "planned_reading_seconds": 4.8,
+            "all_full_opacity_frames": 145,
+            "min_caption_glyph_bbox_height_at_390px": 11.93
+          },
+          "V102-B17-04": {
+            "planned_global_frames": [
+              6367,
+              6436
+            ],
+            "fully_drawn_frames_in_window": 69,
+            "rendered_reading_seconds": 2.3,
+            "planned_reading_seconds": 2.3,
+            "all_full_opacity_frames": 70,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B17-TURNOVER": {
+            "planned_global_frames": [
+              6448,
+              6562
+            ],
+            "fully_drawn_frames_in_window": 114,
+            "rendered_reading_seconds": 3.8,
+            "planned_reading_seconds": 3.8,
+            "all_full_opacity_frames": 115,
+            "min_caption_glyph_bbox_height_at_390px": 12.29
+          },
+          "V102-B17-05": {
+            "planned_global_frames": [
+              6591,
+              6654
+            ],
+            "fully_drawn_frames_in_window": 63,
+            "rendered_reading_seconds": 2.1,
+            "planned_reading_seconds": 2.1,
+            "all_full_opacity_frames": 64,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B18-02": {
+            "planned_global_frames": [
+              6810,
+              6900
+            ],
+            "fully_drawn_frames_in_window": 90,
+            "rendered_reading_seconds": 3.0,
+            "planned_reading_seconds": 3.0,
+            "all_full_opacity_frames": 90,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B18-03": {
+            "planned_global_frames": [
+              6960,
+              7050
+            ],
+            "fully_drawn_frames_in_window": 90,
+            "rendered_reading_seconds": 3.0,
+            "planned_reading_seconds": 3.0,
+            "all_full_opacity_frames": 90,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B18-04": {
+            "planned_global_frames": [
+              7153,
+              7320
+            ],
+            "fully_drawn_frames_in_window": 167,
+            "rendered_reading_seconds": 5.567,
+            "planned_reading_seconds": 5.567,
+            "all_full_opacity_frames": 167,
+            "min_caption_glyph_bbox_height_at_390px": 11.93
+          }
+        },
+        "scope": "actual caption visibility/full opacity; not subjective reading speed"
+      },
+      "b17_separate_t2_layers": {
+        "passed": true,
+        "checks": {
+          "etf only displayed after relevant real close": true,
+          "etf valid T2 labels every full-read frame": true,
+          "etf complete out-fade before following cue": true,
+          "turnover only displayed after relevant real close": true,
+          "turnover valid T2 labels every full-read frame": true,
+          "turnover complete out-fade before following cue": true,
+          "market structures do not overlap visually": true,
+          "shows Sep28 market rebound after ETF and before turnover": true,
+          "shows Sep29 actual pullback after turnover": true,
+          "metric overlays omit chart-to-event link geometry": true
+        },
+        "windows": {
+          "etf": {
+            "first_visible_frame": 6187,
+            "last_visible_frame": 6341,
+            "preexisting_market_close_frame": 6174,
+            "stable_read_frame_interval": [
+              6193,
+              6337
+            ],
+            "stable_reading_seconds": 4.8,
+            "exit_frame_interval": [
+              6337,
+              6343
+            ],
+            "exit_alpha_samples": [
+              1.0,
+              0.896,
+              0.648,
+              0.352,
+              0.104,
+              0.0
+            ]
+          },
+          "turnover": {
+            "first_visible_frame": 6442,
+            "last_visible_frame": 6566,
+            "preexisting_market_close_frame": 6441,
+            "stable_read_frame_interval": [
+              6448,
+              6562
+            ],
+            "stable_reading_seconds": 3.8,
+            "exit_frame_interval": [
+              6562,
+              6568
+            ],
+            "exit_alpha_samples": [
+              1.0,
+              0.896,
+              0.648,
+              0.352,
+              0.104,
+              0.0
+            ]
+          }
+        }
+      },
+      "november_settlement": {
+        "passed": true,
+        "final_close": 2897.57,
+        "interval_label_observed": true
+      },
+      "caption_chart_issues": []
+    }
+  },
+  "pmi": {
+    "passed": true,
+    "tested_fully_visible_stills": [
+      {
+        "frame": 4440,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/result/B13-PMI/B13-f4440.png",
+        "sha256": "f910d6acce19b51295d84589eb41d00c024345b35fc9eca5cf3fd451901d1455",
+        "size": [
+          1080,
+          1920
+        ],
+        "actual_text": [
+          "2015.08.21 · 当日回顾",
+          "财新8月制造业PMI初值",
+          "47.1",
+          "09:30",
+          "A股开盘",
+          "09:43:10",
+          "财新网页刊发"
+        ],
+        "charted_market_date": "2015-08-21",
+        "first_release_time": null,
+        "passed": true
+      },
+      {
+        "frame": 4517,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-r1/result/B13-PMI/B13-f4517.png",
+        "sha256": "a61b292d2ca38e03824b1dcb45324595900f171f5c40b474fc6943cad943c923",
+        "size": [
+          1080,
+          1920
+        ],
+        "actual_text": [
+          "2015.08.21 · 当日回顾",
+          "财新8月制造业PMI初值",
+          "47.1",
+          "09:30",
+          "A股开盘",
+          "09:43:10",
+          "财新网页刊发"
+        ],
+        "charted_market_date": "2015-08-21",
+        "first_release_time": null,
+        "passed": true
+      }
+    ],
+    "diagnostics_sha256": "698a6f93da7fddf5b194c08131c4f420be047a6a05cbc5b6a5ce30b9ff690993",
+    "phone_bbox_summary": {
+      "passed": true,
+      "out_of_frame_boxes": [],
+      "roles": {
+        "footer": {
+          "min_px": 5.42,
+          "max_px": 5.78,
+          "boxes": 4
+        },
+        "milestone": {
+          "min_px": 6.14,
+          "max_px": 6.14,
+          "boxes": 2
+        },
+        "pmi_label": {
+          "min_px": 15.18,
+          "max_px": 15.18,
+          "boxes": 2
+        },
+        "pmi_value": {
+          "min_px": 18.8,
+          "max_px": 18.8,
+          "boxes": 2
+        },
+        "rail": {
+          "min_px": 7.95,
+          "max_px": 12.29,
+          "boxes": 4
+        },
+        "status": {
+          "min_px": 5.78,
+          "max_px": 7.95,
+          "boxes": 6
+        },
+        "timeline": {
+          "min_px": 6.87,
+          "max_px": 9.76,
+          "boxes": 6
+        },
+        "timeline_date": {
+          "min_px": 11.93,
+          "max_px": 11.93,
+          "boxes": 2
+        },
+        "timeline_node_label": {
+          "min_px": 11.57,
+          "max_px": 11.57,
+          "boxes": 4
+        },
+        "timeline_time": {
+          "min_px": 10.48,
+          "max_px": 10.48,
+          "boxes": 4
+        },
+        "title": {
+          "min_px": 6.87,
+          "max_px": 18.43,
+          "boxes": 8
+        }
+      },
+      "scope": "rendered target boxes scaled to phone; reading experience needs playback/visual observation"
+    },
+    "video_encoded": false
+  },
+  "B08-B10_recheck": "outside this R1 render; use pinned previously verified bytes",
+  "subjective_mobile_readability_validated_by_this_script": false
+}

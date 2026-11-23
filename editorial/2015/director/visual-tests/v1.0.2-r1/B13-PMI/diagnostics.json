@@ -1,0 +1,904 @@
+{
+  "frame_count": 2,
+  "frames": [
+    {
+      "path": "B13-f4440.png",
+      "frame": 4440,
+      "time_seconds": 148.0,
+      "beat_id": "B13",
+      "shot_id": "V102-B13-02",
+      "segment": "main_through_november",
+      "market_date": "2015-08-21",
+      "market_close": 2341.95,
+      "market_index": 1269,
+      "playhead_index": 1269.0,
+      "last_eligible_candle_index": 1269,
+      "no_future_candles": true,
+      "active_track_count": 1,
+      "stage_mode": "single_drawdown",
+      "stage_value": -0.41190281875823975,
+      "stage_base_date": "2015-06-03",
+      "stage_base_close": 3982.25,
+      "stage_progress": 0.6865046979303996,
+      "projection": {
+        "window_start": 1217.8,
+        "window_span": 64.0,
+        "y_min": 1300.0,
+        "y_max": 4550.0
+      },
+      "chart_top_logical": 345,
+      "chart_alpha": 0.62,
+      "primary_focus": "L6_MACRO_GLOBAL",
+      "visual_mode": "M3_EVENT_TAKEOVER",
+      "text_boxes": [
+        {
+          "id": "timeline_year_2013",
+          "bbox": [
+            223.72484599589322,
+            1367.325499346649,
+            278.72484599589325,
+            1386.325499346649
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "timeline_year_2014",
+          "bbox": [
+            515.6498973305954,
+            1298.1209258913573,
+            570.6498973305954,
+            1317.1209258913573
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "timeline_year_2015",
+          "bbox": [
+            795.5749486652978,
+            1257.9959118909844,
+            873.5749486652978,
+            1284.9959118909844
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "title_en",
+          "bbox": [
+            105,
+            82,
+            300,
+            106
+          ],
+          "role": "title",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "title_cn",
+          "bbox": [
+            106.5,
+            136.5,
+            310.5,
+            187.5
+          ],
+          "role": "title",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "index_code",
+          "bbox": [
+            324.0,
+            154.5,
+            452.0,
+            187.5
+          ],
+          "role": "title",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "subtitle",
+          "bbox": [
+            108.0,
+            215.0,
+            306.0,
+            234.0
+          ],
+          "role": "title",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "current_date",
+          "bbox": [
+            897.0,
+            277.5,
+            1002.0,
+            293.5
+          ],
+          "role": "status",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "current_close",
+          "bbox": [
+            910.0,
+            315.0,
+            1002.0,
+            337.0
+          ],
+          "role": "status",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "current_close_label",
+          "bbox": [
+            938.0,
+            356.5,
+            1002.0,
+            374.5
+          ],
+          "role": "status",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "stage_label",
+          "bbox": [
+            99.0,
+            1676.5,
+            319.0,
+            1698.5
+          ],
+          "role": "rail",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "stage_value",
+          "bbox": [
+            819.0,
+            1662.5,
+            984.0,
+            1696.5
+          ],
+          "role": "rail",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "completed_milestone",
+          "bbox": [
+            99.0,
+            1747.0,
+            346.0,
+            1764.0
+          ],
+          "role": "milestone",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "data_basis",
+          "bbox": [
+            420.0,
+            1804.5,
+            660.0,
+            1820.5
+          ],
+          "role": "footer",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "data_source",
+          "bbox": [
+            410.0,
+            1837.5,
+            669.0,
+            1852.5
+          ],
+          "role": "footer",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_0",
+          "bbox": [
+            103.5,
+            249.0,
+            433.5,
+            282.0
+          ],
+          "role": "timeline_date",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_1",
+          "bbox": [
+            103.5,
+            315.0,
+            541.5,
+            357.0
+          ],
+          "role": "pmi_label",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_2",
+          "bbox": [
+            643.5,
+            298.5,
+            788.5,
+            350.5
+          ],
+          "role": "pmi_value",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_3",
+          "bbox": [
+            123.0,
+            418.5,
+            228.0,
+            447.5
+          ],
+          "role": "timeline_time",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_4",
+          "bbox": [
+            123.0,
+            471.0,
+            238.0,
+            503.0
+          ],
+          "role": "timeline_node_label",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_5",
+          "bbox": [
+            577.5,
+            418.5,
+            740.5,
+            447.5
+          ],
+          "role": "timeline_time",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_6",
+          "bbox": [
+            577.5,
+            471.0,
+            769.5,
+            503.0
+          ],
+          "role": "timeline_node_label",
+          "overlaps_allowed": false
+        }
+      ],
+      "layout_errors": [],
+      "overlay": {
+        "visual_variant": "pmi_dual_timeline",
+        "presentation": "pmi_dual_timeline",
+        "mode": "M3_EVENT_TAKEOVER",
+        "primary_focus": "L6_MACRO_GLOBAL",
+        "caption_alpha": 1.0,
+        "text_visible": true,
+        "caption_lines": [
+          "2015.08.21 · 当日回顾",
+          "财新8月制造业PMI初值",
+          "47.1",
+          "09:30",
+          "A股开盘",
+          "09:43:10",
+          "财新网页刊发"
+        ],
+        "caption_boxes": [
+          {
+            "id": "v102_caption_0",
+            "bbox": [
+              103.5,
+              249.0,
+              433.5,
+              282.0
+            ],
+            "role": "timeline_date",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_1",
+            "bbox": [
+              103.5,
+              315.0,
+              541.5,
+              357.0
+            ],
+            "role": "pmi_label",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_2",
+            "bbox": [
+              643.5,
+              298.5,
+              788.5,
+              350.5
+            ],
+            "role": "pmi_value",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_3",
+            "bbox": [
+              123.0,
+              418.5,
+              228.0,
+              447.5
+            ],
+            "role": "timeline_time",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_4",
+            "bbox": [
+              123.0,
+              471.0,
+              238.0,
+              503.0
+            ],
+            "role": "timeline_node_label",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_5",
+            "bbox": [
+              577.5,
+              418.5,
+              740.5,
+              447.5
+            ],
+            "role": "timeline_time",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_6",
+            "bbox": [
+              577.5,
+              471.0,
+              769.5,
+              503.0
+            ],
+            "role": "timeline_node_label",
+            "overlaps_allowed": false
+          }
+        ],
+        "text_roles": [
+          {
+            "id": "v102_caption_0",
+            "role": "timeline_date",
+            "size_logical": 22,
+            "phone_size_px": 11.92,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_1",
+            "role": "pmi_label",
+            "size_logical": 28,
+            "phone_size_px": 15.17,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_2",
+            "role": "pmi_value",
+            "size_logical": 46,
+            "phone_size_px": 24.92,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_3",
+            "role": "timeline_time",
+            "size_logical": 26,
+            "phone_size_px": 14.08,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_4",
+            "role": "timeline_node_label",
+            "size_logical": 21,
+            "phone_size_px": 11.38,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_5",
+            "role": "timeline_time",
+            "size_logical": 26,
+            "phone_size_px": 14.08,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_6",
+            "role": "timeline_node_label",
+            "size_logical": 21,
+            "phone_size_px": 11.38,
+            "alpha": 1.0
+          }
+        ],
+        "policy_sequence": null,
+        "timeline_points": [
+          {
+            "date": "2015-08-21",
+            "time": "09:30",
+            "role": "market_open",
+            "label": "A股开盘"
+          },
+          {
+            "date": "2015-08-21",
+            "time": "09:43:10",
+            "role": "publisher_webpage_timestamp",
+            "label": "财新网页刊发"
+          }
+        ],
+        "market_structure": null,
+        "geometry": {},
+        "asset_photo_visible": false,
+        "intro_reveal": null,
+        "orbit": null
+      },
+      "hook_camera": null,
+      "hud": {
+        "market_date_visible": true,
+        "close_visible": true,
+        "close_text": "2,341.95",
+        "treatment": "market_close"
+      }
+    },
+    {
+      "path": "B13-f4517.png",
+      "frame": 4517,
+      "time_seconds": 150.56666666666666,
+      "beat_id": "B13",
+      "shot_id": "V102-B13-02",
+      "segment": "main_through_november",
+      "market_date": "2015-08-21",
+      "market_close": 2341.95,
+      "market_index": 1269,
+      "playhead_index": 1269.0,
+      "last_eligible_candle_index": 1269,
+      "no_future_candles": true,
+      "active_track_count": 1,
+      "stage_mode": "single_drawdown",
+      "stage_value": -0.41190281875823975,
+      "stage_base_date": "2015-06-03",
+      "stage_base_close": 3982.25,
+      "stage_progress": 0.6865046979303996,
+      "projection": {
+        "window_start": 1217.8,
+        "window_span": 64.0,
+        "y_min": 1300.0,
+        "y_max": 4550.0
+      },
+      "chart_top_logical": 345,
+      "chart_alpha": 0.62,
+      "primary_focus": "L6_MACRO_GLOBAL",
+      "visual_mode": "M3_EVENT_TAKEOVER",
+      "text_boxes": [
+        {
+          "id": "timeline_year_2013",
+          "bbox": [
+            223.72484599589322,
+            1367.325499346649,
+            278.72484599589325,
+            1386.325499346649
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "timeline_year_2014",
+          "bbox": [
+            515.6498973305954,
+            1298.1209258913573,
+            570.6498973305954,
+            1317.1209258913573
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "timeline_year_2015",
+          "bbox": [
+            795.5749486652978,
+            1257.9959118909844,
+            873.5749486652978,
+            1284.9959118909844
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "title_en",
+          "bbox": [
+            105,
+            82,
+            300,
+            106
+          ],
+          "role": "title",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "title_cn",
+          "bbox": [
+            106.5,
+            136.5,
+            310.5,
+            187.5
+          ],
+          "role": "title",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "index_code",
+          "bbox": [
+            324.0,
+            154.5,
+            452.0,
+            187.5
+          ],
+          "role": "title",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "subtitle",
+          "bbox": [
+            108.0,
+            215.0,
+            306.0,
+            234.0
+          ],
+          "role": "title",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "current_date",
+          "bbox": [
+            897.0,
+            277.5,
+            1002.0,
+            293.5
+          ],
+          "role": "status",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "current_close",
+          "bbox": [
+            910.0,
+            315.0,
+            1002.0,
+            337.0
+          ],
+          "role": "status",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "current_close_label",
+          "bbox": [
+            938.0,
+            356.5,
+            1002.0,
+            374.5
+          ],
+          "role": "status",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "stage_label",
+          "bbox": [
+            99.0,
+            1676.5,
+            319.0,
+            1698.5
+          ],
+          "role": "rail",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "stage_value",
+          "bbox": [
+            819.0,
+            1662.5,
+            984.0,
+            1696.5
+          ],
+          "role": "rail",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "completed_milestone",
+          "bbox": [
+            99.0,
+            1747.0,
+            346.0,
+            1764.0
+          ],
+          "role": "milestone",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "data_basis",
+          "bbox": [
+            420.0,
+            1804.5,
+            660.0,
+            1820.5
+          ],
+          "role": "footer",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "data_source",
+          "bbox": [
+            410.0,
+            1837.5,
+            669.0,
+            1852.5
+          ],
+          "role": "footer",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_0",
+          "bbox": [
+            103.5,
+            249.0,
+            433.5,
+            282.0
+          ],
+          "role": "timeline_date",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_1",
+          "bbox": [
+            103.5,
+            315.0,
+            541.5,
+            357.0
+          ],
+          "role": "pmi_label",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_2",
+          "bbox": [
+            643.5,
+            298.5,
+            788.5,
+            350.5
+          ],
+          "role": "pmi_value",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_3",
+          "bbox": [
+            123.0,
+            418.5,
+            228.0,
+            447.5
+          ],
+          "role": "timeline_time",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_4",
+          "bbox": [
+            123.0,
+            471.0,
+            238.0,
+            503.0
+          ],
+          "role": "timeline_node_label",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_5",
+          "bbox": [
+            577.5,
+            418.5,
+            740.5,
+            447.5
+          ],
+          "role": "timeline_time",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "v102_caption_6",
+          "bbox": [
+            577.5,
+            471.0,
+            769.5,
+            503.0
+          ],
+          "role": "timeline_node_label",
+          "overlaps_allowed": false
+        }
+      ],
+      "layout_errors": [],
+      "overlay": {
+        "visual_variant": "pmi_dual_timeline",
+        "presentation": "pmi_dual_timeline",
+        "mode": "M3_EVENT_TAKEOVER",
+        "primary_focus": "L6_MACRO_GLOBAL",
+        "caption_alpha": 1.0,
+        "text_visible": true,
+        "caption_lines": [
+          "2015.08.21 · 当日回顾",
+          "财新8月制造业PMI初值",
+          "47.1",
+          "09:30",
+          "A股开盘",
+          "09:43:10",
+          "财新网页刊发"
+        ],
+        "caption_boxes": [
+          {
+            "id": "v102_caption_0",
+            "bbox": [
+              103.5,
+              249.0,
+              433.5,
+              282.0
+            ],
+            "role": "timeline_date",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_1",
+            "bbox": [
+              103.5,
+              315.0,
+              541.5,
+              357.0
+            ],
+            "role": "pmi_label",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_2",
+            "bbox": [
+              643.5,
+              298.5,
+              788.5,
+              350.5
+            ],
+            "role": "pmi_value",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_3",
+            "bbox": [
+              123.0,
+              418.5,
+              228.0,
+              447.5
+            ],
+            "role": "timeline_time",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_4",
+            "bbox": [
+              123.0,
+              471.0,
+              238.0,
+              503.0
+            ],
+            "role": "timeline_node_label",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_5",
+            "bbox": [
+              577.5,
+              418.5,
+              740.5,
+              447.5
+            ],
+            "role": "timeline_time",
+            "overlaps_allowed": false
+          },
+          {
+            "id": "v102_caption_6",
+            "bbox": [
+              577.5,
+              471.0,
+              769.5,
+              503.0
+            ],
+            "role": "timeline_node_label",
+            "overlaps_allowed": false
+          }
+        ],
+        "text_roles": [
+          {
+            "id": "v102_caption_0",
+            "role": "timeline_date",
+            "size_logical": 22,
+            "phone_size_px": 11.92,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_1",
+            "role": "pmi_label",
+            "size_logical": 28,
+            "phone_size_px": 15.17,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_2",
+            "role": "pmi_value",
+            "size_logical": 46,
+            "phone_size_px": 24.92,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_3",
+            "role": "timeline_time",
+            "size_logical": 26,
+            "phone_size_px": 14.08,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_4",
+            "role": "timeline_node_label",
+            "size_logical": 21,
+            "phone_size_px": 11.38,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_5",
+            "role": "timeline_time",
+            "size_logical": 26,
+            "phone_size_px": 14.08,
+            "alpha": 1.0
+          },
+          {
+            "id": "v102_caption_6",
+            "role": "timeline_node_label",
+            "size_logical": 21,
+            "phone_size_px": 11.38,
+            "alpha": 1.0
+          }
+        ],
+        "policy_sequence": null,
+        "timeline_points": [
+          {
+            "date": "2015-08-21",
+            "time": "09:30",
+            "role": "market_open",
+            "label": "A股开盘"
+          },
+          {
+            "date": "2015-08-21",
+            "time": "09:43:10",
+            "role": "publisher_webpage_timestamp",
+            "label": "财新网页刊发"
+          }
+        ],
+        "market_structure": null,
+        "geometry": {},
+        "asset_photo_visible": false,
+        "intro_reveal": null,
+        "orbit": null
+      },
+      "hook_camera": null,
+      "hud": {
+        "market_date_visible": true,
+        "close_visible": true,
+        "close_text": "2,341.95",
+        "treatment": "market_close"
+      }
+    }
+  ],
+  "passed": true
+}

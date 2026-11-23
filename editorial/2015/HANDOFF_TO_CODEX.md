@@ -1,29 +1,22 @@
-# HANDOFF TO CODEX｜V1.0.2 Representative Visual Tests
+# HANDOFF TO CODEX｜V1.0.2 R1 代表块审阅
 
-V1.0.2配置编译与五类结构门禁已通过，审阅回执：5e211d52afe376ff393a050493c4a1e780e780d9。
+状态快照为 2026-11-23（北京时间）。媒体技术检查通过。已检查实际解码画面，观察项见回执。待 GPT 与用户审片。R1 候选预算 244 秒，完整连续片待批准。
 
-## 必须先读
-- editorial/2015/director/compiled/v1.0.2/README.md
-- editorial/2015/director/compiled/v1.0.2/director_candidate.json
-- editorial/2015/director/GPT_VISUAL_DECISIONS_V1.0.2.md
+[R1 审阅回执与下载](director/visual-tests/v1.0.2-r1/README.md) · [首轮代表块回执](https://github.com/chengxx707/chinext-index-story/blob/b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb/editorial/2015/director/visual-tests/v1.0.2/README.md) · [首轮任务书](https://github.com/chengxx707/chinext-index-story/blob/b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb/editorial/2015/HANDOFF_TO_CODEX.md)
 
-## GPT已裁定
-1. B13同时显示09:30 A股开盘与09:43:10财新网页刊发；绝不称09:43:10为首次发布时刻。
-2. B17启用ETF份额变化和沪深两市成交额两项T2信息，拆成两个独立Cue，不能同屏；ETF数据标观察区间和报道日期，成交额必须在9/28收盘后出现。
-3. 批准三段代表块短片/静帧测试：B01–B02 [0,540)、B08–B10 [2280,3600)、B16–B18 [5520,7200)。
+## 本轮执行状态
 
-## 当前任务：DIRECTOR-V1.0.2-REPRESENTATIVE-VISUAL-TEST
+| 范围 | 本轮状态 |
+| --- | --- |
+| B01–B02 片头与四月正序 | 已重新编码并完成技术检查 |
+| B08–B10 政策与反弹 | 已复用首轮产物并核对 SHA-256 |
+| B13 PMI 静帧 | 已重新生成静帧并完成技术检查 |
+| B16–B18 低点、T2 接力与修复结算 | 已重新编码并完成技术检查 |
 
-1. 在独立候选配置中落实上述语义和Cue接力，不覆盖既有编译回执。
-2. 输出三段真实编码短片、关键帧联系表和390px手机观看版。
-3. B13单独检查09:30/09:43:10时间轴；B17单独检查ETF信息、9/28成交额及两者退场过渡。
-4. 检查画面真实构图、遮挡、K线连续性、相机速度/缩放、主视觉接管和阅读时间。
-5. 如B17 22秒预算不足，提出延长/压缩方案；不可牺牲可读性。总时长预算非锁定。
-6. 输出审片回执及问题清单。
+第一张最新参考图：原件尚未收到。第二张白宫打底参考图：原件尚未收到。 原件证据与后续补验范围见回执。
 
-## 禁止事项
-- 不渲染完整240秒视频。
-- 不修改冻结OHLC、V1.0.1、正式427秒主表或原始素材。
-- 不把T2升级为T1，不添加因果箭头。
-- 不自行改变GPT已裁定的事实措辞。
-- 仅在editorial分支提交。
+## 审阅交接
+
+1. 查阅 R1 回执中的实际产物、技术检查、画面观察及出处。
+2. 由 GPT 与用户集中评审片头镜头、B17 两条 T2 信息的阅读接力及结尾结算。
+3. 完整连续片的时长和渲染待单独审批。冻结 OHLC、V1.0.1、正式 427 秒主表和原始素材继续保留。
