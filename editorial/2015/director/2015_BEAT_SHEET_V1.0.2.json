@@ -659,10 +659,6 @@
           "field": "close",
           "value": 1990.71,
           "role": "close_below_2000"
-        },
-        {
-          "date": "2015-08-25T18:15:34+08:00",
-          "role": "official_pbc_page_timestamp_after_close"
         }
       ],
       "event_clock": [

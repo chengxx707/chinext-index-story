@@ -118,36 +118,6 @@
         "https://m.21jingji.com/article/20150928/herald/1e750135def82134d36e9eda0366b679.html"
       ],
       "visual": "标注沪深两市成交额，不得写成创业板成交额。"
-    },
-    {
-      "event_id": "E-AUG-02-05",
-      "date": "2015-08-25",
-      "time": "18:15:34",
-      "timezone": "Asia/Shanghai",
-      "role": "official_pbc_webpage_timestamp",
-      "first_release_time": null,
-      "implementation_dates": [
-        {
-          "date": "2015-08-26",
-          "policy": "benchmark interest-rate cuts"
-        },
-        {
-          "date": "2015-09-06",
-          "policy": "reserve requirement ratio cuts"
-        }
-      ],
-      "market_anchor": {
-        "date": "2015-08-25",
-        "field": "close",
-        "value": 1990.71
-      },
-      "tier": "T1_OFFICIAL_POLICY",
-      "source_ids": [
-        "PBC-2015-0825",
-        "PBC-2015-0825-TEXT"
-      ],
-      "description": "央行8月25日公告页面显示18:15:34；降息8/26实施，降准9/6实施。该页面时间不等于已证实的全网首次发布时间。",
-      "visual": "8/25收盘冻结后政策接管；8/26显示降息实施，市场仍下跌5.06%；9/6仅作实施日历，不创建周末K线。"
     }
   ]
 }
