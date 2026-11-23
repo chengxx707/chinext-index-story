@@ -290,6 +290,40 @@
           "market_action": "freeze_after_2015-06-26_close_then_resume_2015-06-29",
           "display_rule": "PBOC announced targeted RRR and benchmark interest-rate cuts on 6/27; effective 6/28; no weekend candle."
         }
+      ],
+      "market_keyframes": [
+        {
+          "date": "2015-06-19",
+          "field": "close",
+          "value": 3314.98,
+          "role": "sequence_start"
+        },
+        {
+          "date": "2015-06-26",
+          "field": "close",
+          "value": 2920.7,
+          "role": "freeze_before_weekend_announcement"
+        },
+        {
+          "date": "2015-06-27",
+          "role": "weekend_announcement_no_market_candle"
+        },
+        {
+          "date": "2015-06-28",
+          "role": "policy_effective_date_no_market_candle"
+        },
+        {
+          "date": "2015-06-29",
+          "field": "close",
+          "value": 2689.76,
+          "role": "resume_first_real_trading_session"
+        },
+        {
+          "date": "2015-07-03",
+          "field": "close",
+          "value": 2605.28,
+          "role": "beat_exit_close"
+        }
       ]
     },
     {
@@ -600,7 +634,68 @@
       "market_motion": "reveal real 8/25 bar then freeze after close",
       "camera_motion": "price drops through 2000 threshold; after-close policy takes center",
       "audience_takeaway": "盘后公告不能放到盘中；政策实施日期不是未来行情。",
-      "transition_out": "next trading day proves market continues lower"
+      "transition_out": "next trading day proves market continues lower",
+      "market_keyframes": [
+        {
+          "date": "2015-08-24",
+          "field": "close",
+          "value": 2152.61,
+          "role": "previous_session_close"
+        },
+        {
+          "date": "2015-08-25",
+          "field": "open",
+          "value": 1996.04,
+          "role": "open_below_2000"
+        },
+        {
+          "date": "2015-08-25",
+          "field": "low",
+          "value": 1987.12,
+          "role": "intraday_low"
+        },
+        {
+          "date": "2015-08-25",
+          "field": "close",
+          "value": 1990.71,
+          "role": "close_below_2000"
+        },
+        {
+          "date": "2015-08-25T18:15:34+08:00",
+          "role": "official_pbc_page_timestamp_after_close"
+        }
+      ],
+      "event_clock": [
+        {
+          "event_id": "E-AUG-02-05",
+          "date": "2015-08-25",
+          "time": "18:15:34",
+          "timezone": "Asia/Shanghai",
+          "role": "official_pbc_webpage_timestamp",
+          "first_release_time": null,
+          "implementation_dates": [
+            {
+              "date": "2015-08-26",
+              "policy": "benchmark interest-rate cuts"
+            },
+            {
+              "date": "2015-09-06",
+              "policy": "reserve requirement ratio cuts"
+            }
+          ],
+          "market_anchor": {
+            "date": "2015-08-25",
+            "field": "close",
+            "value": 1990.71
+          },
+          "market_action": "freeze_after_2015-08-25_close_then_resume_2015-08-26",
+          "source_ids": [
+            "PBC-2015-0825",
+            "PBC-2015-0825-TEXT"
+          ],
+          "display_rule": "央行页面显示18:15:34；仅称页面时间，不称绝对最早传播时刻；降息8/26实施，降准9/6实施；不得将公告放到盘中或画成当日下跌原因。"
+        }
+      ]
     },
     {
       "id": "B15",
@@ -626,7 +721,21 @@
       "market_motion": "resume at 8/26 real session",
       "camera_motion": "hold on actual candle and daily −5.06%",
       "audience_takeaway": "政策实施当天创业板仍下跌；只呈现时间与价格事实。",
-      "transition_out": "widen to September search for low"
+      "transition_out": "widen to September search for low",
+      "event_clock": [
+        {
+          "event_id": "E-AUG-02-05",
+          "date": "2015-08-26",
+          "role": "implementation_date",
+          "implementation_of": "2015-08-25 PBOC announcement",
+          "market_anchor": {
+            "date": "2015-08-26",
+            "field": "close",
+            "value": 1890.04
+          },
+          "display_rule": "降息实施日；创业板当日仍下跌5.06%。降准另于9/6实施，不与本交易日合并。"
+        }
+      ]
     },
     {
       "id": "B16",
@@ -772,7 +881,54 @@
       "market_motion": "time-compress regular sessions but preserve major oscillations",
       "camera_motion": "gradually widen to full period path",
       "audience_takeaway": "9/15至11/25收盘反弹61.19%，是观察区间结果，不是对后市的判断。",
-      "transition_out": "handoff to subsequent 2015 chapter/full-film section"
+      "transition_out": "handoff to subsequent 2015 chapter/full-film section",
+      "market_keyframes": [
+        {
+          "date": "2015-09-29",
+          "field": "close",
+          "value": 2098.57,
+          "role": "sequence_start_after_9_29_pullback"
+        },
+        {
+          "date": "2015-09-30",
+          "field": "close",
+          "value": 2082.67,
+          "role": "last_session_before_national_day_holiday"
+        },
+        {
+          "date": "2015-10-08",
+          "field": "close",
+          "value": 2190.31,
+          "role": "post_holiday_rebound",
+          "daily_return_pct": 5.17,
+          "base_date": "2015-09-30",
+          "base_close": 2082.67
+        },
+        {
+          "date": "2015-10-09",
+          "field": "close",
+          "value": 2216.66,
+          "role": "previous_close_for_10_12_daily_return"
+        },
+        {
+          "date": "2015-10-12",
+          "field": "close",
+          "value": 2316.78,
+          "role": "rebound_checkpoint",
+          "daily_return_pct": 4.52,
+          "base_date": "2015-10-09",
+          "base_close": 2216.66
+        },
+        {
+          "date": "2015-11-25",
+          "field": "close",
+          "value": 2897.57,
+          "role": "chapter_recovery_endpoint",
+          "range_return_pct": 61.19,
+          "range_base_date": "2015-09-15",
+          "range_base_close": 1797.56
+        }
+      ]
     }
   ],
   "global_corrections": {
