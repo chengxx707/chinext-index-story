@@ -1,0 +1,57 @@
+{
+  "block": "B08-B10",
+  "frame_span": [
+    2280,
+    3600
+  ],
+  "duration_seconds": 44.0,
+  "editorial_commit": "16955b82ca0a2fbe63b2b168e5545fd701014c38",
+  "compiled_base_commit": "5e211d52afe376ff393a050493c4a1e780e780d9",
+  "clock_implementation_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+  "visual_candidate_sha256": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+  "target_frames": 1320,
+  "fps": 30,
+  "camera_joins_checked": 9,
+  "technical_passed": true,
+  "phone_playback_dropped_first": 2,
+  "phone_playback_dropped_control": 0,
+  "phone_playback_control_was_solo": true,
+  "artifacts": {
+    "target.mp4": {
+      "sha256": "fd16c04694228e7a29656298fd88d558c180388c6b850d8a5fbd7a9634bc8959",
+      "bytes": 1771382
+    },
+    "phone-390.mp4": {
+      "sha256": "713b9c0ff005f4a52fe6c72d6df5121bc2da5c3820d4cea23220e18b306b0ae1",
+      "bytes": 731622
+    },
+    "keyframe-contact.jpg": {
+      "sha256": "a99b4b445f6a3835fcefa4c47edaf71ed72a37950b0098aebc54a8dbb417c2a2",
+      "bytes": 362808
+    },
+    "contact_sources.json": {
+      "sha256": "aa28d8558a0f4ccfe32d1fc82770a8e6de8abcd44637fe482de82f1f40a7f6ad",
+      "bytes": 365
+    },
+    "diagnostics.json": {
+      "sha256": "2ebb891a5ec29a1eb72f4e7a8f94840f9b9b3114fd72b8d5875a3e082bd3493a",
+      "bytes": 10303188
+    },
+    "media_validation.json": {
+      "sha256": "cdefaadd8dcbddecd143890c3d41aa4a362d586379af6ed73a462995b3bc7e5d",
+      "bytes": 3326
+    },
+    "playback_observation.json": {
+      "sha256": "9fd3bf47b5c2464da8a619f97fecae0d0563eaab6140f34adb7541317e8d47ce",
+      "bytes": 2959
+    },
+    "review.md": {
+      "sha256": "4f392aa38c2a86483b3af12ec291a692875676b6733b0d08e66ba0f6e2ccb914",
+      "bytes": 1121
+    },
+    "solo-review/playback_observation.json": {
+      "sha256": "1ffe99926e34840a8f417c1d9f6eaac36f07eed305fcef03247b138ecd1598bc",
+      "bytes": 2843
+    }
+  }
+}

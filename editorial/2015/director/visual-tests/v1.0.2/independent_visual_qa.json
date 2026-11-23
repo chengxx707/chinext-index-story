@@ -1,0 +1,1903 @@
+{
+  "passed": true,
+  "scope": "independent ffprobe/full-decode checks and actual per-frame compositor diagnostics",
+  "authorized_global_ranges": {
+    "B01-B02": [
+      0,
+      540
+    ],
+    "B08-B10": [
+      2280,
+      3600
+    ],
+    "B16-B18": [
+      5520,
+      7200
+    ]
+  },
+  "candidate_sha256": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+  "frozen_ohlc_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "candidate": {
+    "passed": true,
+    "checks": {
+      "v102_global_timebase": true,
+      "exact_pmi_dual_timeline_semantics": true,
+      "etf_copy_units_period_and_attribution": true,
+      "whole_day_two_exchange_turnover_attribution": true,
+      "t2_layers_have_separate_time_windows": true,
+      "no_causal_links": true
+    },
+    "cues": {
+      "pmi": {
+        "shot_id": "V102-B13-02",
+        "start_frame": 4434,
+        "end_frame_exclusive": 4524,
+        "reading_window": [
+          4440,
+          4518
+        ],
+        "exit_window": [
+          4518,
+          4524
+        ],
+        "stable_reading_seconds": 2.6
+      },
+      "etf": {
+        "shot_id": "V102-B17-ETF",
+        "start_frame": 6127,
+        "end_frame_exclusive": 6277,
+        "reading_window": [
+          6145,
+          6271
+        ],
+        "exit_window": [
+          6271,
+          6277
+        ],
+        "stable_reading_seconds": 4.2
+      },
+      "turnover": {
+        "shot_id": "V102-B17-TURNOVER",
+        "start_frame": 6352,
+        "end_frame_exclusive": 6466,
+        "reading_window": [
+          6358,
+          6460
+        ],
+        "exit_window": [
+          6460,
+          6466
+        ],
+        "stable_reading_seconds": 3.4
+      }
+    }
+  },
+  "media": {
+    "B01-B02": {
+      "target": {
+        "passed": true,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-test/result/B01-B02/target.mp4",
+        "sha256": "88bcfed85a147d8c651facca2366510cd45f6bc30967fcff4547d4b1530c8afe",
+        "checks": {
+          "single_video_and_no_other_stream": true,
+          "dimensions": true,
+          "rate_and_average_rate": true,
+          "decoded_probe_frame_count": true,
+          "exact_stream_duration": true,
+          "container_duration": true,
+          "no_start_edit_offset": true,
+          "decode_without_error": true,
+          "independent_decode_frame_count": true,
+          "no_black_intervals_at_threshold": true,
+          "sha256_unchanged_while_checked": true
+        },
+        "metadata": {
+          "stream_types": [
+            "video"
+          ],
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 540,
+          "duration_seconds": 18.0,
+          "codec": "h264",
+          "time_base": "1/15360"
+        },
+        "black_filter": "blackdetect=d=0:pic_th=0.98:pix_th=0.02",
+        "black_intervals": [],
+        "decode_error": null
+      },
+      "phone": {
+        "passed": true,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-test/result/B01-B02/phone-390.mp4",
+        "sha256": "75484263de3d7f9da4aadc7cc5ce8695bb7a14d9b7a2920cd68997a96ec91d70",
+        "checks": {
+          "single_video_and_no_other_stream": true,
+          "dimensions": true,
+          "rate_and_average_rate": true,
+          "decoded_probe_frame_count": true,
+          "exact_stream_duration": true,
+          "container_duration": true,
+          "no_start_edit_offset": true,
+          "decode_without_error": true,
+          "independent_decode_frame_count": true,
+          "no_black_intervals_at_threshold": true,
+          "sha256_unchanged_while_checked": true
+        },
+        "metadata": {
+          "stream_types": [
+            "video"
+          ],
+          "width": 390,
+          "height": 694,
+          "fps": "30/1",
+          "frames": 540,
+          "duration_seconds": 18.0,
+          "codec": "h264",
+          "time_base": "1/15360"
+        },
+        "black_filter": "blackdetect=d=0:pic_th=0.98:pix_th=0.02",
+        "black_intervals": [],
+        "decode_error": null
+      }
+    },
+    "B08-B10": {
+      "target": {
+        "passed": true,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-test/result/B08-B10/target.mp4",
+        "sha256": "fd16c04694228e7a29656298fd88d558c180388c6b850d8a5fbd7a9634bc8959",
+        "checks": {
+          "single_video_and_no_other_stream": true,
+          "dimensions": true,
+          "rate_and_average_rate": true,
+          "decoded_probe_frame_count": true,
+          "exact_stream_duration": true,
+          "container_duration": true,
+          "no_start_edit_offset": true,
+          "decode_without_error": true,
+          "independent_decode_frame_count": true,
+          "no_black_intervals_at_threshold": true,
+          "sha256_unchanged_while_checked": true
+        },
+        "metadata": {
+          "stream_types": [
+            "video"
+          ],
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1320,
+          "duration_seconds": 44.0,
+          "codec": "h264",
+          "time_base": "1/15360"
+        },
+        "black_filter": "blackdetect=d=0:pic_th=0.98:pix_th=0.02",
+        "black_intervals": [],
+        "decode_error": null
+      },
+      "phone": {
+        "passed": true,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-test/result/B08-B10/phone-390.mp4",
+        "sha256": "713b9c0ff005f4a52fe6c72d6df5121bc2da5c3820d4cea23220e18b306b0ae1",
+        "checks": {
+          "single_video_and_no_other_stream": true,
+          "dimensions": true,
+          "rate_and_average_rate": true,
+          "decoded_probe_frame_count": true,
+          "exact_stream_duration": true,
+          "container_duration": true,
+          "no_start_edit_offset": true,
+          "decode_without_error": true,
+          "independent_decode_frame_count": true,
+          "no_black_intervals_at_threshold": true,
+          "sha256_unchanged_while_checked": true
+        },
+        "metadata": {
+          "stream_types": [
+            "video"
+          ],
+          "width": 390,
+          "height": 694,
+          "fps": "30/1",
+          "frames": 1320,
+          "duration_seconds": 44.0,
+          "codec": "h264",
+          "time_base": "1/15360"
+        },
+        "black_filter": "blackdetect=d=0:pic_th=0.98:pix_th=0.02",
+        "black_intervals": [],
+        "decode_error": null
+      }
+    },
+    "B16-B18": {
+      "target": {
+        "passed": true,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-test/result/B16-B18/target.mp4",
+        "sha256": "b547bc654d47d0f0fc6e573ebc74172af4cc16aa45485489b3ecf18c7962c169",
+        "checks": {
+          "single_video_and_no_other_stream": true,
+          "dimensions": true,
+          "rate_and_average_rate": true,
+          "decoded_probe_frame_count": true,
+          "exact_stream_duration": true,
+          "container_duration": true,
+          "no_start_edit_offset": true,
+          "decode_without_error": true,
+          "independent_decode_frame_count": true,
+          "no_black_intervals_at_threshold": true,
+          "sha256_unchanged_while_checked": true
+        },
+        "metadata": {
+          "stream_types": [
+            "video"
+          ],
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1680,
+          "duration_seconds": 56.0,
+          "codec": "h264",
+          "time_base": "1/15360"
+        },
+        "black_filter": "blackdetect=d=0:pic_th=0.98:pix_th=0.02",
+        "black_intervals": [],
+        "decode_error": null
+      },
+      "phone": {
+        "passed": true,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-test/result/B16-B18/phone-390.mp4",
+        "sha256": "6846262ca3f6f6b9f2aa5686d602164f1d98f453567654346544de5765324607",
+        "checks": {
+          "single_video_and_no_other_stream": true,
+          "dimensions": true,
+          "rate_and_average_rate": true,
+          "decoded_probe_frame_count": true,
+          "exact_stream_duration": true,
+          "container_duration": true,
+          "no_start_edit_offset": true,
+          "decode_without_error": true,
+          "independent_decode_frame_count": true,
+          "no_black_intervals_at_threshold": true,
+          "sha256_unchanged_while_checked": true
+        },
+        "metadata": {
+          "stream_types": [
+            "video"
+          ],
+          "width": 390,
+          "height": 694,
+          "fps": "30/1",
+          "frames": 1680,
+          "duration_seconds": 56.0,
+          "codec": "h264",
+          "time_base": "1/15360"
+        },
+        "black_filter": "blackdetect=d=0:pic_th=0.98:pix_th=0.02",
+        "black_intervals": [],
+        "decode_error": null
+      }
+    }
+  },
+  "blocks": {
+    "B01-B02": {
+      "passed": true,
+      "diagnostics_sha256": "6944d83be836af1ef3d1eb1e627f68eb1010ef2a657445463e42fb13dab33812",
+      "checks": {
+        "claim_matches_authorized_range": true,
+        "diagnostics_link_to_actual_target_sha": true,
+        "diagnostics_report_no_layout_errors": true,
+        "source_rgba_frames_match_target_dimensions": true,
+        "caption_band_does_not_cover_chart": true
+      },
+      "clock_focus_and_rail": {
+        "passed": true,
+        "failures": [],
+        "failure_count": 0,
+        "first_date": "2015-06-03",
+        "last_date": "2015-04-10",
+        "trading_days_observed": [
+          "2015-06-03",
+          "2015-04-01",
+          "2015-04-02",
+          "2015-04-03",
+          "2015-04-07",
+          "2015-04-08",
+          "2015-04-09",
+          "2015-04-10"
+        ],
+        "computed_without_trusting_pct_chg": true
+      },
+      "camera": {
+        "passed": true,
+        "joins": [
+          {
+            "frame": 240,
+            "from": "V102-B01-01",
+            "to": "V102-B02-01",
+            "explicit_flash_return": true,
+            "camera_delta": {
+              "window_start": -54.2,
+              "window_span": 14.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 330,
+            "from": "V102-B02-01",
+            "to": "V102-B02-02",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0111606736
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          }
+        ],
+        "continuity_scope": "exact sampled projection seam and finite-difference velocity evidence"
+      },
+      "phone_bbox_summary": {
+        "passed": true,
+        "out_of_frame_boxes": [],
+        "roles": {
+          "flash_forward": {
+            "min_px": 11.93,
+            "max_px": 11.93,
+            "boxes": 240
+          },
+          "footer": {
+            "min_px": 5.42,
+            "max_px": 5.78,
+            "boxes": 1080
+          },
+          "key_point_qualifier": {
+            "min_px": 11.93,
+            "max_px": 11.93,
+            "boxes": 240
+          },
+          "market_context": {
+            "min_px": 16.63,
+            "max_px": 21.69,
+            "boxes": 224
+          },
+          "market_key_point": {
+            "min_px": 33.62,
+            "max_px": 33.62,
+            "boxes": 240
+          },
+          "market_source": {
+            "min_px": 9.76,
+            "max_px": 9.76,
+            "boxes": 240
+          },
+          "rail": {
+            "min_px": 7.95,
+            "max_px": 12.29,
+            "boxes": 1080
+          },
+          "rewind_to": {
+            "min_px": 13.37,
+            "max_px": 13.37,
+            "boxes": 90
+          },
+          "status": {
+            "min_px": 5.78,
+            "max_px": 11.57,
+            "boxes": 1620
+          },
+          "timeline": {
+            "min_px": 6.87,
+            "max_px": 9.76,
+            "boxes": 1620
+          },
+          "title": {
+            "min_px": 6.87,
+            "max_px": 18.43,
+            "boxes": 2160
+          }
+        },
+        "scope": "rendered target boxes scaled to phone; reading experience needs playback/visual observation"
+      },
+      "caption_reading": {
+        "passed": true,
+        "failures": [],
+        "cue_reading": {
+          "V102-B01-01": {
+            "planned_global_frames": [
+              6,
+              240
+            ],
+            "fully_drawn_frames_in_window": 234,
+            "rendered_reading_seconds": 7.8,
+            "planned_reading_seconds": 7.8,
+            "all_full_opacity_frames": 234,
+            "min_caption_glyph_bbox_height_at_390px": 9.76
+          },
+          "V102-B02-01": {
+            "planned_global_frames": [
+              246,
+              330
+            ],
+            "fully_drawn_frames_in_window": 84,
+            "rendered_reading_seconds": 2.8,
+            "planned_reading_seconds": 2.8,
+            "all_full_opacity_frames": 84,
+            "min_caption_glyph_bbox_height_at_390px": 13.37
+          },
+          "V102-B02-02": {
+            "planned_global_frames": [
+              412,
+              540
+            ],
+            "fully_drawn_frames_in_window": 128,
+            "rendered_reading_seconds": 4.267,
+            "planned_reading_seconds": 4.267,
+            "all_full_opacity_frames": 128,
+            "min_caption_glyph_bbox_height_at_390px": 16.63
+          }
+        },
+        "scope": "actual caption visibility/full opacity; not subjective reading speed"
+      },
+      "caption_chart_issues": []
+    },
+    "B08-B10": {
+      "passed": true,
+      "diagnostics_sha256": "2ebb891a5ec29a1eb72f4e7a8f94840f9b9b3114fd72b8d5875a3e082bd3493a",
+      "checks": {
+        "claim_matches_authorized_range": true,
+        "diagnostics_link_to_actual_target_sha": true,
+        "diagnostics_report_no_layout_errors": true,
+        "source_rgba_frames_match_target_dimensions": true,
+        "caption_band_does_not_cover_chart": true
+      },
+      "clock_focus_and_rail": {
+        "passed": true,
+        "failures": [],
+        "failure_count": 0,
+        "first_date": "2015-06-19",
+        "last_date": "2015-07-23",
+        "trading_days_observed": [
+          "2015-06-19",
+          "2015-06-23",
+          "2015-06-24",
+          "2015-06-25",
+          "2015-06-26",
+          "2015-06-29",
+          "2015-06-30",
+          "2015-07-01",
+          "2015-07-02",
+          "2015-07-03",
+          "2015-07-06",
+          "2015-07-07",
+          "2015-07-08",
+          "2015-07-09",
+          "2015-07-10",
+          "2015-07-13",
+          "2015-07-14",
+          "2015-07-15",
+          "2015-07-16",
+          "2015-07-17",
+          "2015-07-20",
+          "2015-07-21",
+          "2015-07-22",
+          "2015-07-23"
+        ],
+        "computed_without_trusting_pct_chg": true
+      },
+      "camera": {
+        "passed": true,
+        "joins": [
+          {
+            "frame": 2430,
+            "from": "V102-B08-01",
+            "to": "V102-B08-02",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                -0.0737717309
+              ],
+              "window_span": [
+                0.0,
+                0.0922146636
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 2550,
+            "from": "V102-B08-02",
+            "to": "V102-B08-03",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 2640,
+            "from": "V102-B08-03",
+            "to": "V102-B08-04",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0226740902
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 2760,
+            "from": "V102-B08-04",
+            "to": "V102-B09-01",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 2910,
+            "from": "V102-B09-01",
+            "to": "V102-B09-02",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 3060,
+            "from": "V102-B09-02",
+            "to": "V102-B09-03",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 3240,
+            "from": "V102-B09-03",
+            "to": "V102-B10-01",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.001184
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 3300,
+            "from": "V102-B10-01",
+            "to": "V102-B10-02",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0766403833
+              ],
+              "window_span": [
+                0.0,
+                -0.0922146636
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 3390,
+            "from": "V102-B10-02",
+            "to": "V102-B10-03",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                -0.2318415522
+              ],
+              "window_span": [
+                0.0,
+                0.3556851312
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          }
+        ],
+        "continuity_scope": "exact sampled projection seam and finite-difference velocity evidence"
+      },
+      "phone_bbox_summary": {
+        "passed": true,
+        "out_of_frame_boxes": [],
+        "roles": {
+          "endpoint_date": {
+            "min_px": 6.87,
+            "max_px": 6.87,
+            "boxes": 352
+          },
+          "footer": {
+            "min_px": 5.42,
+            "max_px": 5.78,
+            "boxes": 2640
+          },
+          "key_point_qualifier": {
+            "min_px": 11.93,
+            "max_px": 11.93,
+            "boxes": 230
+          },
+          "market_basis": {
+            "min_px": 11.93,
+            "max_px": 13.01,
+            "boxes": 230
+          },
+          "market_context": {
+            "min_px": 16.63,
+            "max_px": 16.63,
+            "boxes": 135
+          },
+          "market_key_point": {
+            "min_px": 26.39,
+            "max_px": 33.62,
+            "boxes": 230
+          },
+          "milestone": {
+            "min_px": 6.14,
+            "max_px": 6.14,
+            "boxes": 1320
+          },
+          "policy_current_marker": {
+            "min_px": 10.12,
+            "max_px": 10.12,
+            "boxes": 480
+          },
+          "policy_date": {
+            "min_px": 11.93,
+            "max_px": 11.93,
+            "boxes": 690
+          },
+          "policy_primary": {
+            "min_px": 17.35,
+            "max_px": 18.43,
+            "boxes": 1020
+          },
+          "policy_retired": {
+            "min_px": 10.12,
+            "max_px": 10.12,
+            "boxes": 510
+          },
+          "policy_source": {
+            "min_px": 9.76,
+            "max_px": 9.76,
+            "boxes": 690
+          },
+          "rail": {
+            "min_px": 7.95,
+            "max_px": 12.29,
+            "boxes": 2640
+          },
+          "status": {
+            "min_px": 5.78,
+            "max_px": 11.57,
+            "boxes": 3960
+          },
+          "timeline": {
+            "min_px": 6.87,
+            "max_px": 9.76,
+            "boxes": 3960
+          },
+          "title": {
+            "min_px": 6.87,
+            "max_px": 18.43,
+            "boxes": 5280
+          }
+        },
+        "scope": "rendered target boxes scaled to phone; reading experience needs playback/visual observation"
+      },
+      "caption_reading": {
+        "passed": true,
+        "failures": [],
+        "cue_reading": {
+          "V102-B08-01": {
+            "planned_global_frames": [
+              2340,
+              2430
+            ],
+            "fully_drawn_frames_in_window": 90,
+            "rendered_reading_seconds": 3.0,
+            "planned_reading_seconds": 3.0,
+            "all_full_opacity_frames": 90,
+            "min_caption_glyph_bbox_height_at_390px": 11.93
+          },
+          "V102-B08-02": {
+            "planned_global_frames": [
+              2436,
+              2550
+            ],
+            "fully_drawn_frames_in_window": 114,
+            "rendered_reading_seconds": 3.8,
+            "planned_reading_seconds": 3.8,
+            "all_full_opacity_frames": 114,
+            "min_caption_glyph_bbox_height_at_390px": 9.76
+          },
+          "V102-B08-03": {
+            "planned_global_frames": [
+              2556,
+              2640
+            ],
+            "fully_drawn_frames_in_window": 84,
+            "rendered_reading_seconds": 2.8,
+            "planned_reading_seconds": 2.8,
+            "all_full_opacity_frames": 84,
+            "min_caption_glyph_bbox_height_at_390px": 9.76
+          },
+          "V102-B08-04": {
+            "planned_global_frames": [
+              2689,
+              2760
+            ],
+            "fully_drawn_frames_in_window": 71,
+            "rendered_reading_seconds": 2.367,
+            "planned_reading_seconds": 2.367,
+            "all_full_opacity_frames": 71,
+            "min_caption_glyph_bbox_height_at_390px": 16.63
+          },
+          "V102-B09-01": {
+            "planned_global_frames": [
+              2766,
+              2910
+            ],
+            "fully_drawn_frames_in_window": 144,
+            "rendered_reading_seconds": 4.8,
+            "planned_reading_seconds": 4.8,
+            "all_full_opacity_frames": 144,
+            "min_caption_glyph_bbox_height_at_390px": 9.76
+          },
+          "V102-B09-02": {
+            "planned_global_frames": [
+              2916,
+              3060
+            ],
+            "fully_drawn_frames_in_window": 144,
+            "rendered_reading_seconds": 4.8,
+            "planned_reading_seconds": 4.8,
+            "all_full_opacity_frames": 144,
+            "min_caption_glyph_bbox_height_at_390px": 9.76
+          },
+          "V102-B09-03": {
+            "planned_global_frames": [
+              3066,
+              3240
+            ],
+            "fully_drawn_frames_in_window": 174,
+            "rendered_reading_seconds": 5.8,
+            "planned_reading_seconds": 5.8,
+            "all_full_opacity_frames": 174,
+            "min_caption_glyph_bbox_height_at_390px": 9.76
+          },
+          "V102-B10-02": {
+            "planned_global_frames": [
+              3338,
+              3390
+            ],
+            "fully_drawn_frames_in_window": 52,
+            "rendered_reading_seconds": 1.733,
+            "planned_reading_seconds": 1.733,
+            "all_full_opacity_frames": 52,
+            "min_caption_glyph_bbox_height_at_390px": 16.63
+          },
+          "V102-B10-03": {
+            "planned_global_frames": [
+              3472,
+              3600
+            ],
+            "fully_drawn_frames_in_window": 128,
+            "rendered_reading_seconds": 4.267,
+            "planned_reading_seconds": 4.267,
+            "all_full_opacity_frames": 128,
+            "min_caption_glyph_bbox_height_at_390px": 11.93
+          }
+        },
+        "scope": "actual caption visibility/full opacity; not subjective reading speed"
+      },
+      "july_weekends_and_retracement": {
+        "passed": true,
+        "checks": {
+          "V102-B08-02 actual frozen event display": true,
+          "V102-B08-03 actual frozen event display": true,
+          "V102-B09-01 actual frozen event display": true,
+          "V102-B09-01 policy hierarchy": true,
+          "V102-B09-02 actual frozen event display": true,
+          "V102-B09-02 policy hierarchy": true,
+          "V102-B09-03 actual frozen event display": true,
+          "V102-B09-03 policy hierarchy": true,
+          "actual weekend resumption order": true,
+          "July rebound retracts active rail": true
+        },
+        "rail_fill_july_7_to_23": [
+          0.6822943478351853,
+          0.424508757611903
+        ]
+      },
+      "caption_chart_issues": []
+    },
+    "B16-B18": {
+      "passed": true,
+      "diagnostics_sha256": "644802308f4e232853f1bc84274267c1b0b1e57ccdeaff140958bc0cd73abaf9",
+      "checks": {
+        "claim_matches_authorized_range": true,
+        "diagnostics_link_to_actual_target_sha": true,
+        "diagnostics_report_no_layout_errors": true,
+        "source_rgba_frames_match_target_dimensions": true,
+        "caption_band_does_not_cover_chart": true
+      },
+      "clock_focus_and_rail": {
+        "passed": true,
+        "failures": [],
+        "failure_count": 0,
+        "first_date": "2015-08-26",
+        "last_date": "2015-11-25",
+        "trading_days_observed": [
+          "2015-08-26",
+          "2015-08-27",
+          "2015-08-28",
+          "2015-08-31",
+          "2015-09-01",
+          "2015-09-02",
+          "2015-09-07",
+          "2015-09-08",
+          "2015-09-09",
+          "2015-09-10",
+          "2015-09-11",
+          "2015-09-14",
+          "2015-09-15",
+          "2015-09-16",
+          "2015-09-17",
+          "2015-09-18",
+          "2015-09-21",
+          "2015-09-22",
+          "2015-09-23",
+          "2015-09-24",
+          "2015-09-25",
+          "2015-09-28",
+          "2015-09-29",
+          "2015-09-30",
+          "2015-10-08",
+          "2015-10-09",
+          "2015-10-12",
+          "2015-10-13",
+          "2015-10-14",
+          "2015-10-15",
+          "2015-10-16",
+          "2015-10-19",
+          "2015-10-20",
+          "2015-10-21",
+          "2015-10-22",
+          "2015-10-23",
+          "2015-10-26",
+          "2015-10-27",
+          "2015-10-28",
+          "2015-10-29",
+          "2015-10-30",
+          "2015-11-02",
+          "2015-11-03",
+          "2015-11-04",
+          "2015-11-05",
+          "2015-11-06",
+          "2015-11-09",
+          "2015-11-10",
+          "2015-11-11",
+          "2015-11-12",
+          "2015-11-13",
+          "2015-11-16",
+          "2015-11-17",
+          "2015-11-18",
+          "2015-11-19",
+          "2015-11-20",
+          "2015-11-23",
+          "2015-11-24",
+          "2015-11-25"
+        ],
+        "computed_without_trusting_pct_chg": true
+      },
+      "camera": {
+        "passed": true,
+        "joins": [
+          {
+            "frame": 5700,
+            "from": "V102-B16-01",
+            "to": "V102-B16-02",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                -0.2079568199
+              ],
+              "window_span": [
+                0.0,
+                0.2898175143
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 5880,
+            "from": "V102-B16-02",
+            "to": "V102-B17-01",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.7025661322
+              ],
+              "window_span": [
+                0.0,
+                -0.8657407407
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 5958,
+            "from": "V102-B17-01",
+            "to": "V102-B17-02",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.029296875
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6040,
+            "from": "V102-B17-02",
+            "to": "V102-B17-03",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0283854167
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6127,
+            "from": "V102-B17-03",
+            "to": "V102-B17-ETF",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                -0.1259259259
+              ],
+              "window_span": [
+                0.0,
+                0.1574074074
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6277,
+            "from": "V102-B17-ETF",
+            "to": "V102-B17-04",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.1348422497
+              ],
+              "window_span": [
+                0.0,
+                -0.1574074074
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6352,
+            "from": "V102-B17-04",
+            "to": "V102-B17-TURNOVER",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6466,
+            "from": "V102-B17-TURNOVER",
+            "to": "V102-B17-05",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0099735396
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6540,
+            "from": "V102-B17-05",
+            "to": "V102-B18-01",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                -0.0732568964
+              ],
+              "window_span": [
+                0.0,
+                0.0922146636
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6630,
+            "from": "V102-B18-01",
+            "to": "V102-B18-02",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.0747878362
+              ],
+              "window_span": [
+                0.0,
+                -0.0922146636
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6780,
+            "from": "V102-B18-02",
+            "to": "V102-B18-03",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                0.002692679
+              ],
+              "window_span": [
+                0.0,
+                0.0
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          },
+          {
+            "frame": 6930,
+            "from": "V102-B18-03",
+            "to": "V102-B18-04",
+            "explicit_flash_return": false,
+            "camera_delta": {
+              "window_start": 0.0,
+              "window_span": 0.0,
+              "y_min": 0.0,
+              "y_max": 0.0
+            },
+            "neighbor_frame_deltas": {
+              "window_start": [
+                0.0,
+                -0.2363675629
+              ],
+              "window_span": [
+                0.0,
+                0.5269409351
+              ],
+              "y_min": [
+                0.0,
+                0.0
+              ],
+              "y_max": [
+                0.0,
+                0.0
+              ]
+            },
+            "passed": true
+          }
+        ],
+        "continuity_scope": "exact sampled projection seam and finite-difference velocity evidence"
+      },
+      "phone_bbox_summary": {
+        "passed": true,
+        "out_of_frame_boxes": [],
+        "roles": {
+          "endpoint_date": {
+            "min_px": 6.87,
+            "max_px": 6.87,
+            "boxes": 468
+          },
+          "etf_end_shares": {
+            "min_px": 15.9,
+            "max_px": 15.9,
+            "boxes": 137
+          },
+          "etf_observation_window": {
+            "min_px": 11.57,
+            "max_px": 11.57,
+            "boxes": 137
+          },
+          "etf_report_date": {
+            "min_px": 10.84,
+            "max_px": 10.84,
+            "boxes": 137
+          },
+          "etf_share_change": {
+            "min_px": 15.54,
+            "max_px": 15.54,
+            "boxes": 137
+          },
+          "etf_source": {
+            "min_px": 10.84,
+            "max_px": 10.84,
+            "boxes": 137
+          },
+          "etf_start_shares": {
+            "min_px": 15.9,
+            "max_px": 15.9,
+            "boxes": 137
+          },
+          "footer": {
+            "min_px": 5.42,
+            "max_px": 5.78,
+            "boxes": 3360
+          },
+          "key_point_qualifier": {
+            "min_px": 11.93,
+            "max_px": 11.93,
+            "boxes": 403
+          },
+          "key_point_suffix": {
+            "min_px": 14.1,
+            "max_px": 14.1,
+            "boxes": 173
+          },
+          "market_basis": {
+            "min_px": 11.93,
+            "max_px": 13.01,
+            "boxes": 1168
+          },
+          "market_context": {
+            "min_px": 15.18,
+            "max_px": 15.18,
+            "boxes": 477
+          },
+          "market_key_point": {
+            "min_px": 26.39,
+            "max_px": 33.62,
+            "boxes": 403
+          },
+          "metric_title": {
+            "min_px": 14.1,
+            "max_px": 14.1,
+            "boxes": 250
+          },
+          "milestone": {
+            "min_px": 6.14,
+            "max_px": 6.14,
+            "boxes": 1680
+          },
+          "rail": {
+            "min_px": 7.95,
+            "max_px": 12.29,
+            "boxes": 3360
+          },
+          "status": {
+            "min_px": 5.78,
+            "max_px": 11.57,
+            "boxes": 5040
+          },
+          "timeline": {
+            "min_px": 6.87,
+            "max_px": 9.76,
+            "boxes": 5040
+          },
+          "title": {
+            "min_px": 6.87,
+            "max_px": 18.43,
+            "boxes": 6720
+          },
+          "turnover_calendar": {
+            "min_px": 11.93,
+            "max_px": 11.93,
+            "boxes": 113
+          },
+          "turnover_source": {
+            "min_px": 10.84,
+            "max_px": 10.84,
+            "boxes": 113
+          },
+          "turnover_unit": {
+            "min_px": 12.65,
+            "max_px": 12.65,
+            "boxes": 113
+          },
+          "turnover_value": {
+            "min_px": 30.72,
+            "max_px": 30.72,
+            "boxes": 113
+          }
+        },
+        "scope": "rendered target boxes scaled to phone; reading experience needs playback/visual observation"
+      },
+      "caption_reading": {
+        "passed": true,
+        "failures": [],
+        "cue_reading": {
+          "V102-B16-01": {
+            "planned_global_frames": [
+              5591,
+              5700
+            ],
+            "fully_drawn_frames_in_window": 109,
+            "rendered_reading_seconds": 3.633,
+            "planned_reading_seconds": 3.633,
+            "all_full_opacity_frames": 109,
+            "min_caption_glyph_bbox_height_at_390px": 11.93
+          },
+          "V102-B16-02": {
+            "planned_global_frames": [
+              5771,
+              5880
+            ],
+            "fully_drawn_frames_in_window": 109,
+            "rendered_reading_seconds": 3.633,
+            "planned_reading_seconds": 3.633,
+            "all_full_opacity_frames": 109,
+            "min_caption_glyph_bbox_height_at_390px": 11.93
+          },
+          "V102-B17-01": {
+            "planned_global_frames": [
+              5903,
+              5952
+            ],
+            "fully_drawn_frames_in_window": 49,
+            "rendered_reading_seconds": 1.633,
+            "planned_reading_seconds": 1.633,
+            "all_full_opacity_frames": 50,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B17-02": {
+            "planned_global_frames": [
+              5988,
+              6034
+            ],
+            "fully_drawn_frames_in_window": 46,
+            "rendered_reading_seconds": 1.533,
+            "planned_reading_seconds": 1.533,
+            "all_full_opacity_frames": 47,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B17-03": {
+            "planned_global_frames": [
+              6076,
+              6121
+            ],
+            "fully_drawn_frames_in_window": 45,
+            "rendered_reading_seconds": 1.5,
+            "planned_reading_seconds": 1.5,
+            "all_full_opacity_frames": 46,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B17-ETF": {
+            "planned_global_frames": [
+              6145,
+              6271
+            ],
+            "fully_drawn_frames_in_window": 126,
+            "rendered_reading_seconds": 4.2,
+            "planned_reading_seconds": 4.2,
+            "all_full_opacity_frames": 127,
+            "min_caption_glyph_bbox_height_at_390px": 10.84
+          },
+          "V102-B17-04": {
+            "planned_global_frames": [
+              6301,
+              6346
+            ],
+            "fully_drawn_frames_in_window": 45,
+            "rendered_reading_seconds": 1.5,
+            "planned_reading_seconds": 1.5,
+            "all_full_opacity_frames": 46,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B17-TURNOVER": {
+            "planned_global_frames": [
+              6358,
+              6460
+            ],
+            "fully_drawn_frames_in_window": 102,
+            "rendered_reading_seconds": 3.4,
+            "planned_reading_seconds": 3.4,
+            "all_full_opacity_frames": 103,
+            "min_caption_glyph_bbox_height_at_390px": 10.84
+          },
+          "V102-B17-05": {
+            "planned_global_frames": [
+              6489,
+              6534
+            ],
+            "fully_drawn_frames_in_window": 45,
+            "rendered_reading_seconds": 1.5,
+            "planned_reading_seconds": 1.5,
+            "all_full_opacity_frames": 46,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B18-02": {
+            "planned_global_frames": [
+              6690,
+              6780
+            ],
+            "fully_drawn_frames_in_window": 90,
+            "rendered_reading_seconds": 3.0,
+            "planned_reading_seconds": 3.0,
+            "all_full_opacity_frames": 90,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B18-03": {
+            "planned_global_frames": [
+              6840,
+              6930
+            ],
+            "fully_drawn_frames_in_window": 90,
+            "rendered_reading_seconds": 3.0,
+            "planned_reading_seconds": 3.0,
+            "all_full_opacity_frames": 90,
+            "min_caption_glyph_bbox_height_at_390px": 13.01
+          },
+          "V102-B18-04": {
+            "planned_global_frames": [
+              7033,
+              7200
+            ],
+            "fully_drawn_frames_in_window": 167,
+            "rendered_reading_seconds": 5.567,
+            "planned_reading_seconds": 5.567,
+            "all_full_opacity_frames": 167,
+            "min_caption_glyph_bbox_height_at_390px": 11.93
+          }
+        },
+        "scope": "actual caption visibility/full opacity; not subjective reading speed"
+      },
+      "b17_separate_t2_layers": {
+        "passed": true,
+        "checks": {
+          "etf only displayed after relevant real close": true,
+          "etf valid T2 labels every full-read frame": true,
+          "etf complete out-fade before following cue": true,
+          "turnover only displayed after relevant real close": true,
+          "turnover valid T2 labels every full-read frame": true,
+          "turnover complete out-fade before following cue": true,
+          "market structures do not overlap visually": true,
+          "shows Sep28 market rebound after ETF and before turnover": true,
+          "shows Sep29 actual pullback after turnover": true,
+          "metric overlays omit chart-to-event link geometry": true
+        },
+        "windows": {
+          "etf": {
+            "first_visible_frame": 6139,
+            "last_visible_frame": 6275,
+            "preexisting_market_close_frame": 6126,
+            "stable_read_frame_interval": [
+              6145,
+              6271
+            ],
+            "stable_reading_seconds": 4.2,
+            "exit_frame_interval": [
+              6271,
+              6277
+            ],
+            "exit_alpha_samples": [
+              1.0,
+              0.896,
+              0.648,
+              0.352,
+              0.104,
+              0.0
+            ]
+          },
+          "turnover": {
+            "first_visible_frame": 6352,
+            "last_visible_frame": 6464,
+            "preexisting_market_close_frame": 6351,
+            "stable_read_frame_interval": [
+              6358,
+              6460
+            ],
+            "stable_reading_seconds": 3.4,
+            "exit_frame_interval": [
+              6460,
+              6466
+            ],
+            "exit_alpha_samples": [
+              1.0,
+              0.896,
+              0.648,
+              0.352,
+              0.104,
+              0.0
+            ]
+          }
+        }
+      },
+      "november_settlement": {
+        "passed": true,
+        "final_close": 2897.57,
+        "interval_label_observed": true
+      },
+      "caption_chart_issues": []
+    }
+  },
+  "pmi": {
+    "passed": true,
+    "tested_fully_visible_stills": [
+      {
+        "frame": 4440,
+        "path": "/workspace/chinext-index-story/output/director-v1.0.2-visual-test/result/B13-PMI/B13-f4440.png",
+        "sha256": "70156bb07763322b07a280605f6f8e4fb4aaf33e1d16baeeced61d4d90991939",
+        "size": [
+          1080,
+          1920
+        ],
+        "actual_text": [
+          "2015.08.21 · 同日时间线",
+          "财新8月制造业PMI初值",
+          "47.1",
+          "09:30",
+          "A股开盘",
+          "09:43:10",
+          "财新网页刊发"
+        ],
+        "charted_market_date": "2015-08-21",
+        "first_release_time": null,
+        "passed": true
+      }
+    ],
+    "diagnostics_sha256": "278fea9b3adeff255a3c4e9e90e5f6b7c86721954f486056d9ec9ec5d7e438cf",
+    "phone_bbox_summary": {
+      "passed": true,
+      "out_of_frame_boxes": [],
+      "roles": {
+        "footer": {
+          "min_px": 5.42,
+          "max_px": 5.78,
+          "boxes": 4
+        },
+        "milestone": {
+          "min_px": 6.14,
+          "max_px": 6.14,
+          "boxes": 2
+        },
+        "pmi_label": {
+          "min_px": 15.18,
+          "max_px": 15.18,
+          "boxes": 1
+        },
+        "pmi_value": {
+          "min_px": 18.8,
+          "max_px": 18.8,
+          "boxes": 1
+        },
+        "rail": {
+          "min_px": 7.95,
+          "max_px": 12.29,
+          "boxes": 4
+        },
+        "status": {
+          "min_px": 5.78,
+          "max_px": 7.95,
+          "boxes": 6
+        },
+        "timeline": {
+          "min_px": 6.87,
+          "max_px": 9.76,
+          "boxes": 6
+        },
+        "timeline_date": {
+          "min_px": 11.93,
+          "max_px": 11.93,
+          "boxes": 1
+        },
+        "timeline_node_label": {
+          "min_px": 11.57,
+          "max_px": 11.57,
+          "boxes": 2
+        },
+        "timeline_time": {
+          "min_px": 10.48,
+          "max_px": 10.48,
+          "boxes": 2
+        },
+        "title": {
+          "min_px": 6.87,
+          "max_px": 18.43,
+          "boxes": 8
+        }
+      },
+      "scope": "rendered target boxes scaled to phone; reading experience needs playback/visual observation"
+    },
+    "video_encoded": false
+  },
+  "subjective_mobile_readability_validated_by_this_script": false
+}

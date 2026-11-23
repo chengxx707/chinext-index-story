@@ -1,6 +1,6 @@
 # 创业板视频制作看板
 
-**状态快照：2026-11-23（北京时间）。V1.0.2 配置编译与五类结构门禁已通过；GPT 已裁定 B13、B17 的视觉内容，并批准三段代表块视觉测试。当前等待 Codex 交付三段实际编码短片，尚未批准完整 240 秒渲染。**
+**状态快照：2026-11-23（北京时间）。V1.0.2 编译与五类结构门禁已通过。三段代表块已编码，B13 时间轴及 B17 两项 T2 接力已完成技术检查，待 GPT 与用户审片。完整 240 秒渲染待批准。**
 
 当前阶段：**DIRECTOR-V1.0.2-REPRESENTATIVE-VISUAL-TEST**。导演方向为金融纪录片式（A）；2015章节结尾为阶段低点后继续呈现反弹与修复（A）；信息严谨程度采用方案A（T1/T2/T3）。
 
@@ -10,13 +10,13 @@
 |---|---|---|
 | 39条外部事件独立审计 | 完成39/39，未审0 | [逐项台账](../../editorial/2015/01-research/event-audit-register.md) |
 | V1.0.1内容候选 | 已完成167秒、28镜；保留为不可变基线 | [V1.0.1完整候选](../../editorial/2015/releases/v1.0.1/README.md) |
-| WF-02R1含照片预览 | 已产出并完成上一轮审片；尚未用户最终批准 | [WF-02R1审阅回执（固定提交371d11a）](https://github.com/chengxx707/chinext-index-story/blob/371d11a358a42c0270506e301ca439c44358c9b6/review-downloads/wf-02r1-2015-visual/README.md) |
+| WF-02R1含照片预览 | 已产出并完成上一轮审片；尚未用户最终批准 | [WF-02R1含图审阅回执（固定提交67a8cc6）](https://github.com/chengxx707/chinext-index-story/blob/67a8cc6740c521675f71c6c733997e429681c3a2/review-downloads/wf-02r1-2015-visual/with-photo/README.md) |
 | 纳指参考拆解／导演系统V1.0 | 已完成候选 | [参考视频拆解](../../editorial/2015/director/REFERENCE_DECONSTRUCTION.md) · [导演系统](../../editorial/2015/director/DIRECTOR_SYSTEM_V1.0.md) |
 | Codex Director V1.0结构审计 | 已完成 | [审计报告（固定提交d6df0a7）](https://github.com/chengxx707/chinext-index-story/blob/d6df0a70a244fa0af86e126967d7aa9449971cbf/review-downloads/director-v1.0-structure-review/README.md)，18个锚点中13个匹配、5个错配；已逐项修订 |
 | V1.0.2导演工程契约与Beat Sheet | 已完成候选编译 | [导演工程契约](../../editorial/2015/director/V1.0.2_DIRECTOR_CONTRACT.md) · [18节拍配置](../../editorial/2015/director/2015_BEAT_SHEET_V1.0.2.json) |
 | V1.0.2编译与五类结构门禁 | <badge>已通过</badge> | [Codex完整编译验证报告](../../editorial/2015/director/compiled/v1.0.2/README.md) · [编译审阅ZIP](https://raw.githubusercontent.com/chengxx707/chinext-index-story/5e211d52afe376ff393a050493c4a1e780e780d9/editorial/2015/director/compiled/v1.0.2/director-v1.0.2-compile-review.zip) |
 | GPT视觉裁定 | 已完成并提交 | [B13、B17裁定及代表块授权](../../editorial/2015/director/GPT_VISUAL_DECISIONS_V1.0.2.md) |
-| Codex代表块视觉测试 | **已批准，等待交付** | [最新交接单](../../editorial/2015/HANDOFF_TO_CODEX.md)。三段短片、关键帧联系表、390px手机观看版 |
+| Codex代表块视觉测试 | **已编码 3/3，技术检查通过，待 GPT 与用户审片** | [代表块审片回执与下载](../../editorial/2015/director/visual-tests/v1.0.2/README.md) |
 | V1.0.2整段连续预览 | 尚未批准 | 三段代表块审片通过后，再决定是否渲染完整240秒 |
 | 正式全片采用 | 尚未采用 | 正式427秒主表保持不变；后续与既有S16去重 |
 
@@ -46,7 +46,7 @@
 
 ## 版本与保护边界
 
-- V1.0.2配置：18个Beat、46个cue、7,200帧，30fps；240秒为预算，未锁定。
+- V1.0.2配置：18 个 Beat、编译基线 46 个 cue、代表块候选 48 个 cue、7,200 帧，30fps；240秒为预算，未锁定。
 - 编译验证已覆盖Schema、冻结行情、实际时钟、事件与资产、视觉结构及负例／回归；171项现有工作区测试通过。
 - 编译结构门禁通过不等于实际视觉验收通过。构图、遮挡、动效、阅读体验必须通过真实编码代表块和手机观看验证。
 - 当前仅授权三段代表块短片及相应关键帧测试；**未授权完整240秒视频渲染**。

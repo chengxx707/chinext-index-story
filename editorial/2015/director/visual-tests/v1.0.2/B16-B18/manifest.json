@@ -1,0 +1,61 @@
+{
+  "block": "B16-B18",
+  "frame_span": [
+    5520,
+    7200
+  ],
+  "duration_seconds": 56.0,
+  "editorial_commit": "16955b82ca0a2fbe63b2b168e5545fd701014c38",
+  "compiled_base_commit": "5e211d52afe376ff393a050493c4a1e780e780d9",
+  "clock_implementation_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+  "visual_candidate_sha256": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+  "target_frames": 1680,
+  "fps": 30,
+  "camera_joins_checked": 12,
+  "technical_passed": true,
+  "phone_playback_dropped_first": 2,
+  "phone_playback_dropped_control": 0,
+  "phone_playback_control_was_solo": true,
+  "artifacts": {
+    "target.mp4": {
+      "sha256": "b547bc654d47d0f0fc6e573ebc74172af4cc16aa45485489b3ecf18c7962c169",
+      "bytes": 2364938
+    },
+    "phone-390.mp4": {
+      "sha256": "6846262ca3f6f6b9f2aa5686d602164f1d98f453567654346544de5765324607",
+      "bytes": 1034495
+    },
+    "keyframe-contact.jpg": {
+      "sha256": "2433720a144aa0f7c5fcea7b3c157e056234f3bdd7b5e445affff9c6fb79a2ab",
+      "bytes": 504932
+    },
+    "contact_sources.json": {
+      "sha256": "c7fc295cfe8a2866f9c58e58171855c290b6a3282bc02785a60ca297e750de58",
+      "bytes": 435
+    },
+    "diagnostics.json": {
+      "sha256": "644802308f4e232853f1bc84274267c1b0b1e57ccdeaff140958bc0cd73abaf9",
+      "bytes": 12334199
+    },
+    "media_validation.json": {
+      "sha256": "b71b7477ea370fc6bd78310bf39e0a8e82e5b1e99bf210ce7a163a74836a8693",
+      "bytes": 3326
+    },
+    "playback_observation.json": {
+      "sha256": "8d0b234e61ffc559c641236c212bd7bada0428603ae548a9e90db25ed0f4699e",
+      "bytes": 3326
+    },
+    "review.md": {
+      "sha256": "010759da7945a01bdcb3d129f03722c98aacde645138469eba6f2d43a95d92fa",
+      "bytes": 1419
+    },
+    "b17-t2-phone-contact.jpg": {
+      "sha256": "fb835eef8396ef691223e5fbea1ddc510987fc2946c1a5a854521be1ea9b238d",
+      "bytes": 446247
+    },
+    "solo-review/playback_observation.json": {
+      "sha256": "0c4bc913676f2df93ab9428101928d6a957dd4ea49ba7d0054abb26d2066d23c",
+      "bytes": 3434
+    }
+  }
+}

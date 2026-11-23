@@ -1,0 +1,250 @@
+{
+  "date_beijing": "2026-11-23",
+  "task": "DIRECTOR-V1.0.2-REPRESENTATIVE-VISUAL-TEST",
+  "editorial_input_commit": "16955b82ca0a2fbe63b2b168e5545fd701014c38",
+  "compiled_base_commit": "5e211d52afe376ff393a050493c4a1e780e780d9",
+  "runtime_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+  "candidate_sha256": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+  "technical_passed": true,
+  "representative_clips": [
+    {
+      "block": "B01-B02",
+      "frame_span": [
+        0,
+        540
+      ],
+      "duration_seconds": 18.0,
+      "editorial_commit": "16955b82ca0a2fbe63b2b168e5545fd701014c38",
+      "compiled_base_commit": "5e211d52afe376ff393a050493c4a1e780e780d9",
+      "clock_implementation_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+      "visual_candidate_sha256": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+      "target_frames": 540,
+      "fps": 30,
+      "camera_joins_checked": 2,
+      "technical_passed": true,
+      "phone_playback_dropped_first": 0,
+      "phone_playback_dropped_control": 0,
+      "phone_playback_control_was_solo": false,
+      "artifacts": {
+        "target.mp4": {
+          "sha256": "88bcfed85a147d8c651facca2366510cd45f6bc30967fcff4547d4b1530c8afe",
+          "bytes": 608605
+        },
+        "phone-390.mp4": {
+          "sha256": "75484263de3d7f9da4aadc7cc5ce8695bb7a14d9b7a2920cd68997a96ec91d70",
+          "bytes": 223611
+        },
+        "keyframe-contact.jpg": {
+          "sha256": "f0d70fb20f864837e4e29ae3eee40237a3a018b2d1806b2b7e44d3298c35c8d1",
+          "bytes": 155826
+        },
+        "contact_sources.json": {
+          "sha256": "af07fd7700d8dbee65cd85e6efde53fca092ddb8a3776247f9b275a71ec9b650",
+          "bytes": 261
+        },
+        "diagnostics.json": {
+          "sha256": "6944d83be836af1ef3d1eb1e627f68eb1010ef2a657445463e42fb13dab33812",
+          "bytes": 3753366
+        },
+        "media_validation.json": {
+          "sha256": "16f83589d0d0af1037d4d2f52b445074a2ec1410aecd996e6f3ee9e2b153ad73",
+          "bytes": 3318
+        },
+        "playback_observation.json": {
+          "sha256": "12c06d32a1a70decfe63e86da6979500f58b8f881fe87700c5b832c3ec285409",
+          "bytes": 1733
+        },
+        "review.md": {
+          "sha256": "238a8d464850dfe570f4b471402d5d874afd5650ab524f01df1db2b11ff56d9c",
+          "bytes": 1034
+        }
+      }
+    },
+    {
+      "block": "B08-B10",
+      "frame_span": [
+        2280,
+        3600
+      ],
+      "duration_seconds": 44.0,
+      "editorial_commit": "16955b82ca0a2fbe63b2b168e5545fd701014c38",
+      "compiled_base_commit": "5e211d52afe376ff393a050493c4a1e780e780d9",
+      "clock_implementation_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+      "visual_candidate_sha256": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+      "target_frames": 1320,
+      "fps": 30,
+      "camera_joins_checked": 9,
+      "technical_passed": true,
+      "phone_playback_dropped_first": 2,
+      "phone_playback_dropped_control": 0,
+      "phone_playback_control_was_solo": true,
+      "artifacts": {
+        "target.mp4": {
+          "sha256": "fd16c04694228e7a29656298fd88d558c180388c6b850d8a5fbd7a9634bc8959",
+          "bytes": 1771382
+        },
+        "phone-390.mp4": {
+          "sha256": "713b9c0ff005f4a52fe6c72d6df5121bc2da5c3820d4cea23220e18b306b0ae1",
+          "bytes": 731622
+        },
+        "keyframe-contact.jpg": {
+          "sha256": "a99b4b445f6a3835fcefa4c47edaf71ed72a37950b0098aebc54a8dbb417c2a2",
+          "bytes": 362808
+        },
+        "contact_sources.json": {
+          "sha256": "aa28d8558a0f4ccfe32d1fc82770a8e6de8abcd44637fe482de82f1f40a7f6ad",
+          "bytes": 365
+        },
+        "diagnostics.json": {
+          "sha256": "2ebb891a5ec29a1eb72f4e7a8f94840f9b9b3114fd72b8d5875a3e082bd3493a",
+          "bytes": 10303188
+        },
+        "media_validation.json": {
+          "sha256": "cdefaadd8dcbddecd143890c3d41aa4a362d586379af6ed73a462995b3bc7e5d",
+          "bytes": 3326
+        },
+        "playback_observation.json": {
+          "sha256": "9fd3bf47b5c2464da8a619f97fecae0d0563eaab6140f34adb7541317e8d47ce",
+          "bytes": 2959
+        },
+        "review.md": {
+          "sha256": "4f392aa38c2a86483b3af12ec291a692875676b6733b0d08e66ba0f6e2ccb914",
+          "bytes": 1121
+        },
+        "solo-review/playback_observation.json": {
+          "sha256": "1ffe99926e34840a8f417c1d9f6eaac36f07eed305fcef03247b138ecd1598bc",
+          "bytes": 2843
+        }
+      }
+    },
+    {
+      "block": "B16-B18",
+      "frame_span": [
+        5520,
+        7200
+      ],
+      "duration_seconds": 56.0,
+      "editorial_commit": "16955b82ca0a2fbe63b2b168e5545fd701014c38",
+      "compiled_base_commit": "5e211d52afe376ff393a050493c4a1e780e780d9",
+      "clock_implementation_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+      "visual_candidate_sha256": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+      "target_frames": 1680,
+      "fps": 30,
+      "camera_joins_checked": 12,
+      "technical_passed": true,
+      "phone_playback_dropped_first": 2,
+      "phone_playback_dropped_control": 0,
+      "phone_playback_control_was_solo": true,
+      "artifacts": {
+        "target.mp4": {
+          "sha256": "b547bc654d47d0f0fc6e573ebc74172af4cc16aa45485489b3ecf18c7962c169",
+          "bytes": 2364938
+        },
+        "phone-390.mp4": {
+          "sha256": "6846262ca3f6f6b9f2aa5686d602164f1d98f453567654346544de5765324607",
+          "bytes": 1034495
+        },
+        "keyframe-contact.jpg": {
+          "sha256": "2433720a144aa0f7c5fcea7b3c157e056234f3bdd7b5e445affff9c6fb79a2ab",
+          "bytes": 504932
+        },
+        "contact_sources.json": {
+          "sha256": "c7fc295cfe8a2866f9c58e58171855c290b6a3282bc02785a60ca297e750de58",
+          "bytes": 435
+        },
+        "diagnostics.json": {
+          "sha256": "644802308f4e232853f1bc84274267c1b0b1e57ccdeaff140958bc0cd73abaf9",
+          "bytes": 12334199
+        },
+        "media_validation.json": {
+          "sha256": "b71b7477ea370fc6bd78310bf39e0a8e82e5b1e99bf210ce7a163a74836a8693",
+          "bytes": 3326
+        },
+        "playback_observation.json": {
+          "sha256": "8d0b234e61ffc559c641236c212bd7bada0428603ae548a9e90db25ed0f4699e",
+          "bytes": 3326
+        },
+        "review.md": {
+          "sha256": "010759da7945a01bdcb3d129f03722c98aacde645138469eba6f2d43a95d92fa",
+          "bytes": 1419
+        },
+        "b17-t2-phone-contact.jpg": {
+          "sha256": "fb835eef8396ef691223e5fbea1ddc510987fc2946c1a5a854521be1ea9b238d",
+          "bytes": 446247
+        },
+        "solo-review/playback_observation.json": {
+          "sha256": "0c4bc913676f2df93ab9428101928d6a957dd4ea49ba7d0054abb26d2066d23c",
+          "bytes": 3434
+        }
+      }
+    }
+  ],
+  "b13_check_passed": true,
+  "b17_check_passed": true,
+  "t2_full_reading": {
+    "etf": {
+      "first_visible_frame": 6139,
+      "last_visible_frame": 6275,
+      "preexisting_market_close_frame": 6126,
+      "stable_read_frame_interval": [
+        6145,
+        6271
+      ],
+      "stable_reading_seconds": 4.2,
+      "exit_frame_interval": [
+        6271,
+        6277
+      ],
+      "exit_alpha_samples": [
+        1.0,
+        0.896,
+        0.648,
+        0.352,
+        0.104,
+        0.0
+      ]
+    },
+    "turnover": {
+      "first_visible_frame": 6352,
+      "last_visible_frame": 6464,
+      "preexisting_market_close_frame": 6351,
+      "stable_read_frame_interval": [
+        6358,
+        6460
+      ],
+      "stable_reading_seconds": 3.4,
+      "exit_frame_interval": [
+        6460,
+        6466
+      ],
+      "exit_alpha_samples": [
+        1.0,
+        0.896,
+        0.648,
+        0.352,
+        0.104,
+        0.0
+      ]
+    }
+  },
+  "full_candidate_rendered": false,
+  "visual_review": "GPT_AND_USER_REVIEW_PENDING",
+  "b13_assets": {
+    "B13-f4440.png": {
+      "sha256": "70156bb07763322b07a280605f6f8e4fb4aaf33e1d16baeeced61d4d90991939",
+      "bytes": 561388
+    },
+    "B13-f4523.png": {
+      "sha256": "dca1de0275b221937f9fa49f76526dfba08becda4ddc6550a4db7d414bfaf38f",
+      "bytes": 526060
+    },
+    "phone-390.png": {
+      "sha256": "81cef307a94fdf2e6f271875ab5436d13eb4276c117f08e940a119b1d7b0e23a",
+      "bytes": 149002
+    },
+    "diagnostics.json": {
+      "sha256": "278fea9b3adeff255a3c4e9e90e5f6b7c86721954f486056d9ec9ec5d7e438cf",
+      "bytes": 15447
+    }
+  }
+}
