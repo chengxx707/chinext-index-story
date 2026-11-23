@@ -13,13 +13,13 @@
     "reference_video": "user-provided Nasdaq-100 screen recording, 235.033s, 220x480, 30fps"
   },
   "duration_budget": {
-    "target_seconds": 238,
+    "target_seconds": 240,
     "range_seconds": [
       220,
       255
     ],
     "locked": false,
-    "reason": "18 beat duration_seconds sum to 238 after adding time to cover the July-to-August sequence; final duration follows readability and full continuous review."
+    "reason": "18 beat duration_seconds sum to 240 after extending B08 and B12 to cover the June/July weekend events and July 28-August 7 trading sessions; final duration follows readability and full continuous review."
   },
   "invariants": [
     "The main historical sequence preserves chronological trading order. B01 is an explicitly labeled isolated flash-forward hook to 2015-06-03, followed by a clear rewind to 2015-04-01; do not treat the hook as the start of the continuous market playhead or duplicate/synthesize OHLC bars.",
@@ -288,19 +288,7 @@
             "value": 2920.7
           },
           "market_action": "freeze_after_2015-06-26_close_then_resume_2015-06-29",
-          "display_rule": "show announcement date and implementation date separately; no weekend candle"
-        },
-        {
-          "event_id": "E-JUN-02-02",
-          "date": "2015-06-27",
-          "role": "weekend_policy_announcement",
-          "implementation_date": "2015-06-28",
-          "market_anchor": {
-            "date": "2015-06-26",
-            "field": "close",
-            "value": 2920.7
-          },
-          "market_action": "same_weekend_event_window"
+          "display_rule": "PBOC announced targeted RRR and benchmark interest-rate cuts on 6/27; effective 6/28; no weekend candle."
         }
       ]
     },
@@ -340,29 +328,29 @@
             "field": "close",
             "value": 2605.28
           },
-          "display_rule": "commitment, not completed purchase; target is blue-chip ETFs"
+          "display_rule": "21 securities firms commit at least 1200亿元 to blue-chip ETFs; commitment, not completed purchases."
         },
         {
           "event_id": "E-JUN-02-03",
           "date": "2015-07-04",
-          "role": "weekend_announcement",
+          "role": "weekend_company_announcement",
           "market_anchor": {
             "date": "2015-07-03",
             "field": "close",
             "value": 2605.28
           },
-          "display_rule": "28 IPO-approved companies temporarily suspend issuance; cite announcement/reporting roles distinctly"
+          "display_rule": "28 IPO-approved companies announce suspension of subsequent issuance; distinguish company announcement from 7/5 follow-up reporting."
         },
         {
           "event_id": "E-JUN-02-04",
           "date": "2015-07-05",
-          "role": "weekend_public_announcement",
+          "role": "public_announcement",
           "market_anchor": {
             "date": "2015-07-03",
             "field": "close",
             "value": 2605.28
           },
-          "display_rule": "preserve wording 将给予流动性支持"
+          "display_rule": "CSRC announcement states PBOC 将给予 CSFC liquidity support; retain future tense."
         }
       ]
     },
@@ -560,14 +548,14 @@
       "transition_out": "photo exits to below-2000 close",
       "event_clock": [
         {
-          "event_id": "E-AUG-01-02",
+          "event_id": "E-AUG-01-03",
           "date": "2015-08-21",
           "time": "09:43:10",
           "timezone": "Asia/Shanghai",
           "role": "publisher_webpage_timestamp",
-          "source": "Caixin PMI article",
+          "first_release_time": null,
           "value": "August Caixin manufacturing PMI flash estimate 47.1",
-          "display_rule": "say 财新网页刊发时间09:43:10; do not label as verified first-publication time"
+          "display_rule": "display as 财新网页刊发时间09:43:10; do not label as independently verified first-release time."
         }
       ],
       "market_keyframes": [

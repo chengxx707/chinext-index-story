@@ -1,20 +1,123 @@
 {
-  "schema_version":"chinext-event-clock-register/1.0",
-  "timezone":"Asia/Shanghai",
-  "rules":[
+  "schema_version": "chinext-event-clock-register/1.0",
+  "timezone": "Asia/Shanghai",
+  "rules": [
     "event_date, publication_timestamp, effective_date, observation_window and retrospective_publication_date are distinct fields",
     "weekend and after-close events advance event_clock only; market_clock freezes at the last real close",
     "no event timestamp may be called first_release_time unless original release evidence proves it"
   ],
-  "events":[
-    {"event_id":"E-JUN-02-01","date":"2015-06-27","role":"weekend_announcement","implementation_date":"2015-06-28","market_anchor":{"date":"2015-06-26","field":"close","value":2920.70},"tier":"T1_OFFICIAL_POLICY","visual":"event takeover while market freezes"},
-    {"event_id":"E-JUN-02-02","date":"2015-06-27","role":"weekend_policy_announcement","implementation_date":"2015-06-28","market_anchor":{"date":"2015-06-26","field":"close","value":2920.70},"tier":"T1_OFFICIAL_POLICY","visual":"same weekend event window; no weekend candle"},
-    {"event_id":"E-JUN-02-03","date":"2015-07-04","role":"weekend_announcement","market_anchor":{"date":"2015-07-03","field":"close","value":2605.28},"tier":"T1_T2_SOURCE_LINKED","visual":"central policy sequence; keep exact scope"},
-    {"event_id":"E-JUN-02-04","date":"2015-07-04","role":"weekend_announcement","market_anchor":{"date":"2015-07-03","field":"close","value":2605.28},"tier":"T1_T2_SOURCE_LINKED","visual":"central policy sequence; 21 broker commitment, not completed purchases; blue-chip ETFs"},
-    {"event_id":"E-JUN-02-05","date":"2015-07-05","role":"public_announcement","market_anchor":{"date":"2015-07-03","field":"close","value":2605.28},"tier":"T1_OFFICIAL_STATEMENT","visual":"retain future tense 将给予"},
-    {"event_id":"E-AUG-01-01","date":"2015-08-11","role":"policy_mechanism_announcement","market_anchor":{"date":"2015-08-11","field":"close","value":null},"tier":"T1_OFFICIAL_POLICY","visual":"macro context layer; no causal arrow"},
-    {"event_id":"E-AUG-01-02","date":"2015-08-21","time":"09:43:10","timezone":"Asia/Shanghai","role":"publisher_webpage_timestamp","first_release_time":null,"value":"Caixin August manufacturing PMI flash estimate 47.1","tier":"T2_CONTEMPORANEOUS_SOURCE","sources":["https://pmi.caixin.com/2015-08-21/100842072.html","https://pmi.caixin.com/2015-08-21/100842068.html"],"visual":"show page timestamp only; do not claim first-publication time"},
-    {"event_id":"E-SEP-ETF-01","observation_start":"2015-09-07","observation_end":"2015-09-22","publication_date":"2015-09-25","role":"etf_share_observation_period","series":"易方达创业板ETF","start_shares":"12.37亿份","end_shares":"18.07亿份","change_pct":46.08,"tier":"T2_CONTEMPORANEOUS_REPORT_CITING_SZSE","first_party_original_imported":false,"sources":["https://www.chinanews.com/stock/2015/09-25/7544425.shtml","https://epaper.cs.com.cn/zgzqb/images/2015-09/25/A07/ZQBJD0010925C.pdf","https://www.chinanews.com/stock/2015/09-28/7548055.shtml"],"visual":"optional secondary structure layer; not net cash subscriptions; no causal claim"},
-    {"event_id":"E-SEP-TURNOVER-01","date":"2015-09-28","role":"two_exchange_market_turnover","value":"4044亿元","tier":"T2_CONTEMPORANEOUS_CROSS_SOURCE","sources":["https://www.chinanews.com/stock/2015/09-28/7548354.shtml","https://m.21jingji.com/article/20150928/herald/1e750135def82134d36e9eda0366b679.html"],"visual":"label 沪深两市成交额, never 创业板成交额"}
+  "events": [
+    {
+      "event_id": "E-JUN-02-01",
+      "date": "2015-06-27",
+      "role": "weekend_announcement",
+      "implementation_date": "2015-06-28",
+      "market_anchor": {
+        "date": "2015-06-26",
+        "field": "close",
+        "value": 2920.7
+      },
+      "tier": "T1_OFFICIAL_POLICY",
+      "description": "央行6月27日公布定向降准及下调存贷款基准利率，均自6月28日起执行。",
+      "visual": "6/26收盘后冻结，事件日期和实施日期分别出现，不生成周末K线。"
+    },
+    {
+      "event_id": "E-JUN-02-02",
+      "date": "2015-07-04",
+      "role": "weekend_commitment",
+      "market_anchor": {
+        "date": "2015-07-03",
+        "field": "close",
+        "value": 2605.28
+      },
+      "tier": "T1_T2_SOURCE_LINKED",
+      "description": "21家证券公司承诺合计不低于1200亿元投资蓝筹股ETF；是承诺，不是已完成买入。",
+      "visual": "7/3收盘冻结后中央事件序列第一项。"
+    },
+    {
+      "event_id": "E-JUN-02-03",
+      "date": "2015-07-04",
+      "role": "weekend_company_announcement",
+      "market_anchor": {
+        "date": "2015-07-03",
+        "field": "close",
+        "value": 2605.28
+      },
+      "tier": "T1_T2_SOURCE_LINKED",
+      "description": "28家已获IPO批文公司公告暂缓后续发行；与7/5后续报道分开标注。",
+      "visual": "中央事件序列第二项；不得与券商承诺合并成同一措施。"
+    },
+    {
+      "event_id": "E-JUN-02-04",
+      "date": "2015-07-05",
+      "role": "weekend_public_announcement",
+      "market_anchor": {
+        "date": "2015-07-03",
+        "field": "close",
+        "value": 2605.28
+      },
+      "tier": "T1_OFFICIAL_STATEMENT",
+      "description": "证监会公告称央行将以多种形式给予证金公司流动性支持；保留“将”。",
+      "visual": "中央事件序列第三项；不暗示已到账。"
+    },
+    {
+      "event_id": "E-AUG-01-01",
+      "date": "2015-08-11",
+      "role": "policy_mechanism_announcement",
+      "market_anchor": {
+        "date": "2015-08-11",
+        "field": "close",
+        "value": null
+      },
+      "tier": "T1_OFFICIAL_POLICY",
+      "description": "完善人民币兑美元汇率中间价报价机制。",
+      "visual": "宏观背景层；无因果箭头。"
+    },
+    {
+      "event_id": "E-AUG-01-03",
+      "date": "2015-08-21",
+      "time": "09:43:10",
+      "timezone": "Asia/Shanghai",
+      "role": "publisher_webpage_timestamp",
+      "first_release_time": null,
+      "value": "财新8月制造业PMI初值47.1",
+      "tier": "T2_CONTEMPORANEOUS_SOURCE",
+      "sources": [
+        "https://pmi.caixin.com/2015-08-21/100842072.html",
+        "https://pmi.caixin.com/2015-08-21/100842068.html"
+      ],
+      "visual": "只标网页刊发时间，不称全网首次发布时刻。"
+    },
+    {
+      "metric_id": "E-SEP-ETF-01",
+      "observation_start": "2015-09-07",
+      "observation_end": "2015-09-22",
+      "publication_date": "2015-09-25",
+      "role": "etf_share_observation_period",
+      "series": "易方达创业板ETF",
+      "start_shares": "12.37亿份",
+      "end_shares": "18.07亿份",
+      "change_pct": 46.08,
+      "tier": "T2_CONTEMPORANEOUS_REPORT_CITING_SZSE",
+      "first_party_original_imported": false,
+      "sources": [
+        "https://www.chinanews.com/stock/2015/09-25/7544425.shtml",
+        "https://epaper.cs.com.cn/zgzqb/images/2015-09/25/A07/ZQBJD0010925C.pdf",
+        "https://www.chinanews.com/stock/2015/09-28/7548055.shtml"
+      ],
+      "visual": "可选次级市场结构层；不是净申购现金，不作因果解释。"
+    },
+    {
+      "metric_id": "E-SEP-TURNOVER-01",
+      "date": "2015-09-28",
+      "role": "two_exchange_market_turnover",
+      "value": "4044亿元",
+      "tier": "T2_CONTEMPORANEOUS_CROSS_SOURCE",
+      "sources": [
+        "https://www.chinanews.com/stock/2015-09-28/7548354.shtml",
+        "https://m.21jingji.com/article/20150928/herald/1e750135def82134d36e9eda0366b679.html"
+      ],
+      "visual": "标注沪深两市成交额，不得写成创业板成交额。"
+    }
   ]
 }

@@ -2,6 +2,11 @@
 
 用户决策已确认：视觉叙事主导A（金融纪录片式）；2015章节结尾A（阶段低点后继续呈现反弹与修复）；信息严谨程度方案A（T1/T2/T3）。
 
+## V1.0.2最新契约
+- [V1.0.2导演工程契约](V1.0.2_DIRECTOR_CONTRACT.md)
+- [V1.0.2纠正后Beat Sheet](2015_BEAT_SHEET_V1.0.2.json)
+- [V1.0.2事件时钟注册表](EVENT_CLOCK_REGISTER_V1.0.2.json)
+
 ## 本轮文件
 1. 纳斯达克100参考视频拆解：REFERENCE_DECONSTRUCTION.md
 2. 导演系统：DIRECTOR_SYSTEM_V1.0.md
