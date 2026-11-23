@@ -1,0 +1,93 @@
+{
+  "task": "DIRECTOR-V1.0.2-COMPILE-AND-VALIDATE",
+  "checks": {
+    "schema": true,
+    "market": true,
+    "event_and_asset_reference": true,
+    "clock": true,
+    "visual_structure": true
+  },
+  "passed": true,
+  "editorial_input_commit": "fe21de75777f04daab59155c43336c7e2719d0ae",
+  "runtime_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+  "frames": 7200,
+  "fps": 30,
+  "beats": 18,
+  "cues": 46,
+  "rendered": false,
+  "gpt_editorial_decisions_pending": true,
+  "representative_blocks": [
+    {
+      "id": "hook_to_april",
+      "beats": [
+        "B01",
+        "B02"
+      ],
+      "candidate_frame_windows": [
+        {
+          "id": "B01",
+          "start_frame": 0,
+          "end_frame_exclusive": 240
+        },
+        {
+          "id": "B02",
+          "start_frame": 240,
+          "end_frame_exclusive": 540
+        }
+      ],
+      "media": "NOT_RUN_AWAITING_VISUAL_TEST_AUTHORIZATION"
+    },
+    {
+      "id": "weekend_policy_to_rebound",
+      "beats": [
+        "B08",
+        "B09",
+        "B10"
+      ],
+      "candidate_frame_windows": [
+        {
+          "id": "B08",
+          "start_frame": 2280,
+          "end_frame_exclusive": 2760
+        },
+        {
+          "id": "B09",
+          "start_frame": 2760,
+          "end_frame_exclusive": 3240
+        },
+        {
+          "id": "B10",
+          "start_frame": 3240,
+          "end_frame_exclusive": 3600
+        }
+      ],
+      "media": "NOT_RUN_AWAITING_VISUAL_TEST_AUTHORIZATION"
+    },
+    {
+      "id": "september_through_repair",
+      "beats": [
+        "B16",
+        "B17",
+        "B18"
+      ],
+      "candidate_frame_windows": [
+        {
+          "id": "B16",
+          "start_frame": 5520,
+          "end_frame_exclusive": 5880
+        },
+        {
+          "id": "B17",
+          "start_frame": 5880,
+          "end_frame_exclusive": 6540
+        },
+        {
+          "id": "B18",
+          "start_frame": 6540,
+          "end_frame_exclusive": 7200
+        }
+      ],
+      "media": "NOT_RUN_AWAITING_VISUAL_TEST_AUTHORIZATION"
+    }
+  ]
+}

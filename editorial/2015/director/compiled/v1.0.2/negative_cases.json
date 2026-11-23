@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "cases": {
+    "wrong_B06_date_rejected": true,
+    "missing_July6_resume_checkpoint_rejected": true,
+    "priced_June27_weekend_candle_rejected": true,
+    "missing_primary_focus_field_rejected": true,
+    "duplicate_focus_window_rejected": true,
+    "insufficient_reading_window_rejected": true,
+    "incorrect_pbc_timestamp_rejected": true,
+    "pmi_first_release_claim_rejected": true,
+    "actual_clock_camera_discontinuity_rejected": true
+  }
+}

@@ -1,0 +1,3774 @@
+{
+  "passed": true,
+  "failures": [],
+  "csv_sha256": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+  "csv_row_count": 3992,
+  "duration_seconds": 240,
+  "nominal_frames_30fps": 7200,
+  "market_windows": [
+    {
+      "beat_id": "B01",
+      "start_date": "2015-06-03",
+      "end_date": "2015-06-03",
+      "trading_dates": [
+        "2015-06-03"
+      ],
+      "start_seconds": 0,
+      "end_seconds_exclusive": 8
+    },
+    {
+      "beat_id": "B02",
+      "start_date": "2015-04-01",
+      "end_date": "2015-04-10",
+      "trading_dates": [
+        "2015-04-01",
+        "2015-04-02",
+        "2015-04-03",
+        "2015-04-07",
+        "2015-04-08",
+        "2015-04-09",
+        "2015-04-10"
+      ],
+      "start_seconds": 8,
+      "end_seconds_exclusive": 18
+    },
+    {
+      "beat_id": "B03",
+      "start_date": "2015-04-10",
+      "end_date": "2015-04-28",
+      "trading_dates": [
+        "2015-04-10",
+        "2015-04-13",
+        "2015-04-14",
+        "2015-04-15",
+        "2015-04-16",
+        "2015-04-17",
+        "2015-04-20",
+        "2015-04-21",
+        "2015-04-22",
+        "2015-04-23",
+        "2015-04-24",
+        "2015-04-27",
+        "2015-04-28"
+      ],
+      "start_seconds": 18,
+      "end_seconds_exclusive": 32
+    },
+    {
+      "beat_id": "B04",
+      "start_date": "2015-04-28",
+      "end_date": "2015-05-29",
+      "trading_dates": [
+        "2015-04-28",
+        "2015-04-29",
+        "2015-04-30",
+        "2015-05-04",
+        "2015-05-05",
+        "2015-05-06",
+        "2015-05-07",
+        "2015-05-08",
+        "2015-05-11",
+        "2015-05-12",
+        "2015-05-13",
+        "2015-05-14",
+        "2015-05-15",
+        "2015-05-18",
+        "2015-05-19",
+        "2015-05-20",
+        "2015-05-21",
+        "2015-05-22",
+        "2015-05-25",
+        "2015-05-26",
+        "2015-05-27",
+        "2015-05-28",
+        "2015-05-29"
+      ],
+      "start_seconds": 32,
+      "end_seconds_exclusive": 44
+    },
+    {
+      "beat_id": "B05",
+      "start_date": "2015-05-29",
+      "end_date": "2015-06-03",
+      "trading_dates": [
+        "2015-05-29",
+        "2015-06-01",
+        "2015-06-02",
+        "2015-06-03"
+      ],
+      "start_seconds": 44,
+      "end_seconds_exclusive": 56
+    },
+    {
+      "beat_id": "B06",
+      "start_date": "2015-06-03",
+      "end_date": "2015-06-10",
+      "trading_dates": [
+        "2015-06-03",
+        "2015-06-04",
+        "2015-06-05",
+        "2015-06-08",
+        "2015-06-09",
+        "2015-06-10"
+      ],
+      "start_seconds": 56,
+      "end_seconds_exclusive": 64
+    },
+    {
+      "beat_id": "B07",
+      "start_date": "2015-06-10",
+      "end_date": "2015-06-19",
+      "trading_dates": [
+        "2015-06-10",
+        "2015-06-11",
+        "2015-06-12",
+        "2015-06-15",
+        "2015-06-16",
+        "2015-06-17",
+        "2015-06-18",
+        "2015-06-19"
+      ],
+      "start_seconds": 64,
+      "end_seconds_exclusive": 76
+    },
+    {
+      "beat_id": "B08",
+      "start_date": "2015-06-19",
+      "end_date": "2015-07-03",
+      "trading_dates": [
+        "2015-06-19",
+        "2015-06-23",
+        "2015-06-24",
+        "2015-06-25",
+        "2015-06-26",
+        "2015-06-29",
+        "2015-06-30",
+        "2015-07-01",
+        "2015-07-02",
+        "2015-07-03"
+      ],
+      "start_seconds": 76,
+      "end_seconds_exclusive": 92
+    },
+    {
+      "beat_id": "B09",
+      "start_date": "2015-07-03",
+      "end_date": "2015-07-03",
+      "trading_dates": [
+        "2015-07-03"
+      ],
+      "start_seconds": 92,
+      "end_seconds_exclusive": 108
+    },
+    {
+      "beat_id": "B10",
+      "start_date": "2015-07-03",
+      "end_date": "2015-07-23",
+      "trading_dates": [
+        "2015-07-03",
+        "2015-07-06",
+        "2015-07-07",
+        "2015-07-08",
+        "2015-07-09",
+        "2015-07-10",
+        "2015-07-13",
+        "2015-07-14",
+        "2015-07-15",
+        "2015-07-16",
+        "2015-07-17",
+        "2015-07-20",
+        "2015-07-21",
+        "2015-07-22",
+        "2015-07-23"
+      ],
+      "start_seconds": 108,
+      "end_seconds_exclusive": 120
+    },
+    {
+      "beat_id": "B11",
+      "start_date": "2015-07-23",
+      "end_date": "2015-07-27",
+      "trading_dates": [
+        "2015-07-23",
+        "2015-07-24",
+        "2015-07-27"
+      ],
+      "start_seconds": 120,
+      "end_seconds_exclusive": 128
+    },
+    {
+      "beat_id": "B12",
+      "start_date": "2015-07-28",
+      "end_date": "2015-08-20",
+      "trading_dates": [
+        "2015-07-28",
+        "2015-07-29",
+        "2015-07-30",
+        "2015-07-31",
+        "2015-08-03",
+        "2015-08-04",
+        "2015-08-05",
+        "2015-08-06",
+        "2015-08-07",
+        "2015-08-10",
+        "2015-08-11",
+        "2015-08-12",
+        "2015-08-13",
+        "2015-08-14",
+        "2015-08-17",
+        "2015-08-18",
+        "2015-08-19",
+        "2015-08-20"
+      ],
+      "start_seconds": 128,
+      "end_seconds_exclusive": 144
+    },
+    {
+      "beat_id": "B13",
+      "start_date": "2015-08-20",
+      "end_date": "2015-08-24",
+      "trading_dates": [
+        "2015-08-20",
+        "2015-08-21",
+        "2015-08-24"
+      ],
+      "start_seconds": 144,
+      "end_seconds_exclusive": 158
+    },
+    {
+      "beat_id": "B14",
+      "start_date": "2015-08-24",
+      "end_date": "2015-08-25",
+      "trading_dates": [
+        "2015-08-24",
+        "2015-08-25"
+      ],
+      "start_seconds": 158,
+      "end_seconds_exclusive": 174
+    },
+    {
+      "beat_id": "B15",
+      "start_date": "2015-08-25",
+      "end_date": "2015-08-26",
+      "trading_dates": [
+        "2015-08-25",
+        "2015-08-26"
+      ],
+      "start_seconds": 174,
+      "end_seconds_exclusive": 184
+    },
+    {
+      "beat_id": "B16",
+      "start_date": "2015-08-26",
+      "end_date": "2015-09-15",
+      "trading_dates": [
+        "2015-08-26",
+        "2015-08-27",
+        "2015-08-28",
+        "2015-08-31",
+        "2015-09-01",
+        "2015-09-02",
+        "2015-09-07",
+        "2015-09-08",
+        "2015-09-09",
+        "2015-09-10",
+        "2015-09-11",
+        "2015-09-14",
+        "2015-09-15"
+      ],
+      "start_seconds": 184,
+      "end_seconds_exclusive": 196
+    },
+    {
+      "beat_id": "B17",
+      "start_date": "2015-09-15",
+      "end_date": "2015-09-29",
+      "trading_dates": [
+        "2015-09-15",
+        "2015-09-16",
+        "2015-09-17",
+        "2015-09-18",
+        "2015-09-21",
+        "2015-09-22",
+        "2015-09-23",
+        "2015-09-24",
+        "2015-09-25",
+        "2015-09-28",
+        "2015-09-29"
+      ],
+      "start_seconds": 196,
+      "end_seconds_exclusive": 218
+    },
+    {
+      "beat_id": "B18",
+      "start_date": "2015-09-29",
+      "end_date": "2015-11-25",
+      "trading_dates": [
+        "2015-09-29",
+        "2015-09-30",
+        "2015-10-08",
+        "2015-10-09",
+        "2015-10-12",
+        "2015-10-13",
+        "2015-10-14",
+        "2015-10-15",
+        "2015-10-16",
+        "2015-10-19",
+        "2015-10-20",
+        "2015-10-21",
+        "2015-10-22",
+        "2015-10-23",
+        "2015-10-26",
+        "2015-10-27",
+        "2015-10-28",
+        "2015-10-29",
+        "2015-10-30",
+        "2015-11-02",
+        "2015-11-03",
+        "2015-11-04",
+        "2015-11-05",
+        "2015-11-06",
+        "2015-11-09",
+        "2015-11-10",
+        "2015-11-11",
+        "2015-11-12",
+        "2015-11-13",
+        "2015-11-16",
+        "2015-11-17",
+        "2015-11-18",
+        "2015-11-19",
+        "2015-11-20",
+        "2015-11-23",
+        "2015-11-24",
+        "2015-11-25"
+      ],
+      "start_seconds": 218,
+      "end_seconds_exclusive": 240
+    }
+  ],
+  "chronological_trade_count": 161,
+  "market_joins": [
+    {
+      "next_beat": "B02",
+      "previous_end": "2015-06-03",
+      "current_start": "2015-04-01",
+      "trading_row_step": -43,
+      "intentional_hook_reset": true,
+      "passed": true
+    },
+    {
+      "next_beat": "B03",
+      "previous_end": "2015-04-10",
+      "current_start": "2015-04-10",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B04",
+      "previous_end": "2015-04-28",
+      "current_start": "2015-04-28",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B05",
+      "previous_end": "2015-05-29",
+      "current_start": "2015-05-29",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B06",
+      "previous_end": "2015-06-03",
+      "current_start": "2015-06-03",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B07",
+      "previous_end": "2015-06-10",
+      "current_start": "2015-06-10",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B08",
+      "previous_end": "2015-06-19",
+      "current_start": "2015-06-19",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B09",
+      "previous_end": "2015-07-03",
+      "current_start": "2015-07-03",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B10",
+      "previous_end": "2015-07-03",
+      "current_start": "2015-07-03",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B11",
+      "previous_end": "2015-07-23",
+      "current_start": "2015-07-23",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B12",
+      "previous_end": "2015-07-27",
+      "current_start": "2015-07-28",
+      "trading_row_step": 1,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B13",
+      "previous_end": "2015-08-20",
+      "current_start": "2015-08-20",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B14",
+      "previous_end": "2015-08-24",
+      "current_start": "2015-08-24",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B15",
+      "previous_end": "2015-08-25",
+      "current_start": "2015-08-25",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B16",
+      "previous_end": "2015-08-26",
+      "current_start": "2015-08-26",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B17",
+      "previous_end": "2015-09-15",
+      "current_start": "2015-09-15",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    },
+    {
+      "next_beat": "B18",
+      "previous_end": "2015-09-29",
+      "current_start": "2015-09-29",
+      "trading_row_step": 0,
+      "intentional_hook_reset": false,
+      "passed": true
+    }
+  ],
+  "calendar_only_checkpoints": [
+    {
+      "beat_id": "B08",
+      "date": "2015-06-27",
+      "role": "weekend_announcement_no_market_candle",
+      "market_candle": false,
+      "preceding_trade": "2015-06-26",
+      "following_trade": "2015-06-29"
+    },
+    {
+      "beat_id": "B08",
+      "date": "2015-06-28",
+      "role": "policy_effective_date_no_market_candle",
+      "market_candle": false,
+      "preceding_trade": "2015-06-26",
+      "following_trade": "2015-06-29"
+    }
+  ],
+  "event_market_anchors": [
+    {
+      "event_id": "E-JUN-02-01",
+      "event_date": "2015-06-27",
+      "date_is_trading_day": false,
+      "anchor_date": "2015-06-26",
+      "next_real_trade": "2015-06-29"
+    },
+    {
+      "event_id": "E-JUN-02-02",
+      "event_date": "2015-07-04",
+      "date_is_trading_day": false,
+      "anchor_date": "2015-07-03",
+      "next_real_trade": "2015-07-06"
+    },
+    {
+      "event_id": "E-JUN-02-03",
+      "event_date": "2015-07-04",
+      "date_is_trading_day": false,
+      "anchor_date": "2015-07-03",
+      "next_real_trade": "2015-07-06"
+    },
+    {
+      "event_id": "E-JUN-02-04",
+      "event_date": "2015-07-05",
+      "date_is_trading_day": false,
+      "anchor_date": "2015-07-03",
+      "next_real_trade": "2015-07-06"
+    },
+    {
+      "event_id": "E-AUG-01-01",
+      "event_date": "2015-08-11",
+      "date_is_trading_day": true,
+      "anchor_date": "2015-08-11",
+      "next_real_trade": "2015-08-12"
+    },
+    {
+      "event_id": "E-AUG-02-05",
+      "event_date": "2015-08-25",
+      "date_is_trading_day": true,
+      "anchor_date": "2015-08-25",
+      "next_real_trade": "2015-08-26"
+    }
+  ],
+  "price_checks": [
+    {
+      "id": "B01 primary",
+      "date": "2015-06-03",
+      "field": "close",
+      "claimed": "3982.25",
+      "actual": "3982.25",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3949.28",
+        "high": "4011.04",
+        "low": "3838.22",
+        "close": "3982.25"
+      },
+      "passed": true
+    },
+    {
+      "id": "B02 primary",
+      "date": "2015-04-10",
+      "field": "close",
+      "claimed": "2552.83",
+      "actual": "2552.83",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2475.56",
+        "high": "2567.68",
+        "low": "2457.82",
+        "close": "2552.83"
+      },
+      "passed": true
+    },
+    {
+      "id": "B02 secondary 1",
+      "date": "2015-04-01",
+      "field": "close",
+      "claimed": "2404.91",
+      "actual": "2404.91",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2347.0",
+        "high": "2407.49",
+        "low": "2345.75",
+        "close": "2404.91"
+      },
+      "passed": true
+    },
+    {
+      "id": "B03 primary",
+      "date": "2015-04-28",
+      "field": "close",
+      "claimed": "2687.97",
+      "actual": "2687.97",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2764.41",
+        "high": "2779.2",
+        "low": "2650.43",
+        "close": "2687.97"
+      },
+      "passed": true
+    },
+    {
+      "id": "B04 primary",
+      "date": "2015-05-13",
+      "field": "close",
+      "claimed": "3192.15",
+      "actual": "3192.15",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3185.34",
+        "high": "3271.18",
+        "low": "3123.92",
+        "close": "3192.15"
+      },
+      "passed": true
+    },
+    {
+      "id": "B04 secondary 1",
+      "date": "2015-05-29",
+      "field": "close",
+      "claimed": "3542.84",
+      "actual": "3542.84",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3444.06",
+        "high": "3595.17",
+        "low": "3328.46",
+        "close": "3542.84"
+      },
+      "passed": true
+    },
+    {
+      "id": "B05 primary",
+      "date": "2015-06-03",
+      "field": "close",
+      "claimed": "3982.25",
+      "actual": "3982.25",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3949.28",
+        "high": "4011.04",
+        "low": "3838.22",
+        "close": "3982.25"
+      },
+      "passed": true
+    },
+    {
+      "id": "B06 primary",
+      "date": "2015-06-05",
+      "field": "high",
+      "claimed": "4037.96",
+      "actual": "4037.96",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3994.44",
+        "high": "4037.96",
+        "low": "3841.42",
+        "close": "3885.83"
+      },
+      "passed": true
+    },
+    {
+      "id": "B06 secondary 1",
+      "date": "2015-06-05",
+      "field": "close",
+      "claimed": "3885.83",
+      "actual": "3885.83",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3994.44",
+        "high": "4037.96",
+        "low": "3841.42",
+        "close": "3885.83"
+      },
+      "passed": true
+    },
+    {
+      "id": "B07 primary",
+      "date": "2015-06-19",
+      "field": "close",
+      "claimed": "3314.98",
+      "actual": "3314.98",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3408.53",
+        "high": "3476.03",
+        "low": "3304.65",
+        "close": "3314.98"
+      },
+      "passed": true
+    },
+    {
+      "id": "B08 primary",
+      "date": "2015-07-03",
+      "field": "close",
+      "claimed": "2605.28",
+      "actual": "2605.28",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2559.03",
+        "high": "2788.76",
+        "low": "2458.29",
+        "close": "2605.28"
+      },
+      "passed": true
+    },
+    {
+      "id": "B08 secondary 1",
+      "date": "2015-06-26",
+      "field": "close",
+      "claimed": "2920.7",
+      "actual": "2920.7",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3078.4",
+        "high": "3078.4",
+        "low": "2915.94",
+        "close": "2920.7"
+      },
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 1",
+      "date": "2015-06-19",
+      "field": "close",
+      "claimed": "3314.98",
+      "actual": "3314.98",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3408.53",
+        "high": "3476.03",
+        "low": "3304.65",
+        "close": "3314.98"
+      },
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 2",
+      "date": "2015-06-26",
+      "field": "close",
+      "claimed": "2920.7",
+      "actual": "2920.7",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3078.4",
+        "high": "3078.4",
+        "low": "2915.94",
+        "close": "2920.7"
+      },
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 5",
+      "date": "2015-06-29",
+      "field": "close",
+      "claimed": "2689.76",
+      "actual": "2689.76",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2943.5",
+        "high": "2950.13",
+        "low": "2663.44",
+        "close": "2689.76"
+      },
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 6",
+      "date": "2015-07-03",
+      "field": "close",
+      "claimed": "2605.28",
+      "actual": "2605.28",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2559.03",
+        "high": "2788.76",
+        "low": "2458.29",
+        "close": "2605.28"
+      },
+      "passed": true
+    },
+    {
+      "id": "B08 event E-JUN-02-01",
+      "date": "2015-06-26",
+      "field": "close",
+      "claimed": "2920.7",
+      "actual": "2920.7",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3078.4",
+        "high": "3078.4",
+        "low": "2915.94",
+        "close": "2920.7"
+      },
+      "passed": true
+    },
+    {
+      "id": "B09 primary",
+      "date": "2015-07-03",
+      "field": "close",
+      "claimed": "2605.28",
+      "actual": "2605.28",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2559.03",
+        "high": "2788.76",
+        "low": "2458.29",
+        "close": "2605.28"
+      },
+      "passed": true
+    },
+    {
+      "id": "B09 event E-JUN-02-02",
+      "date": "2015-07-03",
+      "field": "close",
+      "claimed": "2605.28",
+      "actual": "2605.28",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2559.03",
+        "high": "2788.76",
+        "low": "2458.29",
+        "close": "2605.28"
+      },
+      "passed": true
+    },
+    {
+      "id": "B09 event E-JUN-02-03",
+      "date": "2015-07-03",
+      "field": "close",
+      "claimed": "2605.28",
+      "actual": "2605.28",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2559.03",
+        "high": "2788.76",
+        "low": "2458.29",
+        "close": "2605.28"
+      },
+      "passed": true
+    },
+    {
+      "id": "B09 event E-JUN-02-04",
+      "date": "2015-07-03",
+      "field": "close",
+      "claimed": "2605.28",
+      "actual": "2605.28",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2559.03",
+        "high": "2788.76",
+        "low": "2458.29",
+        "close": "2605.28"
+      },
+      "passed": true
+    },
+    {
+      "id": "B10 primary",
+      "date": "2015-07-23",
+      "field": "close",
+      "claimed": "2967.95",
+      "actual": "2967.95",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2896.25",
+        "high": "2969.35",
+        "low": "2864.43",
+        "close": "2967.95"
+      },
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe 1",
+      "date": "2015-07-03",
+      "field": "close",
+      "claimed": "2605.28",
+      "actual": "2605.28",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2559.03",
+        "high": "2788.76",
+        "low": "2458.29",
+        "close": "2605.28"
+      },
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe 3",
+      "date": "2015-07-07",
+      "field": "close",
+      "claimed": "2352.01",
+      "actual": "2352.01",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2398.1",
+        "high": "2415.68",
+        "low": "2350.97",
+        "close": "2352.01"
+      },
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe 4",
+      "date": "2015-07-23",
+      "field": "close",
+      "claimed": "2967.95",
+      "actual": "2967.95",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2896.25",
+        "high": "2969.35",
+        "low": "2864.43",
+        "close": "2967.95"
+      },
+      "passed": true
+    },
+    {
+      "id": "B11 primary",
+      "date": "2015-07-27",
+      "field": "close",
+      "claimed": "2683.45",
+      "actual": "2683.45",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2822.37",
+        "high": "2924.08",
+        "low": "2683.05",
+        "close": "2683.45"
+      },
+      "passed": true
+    },
+    {
+      "id": "B11 keyframe 1",
+      "date": "2015-07-23",
+      "field": "close",
+      "claimed": "2967.95",
+      "actual": "2967.95",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2896.25",
+        "high": "2969.35",
+        "low": "2864.43",
+        "close": "2967.95"
+      },
+      "passed": true
+    },
+    {
+      "id": "B11 keyframe 2",
+      "date": "2015-07-24",
+      "field": "close",
+      "claimed": "2897.82",
+      "actual": "2897.82",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2976.94",
+        "high": "3014.18",
+        "low": "2879.26",
+        "close": "2897.82"
+      },
+      "passed": true
+    },
+    {
+      "id": "B11 keyframe 3",
+      "date": "2015-07-27",
+      "field": "close",
+      "claimed": "2683.45",
+      "actual": "2683.45",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2822.37",
+        "high": "2924.08",
+        "low": "2683.05",
+        "close": "2683.45"
+      },
+      "passed": true
+    },
+    {
+      "id": "B12 primary",
+      "date": "2015-08-18",
+      "field": "close",
+      "claimed": "2504.17",
+      "actual": "2504.17",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2674.42",
+        "high": "2720.58",
+        "low": "2488.61",
+        "close": "2504.17"
+      },
+      "passed": true
+    },
+    {
+      "id": "B12 secondary 1",
+      "date": "2015-08-20",
+      "field": "close",
+      "claimed": "2508.82",
+      "actual": "2508.82",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2556.77",
+        "high": "2610.9",
+        "low": "2508.35",
+        "close": "2508.82"
+      },
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe 3",
+      "date": "2015-08-18",
+      "field": "close",
+      "claimed": "2504.17",
+      "actual": "2504.17",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2674.42",
+        "high": "2720.58",
+        "low": "2488.61",
+        "close": "2504.17"
+      },
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe 4",
+      "date": "2015-08-20",
+      "field": "close",
+      "claimed": "2508.82",
+      "actual": "2508.82",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2556.77",
+        "high": "2610.9",
+        "low": "2508.35",
+        "close": "2508.82"
+      },
+      "passed": true
+    },
+    {
+      "id": "B13 primary",
+      "date": "2015-08-24",
+      "field": "close",
+      "claimed": "2152.61",
+      "actual": "2152.61",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2222.54",
+        "high": "2246.55",
+        "low": "2152.61",
+        "close": "2152.61"
+      },
+      "passed": true
+    },
+    {
+      "id": "B13 keyframe 3",
+      "date": "2015-08-24",
+      "field": "close",
+      "claimed": "2152.61",
+      "actual": "2152.61",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2222.54",
+        "high": "2246.55",
+        "low": "2152.61",
+        "close": "2152.61"
+      },
+      "passed": true
+    },
+    {
+      "id": "B14 primary",
+      "date": "2015-08-25",
+      "field": "close",
+      "claimed": "1990.71",
+      "actual": "1990.71",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1996.04",
+        "high": "2048.03",
+        "low": "1987.12",
+        "close": "1990.71"
+      },
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 1",
+      "date": "2015-08-24",
+      "field": "close",
+      "claimed": "2152.61",
+      "actual": "2152.61",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2222.54",
+        "high": "2246.55",
+        "low": "2152.61",
+        "close": "2152.61"
+      },
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 2",
+      "date": "2015-08-25",
+      "field": "open",
+      "claimed": "1996.04",
+      "actual": "1996.04",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1996.04",
+        "high": "2048.03",
+        "low": "1987.12",
+        "close": "1990.71"
+      },
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 3",
+      "date": "2015-08-25",
+      "field": "low",
+      "claimed": "1987.12",
+      "actual": "1987.12",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1996.04",
+        "high": "2048.03",
+        "low": "1987.12",
+        "close": "1990.71"
+      },
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 4",
+      "date": "2015-08-25",
+      "field": "close",
+      "claimed": "1990.71",
+      "actual": "1990.71",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1996.04",
+        "high": "2048.03",
+        "low": "1987.12",
+        "close": "1990.71"
+      },
+      "passed": true
+    },
+    {
+      "id": "B14 event E-AUG-02-05",
+      "date": "2015-08-25",
+      "field": "close",
+      "claimed": "1990.71",
+      "actual": "1990.71",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1996.04",
+        "high": "2048.03",
+        "low": "1987.12",
+        "close": "1990.71"
+      },
+      "passed": true
+    },
+    {
+      "id": "B15 primary",
+      "date": "2015-08-26",
+      "field": "close",
+      "claimed": "1890.04",
+      "actual": "1890.04",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1975.92",
+        "high": "2044.66",
+        "low": "1875.03",
+        "close": "1890.04"
+      },
+      "passed": true
+    },
+    {
+      "id": "B15 event E-AUG-02-05",
+      "date": "2015-08-26",
+      "field": "close",
+      "claimed": "1890.04",
+      "actual": "1890.04",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1975.92",
+        "high": "2044.66",
+        "low": "1875.03",
+        "close": "1890.04"
+      },
+      "passed": true
+    },
+    {
+      "id": "B16 primary",
+      "date": "2015-09-15",
+      "field": "close",
+      "claimed": "1797.56",
+      "actual": "1797.56",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1843.23",
+        "high": "1892.81",
+        "low": "1794.29",
+        "close": "1797.56"
+      },
+      "passed": true
+    },
+    {
+      "id": "B17 primary",
+      "date": "2015-09-28",
+      "field": "close",
+      "claimed": "2122.26",
+      "actual": "2122.26",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2024.89",
+        "high": "2124.06",
+        "low": "2007.92",
+        "close": "2122.26"
+      },
+      "passed": true
+    },
+    {
+      "id": "B17 secondary 1",
+      "date": "2015-09-29",
+      "field": "close",
+      "claimed": "2098.57",
+      "actual": "2098.57",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2089.54",
+        "high": "2135.51",
+        "low": "2075.97",
+        "close": "2098.57"
+      },
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 1",
+      "date": "2015-09-15",
+      "field": "close",
+      "claimed": "1797.56",
+      "actual": "1797.56",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1843.23",
+        "high": "1892.81",
+        "low": "1794.29",
+        "close": "1797.56"
+      },
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 2",
+      "date": "2015-09-16",
+      "field": "close",
+      "claimed": "1926.25",
+      "actual": "1926.25",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1813.73",
+        "high": "1928.78",
+        "low": "1808.75",
+        "close": "1926.25"
+      },
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 3",
+      "date": "2015-09-21",
+      "field": "close",
+      "claimed": "2079.06",
+      "actual": "2079.06",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1950.33",
+        "high": "2080.22",
+        "low": "1945.35",
+        "close": "2079.06"
+      },
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 4",
+      "date": "2015-09-25",
+      "field": "close",
+      "claimed": "2020.97",
+      "actual": "2020.97",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2091.85",
+        "high": "2106.95",
+        "low": "2002.45",
+        "close": "2020.97"
+      },
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 5",
+      "date": "2015-09-28",
+      "field": "close",
+      "claimed": "2122.26",
+      "actual": "2122.26",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2024.89",
+        "high": "2124.06",
+        "low": "2007.92",
+        "close": "2122.26"
+      },
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 6",
+      "date": "2015-09-29",
+      "field": "close",
+      "claimed": "2098.57",
+      "actual": "2098.57",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2089.54",
+        "high": "2135.51",
+        "low": "2075.97",
+        "close": "2098.57"
+      },
+      "passed": true
+    },
+    {
+      "id": "B18 primary",
+      "date": "2015-11-25",
+      "field": "close",
+      "claimed": "2897.57",
+      "actual": "2897.57",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2813.51",
+        "high": "2906.8",
+        "low": "2806.82",
+        "close": "2897.57"
+      },
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 1",
+      "date": "2015-09-29",
+      "field": "close",
+      "claimed": "2098.57",
+      "actual": "2098.57",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2089.54",
+        "high": "2135.51",
+        "low": "2075.97",
+        "close": "2098.57"
+      },
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 2",
+      "date": "2015-09-30",
+      "field": "close",
+      "claimed": "2082.67",
+      "actual": "2082.67",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2111.99",
+        "high": "2124.29",
+        "low": "2049.43",
+        "close": "2082.67"
+      },
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 3",
+      "date": "2015-10-08",
+      "field": "close",
+      "claimed": "2190.31",
+      "actual": "2190.31",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2153.12",
+        "high": "2210.04",
+        "low": "2138.54",
+        "close": "2190.31"
+      },
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 4",
+      "date": "2015-10-09",
+      "field": "close",
+      "claimed": "2216.66",
+      "actual": "2216.66",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2190.84",
+        "high": "2230.03",
+        "low": "2184.55",
+        "close": "2216.66"
+      },
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 5",
+      "date": "2015-10-12",
+      "field": "close",
+      "claimed": "2316.78",
+      "actual": "2316.78",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2233.61",
+        "high": "2344.21",
+        "low": "2232.27",
+        "close": "2316.78"
+      },
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 6",
+      "date": "2015-11-25",
+      "field": "close",
+      "claimed": "2897.57",
+      "actual": "2897.57",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2813.51",
+        "high": "2906.8",
+        "low": "2806.82",
+        "close": "2897.57"
+      },
+      "passed": true
+    },
+    {
+      "id": "B03 effective-date observation",
+      "date": "2015-04-13",
+      "field": "close",
+      "claimed": "2577.78",
+      "actual": "2577.78",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2558.19",
+        "high": "2596.92",
+        "low": "2545.26",
+        "close": "2577.78"
+      },
+      "passed": true
+    },
+    {
+      "id": "B07 public regulatory answer",
+      "date": "2015-06-12",
+      "field": "close",
+      "claimed": "3899.71",
+      "actual": "3899.71",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3889.16",
+        "high": "3922.7",
+        "low": "3850.59",
+        "close": "3899.71"
+      },
+      "passed": true
+    },
+    {
+      "id": "B07 June retrospective observation",
+      "date": "2015-06-18",
+      "field": "close",
+      "claimed": "3504.55",
+      "actual": "3504.55",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3734.91",
+        "high": "3752.18",
+        "low": "3497.73",
+        "close": "3504.55"
+      },
+      "passed": true
+    },
+    {
+      "id": "B10 first session after weekend",
+      "date": "2015-07-06",
+      "field": "close",
+      "claimed": "2493.83",
+      "actual": "2493.83",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2795.67",
+        "high": "2795.67",
+        "low": "2417.56",
+        "close": "2493.83"
+      },
+      "passed": true
+    },
+    {
+      "id": "B12 currency mechanism observation",
+      "date": "2015-08-11",
+      "field": "close",
+      "claimed": "2698.91",
+      "actual": "2698.91",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2705.04",
+        "high": "2747.83",
+        "low": "2675.15",
+        "close": "2698.91"
+      },
+      "passed": true
+    },
+    {
+      "id": "B16 intraday period low",
+      "date": "2015-09-02",
+      "field": "low",
+      "claimed": "1779.18",
+      "actual": "1779.18",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1787.71",
+        "high": "1953.91",
+        "low": "1779.18",
+        "close": "1855.03"
+      },
+      "passed": true
+    },
+    {
+      "id": "B16 Sept15 same-row intraday low",
+      "date": "2015-09-15",
+      "field": "low",
+      "claimed": "1794.29",
+      "actual": "1794.29",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1843.23",
+        "high": "1892.81",
+        "low": "1794.29",
+        "close": "1797.56"
+      },
+      "passed": true
+    },
+    {
+      "id": "event register E-JUN-02-01",
+      "date": "2015-06-26",
+      "field": "close",
+      "claimed": "2920.7",
+      "actual": "2920.7",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "3078.4",
+        "high": "3078.4",
+        "low": "2915.94",
+        "close": "2920.7"
+      },
+      "passed": true
+    },
+    {
+      "id": "event register E-JUN-02-02",
+      "date": "2015-07-03",
+      "field": "close",
+      "claimed": "2605.28",
+      "actual": "2605.28",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2559.03",
+        "high": "2788.76",
+        "low": "2458.29",
+        "close": "2605.28"
+      },
+      "passed": true
+    },
+    {
+      "id": "event register E-JUN-02-03",
+      "date": "2015-07-03",
+      "field": "close",
+      "claimed": "2605.28",
+      "actual": "2605.28",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2559.03",
+        "high": "2788.76",
+        "low": "2458.29",
+        "close": "2605.28"
+      },
+      "passed": true
+    },
+    {
+      "id": "event register E-JUN-02-04",
+      "date": "2015-07-03",
+      "field": "close",
+      "claimed": "2605.28",
+      "actual": "2605.28",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "2559.03",
+        "high": "2788.76",
+        "low": "2458.29",
+        "close": "2605.28"
+      },
+      "passed": true
+    },
+    {
+      "id": "event register E-AUG-01-01",
+      "date": "2015-08-11",
+      "field": "close",
+      "claimed": null,
+      "actual": "2698.91",
+      "derived_only": true,
+      "actual_ohlc": {
+        "open": "2705.04",
+        "high": "2747.83",
+        "low": "2675.15",
+        "close": "2698.91"
+      },
+      "passed": true
+    },
+    {
+      "id": "event register E-AUG-02-05",
+      "date": "2015-08-25",
+      "field": "close",
+      "claimed": "1990.71",
+      "actual": "1990.71",
+      "derived_only": false,
+      "actual_ohlc": {
+        "open": "1996.04",
+        "high": "2048.03",
+        "low": "1987.12",
+        "close": "1990.71"
+      },
+      "passed": true
+    }
+  ],
+  "return_checks": [
+    {
+      "id": "B11 keyframe 3 daily",
+      "start_date": "2015-07-24",
+      "start_field": "close",
+      "start_value": "2897.82",
+      "end_date": "2015-07-27",
+      "end_field": "close",
+      "end_value": "2683.45",
+      "computed_percent": "-7.397629942508506394462043880",
+      "rounded_percent": "-7.40",
+      "claimed_percent": "-7.4",
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe 3 daily",
+      "start_date": "2015-08-17",
+      "start_field": "close",
+      "start_value": "2666.29",
+      "end_date": "2015-08-18",
+      "end_field": "close",
+      "end_value": "2504.17",
+      "computed_percent": "-6.080358850687659631923009130",
+      "rounded_percent": "-6.08",
+      "claimed_percent": "-6.08",
+      "passed": true
+    },
+    {
+      "id": "B13 keyframe 3 daily",
+      "start_date": "2015-08-21",
+      "start_field": "close",
+      "start_value": "2341.95",
+      "end_date": "2015-08-24",
+      "end_field": "close",
+      "end_value": "2152.61",
+      "computed_percent": "-8.084715728346036422639253610",
+      "rounded_percent": "-8.08",
+      "claimed_percent": "-8.08",
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 2 daily",
+      "start_date": "2015-09-15",
+      "start_field": "close",
+      "start_value": "1797.56",
+      "end_date": "2015-09-16",
+      "end_field": "close",
+      "end_value": "1926.25",
+      "computed_percent": "7.159149068737622109971294400",
+      "rounded_percent": "7.16",
+      "claimed_percent": "7.16",
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 3 daily",
+      "start_date": "2015-09-18",
+      "start_field": "close",
+      "start_value": "1983.3",
+      "end_date": "2015-09-21",
+      "end_field": "close",
+      "end_value": "2079.06",
+      "computed_percent": "4.828316442293147783996369700",
+      "rounded_percent": "4.83",
+      "claimed_percent": "4.83",
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 4 daily",
+      "start_date": "2015-09-24",
+      "start_field": "close",
+      "start_value": "2106.59",
+      "end_date": "2015-09-25",
+      "end_field": "close",
+      "end_value": "2020.97",
+      "computed_percent": "-4.064388419198799956327524580",
+      "rounded_percent": "-4.06",
+      "claimed_percent": "-4.06",
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 5 daily",
+      "start_date": "2015-09-25",
+      "start_field": "close",
+      "start_value": "2020.97",
+      "end_date": "2015-09-28",
+      "end_field": "close",
+      "end_value": "2122.26",
+      "computed_percent": "5.011949707318762772332098000",
+      "rounded_percent": "5.01",
+      "claimed_percent": "5.01",
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 6 daily",
+      "start_date": "2015-09-28",
+      "start_field": "close",
+      "start_value": "2122.26",
+      "end_date": "2015-09-29",
+      "end_field": "close",
+      "end_value": "2098.57",
+      "computed_percent": "-1.116262851865464174983272550",
+      "rounded_percent": "-1.12",
+      "claimed_percent": "-1.12",
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 3 daily",
+      "start_date": "2015-09-30",
+      "start_field": "close",
+      "start_value": "2082.67",
+      "end_date": "2015-10-08",
+      "end_field": "close",
+      "end_value": "2190.31",
+      "computed_percent": "5.168365607609462852972386400",
+      "rounded_percent": "5.17",
+      "claimed_percent": "5.17",
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 5 daily",
+      "start_date": "2015-10-09",
+      "start_field": "close",
+      "start_value": "2216.66",
+      "end_date": "2015-10-12",
+      "end_field": "close",
+      "end_value": "2316.78",
+      "computed_percent": "4.516705313399438795304647500",
+      "rounded_percent": "4.52",
+      "claimed_percent": "4.52",
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 6 range",
+      "start_date": "2015-09-15",
+      "start_field": "close",
+      "start_value": "1797.56",
+      "end_date": "2015-11-25",
+      "end_field": "close",
+      "end_value": "2897.57",
+      "computed_percent": "61.19461937292774650081221210",
+      "rounded_percent": "61.19",
+      "claimed_percent": "61.19",
+      "passed": true
+    },
+    {
+      "id": "July rebound",
+      "start_date": "2015-07-07",
+      "start_field": "close",
+      "start_value": "2352.01",
+      "end_date": "2015-07-23",
+      "end_field": "close",
+      "end_value": "2967.95",
+      "computed_percent": "26.18781382732216274590669260",
+      "rounded_percent": "26.19",
+      "claimed_percent": "26.19",
+      "passed": true
+    },
+    {
+      "id": "July 23–27 cumulative",
+      "start_date": "2015-07-23",
+      "start_field": "close",
+      "start_value": "2967.95",
+      "end_date": "2015-07-27",
+      "end_field": "close",
+      "end_value": "2683.45",
+      "computed_percent": "-9.585740999679913745177647870",
+      "rounded_percent": "-9.59",
+      "claimed_percent": "-9.59",
+      "passed": true
+    },
+    {
+      "id": "June to September close drawdown",
+      "start_date": "2015-06-03",
+      "start_field": "close",
+      "start_value": "3982.25",
+      "end_date": "2015-09-15",
+      "end_field": "close",
+      "end_value": "1797.56",
+      "computed_percent": "-54.86069433109423064850273087",
+      "rounded_percent": "-54.86",
+      "claimed_percent": "-54.86",
+      "passed": true
+    },
+    {
+      "id": "June to September intraday extremes",
+      "start_date": "2015-06-05",
+      "start_field": "high",
+      "start_value": "4037.96",
+      "end_date": "2015-09-02",
+      "end_field": "low",
+      "end_value": "1779.18",
+      "computed_percent": "-55.93864228471802593388740849",
+      "rounded_percent": "-55.94",
+      "claimed_percent": "-55.94",
+      "passed": true
+    },
+    {
+      "id": "September rebound through 28th",
+      "start_date": "2015-09-15",
+      "start_field": "close",
+      "start_value": "1797.56",
+      "end_date": "2015-09-28",
+      "end_field": "close",
+      "end_value": "2122.26",
+      "computed_percent": "18.06337479694697256280736110",
+      "rounded_percent": "18.06",
+      "claimed_percent": "18.06",
+      "passed": true
+    },
+    {
+      "id": "September to November chapter recovery",
+      "start_date": "2015-09-15",
+      "start_field": "close",
+      "start_value": "1797.56",
+      "end_date": "2015-11-25",
+      "end_field": "close",
+      "end_value": "2897.57",
+      "computed_percent": "61.19461937292774650081221210",
+      "rounded_percent": "61.19",
+      "claimed_percent": "61.19",
+      "passed": true
+    },
+    {
+      "id": "August 24–26 cumulative",
+      "start_date": "2015-08-21",
+      "start_field": "close",
+      "start_value": "2341.95",
+      "end_date": "2015-08-26",
+      "end_field": "close",
+      "end_value": "1890.04",
+      "computed_percent": "-19.29631290164179423130297402",
+      "rounded_percent": "-19.30",
+      "claimed_percent": "-19.30",
+      "passed": true
+    },
+    {
+      "id": "August 25 daily",
+      "start_date": "2015-08-24",
+      "start_field": "close",
+      "start_value": "2152.61",
+      "end_date": "2015-08-25",
+      "end_field": "close",
+      "end_value": "1990.71",
+      "computed_percent": "-7.521102289778454991847106540",
+      "rounded_percent": "-7.52",
+      "claimed_percent": "-7.52",
+      "passed": true
+    },
+    {
+      "id": "August 26 daily",
+      "start_date": "2015-08-25",
+      "start_field": "close",
+      "start_value": "1990.71",
+      "end_date": "2015-08-26",
+      "end_field": "close",
+      "end_value": "1890.04",
+      "computed_percent": "-5.056989717236563839032305060",
+      "rounded_percent": "-5.06",
+      "claimed_percent": "-5.06",
+      "passed": true
+    }
+  ],
+  "checks": [
+    {
+      "id": "frozen OHLC source SHA-256",
+      "actual": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+      "expected": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+      "passed": true
+    },
+    {
+      "id": "frozen OHLC row count",
+      "actual": 3992,
+      "expected": 3992,
+      "passed": true
+    },
+    {
+      "id": "ordered beat IDs",
+      "actual": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15",
+        "B16",
+        "B17",
+        "B18"
+      ],
+      "expected": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15",
+        "B16",
+        "B17",
+        "B18"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B01 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B01 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B01 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B01 keyframe dates monotone",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "B02 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B02 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B02 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B02 secondary 1 lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B02 keyframe dates monotone",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "B03 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B03 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B03 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B03 keyframe dates monotone",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "B04 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B04 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B04 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B04 secondary 1 lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B04 keyframe dates monotone",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "B05 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B05 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B05 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B05 keyframe dates monotone",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "B06 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B06 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B06 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B06 secondary 1 lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B06 keyframe dates monotone",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "B07 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B07 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B07 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B07 keyframe dates monotone",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "B08 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 secondary 1 lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe dates monotone",
+      "actual": [
+        "2015-06-19",
+        "2015-06-26",
+        "2015-06-27",
+        "2015-06-28",
+        "2015-06-29",
+        "2015-07-03"
+      ],
+      "expected": [
+        "2015-06-19",
+        "2015-06-26",
+        "2015-06-27",
+        "2015-06-28",
+        "2015-06-29",
+        "2015-07-03"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 1 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 1 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 2 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 2 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 3 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 3 is event only",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 4 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 4 is event only",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 5 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 5 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 6 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 keyframe 6 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B08 event E-JUN-02-01 anchor lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B09 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B09 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B09 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B09 keyframe dates monotone",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "B09 event E-JUN-02-02 anchor lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B09 event E-JUN-02-03 anchor lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B09 event E-JUN-02-04 anchor lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B10 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B10 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B10 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe dates monotone",
+      "actual": [
+        "2015-07-03",
+        "2015-07-06",
+        "2015-07-07",
+        "2015-07-23"
+      ],
+      "expected": [
+        "2015-07-03",
+        "2015-07-06",
+        "2015-07-07",
+        "2015-07-23"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe 1 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe 1 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe 2 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe 2 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe 3 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe 3 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe 4 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B10 keyframe 4 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B11 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B11 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B11 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B11 keyframe dates monotone",
+      "actual": [
+        "2015-07-23",
+        "2015-07-24",
+        "2015-07-27"
+      ],
+      "expected": [
+        "2015-07-23",
+        "2015-07-24",
+        "2015-07-27"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B11 keyframe 1 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B11 keyframe 1 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B11 keyframe 2 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B11 keyframe 2 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B11 keyframe 3 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B11 keyframe 3 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 secondary 1 lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe dates monotone",
+      "actual": [
+        "2015-07-28",
+        "2015-08-11",
+        "2015-08-18",
+        "2015-08-20"
+      ],
+      "expected": [
+        "2015-07-28",
+        "2015-08-11",
+        "2015-08-18",
+        "2015-08-20"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe 1 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe 1 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe 2 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe 2 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe 3 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe 3 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe 4 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B12 keyframe 4 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B13 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B13 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B13 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B13 keyframe dates monotone",
+      "actual": [
+        "2015-08-20",
+        "2015-08-21",
+        "2015-08-24"
+      ],
+      "expected": [
+        "2015-08-20",
+        "2015-08-21",
+        "2015-08-24"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B13 keyframe 1 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B13 keyframe 1 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B13 keyframe 2 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B13 keyframe 2 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B13 keyframe 3 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B13 keyframe 3 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe dates monotone",
+      "actual": [
+        "2015-08-24",
+        "2015-08-25",
+        "2015-08-25",
+        "2015-08-25"
+      ],
+      "expected": [
+        "2015-08-24",
+        "2015-08-25",
+        "2015-08-25",
+        "2015-08-25"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 1 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 1 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 2 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 2 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 3 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 3 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 4 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 keyframe 4 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B14 event E-AUG-02-05 anchor lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B15 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B15 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B15 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B15 keyframe dates monotone",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "B15 event E-AUG-02-05 anchor lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B16 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B16 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B16 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B16 keyframe dates monotone",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "B17 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 secondary 1 lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe dates monotone",
+      "actual": [
+        "2015-09-15",
+        "2015-09-16",
+        "2015-09-21",
+        "2015-09-25",
+        "2015-09-28",
+        "2015-09-29"
+      ],
+      "expected": [
+        "2015-09-15",
+        "2015-09-16",
+        "2015-09-21",
+        "2015-09-25",
+        "2015-09-28",
+        "2015-09-29"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 1 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 1 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 2 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 2 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 3 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 3 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 4 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 4 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 5 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 5 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 6 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 keyframe 6 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 chronological trading window",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 positive integral budget",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 primary lies in beat",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe dates monotone",
+      "actual": [
+        "2015-09-29",
+        "2015-09-30",
+        "2015-10-08",
+        "2015-10-09",
+        "2015-10-12",
+        "2015-11-25"
+      ],
+      "expected": [
+        "2015-09-29",
+        "2015-09-30",
+        "2015-10-08",
+        "2015-10-09",
+        "2015-10-12",
+        "2015-11-25"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 1 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 1 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 2 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 2 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 3 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 3 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 3 exact previous trading day",
+      "actual": "2015-09-30",
+      "expected": "2015-09-30",
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 3 exact previous trading close",
+      "actual": "2082.67",
+      "expected": "2082.67",
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 4 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 4 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 5 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 5 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 5 exact previous trading day",
+      "actual": "2015-10-09",
+      "expected": "2015-10-09",
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 5 exact previous trading close",
+      "actual": "2216.66",
+      "expected": "2216.66",
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 6 calendar bounds",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 6 is actual trading row",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B18 keyframe 6 range base close",
+      "actual": "1797.56",
+      "expected": "1797.56",
+      "passed": true
+    },
+    {
+      "id": "V1.0.2 total candidate budget in seconds",
+      "actual": 240,
+      "expected": 240,
+      "passed": true
+    },
+    {
+      "id": "main market coverage without any skipped session",
+      "actual": [
+        "2015-04-01",
+        "2015-04-02",
+        "2015-04-03",
+        "2015-04-07",
+        "2015-04-08",
+        "2015-04-09",
+        "2015-04-10",
+        "2015-04-13",
+        "2015-04-14",
+        "2015-04-15",
+        "2015-04-16",
+        "2015-04-17",
+        "2015-04-20",
+        "2015-04-21",
+        "2015-04-22",
+        "2015-04-23",
+        "2015-04-24",
+        "2015-04-27",
+        "2015-04-28",
+        "2015-04-29",
+        "2015-04-30",
+        "2015-05-04",
+        "2015-05-05",
+        "2015-05-06",
+        "2015-05-07",
+        "2015-05-08",
+        "2015-05-11",
+        "2015-05-12",
+        "2015-05-13",
+        "2015-05-14",
+        "2015-05-15",
+        "2015-05-18",
+        "2015-05-19",
+        "2015-05-20",
+        "2015-05-21",
+        "2015-05-22",
+        "2015-05-25",
+        "2015-05-26",
+        "2015-05-27",
+        "2015-05-28",
+        "2015-05-29",
+        "2015-06-01",
+        "2015-06-02",
+        "2015-06-03",
+        "2015-06-04",
+        "2015-06-05",
+        "2015-06-08",
+        "2015-06-09",
+        "2015-06-10",
+        "2015-06-11",
+        "2015-06-12",
+        "2015-06-15",
+        "2015-06-16",
+        "2015-06-17",
+        "2015-06-18",
+        "2015-06-19",
+        "2015-06-23",
+        "2015-06-24",
+        "2015-06-25",
+        "2015-06-26",
+        "2015-06-29",
+        "2015-06-30",
+        "2015-07-01",
+        "2015-07-02",
+        "2015-07-03",
+        "2015-07-06",
+        "2015-07-07",
+        "2015-07-08",
+        "2015-07-09",
+        "2015-07-10",
+        "2015-07-13",
+        "2015-07-14",
+        "2015-07-15",
+        "2015-07-16",
+        "2015-07-17",
+        "2015-07-20",
+        "2015-07-21",
+        "2015-07-22",
+        "2015-07-23",
+        "2015-07-24",
+        "2015-07-27",
+        "2015-07-28",
+        "2015-07-29",
+        "2015-07-30",
+        "2015-07-31",
+        "2015-08-03",
+        "2015-08-04",
+        "2015-08-05",
+        "2015-08-06",
+        "2015-08-07",
+        "2015-08-10",
+        "2015-08-11",
+        "2015-08-12",
+        "2015-08-13",
+        "2015-08-14",
+        "2015-08-17",
+        "2015-08-18",
+        "2015-08-19",
+        "2015-08-20",
+        "2015-08-21",
+        "2015-08-24",
+        "2015-08-25",
+        "2015-08-26",
+        "2015-08-27",
+        "2015-08-28",
+        "2015-08-31",
+        "2015-09-01",
+        "2015-09-02",
+        "2015-09-07",
+        "2015-09-08",
+        "2015-09-09",
+        "2015-09-10",
+        "2015-09-11",
+        "2015-09-14",
+        "2015-09-15",
+        "2015-09-16",
+        "2015-09-17",
+        "2015-09-18",
+        "2015-09-21",
+        "2015-09-22",
+        "2015-09-23",
+        "2015-09-24",
+        "2015-09-25",
+        "2015-09-28",
+        "2015-09-29",
+        "2015-09-30",
+        "2015-10-08",
+        "2015-10-09",
+        "2015-10-12",
+        "2015-10-13",
+        "2015-10-14",
+        "2015-10-15",
+        "2015-10-16",
+        "2015-10-19",
+        "2015-10-20",
+        "2015-10-21",
+        "2015-10-22",
+        "2015-10-23",
+        "2015-10-26",
+        "2015-10-27",
+        "2015-10-28",
+        "2015-10-29",
+        "2015-10-30",
+        "2015-11-02",
+        "2015-11-03",
+        "2015-11-04",
+        "2015-11-05",
+        "2015-11-06",
+        "2015-11-09",
+        "2015-11-10",
+        "2015-11-11",
+        "2015-11-12",
+        "2015-11-13",
+        "2015-11-16",
+        "2015-11-17",
+        "2015-11-18",
+        "2015-11-19",
+        "2015-11-20",
+        "2015-11-23",
+        "2015-11-24",
+        "2015-11-25"
+      ],
+      "expected": [
+        "2015-04-01",
+        "2015-04-02",
+        "2015-04-03",
+        "2015-04-07",
+        "2015-04-08",
+        "2015-04-09",
+        "2015-04-10",
+        "2015-04-13",
+        "2015-04-14",
+        "2015-04-15",
+        "2015-04-16",
+        "2015-04-17",
+        "2015-04-20",
+        "2015-04-21",
+        "2015-04-22",
+        "2015-04-23",
+        "2015-04-24",
+        "2015-04-27",
+        "2015-04-28",
+        "2015-04-29",
+        "2015-04-30",
+        "2015-05-04",
+        "2015-05-05",
+        "2015-05-06",
+        "2015-05-07",
+        "2015-05-08",
+        "2015-05-11",
+        "2015-05-12",
+        "2015-05-13",
+        "2015-05-14",
+        "2015-05-15",
+        "2015-05-18",
+        "2015-05-19",
+        "2015-05-20",
+        "2015-05-21",
+        "2015-05-22",
+        "2015-05-25",
+        "2015-05-26",
+        "2015-05-27",
+        "2015-05-28",
+        "2015-05-29",
+        "2015-06-01",
+        "2015-06-02",
+        "2015-06-03",
+        "2015-06-04",
+        "2015-06-05",
+        "2015-06-08",
+        "2015-06-09",
+        "2015-06-10",
+        "2015-06-11",
+        "2015-06-12",
+        "2015-06-15",
+        "2015-06-16",
+        "2015-06-17",
+        "2015-06-18",
+        "2015-06-19",
+        "2015-06-23",
+        "2015-06-24",
+        "2015-06-25",
+        "2015-06-26",
+        "2015-06-29",
+        "2015-06-30",
+        "2015-07-01",
+        "2015-07-02",
+        "2015-07-03",
+        "2015-07-06",
+        "2015-07-07",
+        "2015-07-08",
+        "2015-07-09",
+        "2015-07-10",
+        "2015-07-13",
+        "2015-07-14",
+        "2015-07-15",
+        "2015-07-16",
+        "2015-07-17",
+        "2015-07-20",
+        "2015-07-21",
+        "2015-07-22",
+        "2015-07-23",
+        "2015-07-24",
+        "2015-07-27",
+        "2015-07-28",
+        "2015-07-29",
+        "2015-07-30",
+        "2015-07-31",
+        "2015-08-03",
+        "2015-08-04",
+        "2015-08-05",
+        "2015-08-06",
+        "2015-08-07",
+        "2015-08-10",
+        "2015-08-11",
+        "2015-08-12",
+        "2015-08-13",
+        "2015-08-14",
+        "2015-08-17",
+        "2015-08-18",
+        "2015-08-19",
+        "2015-08-20",
+        "2015-08-21",
+        "2015-08-24",
+        "2015-08-25",
+        "2015-08-26",
+        "2015-08-27",
+        "2015-08-28",
+        "2015-08-31",
+        "2015-09-01",
+        "2015-09-02",
+        "2015-09-07",
+        "2015-09-08",
+        "2015-09-09",
+        "2015-09-10",
+        "2015-09-11",
+        "2015-09-14",
+        "2015-09-15",
+        "2015-09-16",
+        "2015-09-17",
+        "2015-09-18",
+        "2015-09-21",
+        "2015-09-22",
+        "2015-09-23",
+        "2015-09-24",
+        "2015-09-25",
+        "2015-09-28",
+        "2015-09-29",
+        "2015-09-30",
+        "2015-10-08",
+        "2015-10-09",
+        "2015-10-12",
+        "2015-10-13",
+        "2015-10-14",
+        "2015-10-15",
+        "2015-10-16",
+        "2015-10-19",
+        "2015-10-20",
+        "2015-10-21",
+        "2015-10-22",
+        "2015-10-23",
+        "2015-10-26",
+        "2015-10-27",
+        "2015-10-28",
+        "2015-10-29",
+        "2015-10-30",
+        "2015-11-02",
+        "2015-11-03",
+        "2015-11-04",
+        "2015-11-05",
+        "2015-11-06",
+        "2015-11-09",
+        "2015-11-10",
+        "2015-11-11",
+        "2015-11-12",
+        "2015-11-13",
+        "2015-11-16",
+        "2015-11-17",
+        "2015-11-18",
+        "2015-11-19",
+        "2015-11-20",
+        "2015-11-23",
+        "2015-11-24",
+        "2015-11-25"
+      ],
+      "passed": true
+    },
+    {
+      "id": "June implementation and announcement are nontrading checkpoints",
+      "actual": [
+        "2015-06-27",
+        "2015-06-28"
+      ],
+      "expected": [
+        "2015-06-27",
+        "2015-06-28"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B01 exact contract window",
+      "actual": [
+        "2015-06-03",
+        "2015-06-03"
+      ],
+      "expected": [
+        "2015-06-03",
+        "2015-06-03"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B08 exact contract window",
+      "actual": [
+        "2015-06-19",
+        "2015-07-03"
+      ],
+      "expected": [
+        "2015-06-19",
+        "2015-07-03"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B09 exact contract window",
+      "actual": [
+        "2015-07-03",
+        "2015-07-03"
+      ],
+      "expected": [
+        "2015-07-03",
+        "2015-07-03"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B10 exact contract window",
+      "actual": [
+        "2015-07-03",
+        "2015-07-23"
+      ],
+      "expected": [
+        "2015-07-03",
+        "2015-07-23"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B11 exact contract window",
+      "actual": [
+        "2015-07-23",
+        "2015-07-27"
+      ],
+      "expected": [
+        "2015-07-23",
+        "2015-07-27"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B12 exact contract window",
+      "actual": [
+        "2015-07-28",
+        "2015-08-20"
+      ],
+      "expected": [
+        "2015-07-28",
+        "2015-08-20"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B16 exact contract window",
+      "actual": [
+        "2015-08-26",
+        "2015-09-15"
+      ],
+      "expected": [
+        "2015-08-26",
+        "2015-09-15"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B17 exact contract window",
+      "actual": [
+        "2015-09-15",
+        "2015-09-29"
+      ],
+      "expected": [
+        "2015-09-15",
+        "2015-09-29"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B18 exact contract window",
+      "actual": [
+        "2015-09-29",
+        "2015-11-25"
+      ],
+      "expected": [
+        "2015-09-29",
+        "2015-11-25"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B08 assigned checkpoints present",
+      "actual": [
+        "2015-06-19",
+        "2015-06-26",
+        "2015-06-27",
+        "2015-06-28",
+        "2015-06-29",
+        "2015-07-03"
+      ],
+      "expected": [
+        "2015-06-19",
+        "2015-06-26",
+        "2015-06-27",
+        "2015-06-28",
+        "2015-06-29",
+        "2015-07-03"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B10 assigned checkpoints present",
+      "actual": [
+        "2015-07-03",
+        "2015-07-06",
+        "2015-07-07",
+        "2015-07-23"
+      ],
+      "expected": [
+        "2015-07-03",
+        "2015-07-06",
+        "2015-07-07",
+        "2015-07-23"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B11 assigned checkpoints present",
+      "actual": [
+        "2015-07-23",
+        "2015-07-24",
+        "2015-07-27"
+      ],
+      "expected": [
+        "2015-07-23",
+        "2015-07-24",
+        "2015-07-27"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B12 assigned checkpoints present",
+      "actual": [
+        "2015-07-28",
+        "2015-08-11",
+        "2015-08-18",
+        "2015-08-20"
+      ],
+      "expected": [
+        "2015-07-28",
+        "2015-08-11",
+        "2015-08-18",
+        "2015-08-20"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B13 assigned checkpoints present",
+      "actual": [
+        "2015-08-20",
+        "2015-08-21",
+        "2015-08-24"
+      ],
+      "expected": [
+        "2015-08-20",
+        "2015-08-21",
+        "2015-08-24"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B17 assigned checkpoints present",
+      "actual": [
+        "2015-09-15",
+        "2015-09-16",
+        "2015-09-21",
+        "2015-09-25",
+        "2015-09-28",
+        "2015-09-29"
+      ],
+      "expected": [
+        "2015-09-15",
+        "2015-09-16",
+        "2015-09-21",
+        "2015-09-25",
+        "2015-09-28",
+        "2015-09-29"
+      ],
+      "passed": true
+    },
+    {
+      "id": "B18 assigned checkpoints present",
+      "actual": [
+        "2015-09-29",
+        "2015-09-30",
+        "2015-10-08",
+        "2015-10-09",
+        "2015-10-12",
+        "2015-11-25"
+      ],
+      "expected": [
+        "2015-09-29",
+        "2015-09-30",
+        "2015-10-08",
+        "2015-10-09",
+        "2015-10-12",
+        "2015-11-25"
+      ],
+      "passed": true
+    },
+    {
+      "id": "E-JUN-02-01 weekend date has no OHLC",
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "id": "E-JUN-02-01 frozen previous trading close",
+      "actual": "2015-06-26",
+      "expected": "2015-06-26",
+      "passed": true
+    },
+    {
+      "id": "E-JUN-02-02 weekend date has no OHLC",
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "id": "E-JUN-02-02 frozen previous trading close",
+      "actual": "2015-07-03",
+      "expected": "2015-07-03",
+      "passed": true
+    },
+    {
+      "id": "E-JUN-02-03 weekend date has no OHLC",
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "id": "E-JUN-02-03 frozen previous trading close",
+      "actual": "2015-07-03",
+      "expected": "2015-07-03",
+      "passed": true
+    },
+    {
+      "id": "E-JUN-02-04 weekend date has no OHLC",
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "id": "E-JUN-02-04 frozen previous trading close",
+      "actual": "2015-07-03",
+      "expected": "2015-07-03",
+      "passed": true
+    },
+    {
+      "id": "E-AUG-02-05 freezes Aug25 close",
+      "actual": "2015-08-25",
+      "expected": "2015-08-25",
+      "passed": true
+    },
+    {
+      "id": "ETF percentage arithmetic from cited endpoints",
+      "actual": "46.08",
+      "expected": "46.08",
+      "passed": true
+    },
+    {
+      "id": "ETF source remains T2 with original not imported",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "B17 ETF cue/register agrees on date",
+      "actual": "2015-09-07",
+      "expected": "2015-09-07",
+      "passed": true
+    },
+    {
+      "id": "B17 ETF cue/register agrees on observation_end",
+      "actual": "2015-09-22",
+      "expected": "2015-09-22",
+      "passed": true
+    },
+    {
+      "id": "B17 ETF cue/register agrees on source_publication_date",
+      "actual": "2015-09-25",
+      "expected": "2015-09-25",
+      "passed": true
+    },
+    {
+      "id": "B17 ETF cue/register agrees on value_from",
+      "actual": "12.37亿份",
+      "expected": "12.37亿份",
+      "passed": true
+    },
+    {
+      "id": "B17 ETF cue/register agrees on value_to",
+      "actual": "18.07亿份",
+      "expected": "18.07亿份",
+      "passed": true
+    },
+    {
+      "id": "B17 ETF cue/register agrees on change_pct",
+      "actual": 46.08,
+      "expected": 46.08,
+      "passed": true
+    },
+    {
+      "id": "B17 ETF cue/register agrees on source_tier",
+      "actual": "T2_CONTEMPORANEOUS_REPORT_CITING_SZSE",
+      "expected": "T2_CONTEMPORANEOUS_REPORT_CITING_SZSE",
+      "passed": true
+    }
+  ],
+  "stage_extrema": [
+    {
+      "id": "highest_close",
+      "date": "2015-06-03",
+      "field": "close",
+      "value": "3982.25",
+      "passed": true
+    },
+    {
+      "id": "highest_high",
+      "date": "2015-06-05",
+      "field": "high",
+      "value": "4037.96",
+      "passed": true
+    },
+    {
+      "id": "lowest_close",
+      "date": "2015-09-15",
+      "field": "close",
+      "value": "1797.56",
+      "passed": true
+    },
+    {
+      "id": "lowest_low",
+      "date": "2015-09-02",
+      "field": "low",
+      "value": "1779.18",
+      "passed": true
+    }
+  ],
+  "august_gap_checks": [
+    {
+      "date": "2015-08-21",
+      "previous_trading_day": "2015-08-20",
+      "previous_low": "2508.35",
+      "current_high": "2480.68",
+      "points": "27.67",
+      "full_down_gap": true,
+      "passed": true
+    },
+    {
+      "date": "2015-08-24",
+      "previous_trading_day": "2015-08-21",
+      "previous_low": "2340.92",
+      "current_high": "2246.55",
+      "points": "94.37",
+      "full_down_gap": true,
+      "passed": true
+    },
+    {
+      "date": "2015-08-25",
+      "previous_trading_day": "2015-08-24",
+      "previous_low": "2152.61",
+      "current_high": "2048.03",
+      "points": "104.58",
+      "full_down_gap": true,
+      "passed": true
+    },
+    {
+      "date": "2015-08-26",
+      "previous_trading_day": "2015-08-25",
+      "previous_low": "1987.12",
+      "current_high": "2044.66",
+      "points": "-57.54",
+      "full_down_gap": false,
+      "passed": true
+    }
+  ],
+  "reported_t2_metrics": {
+    "etf_share_change": {
+      "source_basis": "reported endpoints, original exchange file not imported",
+      "observation_start": "2015-09-07",
+      "observation_end": "2015-09-22",
+      "publication_date": "2015-09-25",
+      "computed_percent": "46.07922392886014551333872270",
+      "expected_display": "46.08",
+      "value_unit": "亿份"
+    },
+    "two_exchange_turnover": {
+      "reported_value": "4044亿元",
+      "scope": "沪深两市合计",
+      "verified_from_index_csv": false
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "task": "DIRECTOR-V1.0.2-COMPILE-AND-VALIDATE",
+  "checks": {
+    "schema": true,
+    "market": true,
+    "event_and_asset_reference": true,
+    "clock": true,
+    "visual_structure": true
+  },
+  "status": "STRUCTURE_GATES_PASSED_VISUAL_TEST_PENDING",
+  "inputs": {
+    "editorial_commit": "fe21de75777f04daab59155c43336c7e2719d0ae",
+    "implementation_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+    "input_sha256": {
+      "editorial/2015/director/2015_BEAT_SHEET_V1.0.2.json": "beca3200dfc8456c80120539fe5fe60b2bcb258059c94b37f1b502893142f5b7",
+      "editorial/2015/director/EVENT_CLOCK_REGISTER_V1.0.2.json": "ce450846cc8265a438ffaf5418a113c62e76348a0b44c2ed9495fba456b8572a",
+      "editorial/2015/director/V1.0.2_DIRECTOR_CONTRACT.md": "08b61aa91a83c69472d903a40fca1a69073a0543a00abb905997bb6a957794a0",
+      "editorial/2015/HANDOFF_TO_CODEX.md": "f36ec0eb0aad62661d0e908a334acb981a17f09f4e7a6dc6144c4c5f01fb4c0e",
+      "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+      "config/production/film_master_v1.json": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+      "config/event_registry.json": "fc99e9b18b06d0df703b95d2f9d0934d2941134b8c4c57878291c77716fb7c4d",
+      "editorial/2015/releases/v1.0.1/CODEX_HANDOFF.md": "bc904aa57537029c32d75f7adc85afc21c370cfdc8c894836799f269e0e42aa0",
+      "editorial/2015/releases/v1.0.1/README.md": "f42d40c223f70070a8505570ceb82eda6c516080dc453379e54ffc3801744ef4",
+      "editorial/2015/releases/v1.0.1/REVIEW_REPORT.md": "d154f2668a2ed7b1b219eb406b8678792a0e25b02541b70be1e56b942458b416",
+      "editorial/2015/releases/v1.0.1/archive_manifest.json": "fadf5a11919db039aaafa451635ea1babd3ed04e49e80088aad527ce51a0a7f5",
+      "editorial/2015/releases/v1.0.1/director_storyboard.md": "891b61eb86228b0594a56eabf25c5516a5b48ca1fd2950168d4e97e8f37d77e8",
+      "editorial/2015/releases/v1.0.1/director_timeline.json": "8a979d4cbc80182fa329d4579d5503f30bf5bd8d11aba3edc0c78647980be7ea",
+      "editorial/2015/releases/v1.0.1/director_timeline.schema.json": "2559c15e4415c02d495ab30a8bef5e148174b6ee2c9ffd326b07dfc835e82c9d",
+      "editorial/2015/releases/v1.0.1/event_review.json": "eaa9047a57800bb451fc0dbf0b50dd7d579d32ccae08901a6d7b12a93da3f5a3",
+      "editorial/2015/releases/v1.0.1/manifest.json": "1be7273db7a0c2be9159a9933af6c857a087691bb3951a21f1883c3f1b19d4a4",
+      "editorial/2015/releases/v1.0.1/market_metrics.json": "c00d10b48a5928278f1d2a3a1e1c8c837523f2b558004cfa3f870df3b88d0fd7",
+      "editorial/2015/releases/v1.0.1/narrative.md": "3c9ed60ebe55371235a5ea2bba339b37ec588ea76a234d481050e5d0a6869794",
+      "editorial/2015/releases/v1.0.1/period_production.json": "dcc2f7a2c69a5fac2227b305c334681d193b4839f07c1dad7337c9cf5d627411",
+      "editorial/2015/releases/v1.0.1/period_screen_copy.md": "094ce4f3eff0ddb61128e11802a5d9b48ea7b9fd04619c909e06624d140c8111",
+      "editorial/2015/releases/v1.0.1/period_storyboard.json": "22c7532df5e4e83dc08f2bdfd070b6b23fd4c6fe20d2528f66fddfd70050f8c8",
+      "editorial/2015/releases/v1.0.1/photo_manifest.json": "52765cf480fa73f02d6be532c1e70a22ccd075596fb409235f78dd1e73830a2b",
+      "editorial/2015/releases/v1.0.1/research/apr_ind.md": "af53a0a17f9c5f54edec2bd344260ae758c98f0a87cec68692d16752fe726310",
+      "editorial/2015/releases/v1.0.1/research/aug_img.md": "1cfca206a08b5dd6e76dc93d608aada89ddaf09a3df70e53930f48869ac02531",
+      "editorial/2015/releases/v1.0.1/research/derived_checks.json": "473f57bf744563ce4f0169cf44c99926836d477e3a36e3cf514565b3f2ac6613",
+      "editorial/2015/releases/v1.0.1/research/evidence/csrc_20150703_excerpt.json": "8d04db888badc988813bb13ed2be5c06c5a1286f7ed41d282b317ca886d95b07",
+      "editorial/2015/releases/v1.0.1/research/evidence/csrc_20150708_excerpt.json": "fb0d139f8276a2229c58a770917c7ab1b0f45b25c501e50adaef8bd74315d820",
+      "editorial/2015/releases/v1.0.1/research/evidence/gtja_20150620_reading_record.json": "159d7b2bac9f63f0f288fc1b294a71ee00655dc4a1bed6e492eed2672b09d52a",
+      "editorial/2015/releases/v1.0.1/research/evidence/rigor_a_reading_records.json": "736629b5c60e098df8ee0590ef16a6ff465a5ca25934063d1d03f9dfffc31c33",
+      "editorial/2015/releases/v1.0.1/research/jun.md": "42976120d98f0f81a10a18e497b0cdf2845b475d32cb1cbbbaf9d760dac32afd",
+      "editorial/2015/releases/v1.0.1/research/source_reconciliation.json": "915d50d3078fb17710fae6cc40770cd9552a4e3532e6cce028420eb3efe96cd0",
+      "editorial/2015/releases/v1.0.1/rigor_application.json": "f5aa3af6e0ac466c81e01df647dc5b2056c9531c5689cdbf65c7b635f4806df6",
+      "editorial/2015/releases/v1.0.1/rigor_policy.json": "93c825626c2696e798651f753306656faac3cdcb2dd37d8941fa667864d3f03a",
+      "editorial/2015/releases/v1.0.1/source_registry.json": "065038613204508cde3600597be2a1adbef68af19ca9dfb43b69ac475bb4484f",
+      "editorial/2015/releases/v1.0.1/validate_candidate.py": "4e01958238f5241300592e93b03c153dc5ee81c8b60acd08e22b9d290b3eb13c",
+      "editorial/2015/releases/v1.0.1/validation_report.json": "e291b47cb2da19b228a153e4ba78f444657f3c3a921889d8d34a82aec26e43c9",
+      "runtime/src/chinext_v6/__init__.py": "c890833f13b3e2f7cb43104770d80e2580b4e889aca26c2f05ab287a30009de7",
+      "runtime/src/chinext_v6/content_components.py": "ea7d86efef1e5051f6b78cc2b4197604ac4014643a3288ac3d7e9004549e3d0d",
+      "runtime/src/chinext_v6/drawing.py": "7a07abaa8f2d2d8970c43f7f6ef8c539d65ad4e7dc2210646421e99bf132fe60",
+      "runtime/src/chinext_v6/editorial_clock.py": "6602b3eb3b57569e9360d7ade63ad1bceeb362ee334bd52ad55a23950bb041f0",
+      "runtime/src/chinext_v6/editorial_overlay.py": "27b989dc489c438e0f5afe386ca80f94cc06e8ac74e06d9eae624352e8224cf0",
+      "runtime/src/chinext_v6/editorial_revision.py": "6f9780ec77d973bc028bd5a19e1285e28d1ee6e686bc63269235ba691692d965",
+      "runtime/src/chinext_v6/editorial_validation.py": "36fef663d2f542a7d31bbf61dc31d904ec68e6fb3dcb0d33dc79e531efffd34e",
+      "runtime/src/chinext_v6/ending.py": "e634b81d3248097c6d7cf0b36383fd48cb2bc3500265afeba4c242b1b692a46e",
+      "runtime/src/chinext_v6/film_renderer.py": "ffbb79acd912833625df5ba69a61b0895e3c3ea57a3ead5d7cb6e4859cbd4994",
+      "runtime/src/chinext_v6/landmarks.py": "ace0bb9d49ac2c475560580bedd94274026f1d6938be0f8c836e42cc29515c10",
+      "runtime/src/chinext_v6/model.py": "6a947b6b2711991cf97b4c00f814062b3db97c782230ee10a42cd2fbc5aafaef",
+      "runtime/src/chinext_v6/production.py": "8b015f4c4df4a4cab3603aa49f76e6acba683737596a0921aa469b445f687a39",
+      "runtime/src/chinext_v6/renderer.py": "7726f1af18e1c4b0197ea64455da5cef1913e9140494603e0c7322d508a6000f",
+      "runtime/src/chinext_v6/scene_cache.py": "cb53204e71ebcaf277f78e2e5d5bc9dcaa426f8571260db053cec83c90e95048"
+    }
+  },
+  "timeline": {
+    "beats": 18,
+    "cues": 46,
+    "frames": 7200,
+    "fps": 30,
+    "media_rendered": false
+  },
+  "negative_cases_passed": 9,
+  "regression_passed": 171,
+  "protected_release_files_checked": 29,
+  "artifacts": {
+    "README.md": {
+      "sha256": "3697f6d723ee999ebb31f5f80566cb0de7820c46d8126d889aa1d102a8635583",
+      "bytes": 7753
+    },
+    "candidate.schema.json": {
+      "sha256": "9707766d23e5e13372b54f517eeccdab6e6101dad31c007582fd2d99d5ae429f",
+      "bytes": 10391
+    },
+    "clock_report.json": {
+      "sha256": "fa2703a682edd11f0710d449f02e2eaa4fefcb88561474a77e64d3b9fe3149b3",
+      "bytes": 23022
+    },
+    "compile.log": {
+      "sha256": "9a6b5e6646bd6e5ebcb611928284aae9ee2f5d2acdc67b26727edb2d5b3ba9fc",
+      "bytes": 2061
+    },
+    "director_candidate.json": {
+      "sha256": "37fc4936ddf6faf75867b8e4094973e86c100a3711c4051c3db1b85c040e79fc",
+      "bytes": 277490
+    },
+    "event_asset_audit.json": {
+      "sha256": "50c1c1172136aa149a3bf450008252d41a7d6ad1ed87cbed0096d96b12a0baa3",
+      "bytes": 42946
+    },
+    "execution_summary.json": {
+      "sha256": "9a6b5e6646bd6e5ebcb611928284aae9ee2f5d2acdc67b26727edb2d5b3ba9fc",
+      "bytes": 2061
+    },
+    "legacy/flash_forward.json": {
+      "sha256": "af312e13ce96ac76248715f4d0119a46a8d3a96bf1e2df72712ff66dd55f5fea",
+      "bytes": 10469
+    },
+    "legacy/main_before_august.json": {
+      "sha256": "48aff16e755ce91426e2ed26d9f2c021ae3c478cf62cc3cba1d4f2d96e30d862",
+      "bytes": 83495
+    },
+    "legacy/main_through_november.json": {
+      "sha256": "a0278be5da1f512a327e38bb2ec1f8c1a0fa0f28512c0db1d75e53b8e3202d9b",
+      "bytes": 73515
+    },
+    "legacy/segments.json": {
+      "sha256": "cb2f36f609a62f26ffbfffa1dcc1077ee017fbfc0ad84e249f7837100ae7b43d",
+      "bytes": 290
+    },
+    "market_audit.json": {
+      "sha256": "3511b11b77e756c4a46583d3617c053b6a716ff647fefd886301f92d7bc7ad66",
+      "bytes": 84966
+    },
+    "negative_cases.json": {
+      "sha256": "bc7a2534eb109044bd28b481f99f170d9672a431905fb93844afbb401e563fd2",
+      "bytes": 473
+    },
+    "regression.log": {
+      "sha256": "4bb02a7a0867e0280132972686dd8bc60ce3731ad55084a6b15076db6a278246",
+      "bytes": 261
+    },
+    "schema_report.json": {
+      "sha256": "fd7642955dc2591355e3b6e05ec21795635e0b31588f6d2db3edb93ea3e69477",
+      "bytes": 180
+    },
+    "tools/check_negative_cases.py": {
+      "sha256": "ca11eed1e9e6f15950065484247d607468f7e0893d91f8789bcc3e527d3e5df8",
+      "bytes": 3830
+    },
+    "tools/compile_candidate.py": {
+      "sha256": "c482cdbd7949bccfc6aab68644b4f4054fd6ed5caf77ce3084f03f4d5a465a4a",
+      "bytes": 35037
+    },
+    "tools/event_audit.py": {
+      "sha256": "f061abbac077a79234b14070c8bcc4910cd9889779e1c0678d1980dc0f062083",
+      "bytes": 18586
+    },
+    "tools/market_audit.py": {
+      "sha256": "7b62f9989e88748b25939e232748750955be38916b5ae1096895c86caa9b37d3",
+      "bytes": 16669
+    },
+    "tools/runtime_audit.py": {
+      "sha256": "1973a41b49153ec786fb7925b92b06a54156171d6320a174bc02410cc3bf47ce",
+      "bytes": 17119
+    },
+    "tools/scene_plan.py": {
+      "sha256": "6c731fa3c74aeae78d3ff21252515f592873f4c4dce07cbfd6041a6b024ca868",
+      "bytes": 9202
+    },
+    "v1.0.1_baseline_validation.json": {
+      "sha256": "2c62f0ad62d85282d0cef6bc21708b4161731be242947f12425a7435a296b042",
+      "bytes": 6190
+    },
+    "visual_structure_report.json": {
+      "sha256": "269463ea22e1b5edcb3d23b579cab7a5c3b2092b41b9c51ef1372c0ffd61fadc",
+      "bytes": 33529
+    }
+  }
+}

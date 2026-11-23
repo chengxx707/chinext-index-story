@@ -1,0 +1,1119 @@
+{
+  "passed": true,
+  "mode": "freetype_width_and_reading_budget_no_compositing",
+  "font_sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+  "estimator": "0.45 s + 1 s per 11 weighted visible glyphs",
+  "checked_cues": 46,
+  "failed_cues": [],
+  "cues": [
+    {
+      "shot_id": "V102-B01-01",
+      "beat_id": "B01",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        159.84,
+        197.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 234,
+      "stable_seconds": 7.8,
+      "provisional_minimum_seconds": 1.825,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B02-01",
+      "beat_id": "B02",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        144.28,
+        197.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 84,
+      "stable_seconds": 2.8,
+      "provisional_minimum_seconds": 1.734,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B02-02",
+      "beat_id": "B02",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        213.36
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 128,
+      "stable_seconds": 4.267,
+      "provisional_minimum_seconds": 1.245,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B03-01",
+      "beat_id": "B03",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        90.61,
+        204.98
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 109,
+      "stable_seconds": 3.633,
+      "provisional_minimum_seconds": 1.846,
+      "event_id": "E-APR-01-01"
+    },
+    {
+      "shot_id": "V102-B03-02",
+      "beat_id": "B03",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        238.31,
+        104.5,
+        222.78
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 148,
+      "stable_seconds": 4.933,
+      "provisional_minimum_seconds": 2.705,
+      "event_id": "E-APR-01-04"
+    },
+    {
+      "shot_id": "V102-B04-01",
+      "beat_id": "B04",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        148.48,
+        230.61,
+        95.0
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 148,
+      "stable_seconds": 4.933,
+      "provisional_minimum_seconds": 2.515,
+      "event_id": "E-IND-01-04"
+    },
+    {
+      "shot_id": "V102-B04-02",
+      "beat_id": "B04",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        213.36
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 71,
+      "stable_seconds": 2.367,
+      "provisional_minimum_seconds": 1.245,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B05-01",
+      "beat_id": "B05",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        194.28,
+        79.56
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 224,
+      "stable_seconds": 7.467,
+      "provisional_minimum_seconds": 1.577,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B06-01",
+      "beat_id": "B06",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        240.16,
+        159.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 90,
+      "stable_seconds": 3.0,
+      "provisional_minimum_seconds": 2.006,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B06-02",
+      "beat_id": "B06",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        171.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 84,
+      "stable_seconds": 2.8,
+      "provisional_minimum_seconds": 1.268,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B07-01",
+      "beat_id": "B07",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        186.48,
+        285.0
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 84,
+      "stable_seconds": 2.8,
+      "provisional_minimum_seconds": 2.634,
+      "event_id": "E-JUN-01-01"
+    },
+    {
+      "shot_id": "V102-B07-02",
+      "beat_id": "B07",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        227.89,
+        228.0
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 90,
+      "stable_seconds": 3.0,
+      "provisional_minimum_seconds": 2.514,
+      "event_id": "E-JUN-01-04"
+    },
+    {
+      "shot_id": "V102-B07-03",
+      "beat_id": "B07",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        213.36
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 52,
+      "stable_seconds": 1.733,
+      "provisional_minimum_seconds": 1.245,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B08-01",
+      "beat_id": "B08",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        213.36,
+        213.41
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 90,
+      "stable_seconds": 3.0,
+      "provisional_minimum_seconds": 2.068,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B08-02",
+      "beat_id": "B08",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        167.48,
+        209.0
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 114,
+      "stable_seconds": 3.8,
+      "provisional_minimum_seconds": 2.179,
+      "event_id": "E-JUN-02-01"
+    },
+    {
+      "shot_id": "V102-B08-03",
+      "beat_id": "B08",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        129.48,
+        133.0
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 84,
+      "stable_seconds": 2.8,
+      "provisional_minimum_seconds": 1.634,
+      "event_id": "E-JUN-02-01"
+    },
+    {
+      "shot_id": "V102-B08-04",
+      "beat_id": "B08",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        202.16
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 71,
+      "stable_seconds": 2.367,
+      "provisional_minimum_seconds": 1.214,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B09-01",
+      "beat_id": "B09",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        197.69,
+        183.98,
+        129.67
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 144,
+      "stable_seconds": 4.8,
+      "provisional_minimum_seconds": 2.639,
+      "event_id": "E-JUN-02-02"
+    },
+    {
+      "shot_id": "V102-B09-02",
+      "beat_id": "B09",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        79.41,
+        264.97
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 144,
+      "stable_seconds": 4.8,
+      "provisional_minimum_seconds": 1.939,
+      "event_id": "E-JUN-02-03"
+    },
+    {
+      "shot_id": "V102-B09-03",
+      "beat_id": "B09",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        175.28,
+        171.0,
+        190.0
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 174,
+      "stable_seconds": 5.8,
+      "provisional_minimum_seconds": 2.966,
+      "event_id": "E-JUN-02-04"
+    },
+    {
+      "shot_id": "V102-B10-01",
+      "beat_id": "B10",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        171.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 54,
+      "stable_seconds": 1.8,
+      "provisional_minimum_seconds": 1.268,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B10-02",
+      "beat_id": "B10",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        202.16
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 52,
+      "stable_seconds": 1.733,
+      "provisional_minimum_seconds": 1.214,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B10-03",
+      "beat_id": "B10",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        246.89,
+        80.48,
+        213.36
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 128,
+      "stable_seconds": 4.267,
+      "provisional_minimum_seconds": 2.525,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B11-01",
+      "beat_id": "B11",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        171.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 54,
+      "stable_seconds": 1.8,
+      "provisional_minimum_seconds": 1.268,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B11-02",
+      "beat_id": "B11",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        203.08,
+        121.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 109,
+      "stable_seconds": 3.633,
+      "provisional_minimum_seconds": 1.672,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B12-01",
+      "beat_id": "B12",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        71.61,
+        228.0
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 129,
+      "stable_seconds": 4.3,
+      "provisional_minimum_seconds": 1.815,
+      "event_id": "E-AUG-01-01"
+    },
+    {
+      "shot_id": "V102-B12-02",
+      "beat_id": "B12",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        203.08,
+        121.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 109,
+      "stable_seconds": 3.633,
+      "provisional_minimum_seconds": 1.672,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B12-03",
+      "beat_id": "B12",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        213.36
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 52,
+      "stable_seconds": 1.733,
+      "provisional_minimum_seconds": 1.245,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B13-01",
+      "beat_id": "B13",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        228.8,
+        111.59
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 67,
+      "stable_seconds": 2.233,
+      "provisional_minimum_seconds": 1.879,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B13-02",
+      "beat_id": "B13",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        303.72,
+        197.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 84,
+      "stable_seconds": 2.8,
+      "provisional_minimum_seconds": 2.461,
+      "event_id": "E-AUG-01-03"
+    },
+    {
+      "shot_id": "V102-B13-03",
+      "beat_id": "B13",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        228.8,
+        253.34
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 78,
+      "stable_seconds": 2.6,
+      "provisional_minimum_seconds": 2.399,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B13-04",
+      "beat_id": "B13",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        159.84,
+        160.62
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 84,
+      "stable_seconds": 2.8,
+      "provisional_minimum_seconds": 1.759,
+      "event_id": "E-IMG-01-01"
+    },
+    {
+      "shot_id": "V102-B14-01",
+      "beat_id": "B14",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        228.8,
+        121.88,
+        249.73,
+        111.59
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 128,
+      "stable_seconds": 4.267,
+      "provisional_minimum_seconds": 3.255,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B14-02",
+      "beat_id": "B14",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        129.48,
+        190.0,
+        265.89,
+        159.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 264,
+      "stable_seconds": 8.8,
+      "provisional_minimum_seconds": 3.672,
+      "event_id": "E-AUG-02-05"
+    },
+    {
+      "shot_id": "V102-B15-01",
+      "beat_id": "B15",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        186.48,
+        197.88,
+        111.59
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 186,
+      "stable_seconds": 6.2,
+      "provisional_minimum_seconds": 2.49,
+      "event_id": "E-AUG-02-05"
+    },
+    {
+      "shot_id": "V102-B16-01",
+      "beat_id": "B16",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        240.16,
+        240.2
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 109,
+      "stable_seconds": 3.633,
+      "provisional_minimum_seconds": 2.37,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B16-02",
+      "beat_id": "B16",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        289.36,
+        197.88,
+        240.2
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 109,
+      "stable_seconds": 3.633,
+      "provisional_minimum_seconds": 3.375,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B17-01",
+      "beat_id": "B17",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        203.08,
+        121.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 71,
+      "stable_seconds": 2.367,
+      "provisional_minimum_seconds": 1.612,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B17-02",
+      "beat_id": "B17",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        203.08,
+        121.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 71,
+      "stable_seconds": 2.367,
+      "provisional_minimum_seconds": 1.612,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B17-03",
+      "beat_id": "B17",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        203.08,
+        121.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 71,
+      "stable_seconds": 2.367,
+      "provisional_minimum_seconds": 1.672,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B17-04",
+      "beat_id": "B17",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        203.08,
+        121.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 109,
+      "stable_seconds": 3.633,
+      "provisional_minimum_seconds": 1.612,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B17-05",
+      "beat_id": "B17",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        203.08,
+        121.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 71,
+      "stable_seconds": 2.367,
+      "provisional_minimum_seconds": 1.672,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B18-01",
+      "beat_id": "B18",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        171.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 84,
+      "stable_seconds": 2.8,
+      "provisional_minimum_seconds": 1.268,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B18-02",
+      "beat_id": "B18",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        203.08,
+        121.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 90,
+      "stable_seconds": 3.0,
+      "provisional_minimum_seconds": 1.612,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B18-03",
+      "beat_id": "B18",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        214.28,
+        121.88
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 90,
+      "stable_seconds": 3.0,
+      "provisional_minimum_seconds": 1.643,
+      "event_id": null
+    },
+    {
+      "shot_id": "V102-B18-04",
+      "beat_id": "B18",
+      "checks": {
+        "exactly_one_primary_each_frame": true,
+        "no_more_than_three_policy_layers": true,
+        "no_causal_arrow": true,
+        "geometry_endpoints_already_reached_when_activated": true,
+        "one_or_two_main_caption_lines": true,
+        "known_text_window": true,
+        "phone_width_with_safe_margins": true,
+        "modeled_reading_budget": true
+      },
+      "phone_text_line_px": [
+        269.3,
+        176.36,
+        224.56,
+        297.16
+      ],
+      "measured_at_width_px": 390,
+      "text_font_px": 19,
+      "stable_frames": 167,
+      "stable_seconds": 5.567,
+      "provisional_minimum_seconds": 4.201,
+      "event_id": null
+    }
+  ],
+  "encoded_mobile_readability": "NOT_RUN",
+  "rendered_occlusion": "NOT_RUN"
+}

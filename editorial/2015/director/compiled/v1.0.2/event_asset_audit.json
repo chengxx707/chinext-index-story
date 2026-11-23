@@ -1,0 +1,1099 @@
+{
+  "passed": true,
+  "verification_scope": "Pinned V1.0.1 records plus actual available local bytes; external new citations warrant no new fact verification or visual approval.",
+  "structural_checks": {
+    "register_schema_and_timezone": true,
+    "register_ids_unique_and_complete": true,
+    "pinned_source_ids_resolve": true,
+    "local_source_hashes_match": true,
+    "pbc_html_and_derived_text_verified": true,
+    "beat_event_links_resolve": true,
+    "beat_event_timing_and_market_references_match": true,
+    "context_sources_match_frozen_reviews": true,
+    "photo_input_if_supplied_matches": true,
+    "documentary_citation_resolves": true
+  },
+  "register_entries_checked": 9,
+  "register_entries": {
+    "E-JUN-02-01": {
+      "checks": {
+        "date_role_and_timezone": true,
+        "market_date_and_price": true,
+        "citation_urls_resolve_to_bound_ids": true,
+        "direct_source_ids_match": true,
+        "timed_sources_are_not_first_release": true,
+        "frozen_event_date_matches": true,
+        "bound_frozen_sources_match_review": true,
+        "separate_implementation_day": true
+      },
+      "source_ids": [
+        "JUN-02:S01",
+        "JUN-02:S02"
+      ],
+      "original_role": "weekend_announcement",
+      "frozen_review_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_v1_0_1": true,
+      "review_status": "FROZEN_REVIEW_LINKED",
+      "facts_as_registered": {
+        "event_id": "E-JUN-02-01",
+        "date": "2015-06-27",
+        "role": "weekend_announcement",
+        "implementation_date": "2015-06-28",
+        "market_anchor": {
+          "date": "2015-06-26",
+          "field": "close",
+          "value": 2920.7
+        },
+        "tier": "T1_OFFICIAL_POLICY",
+        "description": "央行6月27日公布定向降准及下调存贷款基准利率，均自6月28日起执行。",
+        "visual": "6/26收盘后冻结，事件日期和实施日期分别出现，不生成周末K线。"
+      }
+    },
+    "E-JUN-02-02": {
+      "checks": {
+        "date_role_and_timezone": true,
+        "market_date_and_price": true,
+        "citation_urls_resolve_to_bound_ids": true,
+        "direct_source_ids_match": true,
+        "timed_sources_are_not_first_release": true,
+        "frozen_event_date_matches": true,
+        "bound_frozen_sources_match_review": true
+      },
+      "source_ids": [
+        "JUN-02:S03",
+        "JUN-02:S04"
+      ],
+      "original_role": "weekend_commitment",
+      "frozen_review_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_v1_0_1": true,
+      "review_status": "FROZEN_REVIEW_LINKED",
+      "facts_as_registered": {
+        "event_id": "E-JUN-02-02",
+        "date": "2015-07-04",
+        "role": "weekend_commitment",
+        "market_anchor": {
+          "date": "2015-07-03",
+          "field": "close",
+          "value": 2605.28
+        },
+        "tier": "T1_T2_SOURCE_LINKED",
+        "description": "21家证券公司承诺合计不低于1200亿元投资蓝筹股ETF；是承诺，不是已完成买入。",
+        "visual": "7/3收盘冻结后中央事件序列第一项。"
+      }
+    },
+    "E-JUN-02-03": {
+      "checks": {
+        "date_role_and_timezone": true,
+        "market_date_and_price": true,
+        "citation_urls_resolve_to_bound_ids": true,
+        "direct_source_ids_match": true,
+        "timed_sources_are_not_first_release": true,
+        "frozen_event_date_matches": true,
+        "bound_frozen_sources_match_review": true
+      },
+      "source_ids": [
+        "JUN-02:S06",
+        "JUN-02:S05"
+      ],
+      "original_role": "weekend_company_announcement",
+      "frozen_review_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_v1_0_1": false,
+      "review_status": "FROZEN_REVIEW_LINKED",
+      "facts_as_registered": {
+        "event_id": "E-JUN-02-03",
+        "date": "2015-07-04",
+        "role": "weekend_company_announcement",
+        "market_anchor": {
+          "date": "2015-07-03",
+          "field": "close",
+          "value": 2605.28
+        },
+        "tier": "T1_T2_SOURCE_LINKED",
+        "description": "28家已获IPO批文公司公告暂缓后续发行；与7/5后续报道分开标注。",
+        "visual": "中央事件序列第二项；不得与券商承诺合并成同一措施。"
+      }
+    },
+    "E-JUN-02-04": {
+      "checks": {
+        "date_role_and_timezone": true,
+        "market_date_and_price": true,
+        "citation_urls_resolve_to_bound_ids": true,
+        "direct_source_ids_match": true,
+        "timed_sources_are_not_first_release": true,
+        "frozen_event_date_matches": true,
+        "bound_frozen_sources_match_review": true
+      },
+      "source_ids": [
+        "CSRC-2015-17"
+      ],
+      "original_role": "weekend_public_announcement",
+      "frozen_review_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_v1_0_1": true,
+      "review_status": "FROZEN_REVIEW_LINKED",
+      "facts_as_registered": {
+        "event_id": "E-JUN-02-04",
+        "date": "2015-07-05",
+        "role": "weekend_public_announcement",
+        "market_anchor": {
+          "date": "2015-07-03",
+          "field": "close",
+          "value": 2605.28
+        },
+        "tier": "T1_OFFICIAL_STATEMENT",
+        "description": "证监会公告称央行将以多种形式给予证金公司流动性支持；保留“将”。",
+        "visual": "中央事件序列第三项；不暗示已到账。"
+      }
+    },
+    "E-AUG-01-01": {
+      "checks": {
+        "date_role_and_timezone": true,
+        "market_date_and_price": true,
+        "citation_urls_resolve_to_bound_ids": true,
+        "direct_source_ids_match": true,
+        "timed_sources_are_not_first_release": true,
+        "frozen_event_date_matches": true,
+        "bound_frozen_sources_match_review": true
+      },
+      "source_ids": [
+        "AUG-01:S01",
+        "PBC-2015-Q3-REPORT"
+      ],
+      "original_role": "policy_mechanism_announcement",
+      "frozen_review_status": "SUPPORTED",
+      "selected_in_v1_0_1": true,
+      "review_status": "FROZEN_REVIEW_LINKED",
+      "facts_as_registered": {
+        "event_id": "E-AUG-01-01",
+        "date": "2015-08-11",
+        "role": "policy_mechanism_announcement",
+        "market_anchor": {
+          "date": "2015-08-11",
+          "field": "close",
+          "value": null
+        },
+        "tier": "T1_OFFICIAL_POLICY",
+        "description": "完善人民币兑美元汇率中间价报价机制。",
+        "visual": "宏观背景层；无因果箭头。"
+      }
+    },
+    "E-AUG-01-03": {
+      "checks": {
+        "date_role_and_timezone": true,
+        "market_date_and_price": true,
+        "citation_urls_resolve_to_bound_ids": true,
+        "direct_source_ids_match": true,
+        "timed_sources_are_not_first_release": true,
+        "frozen_event_date_matches": true,
+        "bound_frozen_sources_match_review": true,
+        "strictly_webpage_evidence": true
+      },
+      "source_ids": [
+        "AUG-01:S03",
+        "V102-PMI-CX-100842068"
+      ],
+      "original_role": "publisher_webpage_timestamp",
+      "frozen_review_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_v1_0_1": true,
+      "review_status": "FROZEN_REVIEW_LINKED",
+      "facts_as_registered": {
+        "event_id": "E-AUG-01-03",
+        "date": "2015-08-21",
+        "time": "09:43:10",
+        "timezone": "Asia/Shanghai",
+        "role": "publisher_webpage_timestamp",
+        "first_release_time": null,
+        "value": "财新8月制造业PMI初值47.1",
+        "tier": "T2_CONTEMPORANEOUS_SOURCE",
+        "sources": [
+          "https://pmi.caixin.com/2015-08-21/100842072.html",
+          "https://pmi.caixin.com/2015-08-21/100842068.html"
+        ],
+        "visual": "只标网页刊发时间，不称全网首次发布时刻。"
+      }
+    },
+    "E-SEP-ETF-01": {
+      "checks": {
+        "date_role_and_timezone": true,
+        "market_date_and_price": true,
+        "citation_urls_resolve_to_bound_ids": true,
+        "direct_source_ids_match": true,
+        "timed_sources_are_not_first_release": true,
+        "observation_and_publication_separate": true,
+        "reported_share_arithmetic": true
+      },
+      "source_ids": [
+        "V102-ETF-CSJ-CNS",
+        "V102-ETF-CSJ-PDF",
+        "V102-ETF-CNS-0928"
+      ],
+      "original_role": "etf_share_observation_period",
+      "frozen_review_status": null,
+      "selected_in_v1_0_1": null,
+      "review_status": "T2_CITATION_ONLY",
+      "facts_as_registered": {
+        "metric_id": "E-SEP-ETF-01",
+        "observation_start": "2015-09-07",
+        "observation_end": "2015-09-22",
+        "publication_date": "2015-09-25",
+        "role": "etf_share_observation_period",
+        "series": "易方达创业板ETF",
+        "start_shares": "12.37亿份",
+        "end_shares": "18.07亿份",
+        "change_pct": 46.08,
+        "tier": "T2_CONTEMPORANEOUS_REPORT_CITING_SZSE",
+        "first_party_original_imported": false,
+        "sources": [
+          "https://www.chinanews.com/stock/2015/09-25/7544425.shtml",
+          "https://epaper.cs.com.cn/zgzqb/images/2015-09/25/A07/ZQBJD0010925C.pdf",
+          "https://www.chinanews.com/stock/2015/09-28/7548055.shtml"
+        ],
+        "visual": "可选次级市场结构层；不是净申购现金，不作因果解释。"
+      }
+    },
+    "E-SEP-TURNOVER-01": {
+      "checks": {
+        "date_role_and_timezone": true,
+        "market_date_and_price": true,
+        "citation_urls_resolve_to_bound_ids": true,
+        "direct_source_ids_match": true,
+        "timed_sources_are_not_first_release": true,
+        "two_market_scope_and_value": true
+      },
+      "source_ids": [
+        "V102-TURNOVER-CNS",
+        "V102-TURNOVER-21CJ"
+      ],
+      "original_role": "two_exchange_market_turnover",
+      "frozen_review_status": null,
+      "selected_in_v1_0_1": null,
+      "review_status": "T2_CITATION_ONLY",
+      "facts_as_registered": {
+        "metric_id": "E-SEP-TURNOVER-01",
+        "date": "2015-09-28",
+        "role": "two_exchange_market_turnover",
+        "value": "4044亿元",
+        "tier": "T2_CONTEMPORANEOUS_CROSS_SOURCE",
+        "sources": [
+          "https://www.chinanews.com/stock/2015-09-28/7548354.shtml",
+          "https://m.21jingji.com/article/20150928/herald/1e750135def82134d36e9eda0366b679.html"
+        ],
+        "visual": "标注沪深两市成交额，不得写成创业板成交额。"
+      }
+    },
+    "E-AUG-02-05": {
+      "checks": {
+        "date_role_and_timezone": true,
+        "market_date_and_price": true,
+        "citation_urls_resolve_to_bound_ids": true,
+        "direct_source_ids_match": true,
+        "timed_sources_are_not_first_release": true,
+        "frozen_event_date_matches": true,
+        "bound_frozen_sources_match_review": true,
+        "separate_implementation_days": true
+      },
+      "source_ids": [
+        "PBC-2015-0825",
+        "PBC-2015-0825-TEXT"
+      ],
+      "original_role": "official_pbc_webpage_timestamp",
+      "frozen_review_status": "SUPPORTED_WITH_CORRECTION",
+      "selected_in_v1_0_1": true,
+      "review_status": "FROZEN_REVIEW_LINKED",
+      "facts_as_registered": {
+        "event_id": "E-AUG-02-05",
+        "date": "2015-08-25",
+        "time": "18:15:34",
+        "timezone": "Asia/Shanghai",
+        "role": "official_pbc_webpage_timestamp",
+        "first_release_time": null,
+        "implementation_dates": [
+          {
+            "date": "2015-08-26",
+            "policy": "benchmark interest-rate cuts"
+          },
+          {
+            "date": "2015-09-06",
+            "policy": "reserve requirement ratio cuts"
+          }
+        ],
+        "market_anchor": {
+          "date": "2015-08-25",
+          "field": "close",
+          "value": 1990.71
+        },
+        "tier": "T1_OFFICIAL_POLICY",
+        "source_ids": [
+          "PBC-2015-0825",
+          "PBC-2015-0825-TEXT"
+        ],
+        "description": "央行8月25日公告页面显示18:15:34；降息8/26实施，降准9/6实施。该页面时间不等于已证实的全网首次发布时间。",
+        "visual": "8/25收盘冻结后政策接管；8/26显示降息实施，市场仍下跌5.06%；9/6仅作实施日历，不创建周末K线。"
+      }
+    }
+  },
+  "beat_links": [
+    {
+      "beat": "B08",
+      "event_id": "E-JUN-02-01",
+      "role_alias_used": false,
+      "checks": {
+        "factual_day_matches_with_distinct_b15_effectiveness": true,
+        "factual_role_matches_or_documented_alias": true,
+        "market_anchor_matches_register_or_declared_effective_day": true,
+        "supplementary_time_fields_match": true
+      }
+    },
+    {
+      "beat": "B09",
+      "event_id": "E-JUN-02-02",
+      "role_alias_used": false,
+      "checks": {
+        "factual_day_matches_with_distinct_b15_effectiveness": true,
+        "factual_role_matches_or_documented_alias": true,
+        "market_anchor_matches_register_or_declared_effective_day": true,
+        "supplementary_time_fields_match": true
+      }
+    },
+    {
+      "beat": "B09",
+      "event_id": "E-JUN-02-03",
+      "role_alias_used": false,
+      "checks": {
+        "factual_day_matches_with_distinct_b15_effectiveness": true,
+        "factual_role_matches_or_documented_alias": true,
+        "market_anchor_matches_register_or_declared_effective_day": true,
+        "supplementary_time_fields_match": true
+      }
+    },
+    {
+      "beat": "B09",
+      "event_id": "E-JUN-02-04",
+      "role_alias_used": true,
+      "checks": {
+        "factual_day_matches_with_distinct_b15_effectiveness": true,
+        "factual_role_matches_or_documented_alias": true,
+        "market_anchor_matches_register_or_declared_effective_day": true,
+        "supplementary_time_fields_match": true
+      }
+    },
+    {
+      "beat": "B12",
+      "event_id": "E-AUG-01-01",
+      "role_alias_used": false,
+      "checks": {
+        "factual_day_matches_with_distinct_b15_effectiveness": true,
+        "factual_role_matches_or_documented_alias": true,
+        "market_anchor_matches_register_or_declared_effective_day": true,
+        "supplementary_time_fields_match": true
+      }
+    },
+    {
+      "beat": "B13",
+      "event_id": "E-AUG-01-03",
+      "role_alias_used": false,
+      "checks": {
+        "factual_day_matches_with_distinct_b15_effectiveness": true,
+        "factual_role_matches_or_documented_alias": true,
+        "market_anchor_matches_register_or_declared_effective_day": true,
+        "supplementary_time_fields_match": true
+      }
+    },
+    {
+      "beat": "B14",
+      "event_id": "E-AUG-02-05",
+      "role_alias_used": false,
+      "checks": {
+        "factual_day_matches_with_distinct_b15_effectiveness": true,
+        "factual_role_matches_or_documented_alias": true,
+        "market_anchor_matches_register_or_declared_effective_day": true,
+        "supplementary_time_fields_match": true
+      }
+    },
+    {
+      "beat": "B15",
+      "event_id": "E-AUG-02-05",
+      "role_alias_used": false,
+      "checks": {
+        "factual_day_matches_with_distinct_b15_effectiveness": true,
+        "factual_role_matches_or_documented_alias": true,
+        "market_anchor_matches_register_or_declared_effective_day": true,
+        "supplementary_time_fields_match": true
+      }
+    },
+    {
+      "beat": "B17",
+      "event_id": "E-SEP-ETF-01",
+      "role_alias_used": false,
+      "checks": {
+        "factual_day_matches_with_distinct_b15_effectiveness": true,
+        "factual_role_matches_or_documented_alias": true,
+        "market_anchor_matches_register_or_declared_effective_day": true,
+        "supplementary_time_fields_match": true,
+        "publication_day_matches": true
+      }
+    }
+  ],
+  "pinned_v1_0_1_context_events": {
+    "B03": [
+      {
+        "event_id": "E-APR-01-01",
+        "event_date": "2015-04-13",
+        "date_precision": "day",
+        "publication_date": "2015-04-12T19:33:00+08:00",
+        "effective_date": "2015-04-13",
+        "review_status": "SUPPORTED_WITH_CORRECTION",
+        "approved_claim": "2015年4月13日起，A股市场全面放开自然人投资者一人一户限制。4月12日人民网已报道对外宣布；4月10日为部分同期媒体所称的通知发布实施日，未取得通知原件，不把三种时间合并。",
+        "screen_safe_copy": "2015.04.13｜A股“一人多户”实施",
+        "unresolved": [
+          "中国结算通知原件及最初对外公布时刻未取得。"
+        ],
+        "source_ids": [
+          "APR-01:S02",
+          "APR-01:S03"
+        ],
+        "frozen_review_sources_resolve": true,
+        "historical_scene_date_is_event_date": null
+      },
+      {
+        "event_id": "E-APR-01-04",
+        "event_date": {
+          "start": "2015-04-20",
+          "end": "2015-04-24"
+        },
+        "date_precision": "range",
+        "publication_date": "2015-04-28T20:37:00+08:00",
+        "effective_date": null,
+        "review_status": "SUPPORTED_WITH_CORRECTION",
+        "approved_claim": "同期报道引中国结算4月28日公布的数据：4月20—24日新增A股账户413.03万户，环比26.81%。现有多家稿件可相互核对报道值，官方周报原表仍未取得。",
+        "screen_safe_copy": "4月20—24日\nA股新增账户413.03万户\n同期报道引中国结算",
+        "unresolved": [
+          "官方周报原表未取得；保留媒体转述来源标注。"
+        ],
+        "source_ids": [
+          "APR-01:S06",
+          "APR-01:WEB01"
+        ],
+        "frozen_review_sources_resolve": true,
+        "historical_scene_date_is_event_date": null
+      }
+    ],
+    "B04": [
+      {
+        "event_id": "E-IND-01-04",
+        "event_date": "2015-05-13",
+        "date_precision": "day",
+        "publication_date": null,
+        "effective_date": null,
+        "review_status": "SUPPORTED_WITH_CORRECTION",
+        "approved_claim": "2015年5月13日乐视网收盘总市值约1526.57亿元，当前画面采用“超过1500亿元”。两篇不同同期稿与股本×收盘价复算相符。原盘中派生值保留在历史字段，不作本版上屏批准。",
+        "screen_safe_copy": [
+          "2015.05.13 · 乐视网",
+          "收盘总市值超过 1,500 亿元"
+        ],
+        "unresolved": [
+          "未取得交易所原始日K；公告股本1股内部差异仍保留。"
+        ],
+        "source_ids": [
+          "IND-01:WEB01",
+          "IND-01:WEB02",
+          "IND-01:S01",
+          "LETV-RAW-DAILY"
+        ],
+        "frozen_review_sources_resolve": true,
+        "historical_scene_date_is_event_date": null
+      }
+    ],
+    "B07": [
+      {
+        "event_id": "E-JUN-01-01",
+        "event_date": "2015-06-12",
+        "date_precision": null,
+        "publication_date": "2015-06-12",
+        "effective_date": null,
+        "review_status": "SUPPORTED_WITH_CORRECTION",
+        "approved_claim": "6月12日证监会在新闻发布会确认已下发外部接入管理通知，并重申证券公司不得通过网上证券交易接口为场外配资活动、非法证券业务提供便利。",
+        "screen_safe_copy": [
+          "2015.06.12｜证监会重申",
+          "不得通过证券交易接口为场外配资提供便利"
+        ],
+        "unresolved": [
+          "35号通知正式签发及下发日期、完整独立正文仍未取得。"
+        ],
+        "source_ids": [
+          "JUN-01:S01"
+        ],
+        "frozen_review_sources_resolve": true,
+        "historical_scene_date_is_event_date": null
+      },
+      {
+        "event_id": "E-JUN-01-04",
+        "event_date": "2015-06-18",
+        "date_precision": null,
+        "publication_date": "2015-08-27",
+        "effective_date": null,
+        "review_status": "PARTIAL",
+        "approved_claim": "中国证券报8月27日回顾支持六月沪深融资融券规模处于高位的定性背景。精确余额未达本版T1门槛，不能上屏。原PARTIAL裁决不升级。",
+        "screen_safe_copy": [
+          "2015年6月 · 杠杆背景",
+          "沪深融资融券规模处于高位",
+          "事后报道回顾"
+        ],
+        "unresolved": [
+          "两所2015-06-18原始日报未取得。",
+          "该统计的首次公开披露时间未知。"
+        ],
+        "source_ids": [
+          "JUN-01:S04"
+        ],
+        "frozen_review_sources_resolve": true,
+        "historical_scene_date_is_event_date": null
+      }
+    ],
+    "B13": [
+      {
+        "event_id": "E-IMG-01-01",
+        "event_date": "2015-08-24",
+        "date_precision": null,
+        "publication_date": "2015-08-24T16:39:00+08:00",
+        "effective_date": null,
+        "review_status": "SUPPORTED_WITH_CORRECTION",
+        "approved_claim": "2015年8月24日16:39中新网图集含6张昆明、南京、海口证券营业部照片，各有摄影者署名；首图明确写8月24日，其余5图处于同一组图日期语境。当前已取得这6张网页尺寸JPEG。",
+        "screen_safe_copy": "2015.08.24 · 昆明\n中新社发 刘冉阳 摄",
+        "unresolved": [
+          "未提供公开发布/转载授权凭据；可先作内部布局候选，最终公开素材准入单独处理。"
+        ],
+        "source_ids": [
+          "IMG-01:S01"
+        ],
+        "frozen_review_sources_resolve": true,
+        "historical_scene_date_is_event_date": true
+      }
+    ]
+  },
+  "sources": {
+    "V102-PMI-CX-100842068": {
+      "url": "https://pmi.caixin.com/2015-08-21/100842068.html",
+      "local_status": "CITED_IN_CONTRACT_ORIGINAL_NOT_IMPORTED"
+    },
+    "V102-ETF-CSJ-CNS": {
+      "url": "https://www.chinanews.com/stock/2015/09-25/7544425.shtml",
+      "local_status": "CITED_IN_CONTRACT_ORIGINAL_NOT_IMPORTED"
+    },
+    "V102-ETF-CSJ-PDF": {
+      "url": "https://epaper.cs.com.cn/zgzqb/images/2015-09/25/A07/ZQBJD0010925C.pdf",
+      "local_status": "CITED_IN_CONTRACT_ORIGINAL_NOT_IMPORTED"
+    },
+    "V102-ETF-CNS-0928": {
+      "url": "https://www.chinanews.com/stock/2015/09-28/7548055.shtml",
+      "local_status": "CITED_IN_CONTRACT_ORIGINAL_NOT_IMPORTED"
+    },
+    "V102-TURNOVER-CNS": {
+      "url": "https://www.chinanews.com/stock/2015-09-28/7548354.shtml",
+      "local_status": "CITED_IN_CONTRACT_ORIGINAL_NOT_IMPORTED"
+    },
+    "V102-TURNOVER-21CJ": {
+      "url": "https://m.21jingji.com/article/20150928/herald/1e750135def82134d36e9eda0366b679.html",
+      "local_status": "CITED_IN_CONTRACT_ORIGINAL_NOT_IMPORTED"
+    },
+    "APR-01:S02": {
+      "url": "http://finance.people.com.cn/stock/n/2015/0412/c67815-26831853.html",
+      "published_at": "2015-04-12T19:33:00+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/apr01_people_20150412.html",
+      "sha256": "53e1eeb49a6f84e5e44a10df441a371dcfa3f03aaf56eacbe90997c71a77c823",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "APR-01:S03": {
+      "url": "http://paper.cnstock.com/html/2015-04/13/content_511603.htm",
+      "published_at": "2015-04-13",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/apr01_cnstock_20150413.html",
+      "sha256": "76246a90f0035a32e85a808f09d013e933ce6f80fdad8d2bf3377ae514ff3ee0",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "APR-01:S06": {
+      "url": "https://thepaper.cn/newsDetail_forward_1325946",
+      "published_at": "2015-04-28T20:37:00+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/apr01_paper_20150429.html",
+      "sha256": "bf0a2aeb5058039f65bd938c0ba5b7e60ebc20472ba01be9c9e88661f6dc3d64",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "APR-01:WEB01": {
+      "url": "https://finance.sina.com.cn/stock/quanshang/qsyj/20150429/061922070393.shtml",
+      "published_at": "2015-04-29T06:19:00+08:00",
+      "materialization": "review_record_in_release",
+      "original_path": null,
+      "archive_member": null,
+      "sha256": null,
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "AUG-01:S01": {
+      "url": "http://www.chinanews.com.cn/m/cj/2015/08-11/7459747.shtml",
+      "published_at": "2015-08-11T09:41:00+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/aug01_cnnews_20150811.html",
+      "sha256": "941ecc931f4fc903e179f3a20506bfd618fbdc6e6eba37cd825df38b9b993211",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "AUG-01:S03": {
+      "url": "https://pmi.caixin.com/2015-08-21/100842072.html",
+      "published_at": "2015-08-21T09:43:10+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/aug01_caixin_20150821.html",
+      "sha256": "30c9afb1acb5504cf3431f0a9a11baada78fb66396281d42db1f2bfac3e7e1ca",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "CNR-2015-0825-FULL": {
+      "url": "https://m.cnr.cn/news/20150825/t20150825_519657152.html",
+      "published_at": "2015-08-25T19:16:00+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/aug03_cnr_20150825_quan.html",
+      "sha256": "0b8f838791371217bc671c1a54441022dca2ef68137fdd420daf717e0f6aa254",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "CSRC-2015-17": {
+      "url": "https://www.csrc.gov.cn/csrc/c101799/c1003755/content.shtml",
+      "published_at": "2015-07-05",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/jun02_csrc_gg2015_17.html",
+      "sha256": "c676d67ee4985a2e0c76b12f11d8923de68e26c6efce119c9ce4782ccd3b4ba6",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "IMG-01:S01": {
+      "url": "http://www.chinanews.com/m/tp/hd/2015/0824/71156.shtml",
+      "published_at": "2015-08-24T16:39:00+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/img01_cnnews_20150824.html",
+      "sha256": "472d2d29eafb8860868a63b814b7355290624bebffbb5509c53b9e45c2ef6030",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "IND-01:S01": {
+      "url": "http://static.cninfo.com.cn/finalpage/2015-05-06/1200968345.PDF",
+      "published_at": "2015-05-05",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/ind01_leshi_dividend_20150505.pdf",
+      "sha256": "ca91619ed6bf7ab7b98cd57cf6037075f9fd6f4fba98362e2f93d9c28b6b50c7",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "IND-01:WEB01": {
+      "url": "https://finance.people.com.cn/stock/n/2015/0517/c67815-27012241.html",
+      "published_at": "2015-05-17T09:10:00+08:00",
+      "materialization": "review_record_in_release",
+      "original_path": null,
+      "archive_member": null,
+      "sha256": null,
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "IND-01:WEB02": {
+      "url": "https://tech.sina.com.cn/i/2015-05-18/doc-icczmvup1916208.shtml",
+      "published_at": "2015-05-18T18:17:00+08:00",
+      "materialization": null,
+      "original_path": null,
+      "archive_member": null,
+      "sha256": null,
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "JUN-01:S01": {
+      "url": "http://www.csrc.gov.cn/csrc/c100029/c1000237/content.shtml",
+      "published_at": "2015-06-12",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/jun01_csrc_20150612.html",
+      "sha256": "4795d91867e01fbc78d160952f3cdb6752f73f786934c09ebe578021e444ab6e",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "JUN-01:S04": {
+      "url": "http://finance1.ce.cn/rolling/201508/27/t20150827_6334472.shtml",
+      "published_at": "2015-08-27T07:43:00+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/jun01_ce_20150827.utf8.html",
+      "sha256": "b1bf94bda7be8b8ee284e117df7e798beb55a9c3ab71035bfe8617c532c6f904",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "JUN-02:S01": {
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113472/2876973/index.html",
+      "published_at": "2015-06-27T17:03:28+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/jun02_pbc_20150628.html",
+      "sha256": "82f8e182b4ba153b5f8a6b0bab9109ad3e3560796785ae0698b71e1bfd505e3e",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "JUN-02:S02": {
+      "url": "http://politics.people.com.cn/n/2015/0627/c70731-27217699.html",
+      "published_at": "2015-06-27T17:10:00+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/jun02_people_20150627.utf8.html",
+      "sha256": "d9c1a04e8763f8ba6ac1d588ed18f8ba8bf3a3f2af0c6fe5f59e6e5c840cd08a",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "JUN-02:S03": {
+      "url": "http://finance.people.com.cn/n/2015/0704/c1004-27253875.html",
+      "published_at": "2015-07-04T13:48:00+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/jun02_people_20150704.utf8.html",
+      "sha256": "8104a5583902b90d6f120c78f7e519649a3f038670dcd5d5cfe67eede15c42f6",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "JUN-02:S04": {
+      "url": "https://static.cninfo.com.cn/finalpage/2015-07-16/1201298862.PDF",
+      "published_at": "2015-07-16",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/jun02_cninfo_20150716.pdf",
+      "sha256": "b65b53508d225ad25adfe2a89d3b02adb407a4dea45dddaec32311890928fe78",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "JUN-02:S05": {
+      "url": "http://finance.people.com.cn/money/n/2015/0706/c42877-27257935.html",
+      "published_at": "2015-07-06T08:17:00+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/jun02_people_20150706.utf8.html",
+      "sha256": "5fa86f4618b121c050c160e8b9746bd91fc5b6be3ea862bba35759c7439ebccc",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "JUN-02:S06": {
+      "url": "http://finance.people.com.cn/money/n/2015/0705/c42877-27256027.html",
+      "published_at": "2015-07-05T14:06:00+08:00",
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/jun02_people_20150705.utf8.html",
+      "sha256": "923550dc71e187bf526ac5fae875614aec1c38645b05f009048dbba272170976",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "LETV-RAW-DAILY": {
+      "url": null,
+      "published_at": null,
+      "materialization": "originals_pack_required_for_raw_bytes",
+      "original_path": null,
+      "archive_member": "00_原始网页归档/ind01_leshi_kline_sina_raw.json",
+      "sha256": "f556d7098c44bd79f84e263db6a8484a411649b19a5f5525a027fb1fadf1aece",
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    },
+    "PBC-2015-0825": {
+      "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125434/125798/c342653773544ff6bda66daf0c4f1afd/index.html",
+      "published_at": "2015-08-25T18:15:34+08:00",
+      "materialization": "repository",
+      "original_path": "assets/source_documents/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.html",
+      "archive_member": null,
+      "sha256": "3cd114631219630b1bb3cfaa5ccaa480ed10f44de7b8b34aa815bd0deada3a2e",
+      "local_sha256": "3cd114631219630b1bb3cfaa5ccaa480ed10f44de7b8b34aa815bd0deada3a2e",
+      "local_status": "BYTES_MATCH"
+    },
+    "PBC-2015-0825-TEXT": {
+      "url": "https://github.com/chengxx707/chinext-index-story/blob/8327dbd30efa5087dc91765b246252a04af693d4/data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt",
+      "published_at": "2015-08-25T18:15:34+08:00",
+      "materialization": "repository",
+      "original_path": "data/source_text/20261115/S11_F24_央行_下调存贷款基准利率并降低存款准备金率_2015-08-25.txt",
+      "archive_member": null,
+      "sha256": "568d02d7831736a3bd7f0fc9c4bfeee5745098726e54dabbc3de563860eea71e",
+      "local_sha256": "568d02d7831736a3bd7f0fc9c4bfeee5745098726e54dabbc3de563860eea71e",
+      "local_status": "BYTES_MATCH"
+    },
+    "PBC-2015-Q3-REPORT": {
+      "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2161441/4e34b7dafed8490d8612a70b893f479f/2015110619161324598.pdf",
+      "published_at": "2015-11-06",
+      "materialization": null,
+      "original_path": null,
+      "archive_member": null,
+      "sha256": null,
+      "local_sha256": null,
+      "local_status": "RELEASE_REVIEW_REFERENCE_ONLY"
+    }
+  },
+  "judgment_discrepancies_and_rules": [
+    {
+      "beat": "B03",
+      "rule": "4/13 is implementation, 4/20–24 is the A-share account observation, 4/28 20:37 is the source publication; 413.03万户 is neither persons nor ChiNext-only."
+    },
+    {
+      "beat": "B04",
+      "rule": "LeTV closing market capitalization exceeds 1500亿元 on 5/13; index close 3192.15 is only the coincident OHLC context. No independently licensed historical company asset identified; use contract typography fallback."
+    },
+    {
+      "beat": "B07",
+      "rule": "Label June leverage as qualitative沪深 background and 8/27 retrospective publication; 6/18 is the market observation anchor, never the exact fact or publication date."
+    },
+    {
+      "beat": "B08",
+      "rule": "6/27 announcement and 6/28 effectiveness share the 6/26 frozen real close. Do not label the archived page timestamp as the first release time."
+    },
+    {
+      "beat": "B09",
+      "rule": "7/4 commitments and company announcements plus 7/5 CSRC statement are three distinct calendar events at 7/3 close. The IPO item is newly selected by the contract; it was supported with corrections but not selected in V1.0.1. Beat public_announcement vs register weekend_public_announcement for E-JUN-02-04 is an alias. Keep 将 and distinguish commitment from executed purchases."
+    },
+    {
+      "beat": "B12",
+      "rule": "The 8/11 FX mechanism change is same-day macro context. Register leaves market anchor value null; report the frozen close only as separate OHLC and avoid a causal effect."
+    },
+    {
+      "beat": "B13",
+      "rule": "Do not use the stale audience_takeaway 'PMI公布晚于当日开盘'. Label '财新网页刊发 09:43:10'; the distinct 09:40:30 page does not establish first release. If replaying 09:43, do not imply that the complete 8/21 OHLC was already available then."
+    },
+    {
+      "beat": "B13",
+      "rule": "Photo IMG-20150824-01 depicts the 8/24 scene. The gallery published at 16:39, a separate clock. Preserve proportion, photographer credit and watermark. Exact input availability establishes neither public-use rights nor visual approval."
+    },
+    {
+      "beat": "B14–B15",
+      "rule": "8/25 18:15:34 is the PBC page timestamp after close. 8/26 is the interest-rate cut effective day only; 9/6 is the RRR effective day and a Sunday calendar label. The B15 generic title is not literal publication copy. Do not simulate an intraday cross of 2000."
+    },
+    {
+      "beat": "B17",
+      "rule": "ETF is optional, observational T2 as the contract explicitly adjudicates. If selected, use attribution to 中国证券报援引深交所数据, 9/7–22 window and no earlier than 9/25 publication. Historical SZSE file not imported; do not turn shares into cash flows or causal attribution."
+    },
+    {
+      "beat": "B17",
+      "rule": "4044亿元 (1664+2380) is citation-linked T2 two-exchange turnover only. It is not an OHLC-derived metric or required beat event. Original reports have not been imported or independently read in this run."
+    }
+  ],
+  "assets": {
+    "photo": {
+      "asset_id": "IMG-20150824-01",
+      "source_id": "IMG-01:S01",
+      "approved_caption": "2015.08.24 · 昆明｜中新社发 刘冉阳 摄",
+      "depicted_date": "2015-08-24",
+      "published_date": "2015-08-24",
+      "expected_sha256": "e9d18208a1e60e402af95d132c6e3a5cd5d313ecc1a00d08142e1898669a555e",
+      "expected_dimensions": [
+        940,
+        625
+      ],
+      "expected_bytes": 68047,
+      "manifest_sha256": "52765cf480fa73f02d6be532c1e70a22ccd075596fb409235f78dd1e73830a2b",
+      "rights_status": "NOT_PROVIDED",
+      "public_release_ready": false,
+      "crop_rule": "保留人物语境与媒体水印；适度平移/缩放，不篡改事实性内容。",
+      "status": "EXACT_INPUT_VERIFIED",
+      "media_rendered": false,
+      "observed": {
+        "sha256": "e9d18208a1e60e402af95d132c6e3a5cd5d313ecc1a00d08142e1898669a555e",
+        "bytes": 68047,
+        "format": "JPEG",
+        "dimensions": [
+          940,
+          625
+        ]
+      }
+    },
+    "historical_letv_visual": "NO_LICENSED_HISTORICAL_VISUAL_IDENTIFIED_IN_PINNED_INPUTS_TEXT_FALLBACK_AUTHORIZED",
+    "nasdaq_reference_recording": "ORIGINAL_NOT_ATTACHED_LOCAL_REVIEW_STILLS_AVAILABLE",
+    "existing_visual_refs": {
+      "assets/reference/approved_visual_reference.png": "460b236f55775acdfd5686bd2df97e440f1eec2eb688954fd3e42fc1317f6e82",
+      "assets/reference/earth_body_reference.png": "a619239f32ba3ae6c9b5ee692ca0116a62d736f9f80bb72e8192b8238eecb253"
+    },
+    "optional_szse_share_original": "NOT_IMPORTED"
+  },
+  "compiled_event_checks": {
+    "passed": true,
+    "checks": {
+      "source_ids_and_activation_match": true,
+      "june_weekend_two_dates_one_market_close": true,
+      "july_policy_sequence_stays_on_july3": true,
+      "august_fx_overlay_continues_market_clock": true,
+      "pmi_page_time_only": true,
+      "august_notice_and_effective_day_remain_distinct": true,
+      "optional_t2_layers_are_not_activated": true
+    },
+    "activations": [
+      {
+        "cue": "V102-B03-01",
+        "event_id": "E-APR-01-01",
+        "date": "2015-04-13",
+        "role": "effective_date",
+        "frame": 605,
+        "source_ids": [
+          "APR-01:S02",
+          "APR-01:S03"
+        ]
+      },
+      {
+        "cue": "V102-B03-02",
+        "event_id": "E-APR-01-04",
+        "date": "2015-04-28",
+        "role": "publisher_timestamp",
+        "frame": 806,
+        "source_ids": [
+          "APR-01:S06",
+          "APR-01:WEB01"
+        ]
+      },
+      {
+        "cue": "V102-B04-01",
+        "event_id": "E-IND-01-04",
+        "date": "2015-05-13",
+        "role": "historical_observation",
+        "frame": 1046,
+        "source_ids": [
+          "IND-01:WEB01",
+          "IND-01:WEB02",
+          "IND-01:S01",
+          "LETV-RAW-DAILY"
+        ]
+      },
+      {
+        "cue": "V102-B07-01",
+        "event_id": "E-JUN-01-01",
+        "date": "2015-06-12",
+        "role": "public_statement",
+        "frame": 1950,
+        "source_ids": [
+          "JUN-01:S01"
+        ]
+      },
+      {
+        "cue": "V102-B07-02",
+        "event_id": "E-JUN-01-04",
+        "date": "2015-06-18",
+        "role": "retrospective_statistic",
+        "frame": 2094,
+        "source_ids": [
+          "JUN-01:S04"
+        ]
+      },
+      {
+        "cue": "V102-B08-02",
+        "event_id": "E-JUN-02-01",
+        "date": "2015-06-27",
+        "role": "weekend_announcement",
+        "frame": 2430,
+        "source_ids": [
+          "JUN-02:S01",
+          "JUN-02:S02"
+        ]
+      },
+      {
+        "cue": "V102-B08-03",
+        "event_id": "E-JUN-02-01",
+        "date": "2015-06-28",
+        "role": "effective_date",
+        "frame": 2550,
+        "source_ids": [
+          "JUN-02:S01",
+          "JUN-02:S02"
+        ]
+      },
+      {
+        "cue": "V102-B09-01",
+        "event_id": "E-JUN-02-02",
+        "date": "2015-07-04",
+        "role": "weekend_announcement",
+        "frame": 2760,
+        "source_ids": [
+          "JUN-02:S03",
+          "JUN-02:S04"
+        ]
+      },
+      {
+        "cue": "V102-B09-02",
+        "event_id": "E-JUN-02-03",
+        "date": "2015-07-04",
+        "role": "weekend_announcement",
+        "frame": 2910,
+        "source_ids": [
+          "JUN-02:S06",
+          "JUN-02:S05"
+        ]
+      },
+      {
+        "cue": "V102-B09-03",
+        "event_id": "E-JUN-02-04",
+        "date": "2015-07-05",
+        "role": "weekend_announcement",
+        "frame": 3060,
+        "source_ids": [
+          "CSRC-2015-17"
+        ]
+      },
+      {
+        "cue": "V102-B12-01",
+        "event_id": "E-AUG-01-01",
+        "date": "2015-08-11",
+        "role": "macro_context",
+        "frame": 3915,
+        "source_ids": [
+          "AUG-01:S01",
+          "PBC-2015-Q3-REPORT"
+        ]
+      },
+      {
+        "cue": "V102-B13-02",
+        "event_id": "E-AUG-01-03",
+        "date": "2015-08-21",
+        "role": "publisher_timestamp",
+        "frame": 4434,
+        "source_ids": [
+          "AUG-01:S03",
+          "V102-PMI-CX-100842068"
+        ]
+      },
+      {
+        "cue": "V102-B13-04",
+        "event_id": "E-IMG-01-01",
+        "date": "2015-08-24",
+        "role": "documentary_scene",
+        "frame": 4650,
+        "source_ids": [
+          "IMG-01:S01"
+        ]
+      },
+      {
+        "cue": "V102-B14-02",
+        "event_id": "E-AUG-02-05",
+        "date": "2015-08-25",
+        "role": "official_website_timestamp",
+        "frame": 4950,
+        "source_ids": [
+          "PBC-2015-0825",
+          "PBC-2015-0825-TEXT"
+        ]
+      },
+      {
+        "cue": "V102-B15-01",
+        "event_id": "E-AUG-02-05",
+        "date": "2015-08-26",
+        "role": "effective_date",
+        "frame": 5328,
+        "source_ids": [
+          "PBC-2015-0825",
+          "PBC-2015-0825-TEXT"
+        ]
+      }
+    ]
+  }
+}

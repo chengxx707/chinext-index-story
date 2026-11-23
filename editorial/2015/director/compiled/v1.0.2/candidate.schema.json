@@ -1,0 +1,398 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChiNext 2015 V1.0.2 independent director candidate",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "package_version",
+    "fps",
+    "frame_count",
+    "source_provenance",
+    "timebase",
+    "global_rules",
+    "rail",
+    "cues",
+    "beat_ranges",
+    "compatibility"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "gpt-director-1.0"
+    },
+    "package_version": {
+      "const": "1.0.2"
+    },
+    "fps": {
+      "const": 30
+    },
+    "frame_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_provenance": {
+      "type": "object"
+    },
+    "timebase": {
+      "const": "integer_frames_end_exclusive"
+    },
+    "global_rules": {
+      "type": "object"
+    },
+    "rail": {
+      "type": "object"
+    },
+    "cues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "shot_id",
+          "start_frame",
+          "end_frame_exclusive",
+          "market_clock",
+          "primary_anchor",
+          "event_clock",
+          "text_cue",
+          "camera",
+          "link_geometry",
+          "earth_orbit",
+          "rail_mode",
+          "photo_asset_id",
+          "requires_renderer_capabilities",
+          "historical_anchor_label",
+          "beat_id",
+          "camera_story_clock",
+          "event_refs",
+          "primary_focus",
+          "secondary_layers",
+          "transition_in",
+          "transition_out",
+          "acceptance_checks",
+          "asset_refs",
+          "source_ids",
+          "copy_is_hud_only"
+        ],
+        "properties": {
+          "shot_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "start_frame": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end_frame_exclusive": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "market_clock": {
+            "type": "object",
+            "required": [
+              "mode",
+              "keyframes",
+              "hud_rule",
+              "visual_scroll",
+              "ohlc_reveal"
+            ],
+            "properties": {
+              "mode": {
+                "const": "monotone_trading_index"
+              },
+              "keyframes": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "frame_offset",
+                    "date"
+                  ],
+                  "properties": {
+                    "frame_offset": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "date": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "minItems": 2
+              },
+              "hud_rule": {
+                "type": "string",
+                "minLength": 1
+              },
+              "visual_scroll": {
+                "type": "string",
+                "minLength": 1
+              },
+              "ohlc_reveal": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "primary_anchor": {
+            "type": "object",
+            "required": [
+              "date",
+              "field",
+              "value",
+              "hit_frame"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "field": {
+                "enum": [
+                  "close",
+                  "high",
+                  "low"
+                ]
+              },
+              "value": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "hit_frame": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          },
+          "event_clock": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "date",
+                  "role",
+                  "persistent_date_label_required",
+                  "caption_must_not_follow_market_hud"
+                ],
+                "properties": {
+                  "date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "role": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "persistent_date_label_required": {
+                    "const": true
+                  },
+                  "caption_must_not_follow_market_hud": {
+                    "const": true
+                  }
+                },
+                "additionalProperties": true
+              }
+            ]
+          },
+          "text_cue": {
+            "type": "object",
+            "required": [
+              "in_frame",
+              "out_frame_exclusive",
+              "full_alpha_from_frame",
+              "lines",
+              "source_line",
+              "stable_reading_seconds"
+            ],
+            "properties": {
+              "in_frame": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "out_frame_exclusive": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "full_alpha_from_frame": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "lines": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1
+              },
+              "source_line": {
+                "type": "string",
+                "minLength": 1
+              },
+              "stable_reading_seconds": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            },
+            "additionalProperties": false
+          },
+          "camera": {
+            "type": "object",
+            "required": [
+              "scale",
+              "visible_trading_days",
+              "target_y_domain",
+              "transition_seconds",
+              "continuity",
+              "lock_y_scale_while_text_reading",
+              "clip_future_candles",
+              "photograph_layout"
+            ],
+            "properties": {
+              "scale": {
+                "enum": [
+                  "wide",
+                  "medium",
+                  "close"
+                ]
+              },
+              "visible_trading_days": {
+                "type": "integer",
+                "minimum": 2
+              },
+              "target_y_domain": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "transition_seconds": {
+                "type": "number"
+              },
+              "continuity": {
+                "type": "string",
+                "minLength": 1
+              },
+              "lock_y_scale_while_text_reading": {
+                "const": true
+              },
+              "clip_future_candles": {
+                "const": true
+              },
+              "photograph_layout": {
+                "type": "boolean"
+              },
+              "domain_group": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "link_geometry": {
+            "type": "object"
+          },
+          "earth_orbit": {
+            "type": "object"
+          },
+          "rail_mode": {
+            "enum": [
+              "single_rise_until_peak_hold",
+              "single_drawdown"
+            ]
+          },
+          "photo_asset_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "requires_renderer_capabilities": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "minItems": 3
+          },
+          "historical_anchor_label": {
+            "type": "object",
+            "required": [
+              "date",
+              "value_field",
+              "immutable_during_following_market_motion"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "value_field": {
+                "enum": [
+                  "close",
+                  "high",
+                  "low"
+                ]
+              },
+              "immutable_during_following_market_motion": {
+                "const": true
+              }
+            },
+            "additionalProperties": false
+          },
+          "beat_id": {
+            "type": "string"
+          },
+          "camera_story_clock": {
+            "type": "object"
+          },
+          "event_refs": {
+            "type": "array"
+          },
+          "primary_focus": {
+            "type": "string"
+          },
+          "secondary_layers": {
+            "type": "array"
+          },
+          "transition_in": {
+            "type": "string"
+          },
+          "transition_out": {
+            "type": "string"
+          },
+          "acceptance_checks": {
+            "type": "array"
+          },
+          "asset_refs": {
+            "type": "array"
+          },
+          "source_ids": {
+            "type": "array"
+          },
+          "copy_is_hud_only": {
+            "type": "boolean"
+          },
+          "evidence_flag": {}
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "beat_ranges": {
+      "type": "array"
+    },
+    "compatibility": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "flash_forward",
+    "start_frame": 0,
+    "end_frame_exclusive": 240
+  },
+  {
+    "id": "main_before_august",
+    "start_frame": 240,
+    "end_frame_exclusive": 3840
+  },
+  {
+    "id": "main_through_november",
+    "start_frame": 3840,
+    "end_frame_exclusive": 7200
+  }
+]
