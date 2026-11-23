@@ -1,0 +1,519 @@
+{
+  "passed": true,
+  "checks": {
+    "baseline_source": true,
+    "a": true,
+    "a_playable_clip": true,
+    "a_crop_from_delivered_phone_mp4": true,
+    "b": true,
+    "b_playable_clip": true,
+    "b_diagnostics_lineage": true,
+    "same_duration_tradeoffs": true
+  },
+  "sections": {
+    "baseline_source": {
+      "passed": true,
+      "checks": {
+        "diagnostics.json": true,
+        "phone-390.mp4": true,
+        "target.mp4": true
+      },
+      "commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb"
+    },
+    "a": {
+      "passed": true,
+      "checks": {
+        "expected_cues_and_all_11_session_dates_in_order": true,
+        "frozen_market_rows_and_single_active_track": true,
+        "fractional_market_clock_moves_forward_below_one_session_per_frame": true,
+        "camera_is_position_continuous_at_cue_joins": true,
+        "etf_and_turnover_never_overlap": true,
+        "01_copy_and_complete_six_frame_fade": true,
+        "02_copy_and_complete_six_frame_fade": true,
+        "03_copy_and_complete_six_frame_fade": true,
+        "ETF_copy_and_complete_six_frame_fade": true,
+        "ETF_independent_T2_full_read_after_real_close": true,
+        "04_copy_and_complete_six_frame_fade": true,
+        "TURNOVER_copy_and_complete_six_frame_fade": true,
+        "TURNOVER_independent_T2_full_read_after_real_close": true,
+        "05_copy_and_complete_six_frame_fade": true
+      },
+      "date_reach_and_dwell": [
+        {
+          "date": "2015-09-15",
+          "first_frame": 5880,
+          "frame_count": 17
+        },
+        {
+          "date": "2015-09-16",
+          "first_frame": 5897,
+          "frame_count": 69
+        },
+        {
+          "date": "2015-09-17",
+          "first_frame": 5966,
+          "frame_count": 8
+        },
+        {
+          "date": "2015-09-18",
+          "first_frame": 5974,
+          "frame_count": 8
+        },
+        {
+          "date": "2015-09-21",
+          "first_frame": 5982,
+          "frame_count": 66
+        },
+        {
+          "date": "2015-09-22",
+          "first_frame": 6048,
+          "frame_count": 7
+        },
+        {
+          "date": "2015-09-23",
+          "first_frame": 6055,
+          "frame_count": 7
+        },
+        {
+          "date": "2015-09-24",
+          "first_frame": 6062,
+          "frame_count": 8
+        },
+        {
+          "date": "2015-09-25",
+          "first_frame": 6070,
+          "frame_count": 225
+        },
+        {
+          "date": "2015-09-28",
+          "first_frame": 6295,
+          "frame_count": 188
+        },
+        {
+          "date": "2015-09-29",
+          "first_frame": 6483,
+          "frame_count": 57
+        }
+      ],
+      "stable_reading": {
+        "01": {
+          "cue_interval": [
+            5880,
+            5958
+          ],
+          "first_fully_visible_frame": 5903,
+          "fully_visible_frames_before_fade": 49,
+          "seconds": 1.633,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.088134,
+          "peak_shared_candle_x_step_phone_px": 23.1865
+        },
+        "02": {
+          "cue_interval": [
+            5958,
+            6040
+          ],
+          "first_fully_visible_frame": 5988,
+          "fully_visible_frames_before_fade": 46,
+          "seconds": 1.533,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.166016,
+          "peak_shared_candle_x_step_phone_px": 1.2194
+        },
+        "03": {
+          "cue_interval": [
+            6040,
+            6127
+          ],
+          "first_fully_visible_frame": 6076,
+          "fully_visible_frames_before_fade": 45,
+          "seconds": 1.5,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.166406,
+          "peak_shared_candle_x_step_phone_px": 1.2223
+        },
+        "ETF": {
+          "cue_interval": [
+            6127,
+            6277
+          ],
+          "first_fully_visible_frame": 6145,
+          "fully_visible_frames_before_fade": 126,
+          "seconds": 4.2,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.0,
+          "peak_shared_candle_x_step_phone_px": 5.3904
+        },
+        "04": {
+          "cue_interval": [
+            6277,
+            6352
+          ],
+          "first_fully_visible_frame": 6301,
+          "fully_visible_frames_before_fade": 45,
+          "seconds": 1.5,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.08299,
+          "peak_shared_candle_x_step_phone_px": 5.9128
+        },
+        "TURNOVER": {
+          "cue_interval": [
+            6352,
+            6466
+          ],
+          "first_fully_visible_frame": 6358,
+          "fully_visible_frames_before_fade": 102,
+          "seconds": 3.4,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.0,
+          "peak_shared_candle_x_step_phone_px": 0.0
+        },
+        "05": {
+          "cue_interval": [
+            6466,
+            6540
+          ],
+          "first_fully_visible_frame": 6489,
+          "fully_visible_frames_before_fade": 45,
+          "seconds": 1.5,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.088134,
+          "peak_shared_candle_x_step_phone_px": 0.6473
+        }
+      },
+      "peak_market_speed": {
+        "rows_per_frame": 0.166406,
+        "frame": 6046
+      },
+      "peak_shared_candle_x_step_phone_px": {
+        "pixels": 23.1865,
+        "frame": 5888
+      }
+    },
+    "a_playable_clip": {
+      "passed": true,
+      "checks": {
+        "single_silent_track": true,
+        "exact_390px_phone_resolution": true,
+        "exact_660_frames_at_30_fps_and_22_seconds": true
+      },
+      "sha256": "a85d1fa073e5875d883afd074d4414b7f9f2c427de0d1880bed74888535f034f",
+      "path": "output/director-v1.0.2-ab/result/B17-A.mp4"
+    },
+    "a_crop_from_delivered_phone_mp4": {
+      "passed": true,
+      "checks": {
+        "all_660_decoded_frames_match_ordered_baseline_crop": true
+      },
+      "baseline_crop_frames": [
+        360,
+        1020
+      ],
+      "reencoded_crop_ssim": 0.999146
+    },
+    "b": {
+      "passed": true,
+      "checks": {
+        "expected_cues_and_all_11_session_dates_in_order": true,
+        "frozen_market_rows_and_single_active_track": true,
+        "fractional_market_clock_moves_forward_below_one_session_per_frame": true,
+        "camera_is_position_continuous_at_cue_joins": true,
+        "etf_and_turnover_never_overlap": true,
+        "01_copy_and_complete_six_frame_fade": true,
+        "02_copy_and_complete_six_frame_fade": true,
+        "03_copy_and_complete_six_frame_fade": true,
+        "ETF_copy_and_complete_six_frame_fade": true,
+        "ETF_independent_T2_full_read_after_real_close": true,
+        "04_copy_and_complete_six_frame_fade": true,
+        "TURNOVER_copy_and_complete_six_frame_fade": true,
+        "TURNOVER_independent_T2_full_read_after_real_close": true,
+        "05_copy_and_complete_six_frame_fade": true
+      },
+      "date_reach_and_dwell": [
+        {
+          "date": "2015-09-15",
+          "first_frame": 5880,
+          "frame_count": 8
+        },
+        {
+          "date": "2015-09-16",
+          "first_frame": 5888,
+          "frame_count": 67
+        },
+        {
+          "date": "2015-09-17",
+          "first_frame": 5955,
+          "frame_count": 5
+        },
+        {
+          "date": "2015-09-18",
+          "first_frame": 5960,
+          "frame_count": 6
+        },
+        {
+          "date": "2015-09-21",
+          "first_frame": 5966,
+          "frame_count": 63
+        },
+        {
+          "date": "2015-09-22",
+          "first_frame": 6029,
+          "frame_count": 5
+        },
+        {
+          "date": "2015-09-23",
+          "first_frame": 6034,
+          "frame_count": 5
+        },
+        {
+          "date": "2015-09-24",
+          "first_frame": 6039,
+          "frame_count": 5
+        },
+        {
+          "date": "2015-09-25",
+          "first_frame": 6044,
+          "frame_count": 232
+        },
+        {
+          "date": "2015-09-28",
+          "first_frame": 6276,
+          "frame_count": 194
+        },
+        {
+          "date": "2015-09-29",
+          "first_frame": 6470,
+          "frame_count": 70
+        }
+      ],
+      "stable_reading": {
+        "01": {
+          "cue_interval": [
+            5880,
+            5949
+          ],
+          "first_fully_visible_frame": 5894,
+          "fully_visible_frames_before_fade": 49,
+          "seconds": 1.633,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.183594,
+          "peak_shared_candle_x_step_phone_px": 22.944
+        },
+        "02": {
+          "cue_interval": [
+            5949,
+            6024
+          ],
+          "first_fully_visible_frame": 5972,
+          "fully_visible_frames_before_fade": 46,
+          "seconds": 1.533,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.220539,
+          "peak_shared_candle_x_step_phone_px": 1.6199
+        },
+        "03": {
+          "cue_interval": [
+            6024,
+            6114
+          ],
+          "first_fully_visible_frame": 6050,
+          "fully_visible_frames_before_fade": 58,
+          "seconds": 1.933,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.264,
+          "peak_shared_candle_x_step_phone_px": 1.9391
+        },
+        "ETF": {
+          "cue_interval": [
+            6114,
+            6264
+          ],
+          "first_fully_visible_frame": 6132,
+          "fully_visible_frames_before_fade": 126,
+          "seconds": 4.2,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.0,
+          "peak_shared_candle_x_step_phone_px": 5.3904
+        },
+        "04": {
+          "cue_interval": [
+            6264,
+            6348
+          ],
+          "first_fully_visible_frame": 6282,
+          "fully_visible_frames_before_fade": 60,
+          "seconds": 2.0,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.123843,
+          "peak_shared_candle_x_step_phone_px": 6.2326
+        },
+        "TURNOVER": {
+          "cue_interval": [
+            6348,
+            6462
+          ],
+          "first_fully_visible_frame": 6354,
+          "fully_visible_frames_before_fade": 102,
+          "seconds": 3.4,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.0,
+          "peak_shared_candle_x_step_phone_px": 0.0
+        },
+        "05": {
+          "cue_interval": [
+            6462,
+            6540
+          ],
+          "first_fully_visible_frame": 6476,
+          "fully_visible_frames_before_fade": 58,
+          "seconds": 1.933,
+          "fade_alpha": [
+            1.0,
+            0.896,
+            0.648,
+            0.352,
+            0.104,
+            0.0
+          ],
+          "peak_market_rows_per_frame": 0.183594,
+          "peak_shared_candle_x_step_phone_px": 1.3485
+        }
+      },
+      "peak_market_speed": {
+        "rows_per_frame": 0.264,
+        "frame": 6028
+      },
+      "peak_shared_candle_x_step_phone_px": {
+        "pixels": 22.944,
+        "frame": 5888
+      }
+    },
+    "b_playable_clip": {
+      "passed": true,
+      "checks": {
+        "single_silent_track": true,
+        "exact_390px_phone_resolution": true,
+        "exact_660_frames_at_30_fps_and_22_seconds": true
+      },
+      "sha256": "5d131d03a587c94fbaf6c006cfe7490a0679de15ebc554cd2a64a818207becef",
+      "path": "output/director-v1.0.2-ab/result/B17-B.mp4"
+    },
+    "b_diagnostics_lineage": {
+      "passed": true,
+      "checks": {
+        "renderer_report_matches_actual_mp4_sha256_and_frame_scope": true
+      },
+      "diagnostics_sha256": "bbebf82e42eb5746abd893f1e13660777800ed63e310bca1bd2746490691ca5d"
+    },
+    "same_duration_tradeoffs": {
+      "passed": true,
+      "checks": {
+        "both_t2_keep_full_reading": true,
+        "no_ordinary_caption_loses_reading": true,
+        "ordinary_caption_time_reallocated": true
+      },
+      "actual_stable_reading_delta_frames": {
+        "01": 0,
+        "02": 0,
+        "03": 13,
+        "ETF": 0,
+        "04": 15,
+        "TURNOVER": 0,
+        "05": 13
+      },
+      "peak_market_speed_multiple": 1.586
+    }
+  },
+  "scope": "frozen inputs, actual compositor frame records and MP4 decode metadata; perceptual motion requires actual viewing"
+}

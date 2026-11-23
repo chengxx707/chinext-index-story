@@ -1,0 +1,605 @@
+{
+  "scope": "review-only B01 and B17 phone comparisons",
+  "visual_inputs": {
+    "base_commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+    "source_files": {
+      "candidate.json": {
+        "sha256": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+        "bytes": 295239
+      },
+      "B01-B02/phone-390.mp4": {
+        "sha256": "75484263de3d7f9da4aadc7cc5ce8695bb7a14d9b7a2920cd68997a96ec91d70",
+        "bytes": 223611
+      },
+      "B16-B18/phone-390.mp4": {
+        "sha256": "6846262ca3f6f6b9f2aa5686d602164f1d98f453567654346544de5765324607",
+        "bytes": 1034495
+      }
+    }
+  },
+  "publication_parent": "5f550d64b3f628811dbd52e5b3dd5137cced909f",
+  "selection": "pending",
+  "clips": {
+    "B01-A": {
+      "sha256": "10b8014d6c3a00bd2e20f298c9d8ca99269a31589e3268500bf4ae9fe5ff0ab9",
+      "bytes": 145111,
+      "file": "B01-A.mp4",
+      "global_frame_range_end_exclusive": [
+        0,
+        360
+      ],
+      "full_decode_passed": true,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 390,
+            "height": 694,
+            "avg_frame_rate": "30/1",
+            "nb_read_frames": "360"
+          }
+        ],
+        "format": {
+          "duration": "12.000000"
+        }
+      },
+      "playback": {
+        "passed": true,
+        "mode": "chromium_headless_actual_realtime_playback_no_seeks",
+        "wallSeconds": 12.261,
+        "result": {
+          "currentTime": 12,
+          "duration": 12,
+          "width": 390,
+          "height": 694,
+          "muted": true,
+          "ended": true,
+          "error": null,
+          "readyState": 4,
+          "frames": 360,
+          "dropped": 0,
+          "events": [
+            {
+              "event": "loadedmetadata",
+              "at": 0,
+              "clock": 59.8999999910593,
+              "code": null
+            },
+            {
+              "event": "play",
+              "at": 0.0001,
+              "clock": 107.19999998807907,
+              "code": null
+            },
+            {
+              "event": "playing",
+              "at": 0.0002,
+              "clock": 107.19999998807907,
+              "code": null
+            },
+            {
+              "event": "ended",
+              "at": 12,
+              "clock": 12109.09999999404,
+              "code": null
+            }
+          ],
+          "played": [
+            [
+              0,
+              12
+            ]
+          ]
+        },
+        "snapshot_video_times": [
+          0.0041,
+          0.6051,
+          1.2022,
+          1.7548,
+          2.3301,
+          2.9501,
+          3.5379,
+          4.1425,
+          4.7502,
+          5.3248,
+          5.9272,
+          6.5499,
+          7.133,
+          7.7021,
+          8.2626,
+          8.8113,
+          9.3818,
+          9.9618,
+          10.5343,
+          11.106,
+          11.6659,
+          12
+        ]
+      }
+    },
+    "B01-B": {
+      "sha256": "bd0f8594c50ba5986362ae02e658616c5126616c773d7c2df018cb05145b74ee",
+      "bytes": 107507,
+      "file": "B01-B.mp4",
+      "global_frame_range_end_exclusive": [
+        0,
+        360
+      ],
+      "full_decode_passed": true,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 390,
+            "height": 694,
+            "avg_frame_rate": "30/1",
+            "nb_read_frames": "360"
+          }
+        ],
+        "format": {
+          "duration": "12.000000"
+        }
+      },
+      "playback": {
+        "passed": true,
+        "mode": "chromium_headless_actual_realtime_playback_no_seeks",
+        "wallSeconds": 12.547,
+        "result": {
+          "currentTime": 12,
+          "duration": 12,
+          "width": 390,
+          "height": 694,
+          "muted": true,
+          "ended": true,
+          "error": null,
+          "readyState": 4,
+          "frames": 360,
+          "dropped": 1,
+          "events": [
+            {
+              "event": "loadedmetadata",
+              "at": 0,
+              "clock": 36.5,
+              "code": null
+            },
+            {
+              "event": "play",
+              "at": 0,
+              "clock": 52.599999994039536,
+              "code": null
+            },
+            {
+              "event": "waiting",
+              "at": 0,
+              "clock": 52.599999994039536,
+              "code": null
+            },
+            {
+              "event": "playing",
+              "at": 0.0003,
+              "clock": 59.099999994039536,
+              "code": null
+            },
+            {
+              "event": "ended",
+              "at": 12,
+              "clock": 12059.5,
+              "code": null
+            }
+          ],
+          "played": [
+            [
+              0,
+              12
+            ]
+          ]
+        },
+        "snapshot_video_times": [
+          0.0105,
+          0.6156,
+          1.2053,
+          1.754,
+          2.3379,
+          2.9004,
+          3.4511,
+          4.0135,
+          4.6029,
+          5.1676,
+          5.7162,
+          6.2866,
+          6.8654,
+          7.43,
+          7.9851,
+          8.5462,
+          9.1289,
+          9.6959,
+          10.2464,
+          10.813,
+          11.3799,
+          11.9616,
+          12
+        ]
+      },
+      "renderer_checks": {
+        "complete_frame_sequence": true,
+        "frame_count": true,
+        "layout_and_candle_checks": true,
+        "phone_media": true
+      }
+    },
+    "B17-A": {
+      "sha256": "a85d1fa073e5875d883afd074d4414b7f9f2c427de0d1880bed74888535f034f",
+      "bytes": 389723,
+      "file": "B17-A.mp4",
+      "global_frame_range_end_exclusive": [
+        5880,
+        6540
+      ],
+      "full_decode_passed": true,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 390,
+            "height": 694,
+            "avg_frame_rate": "30/1",
+            "nb_read_frames": "660"
+          }
+        ],
+        "format": {
+          "duration": "22.000000"
+        }
+      },
+      "playback": {
+        "passed": true,
+        "mode": "chromium_headless_actual_realtime_playback_no_seeks",
+        "wallSeconds": 22.161,
+        "result": {
+          "currentTime": 22,
+          "duration": 22,
+          "width": 390,
+          "height": 694,
+          "muted": true,
+          "ended": true,
+          "error": null,
+          "readyState": 4,
+          "frames": 660,
+          "dropped": 0,
+          "events": [
+            {
+              "event": "loadedmetadata",
+              "at": 0,
+              "clock": 62,
+              "code": null
+            },
+            {
+              "event": "play",
+              "at": 0,
+              "clock": 81.19999998807907,
+              "code": null
+            },
+            {
+              "event": "waiting",
+              "at": 0,
+              "clock": 81.29999999701977,
+              "code": null
+            },
+            {
+              "event": "playing",
+              "at": 0.0002,
+              "clock": 86.09999999403954,
+              "code": null
+            },
+            {
+              "event": "ended",
+              "at": 22,
+              "clock": 22086.79999999702,
+              "code": null
+            }
+          ],
+          "played": [
+            [
+              0,
+              22
+            ]
+          ]
+        },
+        "snapshot_video_times": [
+          0.004,
+          0.5856,
+          1.16,
+          1.7314,
+          2.2903,
+          2.8727,
+          3.4323,
+          3.9814,
+          4.5489,
+          5.116,
+          5.6816,
+          6.2469,
+          6.8308,
+          7.3819,
+          7.9703,
+          8.5333,
+          9.0986,
+          9.648,
+          10.2182,
+          10.7821,
+          11.3648,
+          11.9366,
+          12.4846,
+          13.0521,
+          13.6312,
+          14.208,
+          14.7646,
+          15.3206,
+          15.8965,
+          16.463,
+          17.0299,
+          17.5845,
+          18.1488,
+          18.7309,
+          19.2806,
+          19.8632,
+          20.4145,
+          20.9893,
+          21.5699,
+          22
+        ]
+      }
+    },
+    "B17-B": {
+      "sha256": "5d131d03a587c94fbaf6c006cfe7490a0679de15ebc554cd2a64a818207becef",
+      "bytes": 225250,
+      "file": "B17-B.mp4",
+      "global_frame_range_end_exclusive": [
+        5880,
+        6540
+      ],
+      "full_decode_passed": true,
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 390,
+            "height": 694,
+            "avg_frame_rate": "30/1",
+            "nb_read_frames": "660"
+          }
+        ],
+        "format": {
+          "duration": "22.000000"
+        }
+      },
+      "playback": {
+        "passed": true,
+        "mode": "chromium_headless_actual_realtime_playback_no_seeks",
+        "wallSeconds": 22.164,
+        "result": {
+          "currentTime": 22,
+          "duration": 22,
+          "width": 390,
+          "height": 694,
+          "muted": true,
+          "ended": true,
+          "error": null,
+          "readyState": 4,
+          "frames": 660,
+          "dropped": 0,
+          "events": [
+            {
+              "event": "loadedmetadata",
+              "at": 0,
+              "clock": 31.700000002980232,
+              "code": null
+            },
+            {
+              "event": "play",
+              "at": 0.0001,
+              "clock": 48.3999999910593,
+              "code": null
+            },
+            {
+              "event": "playing",
+              "at": 0.0002,
+              "clock": 48.3999999910593,
+              "code": null
+            },
+            {
+              "event": "ended",
+              "at": 22,
+              "clock": 22049.09999999404,
+              "code": null
+            }
+          ],
+          "played": [
+            [
+              0,
+              22
+            ]
+          ]
+        },
+        "snapshot_video_times": [
+          0.0013,
+          0.5633,
+          1.1461,
+          1.7093,
+          2.2598,
+          2.826,
+          3.4137,
+          3.9862,
+          4.5439,
+          5.1153,
+          5.6624,
+          6.2255,
+          6.7929,
+          7.3576,
+          7.9404,
+          8.5084,
+          9.0581,
+          9.6272,
+          10.2086,
+          10.7743,
+          11.3422,
+          11.8915,
+          12.4575,
+          13.041,
+          13.6068,
+          14.1596,
+          14.7416,
+          15.2933,
+          15.8908,
+          16.4585,
+          17.0278,
+          17.6099,
+          18.1757,
+          18.7409,
+          19.3075,
+          19.8731,
+          20.4399,
+          20.9914,
+          21.5739,
+          22
+        ]
+      },
+      "renderer_checks": {
+        "complete_frame_sequence": true,
+        "frame_count": true,
+        "layout_and_candle_checks": true,
+        "phone_media": true
+      }
+    }
+  },
+  "companion_reports": {
+    "README.md": {
+      "sha256": "defb3b8d11746cd35b43631548706e6b2434f87465b1143f27d68a665b770575",
+      "bytes": 2930
+    },
+    "b17-ab-qa.json": {
+      "sha256": "99c04ea0e16bb70eb41be3a130c0b21fe9e3c75bb3aba53f78a39a958234869c",
+      "bytes": 13826
+    }
+  },
+  "visual_observation": "390px screenshots captured during single 1x browser pass and separately sampled decoded frames. Reading landmarks are observations, not timed human viewing.",
+  "b01": {
+    "push_window_end_exclusive": [
+      0,
+      45
+    ],
+    "visible_trading_rows_b": [
+      56,
+      50
+    ],
+    "april_return_frame": 240
+  },
+  "b17": {
+    "total_frames": 660,
+    "trading_sessions_per_version": 11,
+    "stable_frames_a": [
+      [
+        5903,
+        5952
+      ],
+      [
+        5988,
+        6034
+      ],
+      [
+        6076,
+        6121
+      ],
+      [
+        6145,
+        6271
+      ],
+      [
+        6301,
+        6346
+      ],
+      [
+        6358,
+        6460
+      ],
+      [
+        6489,
+        6534
+      ]
+    ],
+    "stable_frames_b": [
+      [
+        5894,
+        5943
+      ],
+      [
+        5972,
+        6018
+      ],
+      [
+        6050,
+        6108
+      ],
+      [
+        6132,
+        6258
+      ],
+      [
+        6282,
+        6342
+      ],
+      [
+        6354,
+        6456
+      ],
+      [
+        6476,
+        6534
+      ]
+    ],
+    "stable_window_order": [
+      "09-16",
+      "09-21",
+      "09-25",
+      "ETF",
+      "09-28",
+      "turnover",
+      "09-29"
+    ],
+    "independent_frame_checks": {
+      "baseline_source": true,
+      "a": true,
+      "a_playable_clip": true,
+      "a_crop_from_delivered_phone_mp4": true,
+      "b": true,
+      "b_playable_clip": true,
+      "b_diagnostics_lineage": true,
+      "same_duration_tradeoffs": true
+    }
+  },
+  "verification": {
+    "frozen_input_hashes": {
+      "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+      "config/production/film_master_v1.json": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+      "config/event_registry.json": "fc99e9b18b06d0df703b95d2f9d0934d2941134b8c4c57878291c77716fb7c4d",
+      "output/director-v1.0.2-visual-test/work/render_visual.py": "f62ed0de8f4f6ddd5090578402e0791c36d90036b5fe177612df07a83ed49c79",
+      "output/director-v1.0.2-visual-test/work/visual_overlay.py": "d9d77bd6f7ac0c9b88bed6d82b1aadfdbbb172bfe9ef546686227e8295214320",
+      "output/director-v1.0.2-visual-test/runtime/src/chinext_v6/editorial_clock.py": "6602b3eb3b57569e9360d7ade63ad1bceeb362ee334bd52ad55a23950bb041f0",
+      "output/director-v1.0.2-visual-test/runtime/src/chinext_v6/drawing.py": "7a07abaa8f2d2d8970c43f7f6ef8c539d65ad4e7dc2210646421e99bf132fe60",
+      "output/director-v1.0.2-visual-test/runtime/tools/render_editorial_preview.py": "1ecbf3836e5e1104b39d53b7ed4698f111079d42d86267fa88d623a7e6f31bb2",
+      "output/director-v1.0.2-visual-test/runtime/editorial/2015/releases/v1.0.1/director_timeline.schema.json": "2559c15e4415c02d495ab30a8bef5e148174b6ee2c9ffd326b07dfc835e82c9d"
+    },
+    "unchanged_projected_frame_count": 7200,
+    "full_preview_rendered": false
+  }
+}
