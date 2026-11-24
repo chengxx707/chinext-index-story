@@ -11,7 +11,8 @@
   "source_hashes": {
     "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
     "assets/earth_body.png": "a619239f32ba3ae6c9b5ee692ca0116a62d736f9f80bb72e8192b8238eecb253",
-    "assets/reference/approved_visual_reference.png": "460b236f55775acdfd5686bd2df97e440f1eec2eb688954fd3e42fc1317f6e82"
+    "assets/reference/approved_visual_reference.png": "460b236f55775acdfd5686bd2df97e440f1eec2eb688954fd3e42fc1317f6e82",
+    "assets/earth_cinematic.png": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197"
   },
   "actual_comparison_reference": "assets/reference/approved_visual_reference.png",
   "latest_first_reference": "original file unavailable",
@@ -600,5 +601,6 @@
     "every_second_has_a_frozen_trading_day": true,
     "chronological_20_second_flow_and_still_dates_match": true,
     "accounts_and_company_size_enter_from_their_verified_reporting_context": true
-  }
+  },
+  "earth_render_asset": "assets/earth_cinematic.png"
 }
