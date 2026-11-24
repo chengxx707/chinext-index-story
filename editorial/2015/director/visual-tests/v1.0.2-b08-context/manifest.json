@@ -1,0 +1,274 @@
+{
+  "passed": true,
+  "chronology_source": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+  "signed_short_source": "aa7ee0aeebf9861ceecbc889ce13898e24063cb5",
+  "approved_original_sources_sha256": {
+    "baseline": "713b9c0ff005f4a52fe6c72d6df5121bc2da5c3820d4cea23220e18b306b0ae1",
+    "signed": "03238d2f642ee8e1cc6ea794e6f2cdeff5a154a858c7b8d9711021066da771d7"
+  },
+  "signed_entire_120_frame_short_is_stream_copied_and_bit_exact_in_phone_export": true,
+  "signed_decoded_120_frames_sha256": "aac6d79893ab155385f58cb560b7bb310f36f564d3645598326f931772089b41",
+  "benchmark_lossless_build_sha256": "f9d50d41adf8f6e738b7e9e519389250e72da88927d5d05e7901053dd8e8ccb5",
+  "all_reused_baseline_frames_are_bit_exact_in_benchmark_build": true,
+  "phone_prefix_and_suffix_are_reencoded": true,
+  "decoded_yuv_ssim_vs_benchmark_by_interval": [
+    {
+      "source": "baseline",
+      "source_clip_frames_end_exclusive": [
+        0,
+        270
+      ],
+      "review_clip_frames_end_exclusive": [
+        0,
+        270
+      ],
+      "decoded_yuv_ssim_vs_exact": 0.998844
+    },
+    {
+      "source": "signed",
+      "source_clip_frames_end_exclusive": [
+        0,
+        120
+      ],
+      "review_clip_frames_end_exclusive": [
+        270,
+        390
+      ],
+      "decoded_yuv_ssim_vs_exact": 1.0
+    },
+    {
+      "source": "july1",
+      "source_clip_frames_end_exclusive": [
+        0,
+        56
+      ],
+      "review_clip_frames_end_exclusive": [
+        390,
+        446
+      ],
+      "decoded_yuv_ssim_vs_exact": 0.998221
+    },
+    {
+      "source": "baseline",
+      "source_clip_frames_end_exclusive": [
+        390,
+        454
+      ],
+      "review_clip_frames_end_exclusive": [
+        446,
+        510
+      ],
+      "decoded_yuv_ssim_vs_exact": 0.997786
+    },
+    {
+      "source": "baseline",
+      "source_clip_frames_end_exclusive": [
+        480,
+        1320
+      ],
+      "review_clip_frames_end_exclusive": [
+        510,
+        1350
+      ],
+      "decoded_yuv_ssim_vs_exact": 0.998792
+    }
+  ],
+  "scope": "B08–B10 review only. Source global frames still use b0d71e8. No new whole-candidate timeline.",
+  "source_global_frames_end_exclusive": [
+    2280,
+    3600
+  ],
+  "clip_local_duration_seconds": 45.0,
+  "source_clip_sequence": [
+    {
+      "source": "baseline",
+      "source_clip_frames_end_exclusive": [
+        0,
+        270
+      ],
+      "review_clip_frames_end_exclusive": [
+        0,
+        270
+      ]
+    },
+    {
+      "source": "signed",
+      "source_clip_frames_end_exclusive": [
+        0,
+        120
+      ],
+      "review_clip_frames_end_exclusive": [
+        270,
+        390
+      ]
+    },
+    {
+      "source": "july1",
+      "source_clip_frames_end_exclusive": [
+        0,
+        56
+      ],
+      "review_clip_frames_end_exclusive": [
+        390,
+        446
+      ]
+    },
+    {
+      "source": "baseline",
+      "source_clip_frames_end_exclusive": [
+        390,
+        454
+      ],
+      "review_clip_frames_end_exclusive": [
+        446,
+        510
+      ]
+    },
+    {
+      "source": "baseline",
+      "source_clip_frames_end_exclusive": [
+        480,
+        1320
+      ],
+      "review_clip_frames_end_exclusive": [
+        510,
+        1350
+      ]
+    }
+  ],
+  "local_delay_after_B08_in_frames": 30,
+  "july1_close_read": {
+    "date": "2015-07-01",
+    "source_frames_with_market_row_end_exclusive": [
+      2666,
+      2674
+    ],
+    "repeated_source_state_frame": 2669,
+    "ohlc": {
+      "open": 2842.17,
+      "high": 3008.19,
+      "low": 2743.61,
+      "close": 2759.41
+    },
+    "close_copy": "7月1日 · 收盘 2,759.41",
+    "market_focus": "L1_MARKET",
+    "candle_index": 1232,
+    "drawdown_percent_vs_3982_25": -30.71,
+    "overlay_text_roles": [
+      {
+        "id": "v102_caption_0",
+        "role": "market_close_reading",
+        "size_logical": 32,
+        "phone_size_px": 17.33,
+        "alpha": 1.0
+      }
+    ],
+    "new_clip_local_frames_end_exclusive": [
+      390,
+      446
+    ],
+    "new_clip_local_full_alpha_end_exclusive": [
+      394,
+      444
+    ],
+    "displaced_in_existing_44s_excerpt": "July 1 had 8 trading-row frames; no dedicated July 1 full reading cue",
+    "checks": {
+      "no_foreground_collision": true,
+      "no_future_candles": true,
+      "one_active_rail": true
+    },
+    "scene_inputs_sha256": {
+      "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+      "assets/earth_cinematic.png": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197",
+      "assets/earth_body.png": "a619239f32ba3ae6c9b5ee692ca0116a62d736f9f80bb72e8192b8238eecb253",
+      "approved_storyboard": "43f81d098790e07e22bbddc2456126222f30ad7b8a39f05421b9571127cf265f",
+      "baseline_review_archive": "dd46b813641e683bb751a3dfdd83abbdc1d8e6ae261b11bf9196beb06e34834e",
+      "baseline_candidate": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+      "render_visual.py": "f62ed0de8f4f6ddd5090578402e0791c36d90036b5fe177612df07a83ed49c79",
+      "visual_overlay.py": "d9d77bd6f7ac0c9b88bed6d82b1aadfdbbb172bfe9ef546686227e8295214320",
+      "legacy/flash_forward.json": "af312e13ce96ac76248715f4d0119a46a8d3a96bf1e2df72712ff66dd55f5fea",
+      "legacy/main_before_august.json": "48aff16e755ce91426e2ed26d9f2c021ae3c478cf62cc3cba1d4f2d96e30d862",
+      "legacy/main_through_november.json": "7e57b467aab99360e0df469076693710079ed8300f8e7d3a5a2f983b3a2f4b67"
+    }
+  },
+  "july2_and_july3_first_arrival_local_frames": {
+    "2015-07-02": 450,
+    "2015-07-03": 459
+  },
+  "july3_close_full_alpha_clip_frames_end_exclusive": [
+    465,
+    510
+  ],
+  "b09_and_b10_local_start_frames": {
+    "B09": 510,
+    "B10": 990
+  },
+  "media": {
+    "name": "phone-390.mp4",
+    "sha256": "620b3e3dbb746ede038eb65eabefc46286fd7d7b087ce8c4b2bc30b6bffd5c0d",
+    "probe": {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 390,
+      "height": 694,
+      "coded_width": 400,
+      "coded_height": 704,
+      "closed_captions": 0,
+      "film_grain": 0,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 30,
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 4,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 691200,
+      "duration": "45.000000",
+      "bit_rate": "141386",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "1350",
+      "nb_read_frames": "1350",
+      "extradata_size": 46,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]",
+        "encoder": "Lavc61.19.101 libx264"
+      }
+    },
+    "full_decode_and_regular_presentation_timestamps_passed": true
+  }
+}

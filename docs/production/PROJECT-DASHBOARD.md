@@ -1,8 +1,8 @@
 # 创业板视频制作看板
 
-**2026-11-24（北京时间）｜B01-B 与 B17-B 已纳入手机代表块。导演已签核 B08 的 4 秒日期标记短样片（`aa7ee0a`）。**
+**2026-11-24（北京时间）｜B01-B 与 B17-B 已纳入手机代表块。导演已签核 B08 日期标记短片（`aa7ee0a`）。B08–B10 手机接续已复看，7 月 1 日日期、收盘读数可一眼连读。**
 
-当前阶段为 **V1.0.2 B08–B10 接续审片**。沿用金融纪录片式导演方向（A）和 T1/T2/T3 证据分级，2015 章节继续呈现低点后的反弹与修复。
+当前阶段为 **V1.0.2 代表块审片，B13 同日时间轴待专项审阅**。沿用金融纪录片式导演方向（A）和 T1/T2/T3 证据分级，2015 章节继续呈现低点后的反弹与修复。
 
 ## 当前状态
 
@@ -21,7 +21,7 @@
 | R1 参考与资料图 | 第一张最新参考图：原件尚未收到。第二张白宫打底参考图：原件尚未收到。 | [R1 审阅回执与下载](../../editorial/2015/director/visual-tests/v1.0.2-r1/README.md) |
 | B01／B17 手机 A/B 选版 | **用户确认 B01-B、B17-B，已放回代表块并检查接续** | [固定提交 37dfb77 的样片、时间点与证据](https://github.com/chengxx707/chinext-index-story/tree/37dfb77e102909788cc2f0b4428319f4ae1ecc32/editorial/2015/director/visual-tests/v1.0.2-ab) |
 | B08 多层分镜 | **导演已签核短样片**，采用低亮日期标记及其现有退场时点 | [逐拍分镜](../../editorial/2015/director/B08_LAYERED_STORYBOARD_V1.0.2.md) · [签核证据（aa7ee0a）](https://github.com/chengxx707/chinext-index-story/blob/aa7ee0aeebf9861ceecbc889ce13898e24063cb5/editorial/2015/director/visual-tests/v1.0.2-selected/b08/manifest.json) |
-| B08–B10 行情接续 | **待原速审片** | 7 月 1 日日期和收盘读数须在 390 像素、1× 下能一次读清 |
+| B08–B10 行情接续 | **已完成 390 像素、1× 审片**，7 月 1 日与收盘 2,759.41 一行可读 | [45 秒手机版与原速证据](../../editorial/2015/director/visual-tests/v1.0.2-b08-context/README.md) |
 | B13 同日时间轴 | **下一项单独审阅** | 09:30 A 股开盘与 09:43:10 财新网页刊发 |
 | 完整连续预览 | 240 秒预览待单独批准 | R1 的 244 秒预算随其交付保留，见 R1 回执 |
 | 正式全片采用 | 尚未采用 | 正式427秒主表保持不变；后续与既有S16去重 |
@@ -35,7 +35,7 @@
 
 B08 已签核的低亮「6/28 · 实施」随 6/29 日 K 入场，6/30 日 K 入场时已退尽。亮度与时点以 `aa7ee0a` 的短样片为准。
 
-B01、B17 的依据为 `37dfb77` 的 390 像素样片与 [播放、时钟和媒体摘要](../../editorial/2015/director/visual-tests/v1.0.2-ab/evidence.json)，样片从首轮 48 cue 候选派生。两项选版已写入本轮候选配置，按原速完成代表块接续检查。B09 三张政策卡与 B13 双时间节点留作专项审阅。 [本轮样片及证据](../../editorial/2015/director/visual-tests/v1.0.2-selected/README.md)
+B01、B17 的依据为 `37dfb77` 的 390 像素样片与 [播放、时钟和媒体摘要](../../editorial/2015/director/visual-tests/v1.0.2-ab/evidence.json)，样片从首轮 48 cue 候选派生。两项选版已写入本轮候选配置，按原速完成代表块接续检查。B08–B10 已完成复市接续审片，B13 双时间节点为下一项单独审阅。 [B08–B10 接续](../../editorial/2015/director/visual-tests/v1.0.2-b08-context/README.md) · [B01／B17 样片及证据](../../editorial/2015/director/visual-tests/v1.0.2-selected/README.md)
 
 ## 首轮代表块验收范围
 

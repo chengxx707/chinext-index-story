@@ -1,0 +1,205 @@
+{
+  "passed": true,
+  "checks": {
+    "baseline": true,
+    "media": true,
+    "signed_clip": true,
+    "before_signed_clip": true,
+    "july2_and_july3_catchup": true,
+    "b09_and_b10_picture_and_timing": true,
+    "july1_chart_hold": true,
+    "july1_stable_picture": true,
+    "july1_reading": true
+  },
+  "sections": {
+    "baseline": {
+      "passed": true,
+      "checks": {
+        "baseline_and_signed_media_match_commit_manifests": true,
+        "frozen_prices_event_register_master_and_assets_match": true,
+        "signed_short_includes_first_four_true_july1_frames": true,
+        "baseline_july1_reader_is_only_eight_plain_hud_frames": true,
+        "baseline_diagnostics_match_recorded_sha256": true
+      },
+      "frozen_checks": {
+        "data/cyb_daily.csv": true,
+        "config/event_registry.json": true,
+        "config/production/film_master_v1.json": true,
+        "assets/earth_cinematic.png": true,
+        "assets/earth_body.png": true
+      },
+      "baseline_commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+      "signed_commit": "aa7ee0aeebf9861ceecbc889ce13898e24063cb5",
+      "signed_sha256": "03238d2f642ee8e1cc6ea794e6f2cdeff5a154a858c7b8d9711021066da771d7",
+      "baseline_sha256": "713b9c0ff005f4a52fe6c72d6df5121bc2da5c3820d4cea23220e18b306b0ae1",
+      "july1": {
+        "ohlc": {
+          "open": "2842.17",
+          "high": "3008.19",
+          "low": "2743.61",
+          "close": "2759.41"
+        },
+        "from_june30_close_pct": "-3.470218043034901578039676630",
+        "from_june3_close_pct": "-30.70726348170004394500596397",
+        "original_frames_end_exclusive": [
+          2666,
+          2674
+        ],
+        "original_duration_seconds": 0.26666666666666666
+      }
+    },
+    "media": {
+      "passed": true,
+      "checks": {
+        "single_h264_video_no_audio": true,
+        "phone_390x694_yuv420p": true,
+        "phone_avc_high_profile_level3": true,
+        "exact_cfr_pts_duration": true,
+        "whole_stream_decodes": true,
+        "blackdetect_empty": true
+      },
+      "frames": 1350,
+      "fps": 30,
+      "duration_seconds": 45.0,
+      "profile": "High",
+      "sha256": "620b3e3dbb746ede038eb65eabefc46286fd7d7b087ce8c4b2bc30b6bffd5c0d",
+      "black_intervals": []
+    },
+    "signed_clip": {
+      "passed": true,
+      "checks": {
+        "all_120_signed_decoded_frames_exact": true
+      },
+      "requested_frames": 120,
+      "resulting_frames": 120,
+      "different_relative_frame_indices": []
+    },
+    "before_signed_clip": {
+      "passed": true,
+      "checks": {
+        "all_requested_frames_compared": true,
+        "same_pictures_up_to_reencoding_tolerance": true
+      },
+      "source_frames": [
+        0,
+        270
+      ],
+      "sample_frames": [
+        0,
+        270
+      ],
+      "compared_frames": 270,
+      "min_ssim": 0.99859,
+      "mean_ssim": 0.998844,
+      "crop": null,
+      "reference_repeated_for_reading": false,
+      "error": null
+    },
+    "july2_and_july3_catchup": {
+      "passed": true,
+      "checks": {
+        "all_requested_frames_compared": true,
+        "same_pictures_up_to_reencoding_tolerance": true
+      },
+      "source_frames": [
+        390,
+        454
+      ],
+      "sample_frames": [
+        446,
+        510
+      ],
+      "compared_frames": 64,
+      "min_ssim": 0.997304,
+      "mean_ssim": 0.997786,
+      "crop": null,
+      "reference_repeated_for_reading": false,
+      "error": null
+    },
+    "b09_and_b10_picture_and_timing": {
+      "passed": true,
+      "checks": {
+        "all_requested_frames_compared": true,
+        "same_pictures_up_to_reencoding_tolerance": true
+      },
+      "source_frames": [
+        480,
+        1320
+      ],
+      "sample_frames": [
+        510,
+        1350
+      ],
+      "compared_frames": 840,
+      "min_ssim": 0.997337,
+      "mean_ssim": 0.998792,
+      "crop": null,
+      "reference_repeated_for_reading": false,
+      "error": null
+    },
+    "july1_chart_hold": {
+      "passed": true,
+      "checks": {
+        "all_requested_frames_compared": true,
+        "same_pictures_up_to_reencoding_tolerance": true
+      },
+      "source_frames": [
+        119,
+        120
+      ],
+      "sample_frames": [
+        394,
+        444
+      ],
+      "compared_frames": 50,
+      "min_ssim": 0.993038,
+      "mean_ssim": 0.99304,
+      "crop": "390:494:0:200",
+      "reference_repeated_for_reading": true,
+      "error": null
+    },
+    "july1_stable_picture": {
+      "passed": true,
+      "checks": {
+        "all_requested_frames_compared": true,
+        "same_pictures_up_to_reencoding_tolerance": true
+      },
+      "source_frames": [
+        394,
+        395
+      ],
+      "sample_frames": [
+        394,
+        444
+      ],
+      "compared_frames": 50,
+      "min_ssim": 0.999972,
+      "mean_ssim": 0.999979,
+      "crop": null,
+      "reference_repeated_for_reading": true,
+      "error": null
+    },
+    "july1_reading": {
+      "passed": true,
+      "checks": {
+        "manifest_bound_to_the_review_mp4": true,
+        "published_original_and_signed_inputs_claimed": true,
+        "same_ohlc_chart_close_and_rail": true,
+        "one_factual_market_caption_no_policy_copy_or_overlap": true,
+        "50_full_alpha_frames": true,
+        "precise_source_frame_map_and_b09_b10_entry": true,
+        "only_26_frames_of_steady_7_3_hold_displaced": true
+      },
+      "copy": "7月1日 · 收盘 2,759.41",
+      "full_read_local_frames_end_exclusive": [
+        394,
+        444
+      ],
+      "full_read_seconds": 1.6666666666666667,
+      "phone_nominal_font_px": 17.33,
+      "retained_july3_full_read_seconds": 1.5,
+      "retained_drawdown_percent": -30.71
+    }
+  },
+  "scope": "read-only native decoded-frame, frozen OHLC, and timing checks; separate from 1× viewing"
+}

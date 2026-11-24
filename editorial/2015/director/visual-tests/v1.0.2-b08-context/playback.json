@@ -1,0 +1,520 @@
+{
+  "passed": true,
+  "method": "Chromium, 390×694, rate 1.0, continuous playback from start to end, no seek or mid-play pause",
+  "reading_caption": {
+    "text": "7月1日 · 收盘 2,759.41",
+    "full_alpha_clip_local_frames_end_exclusive": [
+      394,
+      444
+    ],
+    "full_alpha_seconds": 1.6666666666666667,
+    "source": "visual review of frames presented during the 1× playback"
+  },
+  "runs": {
+    "baseline": {
+      "sha256": "713b9c0ff005f4a52fe6c72d6df5121bc2da5c3820d4cea23220e18b306b0ae1",
+      "passed": true,
+      "result": {
+        "currentTime": 44,
+        "duration": 44,
+        "width": 390,
+        "height": 694,
+        "rate": 1,
+        "muted": true,
+        "ended": true,
+        "error": null,
+        "readyState": 4,
+        "frames": 1320,
+        "dropped": 0,
+        "events": [
+          {
+            "event": "loadedmetadata",
+            "at": 0,
+            "clock": 33.899999998509884,
+            "code": null
+          },
+          {
+            "event": "play",
+            "at": 0,
+            "clock": 57.20000000298023,
+            "code": null
+          },
+          {
+            "event": "waiting",
+            "at": 0,
+            "clock": 57.20000000298023,
+            "code": null
+          },
+          {
+            "event": "playing",
+            "at": 0,
+            "clock": 57.20000000298023,
+            "code": null
+          },
+          {
+            "event": "pause",
+            "at": 44,
+            "clock": 44067.10000000149,
+            "code": null
+          },
+          {
+            "event": "ended",
+            "at": 44,
+            "clock": 44067.10000000149,
+            "code": null
+          }
+        ],
+        "played": [
+          [
+            0,
+            44
+          ]
+        ]
+      },
+      "presented_frames": [
+        {
+          "targets": [
+            355
+          ],
+          "current": 355,
+          "mediaTime": 11.833333
+        },
+        {
+          "targets": [
+            369
+          ],
+          "current": 369,
+          "mediaTime": 12.3
+        },
+        {
+          "targets": [
+            377
+          ],
+          "current": 377,
+          "mediaTime": 12.566667
+        },
+        {
+          "targets": [
+            385
+          ],
+          "current": 385,
+          "mediaTime": 12.833333
+        },
+        {
+          "targets": [
+            386
+          ],
+          "current": 386,
+          "mediaTime": 12.866667
+        },
+        {
+          "targets": [
+            390
+          ],
+          "current": 390,
+          "mediaTime": 13
+        },
+        {
+          "targets": [
+            393
+          ],
+          "current": 393,
+          "mediaTime": 13.1
+        },
+        {
+          "targets": [
+            394
+          ],
+          "current": 394,
+          "mediaTime": 13.133333
+        },
+        {
+          "targets": [
+            403
+          ],
+          "current": 403,
+          "mediaTime": 13.433333
+        },
+        {
+          "targets": [
+            409
+          ],
+          "current": 409,
+          "mediaTime": 13.633333
+        },
+        {
+          "targets": [
+            479
+          ],
+          "current": 479,
+          "mediaTime": 15.966667
+        },
+        {
+          "targets": [
+            490
+          ],
+          "current": 490,
+          "mediaTime": 16.333333
+        },
+        {
+          "targets": [
+            640
+          ],
+          "current": 640,
+          "mediaTime": 21.333333
+        },
+        {
+          "targets": [
+            790
+          ],
+          "current": 790,
+          "mediaTime": 26.333333
+        },
+        {
+          "targets": [
+            960
+          ],
+          "current": 960,
+          "mediaTime": 32
+        }
+      ]
+    },
+    "reviewed": {
+      "sha256": "620b3e3dbb746ede038eb65eabefc46286fd7d7b087ce8c4b2bc30b6bffd5c0d",
+      "passed": true,
+      "result": {
+        "currentTime": 45,
+        "duration": 45,
+        "width": 390,
+        "height": 694,
+        "rate": 1,
+        "muted": true,
+        "ended": true,
+        "error": null,
+        "readyState": 4,
+        "frames": 1350,
+        "dropped": 0,
+        "events": [
+          {
+            "event": "loadedmetadata",
+            "at": 0,
+            "clock": 35.30000000447035,
+            "code": null
+          },
+          {
+            "event": "play",
+            "at": 0.0001,
+            "clock": 61.80000000447035,
+            "code": null
+          },
+          {
+            "event": "playing",
+            "at": 0.0003,
+            "clock": 61.899999998509884,
+            "code": null
+          },
+          {
+            "event": "pause",
+            "at": 45,
+            "clock": 45062.39999999851,
+            "code": null
+          },
+          {
+            "event": "ended",
+            "at": 45,
+            "clock": 45062.70000000298,
+            "code": null
+          }
+        ],
+        "played": [
+          [
+            0,
+            45
+          ]
+        ]
+      },
+      "presented_frames": [
+        {
+          "targets": [
+            263
+          ],
+          "current": 263,
+          "mediaTime": 8.766667
+        },
+        {
+          "targets": [
+            270
+          ],
+          "current": 270,
+          "mediaTime": 9
+        },
+        {
+          "targets": [
+            359
+          ],
+          "current": 359,
+          "mediaTime": 11.966667
+        },
+        {
+          "targets": [
+            360
+          ],
+          "current": 360,
+          "mediaTime": 12
+        },
+        {
+          "targets": [
+            369
+          ],
+          "current": 369,
+          "mediaTime": 12.3
+        },
+        {
+          "targets": [
+            377
+          ],
+          "current": 377,
+          "mediaTime": 12.566667
+        },
+        {
+          "targets": [
+            385
+          ],
+          "current": 385,
+          "mediaTime": 12.833333
+        },
+        {
+          "targets": [
+            386
+          ],
+          "current": 386,
+          "mediaTime": 12.866667
+        },
+        {
+          "targets": [
+            389
+          ],
+          "current": 389,
+          "mediaTime": 12.966667
+        },
+        {
+          "targets": [
+            390
+          ],
+          "current": 390,
+          "mediaTime": 13
+        },
+        {
+          "targets": [
+            393
+          ],
+          "current": 393,
+          "mediaTime": 13.1
+        },
+        {
+          "targets": [
+            394
+          ],
+          "current": 394,
+          "mediaTime": 13.133333
+        },
+        {
+          "targets": [
+            402
+          ],
+          "current": 402,
+          "mediaTime": 13.4
+        },
+        {
+          "targets": [
+            421
+          ],
+          "current": 421,
+          "mediaTime": 14.033333
+        },
+        {
+          "targets": [
+            434
+          ],
+          "current": 434,
+          "mediaTime": 14.466667
+        },
+        {
+          "targets": [
+            443
+          ],
+          "current": 443,
+          "mediaTime": 14.766667
+        },
+        {
+          "targets": [
+            444
+          ],
+          "current": 444,
+          "mediaTime": 14.8
+        },
+        {
+          "targets": [
+            446
+          ],
+          "current": 446,
+          "mediaTime": 14.866667
+        },
+        {
+          "targets": [
+            447
+          ],
+          "current": 447,
+          "mediaTime": 14.9
+        },
+        {
+          "targets": [
+            449
+          ],
+          "current": 449,
+          "mediaTime": 14.966667
+        },
+        {
+          "targets": [
+            450
+          ],
+          "current": 450,
+          "mediaTime": 15
+        },
+        {
+          "targets": [
+            454
+          ],
+          "current": 454,
+          "mediaTime": 15.133333
+        },
+        {
+          "targets": [
+            459
+          ],
+          "current": 459,
+          "mediaTime": 15.3
+        },
+        {
+          "targets": [
+            464
+          ],
+          "current": 464,
+          "mediaTime": 15.466667
+        },
+        {
+          "targets": [
+            465
+          ],
+          "current": 465,
+          "mediaTime": 15.5
+        },
+        {
+          "targets": [
+            481
+          ],
+          "current": 481,
+          "mediaTime": 16.033333
+        },
+        {
+          "targets": [
+            509
+          ],
+          "current": 509,
+          "mediaTime": 16.966667
+        },
+        {
+          "targets": [
+            510
+          ],
+          "current": 510,
+          "mediaTime": 17
+        },
+        {
+          "targets": [
+            522
+          ],
+          "current": 522,
+          "mediaTime": 17.4
+        },
+        {
+          "targets": [
+            546
+          ],
+          "current": 546,
+          "mediaTime": 18.2
+        },
+        {
+          "targets": [
+            660
+          ],
+          "current": 660,
+          "mediaTime": 22
+        },
+        {
+          "targets": [
+            680
+          ],
+          "current": 680,
+          "mediaTime": 22.666667
+        },
+        {
+          "targets": [
+            810
+          ],
+          "current": 810,
+          "mediaTime": 27
+        },
+        {
+          "targets": [
+            830
+          ],
+          "current": 830,
+          "mediaTime": 27.666667
+        },
+        {
+          "targets": [
+            909
+          ],
+          "current": 909,
+          "mediaTime": 30.3
+        },
+        {
+          "targets": [
+            989
+          ],
+          "current": 989,
+          "mediaTime": 32.966667
+        },
+        {
+          "targets": [
+            990
+          ],
+          "current": 990,
+          "mediaTime": 33
+        },
+        {
+          "targets": [
+            1041
+          ],
+          "current": 1041,
+          "mediaTime": 34.7
+        },
+        {
+          "targets": [
+            1160
+          ],
+          "current": 1160,
+          "mediaTime": 38.666667
+        },
+        {
+          "targets": [
+            1300
+          ],
+          "current": 1300,
+          "mediaTime": 43.333333
+        }
+      ]
+    }
+  }
+}
