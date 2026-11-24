@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "base_visual_commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+  "approval_commit": "9f0a628b787e7d4345c4acdbee9c81ac687aa446",
+  "selected_media_commit": "37dfb77e102909788cc2f0b4428319f4ae1ecc32",
+  "runtime_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+  "candidate_schema": "Draft 2020-12",
+  "checks": {
+    "candidate_schema": true,
+    "48_cues_and_7200_frame_clock": true,
+    "same_runtime_market_clock_as_approved_b17": true,
+    "runtime_clock_audit": true
+  },
+  "candidate_sha256": "d3ffdc774e1f6f47c2ef7e8706d65a5dfe0955e341df20b0ebccf54d3f1aa07b",
+  "modified_shots": [
+    "V102-B01-01",
+    "V102-B08-04",
+    "V102-B17-01",
+    "V102-B17-02",
+    "V102-B17-03",
+    "V102-B17-ETF",
+    "V102-B17-04",
+    "V102-B17-TURNOVER",
+    "V102-B17-05"
+  ],
+  "unchanged_production_input_sha256": {
+    "config/production/film_master_v1.json": "8fac8d3612116570635c3d27df553d0d2274a06f0f4708624d85967c4d392706",
+    "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "config/event_registry.json": "fc99e9b18b06d0df703b95d2f9d0934d2941134b8c4c57878291c77716fb7c4d"
+  },
+  "scope": "timeline computed and validated; full-length media not rendered",
+  "runtime_clock_errors": []
+}

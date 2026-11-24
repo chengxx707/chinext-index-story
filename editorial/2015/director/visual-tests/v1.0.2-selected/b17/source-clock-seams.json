@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "scope": "source render diagnostics from matched baseline context and approved B17-B",
+  "sources": [
+    {
+      "path": "output/director-v1.0.2-visual-test/result/B16-B18/diagnostics.json",
+      "sha256": "644802308f4e232853f1bc84274267c1b0b1e57ccdeaff140958bc0cd73abaf9"
+    },
+    {
+      "path": "output/director-v1.0.2-ab/result/B17-B.diagnostics.json",
+      "sha256": "bbebf82e42eb5746abd893f1e13660777800ed63e310bca1bd2746490691ca5d"
+    }
+  ],
+  "frames": 1680,
+  "verified_b17_sessions": [
+    "2015-09-15",
+    "2015-09-16",
+    "2015-09-17",
+    "2015-09-18",
+    "2015-09-21",
+    "2015-09-22",
+    "2015-09-23",
+    "2015-09-24",
+    "2015-09-25",
+    "2015-09-28",
+    "2015-09-29"
+  ],
+  "projection_and_market_seams": [
+    {
+      "adjacent_source_frames": [
+        5879,
+        5880
+      ],
+      "market_date": "2015-09-15",
+      "market_close": 1797.56,
+      "projection": {
+        "window_start": 1208.8,
+        "window_span": 94.0,
+        "y_min": 1300.0,
+        "y_max": 4550.0
+      },
+      "stage_value": -0.5486069433109424,
+      "stage_mode": "single_drawdown",
+      "market_index": 1284
+    },
+    {
+      "adjacent_source_frames": [
+        6539,
+        6540
+      ],
+      "market_date": "2015-09-29",
+      "market_close": 2098.57,
+      "projection": {
+        "window_start": 1254.0,
+        "window_span": 50.0,
+        "y_min": 1300.0,
+        "y_max": 4550.0
+      },
+      "stage_value": -0.47301902190972434,
+      "stage_mode": "single_drawdown",
+      "market_index": 1294
+    }
+  ],
+  "verified_full_t2_windows": {
+    "etf": {
+      "authored_stable_frames": [
+        6132,
+        6258
+      ],
+      "authored_stable_seconds": 4.2,
+      "observed_alpha1_frames": [
+        6132,
+        6259
+      ],
+      "first_fade_frame_may_retain_alpha1": true
+    },
+    "turnover": {
+      "authored_stable_frames": [
+        6354,
+        6456
+      ],
+      "authored_stable_seconds": 3.4,
+      "observed_alpha1_frames": [
+        6354,
+        6457
+      ],
+      "first_fade_frame_may_retain_alpha1": true
+    }
+  },
+  "t2_never_coincide": true,
+  "one_active_rail_and_no_future_candles": true
+}

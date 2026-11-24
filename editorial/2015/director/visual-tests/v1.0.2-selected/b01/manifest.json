@@ -1,0 +1,324 @@
+{
+  "passed": true,
+  "block": "B01-B02",
+  "variant": "B01-B",
+  "frame_span": [
+    0,
+    540
+  ],
+  "fps": 30,
+  "duration_seconds": 18.0,
+  "phone_canvas": [
+    390,
+    694
+  ],
+  "approval_commit": "9f0a628b787e7d4345c4acdbee9c81ac687aa446",
+  "approved_prefix": {
+    "commit": "37dfb77e102909788cc2f0b4428319f4ae1ecc32",
+    "path": "editorial/2015/director/visual-tests/v1.0.2-ab/B01-B.mp4",
+    "global_frames": [
+      0,
+      360
+    ],
+    "sha256": "bd0f8594c50ba5986362ae02e658616c5126616c773d7c2df018cb05145b74ee",
+    "operation": "stream_copy"
+  },
+  "continuation": {
+    "baseline_commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+    "global_frames": [
+      360,
+      540
+    ],
+    "source_canvas": [
+      1080,
+      1920
+    ],
+    "phone_resize": "Lanczos",
+    "encoder": "libx264 veryfast CRF 20",
+    "encoded_tail_sha256": "c6cf0943068bb6bd9da5efed76838ecddb4948199e27de0e595f2e7d7404242a",
+    "operation": "render_only_continuation_then_stream_copy"
+  },
+  "seam_global_frame": 360,
+  "seam_rgb": {
+    "frames": [
+      358,
+      359,
+      360,
+      361
+    ],
+    "decoded_vs_raw_phone_rgb": {
+      "358": {
+        "mean_absolute_rgb_code_difference": 1.8004,
+        "p99_absolute_rgb_code_difference": 16.0
+      },
+      "359": {
+        "mean_absolute_rgb_code_difference": 1.8065,
+        "p99_absolute_rgb_code_difference": 16.0
+      },
+      "360": {
+        "mean_absolute_rgb_code_difference": 1.8513,
+        "p99_absolute_rgb_code_difference": 16.0
+      },
+      "361": {
+        "mean_absolute_rgb_code_difference": 1.8609,
+        "p99_absolute_rgb_code_difference": 16.0
+      }
+    },
+    "expected_adjacent_rgb_delta": {
+      "mean_absolute_rgb_code_difference": 0.0829,
+      "p99_absolute_rgb_code_difference": 1.0
+    },
+    "decoded_adjacent_rgb_delta": {
+      "mean_absolute_rgb_code_difference": 0.824,
+      "p99_absolute_rgb_code_difference": 10.0
+    },
+    "delta_residual_vs_reference": {
+      "mean_absolute_rgb_code_difference": 0.7974,
+      "p99_absolute_rgb_code_difference": 10.0
+    }
+  },
+  "frames_of_interest": {
+    "0": {
+      "frame": 0,
+      "shot_id": "V102-B01-01",
+      "segment": "flash_forward",
+      "market_date": "2015-06-03",
+      "market_close": 3982.25,
+      "market_index": 1213,
+      "playhead_index": 1213.0,
+      "projection": {
+        "window_start": 1168.2,
+        "window_span": 56.0,
+        "y_min": 1300.0,
+        "y_max": 4550.0
+      }
+    },
+    "45": {
+      "frame": 45,
+      "shot_id": "V102-B01-01",
+      "segment": "flash_forward",
+      "market_date": "2015-06-03",
+      "market_close": 3982.25,
+      "market_index": 1213,
+      "playhead_index": 1213.0,
+      "projection": {
+        "window_start": 1173.0,
+        "window_span": 50.0,
+        "y_min": 1300.0,
+        "y_max": 4550.0
+      }
+    },
+    "239": {
+      "frame": 239,
+      "shot_id": "V102-B01-01",
+      "segment": "flash_forward",
+      "market_date": "2015-06-03",
+      "market_close": 3982.25,
+      "market_index": 1213,
+      "playhead_index": 1213.0,
+      "projection": {
+        "window_start": 1173.0,
+        "window_span": 50.0,
+        "y_min": 1300.0,
+        "y_max": 4550.0
+      }
+    },
+    "240": {
+      "frame": 240,
+      "shot_id": "V102-B02-01",
+      "segment": "main_before_august",
+      "market_date": "2015-04-01",
+      "market_close": 2404.91,
+      "market_index": 1170,
+      "playhead_index": 1170.0,
+      "projection": {
+        "window_start": 1118.8,
+        "window_span": 64.0,
+        "y_min": 1300.0,
+        "y_max": 4550.0
+      }
+    },
+    "359": {
+      "frame": 359,
+      "shot_id": "V102-B02-02",
+      "segment": "main_before_august",
+      "market_date": "2015-04-03",
+      "market_close": 2510.16,
+      "market_index": 1172,
+      "playhead_index": 1172.3135912608102,
+      "projection": {
+        "window_start": 1121.1135912608102,
+        "window_span": 64.0,
+        "y_min": 1300.0,
+        "y_max": 4550.0
+      }
+    },
+    "360": {
+      "frame": 360,
+      "shot_id": "V102-B02-02",
+      "segment": "main_before_august",
+      "market_date": "2015-04-03",
+      "market_close": 2510.16,
+      "market_index": 1172,
+      "playhead_index": 1172.3904415111515,
+      "projection": {
+        "window_start": 1121.1904415111514,
+        "window_span": 64.0,
+        "y_min": 1300.0,
+        "y_max": 4550.0
+      }
+    },
+    "539": {
+      "frame": 539,
+      "shot_id": "V102-B02-02",
+      "segment": "main_before_august",
+      "market_date": "2015-04-10",
+      "market_close": 2552.83,
+      "market_index": 1176,
+      "playhead_index": 1176.0,
+      "projection": {
+        "window_start": 1124.8,
+        "window_span": 64.0,
+        "y_min": 1300.0,
+        "y_max": 4550.0
+      }
+    }
+  },
+  "hard_cut_global_frame": 240,
+  "checks": {
+    "phone_media_full_decode": true,
+    "timestamp_sequence_exact": true,
+    "selected_360_decoded_frame_hashes_identical": true,
+    "continuation_180_decoded_frame_hashes_identical": true,
+    "continuation_180_cue_clock_overlay_and_projection_match_baseline": true,
+    "global_f240_chronology_hard_cut": true,
+    "pre_seam_and_post_seam_match_pinned_raw_compositor": true,
+    "approved_candidate_intro_matches_ab_camera_on_all_projections": true,
+    "single_rail_no_future_candles_and_no_text_layout_errors": true
+  },
+  "media_probe": {
+    "passed": true,
+    "checks": {
+      "one_video_stream": true,
+      "no_audio_stream": true,
+      "dimensions": true,
+      "frame_rate": true,
+      "frame_count": true,
+      "duration": true,
+      "probe_without_decode_errors": true,
+      "full_decode": true
+    },
+    "path": "output/director-v1.0.2-selected/b01/B01-B02.mp4",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 390,
+          "height": 694,
+          "coded_width": 400,
+          "coded_height": 704,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 2,
+          "pix_fmt": "yuv420p",
+          "level": 30,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 4,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 276480,
+          "duration": "18.000000",
+          "bit_rate": "64896",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "540",
+          "nb_read_frames": "540",
+          "extradata_size": 46,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc61.19.101 libx264"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/workspace/chinext-index-story/output/director-v1.0.2-selected/b01/tmprcwhvnrx/B01-B02.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "18.000000",
+        "size": "153290",
+        "bit_rate": "68128",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf61.7.103"
+        }
+      }
+    }
+  },
+  "baseline_runtime_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+  "baseline_render_helpers_sha256": {
+    "render_visual.py": "f62ed0de8f4f6ddd5090578402e0791c36d90036b5fe177612df07a83ed49c79",
+    "visual_overlay.py": "d9d77bd6f7ac0c9b88bed6d82b1aadfdbbb172bfe9ef546686227e8295214320"
+  },
+  "approved_intro": {
+    "module": "approved_intro.py",
+    "sha256": "40876c30828c23b19f9fe9b8dc46e8d024834a005ef87e833691398151807775",
+    "cue_camera_story_clock_approved_intro_push": {
+      "start_frame": 0,
+      "end_frame_exclusive": 45,
+      "start_span": 56,
+      "end_span": 50
+    }
+  },
+  "selected_base_candidate_sha256": "746e943a5938bf7a68e1273829ece1843b2364e77840117800157318ad4b36d6",
+  "diagnostics": {
+    "path": "diagnostics.json",
+    "sha256": "c4f0f31830e4e85c17d823b6a2abcdfd890573e98b4860948baa85dbcbccc977"
+  },
+  "media": {
+    "path": "B01-B02.mp4",
+    "sha256": "29c86a9ecf618690c7a1c587439798270a05e82e6180deb67f691717bc92bd9a",
+    "bytes": 153290
+  }
+}

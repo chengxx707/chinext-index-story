@@ -1,0 +1,360 @@
+{
+  "passed": true,
+  "approving_commit": "9f0a628b787e7d4345c4acdbee9c81ac687aa446",
+  "picture_baseline_commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+  "clock_implementation_commit": "67a8cc6740c521675f71c6c733997e429681c3a2",
+  "marker_config": {
+    "text": "6/28 · 实施",
+    "start_frame": 2640,
+    "fade_from_frame": 2653,
+    "end_frame_exclusive": 2657,
+    "opacity": 0.5
+  },
+  "checks": {
+    "only_expected_frame_span": true,
+    "one_unobscured_rail_and_no_future_candles": true,
+    "frozen_friday_during_sunday_policy": true,
+    "market_focus_returns_before_monday": true,
+    "monday_close_candle_and_rail_share_market_row": true,
+    "tuesday_resumes_with_no_marker": true,
+    "marker_only_during_handoff": true,
+    "only_secondary_date_no_policy_body": true,
+    "marker_reduced_opacity_then_fades": true,
+    "control_pixels_match_except_date_marker": true,
+    "video_frame_count_matches": true,
+    "probe_and_full_decode": true
+  },
+  "market_boundaries": {
+    "2556": {
+      "clip_local_seconds": 0.2,
+      "focus": "L2_EVENT",
+      "market_date": "2015-06-26",
+      "market_close": 2920.7,
+      "last_candle_index": 1229,
+      "drawdown_pct": -26.66,
+      "caption_lines": [
+        "6月28日 · 实施",
+        "中国人民银行",
+        "降息与定向降准"
+      ],
+      "roles": [
+        {
+          "id": "v102_caption_0",
+          "role": "policy_date",
+          "size_logical": 22,
+          "phone_size_px": 11.92,
+          "alpha": 1.0
+        },
+        {
+          "id": "v102_caption_1",
+          "role": "policy_source",
+          "size_logical": 18,
+          "phone_size_px": 9.75,
+          "alpha": 1.0
+        },
+        {
+          "id": "v102_caption_2",
+          "role": "policy_primary",
+          "size_logical": 32,
+          "phone_size_px": 17.33,
+          "alpha": 1.0
+        }
+      ],
+      "marker": null,
+      "changed_pixels_vs_no_marker": null
+    },
+    "2639": {
+      "clip_local_seconds": 2.9667,
+      "focus": "L2_EVENT",
+      "market_date": "2015-06-26",
+      "market_close": 2920.7,
+      "last_candle_index": 1229,
+      "drawdown_pct": -26.66,
+      "caption_lines": [
+        "6月28日 · 实施",
+        "中国人民银行",
+        "降息与定向降准"
+      ],
+      "roles": [
+        {
+          "id": "v102_caption_0",
+          "role": "policy_date",
+          "size_logical": 22,
+          "phone_size_px": 11.92,
+          "alpha": 1.0
+        },
+        {
+          "id": "v102_caption_1",
+          "role": "policy_source",
+          "size_logical": 18,
+          "phone_size_px": 9.75,
+          "alpha": 1.0
+        },
+        {
+          "id": "v102_caption_2",
+          "role": "policy_primary",
+          "size_logical": 32,
+          "phone_size_px": 17.33,
+          "alpha": 1.0
+        }
+      ],
+      "marker": null,
+      "changed_pixels_vs_no_marker": {
+        "changed_roi_source_px": null,
+        "only_date_marker_differs": true
+      }
+    },
+    "2640": {
+      "clip_local_seconds": 3.0,
+      "focus": "L1_MARKET",
+      "market_date": "2015-06-26",
+      "market_close": 2920.7,
+      "last_candle_index": 1229,
+      "drawdown_pct": -26.66,
+      "caption_lines": [
+        "6/28 · 实施"
+      ],
+      "roles": [
+        {
+          "id": "v102_caption_0",
+          "role": "retired_policy_date",
+          "size_logical": 22,
+          "phone_size_px": 11.92,
+          "alpha": 0.5
+        }
+      ],
+      "marker": {
+        "text": "6/28 · 实施",
+        "opacity": 0.5,
+        "end_frame_exclusive": 2657
+      },
+      "changed_pixels_vs_no_marker": {
+        "changed_roi_source_px": [
+          105,
+          249,
+          270,
+          284
+        ],
+        "only_date_marker_differs": true
+      }
+    },
+    "2649": {
+      "clip_local_seconds": 3.3,
+      "focus": "L1_MARKET",
+      "market_date": "2015-06-29",
+      "market_close": 2689.76,
+      "last_candle_index": 1230,
+      "drawdown_pct": -32.46,
+      "caption_lines": [
+        "6/28 · 实施"
+      ],
+      "roles": [
+        {
+          "id": "v102_caption_0",
+          "role": "retired_policy_date",
+          "size_logical": 22,
+          "phone_size_px": 11.92,
+          "alpha": 0.5
+        }
+      ],
+      "marker": {
+        "text": "6/28 · 实施",
+        "opacity": 0.5,
+        "end_frame_exclusive": 2657
+      },
+      "changed_pixels_vs_no_marker": {
+        "changed_roi_source_px": [
+          105,
+          249,
+          270,
+          284
+        ],
+        "only_date_marker_differs": true
+      }
+    },
+    "2656": {
+      "clip_local_seconds": 3.5333,
+      "focus": "L1_MARKET",
+      "market_date": "2015-06-29",
+      "market_close": 2689.76,
+      "last_candle_index": 1230,
+      "drawdown_pct": -32.46,
+      "caption_lines": [
+        "6/28 · 实施"
+      ],
+      "roles": [
+        {
+          "id": "v102_caption_0",
+          "role": "retired_policy_date",
+          "size_logical": 22,
+          "phone_size_px": 11.92,
+          "alpha": 0.125
+        }
+      ],
+      "marker": {
+        "text": "6/28 · 实施",
+        "opacity": 0.125,
+        "end_frame_exclusive": 2657
+      },
+      "changed_pixels_vs_no_marker": {
+        "changed_roi_source_px": [
+          105,
+          249,
+          270,
+          284
+        ],
+        "only_date_marker_differs": true
+      }
+    },
+    "2657": {
+      "clip_local_seconds": 3.5667,
+      "focus": "L1_MARKET",
+      "market_date": "2015-06-30",
+      "market_close": 2858.61,
+      "last_candle_index": 1231,
+      "drawdown_pct": -28.22,
+      "caption_lines": [],
+      "roles": [],
+      "marker": null,
+      "changed_pixels_vs_no_marker": {
+        "changed_roi_source_px": null,
+        "only_date_marker_differs": true
+      }
+    },
+    "2669": {
+      "clip_local_seconds": 3.9667,
+      "focus": "L1_MARKET",
+      "market_date": "2015-07-01",
+      "market_close": 2759.41,
+      "last_candle_index": 1232,
+      "drawdown_pct": -30.71,
+      "caption_lines": [],
+      "roles": [],
+      "marker": null,
+      "changed_pixels_vs_no_marker": null
+    }
+  },
+  "inputs_sha256": {
+    "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "assets/earth_cinematic.png": "c3a9ee4a2f66bffd0899f5223d0c394520470da196ec1b80d77adaa7d2571197",
+    "assets/earth_body.png": "a619239f32ba3ae6c9b5ee692ca0116a62d736f9f80bb72e8192b8238eecb253",
+    "approved_storyboard": "43f81d098790e07e22bbddc2456126222f30ad7b8a39f05421b9571127cf265f",
+    "baseline_review_archive": "dd46b813641e683bb751a3dfdd83abbdc1d8e6ae261b11bf9196beb06e34834e",
+    "baseline_candidate": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a",
+    "render_visual.py": "f62ed0de8f4f6ddd5090578402e0791c36d90036b5fe177612df07a83ed49c79",
+    "visual_overlay.py": "d9d77bd6f7ac0c9b88bed6d82b1aadfdbbb172bfe9ef546686227e8295214320",
+    "legacy/flash_forward.json": "af312e13ce96ac76248715f4d0119a46a8d3a96bf1e2df72712ff66dd55f5fea",
+    "legacy/main_before_august.json": "48aff16e755ce91426e2ed26d9f2c021ae3c478cf62cc3cba1d4f2d96e30d862",
+    "legacy/main_through_november.json": "7e57b467aab99360e0df469076693710079ed8300f8e7d3a5a2f983b3a2f4b67",
+    "selected_candidate": "d3ffdc774e1f6f47c2ef7e8706d65a5dfe0955e341df20b0ebccf54d3f1aa07b"
+  },
+  "frame_interval_end_exclusive": [
+    2550,
+    2670
+  ],
+  "duration_seconds": 4.0,
+  "media": {
+    "name": "phone-390.mp4",
+    "sha256": "03238d2f642ee8e1cc6ea794e6f2cdeff5a154a858c7b8d9711021066da771d7",
+    "probe": {
+      "passed": true,
+      "checks": {
+        "one_video_stream": true,
+        "no_audio_stream": true,
+        "dimensions": true,
+        "frame_rate": true,
+        "frame_count": true,
+        "duration": true,
+        "probe_without_decode_errors": true,
+        "full_decode": true
+      },
+      "path": "/workspace/chinext-index-story/output/director-v1.0.2-selected/b08/phone-390.mp4",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 390,
+            "height": 694,
+            "coded_width": 400,
+            "coded_height": 704,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 30,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 4,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 61440,
+            "duration": "4.000000",
+            "bit_rate": "97944",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "120",
+            "nb_read_frames": "120",
+            "extradata_size": 46,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "Lavc61.19.101 libx264"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/workspace/chinext-index-story/output/director-v1.0.2-selected/b08/phone-390.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "4.000000",
+          "size": "51246",
+          "bit_rate": "102492",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf61.7.103"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "passed": true,
+  "file": "B16-B18-selected-390.mp4",
+  "sha256": "bed9a87ed61f7e0c0166e74acd156357bee610ab18e2df5b32b7b275da3ffdc1",
+  "bytes": 1059959,
+  "media": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "width": 390,
+    "height": 694,
+    "coded_width": 400,
+    "coded_height": 704,
+    "closed_captions": 0,
+    "film_grain": 0,
+    "has_b_frames": 2,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "195:347",
+    "pix_fmt": "yuv420p",
+    "level": 30,
+    "chroma_location": "left",
+    "field_order": "progressive",
+    "refs": 4,
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "id": "0x1",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "time_base": "1/15360",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 860160,
+    "duration": "56.000000",
+    "bit_rate": "148505",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "1680",
+    "nb_read_frames": "1680",
+    "extradata_size": 47,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler",
+      "vendor_id": "[0][0][0][0]",
+      "encoder": "Lavc61.19.101 libx264"
+    },
+    "decoded_frames": 1680,
+    "duration_seconds": 56.0,
+    "contiguous_pts": true
+  },
+  "global_frame_range": [
+    5520,
+    7200
+  ],
+  "selection_commit": "37dfb77e102909788cc2f0b4428319f4ae1ecc32",
+  "input_blobs": {
+    "context": {
+      "commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+      "path": "editorial/2015/director/visual-tests/v1.0.2/B16-B18/phone-390.mp4",
+      "sha256": "6846262ca3f6f6b9f2aa5686d602164f1d98f453567654346544de5765324607"
+    },
+    "approved_b17": {
+      "commit": "37dfb77e102909788cc2f0b4428319f4ae1ecc32",
+      "path": "editorial/2015/director/visual-tests/v1.0.2-ab/B17-B.mp4",
+      "sha256": "5d131d03a587c94fbaf6c006cfe7490a0679de15ebc554cd2a64a818207becef"
+    },
+    "candidate": {
+      "commit": "b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb",
+      "path": "editorial/2015/director/visual-tests/v1.0.2/candidate.json",
+      "sha256": "c9dfa6638885d55b712f0546f55df695b1f29c66a543c1733255bbd46084e86a"
+    }
+  },
+  "candidate": {
+    "file": "candidate-b17-selected.json",
+    "sha256": "746e943a5938bf7a68e1273829ece1843b2364e77840117800157318ad4b36d6"
+  },
+  "construction": "Encode contextual head and tail at CRF 14. Concatenate the three H.264 streams by copy.",
+  "approved_b17_decoded_frames_identical": 660,
+  "verified_t2": [
+    {
+      "metric_id": "E-SEP-ETF-01",
+      "market_date": "2015-09-25",
+      "global_reading_frames": [
+        6132,
+        6258
+      ],
+      "block_reading_frames": [
+        612,
+        738
+      ],
+      "stable_seconds": 4.2,
+      "source_ids": [
+        "V102-ETF-CSJ-CNS",
+        "V102-ETF-CSJ-PDF",
+        "V102-ETF-CNS-0928"
+      ],
+      "global_fade_frames": [
+        6258,
+        6264
+      ]
+    },
+    {
+      "metric_id": "E-SEP-TURNOVER-01",
+      "market_date": "2015-09-28",
+      "global_reading_frames": [
+        6354,
+        6456
+      ],
+      "block_reading_frames": [
+        834,
+        936
+      ],
+      "stable_seconds": 3.4,
+      "source_ids": [
+        "V102-TURNOVER-CNS",
+        "V102-TURNOVER-21CJ"
+      ],
+      "global_fade_frames": [
+        6456,
+        6462
+      ]
+    }
+  ],
+  "decoded_boundary_pixel_checks": [
+    {
+      "block_frame": 360,
+      "global_frame": 5880,
+      "clip_seconds": 12.0,
+      "baseline_boundary_difference": {
+        "mean_absolute_8bit": 2.2518,
+        "fraction_abs_gt_20": 0.018769
+      },
+      "restored_boundary_difference": {
+        "mean_absolute_8bit": 2.7644,
+        "fraction_abs_gt_20": 0.018791
+      },
+      "selected_boundary_vs_baseline": {
+        "mean_absolute_8bit": 0.5596,
+        "fraction_abs_gt_20": 0.000159
+      },
+      "context_sample_reencode_difference": {
+        "mean_absolute_8bit": 0.1208,
+        "fraction_abs_gt_20": 0.0
+      }
+    },
+    {
+      "block_frame": 1020,
+      "global_frame": 6540,
+      "clip_seconds": 34.0,
+      "baseline_boundary_difference": {
+        "mean_absolute_8bit": 0.1637,
+        "fraction_abs_gt_20": 0.001341
+      },
+      "restored_boundary_difference": {
+        "mean_absolute_8bit": 0.5886,
+        "fraction_abs_gt_20": 0.001419
+      },
+      "selected_boundary_vs_baseline": {
+        "mean_absolute_8bit": 0.4196,
+        "fraction_abs_gt_20": 7e-05
+      },
+      "context_sample_reencode_difference": {
+        "mean_absolute_8bit": 0.061,
+        "fraction_abs_gt_20": 0.0
+      }
+    }
+  ]
+}

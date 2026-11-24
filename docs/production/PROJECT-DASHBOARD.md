@@ -1,8 +1,8 @@
 # 创业板视频制作看板
 
-**2026-11-24（北京时间）｜B01-B、B17-B 已定为下一版代表块制作基线。用户已确认 B08 复市时保留低亮日期标记。**
+**2026-11-24（北京时间）｜B01-B 与 B17-B 已纳入手机代表块。B08 保留日期标记的 4 秒短样片已交付，待导演审片。**
 
-当前阶段为 **V1.0.2 代表块选版与分镜审阅**。沿用金融纪录片式导演方向（A）和 T1/T2/T3 证据分级，2015 章节继续呈现低点后的反弹与修复。
+当前阶段为 **V1.0.2 代表块接续验证与 B08 短样片审阅**。沿用金融纪录片式导演方向（A）和 T1/T2/T3 证据分级，2015 章节继续呈现低点后的反弹与修复。
 
 ## 当前状态
 
@@ -19,8 +19,8 @@
 | Codex 首轮代表块视觉测试 | 已编码 3/3，首轮技术检查已完成 | [首轮审阅回执](https://github.com/chengxx707/chinext-index-story/blob/b0d71e895a7d756fa2ebbb7d8f3f471d581f1ccb/editorial/2015/director/visual-tests/v1.0.2/README.md) |
 | Codex R1 代表块视觉修订 | **媒体技术检查通过。已检查实际解码画面，观察项见回执。待 GPT 与用户审片。** | [R1 审阅回执与下载](../../editorial/2015/director/visual-tests/v1.0.2-r1/README.md) |
 | R1 参考与资料图 | 第一张最新参考图：原件尚未收到。第二张白宫打底参考图：原件尚未收到。 | [R1 审阅回执与下载](../../editorial/2015/director/visual-tests/v1.0.2-r1/README.md) |
-| B01／B17 手机 A/B 选版 | **用户确认 B01-B、B17-B，待写入下一版代表块配置** | [固定提交 37dfb77 的样片、时间点与证据](https://github.com/chengxx707/chinext-index-story/tree/37dfb77e102909788cc2f0b4428319f4ae1ecc32/editorial/2015/director/visual-tests/v1.0.2-ab) |
-| B08 多层分镜 | **用户确认政策主字退场后，低亮日期标记保留至首个复市日** | [B08 逐拍分镜](../../editorial/2015/director/B08_LAYERED_STORYBOARD_V1.0.2.md) |
+| B01／B17 手机 A/B 选版 | **用户确认 B01-B、B17-B，已放回代表块并检查接续** | [固定提交 37dfb77 的样片、时间点与证据](https://github.com/chengxx707/chinext-index-story/tree/37dfb77e102909788cc2f0b4428319f4ae1ecc32/editorial/2015/director/visual-tests/v1.0.2-ab) |
+| B08 多层分镜 | **已落实到 390 像素短样片。待导演审看标记亮度与复市接力** | [逐拍分镜](../../editorial/2015/director/B08_LAYERED_STORYBOARD_V1.0.2.md) · [短样片与帧点](../../editorial/2015/director/visual-tests/v1.0.2-selected/README.md) |
 | 完整连续预览 | 240 秒预览待单独批准 | R1 的 244 秒预算随其交付保留，见 R1 回执 |
 | 正式全片采用 | 尚未采用 | 正式427秒主表保持不变；后续与既有S16去重 |
 
@@ -33,7 +33,7 @@
 
 B08 按用户裁定保留低亮「6/28 · 实施」。标记陪同 6/29 日 K 入场，切至 6/30 日 K 前退尽。
 
-B01、B17 的依据为 `37dfb77` 的 390 像素样片与 [播放、时钟和媒体摘要](../../editorial/2015/director/visual-tests/v1.0.2-ab/evidence.json)，样片从首轮 48 cue 候选派生。此次更新记录选版与 B08 分镜。下一次样片制作再把选版写入候选配置，随后专项复核 B09 三张政策卡与 B13 双时间节点。
+B01、B17 的依据为 `37dfb77` 的 390 像素样片与 [播放、时钟和媒体摘要](../../editorial/2015/director/visual-tests/v1.0.2-ab/evidence.json)，样片从首轮 48 cue 候选派生。两项选版已写入本轮候选配置，按原速完成代表块接续检查。B09 三张政策卡与 B13 双时间节点留作专项审阅。 [本轮样片及证据](../../editorial/2015/director/visual-tests/v1.0.2-selected/README.md)
 
 ## 首轮代表块验收范围
 
