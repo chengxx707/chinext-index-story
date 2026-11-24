@@ -1,0 +1,604 @@
+{
+  "baseline_commit": "b0c339c629b8034427d20a49bdceb6a9fde5bd41",
+  "scope": "three static composition proofs and a contact comparison",
+  "dimensions_px": [
+    1080,
+    1920
+  ],
+  "planned_clip_seconds": 20,
+  "daily_ohlc_between_extremes_inclusive": 605,
+  "end_to_end_close_return_percent": 570.8,
+  "source_hashes": {
+    "data/cyb_daily.csv": "d832c794deaabaeda7b3803e5e93da471d6075f5d807b65714b9ab243d477205",
+    "assets/earth_body.png": "a619239f32ba3ae6c9b5ee692ca0116a62d736f9f80bb72e8192b8238eecb253",
+    "assets/reference/approved_visual_reference.png": "460b236f55775acdfd5686bd2df97e440f1eec2eb688954fd3e42fc1317f6e82"
+  },
+  "actual_comparison_reference": "assets/reference/approved_visual_reference.png",
+  "latest_first_reference": "original file unavailable",
+  "stills": [
+    {
+      "file": "01-start-593.66.jpg",
+      "story_second": 0.85,
+      "date": "2012-12-03",
+      "frozen_close": 593.66,
+      "visible_last_ohlc_date": "2012-12-03",
+      "price_domain": [
+        520,
+        830
+      ],
+      "frozen_rows_visible": 80,
+      "current_point_logical_xy": [
+        561.62,
+        704.3827096774194
+      ],
+      "active_stage_rails": 1,
+      "text_boxes": [
+        {
+          "id": "index_en",
+          "bbox": [
+            99.0,
+            92.5,
+            214.0,
+            104.5
+          ],
+          "role": "heading",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "index_name",
+          "bbox": [
+            99.0,
+            141.5,
+            283.0,
+            187.5
+          ],
+          "role": "heading",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "index_code",
+          "bbox": [
+            292.5,
+            159.0,
+            382.5,
+            179.0
+          ],
+          "role": "heading",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "key_date",
+          "bbox": [
+            100.5,
+            262.5,
+            270.5,
+            287.5
+          ],
+          "role": "landmark",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "key_close",
+          "bbox": [
+            100.5,
+            351.0,
+            486.5,
+            442.0
+          ],
+          "role": "landmark",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "key_label",
+          "bbox": [
+            100.5,
+            467.5,
+            352.5,
+            503.5
+          ],
+          "role": "landmark",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "timeline_2012_anchor",
+          "bbox": [
+            44.155623365300784,
+            1445.7383530157717,
+            106.15562336530078,
+            1467.7383530157717
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "stage_label",
+          "bbox": [
+            99.0,
+            1676.5,
+            275.0,
+            1698.5
+          ],
+          "role": "rail",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "stage_value",
+          "bbox": [
+            825.0,
+            1662.5,
+            984.0,
+            1696.5
+          ],
+          "role": "rail",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "data_basis",
+          "bbox": [
+            420.0,
+            1804.5,
+            660.0,
+            1820.5
+          ],
+          "role": "footer",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "data_source",
+          "bbox": [
+            410.0,
+            1837.5,
+            669.0,
+            1852.5
+          ],
+          "role": "footer",
+          "overlaps_allowed": false
+        }
+      ],
+      "jpg_sha256": "e3325f8f0c27ca19813042951ea4779e843cf80a2b74b6830f03d8f4bef5b842"
+    },
+    {
+      "file": "02-dense-advance.jpg",
+      "story_second": 14.0,
+      "date": "2015-05-05",
+      "frozen_close": 2783.44,
+      "visible_last_ohlc_date": "2015-05-05",
+      "price_domain": [
+        1190,
+        3520
+      ],
+      "frozen_rows_visible": 175,
+      "current_point_logical_xy": [
+        609.08,
+        438.4076223175965
+      ],
+      "active_stage_rails": 1,
+      "text_boxes": [
+        {
+          "id": "timeline_year_2013",
+          "bbox": [
+            77.69921534437664,
+            1420.007600855988,
+            132.69921534437663,
+            1439.007600855988
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "timeline_year_2014",
+          "bbox": [
+            449.5409764603313,
+            1310.5008956170245,
+            504.5409764603313,
+            1329.5008956170245
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "timeline_year_2015",
+          "bbox": [
+            809.382737576286,
+            1257.3518506776575,
+            887.382737576286,
+            1284.3518506776575
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "index_en",
+          "bbox": [
+            99.0,
+            92.5,
+            214.0,
+            104.5
+          ],
+          "role": "heading",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "index_name",
+          "bbox": [
+            99.0,
+            141.5,
+            283.0,
+            187.5
+          ],
+          "role": "heading",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "index_code",
+          "bbox": [
+            292.5,
+            159.0,
+            382.5,
+            179.0
+          ],
+          "role": "heading",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "account_period",
+          "bbox": [
+            102.0,
+            278.0,
+            413.0,
+            304.0
+          ],
+          "role": "event",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "account_name",
+          "bbox": [
+            102.0,
+            349.5,
+            358.0,
+            391.5
+          ],
+          "role": "event",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "account_value",
+          "bbox": [
+            102.0,
+            433.0,
+            469.0,
+            519.0
+          ],
+          "role": "event",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "account_unit",
+          "bbox": [
+            483.796875,
+            469.5,
+            559.796875,
+            507.5
+          ],
+          "role": "event",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "account_source",
+          "bbox": [
+            103.5,
+            545.5,
+            405.5,
+            568.5
+          ],
+          "role": "source",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "market_date",
+          "bbox": [
+            884.5,
+            274.0,
+            994.5,
+            290.0
+          ],
+          "role": "market",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "market_close",
+          "bbox": [
+            835.5,
+            314.0,
+            994.5,
+            350.0
+          ],
+          "role": "market",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "market_label",
+          "bbox": [
+            930.5,
+            353.5,
+            994.5,
+            371.5
+          ],
+          "role": "market",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "policy_date",
+          "bbox": [
+            610.5,
+            420.5,
+            655.5,
+            442.5
+          ],
+          "role": "past_event",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "policy_title",
+          "bbox": [
+            610.5,
+            454.0,
+            802.5,
+            486.0
+          ],
+          "role": "past_event",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "ipo_memory",
+          "bbox": [
+            610.5,
+            506.5,
+            795.5,
+            530.5
+          ],
+          "role": "past_event",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "timeline_2012_anchor",
+          "bbox": [
+            44.155623365300784,
+            1445.7383530157717,
+            106.15562336530078,
+            1467.7383530157717
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "stage_label",
+          "bbox": [
+            99.0,
+            1676.5,
+            275.0,
+            1698.5
+          ],
+          "role": "rail",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "stage_value",
+          "bbox": [
+            775.0,
+            1662.5,
+            984.0,
+            1696.5
+          ],
+          "role": "rail",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "data_basis",
+          "bbox": [
+            420.0,
+            1804.5,
+            660.0,
+            1820.5
+          ],
+          "role": "footer",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "data_source",
+          "bbox": [
+            410.0,
+            1837.5,
+            669.0,
+            1852.5
+          ],
+          "role": "footer",
+          "overlaps_allowed": false
+        }
+      ],
+      "jpg_sha256": "98e00e063eec6d9ecc83dac75764b48422ac66ccd8ac845d81a0f0142ae60563"
+    },
+    {
+      "file": "03-peak-3982.25.jpg",
+      "story_second": 19.1,
+      "date": "2015-06-03",
+      "frozen_close": 3982.25,
+      "visible_last_ohlc_date": "2015-06-03",
+      "price_domain": [
+        1230,
+        4590
+      ],
+      "frozen_rows_visible": 188,
+      "current_point_logical_xy": [
+        609.08,
+        357.80327380952383
+      ],
+      "active_stage_rails": 1,
+      "text_boxes": [
+        {
+          "id": "timeline_year_2013",
+          "bbox": [
+            77.69921534437664,
+            1420.007600855988,
+            132.69921534437663,
+            1439.007600855988
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "timeline_year_2014",
+          "bbox": [
+            449.5409764603313,
+            1310.5008956170245,
+            504.5409764603313,
+            1329.5008956170245
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "timeline_year_2015",
+          "bbox": [
+            809.382737576286,
+            1257.3518506776575,
+            887.382737576286,
+            1284.3518506776575
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "index_en",
+          "bbox": [
+            99.0,
+            92.5,
+            214.0,
+            104.5
+          ],
+          "role": "heading",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "index_name",
+          "bbox": [
+            99.0,
+            141.5,
+            283.0,
+            187.5
+          ],
+          "role": "heading",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "index_code",
+          "bbox": [
+            292.5,
+            159.0,
+            382.5,
+            179.0
+          ],
+          "role": "heading",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "key_date",
+          "bbox": [
+            815.5,
+            262.5,
+            985.5,
+            287.5
+          ],
+          "role": "landmark",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "key_close",
+          "bbox": [
+            491.5,
+            351.0,
+            985.5,
+            465.0
+          ],
+          "role": "landmark",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "key_label",
+          "bbox": [
+            676.5,
+            467.5,
+            985.5,
+            503.5
+          ],
+          "role": "landmark",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "timeline_2012_anchor",
+          "bbox": [
+            44.155623365300784,
+            1445.7383530157717,
+            106.15562336530078,
+            1467.7383530157717
+          ],
+          "role": "timeline",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "stage_label",
+          "bbox": [
+            99.0,
+            1676.5,
+            275.0,
+            1698.5
+          ],
+          "role": "rail",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "stage_value",
+          "bbox": [
+            775.0,
+            1662.5,
+            984.0,
+            1696.5
+          ],
+          "role": "rail",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "data_basis",
+          "bbox": [
+            420.0,
+            1804.5,
+            660.0,
+            1820.5
+          ],
+          "role": "footer",
+          "overlaps_allowed": false
+        },
+        {
+          "id": "data_source",
+          "bbox": [
+            410.0,
+            1837.5,
+            669.0,
+            1852.5
+          ],
+          "role": "footer",
+          "overlaps_allowed": false
+        }
+      ],
+      "jpg_sha256": "4c56cf8d1bb19da8a1876d11291fd7482c7a9e111e42dae8d599513d1fac2b37"
+    }
+  ],
+  "text_in_bounds_and_no_box_overlap": true,
+  "comparison_jpg_sha256": "7ba351b91434afd23a469db5edc9ab55c0ad90cff3a09d00b4cd3dcd852f7d07",
+  "readme_timeline_checks": {
+    "every_second_has_a_frozen_trading_day": true,
+    "chronological_20_second_flow_and_still_dates_match": true,
+    "accounts_and_company_size_enter_from_their_verified_reporting_context": true
+  }
+}
