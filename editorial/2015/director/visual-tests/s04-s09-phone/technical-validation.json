@@ -1,0 +1,232 @@
+{
+  "passed": true,
+  "checks": {
+    "pinned_inputs_and_source_ledger": true,
+    "lineage": true,
+    "media": true,
+    "clock": true,
+    "layout": true,
+    "overlay": true
+  },
+  "sections": {
+    "pinned_inputs_and_source_ledger": {
+      "passed": true,
+      "checks": {
+        "actual_approved_frozen_source_hashes_match": true,
+        "20_approved_storyboard_trading_anchors": true,
+        "account_source_and_observation_period": true,
+        "letv_source_dates_and_authorized_basis": true
+      },
+      "approval_commit": "9bfc3039efe5a78b9a48bbe3c27844935238060f",
+      "storyboard_commit": "a65de025fbc9c9eda06cc1a80f0f463e8ed39507",
+      "frozen_sources": {
+        "data/cyb_daily.csv": true,
+        "assets/earth_body.png": true,
+        "assets/earth_cinematic.png": true
+      },
+      "account_report_after_close": "2015-04-28 20:37",
+      "letv_recomputed_yi_yuan": "1526.57"
+    },
+    "lineage": {
+      "passed": true,
+      "checks": {
+        "actual_phone_file_and_all_frame_records_match_export_manifest": true,
+        "approved_stills_same_sources_and_landgeometry": true,
+        "frame_record_declares_exact_delivery_timebase": true
+      },
+      "media_sha256": "1c7462b027dfe63d3831dfb4fe9d23060efcbcff9e9fe16ed95f62fc43f147fd",
+      "render_trace_sha256": "a4e2ac43004f8ef24ae1ae373ca5665de34fb85d6b7ab7bdfff6b9a17bb90ee3"
+    },
+    "media": {
+      "passed": true,
+      "checks": {
+        "one_silent_h264_video_track": true,
+        "exact_390_694_420p": true,
+        "600_exact_consecutive_30fps_pts": true,
+        "exact_20_seconds": true,
+        "ffmpeg_full_decode_600_frames_no_error": true,
+        "no_black_intervals_at_98_percent_threshold": true,
+        "file_unchanged_during_checks": true
+      },
+      "sha256": "1c7462b027dfe63d3831dfb4fe9d23060efcbcff9e9fe16ed95f62fc43f147fd",
+      "decoded_frames": 600,
+      "black_intervals": [],
+      "avc_profile": "High"
+    },
+    "clock": {
+      "passed": true,
+      "checks": {
+        "one_record_for_each_of_600_frames": true,
+        "required_20_anchor_dates_at_second_boundaries": true,
+        "all_600_market_states_use_real_ohlc_and_no_future_candles": true,
+        "trading_dates_never_reverse": true,
+        "all_605_sessions_covered_by_the_scroll_windows": true,
+        "endpoint_closes_and_stage_return_agree": true,
+        "final_60_frames_hold_exact_peak_date_price_projection_and_dot": true
+      },
+      "failures": [],
+      "frozen_sessions_covered": 605,
+      "largest_hud_step_in_sessions": 7,
+      "measured_peak_hold_frames": 60,
+      "anchor_days": [
+        "2012-12-03",
+        "2012-12-03",
+        "2012-12-21",
+        "2013-03-29",
+        "2013-07-24",
+        "2013-07-31",
+        "2013-10-18",
+        "2014-01-08",
+        "2014-01-24",
+        "2014-04-30",
+        "2014-12-31",
+        "2015-04-13",
+        "2015-04-24",
+        "2015-04-29",
+        "2015-05-05",
+        "2015-05-18",
+        "2015-05-22",
+        "2015-05-29",
+        "2015-06-03",
+        "2015-06-03"
+      ]
+    },
+    "layout": {
+      "passed": true,
+      "checks": {
+        "every_tracked_text_box_is_on_canvas_and_disjoint": true
+      },
+      "issue_count": 0,
+      "first_issues": []
+    },
+    "overlay": {
+      "passed": true,
+      "checks": {
+        "one_planned_primary_also_matches_each_precise_frame_window": true,
+        "ipo_primary_and_huayi_past_event_overlap_only_24_frames": true,
+        "accounts_only_after_april28_reporting_and_correct_statistical_scope": true,
+        "dense_reference_day_keeps_two_past_events_and_real_hud_separate": true,
+        "letv_as_of_may13_close_with_two_named_sources_and_after_coverage": true,
+        "clear_event_layers_in_28_prepeak_frames_and_60_full_alpha_final": true,
+        "both_hero_numbers_are_tied_to_actual_visible_close_point": true,
+        "all_regular_hud_values_match_the_real_rows": true
+      },
+      "primary_events": {
+        "low": {
+          "first_last_frames": [
+            0,
+            45
+          ],
+          "full_alpha_frames": 39,
+          "copy": [
+            "2012.12.03",
+            "593.66",
+            "样本内最低收盘"
+          ]
+        },
+        "huayi": {
+          "first_last_frames": [
+            120,
+            173
+          ],
+          "full_alpha_frames": 47,
+          "copy": [
+            "2013.07",
+            "华谊兄弟并购",
+            "手游公司银汉科技"
+          ]
+        },
+        "ipo": {
+          "first_last_frames": [
+            210,
+            269
+          ],
+          "full_alpha_frames": 53,
+          "copy": [
+            "2014.01",
+            "IPO 重启"
+          ]
+        },
+        "accounts_policy": {
+          "first_last_frames": [
+            330,
+            386
+          ],
+          "full_alpha_frames": 50,
+          "copy": [
+            "2015.04.13 起",
+            "一人多户放开"
+          ]
+        },
+        "accounts": {
+          "first_last_frames": [
+            390,
+            449
+          ],
+          "full_alpha_frames": 53,
+          "copy": [
+            "2015.04.20—24  ·  统计周",
+            "新增 A 股账户",
+            "413.03 万户"
+          ]
+        },
+        "letv": {
+          "first_last_frames": [
+            450,
+            511
+          ],
+          "full_alpha_frames": 55,
+          "copy": [
+            "回看 2015.05.13 收盘",
+            "乐视网总市值",
+            "超过 1,500 亿元"
+          ]
+        },
+        "peak": {
+          "first_last_frames": [
+            540,
+            599
+          ],
+          "full_alpha_frames": 60,
+          "copy": [
+            "2015.06.03",
+            "3,982.25",
+            "2015 阶段最高收盘"
+          ]
+        }
+      },
+      "huayi_and_ipo_overlap_frames": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233
+      ],
+      "clear_prepeak_frames_end_exclusive": [
+        512,
+        540
+      ]
+    }
+  },
+  "scope": "independent actual decode and frame-record cross-checks; playback review separate",
+  "frame_record_sha256": "a4e2ac43004f8ef24ae1ae373ca5665de34fb85d6b7ab7bdfff6b9a17bb90ee3"
+}

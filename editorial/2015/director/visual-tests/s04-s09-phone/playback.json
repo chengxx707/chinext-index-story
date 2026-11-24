@@ -1,0 +1,394 @@
+{
+  "mode": "Chromium complete 390×694 1× playback with displayed frames captured during the same pass",
+  "passed": true,
+  "media_sha256": "1c7462b027dfe63d3831dfb4fe9d23060efcbcff9e9fe16ed95f62fc43f147fd",
+  "result": {
+    "currentTime": 20,
+    "duration": 20,
+    "width": 390,
+    "height": 694,
+    "rate": 1,
+    "muted": true,
+    "ended": true,
+    "error": null,
+    "readyState": 4,
+    "frames": 600,
+    "dropped": 0,
+    "events": [
+      {
+        "event": "loadedmetadata",
+        "at": 0,
+        "clock": 54.70000000298023,
+        "code": null
+      },
+      {
+        "event": "play",
+        "at": 0.0004,
+        "clock": 97.29999999701977,
+        "code": null
+      },
+      {
+        "event": "playing",
+        "at": 0.0005,
+        "clock": 97.29999999701977,
+        "code": null
+      },
+      {
+        "event": "pause",
+        "at": 20,
+        "clock": 20097.60000000149,
+        "code": null
+      },
+      {
+        "event": "ended",
+        "at": 20,
+        "clock": 20097.79999999702,
+        "code": null
+      }
+    ],
+    "played": [
+      [
+        0,
+        20
+      ]
+    ]
+  },
+  "presented_frames": [
+    {
+      "targets": [
+        25
+      ],
+      "current": 25,
+      "mediaTime": 0.833333
+    },
+    {
+      "targets": [
+        42
+      ],
+      "current": 42,
+      "mediaTime": 1.4
+    },
+    {
+      "targets": [
+        56
+      ],
+      "current": 56,
+      "mediaTime": 1.866667
+    },
+    {
+      "targets": [
+        88
+      ],
+      "current": 88,
+      "mediaTime": 2.933333
+    },
+    {
+      "targets": [
+        122
+      ],
+      "current": 122,
+      "mediaTime": 4.066667
+    },
+    {
+      "targets": [
+        150
+      ],
+      "current": 150,
+      "mediaTime": 5
+    },
+    {
+      "targets": [
+        174
+      ],
+      "current": 174,
+      "mediaTime": 5.8
+    },
+    {
+      "targets": [
+        185
+      ],
+      "current": 185,
+      "mediaTime": 6.166667
+    },
+    {
+      "targets": [
+        205
+      ],
+      "current": 205,
+      "mediaTime": 6.833333
+    },
+    {
+      "targets": [
+        209
+      ],
+      "current": 209,
+      "mediaTime": 6.966667
+    },
+    {
+      "targets": [
+        210
+      ],
+      "current": 210,
+      "mediaTime": 7
+    },
+    {
+      "targets": [
+        214
+      ],
+      "current": 214,
+      "mediaTime": 7.133333
+    },
+    {
+      "targets": [
+        216
+      ],
+      "current": 216,
+      "mediaTime": 7.2
+    },
+    {
+      "targets": [
+        221
+      ],
+      "current": 221,
+      "mediaTime": 7.366667
+    },
+    {
+      "targets": [
+        230
+      ],
+      "current": 230,
+      "mediaTime": 7.666667
+    },
+    {
+      "targets": [
+        233
+      ],
+      "current": 233,
+      "mediaTime": 7.766667
+    },
+    {
+      "targets": [
+        234
+      ],
+      "current": 234,
+      "mediaTime": 7.8
+    },
+    {
+      "targets": [
+        248
+      ],
+      "current": 248,
+      "mediaTime": 8.266667
+    },
+    {
+      "targets": [
+        269
+      ],
+      "current": 269,
+      "mediaTime": 8.966667
+    },
+    {
+      "targets": [
+        310
+      ],
+      "current": 310,
+      "mediaTime": 10.333333
+    },
+    {
+      "targets": [
+        330
+      ],
+      "current": 330,
+      "mediaTime": 11
+    },
+    {
+      "targets": [
+        335
+      ],
+      "current": 335,
+      "mediaTime": 11.166667
+    },
+    {
+      "targets": [
+        349
+      ],
+      "current": 349,
+      "mediaTime": 11.633333
+    },
+    {
+      "targets": [
+        370
+      ],
+      "current": 370,
+      "mediaTime": 12.333333
+    },
+    {
+      "targets": [
+        385
+      ],
+      "current": 385,
+      "mediaTime": 12.833333
+    },
+    {
+      "targets": [
+        398
+      ],
+      "current": 398,
+      "mediaTime": 13.266667
+    },
+    {
+      "targets": [
+        405
+      ],
+      "current": 405,
+      "mediaTime": 13.5
+    },
+    {
+      "targets": [
+        420
+      ],
+      "current": 420,
+      "mediaTime": 14
+    },
+    {
+      "targets": [
+        437
+      ],
+      "current": 437,
+      "mediaTime": 14.566667
+    },
+    {
+      "targets": [
+        445
+      ],
+      "current": 445,
+      "mediaTime": 14.833333
+    },
+    {
+      "targets": [
+        449
+      ],
+      "current": 449,
+      "mediaTime": 14.966667
+    },
+    {
+      "targets": [
+        450
+      ],
+      "current": 450,
+      "mediaTime": 15
+    },
+    {
+      "targets": [
+        454
+      ],
+      "current": 454,
+      "mediaTime": 15.133333
+    },
+    {
+      "targets": [
+        460
+      ],
+      "current": 460,
+      "mediaTime": 15.333333
+    },
+    {
+      "targets": [
+        472
+      ],
+      "current": 472,
+      "mediaTime": 15.733333
+    },
+    {
+      "targets": [
+        492
+      ],
+      "current": 492,
+      "mediaTime": 16.4
+    },
+    {
+      "targets": [
+        505
+      ],
+      "current": 505,
+      "mediaTime": 16.833333
+    },
+    {
+      "targets": [
+        511
+      ],
+      "current": 511,
+      "mediaTime": 17.033333
+    },
+    {
+      "targets": [
+        512
+      ],
+      "current": 512,
+      "mediaTime": 17.066667
+    },
+    {
+      "targets": [
+        519
+      ],
+      "current": 519,
+      "mediaTime": 17.3
+    },
+    {
+      "targets": [
+        530
+      ],
+      "current": 530,
+      "mediaTime": 17.666667
+    },
+    {
+      "targets": [
+        539
+      ],
+      "current": 539,
+      "mediaTime": 17.966667
+    },
+    {
+      "targets": [
+        540
+      ],
+      "current": 540,
+      "mediaTime": 18
+    },
+    {
+      "targets": [
+        548
+      ],
+      "current": 548,
+      "mediaTime": 18.266667
+    },
+    {
+      "targets": [
+        560
+      ],
+      "current": 560,
+      "mediaTime": 18.666667
+    },
+    {
+      "targets": [
+        573
+      ],
+      "current": 573,
+      "mediaTime": 19.1
+    },
+    {
+      "targets": [
+        589
+      ],
+      "current": 589,
+      "mediaTime": 19.633333
+    },
+    {
+      "targets": [
+        599
+      ],
+      "current": 599,
+      "mediaTime": 19.966667
+    }
+  ]
+}
